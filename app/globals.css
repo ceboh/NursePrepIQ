@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+:root {
+  --navy: #0f2747;
+  --teal: #087e8b;
+  --light-teal: #e9f7f7;
+  --background: #f8fafc;
+  --ink: #172033;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--background); color: var(--ink); font-family: Arial, Helvetica, sans-serif; }
+a { color: inherit; text-decoration: none; }
+button, a { -webkit-tap-highlight-color: transparent; }
