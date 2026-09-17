@@ -29,8 +29,11 @@ function AuthForm() {
     try {
       const supabase = createClient();
       if (mode === 'signup') {
+        const emailRedirectTo = `${window.location.origin}/auth?track=${track}&confirmed=1`;
         const { data, error } = await withTimeout(supabase.auth.signUp({
-          email: email.trim(), password, options: { data: { track } },
+          email: email.trim(),
+          password,
+          options: { data: { track }, emailRedirectTo },
         }));
         if (error) throw error;
         if (!data.user) throw new Error('Supabase did not create a user. Please verify the project authentication settings.');
