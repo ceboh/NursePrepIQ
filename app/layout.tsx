@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import "./globals.css";
+
+const ADSENSE_PUBLISHER_ID = "ca-pub-2402279863800005";
 
 export const metadata: Metadata = {
   title: "NursePrepIQ | Nursing Licensure Prep Made Simple",
@@ -10,6 +13,13 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="en">
       <body>{children}</body>
+      <Script
+        id="google-adsense"
+        async
+        strategy="afterInteractive"
+        src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_PUBLISHER_ID}`}
+        crossOrigin="anonymous"
+      />
     </html>
   );
 }
