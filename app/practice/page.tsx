@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from 'react';
 import Link from 'next/link';
-import { useRouter, useSearchParams } from 'next/navigation';
+import { useRouter } from 'next/navigation';
 import { createClient } from '@/lib/supabase/client';
 
 type Attempt = { subject: string | null; is_correct: boolean | null };
@@ -21,9 +21,7 @@ const categories = [
 
 export default function PracticeHub() {
   const router = useRouter();
-  const params = useSearchParams();
-  const requestedTrack = params.get('track') === 'pn' ? 'pn' : 'rn';
-  const [track, setTrack] = useState<'rn' | 'pn'>(requestedTrack);
+  const [track, setTrack] = useState<'rn' | 'pn'>('rn');
   const [attempts, setAttempts] = useState<Attempt[]>([]);
   const [loading, setLoading] = useState(true);
 
@@ -32,7 +30,7 @@ export default function PracticeHub() {
     (async () => {
       const supabase = createClient();
       const { data: auth } = await supabase.auth.getUser();
-      if (!auth.user) { router.replace(`/auth?track=${requestedTrack}`); return; }
+      if (!auth.user) { router.replace('/auth'); return; }
       const [{ data: profile }, { data: history }] = await Promise.all([
         supabase.from('profiles').select('exam_track').eq('id', auth.user.id).maybeSingle(),
         supabase.from('question_attempts').select('subject,is_correct').eq('user_id', auth.user.id),
@@ -43,7 +41,7 @@ export default function PracticeHub() {
       setLoading(false);
     })();
     return () => { active = false; };
-  }, [router, requestedTrack]);
+  }, [router]);
 
   const stats = useMemo(() => {
     const total = attempts.length;
