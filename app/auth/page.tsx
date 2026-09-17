@@ -34,12 +34,34 @@ function AuthForm() {
         }));
         if (error) throw error;
         if (!data.user) throw new Error('Supabase did not create a user. Please verify the project authentication settings.');
+        // With email confirmation enabled, Supabase may deliberately return an
+        // obfuscated user with no identities for an address that already exists.
+        if (Array.isArray(data.user.identities) && data.user.identities.length === 0) {
+          setIsError(true);
+          setMessage('An account already exists for this email. Please sign in instead.');
+          setMode('signin');
+          return;
+        }
         setMessage(data.session ? 'Account created and signed in.' : 'Account created. Check your email for the confirmation link, then return here and sign in.');
         setMode('signin');
       } else {
-        const { error } = await withTimeout(supabase.auth.signInWithPassword({ email: email.trim(), password }));
+        const { data, error } = await withTimeout(supabase.auth.signInWithPassword({ email: email.trim(), password }));
         if (error) throw error;
-        router.push(`/onboarding?track=${track}&step=goals`);
+        if (!data.user) throw new Error('Sign in succeeded but no user was returned. Please try again.');
+
+        const { data: profile, error: profileError } = await supabase
+          .from('profiles')
+          .select('exam_track,onboarding_complete')
+          .eq('id', data.user.id)
+          .maybeSingle();
+        if (profileError) throw profileError;
+
+        const savedTrack = profile?.exam_track === 'pn' ? 'pn' : profile?.exam_track === 'rn' ? 'rn' : track;
+        if (profile?.onboarding_complete) {
+          router.replace(`/dashboard?track=${savedTrack}`);
+        } else {
+          router.replace(`/onboarding?track=${savedTrack}`);
+        }
       }
     } catch (err) {
       const text = err instanceof Error ? err.message : 'Authentication failed. Please try again.';
