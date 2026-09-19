@@ -1,0 +1,59 @@
+name: Question Bank Quality Gate
+
+on:
+  pull_request:
+    paths:
+      - 'supabase/migrations/**'
+      - 'content/question-batches/**'
+      - 'scripts/**question**'
+  push:
+    branches: [main]
+    paths:
+      - 'supabase/migrations/**'
+      - 'content/question-batches/**'
+      - 'scripts/**question**'
+
+permissions:
+  contents: read
+
+jobs:
+  validate-question-content:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate changed question migrations
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch --no-tags --depth=2 origin "${{ github.event.repository.default_branch }}" || true
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            BASE="${{ github.event.pull_request.base.sha }}"
+          else
+            BASE="${{ github.event.before }}"
+          fi
+          if [ -z "$BASE" ] || [ "$BASE" = "0000000000000000000000000000000000000000" ]; then
+            BASE="HEAD~1"
+          fi
+          mapfile -t files < <(git diff --name-only "$BASE" HEAD -- 'supabase/migrations/*.sql' | grep -E '/[0-9]+_.*(question|cardiovascular|respiratory|neurologic|renal|adult|pediatric|maternal|mental|pharm).*\.sql$' || true)
+          if [ ${#files[@]} -eq 0 ]; then
+            echo 'No changed clinical question-bank migrations.'
+            exit 0
+          fi
+          for file in "${files[@]}"; do
+            echo "Validating $file"
+            node scripts/validate-question-bank.mjs "$file"
+          done
+      - name: Enforce no direct production publication in generated batches
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -d content/question-batches ]; then
+            if grep -RniE "production_validated|lifecycle_status[^\n]*(active)|validation_status[^\n]*production" content/question-batches; then
+              echo 'Generated batch content must remain pilot/unvalidated until validation gates pass.' >&2
+              exit 1
+            fi
+          fi
+          echo 'Pilot-only batch safety check passed.'
