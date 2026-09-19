@@ -11,16 +11,13 @@ export const metadata: Metadata = {
   },
 };
 
+// Do not load the AdSense runtime globally. Global loading lets Auto ads appear
+// on auth, onboarding, dashboard, exam, loading/error, and other low-content
+// interaction screens. AdSense belongs only in explicitly approved,
+// content-rich route layouts/components.
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <head>
-        <script
-          async
-          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_PUBLISHER_ID}`}
-          crossOrigin="anonymous"
-        />
-      </head>
       <body>{children}</body>
     </html>
   );
