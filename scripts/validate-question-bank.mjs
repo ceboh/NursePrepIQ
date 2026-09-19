@@ -23,7 +23,13 @@ if(!/PN|LPN\/VN|role='pn'|array\['pn'\]/i.test(sql)) failures.push('No PN-specif
 if(!/rationale/i.test(sql)) failures.push('Rationales not detected.');
 if(!/pilot/i.test(sql)) failures.push('New clinical items must enter PILOT/validation state.');
 if(/NCSBN item|actual NCLEX question|recalled NCLEX/i.test(sql)) failures.push('Potential prohibited/confidential-item claim detected.');
-if(stems && Math.max(correctA,correctB,correctC,correctD) > Math.ceil(stems*.45)) warnings.push('Correct-answer position may be over-concentrated.');
+const answerCounts=[correctA,correctB,correctC,correctD];
+const maxAnswerCount=Math.max(...answerCounts);
+const minAnswerCount=Math.min(...answerCounts);
+// Answer-position balance is a hard gate for meaningful SBA batches. This
+// prevents students from learning a letter pattern instead of clinical logic.
+if(stems>=8 && maxAnswerCount > Math.ceil(stems*.40)) failures.push('Correct-answer position is over-concentrated (>40% in one position). Rebalance A/B/C/D before import.');
+else if(stems>=4 && maxAnswerCount-minAnswerCount > Math.ceil(stems*.35)) warnings.push('Correct-answer positions are uneven; review A/B/C/D distribution before scaling this batch.');
 const generic=count(/Does not address the priority finding or safest response\./g);
 if(generic>8) warnings.push('Repeated generic distractor rationale detected ('+generic+'). Replace with option-specific rationales.');
 const longLines=sql.split('\n').filter(x=>x.length>10000).length;if(longLines) warnings.push('Very long SQL lines detected; consider maintainability.');
