@@ -49,8 +49,8 @@ begin
       'Distractors represent delay, unsafe action, benign interpretation, or a lower-priority response that does not address the acute cue cluster.',
       'Prioritize instability and time-sensitive threats using clustered cues rather than a single isolated finding.',
       'Original NursePrepIQ pilot item. Not an NCSBN item. Requires clinical, NCLEX-alignment, editorial, and pilot validation before production.',
-      'RN/PN role calibrated to assessment/synthesis versus focused monitoring, implementation, and escalation.',
       'pilot',
+      'RN/PN role calibrated to assessment/synthesis versus focused monitoring, implementation, and escalation.',
       case when r.track='rn' then 'RN item requires comprehensive cue synthesis, prioritization, intervention, or evaluation.' else 'PN item emphasizes focused recognition, safe implementation, and timely escalation within the established plan.' end
     ) on conflict(question_id,version) do nothing;
 
