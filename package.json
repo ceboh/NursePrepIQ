@@ -10,7 +10,8 @@
     "questions:plan": "node scripts/plan-question-production.mjs",
     "questions:audit": "node scripts/audit-question-batch.mjs",
     "questions:build": "node scripts/build-question-batch.mjs",
-    "questions:validate": "node scripts/validate-question-bank.mjs"
+    "questions:validate": "node scripts/validate-question-bank.mjs",
+    "questions:status": "node scripts/question-inventory-status.mjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.7.0",
@@ -22,7 +23,7 @@
   "devDependencies": {
     "@types/node": "^22.0.0",
     "@types/react": "^19.0.0",
-    "@types/react-dom": "^19.0.0",
+    "@types/react-dom": "^19.2.0",
     "eslint": "^9.0.0",
     "eslint-config-next": "^16.0.0",
     "tailwindcss": "^4.0.0",
