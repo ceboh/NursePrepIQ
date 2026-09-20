@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
+    "questions:plan": "node scripts/plan-question-production.mjs",
     "questions:audit": "node scripts/audit-question-batch.mjs",
     "questions:build": "node scripts/build-question-batch.mjs",
     "questions:validate": "node scripts/validate-question-bank.mjs"
