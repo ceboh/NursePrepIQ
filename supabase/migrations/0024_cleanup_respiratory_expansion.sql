@@ -10,7 +10,8 @@ declare
   rec record;
   correct_text text;
   correct_rationale text;
-  wrongs record[];
+  wrong_texts text[];
+  wrong_rats text[];
   desired_pos int;
   ordered_text text[];
   ordered_rat text[];
@@ -29,8 +30,9 @@ begin
     where qo.question_version_id=rec.vid and qo.is_correct
     limit 1;
 
-    select array_agg(x order by x.display_order)
-      into wrongs
+    select array_agg(x.option_text order by x.display_order),
+           array_agg(x.rationale order by x.display_order)
+      into wrong_texts, wrong_rats
     from (
       select qo.option_text,
         case
@@ -67,8 +69,8 @@ begin
         ordered_text := array_append(ordered_text,correct_text);
         ordered_rat := array_append(ordered_rat,correct_rationale);
       else
-        ordered_text := array_append(ordered_text,wrongs[case when i<desired_pos then i else i-1 end].option_text);
-        ordered_rat := array_append(ordered_rat,wrongs[case when i<desired_pos then i else i-1 end].rationale);
+        ordered_text := array_append(ordered_text,wrong_texts[case when i<desired_pos then i else i-1 end]);
+        ordered_rat := array_append(ordered_rat,wrong_rats[case when i<desired_pos then i else i-1 end]);
       end if;
     end loop;
 
