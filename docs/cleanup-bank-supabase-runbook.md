@@ -20,6 +20,7 @@ The repository currently contains duplicate numeric migration prefixes (`0020` a
 10. `0026_cleanup_heart_failure_legacy.sql`
 11. `0027_stage_cleaned_bank_for_validation.sql`
 12. `0028_validation_readiness_report.sql`
+13. `0029_reviewer_queue_and_safe_promotion.sql`
 
 Run each file separately and stop if Supabase reports an error. Do not skip forward after an error.
 
@@ -29,7 +30,8 @@ Run each file separately and stop if Supabase reports an error. Do not skip forw
 - rebalance answer positions;
 - keep cleaned, non-retired questions in `pilot` when genuine production validation is incomplete;
 - record a schema pass only when the database can prove the structural conditions in `0027`;
-- expose readiness/count reporting in `0028`.
+- expose readiness/count reporting in `0028`;
+- expose the reviewer queue and guarded promotion helper in `0029` without creating validation evidence.
 
 It must **not** manufacture clinical, NCLEX-alignment, editorial, or pilot/human validation events. A question must not become production-active unless all required gates have genuine pass evidence and the guarded promotion function accepts it.
 
@@ -40,6 +42,8 @@ Run:
 ```sql
 select * from public.question_pipeline_counts;
 select * from public.question_validation_readiness_counts;
+select * from public.question_reviewer_queue;
+select * from public.question_publication_safety_audit;
 ```
 
 Keep these meanings distinct:
