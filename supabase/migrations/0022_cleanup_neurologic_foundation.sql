@@ -58,7 +58,7 @@ with neuro as (
  from rotated
 )
 update public.question_options qo set
- option_key=chr(96+f.new_pos),display_order=f.new_pos
+ option_key=chr((96+f.new_pos)::integer),display_order=f.new_pos
 from fixed f
 where qo.question_version_id=f.question_version_id and qo.option_text=f.option_text;
 
