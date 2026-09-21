@@ -35,7 +35,8 @@ where qo.question_version_id=qv.id and qv.subject='Adult Health: Neurologic';
 -- Correct the answer-position concentration inherited from 0008 (all correct answers were B).
 -- Use a temporary table because a CTE only exists for one SQL statement. Stage constrained
 -- option keys/orders first, then assign deterministic A/B/C/D positions without transient collisions.
-create temporary table neuro_option_rebalance on commit drop as
+drop table if exists public.npiq_0022_neuro_option_rebalance;
+create table public.npiq_0022_neuro_option_rebalance as
 with neuro as (
  select qv.id,row_number() over(order by qv.topic,qv.exam_tracks::text,qv.id) rn
  from public.question_versions qv where qv.subject='Adult Health: Neurologic'
@@ -68,9 +69,11 @@ where qo.question_version_id=qv.id
 update public.question_options qo
 set option_key=chr(96+r.new_pos),
     display_order=r.new_pos
-from neuro_option_rebalance r
+from public.npiq_0022_neuro_option_rebalance r
 where qo.question_version_id=r.question_version_id
   and qo.option_text=r.option_text;
+
+drop table if exists public.npiq_0022_neuro_option_rebalance;
 
 -- Record only gates this automated cleanup can honestly establish.
 insert into public.question_validation_events(question_id,question_version,gate,outcome,validator,notes,evidence)
