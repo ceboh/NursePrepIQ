@@ -33,7 +33,9 @@ from public.question_versions qv
 where qo.question_version_id=qv.id and qv.subject='Adult Health: Neurologic';
 
 -- Correct the answer-position concentration inherited from 0008 (all correct answers were B).
--- Deterministic rotation preserves option text/rationales and yields A/B/C/D distribution across the 24-item bank.
+-- Use a temporary table because a CTE only exists for one SQL statement. Stage constrained
+-- option keys/orders first, then assign deterministic A/B/C/D positions without transient collisions.
+create temporary table neuro_option_rebalance on commit drop as
 with neuro as (
  select qv.id,row_number() over(order by qv.topic,qv.exam_tracks::text,qv.id) rn
  from public.question_versions qv where qv.subject='Adult Health: Neurologic'
@@ -43,22 +45,19 @@ with neuro as (
  select qo.question_version_id,qo.option_key,qo.option_text,qo.is_correct,qo.rationale,qo.display_order,
         row_number() over(partition by qo.question_version_id order by qo.display_order) old_pos
  from public.question_options qo join mapped m on m.id=qo.question_version_id
-), rotated as (
- select o.question_version_id,o.option_text,o.is_correct,o.rationale,
-        case when o.is_correct then m.target_pos
-             else row_number() over(partition by o.question_version_id order by o.old_pos) + case when row_number() over(partition by o.question_version_id order by o.old_pos)>=m.target_pos then 1 else 0 end
-        end proposed_pos
+), wrong_ranked as (
+ select o.*,m.target_pos,
+        case when not o.is_correct then row_number() over(
+          partition by o.question_version_id,o.is_correct order by o.old_pos
+        ) end wrong_rank
  from old o join mapped m on m.id=o.question_version_id
-), fixed as (
- select question_version_id,option_text,is_correct,rationale,
-        case when is_correct then proposed_pos
-             else row_number() over(partition by question_version_id order by proposed_pos,option_text)
-                  + case when row_number() over(partition by question_version_id order by proposed_pos,option_text)>=max(proposed_pos) filter(where is_correct) over(partition by question_version_id) then 1 else 0 end
-        end new_pos
- from rotated
 )
--- Stage keys/orders outside the constrained A-D range first so rows can swap safely
--- without transient unique-key collisions during the UPDATE.
+select question_version_id,option_text,is_correct,rationale,
+       case when is_correct then target_pos
+            else wrong_rank + case when wrong_rank>=target_pos then 1 else 0 end
+       end::integer new_pos
+from wrong_ranked;
+
 update public.question_options qo
 set option_key='tmp_'||qo.option_key,
     display_order=100+qo.display_order
@@ -66,10 +65,12 @@ from public.question_versions qv
 where qo.question_version_id=qv.id
   and qv.subject='Adult Health: Neurologic';
 
-update public.question_options qo set
- option_key=chr((96+f.new_pos)::integer),display_order=f.new_pos
-from fixed f
-where qo.question_version_id=f.question_version_id and qo.option_text=f.option_text;
+update public.question_options qo
+set option_key=chr(96+r.new_pos),
+    display_order=r.new_pos
+from neuro_option_rebalance r
+where qo.question_version_id=r.question_version_id
+  and qo.option_text=r.option_text;
 
 -- Record only gates this automated cleanup can honestly establish.
 insert into public.question_validation_events(question_id,question_version,gate,outcome,validator,notes,evidence)
