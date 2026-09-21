@@ -57,6 +57,15 @@ with neuro as (
         end new_pos
  from rotated
 )
+-- Stage keys/orders outside the constrained A-D range first so rows can swap safely
+-- without transient unique-key collisions during the UPDATE.
+update public.question_options qo
+set option_key='tmp_'||qo.option_key,
+    display_order=100+qo.display_order
+from public.question_versions qv
+where qo.question_version_id=qv.id
+  and qv.subject='Adult Health: Neurologic';
+
 update public.question_options qo set
  option_key=chr((96+f.new_pos)::integer),display_order=f.new_pos
 from fixed f
