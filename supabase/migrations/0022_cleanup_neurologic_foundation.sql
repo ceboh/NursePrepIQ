@@ -33,47 +33,53 @@ from public.question_versions qv
 where qo.question_version_id=qv.id and qv.subject='Adult Health: Neurologic';
 
 -- Correct the answer-position concentration inherited from 0008 (all correct answers were B).
--- Use a temporary table because a CTE only exists for one SQL statement. Stage constrained
--- option keys/orders first, then assign deterministic A/B/C/D positions without transient collisions.
-drop table if exists public.npiq_0022_neuro_option_rebalance;
-create table public.npiq_0022_neuro_option_rebalance as
-with neuro as (
- select qv.id,row_number() over(order by qv.topic,qv.exam_tracks::text,qv.id) rn
- from public.question_versions qv where qv.subject='Adult Health: Neurologic'
-), mapped as (
- select n.id, ((n.rn-1)%4)+1 target_pos from neuro n
-), old as (
- select qo.question_version_id,qo.option_key,qo.option_text,qo.is_correct,qo.rationale,qo.display_order,
-        row_number() over(partition by qo.question_version_id order by qo.display_order) old_pos
- from public.question_options qo join mapped m on m.id=qo.question_version_id
-), wrong_ranked as (
- select o.*,m.target_pos,
-        case when not o.is_correct then row_number() over(
-          partition by o.question_version_id,o.is_correct order by o.old_pos
-        ) end wrong_rank
- from old o join mapped m on m.id=o.question_version_id
-)
-select question_version_id,option_text,is_correct,rationale,
-       case when is_correct then target_pos
-            else wrong_rank + case when wrong_rank>=target_pos then 1 else 0 end
-       end::integer new_pos
-from wrong_ranked;
+-- Perform the whole remap in one PL/pgSQL block so the mapping remains available while
+-- constrained keys/orders are staged and then restored.
+do $$
+declare
+  qrec record;
+  orec record;
+  target_pos integer;
+  wrong_pos integer;
+begin
+  for qrec in
+    select qv.id as question_version_id,
+           row_number() over(order by qv.topic,qv.exam_tracks::text,qv.id) as rn
+    from public.question_versions qv
+    where qv.subject='Adult Health: Neurologic'
+  loop
+    target_pos := ((qrec.rn-1)%4)+1;
 
-update public.question_options qo
-set option_key='tmp_'||qo.option_key,
-    display_order=100+qo.display_order
-from public.question_versions qv
-where qo.question_version_id=qv.id
-  and qv.subject='Adult Health: Neurologic';
+    -- Move this question's four options outside the constrained A-D / 1-4 space.
+    update public.question_options
+    set option_key='tmp_'||option_key,
+        display_order=100+display_order
+    where question_version_id=qrec.question_version_id;
 
-update public.question_options qo
-set option_key=chr(96+r.new_pos),
-    display_order=r.new_pos
-from public.npiq_0022_neuro_option_rebalance r
-where qo.question_version_id=r.question_version_id
-  and qo.option_text=r.option_text;
+    -- Put the correct option directly into its deterministic target position.
+    update public.question_options
+    set option_key=chr(96+target_pos),
+        display_order=target_pos
+    where question_version_id=qrec.question_version_id
+      and is_correct=true;
 
-drop table if exists public.npiq_0022_neuro_option_rebalance;
+    wrong_pos := 1;
+    for orec in
+      select id
+      from public.question_options
+      where question_version_id=qrec.question_version_id
+        and is_correct=false
+      order by display_order,id
+    loop
+      if wrong_pos=target_pos then wrong_pos := wrong_pos+1; end if;
+      update public.question_options
+      set option_key=chr(96+wrong_pos),
+          display_order=wrong_pos
+      where id=orec.id;
+      wrong_pos := wrong_pos+1;
+    end loop;
+  end loop;
+end $$;
 
 -- Record only gates this automated cleanup can honestly establish.
 insert into public.question_validation_events(question_id,question_version,gate,outcome,validator,notes,evidence)
