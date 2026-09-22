@@ -174,6 +174,9 @@ $$;
 comment on function public.question_ready_for_production(uuid,integer) is
 'Owner-authorized 2026-09-22 launch gate: schema, clinical, NCLEX alignment, and editorial passes are required before production. Pilot/psychometric evidence remains separately tracked post-launch and is not fabricated.';
 
+comment on function public.promote_question_to_production(uuid,integer) is
+'Admin/service promotion uses the owner-authorized 2026-09-22 reviewed launch gate. It requires schema, clinical, NCLEX alignment, and editorial passes; pilot/psychometric evidence is tracked separately post-launch.';
+
 -- Keep readiness reporting honest: pilot_pass remains visible, but it is no longer a prelaunch blocker.
 create or replace view public.question_validation_readiness as
 with gate_state as (
