@@ -1,0 +1,4 @@
+# Supabase CLI project configuration.
+# The hosted production project is selected at deploy time by GitHub Actions
+# using the SUPABASE_PROJECT_ID encrypted repository secret.
+project_id = "NursePrepIQ"
