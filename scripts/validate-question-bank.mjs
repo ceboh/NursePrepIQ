@@ -3,6 +3,7 @@
  * NursePrepIQ question-bank quality gate.
  * Validates SQL migrations before they are approved for Supabase.
  * This is a structural/editorial gate, not a substitute for clinical review.
+ * Validator changes intentionally recheck the latest question migration in CI.
  */
 import fs from 'node:fs';
 
@@ -22,15 +23,11 @@ if(!/RN|role='rn'|array\['rn'\]/i.test(sql)) failures.push('No RN-specific conte
 if(!/PN|LPN\/VN|role='pn'|array\['pn'\]/i.test(sql)) failures.push('No PN-specific content detected.');
 if(!/rationale/i.test(sql)) failures.push('Rationales not detected.');
 if(!/pilot/i.test(sql)) failures.push('New clinical items must enter PILOT/validation state.');
-// Permit explicit originality disclaimers such as "not an NCSBN item" while
-// still blocking claims that content is an NCSBN/actual/recalled NCLEX item.
 const claimText=sql.replace(/not\s+(?:an?\s+)?NCSBN\s+item/gi,'original-item-disclaimer');
 if(/NCSBN item|actual NCLEX question|recalled NCLEX/i.test(claimText)) failures.push('Potential prohibited/confidential-item claim detected.');
 const answerCounts=[correctA,correctB,correctC,correctD];
 const maxAnswerCount=Math.max(...answerCounts);
 const minAnswerCount=Math.min(...answerCounts);
-// Answer-position balance is a hard gate for meaningful SBA batches. This
-// prevents students from learning a letter pattern instead of clinical logic.
 if(stems>=8 && maxAnswerCount > Math.ceil(stems*.40)) failures.push('Correct-answer position is over-concentrated (>40% in one position). Rebalance A/B/C/D before import.');
 else if(stems>=4 && maxAnswerCount-minAnswerCount > Math.ceil(stems*.35)) warnings.push('Correct-answer positions are uneven; review A/B/C/D distribution before scaling this batch.');
 const generic=count(/Does not address the priority finding or safest response\./g);
