@@ -61,7 +61,7 @@ loop
     end if;
     qid:=md5('npq-'||slug)::uuid; qvid:=md5('npq-v-'||slug)::uuid;
     insert into public.questions(id,slug,lifecycle_status,current_version) values(qid,slug,'pilot',1)
-      on conflict(slug) do update set lifecycle_status='pilot',updated_at=now(),current_version=1;
+      on conflict on constraint questions_slug_key do update set lifecycle_status='pilot',updated_at=now(),current_version=1;
     insert into public.question_versions(id,question_id,version,stem,item_type,exam_tracks,subject,topic,client_need,clinical_judgment_step,difficulty,rationale_correct,rationale_distractors,memory_rule,source_note,validation_status,professional_role_focus,track_rationale)
     values(qvid,qid,1,stem,'single_best_answer',array[role],s.category,s.topic,s.client_need,cj,case when v=1 then 'medium' else 'hard' end,s.rationale,
       'Each distractor is clinically plausible in a nearby context but either delays response, misreads the cue cluster, exceeds safe delegation, or fails to address the immediate priority.',
