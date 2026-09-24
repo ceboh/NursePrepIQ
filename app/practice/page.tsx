@@ -5,7 +5,8 @@ import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { createClient } from '@/lib/supabase/client';
 
-type Attempt = { subject: string | null; is_correct: boolean | null };\ntype BankQuestion = { discipline: string | null };
+type Attempt = { subject: string | null; is_correct: boolean | null };
+type BankQuestion = { discipline: string | null };
 
 const categories = [
   { name: 'Fundamentals', icon: '🩺', description: 'Core nursing care, assessment, mobility, comfort, and basic skills.' },
@@ -22,7 +23,8 @@ const categories = [
 export default function PracticeHub() {
   const router = useRouter();
   const [track, setTrack] = useState<'rn' | 'pn'>('rn');
-  const [attempts, setAttempts] = useState<Attempt[]>([]);\n  const [bank, setBank] = useState<BankQuestion[]>([]);
+  const [attempts, setAttempts] = useState<Attempt[]>([]);
+  const [bank, setBank] = useState<BankQuestion[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
