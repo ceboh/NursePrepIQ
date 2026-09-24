@@ -4,10 +4,10 @@
 begin;
 
 -- Ensure the new checksum gate is accepted even when 0058 was already recorded remotely before this constraint repair.
-do $ declare r record; begin
+do $$ declare r record; begin
  for r in select conname from pg_constraint where conrelid='public.question_validation_events'::regclass and contype='c' and pg_get_constraintdef(oid) ilike '%gate%'
  loop execute format('alter table public.question_validation_events drop constraint %I',r.conname); end loop;
-end $;
+end $$;
 alter table public.question_validation_events add constraint question_validation_events_gate_check check (gate in ('schema','clinical','nclex_alignment','editorial','psychometric','pilot_monitoring','key_consistency'));
 
 -- Persist taxonomy for these new PN batches so dashboard and library use one source.
