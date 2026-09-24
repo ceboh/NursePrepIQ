@@ -21,7 +21,8 @@ begin
     jsonb_build_object('human_review',false,'psychometric_validation',false,'action','quarantined_from_production','reason','KEY_MISMATCH','checked_at',now()));
 end $$;
 
-create or replace view public.question_item_health as
+drop view if exists public.question_item_health;
+create view public.question_item_health as
 with a as (
  select question_id,question_version,count(*) attempts,
  avg(case when is_correct then 1.0 else 0.0 end) proportion_correct,
