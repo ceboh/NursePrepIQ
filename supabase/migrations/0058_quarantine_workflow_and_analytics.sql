@@ -1,7 +1,12 @@
 -- NursePrepIQ 0058: quarantine workflow + analytics protection.
 begin;
 
-alter table public.question_validation_events drop constraint if exists question_validation_events_gate_check;
+do $ declare r record; begin
+ for r in select conname from pg_constraint
+  where conrelid='public.question_validation_events'::regclass and contype='c'
+    and pg_get_constraintdef(oid) ilike '%gate%'
+ loop execute format('alter table public.question_validation_events drop constraint %I',r.conname); end loop;
+end $;
 alter table public.question_validation_events add constraint question_validation_events_gate_check check (gate in ('schema','clinical','nclex_alignment','editorial','psychometric','pilot_monitoring','key_consistency'));
 
 alter table public.question_versions add column if not exists quarantine_reason text;
