@@ -31,6 +31,20 @@ const countBy=f=>qs.reduce((a,q)=>{const k=f(q)||'UNSPECIFIED';a[k]=(a[k]||0)+1;
 const tracks={rn:0,pn:0,both:0};
 for(const q of qs){const a=q.exam_tracks||[];if(a.includes('rn'))tracks.rn++;if(a.includes('pn'))tracks.pn++;if(a.includes('rn')&&a.includes('pn'))tracks.both++;}
 const warnings=[], failures=[];
+const priorityStem=/\b(priority|first|most important|immediate(?:ly)?|initial action|take first)\b/i;
+const priorityCount=qs.filter(q=>priorityStem.test(String(q.stem||''))).length;
+if(qs.length>=20 && priorityCount/qs.length>.15) failures.push(`Priority/first-action stems are ${Math.round(priorityCount/qs.length*100)}% of batch; maximum is 15% to preserve item-style variety.`);
+const taskFamilies={
+ teaching:/teach|understanding|discharge|instruction|statement by the client/i,
+ medication:/medication|drug|dose|adverse|contraindicat|interaction|therapeutic level/i,
+ diagnostic:/laboratory|lab |diagnostic|test result|imaging|ECG|electrolyte/i,
+ delegation:/delegate|assignment|assign|supervis|scope/i,
+ evaluation:/improv|effective|outcome|response to treatment|indicates.*working/i,
+ communication:/therapeutic response|respond|communication/i,
+ procedure:/procedure|preoper|postoper|before .*test|after .*procedure/i,
+ priority:priorityStem
+};
+const taskFamilyCounts=Object.fromEntries(Object.entries(taskFamilies).map(([k,re])=>[k,qs.filter(q=>re.test(String(q.stem||''))).length]));
 if(qs.length<100) failures.push(`Batch contains ${qs.length} questions; production batches must contain at least 100.`);
 const categoryCoverage=Object.fromEntries(websiteCategories.map(c=>[c,0]));
 for(const q of qs){const c=categoryFor(q);if(c)categoryCoverage[c]++;}
@@ -60,6 +74,6 @@ const keyRationaleMismatch=qs.filter(q=>{
 if(keyRationaleMismatch.length) failures.push(`${keyRationaleMismatch.length} item(s) have a key/rationale mismatch: ${keyRationaleMismatch.slice(0,8).join(', ')}`);
 const thinRationales=qs.filter(q=>String(q.rationale_correct||'').trim().length<45||String(q.rationale_distractors||'').trim().length<45).length;
 if(thinRationales) failures.push(`${thinRationales} item(s) have rationales too thin for pilot review.`);
-const report={file,total:qs.length,tracks,website_category_coverage:categoryCoverage,missing_website_categories:missingCategories,item_types:countBy(q=>q.item_type),subjects:countBy(q=>q.subject),client_needs:countBy(q=>q.client_need),clinical_judgment:countBy(q=>q.clinical_judgment_step),difficulty,ngn_count:ngnCount,ngn_share:Number((ngnCount/qs.length).toFixed(3)),sba_answer_positions:{A:positions[0],B:positions[1],C:positions[2],D:positions[3]},duplicate_stems:duplicateStems,key_rationale_mismatches:keyRationaleMismatch,warnings,failures,passed:failures.length===0};
+const report={file,total:qs.length,tracks,task_family_counts:taskFamilyCounts,priority_stem_count:priorityCount,website_category_coverage:categoryCoverage,missing_website_categories:missingCategories,item_types:countBy(q=>q.item_type),subjects:countBy(q=>q.subject),client_needs:countBy(q=>q.client_need),clinical_judgment:countBy(q=>q.clinical_judgment_step),difficulty,ngn_count:ngnCount,ngn_share:Number((ngnCount/qs.length).toFixed(3)),sba_answer_positions:{A:positions[0],B:positions[1],C:positions[2],D:positions[3]},duplicate_stems:duplicateStems,key_rationale_mismatches:keyRationaleMismatch,warnings,failures,passed:failures.length===0};
 console.log(JSON.stringify(report,null,2));
 process.exit(failures.length?1:0);
