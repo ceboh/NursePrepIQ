@@ -24,6 +24,13 @@ for(const [i,q] of data.questions.entries()){
  if(String(q.source_note).trim().length<12) throw new Error(`${q.slug}: source_note must identify the evidence/alignment basis`);
  if(!Array.isArray(q.options)||q.options.length<2) throw new Error(`${q.slug}: at least 2 options required`);
  if(q.options.some(o=>!o.key||!o.text||!o.rationale)) throw new Error(`${q.slug}: every option needs key, text, rationale`);
+ // Integrity invariant: correctness, option text, and rationale are one object.
+ // The builder never scrambles these fields independently.
+ if(q.item_type==='single_best_answer'){
+   const keyed=q.options.filter(o=>o.is_correct);
+   if(keyed.length===1 && String(keyed[0].rationale).trim()!==String(q.rationale_correct).trim())
+     throw new Error(`${q.slug}: keyed option rationale must exactly match rationale_correct; possible key/scramble mismatch`);
+ }
  if(new Set(q.options.map(o=>o.key)).size!==q.options.length) throw new Error(`${q.slug}: duplicate option key`);
  if(q.item_type==='single_best_answer'){
    if(q.options.length!==4) throw new Error(`${q.slug}: SBA requires exactly four options`);
@@ -46,8 +53,11 @@ if(data.questions.length>=20&&hard/data.questions.length<.30) throw new Error('B
 if(data.questions.length>=20&&easy/data.questions.length>.25) throw new Error('Batch quality gate: easy items may not exceed 25% for batches of 20+.');
 let sql=`-- AUTO-GENERATED NursePrepIQ question batch\n-- Batch: ${esc(data.batch_name||input)}\n-- SHA256: ${crypto.createHash('sha256').update(JSON.stringify(data)).digest('hex')}\n-- SAFETY: PILOT ONLY. Promotion requires validation gates.\n\nbegin;\n`;
 for(const q of data.questions){
+ // Assign letters/display order only after complete option objects are finalized.
+ // Never detach text/rationale/is_correct during answer-position balancing.
+ const persistedOptions=q.options.map((o,n)=>({...o,key:String.fromCharCode(97+n),display_order:n+1}));
  sql+=`\ndo $$\ndeclare qid uuid; qvid uuid;\nbegin\n  insert into public.questions(slug,lifecycle_status,current_version) values ('${esc(q.slug)}','pilot',1)\n  on conflict(slug) do update set updated_at=now() returning id into qid;\n\n  insert into public.question_versions(question_id,version,stem,item_type,exam_tracks,subject,topic,client_need,clinical_judgment_step,difficulty,rationale_correct,rationale_distractors,memory_rule,source_note,validation_status)\n  values(qid,1,'${esc(q.stem)}','${esc(q.item_type)}',${arr(q.exam_tracks)},'${esc(q.subject)}','${esc(q.topic)}','${esc(q.client_need)}','${esc(q.clinical_judgment_step)}','${esc(q.difficulty)}','${esc(q.rationale_correct)}','${esc(q.rationale_distractors)}',${q.memory_rule?`'${esc(q.memory_rule)}'`:'null'},'${esc(q.source_note)}','pilot')\n  on conflict(question_id,version) do update set stem=excluded.stem returning id into qvid;\n\n  delete from public.question_options where question_version_id=qvid;\n`;
- q.options.forEach((o,n)=>sql+=`  insert into public.question_options(question_version_id,option_key,option_text,is_correct,rationale,display_order) values(qvid,'${esc(o.key)}','${esc(o.text)}',${o.is_correct?'true':'false'},'${esc(o.rationale)}',${n+1});\n`);
+ persistedOptions.forEach(o=>sql+=`  insert into public.question_options(question_version_id,option_key,option_text,is_correct,rationale,display_order) values(qvid,'${esc(o.key)}','${esc(o.text)}',${o.is_correct?'true':'false'},'${esc(o.rationale)}',${o.display_order});\n`);
  sql+=`end $$;\n`;
 }
 sql+='commit;\n'; fs.writeFileSync(output,sql);
