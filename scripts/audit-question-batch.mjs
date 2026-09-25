@@ -53,8 +53,13 @@ const sba=qs.filter(q=>q.item_type==='single_best_answer'&&Array.isArray(q.optio
 const positions=[0,0,0,0];
 for(const q of sba){const p=q.options.findIndex(o=>o.is_correct);if(p>=0&&p<4)positions[p]++;}
 if(sba.length>=8){const max=Math.max(...positions),min=Math.min(...positions);if(max>Math.ceil(sba.length*.40)||max-min>Math.ceil(sba.length*.30)) failures.push(`SBA answer positions are too predictable: A/B/C/D=${positions.join('/')}.`);}
+const keyRationaleMismatch=qs.filter(q=>{
+ const keyed=(q.options||[]).filter(o=>o.is_correct);
+ return q.item_type==='single_best_answer'&&(keyed.length!==1||String(keyed[0]?.rationale||'').trim()!==String(q.rationale_correct||'').trim());
+}).map(q=>q.slug);
+if(keyRationaleMismatch.length) failures.push(`${keyRationaleMismatch.length} item(s) have a key/rationale mismatch: ${keyRationaleMismatch.slice(0,8).join(', ')}`);
 const thinRationales=qs.filter(q=>String(q.rationale_correct||'').trim().length<45||String(q.rationale_distractors||'').trim().length<45).length;
 if(thinRationales) failures.push(`${thinRationales} item(s) have rationales too thin for pilot review.`);
-const report={file,total:qs.length,tracks,website_category_coverage:categoryCoverage,missing_website_categories:missingCategories,item_types:countBy(q=>q.item_type),subjects:countBy(q=>q.subject),client_needs:countBy(q=>q.client_need),clinical_judgment:countBy(q=>q.clinical_judgment_step),difficulty,ngn_count:ngnCount,ngn_share:Number((ngnCount/qs.length).toFixed(3)),sba_answer_positions:{A:positions[0],B:positions[1],C:positions[2],D:positions[3]},duplicate_stems:duplicateStems,warnings,failures,passed:failures.length===0};
+const report={file,total:qs.length,tracks,website_category_coverage:categoryCoverage,missing_website_categories:missingCategories,item_types:countBy(q=>q.item_type),subjects:countBy(q=>q.subject),client_needs:countBy(q=>q.client_need),clinical_judgment:countBy(q=>q.clinical_judgment_step),difficulty,ngn_count:ngnCount,ngn_share:Number((ngnCount/qs.length).toFixed(3)),sba_answer_positions:{A:positions[0],B:positions[1],C:positions[2],D:positions[3]},duplicate_stems:duplicateStems,key_rationale_mismatches:keyRationaleMismatch,warnings,failures,passed:failures.length===0};
 console.log(JSON.stringify(report,null,2));
 process.exit(failures.length?1:0);
