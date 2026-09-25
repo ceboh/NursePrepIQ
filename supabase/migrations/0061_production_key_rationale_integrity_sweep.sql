@@ -45,7 +45,7 @@ where exists(select 1 from public.question_integrity_audit a where a.question_id
 update public.question_versions qv set
  key_consistency_status='fail',key_consistency_checked_at=now(),
  key_consistency_notes=a.reason,quarantine_reason='KEY_RATIONALE_MISMATCH',
- quarantined_at=now(),validation_status='needs_review'
+ quarantined_at=now(),validation_status='pilot'
 from public.questions q, public.question_integrity_audit a
 where q.id=qv.question_id and q.current_version=qv.version
 and a.question_id=q.id and a.question_version=q.current_version and a.outcome='quarantine'
