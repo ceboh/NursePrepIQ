@@ -37,6 +37,11 @@ and qv.validation_status='production_validated'
 and exists(select 1 from public.question_integrity_audit a where a.question_id=q.id and a.question_version=q.current_version and a.outcome='pass' and a.audited_at=(select max(a2.audited_at) from public.question_integrity_audit a2 where a2.question_id=a.question_id and a2.question_version=a.question_version));
 
 -- Immediately remove mechanical failures from student-facing production.
+-- Publication guard requires lifecycle demotion before validation downgrade.
+update public.questions q set lifecycle_status='review',updated_at=now()
+where exists(select 1 from public.question_integrity_audit a where a.question_id=q.id and a.question_version=q.current_version and a.outcome='quarantine'
+ and a.audited_at=(select max(a2.audited_at) from public.question_integrity_audit a2 where a2.question_id=a.question_id and a2.question_version=a.question_version));
+
 update public.question_versions qv set
  key_consistency_status='fail',key_consistency_checked_at=now(),
  key_consistency_notes=a.reason,quarantine_reason='KEY_RATIONALE_MISMATCH',
@@ -45,9 +50,5 @@ from public.questions q, public.question_integrity_audit a
 where q.id=qv.question_id and q.current_version=qv.version
 and a.question_id=q.id and a.question_version=q.current_version and a.outcome='quarantine'
 and a.audited_at=(select max(a2.audited_at) from public.question_integrity_audit a2 where a2.question_id=a.question_id and a2.question_version=a.question_version);
-
-update public.questions q set lifecycle_status='review',updated_at=now()
-where exists(select 1 from public.question_integrity_audit a where a.question_id=q.id and a.question_version=q.current_version and a.outcome='quarantine'
- and a.audited_at=(select max(a2.audited_at) from public.question_integrity_audit a2 where a2.question_id=a.question_id and a2.question_version=a.question_version));
 
 commit;
