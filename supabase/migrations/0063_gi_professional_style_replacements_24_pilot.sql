@@ -2,7 +2,7 @@
 -- Original NursePrepIQ content; public professional banks were used only to calibrate breadth/style. PILOT ONLY.
 begin;
 do $$
-declare r record; qid uuid; qvid uuid; k text; rr text;
+declare r record; qid uuid; qvid uuid; k text; rr text; item_no int:=0; desired int;
 begin
 for r in select * from (values
 ('rn','gerd-teaching','Adult Health','GERD','Health Promotion and Maintenance','Patient Teaching','medium','A client with gastroesophageal reflux disease is reviewing lifestyle changes. Which statement indicates that the teaching has been effective?','I will lie down for 30 minutes after dinner.','I will eat my largest meal shortly before bedtime.','I will avoid meals for several hours before going to bed.','I will drink peppermint tea when heartburn begins.',3,'Avoiding food close to bedtime reduces reflux associated with recumbency.'),
@@ -31,6 +31,7 @@ for r in select * from (values
 ('pn','gerd-med-timing','Pharmacology','GERD Medication','Pharmacological Therapies','Medication Administration','medium','A client is prescribed a proton pump inhibitor for gastroesophageal reflux disease. Which instruction should the nurse reinforce for many once-daily proton pump inhibitors?','Take the medication before the first meal of the day.','Take it only when severe pain occurs.','Crush delayed-release preparations into milk.','Take it with an antacid at exactly the same time.',1,'Many once-daily proton pump inhibitors work best when taken before the first meal so active proton pumps can be inhibited effectively.')
 ) as x(role,slug,subject,topic,client_need,skill,difficulty,stem,a,b,c,d,keypos,rationale)
 loop
+ item_no:=item_no+1; desired:=((item_no-1)%4)+1;
  qid:=md5('npq-0063-'||r.role||'-'||r.slug)::uuid; qvid:=md5('npq-0063-v-'||r.role||'-'||r.slug)::uuid;
  insert into public.questions(id,slug,lifecycle_status,current_version) values(qid,'0063-'||r.role||'-'||r.slug,'pilot',1)
  on conflict on constraint questions_slug_key do update set updated_at=now() returning id into qid;
@@ -45,8 +46,11 @@ loop
  on conflict(question_id,version) do update set stem=excluded.stem,validation_status='pilot' returning id into qvid;
  delete from public.question_options where question_version_id=qvid;
  insert into public.question_options(question_version_id,option_key,option_text,is_correct,rationale,display_order)
- select qvid,chr((96+n)::integer),opt,(n=r.keypos),case when n=r.keypos then r.rationale else 'This option does not best satisfy the clinical task and evidence in the stem.' end,n
- from unnest(array[r.a,r.b,r.c,r.d]) with ordinality z(opt,n);
+ select qvid,chr((96+newpos)::integer),opt,(n=r.keypos),case when n=r.keypos then r.rationale else 'This option does not best satisfy the clinical task and evidence in the stem.' end,newpos
+ from (
+   select opt,n,((((n + (desired-r.keypos) - 1) % 4 + 4) % 4)+1)::bigint newpos
+   from unnest(array[r.a,r.b,r.c,r.d]) with ordinality z(opt,n)
+ ) moved;
 end loop;
 end $$;
 commit;
