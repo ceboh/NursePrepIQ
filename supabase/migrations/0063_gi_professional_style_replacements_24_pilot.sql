@@ -45,7 +45,7 @@ loop
  on conflict(question_id,version) do update set stem=excluded.stem,validation_status='pilot' returning id into qvid;
  delete from public.question_options where question_version_id=qvid;
  insert into public.question_options(question_version_id,option_key,option_text,is_correct,rationale,display_order)
- select qvid,chr(96+n),opt,(n=r.keypos),case when n=r.keypos then r.rationale else 'This option does not best satisfy the clinical task and evidence in the stem.' end,n
+ select qvid,chr((96+n)::integer),opt,(n=r.keypos),case when n=r.keypos then r.rationale else 'This option does not best satisfy the clinical task and evidence in the stem.' end,n
  from unnest(array[r.a,r.b,r.c,r.d]) with ordinality z(opt,n);
 end loop;
 end $$;
