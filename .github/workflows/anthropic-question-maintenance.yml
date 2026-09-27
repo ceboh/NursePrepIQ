@@ -25,7 +25,8 @@ jobs:
       NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
       SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-      ANTHROPIC_QUESTION_MODEL: ${{ vars.ANTHROPIC_QUESTION_MODEL || 'claude-sonnet-5' }}
+      ANTHROPIC_REVIEW_MODEL: ${{ vars.ANTHROPIC_REVIEW_MODEL || 'claude-haiku-4-5' }}
+      ANTHROPIC_ADJUDICATOR_MODEL: ${{ vars.ANTHROPIC_ADJUDICATOR_MODEL || 'claude-sonnet-5' }}
       QUESTION_MAINTENANCE_LIMIT: ${{ inputs.limit || '40' }}
     steps:
       - uses: actions/checkout@v4
@@ -44,7 +45,8 @@ jobs:
       NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
       SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-      ANTHROPIC_QUESTION_MODEL: ${{ vars.ANTHROPIC_QUESTION_MODEL || 'claude-sonnet-5' }}
+      ANTHROPIC_GENERATOR_MODEL: ${{ vars.ANTHROPIC_GENERATOR_MODEL || 'claude-sonnet-5' }}
+      QUESTION_GENERATION_CHUNK: ${{ vars.QUESTION_GENERATION_CHUNK || '3' }}
       QUESTION_MAINTENANCE_LIMIT: ${{ inputs.limit || '40' }}
     steps:
       - uses: actions/checkout@v4
