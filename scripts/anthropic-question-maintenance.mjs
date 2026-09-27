@@ -12,11 +12,11 @@ const generationSchema={type:'object',additionalProperties:false,required:['item
 async function claude(system,user,schema){
  const r=await fetch('https://api.anthropic.com/v1/messages',{method:'POST',headers:{'content-type':'application/json','x-api-key':apiKey,'anthropic-version':'2023-06-01'},body:JSON.stringify({model,max_tokens:8000,system,messages:[{role:'user',content:user}],output_config:{format:{type:'json_schema',schema}}})});
  if(!r.ok) throw new Error('Anthropic '+r.status+': '+await r.text());
- const j=await r.json(); const t=j.content?.filter(x=>x.type==='text').map(x=>x.text).join('\n')||'';
- const cleaned=t.replace(/^\`\`\`(?:json)?\\s*/i,'').replace(/\\s*\`\`\`$/,'').trim();
- const m=cleaned.match(/\\[[\\s\\S]*\\]|\\{[\\s\\S]*\\}/);
- if(!m) throw new Error('No parseable JSON in Claude response; stop_reason='+String(j.stop_reason||'unknown')+'; chars='+cleaned.length);
- return JSON.parse(m[0]);
+ const j=await r.json();
+ const t=j.content?.filter(x=>x.type==='text').map(x=>x.text).join('')||'';
+ if(!t) throw new Error('Empty structured response from Claude; stop_reason='+String(j.stop_reason||'unknown'));
+ try { return JSON.parse(t); }
+ catch(e){ throw new Error('Structured JSON parse failed; stop_reason='+String(j.stop_reason||'unknown')+'; chars='+t.length+'; '+e.message); }
 }
 const standard=`Use current NCLEX-RN/PN principles: entry-level scope, Client Needs, clinical judgment/NCJMM when appropriate, varied cognitive tasks, plausible distractors, one defensible best answer for SBA, no trivia, no copied/recalled/live NCLEX items, no fabricated facts, no formulaic repetition. Priority/first-action stems must not dominate. Distinguish RN from PN scope. Be conservative: if an item can be repaired, recommend revise rather than retire. Output JSON only.`;
 
