@@ -8,7 +8,7 @@ on:
       limit:
         description: 'Maximum questions per agent run'
         required: false
-        default: '40'
+        default: '10'
 
 permissions:
   contents: read
@@ -32,8 +32,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-          cache: npm
-      - run: npm ci
+      - run: npm install --no-audit --no-fund
       - name: Review production questions
         run: node scripts/anthropic-question-maintenance.mjs review
 
@@ -52,7 +51,6 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-          cache: npm
-      - run: npm ci
+      - run: npm install --no-audit --no-fund
       - name: Generate replacement and coverage-gap PILOT items
         run: node scripts/anthropic-question-maintenance.mjs generate
