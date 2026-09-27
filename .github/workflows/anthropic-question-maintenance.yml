@@ -1,0 +1,58 @@
+name: Anthropic Question Bank Maintenance
+
+on:
+  schedule:
+    - cron: '17 6 * * 0'
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: 'Maximum questions per agent run'
+        required: false
+        default: '40'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: anthropic-question-maintenance
+  cancel-in-progress: false
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+      SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      ANTHROPIC_QUESTION_MODEL: ${{ vars.ANTHROPIC_QUESTION_MODEL || 'claude-sonnet-5' }}
+      QUESTION_MAINTENANCE_LIMIT: ${{ inputs.limit || '40' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - name: Review production questions
+        run: node scripts/anthropic-question-maintenance.mjs review
+
+  replenish:
+    needs: review
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+      SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      ANTHROPIC_QUESTION_MODEL: ${{ vars.ANTHROPIC_QUESTION_MODEL || 'claude-sonnet-5' }}
+      QUESTION_MAINTENANCE_LIMIT: ${{ inputs.limit || '40' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - name: Generate replacement and coverage-gap PILOT items
+        run: node scripts/anthropic-question-maintenance.mjs generate
