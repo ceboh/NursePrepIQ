@@ -11,13 +11,15 @@ async function claude(system,user){
  const r=await fetch('https://api.anthropic.com/v1/messages',{method:'POST',headers:{'content-type':'application/json','x-api-key':apiKey,'anthropic-version':'2023-06-01'},body:JSON.stringify({model,max_tokens:8000,system,messages:[{role:'user',content:user}]})});
  if(!r.ok) throw new Error('Anthropic '+r.status+': '+await r.text());
  const j=await r.json(); const t=j.content?.filter(x=>x.type==='text').map(x=>x.text).join('\n')||'';
- const m=t.match(/\[[\s\S]*\]|\{[\s\S]*\}/); if(!m) throw new Error('No JSON in Claude response');
+ const cleaned=t.replace(/^\`\`\`(?:json)?\\s*/i,'').replace(/\\s*\`\`\`$/,'').trim();
+ const m=cleaned.match(/\\[[\\s\\S]*\\]|\\{[\\s\\S]*\\}/);
+ if(!m) throw new Error('No parseable JSON in Claude response; stop_reason='+String(j.stop_reason||'unknown')+'; chars='+cleaned.length);
  return JSON.parse(m[0]);
 }
 const standard=`Use current NCLEX-RN/PN principles: entry-level scope, Client Needs, clinical judgment/NCJMM when appropriate, varied cognitive tasks, plausible distractors, one defensible best answer for SBA, no trivia, no copied/recalled/live NCLEX items, no fabricated facts, no formulaic repetition. Priority/first-action stems must not dominate. Distinguish RN from PN scope. Be conservative: if an item can be repaired, recommend revise rather than retire. Output JSON only.`;
 
 async function review(){
- const {data:qs,error}=await db.from('questions').select('id,slug,current_version,lifecycle_status,question_versions!inner(id,version,stem,item_type,exam_tracks,subject,topic,client_need,clinical_judgment_step,difficulty,rationale_correct,body_system,discipline,question_options(option_key,option_text,is_correct,rationale,display_order))').eq('lifecycle_status','production_validated').limit(limit);
+ const {data:qs,error}=await db.from('questions').select('id,slug,current_version,lifecycle_status,question_versions!inner(id,version,stem,item_type,exam_tracks,subject,topic,client_need,clinical_judgment_step,difficulty,rationale_correct,body_system,discipline,question_options(option_key,option_text,is_correct,rationale,display_order))').eq('lifecycle_status','active').limit(limit);
  if(error) throw error;
  const items=qs.map(q=>({id:q.id,slug:q.slug,...q.question_versions.find(v=>v.version===q.current_version)}));
  const out=await claude('You are the independent NursePrepIQ NCLEX item reviewer. '+standard,`Review each item. Return a JSON array with exactly one object per id: {"id":"uuid","decision":"keep|revise|retire","reason":"specific concise reason","confidence":0-1}. RETIRE only for clinically unsafe/wrong, fundamentally ambiguous, obsolete, severe scope/alignment failure, or unrecoverable duplication. REVIEW DATA:\n${JSON.stringify(items)}`);
@@ -26,7 +28,7 @@ async function review(){
    await db.from('anthropic_question_maintenance').insert({question_id:x.id,agent:'reviewer',model,decision:x.decision,reason:x.reason,confidence:x.confidence,raw_result:x});
    // Safety rule: reviewer may retire only at high confidence. "revise" is audit-only and stays live pending replacement.
    if(x.decision==='retire' && Number(x.confidence)>=0.92){
-     await db.from('questions').update({lifecycle_status:'retired'}).eq('id',x.id).eq('lifecycle_status','production_validated');
+     await db.from('questions').update({lifecycle_status:'retired'}).eq('id',x.id).eq('lifecycle_status','active');
    }
  }
  console.log(JSON.stringify({mode:'review',reviewed:out.length,retire_recommendations:out.filter(x=>x.decision==='retire').length}));
@@ -34,7 +36,7 @@ async function review(){
 async function generate(){
  const {data:ret}=await db.from('anthropic_question_maintenance').select('question_id,reason').eq('agent','reviewer').eq('decision','retire').order('created_at',{ascending:false}).limit(limit);
  const {data:live}=await db.from('question_versions').select('body_system,discipline,exam_tracks,topic').eq('validation_status','production_validated').limit(2000);
- const prompt=`Create ${Math.max(12,Math.min(limit,ret?.length||12))} ORIGINAL replacement/new NCLEX-style questions. Use this current coverage snapshot to diversify topics and skills: ${JSON.stringify(live)}. Retirement reasons to avoid repeating: ${JSON.stringify(ret)}. Return JSON array. Each object: {track:"rn|pn",subject,discipline,body_system,topic,client_need,clinical_judgment_step:null|string,difficulty:"medium|hard",stem,options:[{text,rationale,is_correct} x4],rationale_correct,memory_rule}. Correct positions must be balanced across the batch. Do not copy public/proprietary questions.`;
+ const prompt=`Create ${Math.max(4,Math.min(limit,ret?.length||limit))} ORIGINAL replacement/new NCLEX-style questions. Use this current coverage snapshot to diversify topics and skills: ${JSON.stringify(live)}. Retirement reasons to avoid repeating: ${JSON.stringify(ret)}. Return ONLY a compact valid JSON array with no markdown or commentary. Keep rationales concise. Each object: {track:"rn|pn",subject,discipline,body_system,topic,client_need,clinical_judgment_step:null|string,difficulty:"medium|hard",stem,options:[{text,rationale,is_correct} x4],rationale_correct,memory_rule}. Correct positions must be balanced across the batch. Do not copy public/proprietary questions.`;
  const out=await claude('You are the NursePrepIQ NCLEX item-development agent. '+standard,prompt);
  for(const [i,x] of out.entries()){
    if(!Array.isArray(x.options)||x.options.length!==4||x.options.filter(o=>o.is_correct).length!==1) continue;
