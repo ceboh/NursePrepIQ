@@ -11,8 +11,8 @@ select q.id as question_id,
        lower(regexp_replace(trim(qv.stem), '[^a-zA-Z0-9]+', ' ', 'g')) as norm_stem,
        lower(coalesce(qv.body_system,'')) as body_system,
        lower(coalesce(qv.topic,'')) as topic,
-       lower(coalesce(qv.discipline,'')) as discipline,
-       q.exam_tracks
+       lower(coalesce(qv.discipline,'')) as discipline
+
 from public.questions q
 join public.question_versions qv
   on qv.question_id=q.id and qv.version=q.current_version
