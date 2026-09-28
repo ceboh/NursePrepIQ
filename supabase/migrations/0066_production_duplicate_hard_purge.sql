@@ -74,3 +74,5 @@ begin
     raise exception '0066 exact duplicate purge incomplete';
   end if;
 end $$;
+
+-- deployment retry marker: 2026-09-28
