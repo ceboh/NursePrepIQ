@@ -75,11 +75,7 @@ begin
  raise notice '0067 production after=%',n_after;
 end $$;
 
--- Permanent exact-duplicate admission gate for future production/imports.
-create unique index if not exists uq_question_versions_production_normalized_stem
-on public.question_versions (
- lower(regexp_replace(trim(stem), '[^a-zA-Z0-9]+', ' ', 'g'))
-)
-where validation_status='production_validated';
-
+-- Do not create a unique index across historical question_versions: older production-validated
+-- versions remain for history and can legitimately share stems. Admission prevention belongs
+-- in the import/promotion gate, while this migration cleans CURRENT active production only.
 commit;
