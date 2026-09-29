@@ -15,7 +15,7 @@ const stems=count(/stem:=/g)+count(/,'single_best_answer'/g);
 const rn=count(/role='rn'/g)+count(/array\['rn'\]/g);
 const pn=count(/role='pn'/g)+count(/array\['pn'\]/g);
 const correctA=count(/'a'[^\n]*true/g),correctB=count(/'b'[^\n]*true/g),correctC=count(/'c'[^\n]*true/g),correctD=count(/'d'[^\n]*true/g);
-const cj=['Recognize Cues','Analyze Cues','Prioritize Hypotheses','Generate Solutions','Take Action','Evaluate Outcomes'];
+const promotionMigration=/promote_question_to_production|question_ready_for_production|validation_events/i.test(sql);\nconst cj=['Recognize Cues','Analyze Cues','Prioritize Hypotheses','Generate Solutions','Take Action','Evaluate Outcomes'];
 for(const step of cj) if(!sql.includes(step)) warnings.push('Missing clinical-judgment function: '+step);
 if(!promotionMigration && !/RN|role='rn'|array\['rn'\]/i.test(sql)) failures.push('No RN-specific content detected.');
 if(!promotionMigration && !/PN|LPN\/VN|role='pn'|array\['pn'\]/i.test(sql)) failures.push('No PN-specific content detected.');
