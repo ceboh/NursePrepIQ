@@ -13,8 +13,8 @@ export async function POST(req:NextRequest){
   const {text,voice='coral'}=await req.json();
   if(typeof text!=='string'||!text.trim())return NextResponse.json({error:'Missing explanation.'},{status:400});
   const safeVoice=voices.has(voice)?voice:'coral';
-  const r=await fetch('https://api.openai.com/v1/audio/speech',{method:'POST',headers:{'Content-Type':'application/json',Authorization:'Bearer '+process.env.OPENAI_API_KEY},body:JSON.stringify({model:'gpt-4o-mini-tts',voice:safeVoice,input:text.slice(0,12000),instructions:'Speak like a warm, clear nursing instructor teaching an NCLEX student. Use natural pauses and conversational emphasis. Do not sound rushed.',response_format:'mp3'})});
+  const r=await fetch('https://api.openai.com/v1/audio/speech',{method:'POST',headers:{'Content-Type':'application/json',Authorization:'Bearer '+process.env.OPENAI_API_KEY},body:JSON.stringify({model:'tts-1',voice:safeVoice,input:text.slice(0,12000),response_format:'mp3'})});
   if(!r.ok)return NextResponse.json({error:'Audio teacher is temporarily unavailable.'},{status:502});
-  return new NextResponse(await r.arrayBuffer(),{headers:{'Content-Type':'audio/mpeg','Cache-Control':'private, max-age=3600'}});
+  return new NextResponse(await r.arrayBuffer(),{headers:{'Content-Type':'audio/mpeg','Cache-Control':'private, max-age=86400'}});
  }catch{return NextResponse.json({error:'Audio teacher request failed.'},{status:500})}
 }
