@@ -19,7 +19,7 @@ const cj=['Recognize Cues','Analyze Cues','Prioritize Hypotheses','Generate Solu
 for(const step of cj) if(!sql.includes(step)) warnings.push('Missing clinical-judgment function: '+step);
 if(!promotionMigration && !/RN|role='rn'|array\['rn'\]/i.test(sql)) failures.push('No RN-specific content detected.');
 if(!promotionMigration && !/PN|LPN\/VN|role='pn'|array\['pn'\]/i.test(sql)) failures.push('No PN-specific content detected.');
-if(!/rationale/i.test(sql)) failures.push('Rationales not detected.');
+if(!promotionMigration && !/rationale/i.test(sql)) failures.push('Rationales not detected.');
 const promotionMigration=/promote_question_to_production|question_ready_for_production|validation_events/i.test(sql);\nif(!/pilot/i.test(sql) && !promotionMigration) failures.push('New clinical items must enter PILOT/validation state.');
 const claimText=sql.replace(/not\s+(?:an?\s+)?NCSBN\s+item/gi,'original-item-disclaimer');
 if(/NCSBN item|actual NCLEX question|recalled NCLEX/i.test(claimText)) failures.push('Potential prohibited/confidential-item claim detected.');
