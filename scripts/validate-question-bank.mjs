@@ -14,8 +14,13 @@ const count=(re)=>(sql.match(re)||[]).length;
 const stems=count(/stem:=/g)+count(/,'single_best_answer'/g);
 const rn=count(/role='rn'/g)+count(/array\['rn'\]/g);
 const pn=count(/role='pn'/g)+count(/array\['pn'\]/g);
-const correctA=count(/'a'[^\n]*true/g),correctB=count(/'b'[^\n]*true/g),correctC=count(/'c'[^\n]*true/g),correctD=count(/'d'[^\n]*true/g);
-const promotionMigration=/promote_question_to_production|question_ready_for_production|validation_events/i.test(sql);\nconst cj=['Recognize Cues','Analyze Cues','Prioritize Hypotheses','Generate Solutions','Take Action','Evaluate Outcomes'];
+const correctA=count(/'a'[^
+]*true/g),correctB=count(/'b'[^
+]*true/g),correctC=count(/'c'[^
+]*true/g),correctD=count(/'d'[^
+]*true/g);
+const promotionMigration=/promote_question_to_production|question_ready_for_production|validation_events/i.test(sql);
+const cj=['Recognize Cues','Analyze Cues','Prioritize Hypotheses','Generate Solutions','Take Action','Evaluate Outcomes'];
 for(const step of cj) if(!sql.includes(step)) warnings.push('Missing clinical-judgment function: '+step);
 if(!promotionMigration && !/RN|role='rn'|array\['rn'\]/i.test(sql)) failures.push('No RN-specific content detected.');
 if(!promotionMigration && !/PN|LPN\/VN|role='pn'|array\['pn'\]/i.test(sql)) failures.push('No PN-specific content detected.');
@@ -28,6 +33,7 @@ if(stems>=8 && maxAnswerCount > Math.ceil(stems*.40)) failures.push('Correct-ans
 else if(stems>=4 && maxAnswerCount-minAnswerCount > Math.ceil(stems*.35)) warnings.push('Correct-answer positions are uneven; review A/B/C/D distribution before scaling this batch.');
 const generic=count(/Does not address the priority finding or safest response\./g);
 if(generic>8) warnings.push('Repeated generic distractor rationale detected ('+generic+'). Replace with option-specific rationales.');
-const longLines=sql.split('\n').filter(x=>x.length>10000).length;if(longLines) warnings.push('Very long SQL lines detected; consider maintainability.');
+const longLines=sql.split('
+').filter(x=>x.length>10000).length;if(longLines) warnings.push('Very long SQL lines detected; consider maintainability.');
 console.log(JSON.stringify({file,estimated_stems:stems,rn_markers:rn,pn_markers:pn,answer_positions:{A:correctA,B:correctB,C:correctC,D:correctD},failures,warnings,passed:failures.length===0},null,2));
 process.exit(failures.length?1:0);
