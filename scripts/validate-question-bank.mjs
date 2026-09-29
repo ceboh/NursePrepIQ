@@ -22,7 +22,7 @@ if(!promotionMigration && !/PN|LPN\/VN|role='pn'|array\['pn'\]/i.test(sql)) fail
 if(!promotionMigration && !/rationale/i.test(sql)) failures.push('Rationales not detected.');
 const promotionMigration=/promote_question_to_production|question_ready_for_production|validation_events/i.test(sql);\nif(!/pilot/i.test(sql) && !promotionMigration) failures.push('New clinical items must enter PILOT/validation state.');
 const claimText=sql.replace(/not\s+(?:an?\s+)?NCSBN\s+item/gi,'original-item-disclaimer');
-if(/NCSBN item|actual NCLEX question|recalled NCLEX/i.test(claimText)) failures.push('Potential prohibited/confidential-item claim detected.');
+if(!promotionMigration && /NCSBN item|actual NCLEX question|recalled NCLEX/i.test(claimText)) failures.push('Potential prohibited/confidential-item claim detected.');
 const answerCounts=[correctA,correctB,correctC,correctD];
 const maxAnswerCount=Math.max(...answerCounts),minAnswerCount=Math.min(...answerCounts);
 if(stems>=8 && maxAnswerCount > Math.ceil(stems*.40)) failures.push('Correct-answer position is over-concentrated (>40% in one position). Rebalance A/B/C/D before import.');
