@@ -1,14 +1,14 @@
 -- Verify complete 1,000-item RN master-bank load and native item-type distribution.
 begin;
 do $$
-declare total_count int; mc int; matrix_n int; sata int; cloze int; hi int; bow int;
+declare total_count int; c1 int; c2 int; c3 int; mc int; matrix_n int; sata int; cloze int; hi int; bow int;
 begin
  select count(*) into total_count
  from public.question_versions
  where source_id like 'RNMaster-Set%-RN-%'
     or source_id like 'Set01-Cardiovascular-RN-%'
     or source_id like 'Set03-RN-%';
- if total_count <> 1000 then raise exception 'RN master load incomplete: expected 1000, found %', total_count; end if;
+ select count(*) into c1 from public.question_versions where source_id like 'RNMaster-Set%-RN-%'; select count(*) into c2 from public.question_versions where source_id like 'Set01-Cardiovascular-RN-%'; select count(*) into c3 from public.question_versions where source_id like 'Set03-RN-%'; if total_count <> 1000 then raise exception 'RN master load incomplete: total %, RNMaster %, Set01 %, Set03 %', total_count,c1,c2,c3; end if;
  select
   count(*) filter(where item_type='single_best_answer'),
   count(*) filter(where item_type='matrix_grid'),
