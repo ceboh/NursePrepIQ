@@ -46,6 +46,7 @@ loop
     when 'nclex_alignment' then 'Source item is mapped to NCLEX-RN Client Needs and native response format; not psychometric validation.'
     else 'Source stem, response configuration, and rationale were preserved and checked for import consistency.' end,
    jsonb_build_object('source_id',r.source_id,'human_review',false,'psychometric_validation',false,'admission','deterministic_source_consistency'));
+ end loop;
 
  if not public.question_ready_for_production(r.question_id,r.version) then
    raise exception 'Readiness gate failed %',r.source_id;
