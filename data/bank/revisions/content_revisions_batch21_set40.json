@@ -1,0 +1,183 @@
+{
+ "_comment": "Batch 21 (Set 40). Distractor-only rewrites to remove the longest-answer cue. Correct options, stems, and rationales are unchanged; each distractor keeps its original meaning and stays wrong for the same reason.",
+ "RN-S40-01": {
+  "B": "A client with an ankle sprain from basketball who can bear some weight on the foot",
+  "C": "A client with a sore throat and a temperature of 100.4°F (38°C) who is drinking fluids",
+  "D": "A client requesting a tetanus booster after a clean scrape on the forearm yesterday"
+ },
+ "RN-S40-02": {
+  "A": "Serum amylase and lipase levels",
+  "C": "Hemoglobin A1C and glucose",
+  "D": "Uric acid and lipid panel"
+ },
+ "RN-S40-03": {
+  "A": "\"Avoid walking for about a week so that the treated veins can rest and close off properly, and keep your legs raised up on pillows as much as you possibly can each day.\"",
+  "C": "\"Apply warm heat packs to the injection sites several times a day to reduce the bruising and help the treated veins heal and fade more quickly.\"",
+  "D": "\"Sit with your legs crossed when you're resting so that gentle pressure is put on the treated veins, which helps them close off and stay closed.\""
+ },
+ "RN-S40-04": {
+  "A": "Right after eating a large meal, when the client has the most energy for the vest treatment and is less likely to feel tired or short of breath during it",
+  "C": "Only when the client has a fever or other signs of a lung infection, since the vest is used to treat infections rather than to prevent them",
+  "D": "Once a week, on the same day each week, so that the treatment doesn't interfere with the client's school schedule or daily activities"
+ },
+ "RN-S40-05": {
+  "A": "Flush the catheter with a large volume of saline immediately to make sure that it is patent and that fluid flows freely through each of the lumens",
+  "C": "Start the prescribed vasopressors right away through the new line, since the client needs them and the line was placed by an experienced provider",
+  "D": "Remove the sterile dressing to look at the insertion site, and leave it open to air so that the site can be checked easily during each shift"
+ },
+ "RN-S40-06": {
+  "A": "\"You don't need to do anything, since meningitis only spreads through blood contact and not through sharing a room or eating utensils.\"",
+  "C": "\"You need the live meningitis vaccine instead of antibiotics, since the vaccine will protect you right away from getting sick this week.\"",
+  "D": "\"Wait until you have symptoms like a fever or a stiff neck, and then start antibiotics, since treating people early doesn't prevent the illness.\""
+ },
+ "RN-S40-08": {
+  "A": "Administer it as prescribed, since glyburide is a commonly used oral diabetes medication and the provider has reviewed the client's kidney function",
+  "C": "Double the dose so that the client's glucose comes down faster, and check the glucose again before the next meal to see how well it worked",
+  "D": "Give it at bedtime without food so that it works overnight and the client's fasting glucose is lower when it is checked in the morning"
+ },
+ "RN-S40-09": {
+  "A": "Improved bone density and a lower risk of hip and spine fractures as the client gets older",
+  "C": "A decreased risk of infections, including pneumonia and intestinal infections",
+  "D": "Hyperkalemia, along with high calcium levels and high magnesium levels in the blood"
+ },
+ "RN-S40-10": {
+  "A": "\"It's your body weight right after a big meal, when your stomach is full and you've had plenty of fluids to drink during the day.\"",
+  "C": "\"It's your weight just before dialysis starts, when all of the fluid you've gained since the last treatment is still in your body.\"",
+  "D": "\"It's what you weighed as a child or a young adult, before you developed kidney disease, which is the weight your body tries to return to.\""
+ },
+ "RN-S40-13": {
+  "A": "\"These are normal digestive changes with age, so try eating smaller meals and adding more fiber to your diet.\"",
+  "C": "\"Take an over-the-counter antacid with meals and wait a few months to see whether the symptoms go away.\"",
+  "D": "\"You only need to worry if you have vaginal bleeding, since that's the main early sign of ovarian cancer.\""
+ },
+ "RN-S40-14": {
+  "A": "No treatment unless symptoms such as fever, headache, or confusion develop over the next several weeks",
+  "C": "A course of oral antibiotics only, such as amoxicillin-clavulanate, to prevent infection of the bite wound",
+  "D": "A single tetanus shot only, along with a clean dressing over the bite and a follow-up wound check in about a week"
+ },
+ "RN-S40-15": {
+  "A": "Force the client to recall the event in full detail immediately so that the memories can be processed before they become buried even deeper",
+  "C": "Tell the client that they are faking the memory loss to avoid talking about the event, and that they need to try harder",
+  "D": "Leave the client alone for long periods so that the client has time and space to remember the event without any interruptions"
+ },
+ "RN-S40-16": {
+  "A": "Encourage the client to shower and change into clean clothes before the exam begins, so that the client feels more comfortable and less distressed during the physical examination",
+  "C": "Question the client closely about why they were in that situation and what they could have done differently, so that all of the details are documented clearly for the police report",
+  "D": "Discard the client's clothing in the regular trash right away so that the client doesn't have to see it again, and provide a clean hospital gown and a warm blanket for the client's comfort"
+ },
+ "RN-S40-17": {
+  "A": "\"It treats a urinary tract infection that was found on your last urine test, so that it doesn't spread to your kidneys.\"",
+  "C": "\"The antibiotic will help speed up your labor by softening the cervix, so that your baby is born sooner and with less stress.\"",
+  "D": "\"Antibiotics are only needed after the baby is born, and only if the baby shows signs of infection, such as a fever or trouble feeding.\""
+ },
+ "RN-S40-18": {
+  "A": "A normal finding in all newborns, caused by loose hip ligaments from the mother's pregnancy hormones",
+  "C": "A sign of a clavicle fracture from a difficult delivery, which needs an x-ray of the shoulder",
+  "D": "A sign of hypotonia, suggesting generally weak muscle tone that needs a full neurological evaluation"
+ },
+ "RN-S40-19": {
+  "A": "Growth plate fractures heal more slowly than adult fractures in all cases, so the cast will need to stay on for several months",
+  "C": "Children don't usually need casts for growth plate fractures, since young bones heal quickly on their own with rest and a sling",
+  "D": "Growth plate injuries never need treatment or follow-up, since the bone will straighten itself out as the child continues to grow taller"
+ },
+ "RN-S40-24": {
+  "A": "Give both doses as scheduled and recheck the client's vital signs in an hour",
+  "C": "Give the sertraline only and hold the tramadol until the next dose",
+  "D": "Give the tramadol with an extra dose of ondansetron for the nausea"
+ },
+ "PN-S40-01": {
+  "A": "\"Your baby is severely constipated, so you'll need to give a glycerin suppository every time your baby goes more than a day without having a stool.\"",
+  "C": "\"Give your baby a little prune or apple juice each day to soften the stools and help your baby have a bowel movement every single day.\"",
+  "D": "\"Switch your baby over to formula, since breast milk alone doesn't have enough fiber to keep your baby's bowel movements regular and soft.\""
+ },
+ "PN-S40-02": {
+  "A": "\"Wait for the magnets to pass in your child's stool over the next few days, and check each diaper carefully until you find both of them.\"",
+  "C": "\"Give your child a laxative tonight to help the magnets move through the bowel faster, and then watch for them in the diaper.\"",
+  "D": "\"Only worry if your child starts vomiting or has a fever, since most small objects pass through the bowel without causing any problems.\""
+ },
+ "PN-S40-03": {
+  "A": "\"Dental sealants are only meant for adults with weak teeth, since children's new permanent teeth are strong enough to resist cavities on their own.\"",
+  "C": "\"Once your child has sealants, they replace the need for brushing the back teeth, since the coating keeps the teeth clean on its own.\"",
+  "D": "\"Sealants can actually cause cavities, since bacteria can get trapped under the coating and start to break down the tooth underneath.\""
+ },
+ "PN-S40-04": {
+  "A": "\"Let them sleep it off on the couch, and then check on them again in the morning.\"",
+  "C": "\"Give them a few cups of strong coffee to wake them up and help them sober up faster.\"",
+  "D": "\"Put them in a cold shower to shock them awake and bring them back around.\""
+ },
+ "PN-S40-05": {
+  "A": "\"Guess which pill is which based on the pill color and shape, since they usually look the same.\"",
+  "C": "\"Mix all of your pills together in one container so that you only have one bottle to read and to open.\"",
+  "D": "\"Stop taking any medications whose labels you can't read until a family member can come and help.\""
+ },
+ "PN-S40-06": {
+  "A": "An alert, cooperative adult who hasn't eaten or had anything to drink for several hours",
+  "C": "A client who drank a glass of water about 30 minutes ago and is alert",
+  "D": "A client with a sprained ankle who is alert and able to follow directions"
+ },
+ "PN-S40-10": {
+  "A": "With the prongs curving upward toward the forehead, so that the oxygen flow is directed higher up into the nasal passages and sinuses",
+  "C": "Taped across the client's mouth and cheeks so that the oxygen can be breathed in through either the nose or the mouth",
+  "D": "With one prong in the mouth and the other in a nostril, so that the client receives oxygen with every breath"
+ },
+ "PN-S40-11": {
+  "A": "\"Everyone over age 60 should take a low-dose aspirin every day to help prevent a first heart attack or a stroke later on.\"",
+  "C": "\"Aspirin has no real risks at low doses, so it's safe to start taking it on your own whenever you like.\"",
+  "D": "\"Take a full-strength aspirin every day instead of low-dose, since it gives your heart better protection.\""
+ },
+ "PN-S40-12": {
+  "A": "\"Dark yellow urine means that you're well hydrated, since your kidneys are holding on to all of the fluid that your body needs during the day.\"",
+  "C": "\"Thirst is never a helpful sign, so you should ignore it and drink a set amount of water each day no matter how you feel.\"",
+  "D": "\"Drink water until your urine is completely clear all the time, since clear urine is the only sign that you're drinking enough.\""
+ },
+ "PN-S40-13": {
+  "A": "\"Go to the bathroom every time you feel any urge at all, even a slight one, so that your bladder never gets full enough to leak.\"",
+  "C": "\"Stop drinking fluids for most of the day so that your bladder fills more slowly and you don't feel the urge to go as often.\"",
+  "D": "\"Only urinate once a day, holding it in for as long as you possibly can each time, so that your bladder learns to stretch and hold more urine.\""
+ },
+ "PN-S40-14": {
+  "A": "Finish buttoning the shirt for the resident to save time, so that the resident doesn't become tired or frustrated by the task",
+  "C": "Tell the resident to hurry so that breakfast isn't missed, and remind the resident that other residents are waiting",
+  "D": "Dress the resident every day from now on so that the resident doesn't have to struggle with buttons or zippers again"
+ },
+ "PN-S40-15": {
+  "A": "\"Apply a thick ointment, such as petroleum jelly, over the bumps several times a day to soothe the skin and help them heal.\"",
+  "C": "\"Add more layers of clothing so that your baby's skin is protected from the air and the bumps don't spread to other areas.\"",
+  "D": "\"Your baby needs antibiotics for this rash, so call the provider today to get a prescription before the bumps spread further.\""
+ },
+ "PN-S40-16": {
+  "A": "From the knee down to the toes, starting high up on the leg so that the swelling is pushed down toward the foot and away from the injured ankle joint itself",
+  "C": "As tightly as possible around the whole foot and ankle so that the injured joint can't move at all and the swelling is held down as firmly as possible",
+  "D": "Only around the ankle joint itself in a single layer, leaving the foot and toes completely uncovered so that the client can walk more easily in a shoe"
+ },
+ "PN-S40-18": {
+  "A": "\"Hold your breath for as long as you possibly can, and then let it out slowly through your mouth when you can't hold it.\"",
+  "C": "\"Exercise vigorously until you're completely exhausted, so that your muscles are too tired to stay tense afterward.\"",
+  "D": "\"Think about your problems in as much detail as you can, so that you can work through each worry one at a time.\""
+ },
+ "PN-S40-19": {
+  "A": "\"At about 6 weeks, usually around the time of your first prenatal visit and your first ultrasound.\"",
+  "C": "\"Not until about 36 weeks, when your baby is big enough for you to feel the kicks from the outside.\"",
+  "D": "\"You won't feel any movement until labor begins, since the baby is too small and cushioned by fluid before then.\""
+ },
+ "PN-S40-20": {
+  "A": "\"This much hair shedding means you have a serious illness, so you'll need blood tests and a referral to a specialist right away.\"",
+  "C": "\"You should stop breastfeeding now, since breastfeeding hormones are causing the shedding, and your hair will stop falling out once you do.\"",
+  "D": "\"You're going to lose all of your hair over the next few months, since this kind of shedding after a pregnancy usually doesn't stop on its own.\""
+ },
+ "PN-S40-21": {
+  "A": "\"Eye crossing like this is always a serious problem at any age, so your baby needs to see an eye specialist this week for more testing and possible surgery.\"",
+  "C": "\"Your baby needs glasses now to straighten the eyes, so ask your provider for a referral to get your baby fitted for a pair of infant glasses.\"",
+  "D": "\"Cover one of your baby's eyes with a patch for a few hours each day, starting now, so that the other eye gets stronger and stops crossing on its own.\""
+ },
+ "PN-S40-22": {
+  "A": "Hold the cap steady in one hand and carefully push the needle into it with the other hand",
+  "C": "Bend the needle first so that it can't stick anyone, and then place the cap back over it",
+  "D": "Hand the uncapped needle carefully to a coworker so that the coworker can take it to a sharps container"
+ },
+ "PN-S40-23": {
+  "A": "To increase the client's pain so that the client asks for the pain medication on a regular schedule",
+  "C": "To keep the client awake during the day so that the client sleeps better at night after surgery",
+  "D": "To reduce the client's appetite so that the client isn't tempted to eat before the bowel sounds return"
+ }
+}
