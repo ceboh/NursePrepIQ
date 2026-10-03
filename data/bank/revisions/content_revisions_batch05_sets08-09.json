@@ -1,0 +1,267 @@
+{
+ "_comment": "Batch 05 (Sets 8-9). Distractor-only rewrites to remove the longest-answer cue. Correct options, stems, and rationales are unchanged; each distractor keeps its original meaning and stays wrong for the same reason.",
+ "RN-S08-02": {
+  "A": "Slow the transfusion to a keep-vein-open rate and recheck the client's vital signs in 15 minutes",
+  "C": "Administer acetaminophen as prescribed and continue the transfusion at the same rate",
+  "D": "Flush the existing blood tubing with 0.9% sodium chloride to clear the line"
+ },
+ "RN-S08-04": {
+  "A": "Increasing the heparin infusion rate to treat the new deep vein thrombosis in the leg",
+  "C": "Transfusing platelets to bring the platelet count back toward the normal range",
+  "D": "Switching from heparin to enoxaparin subcutaneously every 12 hours"
+ },
+ "RN-S08-05": {
+  "A": "Increased platelets, shortened PT and aPTT, elevated fibrinogen, and normal D-dimer",
+  "C": "Normal platelets, normal PT and aPTT, normal fibrinogen, and normal D-dimer",
+  "D": "Elevated hemoglobin and hematocrit, normal PT, and decreased D-dimer"
+ },
+ "RN-S08-07": {
+  "A": "Encourage oral fluids and reassess the client's pain and breathing in 4 hours",
+  "C": "Discharge the client home with oral antibiotics and a follow-up clinic visit in about 1 week",
+  "D": "Apply a cold compress to the chest to relieve the pain and reduce the fever"
+ },
+ "RN-S08-08": {
+  "A": "\"Take each dose with a full glass of milk to reduce any stomach upset it may cause.\"",
+  "C": "\"Take it at the same time as an antacid to protect your stomach lining.\"",
+  "D": "\"Stop taking it and call your provider if your stools turn dark or black.\""
+ },
+ "RN-S08-09": {
+  "B": "\"Eating more red meat, eggs, and dairy foods every day will cure this kind of anemia.\"",
+  "C": "\"I'll take iron pills every day for 3 months, and then I can stop.\"",
+  "D": "\"I only need treatment until my energy improves and the fatigue goes away.\""
+ },
+ "RN-S08-13": {
+  "A": "Hypokalemia, hypophosphatemia, hypercalcemia, and low uric acid",
+  "C": "Hyponatremia with all other electrolytes in the normal range",
+  "D": "Normal electrolytes with an elevated hemoglobin level"
+ },
+ "RN-S08-14": {
+  "B": "Bilateral ankle edema with no swelling of the face, neck, or arms at all",
+  "C": "Hypotension with warm, flushed extremities and a bounding pulse",
+  "D": "Severe low back pain with new numbness and weakness in both legs"
+ },
+ "RN-S08-16": {
+  "A": "Put on two pairs of gloves, pick up the implant by hand, and reinsert it into the vagina right away",
+  "C": "Discard it in the red biohazard container in the room and document the event in the chart",
+  "D": "Leave it in the bed linens and continue care, then report it at the end of the shift"
+ },
+ "RN-S08-17": {
+  "A": "Protamine sulfate given by slow IV injection over 10 minutes",
+  "C": "Increased warfarin dose for each of the next 3 days",
+  "D": "Oral aspirin 81 mg once daily with breakfast"
+ },
+ "RN-S08-18": {
+  "A": "\"I'll need to have INR blood tests every week so my provider can adjust the dose.\"",
+  "C": "\"I need to avoid eating spinach, kale, broccoli, and all other green leafy vegetables.\"",
+  "D": "\"If I forget to take a dose, I can just double my next dose so I stay on track with my schedule.\""
+ },
+ "RN-S09-01": {
+  "A": "A client with an MRSA wound infection on contact precautions in a private room with the door closed",
+  "C": "A client with HIV who is asking about medication refills before being discharged home today",
+  "D": "A client with Clostridioides difficile on contact precautions who is resting comfortably in bed"
+ },
+ "RN-S09-03": {
+  "A": "Gloves, gown, mask, goggles or face shield",
+  "C": "Mask, gloves, gown, goggles or face shield",
+  "D": "Goggles or face shield, gloves, mask, gown"
+ },
+ "RN-S09-05": {
+  "B": "Live attenuated varicella vaccine to prevent chickenpox and shingles",
+  "C": "Discontinuation of antiretroviral therapy until the CD4 count improves",
+  "D": "High-dose corticosteroids to reduce inflammation in the lungs"
+ },
+ "RN-S09-06": {
+  "A": "\"I can skip my doses on weekends as long as I feel well, since my viral load is already low.\"",
+  "C": "\"Once my CD4 count is back in the normal range, I can stop taking the medication for good.\"",
+  "D": "\"Missing a few doses here and there won't affect whether the medication keeps working for me over the long run.\""
+ },
+ "RN-S09-08": {
+  "B": "\"Take each dose with a glass of grapefruit juice.\"",
+  "C": "\"Expect your urine to turn orange while taking it.\"",
+  "D": "\"Stop the medication once your joint pain feels better.\""
+ },
+ "RN-S09-09": {
+  "A": "Document the food allergies in the medical record and notify the dietary department only",
+  "C": "Arrange a test exposure to latex gloves before surgery to see whether or not the client reacts",
+  "D": "No further action is needed beyond completing the routine preoperative checklist"
+ },
+ "RN-S09-10": {
+  "A": "\"Remove your sleeve and inject it into the muscle of your upper arm, the same place you get a flu shot.\"",
+  "C": "\"Use it only if taking an antihistamine such as diphenhydramine by mouth doesn't relieve your symptoms within 30 minutes.\"",
+  "D": "\"After you use it, you don't need any further medical care if your breathing and swelling improve.\""
+ },
+ "RN-S09-14": {
+  "A": "\"Hold a lit match to the tick to burn it off, then wash the area with soap and water.\"",
+  "C": "\"Cover the tick with a thick layer of petroleum jelly and wait for it to back out and fall off on its own.\"",
+  "D": "\"Twist the tick quickly while squeezing its body between your fingers to pull it out.\""
+ },
+ "RN-S09-15": {
+  "A": "A nurse who had chickenpox in childhood and has never had a shingles outbreak",
+  "C": "A nurse who received both doses of the varicella vaccine as a teen",
+  "D": "A nurse who had an episode of shingles on the back last year"
+ },
+ "RN-S09-16": {
+  "A": "Continue the infusion at the same rate and recheck the client's skin and vital signs in 30 minutes to see if it fades",
+  "C": "Administer epinephrine 0.3 mg IM into the outer thigh and call the rapid response team for anaphylaxis",
+  "D": "Discontinue the vancomycin permanently and document a vancomycin allergy in the client's record"
+ },
+ "PN-S08-03": {
+  "A": "\"Give it mixed with a glass of milk at breakfast so it tastes better to your child.\"",
+  "C": "\"Mix the full dose into the child's bottle of formula so your child takes it without noticing.\"",
+  "D": "\"Stop giving it and call the provider if your child's stools turn dark or black.\""
+ },
+ "PN-S08-04": {
+  "B": "White bread, white rice, plain pasta, saltine crackers, and popcorn",
+  "C": "Milk, cheese, yogurt, cottage cheese, and other dairy products",
+  "D": "Apples, bananas, pears, grapes, and other fresh fruits"
+ },
+ "PN-S08-06": {
+  "A": "\"I'll drink plenty of water every day, even when I'm not thirsty.\"",
+  "C": "\"I'll dress warmly in cold weather and wear gloves and a hat.\"",
+  "D": "\"I'll get my vaccines on time to prevent infections.\""
+ },
+ "PN-S08-09": {
+  "A": "Only after the client vomits for the first time",
+  "C": "At bedtime only, to help the client sleep",
+  "D": "Once the client asks for it during treatment"
+ },
+ "PN-S08-10": {
+  "A": "Rinsing with an alcohol-based mouthwash after every meal and at bedtime",
+  "C": "Brushing the teeth and gums thoroughly with a firm toothbrush twice a day",
+  "D": "Using lemon glycerin swabs to moisten the mouth every few hours"
+ },
+ "PN-S08-11": {
+  "A": "\"It's only hair, after all. It will grow back once your treatments are over.\"",
+  "C": "\"Not everyone loses their hair with chemotherapy, so please try not to worry about it.\"",
+  "D": "\"You should focus on getting better instead of worrying about your hair.\""
+ },
+ "PN-S08-12": {
+  "A": "No special precautions are needed for urine",
+  "C": "Wear a surgical mask only while emptying it",
+  "D": "Wear sterile gloves while emptying the urinal"
+ },
+ "PN-S08-13": {
+  "A": "\"Use a heating pad on the area at night to soothe the irritated skin.\"",
+  "C": "\"Apply a scented, perfumed lotion to the area every day.\"",
+  "D": "\"Scrub the area with a washcloth to remove dead skin.\""
+ },
+ "PN-S08-14": {
+  "A": "Mild tiredness in the late afternoon that improves after a short rest",
+  "C": "Increased appetite at meals and snacking more between meals",
+  "D": "Dry, flaky skin on the hands and lower legs in winter"
+ },
+ "PN-S08-16": {
+  "A": "Encourage the child to walk it off and keep moving so the knee does not become stiff",
+  "C": "Give a dose of children's aspirin for the pain and swelling, then recheck the knee in about an hour",
+  "D": "Apply a warm, moist heat pack to the knee for 20 minutes to ease the pain and stiffness"
+ },
+ "PN-S08-17": {
+  "A": "\"Have all of your blood pressures taken on your left arm from now on.\"",
+  "C": "\"Carry heavy grocery bags with your left arm to help it get stronger.\"",
+  "D": "\"Keep your left arm hanging down at your side as much as possible.\""
+ },
+ "PN-S08-19": {
+  "A": "\"Screening mammograms aren't needed until you turn 60, unless you have a strong family history.\"",
+  "C": "\"You only need a mammogram if you or your provider feel a new lump during a breast exam, so watch for any changes.\"",
+  "D": "\"Screening mammograms are recommended once every 5 years, starting at age 40, for women at average risk.\""
+ },
+ "PN-S08-20": {
+  "A": "Give opioids only when the client reports that the pain has become severe",
+  "C": "Avoid opioids to prevent the client from developing an addiction",
+  "D": "Give the analgesics only at bedtime so the client can sleep through the night"
+ },
+ "PN-S08-21": {
+  "A": "Mild itching of the face, arms, and upper chest",
+  "B": "No bowel movement in the past 2 days",
+  "D": "Pain rated 3/10 after the last dose"
+ },
+ "PN-S08-22": {
+  "A": "Increased appetite with requests for favorite foods at each meal",
+  "C": "Increased urine output with clear, pale urine over the past 24 hours",
+  "D": "Improved alertness and more conversation with family for several days in a row"
+ },
+ "PN-S08-23": {
+  "A": "\"No, she can't hear anything anymore now that she is no longer responding.\"",
+  "C": "\"It doesn't really matter at this point, so please don't worry about what you say to her.\"",
+  "D": "\"She can hear you only if you speak very loudly, right next to her ear.\""
+ },
+ "PN-S09-02": {
+  "A": "Rub the hands together for about 5 seconds, then dry them completely with a clean paper towel",
+  "C": "Apply the product only to the palms of both hands and rub them together until dry",
+  "D": "Rinse the hands with warm running water after rubbing the product over both hands"
+ },
+ "PN-S09-03": {
+  "A": "When shaking hands with a client and the client's family members during introductions on admission",
+  "C": "Only when caring for clients who have a known infection or a positive culture result",
+  "D": "When charting in the client's medical record on the computer at the nurses' station"
+ },
+ "PN-S09-05": {
+  "A": "Use the unit's shared stethoscope and wipe it with an alcohol pad afterward",
+  "C": "Wear a gown only when the client is actively coughing or sneezing",
+  "D": "Allow the client to walk in the hallway without restrictions or a gown"
+ },
+ "PN-S09-07": {
+  "A": "Recap the needle carefully using both hands, then carry it down the hall to the sharps container",
+  "C": "Place it on the bedside table to dispose of later, after charting the injection",
+  "D": "Bend the needle against a hard surface before disposal so that it cannot be reused"
+ },
+ "PN-S09-08": {
+  "A": "Report the exposure to the supervisor right away",
+  "C": "Rub the eyes with a clean tissue to remove the blood",
+  "D": "Complete an incident report about the exposure"
+ },
+ "PN-S09-09": {
+  "A": "Keeping the client's door open to improve air circulation",
+  "C": "Wearing a surgical mask at all times on the unit",
+  "D": "Giving antibiotics to all clients on admission"
+ },
+ "PN-S09-11": {
+  "A": "\"The shingles vaccine is only recommended for people over 80, so you don't need it yet.\"",
+  "C": "\"You don't need the shingles vaccine if you've already had chickenpox as a child.\"",
+  "D": "\"The shingles vaccine is a single lifetime dose that is given to all adults when they turn 65.\""
+ },
+ "PN-S09-12": {
+  "A": "\"Because of your egg allergy, you can never receive any type of flu vaccine, even an egg-free one.\"",
+  "C": "\"You'll need to be admitted to the hospital overnight for observation after you get the vaccine, just in case.\"",
+  "D": "\"You need an allergy skin test with egg protein first, before you can get any flu vaccine.\""
+ },
+ "PN-S09-13": {
+  "A": "\"I'll take the doses at evenly spaced times each day.\"",
+  "C": "\"I'll report any severe or watery diarrhea right away.\"",
+  "D": "\"I'll let my provider know if I break out in a rash.\""
+ },
+ "PN-S09-16": {
+  "A": "Use latex gloves for care as long as they are powder-free",
+  "C": "Wear latex gloves over nonlatex gloves for extra protection",
+  "D": "Ask the client to sign a waiver before using latex gloves"
+ },
+ "PN-S09-17": {
+  "A": "\"I'll inject it into the outer side of my thigh, even through my pants.\"",
+  "C": "\"I'll call 911 right after I use the auto-injector.\"",
+  "D": "\"I'll carry it with me at all times, even at home.\""
+ },
+ "PN-S09-19": {
+  "B": "Leukoplakia of the tongue",
+  "C": "A normal finding for the tongue"
+ },
+ "PN-S09-20": {
+  "A": "\"Spend some time in the sun each day to help improve your skin rash.\"",
+  "C": "\"Avoid all exercise and stay in bed or a chair as much as possible.\"",
+  "D": "\"You can stop taking your medications once your rash starts to improve.\""
+ },
+ "PN-S09-21": {
+  "A": "\"Shave the child's head completely so that the lice and nits have nowhere left to live.\"",
+  "C": "\"Keep the child home from school for 1 month so the lice don't spread to other students.\"",
+  "D": "\"Have all of the siblings share the same comb so that everyone in the family gets treated at the same time.\""
+ },
+ "PN-S09-22": {
+  "A": "\"Don't say that. You're going to be just fine, and you'll feel better soon.\"",
+  "C": "\"You should have been more careful to protect yourself from getting this infection.\"",
+  "D": "\"Lots of people have HIV these days, so it's really not such a big deal.\""
+ },
+ "PN-S09-23": {
+  "A": "Swab the purulent drainage on the old dressing before discarding it",
+  "C": "Swab the intact skin around the outer edges of the wound in a circular motion",
+  "D": "Apply antibiotic ointment to the wound before collecting the specimen"
+ }
+}
