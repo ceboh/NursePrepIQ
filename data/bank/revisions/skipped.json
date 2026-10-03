@@ -1,0 +1,3 @@
+{
+  "_comment": "Single-best-answer items exempt from the 15% length rule in check-revisions.mjs. Value is the reason: \"numeric\" for short number/value options that must not be padded; otherwise a one-line note for human review."
+}

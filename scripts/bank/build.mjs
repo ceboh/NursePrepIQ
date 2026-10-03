@@ -2,13 +2,12 @@
 //   node scripts/bank/build.mjs
 // Writes data/bank/build/{questions,case_studies}.json plus review reports, and exits
 // non-zero if any answer key cannot be resolved unambiguously.
-import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { classifySystem, classifyDiscipline, CASE_CATEGORIES } from './taxonomy.mjs';
+import { BANK_DIR as BANK, applyRevisions, loadBanks } from './revisions.mjs';
 
-const BANK = new URL('../../data/bank/', import.meta.url);
 const OUT = new URL('build/', BANK);
-const FILES = ['nurseprepiq_rn_bank.json', 'nurseprepiq_pn_bank.json'];
 const ITEM_TYPES = ['single_best_answer', 'multiple_response', 'matrix_grid', 'drop_down_cloze', 'highlight', 'bow_tie'];
 // Manual answer-key decisions for items the matcher cannot resolve: { "<source_id>": { "segments": ["s1"] } | { "groups": [["opt text"]] } }
 const overrides = existsSync(new URL('answer_key_overrides.json', BANK)) ? JSON.parse(readFileSync(new URL('answer_key_overrides.json', BANK), 'utf8')) : {};
@@ -159,34 +158,11 @@ const BUILDERS = { single_best_answer: choiceResponse, multiple_response: choice
 
 // ---------- build ----------
 // ---------- content revisions ----------
-// data/bank/revisions/*.json, applied in filename order on top of the source bank. Each file
-// maps source_id -> { option_key: new_text } (keys starting with "_" are comments). Only
-// distractors may be revised; any error stops the build before anything is written.
-const banks = FILES.map(file => JSON.parse(readFileSync(new URL(file, BANK), 'utf8')));
-const REVISIONS = new URL('revisions/', BANK);
-const revised = new Map();   // source_id -> [{ file, key, from, to }]
+// data/bank/revisions/*.json applied on top of the source bank (see revisions.mjs). Any
+// error stops the build before anything is written.
+const banks = loadBanks();
 {
-  const byId = new Map(banks.flatMap(b => b.questions).map(q => [q.source_id, q]));
-  const errors = [];
-  const files = existsSync(REVISIONS) ? readdirSync(REVISIONS).filter(f => f.endsWith('.json')).sort() : [];
-  for (const file of files) {
-    const revisions = JSON.parse(readFileSync(new URL(file, REVISIONS), 'utf8'));
-    for (const [sourceId, changes] of Object.entries(revisions)) {
-      if (sourceId.startsWith('_')) continue;
-      const q = byId.get(sourceId);
-      if (!q) { errors.push(`${file}: unknown source_id ${sourceId}`); continue; }
-      if (!Array.isArray(q.options)) { errors.push(`${file}: ${sourceId} is a ${q.item_type} item with no options`); continue; }
-      for (const [key, text] of Object.entries(changes)) {
-        const option = q.options.find(o => o.key === key);
-        if (!option) { errors.push(`${file}: ${sourceId} has no option ${key}`); continue; }
-        if (option.is_correct) { errors.push(`${file}: ${sourceId} option ${key} is a correct answer; revisions may only change distractors`); continue; }
-        if (typeof text !== 'string' || !text.trim()) { errors.push(`${file}: ${sourceId} option ${key} has empty text`); continue; }
-        if (option.text === text) continue;
-        revised.set(sourceId, [...(revised.get(sourceId) || []), { file, key, from: option.text, to: text }]);
-        option.text = text;
-      }
-    }
-  }
+  const { files, revised, errors } = applyRevisions(banks);
   if (errors.length) { console.error(`Revisions rejected (${errors.length}); nothing was built:\n` + errors.join('\n')); process.exit(1); }
   console.log(`revisions: ${files.length} file(s), ${revised.size} item(s) changed`);
   for (const [id, changes] of revised) console.log(`  ${id}: ${changes.map(c => c.key).join(', ')} (${[...new Set(changes.map(c => c.file))].join(', ')})`);

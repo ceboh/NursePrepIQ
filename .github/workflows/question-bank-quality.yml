@@ -1,8 +1,10 @@
 name: Question Bank Quality Gate
 
 # v2 bank: content lives in data/bank/*.json and is loaded by scripts/bank/load.mjs.
-# This gate rebuilds the bank (which fails on unresolved answer keys, broken case
-# studies, duplicate ids or unknown categories) and keeps question content out of migrations.
+# This gate checks content revisions (distractor-only, no duplicate options, longest-answer
+# cue removed in every set a revision file covers), rebuilds the bank (which fails on
+# unresolved answer keys, broken case studies, duplicate ids or unknown categories) and
+# keeps question content out of migrations.
 
 on:
   pull_request:
@@ -32,6 +34,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Check content revisions
+        run: node scripts/bank/check-revisions.mjs
       - name: Build and validate the question bank
         run: node scripts/bank/build.mjs
       - name: Summarise answer-key review notes
