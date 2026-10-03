@@ -1,0 +1,397 @@
+{
+ "_comment": "Batch 19 (Sets 36-37). Distractor-only rewrites to remove the longest-answer cue. Correct options, stems, and rationales are unchanged; each distractor keeps its original meaning and stays wrong for the same reason. RN-S36-11 (urine output rates), PN-S36-09 (needle lengths), and PN-S37-10 (medication time windows) are in skipped.json as numeric.",
+ "RN-S36-01": {
+  "B": "A 34-week infant who is tolerating gavage feedings well, with small residuals and steady weight gain",
+  "C": "A term infant receiving phototherapy for mild jaundice, with eye shields in place and feeding well",
+  "D": "A 36-week infant in an open crib with a stable temperature who is waiting for the scheduled newborn hearing screen"
+ },
+ "RN-S36-02": {
+  "A": "BP higher in the legs than the arms, with strong, bounding femoral pulses",
+  "C": "Equal pulses and equal blood pressures in all four of the extremities",
+  "D": "Bradycardia with a narrow pulse pressure and cool, pale skin in the arms"
+ },
+ "RN-S36-03": {
+  "A": "Increase smoking to reduce stress and help with the pain",
+  "C": "Apply ice to the fingers to numb the pain from the ulcers",
+  "D": "Begin high-intensity exercise immediately to build circulation"
+ },
+ "RN-S36-04": {
+  "A": "Clamp the chest tube right away near the insertion site, and keep it clamped until the provider can assess the client and order a repeat chest x-ray",
+  "C": "Strip the tubing vigorously from the chest toward the drainage unit to clear any clots, and repeat every hour until tidaling returns",
+  "D": "Increase the wall suction to the maximum setting to restart the tidaling and pull any trapped air and fluid out of the pleural space"
+ },
+ "RN-S36-05": {
+  "A": "As soon as the client's cough improves and the client reports feeling better, even before any of the follow-up sputum results are available",
+  "C": "After 24 hours of antibiotics, since most clients with tuberculosis stop being contagious within a day of starting the medications",
+  "D": "Only after the full 6 months of treatment is completed and a final chest x-ray shows that the infection in the lungs has cleared"
+ },
+ "RN-S36-06": {
+  "A": "High-Fowler's at 90 degrees, with the client sitting fully upright in bed to help drain fluid away from the surgical site",
+  "C": "Prone with the neck flexed forward on a pillow, so that the incision at the back of the head stays off the mattress",
+  "D": "Trendelenburg, with the head of the bed lowered below the level of the feet to improve blood flow to the brain and brainstem"
+ },
+ "RN-S36-07": {
+  "A": "No treatment is available after 4.5 hours, so care focuses only on preventing another stroke",
+  "C": "An IV heparin bolus followed by a continuous infusion to keep the clot in the large vessel from growing",
+  "D": "Oral aspirin only, given immediately before any brain imaging is done to rule out a hemorrhage"
+ },
+ "RN-S36-08": {
+  "A": "\"It is a hormone that stops ovulation completely, which allows your ovaries to rest and the cysts to shrink.\"",
+  "C": "\"It causes some weight gain, which helps balance your hormones and make your periods more regular.\"",
+  "D": "\"It is only for the pelvic pain that comes with PCOS, and it doesn't affect insulin or your periods.\""
+ },
+ "RN-S36-09": {
+  "A": "\"You won't need any vitamins after surgery, since you'll get all of the nutrients you need from the healthy, balanced meals you'll be eating each day.\"",
+  "C": "\"Eat large meals three times a day to prevent losing too much weight too quickly while your body adjusts to the smaller stomach pouch.\"",
+  "D": "\"Drink carbonated drinks with your meals to help the food move through your new stomach pouch and to keep you from feeling too full.\""
+ },
+ "RN-S36-10": {
+  "A": "\"Try to avoid having a bowel movement for about a week so that the surgical area has time to heal, and limit what you eat and drink during that time to help with that.\"",
+  "C": "\"Bear down and strain as needed to empty your bowels completely each time, so that stool doesn't build up and put pressure on the surgical area.\"",
+  "D": "\"Sit on a firm, hard chair for long periods each day to apply steady pressure to the surgical area, which helps reduce swelling and stop any bleeding.\""
+ },
+ "RN-S36-12": {
+  "A": "\"Put one large diaper on over the outside of the cast so that it covers the whole perineal opening, and change it every few hours just as you normally would at home.\"",
+  "C": "\"Let your child stand and walk on the cast right away, since putting weight on the legs helps the hip joints heal faster and keeps the leg muscles strong while in the cast.\"",
+  "D": "\"Stuff small, soft toys or cotton balls inside the edges of the cast for comfort, so that the hard cast doesn't rub against your child's skin while they are playing or sleeping at night.\""
+ },
+ "RN-S36-13": {
+  "A": "Hyperglycemia and hypernatremia from the infused products",
+  "C": "Hypokalemia only, with no other electrolyte changes",
+  "D": "Hypertension and bradycardia only, from fluid overload"
+ },
+ "RN-S36-14": {
+  "A": "Weekly INR checks, as is usually done for clients who take warfarin for a long time",
+  "C": "Daily blood glucose checks with a fingerstick meter before breakfast and before dinner each day",
+  "D": "Monthly chest x-rays to look for any spread of the breast cancer to the client's lungs"
+ },
+ "RN-S36-15": {
+  "A": "\"You can't get any type of shingles vaccine because you're immunocompromised, so the best you can do is avoid contact with anyone who has chickenpox.\"",
+  "C": "\"You need the live shingles vaccine, since it gives the strongest protection to people whose immune systems are weakened by their medications.\"",
+  "D": "\"Only people over 80 can get the shingles vaccine, so you'll need to wait until then, even though you're on immunosuppressive therapy.\""
+ },
+ "RN-S36-16": {
+  "A": "Liver enzymes only (AST and ALT), checked every few months during therapy",
+  "C": "Hemoglobin A1C only, to screen for diabetes related to weight gain on lithium",
+  "D": "Amylase and lipase levels, checked every few months to screen the pancreas"
+ },
+ "RN-S36-17": {
+  "A": "Postterm pregnancy has no added risk for the client or the fetus, since the placenta keeps working normally until labor begins on its own, so routine weekly prenatal visits are all that will be needed",
+  "C": "Risk of the fetus being too small to deliver safely, since fetal growth slows down after the due date, so the plan is to wait until the fetus gains more weight before any discussion of induction",
+  "D": "Risk of preterm labor, which increases after 41 weeks of gestation, so the client should rest at home, avoid physical activity, and report any contractions until labor begins on its own"
+ },
+ "RN-S36-18": {
+  "A": "Document the time of the rupture only, and then continue with the client's routine care",
+  "C": "Encourage the client to get up and walk right away to help labor progress more quickly",
+  "D": "Administer oxytocin immediately to strengthen the contractions after rupture"
+ },
+ "RN-S36-19": {
+  "A": "Steady weight gain along the infant's growth curve and finishing each bottle feeding in about 15 minutes",
+  "C": "Sleeping about 16 hours a day, waking up to feed every 3 to 4 hours and settling easily afterward",
+  "D": "Pink mucous membranes, warm hands and feet, and brisk capillary refill of less than 2 seconds"
+ },
+ "RN-S37-01": {
+  "B": "A client at 12 weeks with morning nausea who is keeping down small, frequent meals and plenty of fluids",
+  "C": "A client at 28 weeks asking about the time of her glucose test appointment next week",
+  "D": "A client at 34 weeks with mild ankle swelling in the evening that goes away by morning"
+ },
+ "RN-S37-02": {
+  "A": "\"Avoid walking as much as you can to prevent the leg pain, and use a wheelchair or a motorized scooter for longer distances until your circulation improves.\"",
+  "C": "\"Elevate your legs above the level of your heart whenever they hurt, since raising them up will help more blood flow reach your calf muscles.\"",
+  "D": "\"Use a heating pad on your legs and feet every day to improve the circulation and relax the calf muscles before and after you go for a walk.\""
+ },
+ "RN-S37-03": {
+  "A": "\"Push yourself up from the bed with both arms when you get up, so that you don't strain the muscles in your legs and back.\"",
+  "C": "\"Resume your usual weightlifting routine next week, as long as you feel up to it and the incision isn't painful.\"",
+  "D": "\"Reach up over your head often during the day to stretch the incision and keep the scar from becoming tight and stiff.\""
+ },
+ "RN-S37-04": {
+  "A": "PE is confirmed, and anticoagulation should be started right away",
+  "C": "The test must be repeated daily for several days to rule out PE",
+  "D": "D-dimer is only used to diagnose heart attacks, not blood clots"
+ },
+ "RN-S37-05": {
+  "A": "Pack the wound tightly with sterile gauze to stop the air leak and control any bleeding from the chest wall until surgery",
+  "C": "Leave the wound open and completely uncovered so that the trapped air can escape freely until the provider is able to place a chest tube",
+  "D": "Have the client lie on the uninjured side and then get up and walk around to help the injured lung re-expand more quickly"
+ },
+ "RN-S37-07": {
+  "A": "Rapidly lowering the BP to 120/80 mm Hg with IV antihypertensive medications within the first hour after arrival to prevent any bleeding into the injured brain tissue",
+  "C": "Giving IV nitroprusside immediately to normalize the BP, with the goal of bringing it down to a normal reading within the next few hours of arrival",
+  "D": "Stopping all neurological and blood pressure monitoring, since the client is not eligible for any of the acute stroke treatments that need it"
+ },
+ "RN-S37-08": {
+  "A": "Tightening the glucose targets even further so that the A1C drops lower and the client's body becomes more sensitive to low blood glucose levels again",
+  "C": "Stopping all insulin until the client's warning symptoms of hypoglycemia return and the glucose readings are consistently above the target",
+  "D": "Driving only at night, when traffic is lighter and there is less risk of an accident if the glucose drops while the client is driving"
+ },
+ "RN-S37-09": {
+  "B": "\"Eat a very high-fat diet to replace the calories you're losing in your stools and to help you regain the weight you've lost.\"",
+  "C": "\"Drink alcohol only in moderation, such as one drink a day, since small amounts won't affect your pancreas at all.\"",
+  "D": "\"Take your pancreatic enzymes once a week with your largest meal, and check your glucose only if you feel unwell.\""
+ },
+ "RN-S37-10": {
+  "A": "\"No follow-up visits are needed once your symptoms go away, since being in remission means that the colitis is cured and won't come back.\"",
+  "C": "\"Stop taking the mesalamine once you feel well, and restart it only if you have another flare with diarrhea or bleeding.\"",
+  "D": "\"Colon cancer risk is actually lower with ulcerative colitis, since the inflammation keeps abnormal cells from forming in the colon.\""
+ },
+ "RN-S37-11": {
+  "A": "\"Urinate immediately after the treatment so that the medication doesn't irritate the lining of your bladder, and then flush the toilet right away as you normally would at home.\"",
+  "C": "\"BCG is not infectious to anyone else, so you don't need to take any special precautions with your urine, the toilet, or washing your hands and genitals after each treatment.\"",
+  "D": "\"Drink no fluids at all for 24 hours after each treatment so that the medication stays concentrated in your bladder for as long as possible and has more time to work against the cancer cells in the lining.\""
+ },
+ "RN-S37-13": {
+  "A": "An acute hemolytic transfusion reaction",
+  "C": "Iron deficiency anemia from blood loss",
+  "D": "Acute hepatitis A with liver inflammation"
+ },
+ "RN-S37-14": {
+  "A": "\"Nausea only happens on the day of the treatment itself, so what you're feeling now is probably from something else you ate and should pass on its own.\"",
+  "C": "\"Stop eating for 3 days so that your stomach has time to settle, and drink only small sips of water until the nausea goes away completely.\"",
+  "D": "\"Take your antiemetics only once a week, on the day of your chemotherapy, since taking them more often can make them stop working.\""
+ },
+ "RN-S37-15": {
+  "A": "Normal newborn behavior, since many healthy newborns sleep a great deal and feed poorly during the first week of life",
+  "C": "Early teething, which commonly causes drooling, gum swelling, poor feeding, and fussiness in young infants",
+  "D": "Overdressing, with too many layers of clothing and blankets causing the infant to become sluggish and drowsy"
+ },
+ "RN-S37-16": {
+  "A": "Use the client's legal name in all conversations and care, since that is the name printed on the identification band and in the medical record",
+  "C": "Avoid addressing the client by any name at all during care, so that the client is not made uncomfortable by the difference between the names in the records",
+  "D": "Ask the client's family members which name and pronouns to use instead of asking the client, since they will know what the client prefers"
+ },
+ "RN-S37-17": {
+  "A": "Pull firmly on the umbilical cord to deliver the rest of the placenta quickly so that the uterus can contract and control the bleeding",
+  "C": "Massage the fundus vigorously through the abdominal wall to help the uterus firm up and contract and slow down the bleeding",
+  "D": "Place the client in high-Fowler's position to help the placenta deliver by gravity and drain any blood from the uterus"
+ },
+ "RN-S37-18": {
+  "A": "Immediate intubation and tracheal suctioning to remove the meconium before the newborn takes more breaths",
+  "C": "Deep suctioning of the newborn's stomach to remove any swallowed meconium before the first feeding",
+  "D": "Transfer to the NICU for observation regardless of the newborn's condition or Apgar scores"
+ },
+ "RN-S37-19": {
+  "A": "A chest x-ray only, to look for pneumonia in the lungs",
+  "C": "A throat culture to check for group A strep infection",
+  "D": "A stool culture to check for a bacterial intestinal infection"
+ },
+ "RN-S37-24": {
+  "A": "Reassure the parent that no action is needed, since the child's aspirin therapy can continue exactly as prescribed",
+  "C": "Double the aspirin dose for the next few days to help protect the child from catching influenza from the sibling",
+  "D": "Give the child the live intranasal flu vaccine today to provide quick protection against the sibling's influenza"
+ },
+ "PN-S36-01": {
+  "A": "\"Twice a day with a scented baby soap, so that your baby's skin stays clean and smells fresh between all of the feedings.\"",
+  "C": "\"About once a month is enough, since young babies don't get very dirty and bathing can dry out their skin.\"",
+  "D": "\"Only when the baby starts to smell, since babies don't need regular baths during the first year of life.\""
+ },
+ "PN-S36-03": {
+  "A": "\"Don't discuss personal safety with your child yet; talking about it will only scare them, and at this age they're still too young to understand what you mean.\"",
+  "C": "\"Tell your child that only strangers can be dangerous, so they should stay away from adults they don't know and trust the adults they do.\"",
+  "D": "\"Teach your child to keep any secrets that the adults they know share with them, since that shows respect and helps them learn to be trustworthy.\""
+ },
+ "PN-S36-04": {
+  "A": "\"Tanning beds are safer than the sun, since the UV light is carefully controlled and you can limit exactly how long you're exposed during each tanning session.\"",
+  "C": "\"Getting a base tan in a tanning bed before prom will help prevent skin cancer by protecting your skin from getting sunburned later this summer.\"",
+  "D": "\"Tanning beds only affect older adults, since young skin repairs itself quickly and isn't damaged by just a few sessions before a special event like prom.\""
+ },
+ "PN-S36-05": {
+  "A": "Recommend an over-the-counter laxative and reassure the client that the constipation and weight change will improve with more fiber and fluids each day",
+  "C": "Tell the client that this is a normal part of aging, since older adults often become constipated and eat less and lose some weight as they age",
+  "D": "Suggest skipping a meal or two each day to give the bowels a rest until the constipation and discomfort improve on their own over time"
+ },
+ "PN-S36-06": {
+  "A": "Press the thermometer firmly against one spot on the client's cheek, and hold it still in that spot until the device beeps to show that the temperature reading is done",
+  "C": "Use it over the client's hat or other head covering so that the client doesn't need to be disturbed or uncovered at all during the temperature check",
+  "D": "Hold the thermometer about 12 inches away from the forehead, and point it at the center of the forehead without touching the skin during the reading"
+ },
+ "PN-S36-07": {
+  "A": "Prone: lying face down with the head turned to the side and arms at the sides",
+  "C": "High-Fowler's: sitting upright with the head of the bed at about 90 degrees",
+  "D": "Trendelenburg: on the back with the head of the bed lower than the feet"
+ },
+ "PN-S36-08": {
+  "A": "Nothing, since glucose meters are always accurate as long as they turn on, so the reading should be documented and the client's symptoms watched closely for any changes",
+  "C": "The client's hearing, since a client who can't hear the meter's beep may not have applied enough blood for an accurate reading on the test strip",
+  "D": "The time of day only, since glucose readings are naturally higher in the morning and lower in the evening, which explains the difference in the readings"
+ },
+ "PN-S36-10": {
+  "A": "\"Limit your fluids so that you don't produce as much mucus while the cough lasts.\"",
+  "C": "\"Take it with a little wine or beer at bedtime to help the medicine work faster.\""
+ },
+ "PN-S36-11": {
+  "A": "\"That's a good idea, since your body will usually let you know when your blood pressure is high, so you only need to take the pills on the days when you feel unwell or dizzy.\"",
+  "C": "\"Take your blood pressure pills only when you have a headache, since headaches are the main sign that your blood pressure is too high and needs to come down.\"",
+  "D": "\"Double the dose on the days that you remember to take your pills, so that it makes up for all of the doses you skipped when you were feeling fine.\""
+ },
+ "PN-S36-12": {
+  "A": "\"Eat only bananas, rice, applesauce, and toast for a week, and avoid all other foods until your stools are completely normal.\"",
+  "C": "\"Don't eat anything for 3 days so that your stomach and intestines have time to rest and heal after the infection.\"",
+  "D": "\"Drink only soda for the first few days, since the sugar and fizz help settle your stomach and replace lost fluids.\""
+ },
+ "PN-S36-13": {
+  "A": "Only the total number of accidents each day, without the times, the fluid intake, or what the client was doing when the leakage happened",
+  "C": "Only the client's bowel movements, including the times, the amounts, and the consistency of each stool, for several days in a row",
+  "D": "The meals eaten each day, including the types of foods and the portion sizes, without recording any of the urination or leakage"
+ },
+ "PN-S36-14": {
+  "A": "\"Move your head quickly from side to side several times a day so that you get used to the spinning, and the spells will eventually stop on their own.\"",
+  "C": "\"It's fine to keep driving during the spells, since they only last a few seconds and won't really affect your ability to control the car.\"",
+  "D": "\"Sleep flat on your back without any pillows at all, and avoid turning onto your side, so that the inner-ear crystals stay in place.\""
+ },
+ "PN-S36-15": {
+  "A": "Reapply the same type of tape more tightly over the area so that the dressing stays in place and protects the blistered skin from rubbing and further damage",
+  "C": "Pull the tape off quickly in one fast motion to reduce the client's discomfort, and then leave the area open to the air so that the blisters can dry out",
+  "D": "Ignore the reaction, since redness and blistering under adhesive tape are expected and will clear up on their own once the tape is no longer needed for the dressing"
+ },
+ "PN-S36-16": {
+  "A": "Never remove it for skin care, since taking it off even briefly could damage the knee and undo any of the benefits of the immobilizer",
+  "C": "Tighten the straps until the leg feels numb, so that the knee can't move at all inside the immobilizer while the client rests",
+  "D": "Wear it over damp or wet clothing so that the skin stays cool and the immobilizer doesn't cause the leg to sweat or overheat"
+ },
+ "PN-S36-17": {
+  "A": "\"You're not really the president, and the FBI isn't trying to capture you.\"",
+  "C": "\"Tell me more about being the president and what your job is like.\"",
+  "D": "\"How do you know the FBI is after you? What have they been doing?\""
+ },
+ "PN-S36-18": {
+  "A": "Increasing alcohol use in the evening to help relax and unwind after a long day of caring for the family member",
+  "C": "Skipping meals to save more time for caregiving tasks, appointments, and household chores during the busy day",
+  "D": "Isolating from friends and other family members to focus all of the caregiver's time and energy on the person who needs care"
+ },
+ "PN-S36-19": {
+  "A": "\"Congestion and nosebleeds like this mean that you have a serious infection in your sinuses, so you'll need to start antibiotics right away and see an ear, nose, and throat specialist very soon.\"",
+  "C": "\"Use an over-the-counter decongestant nasal spray several times a day for as many weeks as you need it during pregnancy, since it's the fastest way to clear your nose and stop the nosebleeds.\"",
+  "D": "\"Pick your nose gently with a clean fingertip to clear out the dried blood and mucus inside, since that's the quickest way to relieve the stuffiness and keep your nasal passages open.\""
+ },
+ "PN-S36-20": {
+  "A": "\"Start running about 5 miles every day this week to rebuild your strength and stamina, and push through any bleeding or pelvic soreness that you notice.\"",
+  "C": "\"Don't move around at all for the next 6 weeks; stay in bed or on the couch so that your body can heal completely after the birth.\"",
+  "D": "\"Do several sets of heavy sit-ups today to tighten your stomach muscles and help your abdomen get back to the shape it had before pregnancy.\""
+ },
+ "PN-S36-21": {
+  "A": "\"Bite your baby's nails off gently with your teeth, since that's the safest way to keep them nice and short without any risk of cutting your baby's skin.\"",
+  "C": "\"Tape your baby's hands down to the sides of the crib or to the blanket so that the baby can't reach up to scratch the face while sleeping.\"",
+  "D": "\"Use regular adult nail clippers while the baby is awake and moving around, so that you can see the fingers clearly as you cut each nail short.\""
+ },
+ "PN-S36-22": {
+  "A": "Airborne precautions only, with the toddler in a negative-pressure room and all staff members wearing N95 respirators",
+  "C": "No precautions are needed, since RSV only causes a mild cold and does not spread easily to other children",
+  "D": "Neutropenic precautions, with fresh flowers and raw fruit kept out of the toddler's room to prevent infection"
+ },
+ "PN-S36-23": {
+  "A": "\"Rearrange your furniture often so that the rooms feel fresh and new, and you become more aware of where things are as you move around.\"",
+  "C": "\"Keep the lights dim throughout the house to reduce glare, since bright lighting can make it harder for you to see objects clearly.\"",
+  "D": "\"Store all of your medications in similar containers in the same cabinet so that they're easy to find when it's time for a dose.\""
+ },
+ "PN-S37-01": {
+  "A": "\"Only your baby needs treatment, since the white patches are in the baby's mouth and your nipples will heal on their own.\"",
+  "C": "\"Stop breastfeeding permanently and switch to formula, since the infection will keep passing between you and the baby.\"",
+  "D": "\"This is just breast milk residue on your baby's tongue and cheeks, and it will rinse away with a little water after feedings.\""
+ },
+ "PN-S37-02": {
+  "A": "\"About 30 minutes, so the child has enough time to think about the behavior.\"",
+  "C": "\"Until the child apologizes, no matter how long it takes or how upset they get.\"",
+  "D": "\"An hour in a dark room, so that the child learns that the behavior is serious.\""
+ },
+ "PN-S37-03": {
+  "A": "Aching in both legs in the evening or during the night that is gone by morning, with no limp or fever",
+  "C": "Leg pain that is relieved by gentle massage, warm compresses, and comforting from a parent at bedtime",
+  "D": "Normal activity and play during the day, with no limping or complaints of pain at school or with friends"
+ },
+ "PN-S37-04": {
+  "A": "Have the child lie flat on the exam table, and measure the length of each leg from the hip bone to the inner ankle to compare the two sides",
+  "C": "Check the child's reflexes only, including the knee and ankle reflexes, to look for any signs of nerve compression in the spine",
+  "D": "Have the child walk on tiptoes across the room and then back on the heels, and watch closely for any limping or loss of balance"
+ },
+ "PN-S37-05": {
+  "A": "Use adhesive tape directly on the resident's skin to secure dressings and tubing, since it holds more firmly than other products",
+  "C": "Rub the skin vigorously with a rough towel when drying after a bath to stimulate the circulation and keep the skin firm and healthy",
+  "D": "Keep the resident's fingernails long and unfiled so that they protect the fingertips from bumps and scrapes during daily activities and care"
+ },
+ "PN-S37-06": {
+  "A": "Wait until the client is discharged home, since hair care isn't a priority while the client is on bed rest in the hospital",
+  "C": "Use very hot water to wash the hair so that it rinses clean faster and the client doesn't get chilled while lying in bed",
+  "D": "Cut the client's hair short without asking for permission so that it is easier to keep clean during the hospital stay"
+ },
+ "PN-S37-07": {
+  "A": "The client may put full body weight on the operative leg when walking, with or without the crutches",
+  "C": "The client may not touch the floor at all with the operative foot, even lightly for balance",
+  "D": "The client can bear as much weight as tolerated on the operative leg, increasing it as pain allows"
+ },
+ "PN-S37-08": {
+  "A": "Fever on day 5 is never significant and needs no further assessment",
+  "C": "A normal inflammatory response only, which needs no further action",
+  "D": "A delayed reaction to the anesthesia given during the surgery"
+ },
+ "PN-S37-09": {
+  "A": "Buccal medications are swallowed whole with water, while sublingual medications are placed under the tongue to dissolve slowly",
+  "C": "They are the same, since both buccal and sublingual medications are placed under the tongue and dissolve there completely",
+  "D": "Buccal medications are chewed thoroughly before swallowing, while sublingual medications are placed under the tongue"
+ },
+ "PN-S37-11": {
+  "A": "\"Open all of your windows on warm, windy days to let the fresh air circulate through the whole house and blow the pollen back outside again.\"",
+  "C": "\"Hang your laundry and bedding outside to dry on sunny days, since the fresh air and sunlight help remove allergens from your clothes and sheets.\"",
+  "D": "\"Mow the lawn every day during allergy season so that the grass stays short and releases less pollen into the air around the house.\""
+ },
+ "PN-S37-12": {
+  "A": "Fried foods and fatty red meat every day, since they provide the protein and energy the body needs while lowering LDL levels",
+  "C": "Butter and whole-fat cheese at every meal in place of vegetable oils, since natural animal fats help balance cholesterol",
+  "D": "Sugary drinks such as regular soda, fruit punch, and sweetened tea in place of water with meals and snacks each day"
+ },
+ "PN-S37-13": {
+  "A": "Tell the client that it's a normal finding in people who use chewing tobacco and that the white patch will go away on its own over time",
+  "C": "Have the client rinse with an antiseptic mouthwash twice a day, and recheck the white patch at the next yearly dental checkup",
+  "D": "Scrape the white patch off gently with a tongue blade so that the tissue underneath can heal more quickly and be inspected"
+ },
+ "PN-S37-14": {
+  "A": "\"Red urine like this definitely means that you have kidney cancer, so you'll need to see a urologist right away for scans and a kidney biopsy.\"",
+  "C": "\"Stop drinking water for the rest of the day so that your urine becomes more concentrated and the red color fades away more quickly.\"",
+  "D": "\"Red urine is always normal and never needs to be checked by anyone, no matter how long it lasts or what other symptoms you notice.\""
+ },
+ "PN-S37-15": {
+  "A": "Rearrange the resident's room each week so that the resident stays mentally active and learns new routines",
+  "C": "Remove all clocks and calendars from the room so that the resident isn't confused or upset by the date and time",
+  "D": "Keep the resident in bed most of the day so that the resident doesn't get lost looking for the bathroom or clothes"
+ },
+ "PN-S37-16": {
+  "A": "An acute sprain of the fingers or the wrist from a recent fall or some other minor injury",
+  "C": "A recent sunburn on the backs of the hands and fingers from time spent outdoors",
+  "D": "Dehydration from poor fluid intake and fluid losses over the past several days"
+ },
+ "PN-S37-17": {
+  "A": "\"This is a normal part of healing after a knee replacement, and it should get better on its own with rest.\"",
+  "C": "\"Apply heat to your knee several times a day, and wait about a week to see whether the symptoms improve.\"",
+  "D": "\"Take any leftover antibiotics you have at home, and call your surgeon only if the fever goes above 103°F.\""
+ },
+ "PN-S37-18": {
+  "A": "Avoiding all medical care that involves needles, including blood tests and vaccines, to prevent the fear response",
+  "C": "Forcing the client to have many blood draws at once so that the client gets used to needles as quickly as possible",
+  "D": "Telling the client to \"just get over it,\" since the fear is not rational and will go away once the test is done"
+ },
+ "PN-S37-19": {
+  "A": "\"Shortness of breath on the stairs means that you are having a heart attack, so you need to stop what you're doing right now and call 911 so that an ambulance can take you to the hospital's emergency department right away.\"",
+  "C": "\"Stop all physical activity until your delivery, including walking and climbing stairs, so that your heart and lungs don't have to work as hard during the last few weeks of your pregnancy.\"",
+  "D": "\"Lie flat on your back whenever you feel short of breath, since that position takes the pressure off your lungs and lets your diaphragm move more freely so that you can breathe more easily.\""
+ },
+ "PN-S37-20": {
+  "A": "Scant, which needs no action",
+  "C": "Light, which is expected now",
+  "D": "Normal, needing no further action"
+ },
+ "PN-S37-21": {
+  "A": "Use a mild baby soap on the eyes and face first, and then rinse with warm water, so that any dried secretions around the eyes are fully removed before washing the rest of the body",
+  "C": "Immerse the newborn fully in a small tub of warm water before the umbilical cord stump falls off, since a tub bath is the most thorough way to clean the skin and keep the baby warm",
+  "D": "Bathe the newborn in a cool room with a fan running so that the baby doesn't overheat, and wash the whole body at once before drying the baby off completely at the very end of the bath"
+ },
+ "PN-S37-22": {
+  "A": "No action is needed, since a healthy 5-year-old's immune system is strong enough to fight off measles on its own without any vaccination or medication",
+  "C": "A course of oral antibiotics started right away to prevent the measles infection from developing and to protect any classmates at school",
+  "D": "An antiviral medication for influenza, such as oseltamivir, started within 48 hours of the exposure to keep measles from developing"
+ },
+ "PN-S37-23": {
+  "A": "Remove the call light cord from the bathroom so that the resident isn't tempted to pull it unless it's a true emergency",
+  "C": "Leave wet towels on the bathroom floor so that the resident has something soft to land on in case of a fall",
+  "D": "Lock the bathroom door while the resident is inside to provide privacy and keep other residents from walking in"
+ }
+}
