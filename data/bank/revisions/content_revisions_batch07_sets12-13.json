@@ -1,0 +1,242 @@
+{
+ "_comment": "Batch 07 (Sets 12-13). Distractor-only rewrites to remove the longest-answer cue. Correct options, stems, and rationales are unchanged; each distractor keeps its original meaning and stays wrong for the same reason. RN-S13-15 (single-word antidote names) is in skipped.json.",
+ "RN-S12-01": {
+  "B": "A client 1 day postpartum whose fundus is firm at the umbilicus with a moderate amount of rubra lochia",
+  "C": "A client at 32 weeks' gestation who reports a mild backache after standing at work for several hours",
+  "D": "A newborn with bluish hands and feet 1 hour after birth whose heart rate and breathing are within normal limits"
+ },
+ "RN-S12-04": {
+  "A": "Gently push the exposed loop of cord back into the vagina using a sterile, lubricated gloved hand",
+  "C": "Place the client in high-Fowler's position and call the provider to the bedside",
+  "D": "Wrap the exposed cord in dry gauze and keep the client still until the provider arrives"
+ },
+ "RN-S12-08": {
+  "A": "Painless, bright red vaginal bleeding with a soft, nontender, relaxed uterus",
+  "C": "Irregular, painless contractions that ease with rest and hydration",
+  "D": "A steady trickle of clear fluid from the vagina with no pain or bleeding"
+ },
+ "RN-S12-09": {
+  "A": "No treatment is needed because the Coombs test is negative",
+  "C": "Administering Rh immune globulin to the newborn within 72 hours",
+  "D": "Administering the rubella vaccine instead of Rh immune globulin"
+ },
+ "RN-S12-10": {
+  "A": "Increase the oxytocin rate to strengthen labor",
+  "C": "Encourage the client to begin pushing with each contraction",
+  "D": "Document the findings as an expected response"
+ },
+ "RN-S12-13": {
+  "A": "Pinkish-brown lochia serosa, a firm fundus at the midline, and mild incisional soreness",
+  "C": "Cramping afterpains during breastfeeding that are relieved by the prescribed ibuprofen",
+  "D": "Bilateral breast fullness and tenderness as the client's milk comes in on day 3"
+ },
+ "RN-S12-15": {
+  "A": "\"It's given to prevent eye infections that the baby could have picked up while passing through the birth canal.\"",
+  "C": "\"It prevents jaundice, which many healthy newborns develop during the first week after birth.\"",
+  "D": "\"It boosts the immune system so your baby can fight off infections in the first weeks.\""
+ },
+ "RN-S12-18": {
+  "A": "The newborn feeds every 5–6 hours and sleeps well between feedings",
+  "C": "The newborn cries and fusses after every feeding during the day",
+  "D": "The mother's breasts never feel full before or after feedings"
+ },
+ "RN-S13-01": {
+  "A": "A 3-year-old with croup who has a barking cough and no stridor at rest after a dose of dexamethasone",
+  "C": "An 8-year-old with a casted forearm fracture who rates pain 5/10 and is due for an oral analgesic",
+  "D": "A 6-month-old who is due for scheduled immunizations and is feeding well with the parent at the bedside"
+ },
+ "RN-S13-04": {
+  "A": "A mild cold with a runny nose and a temperature of 99.8°F (37.7°C)",
+  "C": "Currently taking amoxicillin for an ear infection diagnosed 3 days ago",
+  "D": "A sibling at home who is pregnant and due to deliver next month"
+ },
+ "RN-S13-06": {
+  "A": "Administer the dose as prescribed, since it is within the safe range for the child's weight",
+  "C": "Administer half the dose and document the reason in the child's medication record",
+  "D": "Give the dose every 12 hours instead of every 8 hours to lower the daily total"
+ },
+ "RN-S13-07": {
+  "A": "\"We'll get the MMR vaccine next week as scheduled at the pediatrician's office.\"",
+  "C": "\"We can give ibuprofen along with the aspirin if our child gets a fever at home.\"",
+  "D": "\"The peeling skin on the fingers and toes means the treatment didn't work.\""
+ },
+ "RN-S13-08": {
+  "A": "Proceed with the air enema procedure as scheduled",
+  "C": "Offer the infant a bottle of formula before the procedure",
+  "D": "Document the normal stool in the infant's chart only"
+ },
+ "RN-S13-09": {
+  "B": "Currant jelly stools with episodes of severe abdominal pain and drawn-up knees",
+  "C": "Bile-stained vomitus with metabolic acidosis and a distended abdomen",
+  "D": "Failure to pass meconium in the first 48 hours after birth, with abdominal distention"
+ },
+ "RN-S13-10": {
+  "A": "Passing meconium within 24 hours of birth with a soft abdomen",
+  "C": "Yellow, seedy stools by day 4 in a newborn who is breastfeeding well",
+  "D": "Greenish-brown transitional stools on day 3 with a soft, flat, nontender abdomen"
+ },
+ "RN-S13-12": {
+  "B": "Lay the child flat on the back in the crib",
+  "C": "Encourage the child to walk around the room",
+  "D": "Give the child a bottle of juice to calm down"
+ },
+ "RN-S13-17": {
+  "A": "Palpate the abdomen every 4 hours to monitor the tumor's size",
+  "C": "Encourage the child to lie prone to reduce abdominal discomfort",
+  "D": "Apply a warm pack to the abdomen to relieve the child's discomfort"
+ },
+ "RN-S13-18": {
+  "A": "\"I'll wear it only at night while I'm sleeping and take it off before I go to school.\"",
+  "C": "\"I'll wear it only while I'm playing sports so my back is supported during games.\"",
+  "D": "\"I'll stop wearing it if it becomes uncomfortable or rubs against my skin.\""
+ },
+ "RN-S13-19": {
+  "A": "Tell the parents not to visit for the next few days, because seeing them leave each night upsets the child",
+  "C": "Ask the provider for a sedative to calm the child after the parents leave each night",
+  "D": "Tell the child firmly to stop crying because the other children on the unit are sleeping"
+ },
+ "PN-S12-02": {
+  "A": "\"Taking folic acid every day helps prevent the morning sickness that many people have in the first trimester.\"",
+  "C": "\"Folic acid helps prevent gestational diabetes, which usually develops later in pregnancy.\"",
+  "D": "\"Folic acid is only needed after the baby is born, to help you recover and make breast milk.\""
+ },
+ "PN-S12-07": {
+  "A": "\"Count the baby's movements for 5 minutes once a week, and call if you feel fewer than 3.\"",
+  "C": "\"Only count the baby's movements while you are up and walking around during the day, not while you're resting.\"",
+  "D": "\"Fetal movement doesn't need to be monitored at this stage unless you have a high-risk pregnancy.\""
+ },
+ "PN-S12-08": {
+  "A": "About 5 cm (3 fingerbreadths) above the umbilicus",
+  "C": "Just above the level of the symphysis pubis",
+  "D": "Not palpable above the level of the symphysis pubis"
+ },
+ "PN-S12-09": {
+  "A": "Notify the provider and wait for prescriptions before touching the uterus",
+  "C": "Give the client oral fluids and recheck the fundus in 30 minutes",
+  "D": "Document the finding and recheck the fundus at the next assessment"
+ },
+ "PN-S12-11": {
+  "B": "\"Apply warm heat packs to the perineum for the first 24 hours to ease the soreness.\"",
+  "C": "\"Use tampons instead of pads for the lochia once the heavy flow slows down.\"",
+  "D": "\"After each time you void, wipe from back to front with soft toilet tissue.\""
+ },
+ "PN-S12-12": {
+  "A": "\"Stop breastfeeding for a day or two until the swelling and pain in your breasts go down.\"",
+  "C": "\"Bind your breasts tightly with an elastic wrap to reduce the swelling and pain.\"",
+  "D": "\"Skip the night feedings so your breasts have time to rest and the swelling eases.\""
+ },
+ "PN-S12-13": {
+  "A": "\"Pump your breasts a few times a day to relieve the fullness and pressure.\"",
+  "C": "\"Take warm showers with the water directed at your breasts to ease the pain.\"",
+  "D": "\"Massage your breasts frequently to soften them and relieve the pain.\""
+ },
+ "PN-S12-14": {
+  "A": "\"Wipe the base of the cord with rubbing alcohol 6 times a day to help it dry out and fall off sooner.\"",
+  "C": "\"If it hasn't fallen off on its own, gently pull the cord off when the baby is 3 days old.\"",
+  "D": "\"Cover the cord with a snug bandage and tape to keep it clean and protected until it falls off.\""
+ },
+ "PN-S12-16": {
+  "A": "Apical heart rate of 138/min while the newborn is sleeping",
+  "C": "Axillary temperature 98.2°F (36.8°C) after a feeding",
+  "D": "Periodic breathing with pauses under 10 seconds during sleep"
+ },
+ "PN-S12-18": {
+  "A": "Bathe the newborn right away to remove the vernix, blood, and amniotic fluid from the skin",
+  "C": "Place the newborn in a bassinet near an open window for fresh air while the mother rests",
+  "D": "Leave the newborn wet and uncovered under the overhead light while the Apgar score is assessed"
+ },
+ "PN-S12-21": {
+  "A": "\"You should be happy right now. You have a beautiful, healthy baby to take home, so try to focus on that instead of crying all the time.\"",
+  "C": "\"Crying all the time like this means you have postpartum depression, and you will need to start medication for it.\"",
+  "D": "\"Try your best not to cry in front of the baby, because babies can pick up on their mother's moods and become fussy.\""
+ },
+ "PN-S12-22": {
+  "A": "\"It protects this baby from developing jaundice during the first few days after birth.\"",
+  "C": "\"It treats the anemia you developed from the blood you lost during the delivery.\"",
+  "D": "\"It's a vaccine that protects you and your future babies against rubella infection.\""
+ },
+ "PN-S12-23": {
+  "A": "\"No, breastfeeding always prevents pregnancy, so you don't need to use any other form of birth control while nursing.\"",
+  "C": "\"You can't ovulate for a full year after giving birth, whether or not you are breastfeeding your baby.\"",
+  "D": "\"Only mothers who are formula-feeding their babies need to think about contraception in the first year.\""
+ },
+ "PN-S13-04": {
+  "A": "\"Give acetaminophen and check the temperature again tomorrow.\"",
+  "C": "\"Give a lukewarm sponge bath and continue to monitor at home.\"",
+  "D": "\"This is a normal temperature for a baby right after feeding.\""
+ },
+ "PN-S13-06": {
+  "A": "\"Prop the bottle on a rolled blanket so that your baby can feed independently.\"",
+  "C": "\"Give the bottle at bedtime while the baby is lying down in the crib.\"",
+  "D": "\"Clean inside the ear canals with cotton swabs every day after the bath.\""
+ },
+ "PN-S13-07": {
+  "A": "\"You only need to go to the emergency room if your child's barking cough lasts for more than a week.\"",
+  "C": "\"Go to the emergency room if your child develops a runny nose or a mild fever.\"",
+  "D": "\"Go to the emergency room if your child starts coughing more during the night.\""
+ },
+ "PN-S13-08": {
+  "A": "Green zone: continue the usual daily controller medications as prescribed",
+  "C": "Red zone: call 911 or go to the emergency department immediately",
+  "D": "The meter is broken and should be replaced before the next reading"
+ },
+ "PN-S13-09": {
+  "A": "After lunch, once the child has used the toilet and washed",
+  "C": "Right after the child's evening bath, before bed",
+  "D": "At bedtime, right after the child brushes their teeth"
+ },
+ "PN-S13-10": {
+  "A": "\"Make your child vomit right away by gently putting a finger down the back of the throat.\"",
+  "C": "\"Give your child a large glass of milk to dilute it, then wait and watch.\"",
+  "D": "\"Wait at home to see whether any symptoms develop over the next few hours.\""
+ },
+ "PN-S13-11": {
+  "A": "\"You can turn the car seat around to face forward once your child turns 12 months old and weighs at least 20 pounds.\"",
+  "C": "\"You can turn the car seat to face forward as soon as your child can sit up without any help.\"",
+  "D": "\"You can turn the car seat to face forward once your child is walking well on their own.\""
+ },
+ "PN-S13-13": {
+  "A": "Reaching 12 months of age, regardless of any other readiness signs",
+  "C": "Can count to 10 and recite most of the alphabet without help",
+  "D": "Sleeps through the night without waking up for a feeding"
+ },
+ "PN-S13-14": {
+  "A": "\"Give your child whatever they want so the tantrum stops as quickly as possible.\"",
+  "C": "\"Spank your child firmly so that they learn tantrums are not allowed.\"",
+  "D": "\"Lock your child in a room by themselves until they have calmed down.\""
+ },
+ "PN-S13-15": {
+  "A": "Assigning the teen to a room with a toddler who has a similar illness",
+  "C": "Having the parents make all care decisions without the teen's input",
+  "D": "Limiting phone and internet use completely during the hospital stay"
+ },
+ "PN-S13-16": {
+  "A": "Explain the procedure in detail a full week in advance so the child has time to prepare",
+  "C": "Tell the child that the blood draw won't hurt at all, so there's nothing to fear",
+  "D": "Say nothing about the procedure ahead of time to avoid upsetting the child"
+ },
+ "PN-S13-17": {
+  "A": "0–10 numeric rating scale",
+  "C": "FLACC behavioral scale"
+ },
+ "PN-S13-19": {
+  "A": "Mix the medication into a full bottle of formula and give it at the next feeding",
+  "C": "Pour it quickly into the back of the throat so the infant swallows it",
+  "D": "Give it while the infant is lying flat on the back so it goes down easily"
+ },
+ "PN-S13-20": {
+  "A": "\"Use scented baby wipes to clean the diaper area thoroughly at each diaper change.\"",
+  "C": "\"Change the diaper only when it's heavily soiled, to avoid irritating the skin with frequent changes.\"",
+  "D": "\"Apply a heavy layer of cornstarch powder to the diaper area at every change.\""
+ },
+ "PN-S13-22": {
+  "A": "\"Give the daily dose at bedtime, after your child has brushed their teeth.\"",
+  "C": "\"Stop the medication on school days and give it only on weekends.\"",
+  "D": "\"Crush the extended-release tablets and mix them into applesauce.\""
+ },
+ "PN-S13-23": {
+  "A": "\"Please try to stay strong for your child. Your child needs you to be strong right now.\"",
+  "C": "\"Leukemia is very treatable these days, so there's really no need to worry so much.\"",
+  "D": "\"You should ask the doctor about your concerns when they come back.\""
+ }
+}
