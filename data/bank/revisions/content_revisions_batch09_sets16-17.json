@@ -1,0 +1,343 @@
+{
+ "_comment": "Batch 09 (Sets 16-17). Distractor-only rewrites to remove the longest-answer cue. Correct options, stems, and rationales are unchanged; each distractor keeps its original meaning and stays wrong for the same reason.",
+ "RN-S16-02": {
+  "B": "A client admitted yesterday with an acute MI who is now pain-free on continuous telemetry",
+  "C": "A client receiving an insulin infusion for DKA whose glucose is now 210 mg/dL",
+  "D": "A client with a new chest tube for a pneumothorax placed earlier today"
+ },
+ "RN-S16-03": {
+  "B": "A client newly admitted with chest pain who needs a complete admission assessment and a 12-lead ECG",
+  "C": "A client receiving a blood transfusion for the first time who has a history of heart failure",
+  "D": "A client with a new diagnosis of diabetes who needs a discharge teaching plan developed today"
+ },
+ "RN-S16-04": {
+  "A": "\"Take everyone's vital signs this morning and write them on the whiteboard at the nurses' station when you're finished with the rounds.\"",
+  "C": "\"Check the vitals on all of your clients when you have time this morning, and chart them before lunch.\"",
+  "D": "\"Go ahead and take vitals on your assigned clients, and just let me know if anything seems off to you.\""
+ },
+ "RN-S16-06": {
+  "A": "Report the AP to the nurse manager immediately for refusing the assignment",
+  "C": "Complete the task yourself and say nothing to the AP about it",
+  "D": "Discuss the problem at the next team huddle in front of the others"
+ },
+ "RN-S16-07": {
+  "A": "Explain the surgery in detail yourself and then have the client sign the consent",
+  "C": "Have a family member who is present sign the consent form instead",
+  "D": "Tell the client that the doctor knows best and that the surgery is needed"
+ },
+ "RN-S16-08": {
+  "A": "Withhold the antibiotics because the client has a DNR order and therefore does not want any aggressive treatment",
+  "C": "Stop all nursing care and treatments, since a DNR order means the client should be kept comfortable only",
+  "D": "Transfer the client to hospice care without discussing it with the client or the family"
+ },
+ "RN-S16-10": {
+  "A": "Apply restraints to keep the client in bed until the provider arrives to talk with the client about the risks",
+  "C": "Take the client's clothes and belongings to keep the client from leaving the unit",
+  "D": "Call security to stand at the door and prevent the client from leaving the hospital"
+ },
+ "RN-S16-11": {
+  "A": "Write \"incident report completed\" in the client's medical record after the fall",
+  "C": "Include opinions about who was at fault and how the fall could have been prevented",
+  "D": "Give the client a copy of the completed incident report for their records"
+ },
+ "RN-S16-12": {
+  "A": "Cover the error with correction fluid, let it dry completely, and then rewrite the correct entry neatly",
+  "C": "Tear out the page with the error and carefully recopy all of the entries onto a new page",
+  "D": "Scribble over the entry completely so that it can't be read, then rewrite it"
+ },
+ "RN-S16-13": {
+  "A": "A nurse gives a medication exactly as prescribed, and the client has an unexpected allergic reaction to the very first dose",
+  "C": "A client refuses a treatment after the nurse explains the risks, and the client's condition later worsens",
+  "D": "A nurse follows the facility's policy for a procedure exactly as written, and the client has a known complication"
+ },
+ "RN-S16-14": {
+  "A": "Ignore the behavior in order to avoid conflict with the coworker",
+  "C": "Cover the coworker's client assignment for the shift and say nothing about it",
+  "D": "Post about the coworker's behavior on the nurse's social media page"
+ },
+ "RN-S16-16": {
+  "A": "\"This is Jane, the nurse caring for Mr. Lee in Room 12. I'm calling about his breathing.\"",
+  "B": "\"His SpO2 dropped to 88% on 2 L, and he has new crackles in both lung bases.\"",
+  "C": "\"He was admitted 2 days ago with pneumonia and has a history of heart failure.\""
+ },
+ "RN-S16-18": {
+  "A": "To identify which nurse made the error so that the nurse can be disciplined or retrained by the manager",
+  "C": "To gather information that the facility's lawyers can use to prepare for a possible lawsuit",
+  "D": "To document all of the details of the event in the client's permanent medical record"
+ },
+ "RN-S16-24": {
+  "B": "Increase the oxygen flow to 6 L/min by nasal cannula and then recheck the client's SpO2 level",
+  "C": "Call the provider to report the change in condition before assessing the client",
+  "D": "Obtain a sputum specimen for culture and sensitivity before giving antibiotics"
+ },
+ "RN-S17-01": {
+  "A": "Aim at the top of the flames, pull the pin, squeeze the handle, and hold the nozzle still",
+  "C": "Squeeze the handle, pull the pin, sweep side to side, and then aim at the fire",
+  "D": "Sweep the nozzle side to side, aim at the fire, pull the pin, and squeeze the handle"
+ },
+ "RN-S17-03": {
+  "A": "Wrap the frayed area of the cord with electrical tape and continue using the pump",
+  "C": "Continue using the pump until the end of the shift, then report the cord",
+  "D": "Unplug the pump only while the client is sleeping, then plug it back in"
+ },
+ "RN-S17-04": {
+  "A": "The evening before surgery, when the surgeon visits the client to review the procedure and answer questions",
+  "C": "During recovery in the PACU, once the client is awake enough to answer questions",
+  "D": "Only if the surgeon requests it, or if there is a question about the surgical site"
+ },
+ "RN-S17-05": {
+  "A": "Document the count discrepancy in the operative record and let the surgical team close the incision as originally planned",
+  "C": "Assume the missing sponge was thrown away in the trash and note it in the operative record",
+  "D": "Ignore the discrepancy if only one sponge is missing and the surgeon is ready to close"
+ },
+ "RN-S17-08": {
+  "A": "The client showers with chlorhexidine soap the night before and the morning of surgery",
+  "C": "Prophylactic antibiotics are given within 60 minutes before the surgical incision",
+  "D": "Normothermia is maintained during surgery with a forced-air warming blanket"
+ },
+ "RN-S17-09": {
+  "A": "Airborne precautions in negative-pressure rooms, with N95 respirators for all staff",
+  "C": "Droplet precautions with surgical masks for all staff and visitors who enter",
+  "D": "Strict reverse (protective) isolation in private rooms with HEPA filtration"
+ },
+ "RN-S17-11": {
+  "A": "Wipe up the spill right away with paper towels and throw the towels in the regular trash can in the room",
+  "C": "Pour plenty of water on the spill to dilute it, then mop the area until it is completely dry",
+  "D": "Leave the spill for housekeeping to clean up without warning anyone in the area"
+ },
+ "RN-S17-12": {
+  "A": "Put on regular exam gloves, clean up the spill with paper towels, and throw them in the regular trash can",
+  "C": "Mop up the spill with the unit's regular mop and a bucket of warm, soapy water right away",
+  "D": "Ask the client's family members who are visiting to help clean up the spill quickly"
+ },
+ "RN-S17-14": {
+  "A": "\"Set your water heater to 140°F (60°C) so the water stays hot enough to kill germs.\"",
+  "C": "\"Use a heating pad set on high while you sleep to ease your joint pain.\"",
+  "D": "\"Remove the smoke detector batteries if the alarms keep going off by mistake.\""
+ },
+ "RN-S17-15": {
+  "A": "Try to take the knife away from the visitor quickly, before anyone in the hallway gets hurt",
+  "C": "Stay close to the visitor and argue with them to convince them to calm down and put the knife down on the floor",
+  "D": "Continue with the assigned client care and assume that security will handle the situation on their own"
+ },
+ "RN-S17-16": {
+  "A": "Standard precautions only, with routine daily cleaning of the room using quaternary ammonium",
+  "C": "Droplet precautions only, with a surgical mask for anyone entering the room",
+  "D": "No special precautions are needed, because the client is only colonized and not infected"
+ },
+ "RN-S17-17": {
+  "A": "\"It protects you against both hepatitis A and hepatitis C, so you won't need to get any other hepatitis vaccines during your nursing career.\"",
+  "C": "\"The vaccine is only needed for operating room staff, since they handle blood and sharp instruments every day during procedures.\"",
+  "D": "\"Once you're vaccinated, you won't need to use standard precautions such as gloves when you handle blood or body fluids.\""
+ },
+ "RN-S17-18": {
+  "A": "Wait about 1 hour to see whether the client returns to the room on their own before taking any action",
+  "C": "Call the client's family at home to ask whether the client left with them earlier today",
+  "D": "Document the client's absence in the medical record and continue with the 1400 rounds"
+ },
+ "RN-S17-19": {
+  "A": "Override the alert and give the medication as scheduled on the MAR",
+  "C": "Scan the medication again and again until the alert clears",
+  "D": "Give the medication now and report the alert to pharmacy later"
+ },
+ "RN-S17-24": {
+  "A": "Leave the client's room right away to call the provider and request a prescription for restraints",
+  "C": "Apply soft wrist restraints right away to keep the client from climbing out of bed",
+  "D": "Administer the PRN haloperidol that is prescribed for agitation and recheck in 30 minutes"
+ },
+ "PN-S16-01": {
+  "A": "Administering scheduled oral medications to a stable client with a chronic illness",
+  "B": "Reinforcing discharge teaching that the RN has already started with a client",
+  "D": "Collecting data on a client's wound during a scheduled dressing change"
+ },
+ "PN-S16-03": {
+  "A": "Document the BP value in the resident's chart and continue the rounds",
+  "C": "Tell the AP to recheck the resident's BP in 4 hours and report back",
+  "D": "Give the resident's scheduled antihypertensive medication on time"
+ },
+ "PN-S16-04": {
+  "B": "A resident requesting help to make a phone call to a family member",
+  "C": "A resident who is due for a scheduled daily multivitamin with breakfast",
+  "D": "A resident who wants a snack and a glass of juice before lunch"
+ },
+ "PN-S16-05": {
+  "A": "Completing each task in the exact order in which the clients use their call lights throughout the shift",
+  "C": "Saving all of the documentation until the end of the shift, when it is quieter",
+  "D": "Skipping meal and rest breaks in order to finish all of the assigned care on time"
+ },
+ "PN-S16-06": {
+  "A": "Give the medication as ordered, because the provider is the one responsible for the prescription and its safety",
+  "C": "Change the dose to an amount that seems safer and document the reason for the change in the record",
+  "D": "Explain the concern to the client and ask whether they still want to take the medication as ordered"
+ },
+ "PN-S16-07": {
+  "A": "Share the information about the resident's condition, since the caller says he is a family member and sounds very concerned",
+  "C": "Give the caller only the resident's diagnosis, but not any other details about the resident's care",
+  "D": "Hang up on the caller without giving any explanation, since it may not really be the resident's nephew"
+ },
+ "PN-S16-08": {
+  "A": "\"Proud to be a nurse!\" posted with a selfie of the nurse in uniform and no client information",
+  "C": "A post sharing a public health article about flu vaccines from the CDC website",
+  "D": "A post about attending a nursing conference, with a photo of the convention center"
+ },
+ "PN-S16-09": {
+  "A": "\"Client seems very depressed again today and doesn't want to do anything, which is the client's usual behavior.\"",
+  "C": "\"Client had a really bad day today and was in a poor mood during most of the shift.\"",
+  "D": "\"Client is being difficult and very uncooperative with the staff about meals again.\""
+ },
+ "PN-S16-10": {
+  "A": "Document the dressing change using the original time, as if it had been charted right on time 3 hours ago",
+  "C": "Skip documenting it, since the dressing change has already been completed and the wound looked fine",
+  "D": "Ask a coworker who is less busy right now to document the dressing change in the chart for you"
+ },
+ "PN-S16-11": {
+  "A": "The nursing staff caring for the resident",
+  "C": "Any family member who visits regularly",
+  "D": "The facility administrator or director"
+ },
+ "PN-S16-12": {
+  "A": "Witness the signature, since the client is still able to hold the pen and sign the form on their own",
+  "C": "Have the client's spouse sign the consent form instead while the client rests in bed",
+  "D": "Sign the consent form for the client, since the client already agreed to the surgery"
+ },
+ "PN-S16-13": {
+  "A": "\"You need to take your bath right now, because it's on the schedule for this morning.\"",
+  "C": "Give the bath anyway, since the resident is scheduled for one this morning",
+  "D": "Report the resident to the RN for being uncooperative with morning care"
+ },
+ "PN-S16-14": {
+  "A": "Confront the son about the bruises on the resident's wrists the next time he visits",
+  "C": "Wait to see whether more bruises appear over the next week before reporting anything",
+  "D": "Ask the resident to keep a written diary of each visit from the son and what happens"
+ },
+ "PN-S16-15": {
+  "A": "Attempt the procedure after watching an online video about how to do it",
+  "C": "Refuse the assignment and leave the unit for the rest of the shift",
+  "D": "Ask the AP to perform the procedure instead, with the nurse nearby"
+ },
+ "PN-S16-16": {
+  "A": "The resident's favorite TV shows and the snack the resident prefers at bedtime",
+  "C": "The nurse's personal opinion of the resident's family members and their visits",
+  "D": "Every routine task that was completed during the shift, listed in time order"
+ },
+ "PN-S16-17": {
+  "A": "Apply a vest restraint so the resident stays in bed safely through the night",
+  "C": "Raise all four side rails on the bed so the resident is unable to climb out during the night",
+  "D": "Give the resident a sedative from the stock supply without a provider's order"
+ },
+ "PN-S16-19": {
+  "A": "Tell the client to eat whatever is served, since the kitchen prepares the same meals for all of the clients on the unit",
+  "C": "Tell the client to have family members bring in all meals from home during the stay",
+  "D": "Remove the meat from the tray without asking the client and serve the rest of the meal"
+ },
+ "PN-S16-20": {
+  "A": "Have the client's 12-year-old child, who speaks English well, interpret",
+  "C": "Speak more loudly and slowly in English and use simple words",
+  "D": "Give the client detailed written instructions printed in English"
+ },
+ "PN-S16-21": {
+  "A": "Continue the resident's home medication list without reviewing it, since the resident was taking those same medications before the hospital stay",
+  "C": "Start only the new medications that were prescribed in the hospital and stop all of the resident's previous ones",
+  "D": "Ask the resident which of the medications they would like to continue, and give only those that the resident chooses"
+ },
+ "PN-S16-22": {
+  "A": "Say nothing to the coworker in order to avoid conflict, since it was most likely a one-time mistake on a busy day",
+  "C": "Post about the coworker's behavior anonymously online to raise awareness about hand hygiene",
+  "D": "Tell the client that the coworker did not wash their hands after leaving the room"
+ },
+ "PN-S16-23": {
+  "A": "Accept the parent's explanation and document that the child stepped in hot bathwater",
+  "C": "Ask the parent to explain again how the injury happened, then decide what to do",
+  "D": "Wait until the child's next clinic visit to see whether the burns are healing"
+ },
+ "PN-S17-02": {
+  "A": "It is always required by policy for residents who are confused or at risk of falling",
+  "C": "It makes the bed and the side rails harder for housekeeping staff to clean thoroughly",
+  "D": "It prevents the nursing staff from reaching the resident quickly enough to provide care during the night"
+ },
+ "PN-S17-05": {
+  "A": "\"Store all of your medications together in unlabeled containers to save space in the bathroom cabinet.\"",
+  "C": "\"Take your medications in the dark at night so you don't wake up your spouse.\"",
+  "D": "\"Share your medications with your spouse if either of you runs out before a refill.\""
+ },
+ "PN-S17-06": {
+  "A": "Place the belt loosely around the client's chest, just under the arms, before helping the client to stand and walk",
+  "C": "Hold the client firmly by the arm instead of using the belt while walking in the hall",
+  "D": "Use the belt to lift a client who cannot bear weight from the bed into the chair"
+ },
+ "PN-S17-07": {
+  "A": "Place the wheelchair on the client's left side with the brakes unlocked so that it can be moved closer",
+  "C": "Have the client pull on the armrests of the wheelchair to stand up from the bed",
+  "D": "Place the wheelchair facing away from the bed with the footrests in the down position"
+ },
+ "PN-S17-08": {
+  "A": "Operate the lift by yourself to save time when the unit is short-staffed during mealtimes",
+  "C": "Lift the client high above the bed so the sling clears the side rails easily",
+  "D": "Leave the client suspended in the sling while getting supplies from the room"
+ },
+ "PN-S17-10": {
+  "A": "Administering oral medications to a client",
+  "C": "Giving a cleansing enema before surgery",
+  "D": "Feeding a client with a weak swallow"
+ },
+ "PN-S17-11": {
+  "A": "Shake the linens gently over the floor to remove crumbs and debris before placing them in the bag",
+  "C": "Place the soiled linens on the floor next to the bed until the bed change is finished",
+  "D": "Carry the soiled linens against the body to the hamper at the end of the hall"
+ },
+ "PN-S17-12": {
+  "A": "The regular trash can in the client's bathroom, double-bagged",
+  "C": "A puncture-resistant sharps container in the room",
+  "D": "The recycling bin in the clean utility room"
+ },
+ "PN-S17-13": {
+  "A": "Wipe up the blood with a dry paper towel, throw the towel away, and leave the area to air dry",
+  "C": "Cover the spill with a towel and wait for housekeeping to come and clean it, without warning anyone else in the area",
+  "D": "Mop the area with plain water only and then dry the floor with a clean towel from the linen cart"
+ },
+ "PN-S17-14": {
+  "A": "No additional PPE is needed beyond the gloves",
+  "C": "Sterile booties worn over the shoes",
+  "D": "An N95 respirator only, with no gown"
+ },
+ "PN-S17-15": {
+  "B": "Cancel the radiology test until the client no longer needs droplet precautions",
+  "C": "Have the transport staff wear N95 respirators and leave the client unmasked during the trip",
+  "D": "No precautions are needed once the client is outside of the isolation room"
+ },
+ "PN-S17-16": {
+  "A": "Well-cooked chicken breast with steamed white rice",
+  "C": "Pasteurized yogurt and low-fat cottage cheese",
+  "D": "Washed fresh fruit, such as apples and pears"
+ },
+ "PN-S17-17": {
+  "A": "\"Keep it loaded in a nightstand drawer for quick access at night.\"",
+  "C": "\"Hide it under the mattress where the children can't see it.\"",
+  "D": "\"Teach your young children how to handle and use the gun safely.\""
+ },
+ "PN-S17-19": {
+  "A": "Give the medications as scheduled, since the nurse knows the client well from caring for them on previous shifts",
+  "C": "Ask the client's roommate to confirm the client's full name and then give the medications as scheduled",
+  "D": "Use the room number and bed number on the assignment sheet to identify the client before giving medications"
+ },
+ "PN-S17-20": {
+  "A": "Ignore the client's report, since the allergy isn't documented anywhere in the chart",
+  "C": "Give the penicillin if it is prescribed, since there is no allergy band and no allergy documented in the chart",
+  "D": "Tell the client to remind every nurse about the allergy before taking any medication"
+ },
+ "PN-S17-21": {
+  "A": "Leave the client's metal hair clips in place during the scan so that the client's long hair stays out of the way",
+  "C": "Send a portable metal oxygen tank with the client for the trip so oxygen is available in the MRI room",
+  "D": "Apply the client's nicotine patch with a foil backing before the client leaves the unit"
+ },
+ "PN-S17-22": {
+  "A": "Spending as much time as possible in the room with the client",
+  "C": "Standing close to the implant site while providing care",
+  "D": "Assigning the same pregnant nurse to the client every day"
+ },
+ "PN-S17-23": {
+  "A": "\"About 1 cup of water per person per day is enough.\"",
+  "C": "\"Only bottled soda is needed for drinking in an emergency.\"",
+  "D": "\"Water isn't needed as long as you have canned food stored.\""
+ }
+}
