@@ -1,0 +1,373 @@
+{
+ "_comment": "Batch 16 (Sets 30-31). Distractor-only rewrites to remove the longest-answer cue. Correct options, stems, and rationales are unchanged; each distractor keeps its original meaning and stays wrong for the same reason. PN-S31-09 (deltoid injection volumes) is in skipped.json as numeric.",
+ "RN-S30-01": {
+  "B": "A client with central diabetes insipidus who is stable on desmopressin and asking about discharge",
+  "C": "A client with hypothyroidism who started levothyroxine yesterday and has no new complaints today",
+  "D": "A client with Cushing's syndrome whose morning glucose is 190 mg/dL and who is due for insulin"
+ },
+ "RN-S30-02": {
+  "B": "Bradycardia with hypertension and a widened pulse pressure at rest",
+  "C": "Bounding peripheral pulses in both arms and both legs",
+  "D": "A loud S4 heart sound heard best at the cardiac apex"
+ },
+ "RN-S30-05": {
+  "A": "Restrict the client to strict bed rest to reduce the brain swelling",
+  "C": "Give it at bedtime on an empty stomach so that it absorbs better",
+  "D": "Stop it abruptly once the headache improves to avoid side effects"
+ },
+ "RN-S30-06": {
+  "A": "No treatment is needed, since the wound is small and the bleeding has already stopped on its own",
+  "C": "A course of oral antibiotics only, to prevent the wound from becoming infected with tetanus bacteria",
+  "D": "Tetanus immune globulin only, without a tetanus-containing vaccine, since the client has never been vaccinated"
+ },
+ "RN-S30-07": {
+  "A": "Sliding-scale regular insulin alone, given before meals based on each fingerstick glucose result",
+  "C": "Stopping all insulin while the client is in the hospital and eating regular meals",
+  "D": "Oral glucose tablets as needed to keep the glucose from dropping too low between meals"
+ },
+ "RN-S30-09": {
+  "A": "\"Take ibuprofen for your headaches, since it's the safest pain reliever for your liver and won't cause any problems with cirrhosis at all.\"",
+  "C": "\"You can take as much acetaminophen as you need for your headaches, since it isn't processed by the liver the way other medicines are.\"",
+  "D": "\"No pain relievers are ever safe for someone with cirrhosis, so you'll need to manage your headaches without any medication from now on.\""
+ },
+ "RN-S30-10": {
+  "A": "Normal postoperative confusion from the anesthesia and the surgery",
+  "C": "A urinary tract infection from the indwelling catheter and bladder irrigation",
+  "D": "Hypoglycemia from not eating since the night before the surgery began"
+ },
+ "RN-S30-11": {
+  "A": "\"Avoid all dental care entirely, including cleanings and checkups, for as long as you are taking this medication, since any dental work will cause problems with your jaw.\"",
+  "C": "\"Take each dose with a full glass of orange juice so that the medication is absorbed better and works faster to strengthen the bones that are affected by the cancer.\"",
+  "D": "\"This medication will increase your calcium level, so you'll need to avoid dairy products and calcium supplements for as long as you're getting the infusions.\""
+ },
+ "RN-S30-12": {
+  "A": "No blood transfusions of any kind will ever be given to the client again",
+  "C": "Transfusing the blood faster so that the reaction doesn't have time to develop",
+  "D": "Using D5W instead of normal saline to prime the blood tubing before each transfusion"
+ },
+ "RN-S30-13": {
+  "A": "\"Walk barefoot around the house each day to help improve the feeling in your feet, since the stimulation helps the nerves recover more quickly.\"",
+  "C": "\"Use a heating pad on your feet at night to improve the blood flow and the feeling in your toes while you sleep, since warmth helps the nerves.\"",
+  "D": "\"The numbness in your feet means that the chemotherapy isn't working against the cancer, so your provider will need to change your treatment plan.\""
+ },
+ "RN-S30-14": {
+  "A": "Proceed with the scan without any changes, since hives are a minor reaction that is not likely to happen again with this same type of contrast agent",
+  "C": "Give the contrast faster than usual so that the client spends less time exposed to it during the scan and has less chance of reacting",
+  "D": "Cancel all future imaging studies for the client permanently and document a severe contrast allergy in the medical record today"
+ },
+ "RN-S30-15": {
+  "A": "\"The fluoxetine will start to work within about 24 hours, so you should see your teen's mood improve by the end of the week at the latest.\"",
+  "C": "\"You can stop the fluoxetine once your teen seems to feel better after the first week or two, since the depression will have lifted by then.\"",
+  "D": "\"No special monitoring or follow-up visits are needed with this medication, since fluoxetine is one of the safest antidepressants for teens and young adults to take.\""
+ },
+ "RN-S30-16": {
+  "A": "Accept the watch graciously so that the client is not offended, and then thank the client again at discharge",
+  "C": "Ask the client whether they could give a different, less expensive gift to the nurse instead of the watch",
+  "D": "Accept the watch but don't tell anyone on the unit about it, so that the client's feelings are not hurt"
+ },
+ "RN-S30-17": {
+  "A": "No Rh immune globulin will be given until after delivery, when the baby's blood type can be checked",
+  "C": "Administering Rh immune globulin to the client's partner, since the partner is the source of the Rh factor",
+  "D": "Giving Rh immune globulin now only if the client develops vaginal bleeding later in the pregnancy"
+ },
+ "RN-S30-18": {
+  "A": "No treatment until the infant reaches 1 year of age and can be tested",
+  "C": "Formula feeding is required, since the virus is passed through breast milk",
+  "D": "Isolation of the newborn from the mother until all of the infant's testing is done"
+ },
+ "RN-S30-19": {
+  "A": "A soft, flat anterior fontanel and steady head growth along the infant's usual percentile curve at each well-child visit",
+  "C": "A head circumference that stays in the 50th percentile, with a soft, flat fontanel and closing sutures",
+  "D": "A social smile and good eye contact with the parents, along with steady weight gain and normal feeding"
+ },
+ "RN-S30-24": {
+  "A": "Document the pain improvement in the chart and continue with the routine care",
+  "B": "Offer the child sips of clear liquids now that the abdominal pain is better",
+  "D": "Apply a warm pack to the abdomen to ease the child's discomfort and stiffness"
+ },
+ "RN-S31-01": {
+  "B": "A client after upper endoscopy whose gag reflex has returned and who reports a mild sore throat and is asking for ice chips and a throat lozenge",
+  "C": "A client after colonoscopy who is passing gas and reports mild bloating and cramping that comes and goes and is easing",
+  "D": "A client who is drowsy but arousable to voice after moderate sedation, with stable vital signs, no reported pain, and SpO2 of 97% on room air"
+ },
+ "RN-S31-02": {
+  "A": "Begin chest compressions immediately, since the absence of a radial pulse means the client is in cardiac arrest",
+  "C": "Call a code right away because the client is pulseless and may need defibrillation and emergency medications",
+  "D": "Disconnect and remove the driveline to reset the device, then reconnect it and check for a palpable pulse again"
+ },
+ "RN-S31-03": {
+  "A": "\"Drink an extra cup or two of coffee on the morning of the test so that your heart rate rises more easily during the exercise.\"",
+  "C": "\"Eat a large, filling meal right before the test so that you have plenty of energy to complete all of the exercise stages.\"",
+  "D": "\"Wear dress shoes and business clothes to the test, since you'll be going straight back to work as soon as it's done.\""
+ },
+ "RN-S31-04": {
+  "A": "Clamping the chest tube to stop the bleeding and allow a clot to form in the chest",
+  "C": "Removing the chest tube now that most of the blood has drained out of the chest",
+  "D": "Continuing to observe the client closely for 24 hours before making any changes"
+ },
+ "RN-S31-05": {
+  "A": "\"Use it as your rescue inhaler whenever you have a sudden attack of shortness of breath during the day.\"",
+  "C": "\"Swallow the capsule whole with a full glass of water instead of placing it in the inhaler device.\"",
+  "D": "\"Use the inhaler every 2 hours as needed when you feel short of breath or start to wheeze.\""
+ },
+ "RN-S31-06": {
+  "A": "\"With enough physical therapy, you will be able to walk independently again without any braces, a walker, or other assistive devices.\"",
+  "C": "\"At this level of injury, you will need to be on a ventilator for breathing permanently, since the muscles you breathe with won't work.\"",
+  "D": "\"You won't be able to move your arms or shoulders at all, so you will need help from others with every part of your daily care.\""
+ },
+ "RN-S31-08": {
+  "A": "Increased insulin resistance from the kidney disease progressing",
+  "C": "Excess dietary sugar from snacks between the client's regular meals",
+  "D": "Improved pancreatic function as the client's diabetes gets better"
+ },
+ "RN-S31-09": {
+  "A": "Weight gain, a rounded moon face, a buffalo hump, thin skin that bruises easily, and hypertension",
+  "C": "Heat intolerance, weight loss with a large appetite, tremors, a rapid pulse, and exophthalmos",
+  "D": "Hyperglycemia, hypokalemia, high blood pressure, and fluid retention with edema in the legs"
+ },
+ "RN-S31-10": {
+  "A": "Vitamin C supplements taken by mouth with each meal",
+  "C": "Oral iron supplements only, taken once daily",
+  "D": "Vitamin K injections only, given once a month"
+ },
+ "RN-S31-11": {
+  "A": "Bleeding peptic ulcer",
+  "C": "Bleeding esophageal varices",
+  "D": "Acute appendicitis"
+ },
+ "RN-S31-13": {
+  "A": "Recommend rest and a heating pad at home, with a follow-up visit next week",
+  "C": "Give a muscle relaxant as prescribed and reassess the symptoms in about a week",
+  "D": "Encourage vigorous stretching exercises to relieve the pressure on the nerves"
+ },
+ "RN-S31-14": {
+  "A": "Administer the meperidine as prescribed, since it is a strong opioid that works well for severe sickle cell pain crises in adults",
+  "C": "Give the meperidine intramuscularly every hour as needed until the client reports that the pain from the crisis is under control",
+  "D": "Give the meperidine together with an MAOI antidepressant, since the combination improves pain relief during a sickle cell crisis"
+ },
+ "RN-S31-15": {
+  "A": "\"Eat more raw vegetables, fresh fruit with the skins, and bran cereal to help firm up your stools.\"",
+  "C": "\"Drink large amounts of milk and eat cheese every day to coat and soothe the lining of your bowel.\"",
+  "D": "\"Stop drinking fluids during the day so that the diarrhea slows down and the stools become more formed.\""
+ },
+ "RN-S31-16": {
+  "A": "\"You'll need to give up all of your hobbies, including gardening and keeping pets, now that you have a transplant.\"",
+  "C": "\"It's fine to change the litter box yourself every day without gloves, as long as you wash your hands at some point.\"",
+  "D": "\"Exposure to garden soil is harmless for transplant recipients, so you can garden with your bare hands as usual.\""
+ },
+ "RN-S31-17": {
+  "A": "Mild, gradual weight gain over the first few months of taking the medication",
+  "C": "Improved mood and more regular sleep patterns after a few weeks",
+  "D": "Mild, gradual hair thinning that is noticed when brushing or washing the hair"
+ },
+ "RN-S31-18": {
+  "A": "\"You can resume all of your normal activities at home, including exercise and intercourse, now that the vaginal bleeding has stopped.\"",
+  "C": "\"If you notice any spotting at home, use a tampon to absorb it, and mention it to your provider at your next scheduled visit.\"",
+  "D": "\"You should plan for a vaginal birth, since the placenta will move up and out of the way as your due date gets closer.\""
+ },
+ "RN-S31-24": {
+  "A": "Continue suctioning to clear all of the secretions from the airway before the next set of vital signs",
+  "C": "Increase the suction pressure so that the secretions can be cleared more quickly from the airway",
+  "D": "Reposition the client in the prone position to improve oxygenation and drainage of the secretions"
+ },
+ "PN-S30-01": {
+  "A": "\"At about 4 months, when the baby starts to eat more at each feeding.\"",
+  "C": "\"As soon as the baby starts eating solid foods, usually around 6 months.\"",
+  "D": "\"Not until about 2 years of age, when the baby has a full set of teeth.\""
+ },
+ "PN-S30-02": {
+  "A": "\"Helmets are only needed when your child is riding on busy streets or roads with lots of traffic.\"",
+  "C": "\"It's fine for the helmet to be worn tilted back on the head, as long as the chin strap is buckled snugly.\"",
+  "D": "\"Older children who are experienced riders don't need to wear helmets on short rides.\""
+ },
+ "PN-S30-03": {
+  "A": "\"Your parents must be told everything about any testing or treatment you receive here, since you are under 18 and they are responsible for your care.\"",
+  "C": "\"I can't talk with you about STI testing at all without one of your parents present, so you'll need to come back with one of them another day.\"",
+  "D": "\"You're too young to be tested for sexually transmitted infections, so you'll need to wait until you turn 18 to have any testing done here.\""
+ },
+ "PN-S30-04": {
+  "A": "\"Only the nasal spray flu vaccine is recommended for adults your age, since it works better than the shot.\"",
+  "C": "\"Older adults don't really need flu vaccines, since most people your age already have immunity to the flu.\"",
+  "D": "\"You only need to get a flu vaccine about every 5 years, since the protection lasts a long time in adults.\""
+ },
+ "PN-S30-06": {
+  "A": "Prone on the bed with the arms raised overhead and a pillow placed under the abdomen for support during the procedure",
+  "C": "Supine on the bed with the legs straight and the head of the bed raised slightly for comfort during the procedure",
+  "D": "In the Trendelenburg position, with the head of the bed lowered below the level of the feet and the legs straight"
+ },
+ "PN-S30-07": {
+  "A": "Prone, with the head turned to the side and the arms at the sides",
+  "C": "Left Sims' position, with the right knee drawn up toward the chest",
+  "D": "High-Fowler's position, with the head of the bed raised to about 90 degrees"
+ },
+ "PN-S30-08": {
+  "A": "Swab the surface of the tongue and the inside of both cheeks firmly",
+  "C": "Have the client gargle with sterile saline and then spit into a sterile cup",
+  "D": "Swab only the front teeth and the gums, avoiding the back of the throat completely"
+ },
+ "PN-S30-09": {
+  "A": "Only when the client notices changes in vision or eye pain",
+  "C": "About once every 10 years if vision is normal",
+  "D": "Never, as long as the blood glucose is controlled"
+ },
+ "PN-S30-10": {
+  "A": "\"Try to eat three large meals each day at regular times, even if you're not hungry, so that you get all of the calories you need.\"",
+  "C": "\"Drink plenty of fluids with each meal so that you feel full sooner and your stomach doesn't get upset from eating.\"",
+  "D": "\"Skip meals completely on the days when you feel nauseated, and try to make up for them later in the week.\""
+ },
+ "PN-S30-11": {
+  "A": "\"Any time of day after you've had a lot of water to drink, so that there's plenty of urine to test.\"",
+  "C": "\"At bedtime, after you've finished eating and drinking for the day, so the urine has settled.\"",
+  "D": "\"Right after you exercise, when your body is producing the most hormones for the test to detect.\""
+ },
+ "PN-S30-12": {
+  "A": "The wrist and hand hanging lower than the elbow so that the fingers can rest comfortably at the client's side",
+  "C": "The arm fully extended at the client's side so that the elbow does not become stiff in the sling",
+  "D": "The sling tied tightly around the wrist and forearm so that the arm cannot move inside the sling"
+ },
+ "PN-S30-13": {
+  "A": "To test the client's hearing and ability to follow verbal commands from the nurse at the bedside",
+  "C": "To test the client's vision and ability to see the nurse's hands clearly from a short distance away",
+  "D": "To measure the client's level of pain in the hands and wrists when firm pressure is applied during the check"
+ },
+ "PN-S30-14": {
+  "A": "A dry gauze dressing that is changed every hour to keep the wound bed completely dry",
+  "C": "No dressing at all, with the wound left open to the air so that a dry scab can form over it",
+  "D": "A heating pad placed over the wound to increase circulation and speed up healing time"
+ },
+ "PN-S30-15": {
+  "A": "\"You really shouldn't worry so much about your job when you're trying to sleep.\"",
+  "C": "\"Have you tried drinking a glass of warm milk before you go to bed at night?\"",
+  "D": "\"Why are you so worried about your job right now? Is something wrong at work?\""
+ },
+ "PN-S30-16": {
+  "A": "\"You'll have one prenatal visit during each trimester of your pregnancy, for a total of three visits.\"",
+  "C": "\"You'll need to come in every week for a prenatal visit, starting from the first visit until you deliver.\"",
+  "D": "\"You'll only need prenatal visits at about 20 weeks and then again when you come in for the delivery.\""
+ },
+ "PN-S30-17": {
+  "A": "\"You shouldn't wear a seat belt at all during pregnancy, since the pressure of the belt in a crash could harm your baby.\"",
+  "C": "\"Place the lap belt high across the top of your belly, above the baby, so that it doesn't press down on your hips or on your bladder.\"",
+  "D": "\"Wear only the lap belt across your hips, and tuck the shoulder belt behind your back so it doesn't press on your chest.\""
+ },
+ "PN-S30-18": {
+  "A": "Mild afterpains or cramping during and after breastfeeding in the first week at home",
+  "C": "Lochia that changes from red to pinkish-brown during the first week or two",
+  "D": "Feeling tired from caring for the baby and getting up for night feedings"
+ },
+ "PN-S30-19": {
+  "A": "Document the temperature as normal for a newborn in the first day of life and continue routine care, with the next temperature check at the usual time",
+  "C": "Give the newborn a warm bath to bring the body temperature up, then dress and swaddle the baby and recheck the temperature in an hour",
+  "D": "Remove the newborn's hat and blankets to get a more accurate reading of the temperature when rechecking it in the open crib"
+ },
+ "PN-S30-20": {
+  "A": "\"Place the space heater close to the curtains or the couch so that the warm air spreads across the whole room more quickly and evenly.\"",
+  "C": "\"Use a long extension cord to move the space heater right next to your bed so that it keeps you warm through the night while you sleep.\"",
+  "D": "\"It's fine to dry wet clothes or towels by draping them over the space heater while it's running, as long as you're in the room.\""
+ },
+ "PN-S30-21": {
+  "A": "Wipe the meter off with a dry tissue between clients to remove any visible blood or smudges",
+  "C": "No cleaning is needed between clients, as long as a new lancet and test strip are used each time",
+  "D": "Store the meter in a uniform pocket between clients so that it is always close at hand and ready to use again"
+ },
+ "PN-S30-22": {
+  "A": "\"Swimming in a pool or lake is a great way to keep the arm with the PICC line active and strong while you're on IV antibiotics at home.\"",
+  "C": "\"Change the dressing over the PICC line yourself every day at home, even though you haven't been trained to do it yet.\"",
+  "D": "\"It's fine to have your blood pressure taken on the arm with the PICC line at your doctor's office or at home.\""
+ },
+ "PN-S30-23": {
+  "A": "Limiting the parents' visits to 1 hour a day so that the toddler can settle into the hospital routine more quickly",
+  "C": "Changing the toddler's caregivers frequently so that the child gets used to being cared for by many different staff members on the unit",
+  "D": "Explaining each of the procedures in detail a full week in advance so that the toddler has time to prepare for them"
+ },
+ "PN-S31-01": {
+  "A": "\"Any toy that is labeled for children ages 5 and up is fine for your baby to play with now.\"",
+  "C": "\"Latex balloons are safe toys for babies to play with, as long as an adult is in the room.\"",
+  "D": "\"Small magnets are safe for babies to play with, as long as an adult is supervising them closely.\""
+ },
+ "PN-S31-02": {
+  "A": "\"Repeating words like this is always a sign of a serious speech disorder, so your child needs to start intensive speech therapy right away before the stuttering becomes permanent.\"",
+  "C": "\"You should punish your child each time they stutter, so that they learn to stop repeating words and speak more clearly and smoothly when they talk to you.\"",
+  "D": "\"Encourage your child to speak faster instead of slowing down, since talking more quickly will help the words come out smoothly without repeating them over and over.\""
+ },
+ "PN-S31-03": {
+  "A": "\"Put your child on a strict low-calorie diet alone, while the rest of the family continues to eat the way they usually do.\"",
+  "C": "\"Use treats and favorite foods as a reward whenever your child brings home good grades, so that your child stays motivated at school.\"",
+  "D": "\"Have your child skip breakfast on school days to cut down on the total number of calories eaten during the day.\""
+ },
+ "PN-S31-04": {
+  "A": "\"Seat belts are optional on short trips around town, as long as you drive carefully and stay under the speed limit.\"",
+  "C": "\"Driving with several of your friends in the car is safest, since they can help watch the road and keep you alert.\"",
+  "D": "\"Speeding is fine when the road is empty and there are no other cars around, as long as you stay focused.\""
+ },
+ "PN-S31-06": {
+  "A": "Tell the client, \"I'm going to count your breathing now,\" and then count each breath for 30 seconds",
+  "C": "Count the client's respirations for just 10 seconds and then multiply the number by 6 to save time",
+  "D": "Count the respirations only while the client is talking, since that is when breathing is most regular"
+ },
+ "PN-S31-10": {
+  "A": "Insert the needle at a 90-degree angle into the muscle, and then massage the site afterward to spread the solution",
+  "C": "Aspirate for blood before injecting the solution to make sure the needle is not in a blood vessel",
+  "D": "Inject the solution deep into the deltoid muscle of the client's nondominant upper arm using a 1-inch needle"
+ },
+ "PN-S31-11": {
+  "A": "Shake the vial vigorously for about 10 seconds until the insulin is evenly mixed",
+  "C": "Warm the vial briefly in the microwave so that it mixes more easily",
+  "D": "No mixing is needed, since NPH insulin stays evenly mixed in the vial on its own"
+ },
+ "PN-S31-12": {
+  "A": "\"Tilt your head far back, insert the tip deep into your nostril, and spray forcefully toward the center wall of your nose so it reaches the sinuses.\"",
+  "C": "\"Blow your nose firmly right after spraying so that any extra medication that didn't absorb is cleared out of your nasal passages.\"",
+  "D": "\"It's fine to share the same bottle of nasal spray with your family members, as long as you wipe off the tip after each person uses it.\""
+ },
+ "PN-S31-13": {
+  "A": "Limit fluids to about 500 mL per day so the lungs don't become congested",
+  "C": "Stay flat in bed to rest and conserve energy for healing the lungs",
+  "D": "Avoid coughing as much as possible to prevent tiring the chest muscles"
+ },
+ "PN-S31-14": {
+  "A": "\"Shoulder pain after this surgery means that you may have had a heart attack, so we'll need to get a 12-lead ECG right away.\"",
+  "C": "\"Stay completely still in bed and don't change positions until the shoulder pain goes away completely on its own.\"",
+  "D": "\"Apply an ice pack to your abdomen near the incisions to relieve the shoulder pain and any swelling there as it heals.\""
+ },
+ "PN-S31-15": {
+  "A": "Just below the vaginal opening, near the perineum",
+  "C": "Above the clitoris, near the pubic bone",
+  "D": "Just inside the vaginal opening, on the front wall"
+ },
+ "PN-S31-16": {
+  "A": "Document the finding as a normal reflex response for an adult client during the neurological check",
+  "C": "Repeat the test several more times until the toes curl downward, and then document only the final result",
+  "D": "Ignore the finding, since this reflex response is common in adults and has no clinical significance"
+ },
+ "PN-S31-18": {
+  "A": "Leave the hand clenched in a fist to protect the fingers and the joints from injury",
+  "C": "Tape the fingers together loosely to keep the hand in a more comfortable position",
+  "D": "Keep the arm hanging down at the client's side to let gravity straighten the fingers out"
+ },
+ "PN-S31-19": {
+  "A": "\"Energy drinks can actually help reduce anxiety, since the caffeine helps you feel more alert, focused, and in control during the day.\"",
+  "C": "\"Switch from energy drinks to espresso instead, since coffee is a natural source of caffeine and is better for your anxiety.\"",
+  "D": "\"Stop drinking all fluids for a few days so that your body has a chance to flush out the caffeine and your anxiety settles.\""
+ },
+ "PN-S31-20": {
+  "A": "\"Yes, a signed no-harm contract guarantees the client's safety, so the client can be moved to routine observation as soon as it's signed.\"",
+  "C": "\"A no-harm contract only works if the client signs it twice, once in front of the nurse and once in front of a family member.\"",
+  "D": "\"Signed contracts are required for all clients on the unit, so make sure each client signs one on admission before anything else.\""
+ },
+ "PN-S31-21": {
+  "A": "\"You should avoid all dental care during pregnancy, including routine cleanings, since dental work can harm the developing baby.\"",
+  "C": "\"Stop brushing your teeth for a while so that your gums have time to heal and stop bleeding before your baby is born.\"",
+  "D": "\"You should only go to the dentist during pregnancy if a tooth becomes loose or falls out, since routine cleanings and checkups aren't needed.\""
+ },
+ "PN-S31-22": {
+  "A": "\"Wait at home until your contractions are about every 30 minutes, and then call your provider to ask whether it's time to come in to the hospital for the labor and birth of your baby.\"",
+  "C": "\"Go to the hospital only after your water breaks, since contractions alone are never a reason to come in, no matter how strong or frequent they become.\"",
+  "D": "\"Stay at home until you feel a strong urge to push, since first-time mothers have long labors and coming in too early just means waiting at the hospital.\""
+ },
+ "PN-S31-23": {
+  "A": "\"Rinse the pump parts with water only once a week, since breast milk doesn't grow bacteria between uses.\"",
+  "C": "\"Store the wet pump parts in a closed plastic bag right after rinsing them so that they stay clean until the next use.\"",
+  "D": "\"It's fine to share your pump parts with friends who are breastfeeding, as long as they rinse them first.\""
+ }
+}
