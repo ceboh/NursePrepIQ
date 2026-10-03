@@ -1,0 +1,113 @@
+{
+ "_comment": "Batch 01 (Set 1). Distractor-only rewrites to remove the longest-answer cue. Correct options and rationales are unchanged; each distractor keeps its original meaning and stays wrong for the same reason.",
+ "RN-S01-01": {
+  "A": "A client with new-onset atrial fibrillation on a diltiazem infusion whose heart rate has decreased from 142/min to 88/min, with BP 118/72 mm Hg",
+  "C": "A client with chronic heart failure, on 2 L/min oxygen with SpO2 95%, who is requesting acetaminophen for chronic knee pain rated 4/10",
+  "D": "A client with stable angina who is NPO for a stress test scheduled in 2 hours and is asking for a drink of water because of a dry, uncomfortable mouth"
+ },
+ "RN-S01-02": {
+  "A": "Increase the infusion rate as directed by the protocol and recheck the aPTT 6 hours after the rate change",
+  "C": "Administer protamine sulfate IV push now to reverse the heparin, then notify the provider of the result",
+  "D": "Continue the infusion at the current rate and recheck the aPTT in 6 hours as the protocol schedules"
+ },
+ "RN-S01-06": {
+  "A": "Mediastinal chest tube drainage of 90 mL in the past hour, which is serosanguineous and slightly less than the previous hour's total of 100 mL, with stable vital signs",
+  "B": "Temperature of 99.5°F (37.5°C), with warm, dry skin and the client shivering slightly after rewarming in the intensive care unit",
+  "D": "Incisional pain rated 6 on a 0–10 scale, with the client splinting the sternum when coughing and asking for the next scheduled dose of prescribed IV analgesic"
+ },
+ "RN-S01-10": {
+  "A": "Deli turkey sandwich on white bread with mustard, a dill pickle spear, and a small bag of potato chips",
+  "C": "Canned chicken noodle soup with a side of saltine crackers and a glass of tomato juice",
+  "D": "Frozen macaroni and cheese dinner with a side of canned green beans and a diet soda"
+ },
+ "RN-S01-11": {
+  "B": "\"Report any flushing or warmth of your face and neck after taking the dose.\"",
+  "C": "\"Report if your stools become dark green or change color after a week.\"",
+  "D": "\"Report any increase in appetite or weight gain over the first month.\""
+ },
+ "RN-S01-14": {
+  "A": "Palpate the abdomen to assess the size and tenderness of the pulsating mass before notifying the provider",
+  "B": "Administer the prescribed PRN oral analgesic for the back pain and reassess the pain level in 30 minutes",
+  "D": "Place the client in a prone position to relieve the back pain and pressure on the aneurysm"
+ },
+ "RN-S01-17": {
+  "A": "Reduce the BP to 120/80 mm Hg as quickly as possible to protect the brain and kidneys",
+  "C": "Maintain the current BP without titrating the infusion until a head CT scan is completed",
+  "D": "Reduce the systolic BP to below 100 mm Hg within the first hour of the infusion"
+ },
+ "RN-S01-24": {
+  "A": "Administer the prescribed IV furosemide and begin measuring hourly urine output",
+  "C": "Reinforce teaching about a 2-g sodium diet and limiting fluids at home",
+  "D": "Obtain the client's weight on a standing scale to compare with the dry weight"
+ },
+ "PN-S01-01": {
+  "B": "A client admitted 30 minutes ago reporting new chest pain that started at rest this morning",
+  "C": "A client receiving a nitroglycerin infusion being titrated every 5 minutes to chest pain",
+  "D": "A client with a new diagnosis of heart failure who needs an initial assessment and teaching plan"
+ },
+ "PN-S01-04": {
+  "A": "Administer the digoxin as scheduled and recheck the apical pulse in 30 minutes",
+  "C": "Recount the pulse radially and administer the digoxin if it is above 60/min",
+  "D": "Administer the digoxin with a full glass of water and document the pulse rate"
+ },
+ "PN-S01-06": {
+  "A": "\"I'll sit down before I take a tablet, in case it makes me feel lightheaded or dizzy.\"",
+  "B": "\"If my pain isn't better 5 minutes after the first tablet, I'll call 911 right away.\"",
+  "D": "\"I may get a headache after taking it, and that usually means the medicine is working.\""
+ },
+ "PN-S01-07": {
+  "B": "White rice, white bread, and pasta",
+  "C": "Cheese, whole milk, and plain yogurt",
+  "D": "Canned vegetables and dill pickles"
+ },
+ "PN-S01-08": {
+  "A": "\"Take the medication only on days when you have a headache or feel flushed.\"",
+  "C": "\"Increase your salt intake if you feel dizzy or lightheaded during the day.\"",
+  "D": "\"Stop the medication if you feel more tired than usual for a few days.\""
+ },
+ "PN-S01-09": {
+  "A": "Expel the air bubble from the prefilled syringe before injecting the medication",
+  "C": "Massage the injection site for 1 minute afterward to improve absorption",
+  "D": "Aspirate for blood before injecting to confirm the needle isn't in a vessel"
+ },
+ "PN-S01-11": {
+  "A": "\"You may raise the head of the bed and sit fully upright to eat now, as long as you keep your right leg straight.\"",
+  "C": "\"You can bend your right knee to get comfortable while you eat, as long as you move it slowly, gently, and carefully.\"",
+  "D": "\"You may get up and walk to the chair to eat once the nurse removes the pressure dressing from your right groin.\""
+ },
+ "PN-S01-14": {
+  "A": "\"I'll use a heating pad on my feet at night when they feel cold.\"",
+  "C": "\"I'll elevate my legs above my heart when they start to hurt.\"",
+  "D": "\"I'll wear snug, tight socks to keep my feet warm at night.\""
+ },
+ "PN-S01-15": {
+  "A": "\"Keep your legs dangling over the side of the bed as much as possible.\"",
+  "C": "\"Avoid walking and stay off your feet to protect the ulcer while it heals.\"",
+  "D": "\"Sit with your legs crossed at the knee to improve circulation to the ulcer.\""
+ },
+ "PN-S01-16": {
+  "A": "After the client has been up and walking for about an hour",
+  "C": "At bedtime, just before the client goes to sleep",
+  "D": "After the evening shower, once the skin is dry"
+ },
+ "PN-S01-17": {
+  "A": "\"I'll weigh myself whenever my ankles or feet look more swollen than usual.\"",
+  "C": "\"I'll call my provider if I gain 5 pounds or more over the course of a month.\"",
+  "D": "\"I'll weigh myself once a week, wearing my coat and shoes, on whichever scale is closest.\""
+ },
+ "PN-S01-18": {
+  "A": "A small bag of salted pretzels with cheese dip",
+  "C": "A cup of canned tomato soup with crackers",
+  "D": "A hot dog on a bun with mustard and relish"
+ },
+ "PN-S01-20": {
+  "A": "\"You shouldn't worry about that right now. Focus on getting better first.\"",
+  "C": "\"That's a question you'll need to ask your cardiologist about at your next follow-up visit.\"",
+  "D": "\"Sexual activity is not safe for several months after a heart attack.\""
+ },
+ "PN-S01-23": {
+  "A": "Trace ankle edema at the end of the day that is gone by morning",
+  "C": "Fatigue after walking to the dining room that improves with rest",
+  "D": "Nocturia twice nightly, which is the resident's usual pattern"
+ }
+}

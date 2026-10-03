@@ -1,8 +1,8 @@
-// Builds load-ready rows from data/bank/*.json.
+// Builds load-ready rows from data/bank/*.json, with data/bank/revisions/*.json applied on top.
 //   node scripts/bank/build.mjs
 // Writes data/bank/build/{questions,case_studies}.json plus review reports, and exits
 // non-zero if any answer key cannot be resolved unambiguously.
-import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { classifySystem, classifyDiscipline, CASE_CATEGORIES } from './taxonomy.mjs';
 
@@ -158,9 +158,42 @@ function bowtieResponse(q) {
 const BUILDERS = { single_best_answer: choiceResponse, multiple_response: choiceResponse, matrix_grid: matrixResponse, drop_down_cloze: clozeResponse, highlight: highlightResponse, bow_tie: bowtieResponse };
 
 // ---------- build ----------
+// ---------- content revisions ----------
+// data/bank/revisions/*.json, applied in filename order on top of the source bank. Each file
+// maps source_id -> { option_key: new_text } (keys starting with "_" are comments). Only
+// distractors may be revised; any error stops the build before anything is written.
+const banks = FILES.map(file => JSON.parse(readFileSync(new URL(file, BANK), 'utf8')));
+const REVISIONS = new URL('revisions/', BANK);
+const revised = new Map();   // source_id -> [{ file, key, from, to }]
+{
+  const byId = new Map(banks.flatMap(b => b.questions).map(q => [q.source_id, q]));
+  const errors = [];
+  const files = existsSync(REVISIONS) ? readdirSync(REVISIONS).filter(f => f.endsWith('.json')).sort() : [];
+  for (const file of files) {
+    const revisions = JSON.parse(readFileSync(new URL(file, REVISIONS), 'utf8'));
+    for (const [sourceId, changes] of Object.entries(revisions)) {
+      if (sourceId.startsWith('_')) continue;
+      const q = byId.get(sourceId);
+      if (!q) { errors.push(`${file}: unknown source_id ${sourceId}`); continue; }
+      if (!Array.isArray(q.options)) { errors.push(`${file}: ${sourceId} is a ${q.item_type} item with no options`); continue; }
+      for (const [key, text] of Object.entries(changes)) {
+        const option = q.options.find(o => o.key === key);
+        if (!option) { errors.push(`${file}: ${sourceId} has no option ${key}`); continue; }
+        if (option.is_correct) { errors.push(`${file}: ${sourceId} option ${key} is a correct answer; revisions may only change distractors`); continue; }
+        if (typeof text !== 'string' || !text.trim()) { errors.push(`${file}: ${sourceId} option ${key} has empty text`); continue; }
+        if (option.text === text) continue;
+        revised.set(sourceId, [...(revised.get(sourceId) || []), { file, key, from: option.text, to: text }]);
+        option.text = text;
+      }
+    }
+  }
+  if (errors.length) { console.error(`Revisions rejected (${errors.length}); nothing was built:\n` + errors.join('\n')); process.exit(1); }
+  console.log(`revisions: ${files.length} file(s), ${revised.size} item(s) changed`);
+  for (const [id, changes] of revised) console.log(`  ${id}: ${changes.map(c => c.key).join(', ')} (${[...new Set(changes.map(c => c.file))].join(', ')})`);
+}
+
 const questions = [], caseStudies = [], taxonomy = [];
-for (const file of FILES) {
-  const bank = JSON.parse(readFileSync(new URL(file, BANK), 'utf8'));
+for (const bank of banks) {
   for (const c of bank.case_studies) {
     const category = CASE_CATEGORIES.get(c.case_id);
     if (!category) { problems.push(`${c.case_id}: missing from case_study_categories.json`); continue; }
@@ -178,6 +211,7 @@ for (const file of FILES) {
       client_need: q.client_need, topic: q.topic, system, discipline, item_type: q.item_type, stem: q.stem, response,
       rationale: q.rationale, answer_summary: q.answer_summary, scoring: q.scoring,
       case_id: q.case_id ?? null, case_sequence: q.case_sequence ?? null, clinical_judgment_step: q.clinical_judgment_step ?? null,
+      // source bank's hash is kept as provenance; content_hash below covers the revised text
       source_content_hash: q.content_hash, status: 'pilot',
     };
     // Hash of everything the loader writes, so taxonomy/key changes also trigger an update.
