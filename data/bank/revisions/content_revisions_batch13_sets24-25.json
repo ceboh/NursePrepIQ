@@ -1,0 +1,332 @@
+{
+ "_comment": "Batch 13 (Sets 24-25). Distractor-only rewrites to remove the longest-answer cue. Correct options, stems, and rationales are unchanged; each distractor keeps its original meaning and stays wrong for the same reason. PN-S25-20 (weight-gain ranges) is in skipped.json as numeric.",
+ "RN-S24-01": {
+  "B": "A client with COPD who is requesting a scheduled bronchodilator inhaler that is due at the top of the next hour",
+  "C": "A client with pneumonia whose temperature is 100.2°F (37.9°C) after a dose of antibiotics",
+  "D": "A client with heart failure who is due for the daily weight and reports no new symptoms this morning"
+ },
+ "RN-S24-07": {
+  "A": "\"Always use full sterile technique, with sterile gloves and a brand-new sterile catheter, every single time you catheterize yourself, even when you are at home by yourself.\"",
+  "C": "\"Catheterize only when you feel that you have to urinate, rather than on a schedule, so that you don't do it more often than you need to.\"",
+  "D": "\"Limit your fluids to about 500 mL a day so that you produce less urine and don't have to catheterize yourself as often during the day.\""
+ },
+ "RN-S24-08": {
+  "A": "\"Blow your nose gently several times a day to clear out any drainage or crusting that collects in your nose after the surgery.\"",
+  "C": "\"Brush your teeth vigorously starting right away so that the area around the incision stays clean.\"",
+  "D": "\"Drink all of your fluids through a straw so that you don't have to tip your head back or bend over.\""
+ },
+ "RN-S24-09": {
+  "A": "\"Trust the reading on your monitor and ignore your symptoms, since the sensor is more accurate than how you feel.\"",
+  "C": "\"Take a dose of your rapid-acting insulin now to bring your glucose back down into range.\"",
+  "D": "\"Remove the sensor and stop using it permanently, since it clearly isn't working correctly.\""
+ },
+ "RN-S24-11": {
+  "B": "Loss of protein into the dialysate fluid",
+  "C": "Hyperkalemia from reduced potassium clearance",
+  "D": "Too little fluid intake each day"
+ },
+ "RN-S24-13": {
+  "A": "Restrict the client's fluids to 1,000 mL per day to reduce the workload on the client's damaged kidneys",
+  "C": "Encourage strict bed rest at all times to reduce the bone pain and protect the weakened bones from fractures",
+  "D": "Increase the client's dietary calcium with milk, cheese, and yogurt at each meal to help strengthen the weakened bones"
+ },
+ "RN-S24-15": {
+  "A": "Tell the client firmly that the paralysis is fake, since all of the neurological tests have shown that nothing at all is physically wrong",
+  "C": "Have staff force the client to stand and walk with assistance to prove to the client that the legs are able to move",
+  "D": "Ignore the client and the reports of paralysis, since the workup has found no physical cause for the symptoms"
+ },
+ "RN-S24-16": {
+  "A": "Serotonin syndrome from the paroxetine",
+  "C": "A new viral infection such as influenza",
+  "D": "Lithium toxicity from dehydration"
+ },
+ "RN-S24-17": {
+  "A": "\"Take some acetaminophen and rest in a dark, quiet room until the headache and blurred vision go away.\"",
+  "C": "\"Headaches and blurred vision are normal after having a baby, because you're not getting very much sleep at night right now.\"",
+  "D": "\"Wait and mention the headache and vision changes to your provider at your 6-week postpartum checkup.\""
+ },
+ "RN-S24-18": {
+  "A": "Normal progress in the active phase of labor",
+  "C": "Placenta previa with painless bleeding",
+  "D": "Supine hypotensive syndrome from lying flat"
+ },
+ "RN-S24-19": {
+  "A": "\"Just watch for the battery to pass in your child's stool over the next few days, and call us back if it hasn't passed by then.\"",
+  "C": "\"Make your child vomit right away so that the battery comes back up before it can cause harm.\"",
+  "D": "\"Give your child a large meal with plenty of bread to help push the battery through the stomach quickly.\""
+ },
+ "RN-S25-01": {
+  "B": "A client receiving IV iron sucrose who reports a metallic taste in the mouth and asks the nurse for a mint or hard candy",
+  "C": "A client who is waiting in the lounge for a scheduled port flush and has no new complaints today",
+  "D": "A client receiving IV hydration who feels chilly and asks the nurse for a warm blanket"
+ },
+ "RN-S25-02": {
+  "A": "Expose the infusion bag and tubing to bright light for several minutes to activate the medication before starting the infusion at the bedside",
+  "C": "Give the nitroprusside as a rapid IV push through the closest port to lower the blood pressure quickly",
+  "D": "Stop the infusion abruptly as soon as the BP returns to the normal range, without notifying the provider"
+ },
+ "RN-S25-03": {
+  "A": "\"Metoprolol will raise your blood sugar to dangerous levels, so you will need to take much more insulin every day for as long as you're on this medication.\"",
+  "C": "\"Once you start the metoprolol, you can stop checking your blood sugar as often, since the medicine will keep your levels steady.\"",
+  "D": "\"Metoprolol protects you from low blood sugar, so you won't need to carry glucose tablets or snacks with you anymore when you go out.\""
+ },
+ "RN-S25-04": {
+  "A": "\"Take a dose of montelukast as your rescue medication whenever you have an asthma attack.\"",
+  "C": "\"You only need to take it on the days when you notice asthma symptoms such as wheezing.\"",
+  "D": "\"Montelukast replaces all of your other asthma medications, including your inhalers.\""
+ },
+ "RN-S25-05": {
+  "A": "\"Stop smoking completely on the day before you take your first dose, so that the medication can start working on your cravings right away.\"",
+  "C": "\"Take each dose of varenicline on an empty stomach, at least an hour before you eat breakfast or dinner.\"",
+  "D": "\"You can keep smoking as much as you like while taking varenicline, and the craving will simply go away on its own.\""
+ },
+ "RN-S25-07": {
+  "A": "Lower blood glucose levels throughout the day, so the client's diabetes medications may need to be reduced while taking prednisone",
+  "C": "No change in the client's blood glucose levels, so the usual monitoring schedule can continue unchanged",
+  "D": "Stopping all of the client's diabetes medications until the course of prednisone has been completed"
+ },
+ "RN-S25-09": {
+  "A": "Dilute urine suggesting overhydration or fluid volume excess in the body",
+  "C": "A normal finding in all situations that needs no follow-up",
+  "D": "Evidence of diabetes insipidus with excessive urine output"
+ },
+ "RN-S25-11": {
+  "A": "Weight gain, cold intolerance, dry skin, hair thinning, and constant fatigue",
+  "C": "Joint pain, mouth sores, and a butterfly-shaped rash across the face",
+  "D": "Bloody diarrhea with crampy lower abdominal pain and urgency"
+ },
+ "RN-S25-12": {
+  "A": "Recommend an over-the-counter antidiarrheal such as loperamide and continue the next infusions as scheduled",
+  "C": "Reassure the client that diarrhea is an expected and harmless effect of the treatment",
+  "D": "Tell the client to stop drinking all fluids until the diarrhea and abdominal cramping have stopped"
+ },
+ "RN-S25-13": {
+  "A": "\"Take each dose with a full glass of milk or a cup of yogurt to protect the lining of your stomach from irritation.\"",
+  "C": "\"Lie down flat right after you take each dose so that the medicine can settle in your stomach and you won't feel nauseated or dizzy afterward.\"",
+  "D": "\"Doxycycline is safe for children under 8 years old in all cases, so the rest of your family can take it too.\""
+ },
+ "RN-S25-14": {
+  "A": "Increase the antipsychotic dose to help control the abnormal lip and tongue movements",
+  "C": "Give benztropine as prescribed and expect the lip and tongue movements to resolve completely within a few days",
+  "D": "Ignore the movements, since they are a harmless habit that develops after many years of treatment"
+ },
+ "RN-S25-15": {
+  "A": "Antipsychotics are the first-line treatment for all behaviors related to dementia, so the medication should be started right away, before trying any nonpharmacological approaches with the client",
+  "C": "There are no special risks with antipsychotic medications in older adults with dementia, so quetiapine can be given in the same way it would be for a younger adult",
+  "D": "The dose should be doubled right away if the agitation continues, because a higher dose will control the behavior more quickly and allow the client to rest"
+ },
+ "RN-S25-16": {
+  "A": "Caput succedaneum; no follow-up is needed, since it resolves in a few days",
+  "C": "Normal molding of the skull bones from passing through the birth canal",
+  "D": "Hydrocephalus with increased intracranial pressure and a bulging fontanel"
+ },
+ "RN-S25-19": {
+  "A": "Encourage the child to keep walking and playing sports so that the hip and thigh muscles get stronger",
+  "C": "Apply a heating pad to the knee for 20 minutes several times a day to relieve the pain",
+  "D": "Reassure the family that the pain is just growing pains, which are common at this age"
+ },
+ "RN-S25-24": {
+  "A": "Continue the infusion at the same rate and monitor the rash and the client's vital signs closely for changes",
+  "C": "Permanently discontinue the acetylcysteine and document a drug allergy in the client's medical record",
+  "D": "Administer epinephrine 0.3 mg IM into the thigh immediately and call the rapid response team"
+ },
+ "PN-S24-01": {
+  "A": "\"Your child can stop using a booster seat at about age 5, once they have started kindergarten and are able to sit still for the whole car ride without slouching.\"",
+  "C": "\"Your child can stop using a booster seat as soon as they are able to buckle and unbuckle the seat belt without any help.\"",
+  "D": "\"Your child can stop using a booster seat once they weigh 40 pounds, no matter how tall they are or how the belt fits.\""
+ },
+ "PN-S24-02": {
+  "A": "At about age 5, during the routine checkups before the child starts kindergarten",
+  "C": "When all 20 baby teeth have come in, around age 3",
+  "D": "Only if the child has tooth pain or a visible cavity"
+ },
+ "PN-S24-04": {
+  "A": "\"Take away a favorite privilege or punish your child after each wet night so that they learn they need to stay dry.\"",
+  "C": "\"Wake your child up every hour throughout the night to walk them to the bathroom to urinate.\"",
+  "D": "\"Stop giving your child any fluids after lunch so that the bladder is completely empty by bedtime.\""
+ },
+ "PN-S24-05": {
+  "A": "\"Give your child antibiotics for 10 days to clear up the infection and the mouth sores.\"",
+  "C": "\"Give your child children's aspirin every 4 to 6 hours to ease the mouth pain and fever.\"",
+  "D": "\"This illness is not contagious, so your toddler can keep going to day care with the other children.\""
+ },
+ "PN-S24-06": {
+  "A": "Restrict the resident's fluids during the day so that the resident needs to urinate less often",
+  "C": "Insert an indwelling urinary catheter so that the resident stays dry and comfortable all day",
+  "D": "Give sedatives at bedtime so that the resident sleeps through the night without getting up to use the bathroom"
+ },
+ "PN-S24-07": {
+  "A": "\"You should ask your provider about starting a sleeping pill every night to help you sleep longer and more deeply.\"",
+  "C": "\"Waking up earlier and sleeping more lightly are often early signs of dementia, so you should be tested.\"",
+  "D": "\"You should nap for several hours each afternoon to make up for the sleep you're losing.\""
+ },
+ "PN-S24-08": {
+  "A": "\"That's only 800 mg of sodium, so you can safely eat the whole can today.\"",
+  "C": "\"Canned soup has no sodium, so it's a good choice for you.\"",
+  "D": "\"The number of servings doesn't matter, only the total calories.\""
+ },
+ "PN-S24-09": {
+  "A": "\"Stand up while showering so that you can move around and wash more easily.\"",
+  "C": "\"Complete all of your chores in the morning without breaks, while you have the most energy.\"",
+  "D": "\"Carry the heavy laundry baskets up the stairs quickly to finish the job sooner.\""
+ },
+ "PN-S24-10": {
+  "A": "\"Cover your mouth and cough into your bare hands, and then wipe them off on a tissue from the front desk.\"",
+  "C": "\"Sit close to the other clients so you don't miss your name being called.\"",
+  "D": "\"Remove your mask whenever you need to talk with the staff or other clients.\""
+ },
+ "PN-S24-11": {
+  "A": "Raw vegetables with the skins on, nuts, and whole-grain bread",
+  "C": "Bran cereal with dried fruit and milk",
+  "D": "Popcorn, sunflower seeds, and fresh berries"
+ },
+ "PN-S24-12": {
+  "A": "Two slices of white toast with butter and a glass of orange juice",
+  "C": "Scrambled eggs, bacon, and a slice of white toast",
+  "D": "A glazed donut and a cup of coffee with cream"
+ },
+ "PN-S24-13": {
+  "A": "Performing the exchanges in the bathroom with the window and door open to let in plenty of fresh outside air",
+  "C": "Warming each bag of dialysate in the microwave for a minute or two before the exchange",
+  "D": "Skipping some of the scheduled exchanges on days when the client is feeling well and has energy"
+ },
+ "PN-S24-14": {
+  "A": "Gently pull and straighten the deformed arm back into normal alignment before applying a splint",
+  "C": "Have the visitor move the injured arm through its full range of motion to test how serious the injury is before calling for help",
+  "D": "Apply a heating pad to the injured forearm to relieve the pain and relax the muscles around it"
+ },
+ "PN-S24-15": {
+  "A": "\"You can return to play at tomorrow's game as long as you feel fine when you wake up in the morning, even if you haven't been checked by a health care provider or the athletic trainer yet.\"",
+  "C": "\"Spend your time at home playing video games or watching screens for long periods, since that's a good way to rest your brain after a concussion.\"",
+  "D": "\"Take aspirin every 4 hours for your headache, and keep taking it every day until the headache and dizziness are completely gone.\""
+ },
+ "PN-S24-16": {
+  "A": "\"Bed bugs are known to spread serious diseases such as HIV and hepatitis, so you will need to be tested for these infections right away.\"",
+  "C": "\"Spray an insecticide directly on your skin and pillow before bed each night to keep the bed bugs from biting you.\"",
+  "D": "\"Bed bugs only live in dirty homes, so cleaning and vacuuming more often will get rid of them without any other treatment.\""
+ },
+ "PN-S24-18": {
+  "A": "\"Avoid all exercise during your pregnancy, since any kind of physical activity could harm your baby or cause you to have a miscarriage.\"",
+  "C": "\"Now is a great time to start a new high-intensity contact sport, such as kickboxing or competitive soccer, so that you stay in good shape for labor and delivery.\"",
+  "D": "\"Do all of your exercises while lying flat on your back, which is the safest position for you and your baby throughout pregnancy.\""
+ },
+ "PN-S24-19": {
+  "A": "\"Stop breastfeeding for a few days until the cramping goes away, and give your baby formula from a bottle instead until you're feeling better.\"",
+  "C": "\"Apply a heating pad directly to your perineum during each feeding to relax the muscles and ease the cramping.\"",
+  "D": "\"Strong cramping like this after delivery means that something is wrong, so you should go to the emergency room right away.\""
+ },
+ "PN-S24-20": {
+  "A": "\"The ointment helps prevent the yellow skin color of newborn jaundice during the first week.\"",
+  "C": "\"The ointment helps improve your baby's vision and eye focus during the first few weeks of life.\"",
+  "D": "\"The ointment helps prevent bleeding in your baby's eyes from the pressure of a vaginal birth.\""
+ },
+ "PN-S24-21": {
+  "A": "Clean all of the residents' rooms and common surfaces with alcohol-based wipes only, since alcohol kills most viruses on contact",
+  "C": "Allow staff members who are ill to keep working their scheduled shifts on the unit, as long as they wear surgical masks and wash their hands frequently during the shift",
+  "D": "Use alcohol-based hand sanitizer instead of soap and water for all hand hygiene, since it is faster and kills most germs on contact"
+ },
+ "PN-S24-23": {
+  "A": "Keep the child isolated from friends and classmates to prevent infections during the hospital stay",
+  "C": "Treat the child like a toddler and have the parents and staff make all of the decisions for them",
+  "D": "Discourage the child from asking questions about treatment so that the child does not become frightened"
+ },
+ "PN-S24-24": {
+  "A": "Document that the resident is a picky eater who doesn't like the food",
+  "C": "Switch the resident to a full liquid diet without obtaining an order so that eating is easier",
+  "D": "Remove the dentures permanently so the resident can eat without them"
+ },
+ "PN-S25-01": {
+  "A": "\"Test the bath water with your fingertips first, and if it feels hot to you, that's still fine for the baby's skin.\"",
+  "C": "\"Fill the tub with warm water up to the level of the baby's chest so that the baby stays nice and warm during the whole bath.\"",
+  "D": "\"It's okay to step away and leave the baby in the tub for a moment to grab a towel, as long as you hurry back.\""
+ },
+ "PN-S25-02": {
+  "A": "\"Baby walkers are a great idea, because they help babies learn to walk earlier and make their leg muscles stronger at the same time.\"",
+  "C": "\"Baby walkers are safe to use near the stairs, as long as you stay in the same room and keep an eye on your baby.\"",
+  "D": "\"Use the walker in the kitchen near the stove so that you can watch your baby while you cook dinner.\""
+ },
+ "PN-S25-03": {
+  "A": "\"You should never use a pacifier with a breastfed baby, because it will always cause problems with feeding and with your breast milk supply.\"",
+  "C": "\"Tie the pacifier to a ribbon around your baby's neck so that it doesn't fall out of the crib while your baby is asleep.\"",
+  "D": "\"Dip the pacifier in a little bit of honey first, so that your baby is more willing to take it at nap time and bedtime.\""
+ },
+ "PN-S25-04": {
+  "A": "Vitamin C toxicity with diarrhea and cramps",
+  "C": "Hypercalcemia only, from all of the calcium in the milk",
+  "D": "Lactose intolerance with bloating and gas"
+ },
+ "PN-S25-06": {
+  "A": "\"Use very hot water and soak for a full hour at a time so that you get the most benefit from each sitz bath.\"",
+  "C": "\"Add a capful of scented bubble bath to the water each time to make the sitz bath more relaxing.\"",
+  "D": "\"Stand up quickly as soon as you're finished, so that you don't start to get chilled in the bathroom.\""
+ },
+ "PN-S25-07": {
+  "A": "Leave the warm compress in place overnight so that the area stays warm and the client doesn't have to be disturbed during sleep",
+  "C": "Apply the warm compress directly over an area of active bleeding and leave it in place for 30 minutes",
+  "D": "Have the client lie directly on top of the heating pad so that the heat reaches the deeper tissues"
+ },
+ "PN-S25-08": {
+  "A": "Take the oral temperature immediately while the client is sitting up and alert",
+  "C": "Take it with the client's mouth open to let the heat escape",
+  "D": "Take it right away and subtract 1 degree from the reading"
+ },
+ "PN-S25-10": {
+  "A": "The center of the heel, where the skin and fat pad are thickest",
+  "C": "The back of the heel, just above the sole of the foot",
+  "D": "The ball of the foot, just below the base of the big toe"
+ },
+ "PN-S25-11": {
+  "A": "Squeeze the urine out of a freshly wet disposable diaper into a sterile specimen cup",
+  "C": "Give the infant large amounts of water first so that the infant voids sooner",
+  "D": "Collect the urine from the bath water after the infant voids in the tub"
+ },
+ "PN-S25-12": {
+  "A": "Before entering the client's room, so that time is saved at the bedside",
+  "C": "At the nurses' station after collecting specimens from several different clients",
+  "D": "Leave it unlabeled, since the lab staff will label it when the specimen arrives in the department"
+ },
+ "PN-S25-13": {
+  "A": "Obstructive sleep apnea",
+  "C": "Nighttime hyperglycemia",
+  "D": "A viral illness with fever"
+ },
+ "PN-S25-14": {
+  "A": "Give the client a small glass of water to sip slowly, since a little water won't cause any harm before the surgery",
+  "C": "Offer the client a piece of sugar-free hard candy to suck on until it's time for surgery",
+  "D": "Tell the client that nothing can be done about the dry mouth until after the surgery is over"
+ },
+ "PN-S25-15": {
+  "A": "\"You only need to change the water in the humidifier about once a month, and you can just keep topping it off with tap water in between.\"",
+  "C": "\"Add a small amount of household bleach to the water while the humidifier is running, so that the machine stays clean.\"",
+  "D": "\"There's never any need to clean a cool-mist humidifier, since the cold water inside doesn't allow germs to grow.\""
+ },
+ "PN-S25-17": {
+  "A": "Offer the bedpan or the toilet only at times when the client says that they feel the urge to have a bowel movement during the day",
+  "C": "Restrict the client's fluids and dietary fiber to reduce the number and size of the stools each day",
+  "D": "Give the client a large-volume tap-water enema every day as the main part of the program for life"
+ },
+ "PN-S25-18": {
+  "A": "About 2 weeks after the last drink",
+  "C": "Only after about 5 days without alcohol"
+ },
+ "PN-S25-19": {
+  "A": "\"Give your child several instructions all at once, so that the chores and homework get done much faster each day.\"",
+  "C": "\"Remove all of the structure and schedules from your child's day so that there is less frustration.\"",
+  "D": "\"Punish every single mistake right away so that your child learns how to focus and pay attention.\""
+ },
+ "PN-S25-21": {
+  "A": "The newborn's lips are tucked inward toward the gums, and there are clicking sounds and dimpled cheeks with each suck during the feeding",
+  "C": "Only the tip of the nipple is in the newborn's mouth, and the baby feeds for just a few minutes",
+  "D": "The mother reports sharp, pinching nipple pain that continues throughout the entire feeding"
+ },
+ "PN-S25-22": {
+  "A": "\"Your baby is severely dehydrated from this weight loss and will need to be admitted to the hospital for IV fluids today.\"",
+  "C": "\"You'll need to switch your baby to formula immediately so that the weight comes back on.\"",
+  "D": "\"This weight loss means that breastfeeding has failed and isn't working for your baby.\""
+ },
+ "PN-S25-23": {
+  "A": "A client with an ankle sprain from a fall that occurred about 2 hours ago",
+  "C": "A client with a bruise on the thigh after a fall this morning",
+  "D": "A client with facial swelling after dental surgery this morning"
+ }
+}

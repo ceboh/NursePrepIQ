@@ -4,5 +4,6 @@
   "PN-S10-06": "Single-word drainage terms (serous, sanguineous, serosanguineous, purulent); padding the distractors would itself be a cue. Correct option is only 4 characters longer than the longest distractor.",
   "RN-S13-15": "Single-word antidote names (naloxone, acetylcysteine, flumazenil, vitamin K); padding the distractors would itself be a cue. Correct option is 4 characters longer than the longest distractor.",
   "PN-S15-08": "numeric",
-  "PN-S23-24": "numeric"
+  "PN-S23-24": "numeric",
+  "PN-S25-20": "numeric"
 }
