@@ -1,0 +1,398 @@
+{
+ "_comment": "Batch 11 (Sets 20-21). Distractor-only rewrites to remove the longest-answer cue. Correct options, stems, and rationales are unchanged; each distractor keeps its original meaning and stays wrong for the same reason.",
+ "RN-S20-01": {
+  "B": "A client with a laceration on the forearm with controlled bleeding who needs sutures",
+  "C": "A client with a sprained ankle rating pain 6/10 who is resting with the leg elevated",
+  "D": "A client with a urinary tract infection and a temperature of 100.4°F (38°C) who is drinking fluids"
+ },
+ "RN-S20-03": {
+  "A": "Deliver a defibrillation shock immediately at the highest energy setting",
+  "C": "Perform synchronized cardioversion as soon as the pads are on",
+  "D": "Administer adenosine 6 mg by rapid IV push followed by a flush"
+ },
+ "RN-S20-04": {
+  "A": "\"My heart rate will increase right away when I start exercising, just the same way it did before my surgery.\"",
+  "C": "\"Now that the transplant has healed, I won't need to have any more heart biopsies done.\"",
+  "D": "\"I can stop my immunosuppressants once I feel well and my new heart is working normally.\""
+ },
+ "RN-S20-05": {
+  "A": "Incisional pain along the thigh rated 4/10 about one hour after the last analgesic dose",
+  "C": "Mild swelling of the operative leg compared with the other leg",
+  "D": "Small amount of serosanguineous drainage on the incision dressing"
+ },
+ "RN-S20-06": {
+  "A": "Breathe in and out rapidly through the mouth the entire time the tube is being pulled out",
+  "C": "Cough forcefully several times as the tube is being pulled out",
+  "D": "Lie flat on the back and relax completely while breathing normally"
+ },
+ "RN-S20-08": {
+  "A": "Ask the family about organ donation yourself, before the brain death evaluation has been completed by the medical team today",
+  "C": "Decide on your own that the client is not a candidate for organ donation because of the client's advanced age",
+  "D": "Wait until after the ventilator has been removed to bring up the topic of donation with the family"
+ },
+ "RN-S20-09": {
+  "A": "\"Since the symptoms went away completely on their own within 20 minutes, no follow-up is needed at this point in time.\"",
+  "C": "\"This was most likely caused by anxiety, so try some relaxation exercises if it happens again.\"",
+  "D": "\"You should wait for it to happen again before seeing a provider, since the symptoms have resolved.\""
+ },
+ "RN-S20-10": {
+  "A": "Potassium chloride supplements taken every day with meals",
+  "C": "Levothyroxine only, taken each morning",
+  "D": "A low-calcium diet with limited dairy products"
+ },
+ "RN-S20-11": {
+  "A": "Insulin given before each meal and at bedtime for life",
+  "C": "Levothyroxine taken every morning before breakfast",
+  "D": "Potassium chloride supplements only"
+ },
+ "RN-S20-12": {
+  "A": "Place the client in high-Fowler's position to make breathing easier and apply oxygen",
+  "C": "Flush the catheter with saline to clear the air from the line",
+  "D": "Remove the catheter completely and apply pressure to the insertion site"
+ },
+ "RN-S20-13": {
+  "A": "Mild soreness at the biopsy site rated 2/10",
+  "C": "Slightly pink-tinged urine on the first void after the biopsy",
+  "D": "The client asks for something to eat and drink"
+ },
+ "RN-S20-14": {
+  "A": "Give the prescribed PRN analgesic for the back pain and plan to reassess the client at tomorrow's visit",
+  "C": "Encourage the client to walk more often each day to strengthen the back and leg muscles",
+  "D": "Apply a heating pad to the lower back for 20 minutes to relax the tight back muscles"
+ },
+ "RN-S20-15": {
+  "A": "\"If the tablets are hard for you to swallow, it's fine to crush them and mix them into a spoonful of applesauce or pudding.\"",
+  "C": "\"Store the tablets in a shared weekly pill organizer along with your spouse's daily medicines.\"",
+  "D": "\"If you miss a dose, double the next dose so that you stay on schedule with your treatment.\""
+ },
+ "RN-S20-16": {
+  "B": "Bradycardia, hypothermia, and pale, cool skin on the extremities",
+  "C": "Hyperglycemia only, with no other signs or symptoms",
+  "D": "Clear lungs, normal formed stools, and intact skin"
+ },
+ "RN-S20-17": {
+  "A": "Encourage the client to eat three large meals a day to replace the nutrients lost from vomiting",
+  "C": "Discharge the client home with no treatment, since this is expected",
+  "D": "A high-fat diet with fried foods to provide more calories and energy"
+ },
+ "RN-S20-24": {
+  "A": "Apply warm blankets to prevent hypothermia from the loss of temperature control after injury",
+  "C": "Insert the prescribed indwelling urinary catheter now to monitor the urine output and to prevent bladder distention",
+  "D": "Administer the prescribed oral analgesic for the client's neck pain and reassess the pain in 30 minutes"
+ },
+ "RN-S21-01": {
+  "B": "A client 1 day after laparoscopic cholecystectomy with right shoulder pain who is asking the nurse for a heating pad for comfort",
+  "C": "A client 2 days after hernia repair who has not had a bowel movement and is asking for a stool softener",
+  "D": "A client 6 hours after cataract surgery who is requesting the prescribed eye drops and an eye shield for sleep"
+ },
+ "RN-S21-02": {
+  "A": "Incisional pain rated 5/10 after repositioning",
+  "C": "Hypoactive bowel sounds in all four quadrants",
+  "D": "Temperature of 99.5°F (37.5°C) on the last check"
+ },
+ "RN-S21-03": {
+  "A": "\"The enoxaparin injections will be stopped today, because the warfarin has already started and will take over treating your clot.\"",
+  "C": "\"The two medications cancel each other out, so taking them together keeps your blood from becoming too thin.\"",
+  "D": "\"The enoxaparin injections are only being given to ease the pain and swelling in your leg, not to treat the clot.\""
+ },
+ "RN-S21-04": {
+  "B": "Mild dry mouth that has improved since stopping",
+  "C": "HR 68/min, regular, with a strong radial pulse",
+  "D": "Mild drowsiness in the afternoon"
+ },
+ "RN-S21-05": {
+  "A": "\"Wear two patches at the same time on days when your chest pain seems to be worse than usual.\"",
+  "C": "\"Never take the patch off, so that you always have steady protection against chest pain around the clock.\"",
+  "D": "\"Apply a patch only when you have chest pain, and remove it once the pain goes away.\""
+ },
+ "RN-S21-06": {
+  "A": "Stopping all treatment until the client becomes motivated to take the medication regularly on their own",
+  "C": "Doubling the doses on the days that the client remembers to take the medication",
+  "D": "Giving the client's full supply of pills to a neighbor to hand out each day"
+ },
+ "RN-S21-07": {
+  "A": "RR 22/min and regular, with no use of accessory muscles",
+  "B": "SpO2 94% on the current FiO2 setting",
+  "D": "Calm, alert, and following simple commands"
+ },
+ "RN-S21-08": {
+  "A": "Dilute it in 5% dextrose in water and infuse it over about 30 minutes using an infusion pump with an in-line filter, per facility policy",
+  "C": "Give it as a rapid IV push over about 1 minute so that the client reaches a therapeutic level quickly",
+  "D": "Give it through the same IV line as the client's continuous dextrose infusion to avoid another stick"
+ },
+ "RN-S21-10": {
+  "A": "Increase the evening NPH dose immediately by 2 units tonight",
+  "C": "Stop the evening insulin dose until the cause is found",
+  "D": "Check glucose only at bedtime and before breakfast"
+ },
+ "RN-S21-11": {
+  "A": "Mild weight gain",
+  "C": "Mild itching of the skin",
+  "D": "Feeling cold in the evening"
+ },
+ "RN-S21-12": {
+  "A": "Gastroesophageal reflux disease",
+  "C": "A flare of irritable bowel syndrome",
+  "D": "Acute viral gastroenteritis"
+ },
+ "RN-S21-13": {
+  "A": "Reinsert the same tube into the stoma immediately so that the tract does not close",
+  "C": "Insert an indwelling urinary catheter into the tract to keep it open",
+  "D": "Wait until the next day to report it, since the client is stable"
+ },
+ "RN-S21-14": {
+  "A": "Use the dialysis catheter to give the antibiotic, since it is already in place and working",
+  "C": "Flush the catheter with a large volume of saline first, and then use it to give the antibiotic",
+  "D": "Withdraw the heparin lock and then use the catheter freely for any IV medications the client needs"
+ },
+ "RN-S21-15": {
+  "A": "\"No routine blood tests will be needed while you're taking hydroxyurea, so you can skip the lab visits and just refill it.\"",
+  "C": "\"Hydroxyurea cures sickle cell disease, so you'll be able to stop taking it after the first few months.\"",
+  "D": "\"Take the hydroxyurea only during pain crises, when your sickle cell symptoms flare up, and then stop it.\""
+ },
+ "RN-S21-16": {
+  "A": "Hot flashes and night sweats that occur several times each week",
+  "C": "Mild fatigue in the late afternoon that improves with rest",
+  "D": "Occasional mild headache that is relieved by acetaminophen"
+ },
+ "RN-S21-17": {
+  "A": "\"No follow-up visits or testing are needed once you start PrEP, as long as you remember to take it every day.\"",
+  "C": "\"PrEP protects you against all sexually transmitted infections, so condoms are no longer needed.\"",
+  "D": "\"You can take PrEP just on the days when you remember, and it will still fully protect you.\""
+ },
+ "RN-S21-18": {
+  "A": "Encourage strict bed rest at home for a full week after the procedure to reduce the risk of leaking any of the amniotic fluid",
+  "C": "Give a laxative to prevent straining with bowel movements during the first few days after the procedure",
+  "D": "Schedule a repeat amniocentesis in 1 week to confirm that the fetus tolerated the first procedure well"
+ },
+ "RN-S21-19": {
+  "A": "Increasing amounts of protein in the urine on each daily dipstick test",
+  "C": "Worsening periorbital swelling, especially in the morning on waking",
+  "D": "Serum albumin decreasing further from last week's level"
+ },
+ "RN-S21-24": {
+  "A": "Continue the current infusion rates without changes, since the glucose level is still very high",
+  "C": "Increase the insulin infusion rate to bring the glucose down more quickly",
+  "D": "Stop the IV fluid infusion now that the client's glucose level is falling"
+ },
+ "PN-S20-02": {
+  "A": "The reservoir bag collapses completely each time the client breathes in",
+  "C": "The oxygen flow rate is set at 2 L/min to keep the mucous membranes from drying",
+  "D": "The mask fits loosely so that the client is more comfortable"
+ },
+ "PN-S20-03": {
+  "A": "Measure the BP only once, while the client is standing at the bedside, and then compare it with the value recorded yesterday",
+  "C": "Measure the BP in both arms at the same time while the client is sitting upright in the bedside chair",
+  "D": "Measure only the client's radial pulse for 1 full minute while the client rests in bed"
+ },
+ "PN-S20-04": {
+  "A": "Count the apical pulse for 1 minute first, then count the radial pulse about 5 minutes later",
+  "C": "Count the radial pulse for 15 seconds and multiply the result by 4",
+  "D": "Count only the radial pulse at the wrist for 1 full minute and record it"
+ },
+ "PN-S20-05": {
+  "A": "Complete bed rest for several weeks in a row until the pain resolves fully",
+  "C": "Avoiding all movement and activity until the pain improves",
+  "D": "Taking extra doses of opioids whenever the pain flares up"
+ },
+ "PN-S20-06": {
+  "A": "Gently force each joint past the point of resistance to increase the joint's range of motion over time",
+  "C": "Perform the range-of-motion exercises only once a week to avoid tiring the client out",
+  "D": "Move each joint rapidly through its full range of motion several times in a row without stopping"
+ },
+ "PN-S20-07": {
+  "A": "Apply the compression sleeves to the leg with a known new DVT to help break up and dissolve the clot more quickly",
+  "C": "Keep the compression sleeves off while the client is resting in bed so that the skin can breathe",
+  "D": "Apply the compression sleeves over thick padding or bulky blankets to make them more comfortable"
+ },
+ "PN-S20-08": {
+  "A": "Flush the tube forcefully with cranberry juice or cola to try to dissolve the clog quickly",
+  "C": "Remove the feeding tube and replace it with a new one immediately",
+  "D": "Increase the pump rate so that the formula can push through the clog"
+ },
+ "PN-S20-09": {
+  "A": "Supine with the head flat and the mouth open",
+  "C": "Sitting upright with the head tilted back to open the mouth",
+  "D": "Prone, with the face turned to one side on the pillow"
+ },
+ "PN-S20-10": {
+  "A": "Clean them over a hard, empty sink so the water can drain away quickly while you brush them, then store them dry in the cup",
+  "C": "Soak them in very hot water overnight to kill germs and loosen any food particles",
+  "D": "Wrap them in a paper towel or napkin and leave them on the meal tray until the client is ready"
+ },
+ "PN-S20-11": {
+  "A": "Leave the eyes partly open to the air at all times so that the client can still see the room",
+  "C": "Rub the eyes gently with a dry washcloth several times a day to remove any crusting",
+  "D": "Tape the eyelids fully open so that the eyes can be checked easily during each assessment"
+ },
+ "PN-S20-12": {
+  "A": "Waking the client every hour for vital signs even when they are not required",
+  "C": "Keeping the room brightly lit all night so the client is not confused",
+  "D": "Offering a cup of coffee at bedtime as a relaxing routine"
+ },
+ "PN-S20-13": {
+  "A": "\"Shivering will always be present when an older adult's body temperature drops this low.\"",
+  "C": "\"This temperature is normal for older adults, so no action is needed.\"",
+  "D": "\"Rapid rewarming in a hot bath is the best and quickest way to treat this.\""
+ },
+ "PN-S20-14": {
+  "A": "Leave all of the tubes and lines in place so that the funeral home staff can remove them later at their facility",
+  "C": "Place the body prone on the bed with the arms at the sides and the face turned to one side",
+  "D": "Discard the client's personal belongings so that the family is not upset by seeing them"
+ },
+ "PN-S20-15": {
+  "A": "Tell the client that spiritual visits are not allowed on the unit during their stay",
+  "C": "Suggest that the client consider a different religion that the nurse prefers",
+  "D": "Ignore the request, since the client is too seriously ill to have any visitors right now"
+ },
+ "PN-S20-16": {
+  "A": "As a sign that the client is being dishonest or is hiding something important from the nurse during the admission interview",
+  "C": "As a sign of depression in every case, which the nurse should report to the provider right away",
+  "D": "As rudeness and disrespect toward the nurse, which should be addressed directly with the client"
+ },
+ "PN-S20-17": {
+  "A": "Asking \"Do you understand everything?\" and moving on to the next topic when the client says yes",
+  "C": "Giving the client a printed pamphlet about the inhaler to read at home after discharge",
+  "D": "Having a family member who was present confirm that the client understands all of the steps"
+ },
+ "PN-S20-18": {
+  "A": "Proceed with the teaching as planned so that the client's discharge stays on schedule today",
+  "C": "Give the teaching materials to the family only and let them explain it later",
+  "D": "Skip the discharge teaching since the client is uncomfortable"
+ },
+ "PN-S20-19": {
+  "A": "\"It's fine to use any spoon from your kitchen drawer to measure the dose, since one teaspoon is really the same as any other.\"",
+  "C": "\"Cut one of your adult acetaminophen tablets in half and crush it into a spoonful of your child's applesauce.\"",
+  "D": "\"Give a dose every 2 hours whenever your child has a fever, until the temperature comes back down to normal.\""
+ },
+ "PN-S20-20": {
+  "A": "\"This rash is caused by an allergy to something your child ate or touched, so it will fade on its own over the next few days and doesn't need any treatment.\"",
+  "C": "\"Your child must stay home from school for 2 full weeks, even after starting the antibiotics and feeling much better, to protect classmates.\"",
+  "D": "\"Give your child children's aspirin every 4 hours for the fever and sore throat, and the rash should start to fade in a few days.\""
+ },
+ "PN-S20-21": {
+  "A": "\"There is no risk to anyone else in the family, including your sister, since your child's rash is already starting to fade.\"",
+  "C": "\"Keep your child home from school until the rash has been completely gone for a month.\"",
+  "D": "\"Your child needs antibiotics to clear the infection and stop the rash from spreading.\""
+ },
+ "PN-S20-22": {
+  "A": "Trim away the loose skin flap with sterile scissors and then cover the wound with dry gauze",
+  "C": "Apply strips of adhesive tape directly over the skin flap to hold it securely in place",
+  "D": "Leave the skin tear uncovered and open to the air so that it can dry out and heal"
+ },
+ "PN-S20-23": {
+  "A": "\"Eat as much swordfish and king mackerel as you like, since fish is very good for your baby's developing brain and eyes.\"",
+  "C": "\"Avoid eating all types of fish and seafood during your pregnancy, since any fish could harm your baby.\"",
+  "D": "\"Raw sushi is the safest choice of fish, because the nutrients haven't been changed or lost through cooking.\""
+ },
+ "PN-S21-01": {
+  "A": "\"Use cold water and hang the irrigation bag high above your head so that the water flows into the stoma quickly.\"",
+  "C": "\"Squeeze the bag to force the water in quickly, so that the irrigation is finished in just a few minutes.\"",
+  "D": "\"If you ever need an ileostomy in the future, you can irrigate it in exactly the same way.\""
+ },
+ "PN-S21-02": {
+  "A": "Set the flow meter at 8 L/min exactly as prescribed, since the provider has already chosen the rate",
+  "C": "Switch to a Venturi mask at 40% instead, without asking the provider first",
+  "D": "Set the flow meter at 2 L/min, since that is the usual flow rate for a nasal cannula"
+ },
+ "PN-S21-03": {
+  "A": "Supine with the head of the bed flat and both arms resting straight at the sides",
+  "C": "Prone on the bed with a small pillow placed under the chest",
+  "D": "Trendelenburg position, with the head of the bed lower than the feet"
+ },
+ "PN-S21-04": {
+  "A": "Measure at a slightly different spot each day to get a better overall average of the girth",
+  "C": "Measure over the client's gown or clothing to protect the client's privacy",
+  "D": "Measure only when the client is standing upright beside the bed, at any time of day"
+ },
+ "PN-S21-05": {
+  "A": "\"Give the glucagon only if your family member is still awake and able to swallow safely, and then wait to see whether it helps.\"",
+  "C": "\"Give the glucagon along with a large glass of juice so that it starts working even faster.\"",
+  "D": "\"Give the glucagon whenever your family member's blood sugar is very high, such as over 300 mg/dL.\""
+ },
+ "PN-S21-06": {
+  "A": "Skipping the priming step before each injection so that none of the expensive insulin in the pen is wasted",
+  "C": "Reusing the same pen needle for a full week to save money, as long as it is recapped",
+  "D": "Sharing the insulin pen with a family member who also has diabetes, using a new needle each time"
+ },
+ "PN-S21-07": {
+  "A": "\"Stop taking the metformin right away and don't restart it until the nausea and loose stools have gone away completely, then call your provider.\"",
+  "C": "\"Take the metformin on an empty stomach, at least 1 hour before breakfast, so that it is absorbed better and works faster.\"",
+  "D": "\"Double your dose for the next few days so that your body can get used to the medication faster, and then go back.\""
+ },
+ "PN-S21-08": {
+  "A": "\"Keep your head flat on the mattress without a pillow when you sleep at night to rest your eyes.\"",
+  "C": "\"Try to avoid blinking as much as possible to keep your eyes from getting more irritated.\"",
+  "D": "\"Rub your eyes gently with your fingertips whenever they start to feel dry or gritty.\""
+ },
+ "PN-S21-09": {
+  "A": "\"Limit how much you drink for the rest of today so that you don't need to get up and use the bathroom as often tonight.\"",
+  "C": "\"Call your provider immediately if you notice any white or light-colored stools over the next few days.\"",
+  "D": "\"Don't eat or drink anything for the next 24 hours so that your bowel can rest after the test.\""
+ },
+ "PN-S21-10": {
+  "A": "Offer toileting at random times so the resident does not expect it",
+  "C": "Restrict the resident's fluids and fiber to reduce the number of stools each day",
+  "D": "Use adult briefs only and change them when they are soiled"
+ },
+ "PN-S21-11": {
+  "A": "Apply the sheath tightly around the base of the penis so that no urine can leak out onto the bed linens during the night",
+  "C": "Use adhesive tape wrapped completely around the penis to hold the catheter securely in place",
+  "D": "Leave the same condom catheter on for a full week before changing it, to reduce skin irritation"
+ },
+ "PN-S21-12": {
+  "A": "\"Scrub the skin vigorously with a washcloth to remove the flakes.\"",
+  "C": "\"Apply rubbing alcohol to the skin to help dry up the flakes.\"",
+  "D": "\"Keep the arm wrapped in plastic wrap until the skin heals.\""
+ },
+ "PN-S21-13": {
+  "A": "\"Skip meals whenever you can, to reduce the number of possible food triggers you're exposed to each day.\"",
+  "C": "\"Have an extra glass of wine or beer in the evening to help you relax and unwind.\"",
+  "D": "\"Take pain relievers every day, even when you don't have a headache, to prevent one.\""
+ },
+ "PN-S21-14": {
+  "A": "Walk behind the client and push gently on the client's back to guide them forward through the hallway",
+  "C": "Take the client's hand and pull them along while walking a few steps ahead",
+  "D": "Walk beside the client without speaking so they can concentrate on walking"
+ },
+ "PN-S21-15": {
+  "A": "Encourage the client to walk on the grafted leg on the first day to improve circulation",
+  "C": "Remove the dressing every hour to check that the graft is pink and attached",
+  "D": "Apply a heating pad to the grafted area to promote circulation and faster healing"
+ },
+ "PN-S21-16": {
+  "A": "White rice, white potatoes, plain pasta, and unfortified white bread",
+  "C": "Butter, heavy cream, full-fat cheese, and sour cream",
+  "D": "Candy, cookies, regular soda, and other sweets"
+ },
+ "PN-S21-17": {
+  "A": "\"Take an antihistamine on the morning of the test so that you won't have a bad reaction during the testing.\"",
+  "C": "\"Apply a moisturizing lotion to your back before the test to protect the skin.\"",
+  "D": "\"Eat the foods you're allergic to the day before so the results are clearer.\""
+ },
+ "PN-S21-18": {
+  "A": "Grant the special privilege this time to avoid any conflict and to keep the client calm on the unit",
+  "C": "Argue with the client about what the other nurses do or do not allow",
+  "D": "Ignore the client completely until the requests for privileges stop on their own"
+ },
+ "PN-S21-19": {
+  "A": "Confronting the resident directly about their sad mood and telling them to try to cheer up",
+  "C": "Limiting the resident's social activities to reduce overstimulation",
+  "D": "Keeping the resident in their room so they can rest and be alone"
+ },
+ "PN-S21-20": {
+  "A": "\"Rub a numbing gel that contains benzocaine on the gums before naps and bedtime.\"",
+  "C": "\"Let your baby wear an amber teething necklace or bracelet during the day to ease the pain.\"",
+  "D": "\"Dip your baby's pacifier in a little honey before naps to soothe the sore, swollen gums.\""
+ },
+ "PN-S21-22": {
+  "A": "\"You will need to stop breastfeeding your baby for a few weeks after you get the vaccine.\"",
+  "C": "\"You'll need to get another dose of the MMR vaccine every single year from now on to stay protected.\"",
+  "D": "\"It's perfectly fine to become pregnant again right away after you receive this vaccine.\""
+ },
+ "PN-S21-23": {
+  "A": "Ignore the laughter and let the group session continue as it was planned",
+  "C": "Ask the client who shared to leave the group for the rest of the session to protect their feelings",
+  "D": "End the group session immediately and send everyone back to their rooms"
+ }
+}
