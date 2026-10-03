@@ -58,7 +58,7 @@ if (missing.length && args.has('--retire-missing')) {
 }
 
 // ---------- verification ----------
-const live = (await selectAll('questions', 'id,source_id,track,system,discipline,item_type,content_hash')).filter(q => bankIds.has(q.source_id));
+const live = (await selectAll('questions', 'id,source_id,track,system,discipline,item_type,content_hash,case_id')).filter(q => bankIds.has(q.source_id));
 const tally = (rows, f) => rows.reduce((m, r) => (m[f(r)] = (m[f(r)] || 0) + 1, m), {});
 const failures = [];
 for (const [label, f] of [['track', q => q.track], ['track/system', q => q.track + ' / ' + q.system], ['track/discipline', q => q.track + ' / ' + q.discipline], ['track/item_type', q => q.track + ' / ' + q.item_type]]) {
@@ -68,6 +68,9 @@ for (const [label, f] of [['track', q => q.track], ['track/system', q => q.track
 const hashes = new Map(live.map(q => [q.source_id, q.content_hash]));
 const stale = questions.filter(q => hashes.get(q.source_id) !== q.content_hash);
 if (stale.length) failures.push(`${stale.length} questions have a different content_hash in the db (e.g. ${stale[0].source_id})`);
+const caseCategories = new Map();
+for (const q of live.filter(q => q.case_id)) (caseCategories.get(q.case_id) ?? caseCategories.set(q.case_id, new Set()).get(q.case_id)).add(q.system + ' | ' + q.discipline);
+for (const [id, cats] of caseCategories) if (cats.size !== 1) failures.push(`${id}: items span ${[...cats].join(' / ')}`);
 const { count: caseCount } = await db.from('case_studies').select('id', { count: 'exact', head: true });
 if (caseCount < caseStudies.length) failures.push(`case_studies: bank ${caseStudies.length}, db ${caseCount}`);
 

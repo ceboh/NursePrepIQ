@@ -1,9 +1,12 @@
 // Derives body system and discipline for every bank item.
-// Sets 1-11 take the system from the set title; everything else is classified by
-// keyword over topic (weighted x3) and stem. Reviewed via data/bank/taxonomy_review.csv.
+// Case-study items take their case's categories from data/bank/case_study_categories.json.
+// Standalone items: sets 1-11 take the system from the set title; everything else is
+// classified by keyword over topic (weighted x3) and stem. Reviewed via data/bank/build/taxonomy_review.csv.
+import { readFileSync } from 'node:fs';
 
 export const SYSTEMS = ['Cardiovascular', 'Respiratory', 'Neurologic', 'Renal & Urinary', 'Endocrine', 'Gastrointestinal', 'Musculoskeletal', 'Hematologic', 'Immune', 'Integumentary', 'Sensory', 'Reproductive', 'Fluids & Electrolytes', 'Integrated'];
-export const DISCIPLINES = ['Adult Health', 'Fundamentals', 'Pharmacology', 'Mental Health', 'Maternal & Newborn', 'Pediatrics', 'Management of Care', 'Safety & Infection Control', 'NGN Clinical Judgment'];
+// Stored disciplines. "NGN Clinical Judgment" is not stored: it is a cross-cutting view of all cases.
+export const DISCIPLINES = ['Adult Health', 'Fundamentals', 'Pharmacology', 'Mental Health', 'Maternal & Newborn', 'Pediatrics', 'Management of Care', 'Safety & Infection Control'];
 
 const SET_SYSTEM = {
   1: 'Cardiovascular', 2: 'Respiratory', 3: 'Neurologic', 4: 'Endocrine', 5: 'Renal & Urinary',
@@ -45,11 +48,25 @@ function hits(text, words) {
   return n;
 }
 
-// `caseText` (scenario + exhibits) stands in for the topic on case-study items, whose topics
-// are only the clinical-judgment step; every item in a case then shares one system.
-export function classifySystem(q, caseText) {
+// NGN case studies are indivisible: every item takes its case's system and discipline from
+// data/bank/case_study_categories.json, never from per-item classification.
+const CASE_FILE = new URL('../../data/bank/case_study_categories.json', import.meta.url);
+export const CASE_CATEGORIES = new Map(JSON.parse(readFileSync(CASE_FILE, 'utf8')).cases.map(c => [c.case_id, c]));
+for (const c of CASE_CATEGORIES.values()) {
+  if (!SYSTEMS.includes(c.system)) throw new Error(`${c.case_id}: unknown system "${c.system}" in case_study_categories.json`);
+  if (!DISCIPLINES.includes(c.discipline)) throw new Error(`${c.case_id}: unknown discipline "${c.discipline}" in case_study_categories.json`);
+}
+function caseCategory(q) {
+  const c = CASE_CATEGORIES.get(q.case_id);
+  if (!c) throw new Error(`${q.source_id}: case ${q.case_id} has no entry in case_study_categories.json`);
+  if (!c.items.includes(q.source_id)) throw new Error(`${q.source_id}: not listed in the items of ${q.case_id} in case_study_categories.json`);
+  return c;
+}
+
+export function classifySystem(q) {
+  if (q.case_id) return { system: caseCategory(q).system, basis: 'case_category' };
   if (SET_SYSTEM[q.set_number]) return { system: SET_SYSTEM[q.set_number], basis: 'set_title' };
-  const topic = norm(caseText ?? q.topic), stem = caseText ? ' ' : norm(q.stem);
+  const topic = norm(q.topic), stem = norm(q.stem);
   let best = 'Integrated', bestScore = 0, runnerUp = 0;
   for (const [sys, words] of Object.entries(KEYWORDS)) {
     const s = hits(topic, words) * 3 + hits(stem, words);
@@ -62,7 +79,7 @@ export function classifySystem(q, caseText) {
 }
 
 export function classifyDiscipline(q) {
-  if (q.case_id) return 'NGN Clinical Judgment';
+  if (q.case_id) return caseCategory(q).discipline;
   if (SET_DISCIPLINE[q.set_number]) return SET_DISCIPLINE[q.set_number];
   const topic = norm(q.topic), text = norm(q.topic + ' ' + q.stem);
   if (hits(topic, MATERNITY) > 0) return 'Maternal & Newborn';

@@ -5,14 +5,18 @@ import {useRouter,useSearchParams} from 'next/navigation'
 import {createClient} from '@/lib/supabase/client'
 import QuestionRenderer from '@/components/questions/QuestionRenderer'
 import CaseStudyPanel from '@/components/questions/CaseStudyPanel'
-import {QUESTION_COLUMNS,ITEM_TYPE_LABEL,describeKey,displayResponse,isComplete,optionLetter,scoreQuestion,type BankQuestion,type CaseStudy,type ChoiceResponse,type ResponseConfig,type StudentResponse} from '@/lib/questions/bank'
+import {QUESTION_COLUMNS,CASE_STUDY_CATEGORY,ITEM_TYPE_LABEL,buildSession,describeKey,displayResponse,isComplete,optionLetter,scoreQuestion,type BankQuestion,type CaseStudy,type ChoiceResponse,type ResponseConfig,type SessionUnit,type StudentResponse} from '@/lib/questions/bank'
 
 const feedback=[['clear','Clear'],['unsure_between_two','I was unsure between two'],['rationale_helpful','Rationale helped'],['confusing','Question was confusing'],['multiple_answers_possible','More than one answer seems correct'],['disagree_with_key','I disagree with the key'],['needs_more_detail','Needs more explanation'],['possibly_inaccurate','May be inaccurate/outdated']]
 
-// Standalone items in bank order; each case's items stay together and in sequence.
-function orderQuestions(rows:BankQuestion[]){
-  const sortKey=(q:BankQuestion)=>[q.track,String(q.set_number).padStart(3,'0'),q.case_id?'1':'0',String(q.case_sequence??0).padStart(2,'0'),q.source_id].join('|')
-  return [...rows].sort((a,b)=>sortKey(a).localeCompare(sortKey(b)))
+type Page=PromiseLike<{data:unknown[]|null;error:{message:string}|null}>
+// PostgREST caps responses at 1,000 rows, so read every page. `page` must build a fresh query each call.
+async function selectAllQuestions(page:(from:number,to:number)=>Page){
+  const rows:BankQuestion[]=[]
+  for(let from=0;;from+=1000){const {data,error}=await page(from,from+999)
+  if(error)throw new Error(error.message)
+  rows.push(...((data||[]) as BankQuestion[]))
+  if(!data||data.length<1000)return rows}
 }
 
 // What the AI teacher sees: options carry the letters the student actually saw.
@@ -25,11 +29,14 @@ function lessonPayload(q:BankQuestion,display:ResponseConfig,response:StudentRes
 
 function LibraryPractice(){const router=useRouter(),sp=useSearchParams(),start=useRef(Date.now())
 const [seed]=useState(()=>Math.random().toString(36).slice(2))
-const [qs,setQs]=useState<BankQuestion[]>([]),[cases,setCases]=useState<Record<string,CaseStudy>>({}),[voice,setVoice]=useState('coral'),[speed,setSpeed]=useState(1),[audioUrl,setAudioUrl]=useState(''),[audioLoading,setAudioLoading]=useState(false),[i,setI]=useState(0),[response,setResponse]=useState<StudentResponse>({}),[submitted,setSubmitted]=useState(false),[attemptId,setAttemptId]=useState<string|null>(null),[loading,setLoading]=useState(true),[err,setErr]=useState(''),[chat,setChat]=useState(''),[reply,setReply]=useState(''),[asking,setAsking]=useState(false),[lesson,setLesson]=useState<any>(null),[lessonLoading,setLessonLoading]=useState(false)
+const [units,setUnits]=useState<SessionUnit[]>([]),[cases,setCases]=useState<Record<string,CaseStudy>>({}),[voice,setVoice]=useState('coral'),[speed,setSpeed]=useState(1),[audioUrl,setAudioUrl]=useState(''),[audioLoading,setAudioLoading]=useState(false),[i,setI]=useState(0),[response,setResponse]=useState<StudentResponse>({}),[submitted,setSubmitted]=useState(false),[attemptId,setAttemptId]=useState<string|null>(null),[loading,setLoading]=useState(true),[err,setErr]=useState(''),[chat,setChat]=useState(''),[reply,setReply]=useState(''),[asking,setAsking]=useState(false),[lesson,setLesson]=useState<any>(null),[lessonLoading,setLessonLoading]=useState(false)
+const qs=useMemo(()=>units.flatMap(u=>u.questions),[units])
+const unitStart=useMemo(()=>{const starts:number[]=[];let n=0;for(const u of units){starts.push(n);n+=u.questions.length}return starts},[units])
 const q=qs[i],system=sp.get('system'),discipline=sp.get('discipline')
+const unitIndex=unitStart.findLastIndex(s=>s<=i)
 const display=useMemo(()=>q?displayResponse(q,seed):null,[q,seed])
 const caseStudy=q?.case_id?cases[q.case_id]??null:null
-const caseTotal=q?.case_id?qs.filter(x=>x.case_id===q.case_id).length:0
+const caseTotal=unitIndex>=0&&units[unitIndex]?.caseId?units[unitIndex].questions.length:0
 
 useEffect(()=>{try{const v=localStorage.getItem('npiq_voice'),p=Number(localStorage.getItem('npiq_speed'))
 if(v)setVoice(v)
@@ -39,17 +46,22 @@ const {data:{user}}=await s.auth.getUser()
 if(!user){router.replace('/auth')
 return}const {data:p}=await s.from('profiles').select('exam_track').eq('id',user.id).maybeSingle()
 const t=p?.exam_track==='pn'?'pn':'rn'
-let query=s.from('questions').select(QUESTION_COLUMNS).eq('track',t)
+try{
+const rows=await selectAllQuestions((from,to)=>{let query=s.from('questions').select(QUESTION_COLUMNS).eq('track',t)
 if(system)query=query.eq('system',system)
-if(discipline)query=query.eq('discipline',discipline)
-const {data,error}=await query.limit(1000)
-if(error)setErr(error.message)
-const rows=orderQuestions((data||[]) as BankQuestion[])
-setQs(rows)
+if(discipline===CASE_STUDY_CATEGORY)query=query.not('case_id','is',null)
+else if(discipline)query=query.eq('discipline',discipline)
+return query.order('source_id').range(from,to)})
+// Always load every item of each case in the session so a case is never shown partially.
 const caseIds=[...new Set(rows.map(r=>r.case_id).filter(Boolean))] as string[]
+const caseItems=caseIds.length?await selectAllQuestions((from,to)=>s.from('questions').select(QUESTION_COLUMNS).in('case_id',caseIds).order('source_id').range(from,to)):[]
+const caseSizes:Record<string,number>={}
+for(const c of caseItems)caseSizes[c.case_id!]=(caseSizes[c.case_id!]||0)+1
+setUnits(buildSession([...rows.filter(r=>!r.case_id),...caseItems],seed,caseSizes))
 if(caseIds.length){const {data:cs}=await s.from('case_studies').select('id,title,scenario,exhibits').in('id',caseIds)
 setCases(Object.fromEntries((cs||[]).map((c:any)=>[c.id,c])))}
-setLoading(false)})()},[router,system,discipline])
+}catch(e:any){setErr(e?.message||'Could not load questions')}
+setLoading(false)})()},[router,system,discipline,seed])
 
 async function submit(){if(!q)return
 const s=createClient(),{data:{user}}=await s.auth.getUser()
@@ -105,7 +117,11 @@ try{await playAudio(parts.join(' '))}catch{}
 setAudioLoading(false)}
 function moveTo(delta:number){if(audioUrl)URL.revokeObjectURL(audioUrl)
 setAudioUrl('')
-setI(x=>Math.max(0,Math.min(qs.length-1,x+delta)))
+// A case is always entered at its first item: stepping back from outside a case lands on
+// item 1 of that case, never in the middle of it.
+setI(x=>{const n=Math.max(0,Math.min(qs.length-1,x+delta))
+if(delta<0&&qs[n]?.case_id&&qs[n].case_id!==qs[x]?.case_id)return qs.findIndex(y=>y.case_id===qs[n].case_id)
+return n})
 setResponse({})
 setSubmitted(false)
 setAttemptId(null)
@@ -119,7 +135,7 @@ if(loading)return <main className="grid min-h-screen place-items-center"><b>Load
 if(!q||!display)return <main className="grid min-h-screen place-items-center p-6"><div className="text-center"><h1 className="text-2xl font-black">No questions available in this collection yet.</h1>{err&&<p className="mt-3 text-rose-700">{err}</p>}<button onClick={()=>router.push('/dashboard')} className="mt-5 rounded-xl bg-[var(--deep-navy)] px-5 py-3 font-bold text-white">Back to dashboard</button></div></main>
 const scored=submitted?scoreQuestion(q,response):null
 
-return <main className="min-h-screen bg-[var(--background)] px-5 py-8"><div className="mx-auto max-w-3xl"><button onClick={()=>router.push('/dashboard')} className="mb-5 font-bold text-[var(--teal)]">← Dashboard</button><div className="mb-4 flex justify-between"><b>{system||discipline||'All questions'}</b><span>Question {i+1} of {qs.length}</span></div><section className="rounded-3xl bg-white p-7 shadow-sm ring-1 ring-slate-200"><div className="flex flex-wrap gap-2 text-xs font-black"><span className="rounded-full bg-cyan-50 px-3 py-1">{q.system}</span><span className="rounded-full bg-blue-50 px-3 py-1">{q.discipline}</span><span className="rounded-full bg-slate-100 px-3 py-1">{ITEM_TYPE_LABEL[q.item_type]}</span>{q.status==='pilot'&&<span className="rounded-full bg-amber-50 px-3 py-1 text-amber-800" title="Pilot items are still being reviewed">Pilot</span>}</div>{caseStudy&&<CaseStudyPanel key={caseStudy.id} caseStudy={caseStudy} step={q.case_sequence||1} total={caseTotal} judgmentStep={q.clinical_judgment_step}/>}<h1 className="mt-5 text-xl font-black leading-8">{q.stem}</h1><QuestionRenderer question={q} display={display} value={response} submitted={submitted} onChange={setResponse}/>{err&&<p className="mt-4 rounded-xl bg-rose-50 p-3 text-rose-800">{err}</p>}{!submitted&&<button disabled={!isComplete(q,response)} onClick={submit} className="mt-6 w-full rounded-xl bg-[var(--blue)] py-4 font-black text-white disabled:opacity-40">Submit Answer →</button>}{scored&&<p className={`mt-6 rounded-xl p-4 font-black ${scored.isCorrect?'bg-emerald-50 text-emerald-800':'bg-rose-50 text-rose-800'}`}>{scored.isCorrect?'Correct':'Not quite'} · {scored.earned} of {scored.possible} point{scored.possible===1?'':'s'}</p>}</section>
+return <main className="min-h-screen bg-[var(--background)] px-5 py-8"><div className="mx-auto max-w-3xl"><button onClick={()=>router.push('/dashboard')} className="mb-5 font-bold text-[var(--teal)]">← Dashboard</button><div className="mb-4 flex justify-between"><b>{system||discipline||'All questions'}</b><span title="A case study counts as one item">Item {unitIndex+1} of {units.length}</span></div><section className="rounded-3xl bg-white p-7 shadow-sm ring-1 ring-slate-200"><div className="flex flex-wrap gap-2 text-xs font-black"><span className="rounded-full bg-cyan-50 px-3 py-1">{q.system}</span><span className="rounded-full bg-blue-50 px-3 py-1">{q.discipline}</span><span className="rounded-full bg-slate-100 px-3 py-1">{ITEM_TYPE_LABEL[q.item_type]}</span>{q.status==='pilot'&&<span className="rounded-full bg-amber-50 px-3 py-1 text-amber-800" title="Pilot items are still being reviewed">Pilot</span>}</div>{caseStudy&&<CaseStudyPanel key={caseStudy.id} caseStudy={caseStudy} step={q.case_sequence||1} total={caseTotal} judgmentStep={q.clinical_judgment_step}/>}<h1 className="mt-5 text-xl font-black leading-8">{q.stem}</h1><QuestionRenderer question={q} display={display} value={response} submitted={submitted} onChange={setResponse}/>{err&&<p className="mt-4 rounded-xl bg-rose-50 p-3 text-rose-800">{err}</p>}{!submitted&&<button disabled={!isComplete(q,response)} onClick={submit} className="mt-6 w-full rounded-xl bg-[var(--blue)] py-4 font-black text-white disabled:opacity-40">Submit Answer →</button>}{scored&&<p className={`mt-6 rounded-xl p-4 font-black ${scored.isCorrect?'bg-emerald-50 text-emerald-800':'bg-rose-50 text-rose-800'}`}>{scored.isCorrect?'Correct':'Not quite'} · {scored.earned} of {scored.possible} point{scored.possible===1?'':'s'}</p>}</section>
 {submitted&&<section className="mt-5 rounded-3xl bg-white p-7 shadow-sm ring-1 ring-slate-200"><div className="flex flex-wrap items-center justify-between gap-3"><h2 className="text-lg font-black">Teaching Rationale</h2><div className="flex flex-wrap items-end gap-2"><label className="text-xs font-bold">Voice<select value={voice} onChange={e=>{setVoice(e.target.value)
 try{localStorage.setItem('npiq_voice',e.target.value)}catch{}}} className="ml-2 rounded-lg border p-2 font-normal"><option value="coral">Coral</option><option value="nova">Nova</option><option value="sage">Sage</option><option value="alloy">Alloy</option><option value="onyx">Onyx</option><option value="shimmer">Shimmer</option></select></label><label className="text-xs font-bold">Pacing<select value={speed} onChange={e=>{const n=Number(e.target.value)
 setSpeed(n)

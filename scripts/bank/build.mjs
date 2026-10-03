@@ -4,7 +4,7 @@
 // non-zero if any answer key cannot be resolved unambiguously.
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { createHash } from 'node:crypto';
-import { classifySystem, classifyDiscipline } from './taxonomy.mjs';
+import { classifySystem, classifyDiscipline, CASE_CATEGORIES } from './taxonomy.mjs';
 
 const BANK = new URL('../../data/bank/', import.meta.url);
 const OUT = new URL('build/', BANK);
@@ -161,16 +161,16 @@ const BUILDERS = { single_best_answer: choiceResponse, multiple_response: choice
 const questions = [], caseStudies = [], taxonomy = [];
 for (const file of FILES) {
   const bank = JSON.parse(readFileSync(new URL(file, BANK), 'utf8'));
-  const caseText = {};
   for (const c of bank.case_studies) {
-    caseStudies.push({ id: c.case_id, track: c.track, set_number: c.set_number, title: c.title, scenario: c.scenario, exhibits: c.exhibits });
-    caseText[c.case_id] = [c.scenario, ...c.exhibits.map(e => e.content)].join(' ');
+    const category = CASE_CATEGORIES.get(c.case_id);
+    if (!category) { problems.push(`${c.case_id}: missing from case_study_categories.json`); continue; }
+    caseStudies.push({ id: c.case_id, track: c.track, set_number: c.set_number, title: category.title, scenario: c.scenario, exhibits: c.exhibits });
   }
   for (const q of bank.questions) {
     if (q.track !== bank.track) problems.push(`${q.source_id}: track ${q.track} in ${bank.track} file`);
     if (!ITEM_TYPES.includes(q.item_type)) { problems.push(`${q.source_id}: unknown item type ${q.item_type}`); continue; }
     const response = BUILDERS[q.item_type](q);
-    const { system, basis } = classifySystem(q, q.case_id ? caseText[q.case_id] : undefined);
+    const { system, basis } = classifySystem(q);
     const discipline = classifyDiscipline(q);
     taxonomy.push([q.source_id, q.track, q.set_number, q.topic, system, basis, discipline]);
     const row = {
@@ -190,8 +190,14 @@ const ids = new Set();
 for (const q of questions) { if (ids.has(q.source_id)) problems.push(`duplicate source_id ${q.source_id}`); ids.add(q.source_id); }
 const caseIds = new Set(caseStudies.map(c => c.id));
 for (const q of questions) if (q.case_id && !caseIds.has(q.case_id)) problems.push(`${q.source_id}: unknown case ${q.case_id}`);
-const seq = new Set();
-for (const q of questions.filter(q => q.case_id)) { const k = q.case_id + '#' + q.case_sequence; if (seq.has(k)) problems.push(`duplicate case sequence ${k}`); seq.add(k); }
+// Cases are indivisible: sequence 1..n with no gaps, the exact items the category file lists,
+// and one system and one discipline across all of them.
+for (const c of CASE_CATEGORIES.values()) {
+  const items = questions.filter(q => q.case_id === c.case_id).sort((a, b) => a.case_sequence - b.case_sequence);
+  if (items.map(q => q.case_sequence).join() !== items.map((_, n) => n + 1).join()) problems.push(`${c.case_id}: case_sequence is not 1..${items.length}`);
+  if (items.map(q => q.source_id).join() !== c.items.join()) problems.push(`${c.case_id}: bank items [${items.map(q => q.source_id)}] differ from category file [${c.items}]`);
+  if (new Set(items.map(q => q.system)).size !== 1 || new Set(items.map(q => q.discipline)).size !== 1) problems.push(`${c.case_id}: items span more than one system or discipline`);
+}
 
 mkdirSync(OUT, { recursive: true });
 writeFileSync(new URL('questions.json', OUT), JSON.stringify(questions));

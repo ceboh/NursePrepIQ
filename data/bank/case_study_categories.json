@@ -1,0 +1,605 @@
+{
+ "_comment": "One system and one discipline per RN case study. All 6 items in the case inherit these values. Items flagged needs_review are judgment calls the owner may change.",
+ "cases": [
+  {
+   "case_id": "RN-S01-CASE",
+   "title": "Heart failure (HFrEF) with atrial fibrillation",
+   "system": "Cardiovascular",
+   "discipline": "Adult Health",
+   "items": [
+    "RN-S01-20",
+    "RN-S01-21",
+    "RN-S01-22",
+    "RN-S01-23",
+    "RN-S01-24",
+    "RN-S01-25"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "RN-S02-CASE",
+   "title": "COPD exacerbation from pneumonia",
+   "system": "Respiratory",
+   "discipline": "Adult Health",
+   "items": [
+    "RN-S02-20",
+    "RN-S02-21",
+    "RN-S02-22",
+    "RN-S02-23",
+    "RN-S02-24",
+    "RN-S02-25"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "RN-S03-CASE",
+   "title": "Epidural hematoma after head injury",
+   "system": "Neurologic",
+   "discipline": "Adult Health",
+   "items": [
+    "RN-S03-20",
+    "RN-S03-21",
+    "RN-S03-22",
+    "RN-S03-23",
+    "RN-S03-24",
+    "RN-S03-25"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "RN-S04-CASE",
+   "title": "Diabetic ketoacidosis",
+   "system": "Endocrine",
+   "discipline": "Adult Health",
+   "items": [
+    "RN-S04-20",
+    "RN-S04-21",
+    "RN-S04-22",
+    "RN-S04-23",
+    "RN-S04-24",
+    "RN-S04-25"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "RN-S05-CASE",
+   "title": "Missed dialysis with hyperkalemia",
+   "system": "Renal & Urinary",
+   "discipline": "Adult Health",
+   "items": [
+    "RN-S05-20",
+    "RN-S05-21",
+    "RN-S05-22",
+    "RN-S05-23",
+    "RN-S05-24",
+    "RN-S05-25"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "RN-S06-CASE",
+   "title": "NSAID-induced upper GI bleed with shock",
+   "system": "Gastrointestinal",
+   "discipline": "Adult Health",
+   "items": [
+    "RN-S06-20",
+    "RN-S06-21",
+    "RN-S06-22",
+    "RN-S06-23",
+    "RN-S06-24",
+    "RN-S06-25"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "RN-S07-CASE",
+   "title": "Fat embolism syndrome after femur fracture",
+   "system": "Musculoskeletal",
+   "discipline": "Adult Health",
+   "items": [
+    "RN-S07-20",
+    "RN-S07-21",
+    "RN-S07-22",
+    "RN-S07-23",
+    "RN-S07-24",
+    "RN-S07-25"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "RN-S08-CASE",
+   "title": "Febrile neutropenia and sepsis",
+   "system": "Hematologic",
+   "discipline": "Adult Health",
+   "items": [
+    "RN-S08-20",
+    "RN-S08-21",
+    "RN-S08-22",
+    "RN-S08-23",
+    "RN-S08-24",
+    "RN-S08-25"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "RN-S09-CASE",
+   "title": "Anaphylaxis to ceftriaxone",
+   "system": "Immune",
+   "discipline": "Adult Health",
+   "items": [
+    "RN-S09-20",
+    "RN-S09-21",
+    "RN-S09-22",
+    "RN-S09-23",
+    "RN-S09-24",
+    "RN-S09-25"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "RN-S10-CASE",
+   "title": "Major burn injury",
+   "system": "Integumentary",
+   "discipline": "Adult Health",
+   "items": [
+    "RN-S10-20",
+    "RN-S10-21",
+    "RN-S10-22",
+    "RN-S10-23",
+    "RN-S10-24",
+    "RN-S10-25"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "RN-S11-CASE",
+   "title": "Hypokalemia with metabolic alkalosis",
+   "system": "Fluids & Electrolytes",
+   "discipline": "Adult Health",
+   "items": [
+    "RN-S11-20",
+    "RN-S11-21",
+    "RN-S11-22",
+    "RN-S11-23",
+    "RN-S11-24",
+    "RN-S11-25"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "RN-S12-CASE",
+   "title": "Postpartum hemorrhage from uterine atony",
+   "system": "Reproductive",
+   "discipline": "Maternal & Newborn",
+   "items": [
+    "RN-S12-20",
+    "RN-S12-21",
+    "RN-S12-22",
+    "RN-S12-23",
+    "RN-S12-24",
+    "RN-S12-25"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "RN-S13-CASE",
+   "title": "RSV bronchiolitis in an infant",
+   "system": "Respiratory",
+   "discipline": "Pediatrics",
+   "items": [
+    "RN-S13-20",
+    "RN-S13-21",
+    "RN-S13-22",
+    "RN-S13-23",
+    "RN-S13-24",
+    "RN-S13-25"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "RN-S14-CASE",
+   "title": "Alcohol withdrawal delirium",
+   "system": "Neurologic",
+   "discipline": "Mental Health",
+   "items": [
+    "RN-S14-20",
+    "RN-S14-21",
+    "RN-S14-22",
+    "RN-S14-23",
+    "RN-S14-24",
+    "RN-S14-25"
+   ],
+   "needs_review": true
+  },
+  {
+   "case_id": "RN-S15-CASE",
+   "title": "Weight-based heparin for pulmonary embolism",
+   "system": "Hematologic",
+   "discipline": "Pharmacology",
+   "items": [
+    "RN-S15-20",
+    "RN-S15-21",
+    "RN-S15-22",
+    "RN-S15-23",
+    "RN-S15-24",
+    "RN-S15-25"
+   ],
+   "needs_review": true
+  },
+  {
+   "case_id": "RN-S16-CASE",
+   "title": "Five-client assignment and delegation",
+   "system": "Integrated",
+   "discipline": "Management of Care",
+   "items": [
+    "RN-S16-20",
+    "RN-S16-21",
+    "RN-S16-22",
+    "RN-S16-23",
+    "RN-S16-24",
+    "RN-S16-25"
+   ],
+   "needs_review": true
+  },
+  {
+   "case_id": "RN-S17-CASE",
+   "title": "Postoperative delirium and fall risk",
+   "system": "Integrated",
+   "discipline": "Safety & Infection Control",
+   "items": [
+    "RN-S17-20",
+    "RN-S17-21",
+    "RN-S17-22",
+    "RN-S17-23",
+    "RN-S17-24",
+    "RN-S17-25"
+   ],
+   "needs_review": true
+  },
+  {
+   "case_id": "RN-S18-CASE",
+   "title": "Preterm labor triggered by UTI",
+   "system": "Reproductive",
+   "discipline": "Maternal & Newborn",
+   "items": [
+    "RN-S18-20",
+    "RN-S18-21",
+    "RN-S18-22",
+    "RN-S18-23",
+    "RN-S18-24",
+    "RN-S18-25"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "RN-S19-CASE",
+   "title": "Type A aortic dissection",
+   "system": "Cardiovascular",
+   "discipline": "Adult Health",
+   "items": [
+    "RN-S19-20",
+    "RN-S19-21",
+    "RN-S19-22",
+    "RN-S19-23",
+    "RN-S19-24",
+    "RN-S19-25"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "RN-S20-CASE",
+   "title": "C6 spinal cord injury with neurogenic shock",
+   "system": "Neurologic",
+   "discipline": "Adult Health",
+   "items": [
+    "RN-S20-20",
+    "RN-S20-21",
+    "RN-S20-22",
+    "RN-S20-23",
+    "RN-S20-24",
+    "RN-S20-25"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "RN-S21-CASE",
+   "title": "Hyperosmolar hyperglycemic state",
+   "system": "Endocrine",
+   "discipline": "Adult Health",
+   "items": [
+    "RN-S21-20",
+    "RN-S21-21",
+    "RN-S21-22",
+    "RN-S21-23",
+    "RN-S21-24",
+    "RN-S21-25"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "RN-S22-CASE",
+   "title": "Bacterial meningitis in an infant",
+   "system": "Neurologic",
+   "discipline": "Pediatrics",
+   "items": [
+    "RN-S22-20",
+    "RN-S22-21",
+    "RN-S22-22",
+    "RN-S22-23",
+    "RN-S22-24",
+    "RN-S22-25"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "RN-S23-CASE",
+   "title": "Cardiogenic shock after anterior MI",
+   "system": "Cardiovascular",
+   "discipline": "Adult Health",
+   "items": [
+    "RN-S23-20",
+    "RN-S23-21",
+    "RN-S23-22",
+    "RN-S23-23",
+    "RN-S23-24",
+    "RN-S23-25"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "RN-S24-CASE",
+   "title": "Acute pancreatitis",
+   "system": "Gastrointestinal",
+   "discipline": "Adult Health",
+   "items": [
+    "RN-S24-20",
+    "RN-S24-21",
+    "RN-S24-22",
+    "RN-S24-23",
+    "RN-S24-24",
+    "RN-S24-25"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "RN-S25-CASE",
+   "title": "Acetaminophen overdose with acute liver failure",
+   "system": "Gastrointestinal",
+   "discipline": "Adult Health",
+   "items": [
+    "RN-S25-20",
+    "RN-S25-21",
+    "RN-S25-22",
+    "RN-S25-23",
+    "RN-S25-24",
+    "RN-S25-25"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "RN-S26-CASE",
+   "title": "Organophosphate poisoning",
+   "system": "Neurologic",
+   "discipline": "Adult Health",
+   "items": [
+    "RN-S26-20",
+    "RN-S26-21",
+    "RN-S26-22",
+    "RN-S26-23",
+    "RN-S26-24",
+    "RN-S26-25"
+   ],
+   "needs_review": true
+  },
+  {
+   "case_id": "RN-S27-CASE",
+   "title": "Thyroid storm",
+   "system": "Endocrine",
+   "discipline": "Adult Health",
+   "items": [
+    "RN-S27-20",
+    "RN-S27-21",
+    "RN-S27-22",
+    "RN-S27-23",
+    "RN-S27-24",
+    "RN-S27-25"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "RN-S28-CASE",
+   "title": "Pediatric drowning with hypothermia",
+   "system": "Respiratory",
+   "discipline": "Pediatrics",
+   "items": [
+    "RN-S28-20",
+    "RN-S28-21",
+    "RN-S28-22",
+    "RN-S28-23",
+    "RN-S28-24",
+    "RN-S28-25"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "RN-S29-CASE",
+   "title": "Acute limb ischemia from embolism",
+   "system": "Cardiovascular",
+   "discipline": "Adult Health",
+   "items": [
+    "RN-S29-20",
+    "RN-S29-21",
+    "RN-S29-22",
+    "RN-S29-23",
+    "RN-S29-24",
+    "RN-S29-25"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "RN-S30-CASE",
+   "title": "Ruptured appendix with septic shock",
+   "system": "Gastrointestinal",
+   "discipline": "Pediatrics",
+   "items": [
+    "RN-S30-20",
+    "RN-S30-21",
+    "RN-S30-22",
+    "RN-S30-23",
+    "RN-S30-24",
+    "RN-S30-25"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "RN-S31-CASE",
+   "title": "Guillain-Barr\u00e9 syndrome",
+   "system": "Neurologic",
+   "discipline": "Adult Health",
+   "items": [
+    "RN-S31-20",
+    "RN-S31-21",
+    "RN-S31-22",
+    "RN-S31-23",
+    "RN-S31-24",
+    "RN-S31-25"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "RN-S32-CASE",
+   "title": "Preeclampsia with severe features and eclampsia",
+   "system": "Reproductive",
+   "discipline": "Maternal & Newborn",
+   "items": [
+    "RN-S32-20",
+    "RN-S32-21",
+    "RN-S32-22",
+    "RN-S32-23",
+    "RN-S32-24",
+    "RN-S32-25"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "RN-S33-CASE",
+   "title": "Accidental hypothermia with frostbite",
+   "system": "Integrated",
+   "discipline": "Adult Health",
+   "items": [
+    "RN-S33-20",
+    "RN-S33-21",
+    "RN-S33-22",
+    "RN-S33-23",
+    "RN-S33-24",
+    "RN-S33-25"
+   ],
+   "needs_review": true
+  },
+  {
+   "case_id": "RN-S34-CASE",
+   "title": "Acute mesenteric ischemia",
+   "system": "Gastrointestinal",
+   "discipline": "Adult Health",
+   "items": [
+    "RN-S34-20",
+    "RN-S34-21",
+    "RN-S34-22",
+    "RN-S34-23",
+    "RN-S34-24",
+    "RN-S34-25"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "RN-S35-CASE",
+   "title": "Placental abruption after trauma",
+   "system": "Reproductive",
+   "discipline": "Maternal & Newborn",
+   "items": [
+    "RN-S35-20",
+    "RN-S35-21",
+    "RN-S35-22",
+    "RN-S35-23",
+    "RN-S35-24",
+    "RN-S35-25"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "RN-S36-CASE",
+   "title": "Tumor lysis syndrome",
+   "system": "Hematologic",
+   "discipline": "Adult Health",
+   "items": [
+    "RN-S36-20",
+    "RN-S36-21",
+    "RN-S36-22",
+    "RN-S36-23",
+    "RN-S36-24",
+    "RN-S36-25"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "RN-S37-CASE",
+   "title": "Kawasaki disease",
+   "system": "Cardiovascular",
+   "discipline": "Pediatrics",
+   "items": [
+    "RN-S37-20",
+    "RN-S37-21",
+    "RN-S37-22",
+    "RN-S37-23",
+    "RN-S37-24",
+    "RN-S37-25"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "RN-S38-CASE",
+   "title": "Convulsive status epilepticus",
+   "system": "Neurologic",
+   "discipline": "Adult Health",
+   "items": [
+    "RN-S38-20",
+    "RN-S38-21",
+    "RN-S38-22",
+    "RN-S38-23",
+    "RN-S38-24",
+    "RN-S38-25"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "RN-S39-CASE",
+   "title": "Acute chest syndrome in sickle cell disease",
+   "system": "Hematologic",
+   "discipline": "Pediatrics",
+   "items": [
+    "RN-S39-20",
+    "RN-S39-21",
+    "RN-S39-22",
+    "RN-S39-23",
+    "RN-S39-24",
+    "RN-S39-25"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "RN-S40-CASE",
+   "title": "Serotonin syndrome from drug interaction",
+   "system": "Neurologic",
+   "discipline": "Pharmacology",
+   "items": [
+    "RN-S40-20",
+    "RN-S40-21",
+    "RN-S40-22",
+    "RN-S40-23",
+    "RN-S40-24",
+    "RN-S40-25"
+   ],
+   "needs_review": true
+  }
+ ]
+}

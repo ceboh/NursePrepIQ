@@ -103,6 +103,32 @@ export function displayResponse(q: BankQuestion, seed: string): ResponseConfig {
 
 export const optionLetter = (index: number) => String.fromCharCode(65 + index);
 
+// ---------- practice sessions ----------
+// "NGN Clinical Judgment" is not a stored discipline: it is a cross-cutting view of every case.
+export const CASE_STUDY_CATEGORY = 'NGN Clinical Judgment';
+
+// A session is a list of units. A standalone question is one unit; an NGN case is one
+// indivisible unit holding all of its items in case_sequence order. Only units are shuffled,
+// so a case is never split, reordered or interleaved, and a mixed session can only ever
+// contain whole cases. Cases with a missing item are left out rather than shown partially.
+export type SessionUnit = { key: string; caseId: string | null; questions: BankQuestion[] };
+
+export function buildSession(rows: BankQuestion[], seed: string, caseSizes: Record<string, number>): SessionUnit[] {
+  const cases = new Map<string, BankQuestion[]>();
+  const units: SessionUnit[] = [];
+  for (const q of rows) {
+    if (!q.case_id) units.push({ key: q.source_id, caseId: null, questions: [q] });
+    else if (!cases.has(q.case_id)) cases.set(q.case_id, [q]);
+    else if (!cases.get(q.case_id)!.some(x => x.source_id === q.source_id)) cases.get(q.case_id)!.push(q);
+  }
+  for (const [caseId, items] of cases) {
+    items.sort((a, b) => (a.case_sequence ?? 0) - (b.case_sequence ?? 0));
+    const complete = items.length === caseSizes[caseId] && items.every((q, n) => q.case_sequence === n + 1);
+    if (complete) units.push({ key: caseId, caseId, questions: items });
+  }
+  return shuffled(units.sort((a, b) => a.key.localeCompare(b.key)), seed + ':units');
+}
+
 // ---------- completeness and scoring ----------
 export function isComplete(q: BankQuestion, r: StudentResponse) {
   switch (q.item_type) {
