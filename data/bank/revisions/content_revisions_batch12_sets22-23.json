@@ -1,0 +1,383 @@
+{
+ "_comment": "Batch 12 (Sets 22-23). Distractor-only rewrites to remove the longest-answer cue. Correct options, stems, and rationales are unchanged; each distractor keeps its original meaning and stays wrong for the same reason. PN-S23-24 (handwashing times) is in skipped.json as numeric.",
+ "RN-S22-01": {
+  "B": "A client with a healing venous leg ulcer who is due for the weekly dressing change and reports no new pain",
+  "C": "A client with type 2 diabetes who needs a monthly medication review and whose recent glucose readings have been stable",
+  "D": "A client recovering from a total hip replacement who has a scheduled physical therapy visit at home later in the afternoon"
+ },
+ "RN-S22-02": {
+  "A": "\"Take a nitroglycerin tablet under your tongue whenever you have any chest pain or chest pressure.\"",
+  "C": "\"Take a hot sauna every day to relax your heart and lower your blood pressure.\"",
+  "D": "\"Letting yourself become a little dehydrated will actually help improve your heart symptoms.\""
+ },
+ "RN-S22-03": {
+  "A": "\"No special precautions are needed for you, since a routine dental cleaning doesn't affect a prosthetic heart valve at all.\"",
+  "C": "\"You should avoid all dental care, including routine cleanings, for as long as you have the prosthetic valve.\"",
+  "D": "\"Stop taking your anticoagulant for a full week before the cleaning, without asking your provider about it.\""
+ },
+ "RN-S22-04": {
+  "A": "\"The Tdap vaccine protects you from tetanus only, in case you get a deep cut or a tear while you're delivering your baby at the hospital.\"",
+  "C": "\"You only need the Tdap vaccine if you've never had a dose of it before at any time in your life, so check your records.\"",
+  "D": "\"The Tdap vaccine should be given after you deliver instead, so that it doesn't affect your baby during the pregnancy.\""
+ },
+ "RN-S22-05": {
+  "A": "\"Stay seated for the entire flight with your seatbelt fastened, so that you don't fall in the aisle during any turbulence.\"",
+  "C": "\"Take a sleeping pill right after takeoff so that you can sleep comfortably through most of the long flight.\"",
+  "D": "\"Cross your legs at the knees or ankles to stay more comfortable in the small airplane seat for the long flight.\""
+ },
+ "RN-S22-07": {
+  "A": "\"No routine blood tests will be needed while you're taking carbamazepine, since it's a well-tested drug.\"",
+  "C": "\"Drink a large glass of grapefruit juice with each dose of carbamazepine to help your stomach tolerate it.\"",
+  "D": "\"Stop taking the carbamazepine right away on your own if it makes you feel drowsy or tired during the day.\""
+ },
+ "RN-S22-08": {
+  "A": "A full replacement dose of levothyroxine starting on the very first day to correct the levels quickly",
+  "C": "Stopping all of the client's cardiac medications while the levothyroxine is being started",
+  "D": "Taking each dose of levothyroxine with a calcium supplement to improve its absorption"
+ },
+ "RN-S22-09": {
+  "A": "Try feeding the newborn again more slowly, using a different nipple and stopping to burp more often during the feeding",
+  "C": "Offer sterile water instead of formula for the next feeding to see whether it is tolerated",
+  "D": "Place the newborn in the prone position and continue the feeding slowly in small amounts"
+ },
+ "RN-S22-10": {
+  "A": "Fluid overload with peripheral edema and crackles in the lungs",
+  "C": "Hyperkalemia only, with peaked T waves",
+  "D": "Hypertension from excess fluid in the vascular space"
+ },
+ "RN-S22-11": {
+  "A": "Reassure the family that new confusion and constipation are a normal part of aging",
+  "C": "Increase the oxybutynin dose to better control the bladder",
+  "D": "Add a sedative at bedtime to help manage the confusion"
+ },
+ "RN-S22-12": {
+  "A": "\"Stay in bed for the next 2 weeks so that your back has enough time to rest and heal completely.\"",
+  "C": "\"Avoid all movement and activity until the pain in your back is completely gone.\"",
+  "D": "\"Start lifting heavy objects every day so that the muscles in your back get stronger.\""
+ },
+ "RN-S22-13": {
+  "A": "Give the full dose rapidly by IV push to shorten the amount of time that the client is exposed to the drug overall",
+  "C": "Give the iron dextran by IM injection instead of IV, using the Z-track method",
+  "D": "Mix it in the same IV bag with the client's other scheduled IV medications to save time"
+ },
+ "RN-S22-14": {
+  "A": "Have the client walk around immediately to prevent stiffness",
+  "C": "Remove the dressing after 10 minutes to inspect the site",
+  "D": "Place a heating pad on the site to relieve soreness"
+ },
+ "RN-S22-15": {
+  "A": "\"You are not at any increased risk of infection now, since your liver and other organs will take over the spleen's job.\"",
+  "C": "\"Avoid all vaccines from now on, especially in the first year after surgery.\"",
+  "D": "\"A fever is expected for several months after this surgery, so don't worry about it.\""
+ },
+ "RN-S22-16": {
+  "A": "Administer the bupropion as prescribed with the client's breakfast tray and then document that it was given",
+  "C": "Give the bupropion with a small amount of alcohol to improve how well it is absorbed",
+  "D": "Double the first dose so that the client's mood improves more quickly than usual"
+ },
+ "RN-S22-17": {
+  "A": "\"Stop breastfeeding immediately and switch your baby to formula until the infection has cleared completely.\"",
+  "C": "\"Bind your breasts tightly with an elastic wrap to reduce the swelling and slow down milk production.\"",
+  "D": "\"Feed your baby only from the unaffected breast until the fever and redness are completely gone.\""
+ },
+ "RN-S22-18": {
+  "A": "Insulin needs gradually decrease throughout the pregnancy and then rise again after delivery",
+  "C": "Insulin needs usually stay the same throughout pregnancy and after delivery",
+  "D": "Insulin is usually stopped in the third trimester and replaced with diet control to protect the fetus"
+ },
+ "RN-S22-19": {
+  "A": "\"The levothyroxine is only needed for the first few months, until your baby's own thyroid gland starts working normally again on its own.\"",
+  "C": "\"Crush the tablet and mix it into a full bottle of soy-based formula, which helps the medicine absorb better.\"",
+  "D": "\"If your baby is sleeping at the usual dose time, skip that day's dose and just give it the next day instead.\""
+ },
+ "RN-S23-01": {
+  "B": "A client who reports incisional pain of 6/10 and is asking when the next PRN analgesic dose is due",
+  "C": "A client who is shivering after surgery and asking the nurse for a warm blanket and a sip of water",
+  "D": "A client who is drowsy but arousable to voice, with SpO2 96% on room air and a steady respiratory rate"
+ },
+ "RN-S23-03": {
+  "A": "The client opens the eyes and responds appropriately to verbal commands",
+  "C": "HR decreases from 84 to 76/min during the procedure",
+  "D": "The client reports feeling relaxed and a little sleepy"
+ },
+ "RN-S23-05": {
+  "A": "\"Take both medications together during the first week of the switch.\"",
+  "C": "\"Take the sacubitril-valsartan only on days when you feel short of breath.\"",
+  "D": "\"Increase your potassium intake with bananas and orange juice.\""
+ },
+ "RN-S23-06": {
+  "A": "Infuse it slowly over 10 minutes through a peripheral IV line using an infusion pump, then flush the line with saline",
+  "C": "Give it by intramuscular injection into the deltoid muscle and monitor the rhythm",
+  "D": "Mix it in a 250-mL bag of D5W and infuse it slowly over about 1 hour by pump"
+ },
+ "RN-S23-07": {
+  "A": "Normal breathing pattern after blunt chest trauma",
+  "C": "Pleural effusion from the rib fractures",
+  "D": "An acute asthma attack triggered by the trauma"
+ },
+ "RN-S23-09": {
+  "A": "\"Eat three large, high-fiber meals each day with water.\"",
+  "C": "\"Lie down right after eating to help with digestion.\"",
+  "D": "\"Drink carbonated beverages with meals to help settle your stomach.\""
+ },
+ "RN-S23-10": {
+  "A": "Stop the tube feeding permanently and ask the dietitian to switch the client to a different plan of nutrition that does not use the feeding tube",
+  "C": "Give a dose of an antidiarrheal medication such as loperamide immediately to control the loose stools",
+  "D": "Double the volume of the free-water flushes every 4 hours to replace the fluid being lost in the loose stools"
+ },
+ "RN-S23-11": {
+  "A": "\"Ibuprofen is the safest pain reliever for someone with kidney disease like yours, so you can take it whenever your knee is bothering you at all today.\"",
+  "C": "\"You can take double doses of ibuprofen on days when your knee pain is worse, since that will give you better relief.\"",
+  "D": "\"NSAIDs such as ibuprofen actually help protect your kidneys from further damage, so they're a good choice for you.\""
+ },
+ "RN-S23-12": {
+  "A": "Decreased joint pain and swelling",
+  "C": "Improved mobility in the affected joint",
+  "D": "Mild fatigue in the afternoon"
+ },
+ "RN-S23-14": {
+  "A": "\"Palliative care and hospice are exactly the same type of care. The two names are used interchangeably, and both are offered to anyone with a serious illness at any stage, whether or not they want curative treatment.\"",
+  "C": "\"Choosing palliative care means that you are giving up on treatment. Once you start it, you will no longer receive any medications or care for your heart failure itself.\"",
+  "D": "\"Hospice is only available to people who have cancer. It would not be an option for someone with heart failure like you, even if your illness reaches its final stages.\""
+ },
+ "RN-S23-15": {
+  "A": "\"The fluid inside the blisters is what spreads the rash, so keep them covered and avoid touching other people until they dry up and heal.\"",
+  "C": "\"You'll need to be isolated at home and stay away from other people until the rash has cleared up completely.\"",
+  "D": "\"Scratching and opening the blisters will actually help the rash heal faster, because it lets them dry out sooner.\""
+ },
+ "RN-S23-17": {
+  "B": "Tell the child that starting the IV won't hurt at all, so that the child stays calm and still",
+  "C": "Have several staff members hold the child down firmly on the bed so that the IV can be started quickly",
+  "D": "Give the child an IM opioid injection about 30 minutes before the IV is started to dull the pain"
+ },
+ "RN-S23-18": {
+  "A": "Continue the warfarin at the current dose to prevent a new clot or another stroke from forming in the brain",
+  "C": "IV alteplase given as soon as possible to dissolve the clot and restore blood flow to the affected areas of the client's brain",
+  "D": "Daily aspirin to prevent another stroke, started as soon as the client passes the swallow screening test"
+ },
+ "RN-S23-19": {
+  "A": "\"Your child is in denial about Grandpa's death, which isn't normal at this age, so your child needs to start seeing a therapist right away for counseling.\"",
+  "C": "\"It's best to tell your child that Grandpa is sleeping peacefully now, since that is much easier for a young child to understand.\"",
+  "D": "\"It's best to avoid talking about Grandpa's death with your child until your child is old enough to understand what death means.\""
+ },
+ "RN-S23-24": {
+  "A": "Stop the norepinephrine infusion and notify the provider of the low MAP",
+  "C": "Give a 2-L bolus of normal saline as quickly as possible to raise the MAP",
+  "D": "Wait 2 hours and then recheck the client's BP before making any changes to the infusion"
+ },
+ "PN-S22-01": {
+  "A": "\"Lie flat in bed and breathe rapidly and shallowly through the mouthpiece until it's done.\"",
+  "C": "\"Take a deep breath and then hold it for the entire treatment, so the medicine stays in your lungs longer.\"",
+  "D": "\"Use the nebulizer only while you are up and walking around, so that your lungs stay open.\""
+ },
+ "PN-S22-02": {
+  "A": "Within 12 hours after the injection, by measuring the size of the area of redness in millimeters",
+  "C": "At 1 week after the injection, by asking the client whether the site has been itching",
+  "D": "Only if the client later reports symptoms such as a persistent cough or night sweats"
+ },
+ "PN-S22-03": {
+  "A": "\"Take your blood pressure right after you finish your morning coffee, so that you get a consistent reading each day.\"",
+  "C": "\"Cross your legs at the knees during the reading to keep yourself steady and comfortable in the chair.\"",
+  "D": "\"Take the reading with the cuff placed over a thick sweater or sleeve, so that it doesn't pinch your skin.\""
+ },
+ "PN-S22-04": {
+  "A": "Behind the inner ankle bone, just below the medial malleolus",
+  "C": "Behind the knee, deep in the popliteal space with the knee slightly flexed",
+  "D": "In the groin, midway between the hip bone and the pubis"
+ },
+ "PN-S22-06": {
+  "A": "0–10 numeric rating scale for self-report",
+  "C": "Glasgow Coma Scale for measuring level of consciousness",
+  "D": "Braden Scale for pressure injury risk"
+ },
+ "PN-S22-07": {
+  "A": "The top of the handle reaches the level of the client's waist when the client stands upright with the arm bent at 90 degrees",
+  "C": "The top of the handle reaches the height of the client's shoulder, so the client can lean the full body weight on it with a straight arm when walking",
+  "D": "The cane is adjusted to be as tall as possible, so that the client is forced to stand up straight while walking with it"
+ },
+ "PN-S22-08": {
+  "A": "Pull the client up in bed by the weak left arm when repositioning them",
+  "C": "Let the left arm hang freely at the side while the client is sitting up",
+  "D": "Apply a tight sling to the left arm at all times, even while the client is in bed"
+ },
+ "PN-S22-09": {
+  "A": "Insist on a full shower immediately so that the resident's usual bathing schedule is kept and the daily routine is not disrupted at all",
+  "C": "Bathe the resident as quickly as possible with cool water so that the bath is finished before the agitation gets worse",
+  "D": "Have several staff members hold the resident still in the shower chair so that the full bath can be completed today"
+ },
+ "PN-S22-10": {
+  "A": "Wipe the fingertip with lotion to soften the skin first",
+  "C": "Use the first drop of blood after squeezing the finger hard",
+  "D": "Leave the alcohol wet on the skin when puncturing"
+ },
+ "PN-S22-11": {
+  "A": "\"Aim to lose about 10 pounds every week so that you reach your goal weight quickly.\"",
+  "C": "\"Stop eating solid food completely until you reach your goal weight, and drink only water.\"",
+  "D": "\"Weight loss should never be a health goal, so try to focus on other things instead.\""
+ },
+ "PN-S22-12": {
+  "A": "Fiber supplements alone, without any increase in the client's daily fluid intake",
+  "C": "No bowel treatment at all until the client actually becomes constipated",
+  "D": "Stopping the oxycodone so that the client's bowels return to normal"
+ },
+ "PN-S22-13": {
+  "A": "\"The urine leakage is permanent after this type of surgery, so you will need to wear pads for the rest of your life.\"",
+  "C": "\"Limit your fluids to about 500 mL a day so that you leak less often while you're healing.\"",
+  "D": "\"You will need to use an indwelling catheter permanently to manage the leakage from now on.\""
+ },
+ "PN-S22-14": {
+  "A": "\"Apply deodorant and body powder beforehand so that you stay fresh and dry during the exam.\"",
+  "C": "\"Don't eat or drink anything for 12 hours before the mammogram, starting the night before.\"",
+  "D": "\"Drink the contrast solution about an hour before the test so that the images come out clearly.\""
+ },
+ "PN-S22-15": {
+  "A": "\"Douche on the morning of the test so that the vaginal area is as clean as possible for the provider's exam.\"",
+  "C": "\"Try to schedule the Pap test during the heaviest days of your menstrual bleeding.\"",
+  "D": "\"Apply a vaginal cream the night before the test to soothe the area and prevent discomfort.\""
+ },
+ "PN-S22-16": {
+  "A": "Mild breast tenderness during the first month or two of taking the pills",
+  "C": "Lighter menstrual periods with less cramping than before starting",
+  "D": "Mild nausea during the first few weeks of taking the pills"
+ },
+ "PN-S22-17": {
+  "A": "\"It's fine to have a drink or two of alcohol in the evening while you're taking this medicine for the infection.\"",
+  "C": "\"Your partner doesn't need to be treated, since only you are having symptoms of the infection.\"",
+  "D": "\"You can stop taking the medicine as soon as your symptoms start to improve, to avoid side effects.\""
+ },
+ "PN-S22-18": {
+  "B": "\"Any fever after the shots means that the vaccines didn't work, so your child will need to get all of the same shots again at the next visit.\"",
+  "C": "\"Side effects never occur with routine childhood vaccines, so you won't need to watch your child for anything at all afterward.\"",
+  "D": "\"Give your child children's aspirin every 4 to 6 hours for any fever, fussiness, or soreness at the injection sites.\""
+ },
+ "PN-S22-19": {
+  "A": "\"I can stop getting the shots whenever I start to feel better and the voices go away.\"",
+  "C": "\"Each shot only works for about a day, the same way that my pills did.\"",
+  "D": "\"I'll keep taking extra pills at home along with the shots, just to be safe.\""
+ },
+ "PN-S22-20": {
+  "A": "Feeling tired from getting up every few hours at night to feed and change the baby",
+  "C": "Occasional tearfulness and moodiness during the first week after the birth that went away on its own",
+  "D": "Enjoying time with the baby and looking forward to visits from family and friends"
+ },
+ "PN-S22-21": {
+  "A": "\"Add extra water to each bottle to make the can of formula last longer.\"",
+  "C": "\"Save any leftover formula from a feeding in the refrigerator and use it again the next day.\"",
+  "D": "\"Add a little rice cereal to the bottle at night to help the baby sleep longer.\""
+ },
+ "PN-S22-22": {
+  "A": "\"Start adding a small amount of rice cereal to your baby's bottle at about 2 months of age, and then slowly increase the amount every week as your baby grows bigger.\"",
+  "C": "\"Wait until your baby's first birthday before starting any solid foods at all, and keep giving only breast milk or formula until that time.\"",
+  "D": "\"Offer whole peanuts and tree nuts as some of the first foods, so that your baby gets used to them early and is less likely to develop an allergy.\""
+ },
+ "PN-S22-23": {
+  "A": "\"Apply a generous layer of regular adult sunscreen all over your baby's body every time you go outside, even if you plan to stay in the shade the entire time you're outdoors.\"",
+  "C": "\"Letting your baby get a few brief, mild sunburns early in the season will help build up the skin's tolerance to the sun for the rest of the summer.\"",
+  "D": "\"Rub a little tanning oil on your baby's arms and legs before going outside to keep the skin moisturized while you're out in the sun.\""
+ },
+ "PN-S23-01": {
+  "A": "The client's dentures have been removed and stored safely",
+  "C": "The client's ID band is in place on the left wrist",
+  "D": "The client voided in the bathroom before transport"
+ },
+ "PN-S23-02": {
+  "A": "\"Try to avoid coughing after surgery so that your incision doesn't open up.\"",
+  "C": "\"Cough only once a day, first thing in the morning, to clear out your lungs.\"",
+  "D": "\"Lie flat on your back while you cough so that the muscles around your incision stay relaxed.\""
+ },
+ "PN-S23-03": {
+  "A": "Have the client stand up quickly in one smooth motion, before any lightheadedness or dizziness has a chance to set in",
+  "C": "Walk the client all the way out to the hallway immediately to start building strength",
+  "D": "Let the client walk to the bathroom alone this first time to promote the client's independence"
+ },
+ "PN-S23-04": {
+  "A": "\"Peel the strips off after the first day so that the incision can air out and breathe.\"",
+  "C": "\"Soak the incision in a warm bath every day so that it stays clean and heals faster.\"",
+  "D": "\"Apply a moisturizing lotion over the strips every day to keep the skin around them soft.\""
+ },
+ "PN-S23-05": {
+  "A": "A regular diet first, then switching to clear liquids only if the client becomes nauseated again",
+  "C": "Full liquids only for the next 2 weeks after surgery, then a regular diet",
+  "D": "Solid foods such as crackers first, to settle the stomach before giving any liquids"
+ },
+ "PN-S23-06": {
+  "A": "\"You can safely return to your usual heavy lifting at work starting tomorrow morning if you feel up to it.\"",
+  "C": "\"Cough forcefully several times every day to keep your lungs clear after the surgery.\"",
+  "D": "\"Limit how much you drink for the first week after surgery to reduce the swelling.\""
+ },
+ "PN-S23-07": {
+  "A": "\"Blow your nose forcefully several times a day to clear out the drainage.\"",
+  "C": "\"Bend over to pick up heavy items as you normally would.\"",
+  "D": "\"Take aspirin as needed for pain after the surgery.\""
+ },
+ "PN-S23-08": {
+  "A": "\"Your child can share towels with brothers and sisters, as long as the towels are washed weekly.\"",
+  "C": "\"Have your child rub their eyes gently with their fingers to remove the crusty drainage.\"",
+  "D": "\"Use the same tissue to wipe both of your child's eyes so that you don't waste tissues.\""
+ },
+ "PN-S23-09": {
+  "A": "\"Clean your ear canals every day with cotton swabs after you swim or take a shower.\"",
+  "C": "\"It's fine to swim without drying your ears afterward, since the water will drain out on its own.\"",
+  "D": "\"Use a clean hairpin to gently scoop out any earwax that builds up in the ear canal.\""
+ },
+ "PN-S23-10": {
+  "A": "\"Applying an antifungal cream to the scalp twice a day will be enough to cure the ringworm.\"",
+  "C": "\"Shave your child's head completely so that the antifungal medicine can reach the skin of the scalp better.\"",
+  "D": "\"You can stop giving the medication as soon as your child's scalp starts to look better.\""
+ },
+ "PN-S23-11": {
+  "A": "\"Avoid all foods and supplements that contain calcium, since your body isn't able to handle dairy products anymore.\"",
+  "C": "\"Drink more regular milk each day, a little at a time, to slowly build up your tolerance to lactose.\"",
+  "D": "\"Calcium isn't really important for adults, since it's only needed by children whose bones are still growing.\""
+ },
+ "PN-S23-12": {
+  "A": "\"Vitamin C, since it supports immune function and helps absorb iron from plants\"",
+  "C": "\"Sodium, since it is needed for fluid balance and nerve function\"",
+  "D": "\"Fiber, since it supports regular bowel movements and heart health\""
+ },
+ "PN-S23-14": {
+  "A": "Lower both side rails while working so that you can reach the client easily from either side of the bed without stretching",
+  "C": "Leave the bed in its highest position when finished, so that it is at a good height for the next linen change",
+  "D": "Have the client get up and stand barefoot on the floor next to the bed while the linens are being changed"
+ },
+ "PN-S23-15": {
+  "A": "Collect the stool sample from the toilet water after the client has a bowel movement, using a clean plastic spoon from the kit",
+  "C": "Refrigerate the specimen for 2 days before sending it to the lab so that more of the parasites can be seen",
+  "D": "Mix the stool sample with some tap water in the container so that the lab can examine it more easily"
+ },
+ "PN-S23-16": {
+  "A": "Right after a large meal, when the client is feeling relaxed and comfortable",
+  "C": "Only when the pouch starts to leak, so that supplies are not wasted",
+  "D": "At bedtime, after the client has finished eating dinner for the day"
+ },
+ "PN-S23-17": {
+  "A": "\"Put the used needles in your regular kitchen trash, inside a plastic grocery bag that is tied shut, and then take the trash out to the curb on the regular trash day.\"",
+  "C": "\"Recap each needle carefully after you use it, and then throw the capped needles away in the regular household trash can.\"",
+  "D": "\"Flush the used needles down the toilet one at a time, so that no one in your home or at the landfill can get stuck by them.\""
+ },
+ "PN-S23-18": {
+  "A": "A 6-week course of oral vancomycin taken by mouth every day before the scheduled surgery",
+  "C": "No treatment is needed, since colonization is not an infection",
+  "D": "Alcohol-based hand rub applied inside both nostrils twice a day for a week"
+ },
+ "PN-S23-19": {
+  "A": "\"Do you drink more alcohol than most of your friends do?\"",
+  "C": "\"What is your favorite alcoholic drink to have with dinner?\"",
+  "D": "\"Do you drink alcohol only on the weekends with friends?\""
+ },
+ "PN-S23-20": {
+  "A": "As a sign of a possible developmental delay, which should be reported to the provider so that further developmental testing can be arranged soon",
+  "C": "As possible evidence of abuse at home, since an infant who is well cared for should be comfortable being held by anyone",
+  "D": "As an allergic reaction to something in the exam room, such as the latex gloves or the cleaning products used on surfaces"
+ },
+ "PN-S23-21": {
+  "A": "Black, sticky stools that continue for the first 2 weeks after birth and then change to firm, brown, formed stools",
+  "C": "Clay-colored or pale stools that are firm and formed by the end of the first week",
+  "D": "Bright red or red-streaked stools that appear after the first few days of breastfeeding"
+ },
+ "PN-S23-23": {
+  "A": "Taking hot showers several times a day to help relieve the itching",
+  "C": "Rubbing alcohol applied to the rash several times a day to help dry out the blisters",
+  "D": "Breaking the blisters so that the fluid can drain and the rash can heal"
+ }
+}
