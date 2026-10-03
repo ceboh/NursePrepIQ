@@ -1,0 +1,413 @@
+{
+ "_comment": "Batch 18 (Sets 34-35). Distractor-only rewrites to remove the longest-answer cue. Correct options, stems, and rationales are unchanged; each distractor keeps its original meaning and stays wrong for the same reason.",
+ "RN-S34-01": {
+  "B": "A student with a scraped knee from recess who is asking for an adhesive bandage and some ice",
+  "C": "A student with type 1 diabetes who is due for a scheduled glucose check and insulin dose before eating lunch",
+  "D": "A student who reports a mild headache that began during the morning class and wants to lie down"
+ },
+ "RN-S34-02": {
+  "A": "\"Stay in bed as much as possible while wearing the monitor, so that the movement doesn't interfere with the recording of your heart rhythm.\"",
+  "C": "\"Remove the electrodes at night before you go to sleep so that your skin can rest, and then put them back on when you get up in the morning.\"",
+  "D": "\"Only record your symptoms in the diary if they are severe, since mild symptoms like brief fluttering or dizziness won't show up on the heart recording.\""
+ },
+ "RN-S34-03": {
+  "A": "Continuing warfarin at the usual dose up to the morning of surgery, since stopping it early would raise the client's risk of a stroke from the atrial fibrillation",
+  "C": "Doubling the warfarin dose during the week before surgery so that the INR is high enough to prevent clots from forming during the hip replacement",
+  "D": "Stopping warfarin permanently after the surgery, since the new hip joint will need to heal without any risk of bleeding into the surgical site"
+ },
+ "RN-S34-04": {
+  "A": "\"You can fly and go scuba diving right away once you're discharged home, since the lung has already re-expanded fully and the air pressure changes won't affect it at all.\"",
+  "C": "\"Smoking has no effect on whether the pneumothorax comes back, so there's no need to change your smoking habits as long as you take it easy for a few weeks.\"",
+  "D": "\"Recurrence is impossible now that your lung has healed completely, so you won't need to watch for any sudden chest pain or shortness of breath in the future.\""
+ },
+ "RN-S34-05": {
+  "A": "Clear nasal discharge only, with no fever and normal feeding between coughs",
+  "C": "Occasional sneezing, especially after feedings or when the infant is lying down",
+  "D": "Mild fussiness after feeding that settles once the infant is burped and held"
+ },
+ "RN-S34-06": {
+  "B": "Hemoglobin A1C (glycemic control)",
+  "C": "Serum amylase and lipase levels",
+  "D": "Thyroid antibody levels only"
+ },
+ "RN-S34-07": {
+  "A": "\"Apply hair conditioner the morning of the test so that the electrodes slide on easily and stay in place on your scalp throughout the recording.\"",
+  "C": "\"Fast for 24 hours before the test so that your stomach is completely empty and digestion doesn't change the brain wave patterns being recorded.\"",
+  "D": "\"Take an extra dose of your sedative the night before so that you're relaxed and able to lie still for the entire recording, even if you feel anxious.\""
+ },
+ "RN-S34-08": {
+  "A": "\"Keep using the same site for another few days to avoid wasting supplies, since the redness will usually settle on its own.\"",
+  "C": "\"Stop checking your glucose for a day or two, since the high readings are probably caused by a faulty meter.\"",
+  "D": "\"Increase your carbohydrate intake at meals to balance out the extra insulin that the pump is delivering.\""
+ },
+ "RN-S34-09": {
+  "A": "\"Take your omeprazole as usual on the morning of the test, since it protects your stomach lining and helps the test give a more accurate result.\"",
+  "C": "\"Eat a large meal right before the test so that there's enough food in your stomach for the bacteria to break down during the breath sample.\"",
+  "D": "\"No preparation is needed, so you can keep taking all of your usual medications, including antibiotics and acid reducers, before the test.\""
+ },
+ "RN-S34-10": {
+  "A": "Uncomplicated biliary colic that should pass on its own",
+  "C": "Acute hepatitis A from contaminated food or water",
+  "D": "Viral gastroenteritis that will resolve in a few days"
+ },
+ "RN-S34-11": {
+  "A": "Dehydration from the illness and a reduced fluid intake over several days",
+  "C": "Kidney stones blocking the flow of urine from both kidneys to the bladder",
+  "D": "Normal aging of the bladder muscle and the prostate gland over time"
+ },
+ "RN-S34-12": {
+  "A": "Serum uric acid level alone, drawn during the acute flare",
+  "C": "A plain x-ray of the affected knee only, to look for any joint damage",
+  "D": "Urinalysis to check for uric acid crystals in the urine"
+ },
+ "RN-S34-13": {
+  "A": "Infuse at the maximum rate allowed from the beginning so that the whole unit is completed quickly and the client spends less time exposed to the donor blood",
+  "C": "Infuse the unit slowly over 6 hours or longer so that the client's circulation has time to adjust gradually to the added volume of blood",
+  "D": "Pause the infusion every 5 minutes to check the client's vital signs, and then restart it at the same rate each time until the whole unit is finished"
+ },
+ "RN-S34-14": {
+  "A": "These symptoms are unrelated to past treatment, since chemotherapy side effects end when treatment stops",
+  "C": "This is a normal part of aging, and the client should simply rest more often and keep the feet up",
+  "D": "The symptoms mean that the breast cancer has returned and spread to the lungs and the liver"
+ },
+ "RN-S34-15": {
+  "A": "No treatment, since the rash will fade",
+  "C": "IV vancomycin given in the hospital",
+  "D": "A topical steroid cream only, applied daily"
+ },
+ "RN-S34-16": {
+  "A": "Pinpoint pupils, bradycardia, and drowsiness with slow, slurred speech and low BP",
+  "C": "Weight gain, hypothermia, a slow heart rate, and slowed thinking and movement",
+  "D": "Constricted pupils and respiratory depression, with a low respiratory rate and sedation"
+ },
+ "RN-S34-17": {
+  "A": "Daily benzodiazepines taken indefinitely as the only treatment, without therapy or any other medications",
+  "C": "Avoiding all treatment, since panic attacks usually stop on their own with time and rest",
+  "D": "Antipsychotics as the first-line treatment, taken daily to prevent future panic attacks"
+ },
+ "RN-S34-18": {
+  "A": "\"The stitch stays in during a vaginal birth, so you won't need to have it removed before your labor starts.\"",
+  "C": "\"You can't feel anything if the stitch fails, so there are no warning signs to watch for between your prenatal visits.\"",
+  "D": "\"Use tampons for any spotting you notice at home, and mention it to your provider at your next scheduled prenatal visit.\""
+ },
+ "RN-S34-24": {
+  "B": "Insert an indwelling urinary catheter to monitor the hourly urine output",
+  "C": "Obtain a stool sample for culture and testing for occult blood",
+  "D": "Encourage sips of clear liquids to keep the client's mouth moist"
+ },
+ "RN-S35-02": {
+  "A": "Continuing the lisinopril at the same dose, since the client's blood pressure is already well controlled on it",
+  "C": "Stopping all blood pressure medications for the rest of the pregnancy to protect the developing baby",
+  "D": "Adding an ARB such as losartan to lisinopril to better control the blood pressure during pregnancy"
+ },
+ "RN-S35-04": {
+  "A": "A full-dose continuous IV heparin infusion right away",
+  "C": "Thrombolytic therapy to dissolve the clot",
+  "D": "Massage of the affected leg to ease the pain"
+ },
+ "RN-S35-05": {
+  "A": "Vital signs once per shift, since the client is already used to using CPAP at home for the sleep apnea",
+  "C": "No additional monitoring, since the IV opioids are given only in small doses after this type of surgery",
+  "D": "Keeping the client flat on the back in bed so that the surgical incision is protected while the client is sleeping"
+ },
+ "RN-S35-06": {
+  "A": "\"It works immediately, just like an opioid, so you should feel full pain relief after your very first dose.\"",
+  "C": "\"Take it with a glass of wine or beer at bedtime for a better effect on the nerve pain and to help you sleep.\"",
+  "D": "\"It cures the nerve damage over time, so you can stop taking it once the numbness and burning go away.\""
+ },
+ "RN-S35-07": {
+  "A": "Timing doesn't really matter, as long as the client receives all four of the doses at some point during the day",
+  "C": "Late doses cause hypoglycemia, since carbidopa-levodopa helps to regulate the client's blood glucose level throughout the day",
+  "D": "It only affects the client's sleep, since the medication mainly helps the client fall asleep and stay asleep at night"
+ },
+ "RN-S35-08": {
+  "A": "It must be lowered below 6% immediately, using more intensive insulin therapy to prevent long-term complications",
+  "C": "Diabetes no longer needs any management at this age, so the glucose checks and medications can be stopped",
+  "D": "The goal for all adults is below 5%, regardless of age, frailty, or the risk of hypoglycemia"
+ },
+ "RN-S35-09": {
+  "A": "Low blood pressure, low triglycerides, high HDL, a small waist circumference, and a normal fasting blood glucose",
+  "C": "Weight loss, hypoglycemia, low BP, and a decreased waist circumference with normal lipids",
+  "D": "Low cholesterol only, with a normal waist circumference, blood pressure, and fasting glucose"
+ },
+ "RN-S35-10": {
+  "A": "\"Follow a high-sodium diet to help keep your blood pressure up and replace all of the salt that your diuretic medications remove.\"",
+  "C": "\"Drink as much fluid as possible each day to help flush the toxins out and keep your kidneys and liver working well.\"",
+  "D": "\"Stop taking your diuretics if you lose weight, since that means the fluid in your abdomen is already gone for good.\""
+ },
+ "RN-S35-11": {
+  "A": "\"You must avoid all fat in your diet forever, since your body won't be able to digest any fat at all now that your gallbladder has been removed.\"",
+  "C": "\"Eat only clear and full liquids for the first month after surgery so that your digestive system has time to heal and adjust to the change.\"",
+  "D": "\"Eat very high-fat meals for the first few weeks to help your body learn to digest fat without a gallbladder, which will also help prevent loose stools.\""
+ },
+ "RN-S35-12": {
+  "A": "Hyperkalemia, hypocalcemia, hypernatremia, hypoglycemia, and a low uric acid",
+  "C": "Hypoglycemia only, with no change in potassium, sodium, or calcium levels",
+  "D": "No lab changes occur, since thiazides do not affect electrolytes or glucose"
+ },
+ "RN-S35-13": {
+  "A": "\"You will need to be isolated from your family and pets for about a week after the scan, since the tracer will make you radioactive.\"",
+  "C": "\"Avoid all fluids before and after the scan so that the tracer stays concentrated in your bones and the pictures are clearer.\"",
+  "D": "\"The scan requires general anesthesia, so you'll need someone to drive you home and stay with you overnight afterward.\""
+ },
+ "RN-S35-14": {
+  "A": "Daily oral iron supplements taken with a glass of orange juice",
+  "C": "High-dose vitamin C supplements taken by mouth every day",
+  "D": "Stopping all transfusions until the ferritin level is normal"
+ },
+ "RN-S35-15": {
+  "A": "That the client has never taken any opioids before, since these transmucosal products are designed for clients who are starting opioid therapy for the very first time",
+  "C": "That the client takes it with a glass of grapefruit juice, which helps the fentanyl absorb through the lining of the mouth more quickly and completely",
+  "D": "That the client is able to chew and swallow the product whole, since it is absorbed in the stomach and works best when it is taken with a full meal"
+ },
+ "RN-S35-16": {
+  "A": "No follow-up testing is needed, since the risk of getting hepatitis C from a single needlestick injury is too low to need any monitoring",
+  "C": "An immediate hepatitis C vaccine, with the full series started within 24 hours of the exposure to prevent infection from developing",
+  "D": "Hepatitis C immune globulin given within 24 hours of the needlestick, followed by a second dose 1 month later to complete protection"
+ },
+ "RN-S35-17": {
+  "A": "Staying indoors in a dark, quiet room as much as possible during the winter months to rest and recover energy",
+  "C": "Using a tanning bed daily throughout the winter to get more light exposure and boost the client's vitamin D level",
+  "D": "Avoiding all exercise and outdoor activity during the winter months to conserve energy until the mood lifts in spring"
+ },
+ "RN-S35-18": {
+  "A": "Keep the infant fully clothed and swaddled in a blanket under the phototherapy lights to prevent heat loss and keep the infant calm during the treatment",
+  "C": "Apply a moisturizing lotion or baby oil to the infant's skin before each phototherapy session to keep the skin from drying out and peeling under the bright lights",
+  "D": "Stop all feedings during the treatment so that the infant can stay under the lights continuously and the bilirubin level drops more quickly"
+ },
+ "RN-S35-19": {
+  "A": "\"It isn't recommended if the mother tested negative, since the baby can only get hepatitis B from the mother during the birth, so we can skip the birth dose.\"",
+  "C": "\"The hepatitis B vaccine prevents newborn jaundice by protecting the baby's liver while it is still adjusting during the first week or two after birth.\"",
+  "D": "\"It's only recommended for babies born by cesarean birth, since they miss out on the natural protection they would get from passing through the birth canal.\""
+ },
+ "RN-S35-24": {
+  "B": "Obtain a Kleihauer-Betke test to check for fetal-maternal hemorrhage",
+  "C": "Administer Rh immune globulin as prescribed if the client is Rh-negative",
+  "D": "Perform a digital cervical exam to check for cervical dilation"
+ },
+ "PN-S34-01": {
+  "A": "\"Give about 8 oz of 100% fruit juice every day so that your baby gets enough vitamins, especially vitamin C.\"",
+  "C": "\"Juice can replace one or two of the formula feedings each day once your baby is eating solids.\"",
+  "D": "\"Put a little juice in the bottle at bedtime to help your baby settle down and fall asleep more easily.\""
+ },
+ "PN-S34-02": {
+  "A": "\"Wake your child up fully during each episode and ask about the bad dream so that the two of you can talk it through together.\"",
+  "C": "\"This is a seizure every time it happens, so you should take your child to the emergency department after each episode.\"",
+  "D": "\"Punish your child for screaming at night so that they learn to stay quiet and stop waking up the rest of the family.\""
+ },
+ "PN-S34-04": {
+  "A": "Occasional moodiness after an argument with a parent or a sibling that passes within a few hours after the disagreement is over",
+  "C": "Enjoying time with friends after school and on the weekends, and making plans with them for upcoming events",
+  "D": "Interest in a new hobby, such as learning to play the guitar, and practicing it for an hour after school each day"
+ },
+ "PN-S34-05": {
+  "A": "Increase the lorazepam dose so that the resident sleeps soundly through the night without getting up to walk",
+  "C": "Give the lorazepam dose earlier in the evening so that the resident is less drowsy by morning",
+  "D": "Add diphenhydramine at bedtime to help the resident fall asleep without needing as much lorazepam"
+ },
+ "PN-S34-06": {
+  "A": "A healthy adult who cannot hold an oral thermometer in the mouth properly",
+  "C": "A client who just drank a glass of cold water a few minutes ago",
+  "D": "A client with a head cold who is breathing through the mouth"
+ },
+ "PN-S34-07": {
+  "A": "Place the thermometer over the client's gown or clothing in the axilla to avoid disturbing or chilling the client",
+  "C": "Take the reading right after the client's bath, while the skin under the arm is still warm and slightly damp from the water",
+  "D": "Hold the client's arm away from the body so that air can circulate around the probe during the reading"
+ },
+ "PN-S34-08": {
+  "A": "Cheyne-Stokes respirations, suggesting that death is approaching or that there is a severe brain injury",
+  "C": "Bradypnea, suggesting an opioid overdose or another cause of respiratory depression",
+  "D": "Normal breathing for a client with diabetes after activity, which needs no further action"
+ },
+ "PN-S34-09": {
+  "A": "Very hot, about 130°F (54°C), so that the water stays warm in the basin throughout the whole bed bath",
+  "C": "Cold tap water from the faucet, which is refreshing and helps to lower the client's body temperature",
+  "D": "Whatever temperature comes out of the tap, without checking it, since it's already safe"
+ },
+ "PN-S34-10": {
+  "A": "\"The concentrator works without any electricity, so you can keep using it just as usual during a power outage or a bad storm at home.\"",
+  "C": "\"Use a gas generator indoors during power outages so that the concentrator keeps running without any interruption.\"",
+  "D": "\"You don't need a backup oxygen supply, since the concentrator is designed to run continuously for years without problems.\""
+ },
+ "PN-S34-11": {
+  "A": "\"Inhale the spray deeply into your lungs so that the medication reaches your heart faster and works more quickly.\"",
+  "C": "\"Swallow the spray immediately after it goes into your mouth so that it's absorbed through your stomach.\"",
+  "D": "\"Spray it on the skin of your chest, over your heart, so that it absorbs right where the pain is.\""
+ },
+ "PN-S34-12": {
+  "A": "\"Nausea means that you are allergic to the oxycodone, so you should stop taking it right away and be sure to tell your provider about the allergy at your next visit.\"",
+  "C": "\"Stop the medication immediately and don't take any more of the doses, since nausea is a sign that the oxycodone is damaging your stomach lining.\"",
+  "D": "\"Double the dose for the next day or two to get past the nausea faster, since your body will adjust to the medication more quickly that way.\""
+ },
+ "PN-S34-13": {
+  "A": "\"Drink most of your daily fluids in the evening so that you stay well hydrated through the whole night while you're sleeping.\"",
+  "C": "\"Stop drinking fluids entirely for the rest of the day after lunch so that your bladder stays empty overnight.\"",
+  "D": "\"Drink a cup of coffee at bedtime to help your bladder empty more completely before you fall asleep at night.\""
+ },
+ "PN-S34-14": {
+  "A": "\"Check your skin carefully about once a month, or whenever you change your clothes, since pressure injuries take a long time to develop.\"",
+  "C": "\"Only check the areas of your skin that hurt or feel sore to you, since those are the places where pressure injuries are most likely to form.\"",
+  "D": "\"Use a heating pad on your legs and feet each night to improve the circulation and keep the skin healthy while you're in bed.\""
+ },
+ "PN-S34-15": {
+  "A": "\"Pop it with a clean pin so that the fluid drains out and the blister can heal more quickly.\"",
+  "C": "\"Peel off the loose skin over the blister so that the area underneath can dry out and heal.\"",
+  "D": "\"Apply rubbing alcohol to the blister every day to keep it clean and help it dry out more quickly.\""
+ },
+ "PN-S34-16": {
+  "A": "Remove the collar completely and let the client move the head and neck freely and comfortably while the skin underneath is cleaned, dried, and checked for any reddened areas of pressure",
+  "C": "Never check the skin under the collar, since opening it at all could injure the spinal cord, so skin care is limited to the areas that can be seen around the edges of the collar",
+  "D": "Pad the inside of the collar with extra folded towels to make it looser and more comfortable, and leave the towels in place between skin checks to absorb any moisture"
+ },
+ "PN-S34-17": {
+  "A": "\"Smoking outside completely protects your child, since the smoke stays outside and can't reach your child at all, as long as you never smoke in the house or in the family car with your child.\"",
+  "C": "\"Smoke doesn't really affect children the way it affects adults, since their lungs are still growing and can clear the smoke out quickly on their own, so there's nothing to worry about.\"",
+  "D": "\"Only cigars are really harmful to children, since they produce much more smoke than cigarettes do, so smoking cigarettes outside is completely safe for your whole family.\""
+ },
+ "PN-S34-18": {
+  "A": "\"Stay seated the whole trip so that you don't risk slipping or falling at a rest stop.\"",
+  "C": "\"Skip your seat belt for comfort, since it can press on your belly during a long drive.\"",
+  "D": "\"Limit fluids during the trip so that you won't need to stop for the bathroom very often.\""
+ },
+ "PN-S34-19": {
+  "A": "\"You must have an infection, so you'll need to have blood cultures drawn and start antibiotics right away, even though your temperature is normal.\"",
+  "C": "\"Stop drinking fluids for a day or two so that your body has less extra fluid to get rid of, and the heavy night sweating will stop.\"",
+  "D": "\"This means you probably have thyroid disease, so you'll need blood tests to check your thyroid hormone levels before you go home.\""
+ },
+ "PN-S34-20": {
+  "A": "Report them as bruises from possible abuse or injury, and notify the charge nurse and the social worker before the newborn is discharged home",
+  "C": "Apply ice packs to the areas for 15 minutes every few hours to reduce any swelling and help the bluish color fade more quickly",
+  "D": "Scrub the area gently with soap and warm water at each diaper change to remove the gray discoloration from the newborn's skin"
+ },
+ "PN-S34-21": {
+  "A": "Continue mouth care with the same gloves, since both areas belong to the same client",
+  "C": "Rinse the gloved hands in the sink with soap and water, then begin mouth care",
+  "D": "Put a second pair of gloves on over the first pair, then begin mouth care"
+ },
+ "PN-S34-22": {
+  "A": "\"Keep the easy-open bottles out on the kitchen counter so that you can reach them easily and remember to take all of your doses each day.\"",
+  "C": "\"Put your pills in candy dishes around the house so that they're easy to grab and easy to see when it's time for a dose.\"",
+  "D": "\"Children won't open medicine bottles, since they don't like the taste of medicine and know that pills aren't candy.\""
+ },
+ "PN-S34-23": {
+  "A": "Pour from the top of the bottle without mixing, so that any sediment stays at the bottom",
+  "C": "Heat the bottle in warm water so that the suspension pours more easily and tastes better",
+  "D": "Dilute it with tap water in the bottle to make the medication last longer between pharmacy refills"
+ },
+ "PN-S35-01": {
+  "A": "\"Both of the soft spots usually close at birth or within the first few days after your baby is born.\"",
+  "C": "\"They both close at about age 5, around the time your child is ready to start school.\"",
+  "D": "\"They never close completely, so you'll always need to protect that part of the head.\""
+ },
+ "PN-S35-02": {
+  "A": "\"Use a baby walker near the stairs so that your baby can move around safely while you're busy.\"",
+  "C": "\"Let the baby practice climbing up and down the stairs alone so that they learn to do it safely.\"",
+  "D": "\"Pressure-mounted gates are best at the top of the stairs, since they're easy to move and don't damage walls.\""
+ },
+ "PN-S35-03": {
+  "A": "\"It can be as heavy as needed to carry all of the books and supplies for the day, as long as your child doesn't complain about it.\"",
+  "C": "\"Carry it on one shoulder so that it's easy to take off quickly, and switch shoulders every day to keep things even.\"",
+  "D": "\"It can be up to half of the child's body weight, as long as the backpack has two padded straps and a waist belt.\""
+ },
+ "PN-S35-04": {
+  "A": "\"Turn the volume up higher to block out outside noise, so that you can hear the music clearly without distractions.\"",
+  "C": "\"Hearing loss from loud music always goes away on its own within a day or two, so there's no need to worry about it.\"",
+  "D": "\"Only over-the-ear headphones, not earbuds, cause hearing damage, so you can keep listening at the same volume.\""
+ },
+ "PN-S35-05": {
+  "A": "\"The RSV vaccine is only for infants and young children, so you don't need it at your age.\"",
+  "C": "\"You need an RSV vaccine every year, just like the flu shot, starting each fall before RSV season.\"",
+  "D": "\"The RSV vaccine is not available for adults yet, so the best protection is to wash your hands often.\""
+ },
+ "PN-S35-06": {
+  "A": "No gloves are needed at all",
+  "C": "Sterile surgical gloves",
+  "D": "Cotton gloves for comfort"
+ },
+ "PN-S35-07": {
+  "A": "Ignore the alarm and restart the pump right away, since a small amount of air in the tubing is harmless and will be absorbed",
+  "C": "Increase the infusion rate to push the air through the tubing and into the vein more quickly, then return to the prescribed rate",
+  "D": "Disconnect the tubing from the client and leave it open to the air so that the bubbles can escape on their own before reconnecting"
+ },
+ "PN-S35-08": {
+  "A": "Weigh the infant fully clothed at different times each day, whenever the scale is free",
+  "C": "Weigh the infant on an adult bathroom scale while held in a parent's arms each day",
+  "D": "Estimate the weight by looking at the infant and comparing it with the last recorded weight"
+ },
+ "PN-S35-09": {
+  "A": "Swab the back of the throat and both tonsils with a sterile swab, since the throat is the place where MRSA most often lives in the body",
+  "C": "Swab only the skin on the outside of the nose, around the edges of the nostrils, without inserting the swab into the nasal passages at all",
+  "D": "Have the client blow their nose firmly into a sterile specimen cup, and then send the sealed cup to the laboratory with the completed requisition for MRSA screening"
+ },
+ "PN-S35-10": {
+  "A": "Spray the inhaler into the air near the child's face while the child is busy playing, so that the child breathes in the medication without becoming upset",
+  "C": "Have the child take a deep breath and hold it for 10 seconds after each puff, the same way an older child or an adult uses an inhaler",
+  "D": "Press the inhaler several times in a row into the spacer before the child breathes, so that the full prescribed dose is given in fewer breaths"
+ },
+ "PN-S35-11": {
+  "A": "Press both carotid arteries at the same time to compare the two sides",
+  "C": "Massage the carotid artery firmly to feel the pulse more easily",
+  "D": "Palpate high at the angle of the jaw, using strong pressure"
+ },
+ "PN-S35-12": {
+  "A": "\"Poke a small hole in the top of the pouch with a clean pin to release any gas that builds up, and then cover the hole with a piece of tape.\"",
+  "C": "\"Eat only eggs and fish for your protein, since these foods are gentle on the stoma and help keep your stools formed and regular.\"",
+  "D": "\"Change the pouch only once a week, regardless of odor, so that the skin around your stoma has time to rest between changes.\""
+ },
+ "PN-S35-13": {
+  "A": "Leave the client briefly to get an emesis basin and towels from the supply room down the hall",
+  "C": "Give the client a few sips of water to drink to rinse the mouth and settle the stomach",
+  "D": "Lay the client flat on their back in bed and keep them still until the vomiting stops"
+ },
+ "PN-S35-14": {
+  "A": "Clamp the catheter for long periods throughout the day to help train the bladder to hold more urine before it's drained again",
+  "C": "Remove the catheter every day to clean it with soap and water, and then reinsert it yourself through the same opening in the lower abdomen",
+  "D": "Apply powder generously around the insertion site after cleaning it to keep the skin dry and absorb any drainage or urine leakage"
+ },
+ "PN-S35-15": {
+  "A": "Lightweight plastic utensils that are easy to lift and hold",
+  "C": "Chopsticks to improve fine motor control during meals",
+  "D": "Glass cups filled to the top so fewer refills are needed"
+ },
+ "PN-S35-16": {
+  "A": "\"Soak in a warm bathtub for a while every day to keep the incision clean and help soften any scabs along the incision so that they come off more easily.\"",
+  "C": "\"Clean the incision with hydrogen peroxide several times a day to kill any germs on the skin and keep the area clean while it heals.\"",
+  "D": "\"Cover the incision with plastic wrap for a week and leave it in place so that the area stays sealed off from air and moisture.\""
+ },
+ "PN-S35-17": {
+  "A": "\"Place the monitor below the level of your desk so that you're looking down at the screen, which keeps your neck relaxed while you work.\"",
+  "C": "\"Sit on the edge of the chair without back support so that your core muscles stay engaged and your posture improves.\"",
+  "D": "\"Work for several hours at a time without taking breaks so that you finish your tasks sooner and spend less time at the desk.\""
+ },
+ "PN-S35-18": {
+  "A": "\"You should really be over it by now, since it's been 2 years. It might be time to put the past behind you and move forward.\"",
+  "C": "\"Let's change the subject to something happier, like the activities you have planned with your family for this coming weekend.\"",
+  "D": "\"Try to stay as busy as you can this week with work and errands so that you don't have time to think about it or feel sad about anything.\""
+ },
+ "PN-S35-19": {
+  "A": "Argue with the client that the voices aren't real and that the client should ignore them",
+  "C": "Ask the client to describe the voices in detail for an hour so that every voice can be documented",
+  "D": "Leave the client alone in a quiet room until the voices stop and the distress settles"
+ },
+ "PN-S35-20": {
+  "A": "\"This is a sign of liver disease, so you'll need blood tests to check how well your liver is working before your next prenatal visit.\"",
+  "C": "\"Use a skin-bleaching cream on the dark patches every day during your pregnancy so that they fade before your baby is born.\"",
+  "D": "\"Dark patches on the face mean that the baby is a boy, since boys cause more of these hormone changes during pregnancy.\""
+ },
+ "PN-S35-21": {
+  "A": "\"Never drink any alcohol at all while you're breastfeeding, since even a single drink will harm your baby for several days afterward.\"",
+  "C": "\"Pumping and dumping right after you drink immediately removes all of the alcohol from your milk, so you can nurse right away.\"",
+  "D": "\"Alcohol increases your milk supply, so a glass of wine or beer each evening can help you make more milk for your baby.\""
+ },
+ "PN-S35-22": {
+  "A": "\"We forgot to give the bath right after the birth, but we'll do it as soon as we can so that your baby is clean and fresh before any of your visitors arrive.\"",
+  "C": "\"Babies should never be bathed, since water and soap can damage their delicate skin, so we'll just wipe your baby's face and diaper area.\"",
+  "D": "\"We wait until the umbilical cord stump falls off before doing any cleaning at all, including wiping your baby's face, hands, and diaper area.\""
+ },
+ "PN-S35-23": {
+  "A": "Fingertips pointing up so that the rinse water runs down the forearms to the elbows",
+  "C": "Hands held horizontally and still under the running water without moving",
+  "D": "Hands inside the sink, touching the basin so that they stay steady while rinsing"
+ }
+}
