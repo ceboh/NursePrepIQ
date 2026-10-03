@@ -1,0 +1,258 @@
+{
+ "_comment": "Batch 08 (Sets 14-15). Distractor-only rewrites to remove the longest-answer cue. Correct options, stems, and rationales are unchanged; each distractor keeps its original meaning and stays wrong for the same reason. PN-S15-08 (injection angles) is in skipped.json as numeric.",
+ "RN-S14-01": {
+  "B": "A client with schizophrenia who reports hearing voices commenting on the weather, which staff note is the client's usual pattern",
+  "C": "A client with anorexia nervosa who is refusing to finish breakfast and is asking to skip the morning weigh-in",
+  "D": "A client with bipolar disorder who is pacing in the hallway and talking rapidly but is redirectable by staff"
+ },
+ "RN-S14-06": {
+  "A": "Aged cheddar cheese and sliced dry salami on wheat crackers",
+  "C": "Pepperoni pizza with a glass of draft beer on tap",
+  "D": "Vegetable stir-fry with soy sauce and fermented tofu"
+ },
+ "RN-S14-08": {
+  "A": "Administer the next scheduled dose of haloperidol on time as prescribed",
+  "C": "Encourage ambulation to help relieve the muscle rigidity",
+  "D": "Apply warm blankets to help relax the rigid muscles"
+ },
+ "RN-S14-09": {
+  "A": "Tell the client this is most likely a common cold, and encourage rest and plenty of fluids at home",
+  "C": "Give an extra dose of clozapine now and recheck the temperature in 4 hours",
+  "D": "Encourage warm salt-water gargles only and recheck the temperature at bedtime"
+ },
+ "RN-S14-10": {
+  "B": "An additional dose of haloperidol IM now",
+  "C": "Lithium carbonate orally with food",
+  "D": "Propranolol 10 mg orally with water"
+ },
+ "RN-S14-11": {
+  "A": "\"Yes, I can hear them too. Let's sit down together and figure out what they want from you.\"",
+  "C": "\"There are no voices here. Stop imagining things and try to focus on reality.\"",
+  "D": "\"Let's not talk about the voices right now. Tell me about your family instead.\""
+ },
+ "RN-S14-12": {
+  "A": "Insist that the client sit at the table and finish full meals with the group",
+  "C": "Serve meals in the busy dining room to encourage socializing with peers",
+  "D": "Withhold snacks until the client sits down and finishes a full meal"
+ },
+ "RN-S14-16": {
+  "A": "Obtain a restraint prescription that is renewed each day without reassessing the client, so the restraints can stay on for as long as needed for safety",
+  "C": "Keep the client restrained until the next day to ensure safety, even if the client becomes calm and cooperative this evening",
+  "D": "Tie the restraints to the side rails with a quick-release knot so they can be loosened easily if the client needs care"
+ },
+ "RN-S14-17": {
+  "A": "Tell the client firmly that there's nothing on the unit to be afraid of right now",
+  "C": "Touch the client firmly on the shoulder without warning to get attention",
+  "D": "Ask the client to describe the traumatic event in detail right now"
+ },
+ "RN-S14-18": {
+  "A": "Naloxone causes permanent sedation that develops after the client wakes up",
+  "C": "Naloxone causes hypoglycemia that typically develops within the first hour",
+  "D": "Close monitoring is no longer needed once the client wakes up and is talking normally"
+ },
+ "RN-S14-19": {
+  "A": "\"You'll have permanent memory loss after these treatments, so you won't remember much about your own past.\"",
+  "C": "\"You'll be fully awake during the treatment, and you will feel the seizure as it happens.\"",
+  "D": "\"There are no side effects at all from ECT, so there's nothing to worry about afterward.\""
+ },
+ "RN-S15-01": {
+  "B": "A scheduled oral stool softener for a client with no bowel movement in 2 days",
+  "C": "PRN acetaminophen for a headache rated 3/10 that started an hour ago",
+  "D": "A daily oral multivitamin that is scheduled for 0900 with breakfast"
+ },
+ "RN-S15-09": {
+  "A": "Administer the next dose of lisinopril as scheduled with a glass of water",
+  "C": "Apply ice packs to the lips and tongue and recheck the swelling in 30 minutes",
+  "D": "Reassure the client that this is a mild, expected side effect of lisinopril"
+ },
+ "RN-S15-11": {
+  "A": "Checking the room number and bed number against the medication administration record",
+  "B": "Asking \"Are you Mr. Jones?\" and waiting for the client to answer yes before giving any of the medications",
+  "D": "Asking the client's roommate to confirm the client's full name before giving the medications"
+ },
+ "RN-S15-13": {
+  "A": "Save it in a labeled syringe in the locked medication room for the client's next dose",
+  "C": "Discard it in the sharps container without a witness and document the waste alone",
+  "D": "Give the rest to the client later in the shift if the pain comes back again"
+ },
+ "RN-S15-15": {
+  "A": "Immediately after the vancomycin infusion is finished",
+  "C": "Two hours after the dose has finished infusing",
+  "D": "At any convenient time of day during the shift"
+ },
+ "RN-S15-16": {
+  "A": "Start with higher doses to overcome the slower absorption that occurs with aging",
+  "C": "Older adults need fewer monitoring visits once a medication is started",
+  "D": "Drug interactions are less common in older adults than in younger adults"
+ },
+ "RN-S15-18": {
+  "A": "No change in INR monitoring is needed while on the antibiotic",
+  "C": "Doubling the warfarin dose for as long as the client takes the antibiotic",
+  "D": "Stopping warfarin permanently once the antibiotic is started"
+ },
+ "RN-S15-19": {
+  "A": "\"Yes, pressing the button for her while she sleeps will keep her pain under control, so she won't wake up hurting in the middle of the night tonight.\"",
+  "C": "\"You can press it for her, but only once every hour, so she gets a steady amount of pain medicine while she sleeps.\"",
+  "D": "\"Only press it for her if she is groaning or looks uncomfortable in her sleep, so she doesn't wake up in pain.\""
+ },
+ "PN-S14-01": {
+  "B": "Determining a client's level of suicide risk at the start of the shift",
+  "C": "Reinforcing medication teaching with a client being discharged home",
+  "D": "Deciding when a client can come off one-to-one suicide precautions"
+ },
+ "PN-S14-02": {
+  "A": "\"That's not true at all. You're a great person.\"",
+  "C": "\"Everybody feels that way sometimes, so don't worry.\"",
+  "D": "\"You shouldn't say things like that about yourself.\""
+ },
+ "PN-S14-04": {
+  "A": "Leave the client alone in a quiet room for a few minutes to calm down",
+  "C": "Ask the client to explain in detail what triggered the attack",
+  "D": "Encourage the client to join a group activity to take their mind off it"
+ },
+ "PN-S14-07": {
+  "A": "\"Drinking a small glass of wine with it in the evening is fine, as long as you eat first.\"",
+  "C": "\"You can double the dose on days when you feel more anxious than usual, then go back.\"",
+  "D": "\"It is safe to take together with your opioid pain medicine after your knee surgery.\""
+ },
+ "PN-S14-08": {
+  "A": "\"Stop taking the medication until your mouth feels better.\"",
+  "C": "\"Drink sugary soda throughout the day to keep your mouth moist.\"",
+  "D": "\"Use an alcohol-based mouthwash several times a day.\""
+ },
+ "PN-S14-09": {
+  "B": "Hearing and vision screening only",
+  "C": "Serum lithium levels every month",
+  "D": "Pupil size and reactivity to light"
+ },
+ "PN-S14-10": {
+  "A": "Gradual memory loss that has slowly and steadily worsened over several years",
+  "C": "A stable level of consciousness and attention throughout the day",
+  "D": "An irreversible decline in thinking that progresses over time"
+ },
+ "PN-S14-11": {
+  "A": "Enjoying weekly visits with family members and looking forward to the next visit each Sunday",
+  "C": "Mild forgetfulness about the names of new staff members and neighbors in the building",
+  "D": "Waking up once each night to void and then falling back asleep easily afterward"
+ },
+ "PN-S14-12": {
+  "A": "\"I can keep using my regular mouthwash that contains alcohol after I brush my teeth.\"",
+  "C": "\"I can still have one beer a day with dinner without having any problems.\"",
+  "D": "\"This medication will reduce my cravings for alcohol so I won't want to drink.\""
+ },
+ "PN-S14-13": {
+  "A": "Allow the client to eat meals alone in their room to reduce stress at mealtimes",
+  "C": "Weigh the client in street clothes at varying times of the day",
+  "D": "Discuss food choices and calorie counts with the client at length"
+ },
+ "PN-S14-14": {
+  "A": "Assign different staff members to the child each shift so that the child experiences more variety",
+  "C": "Place the child in the busy playroom with other children to encourage play",
+  "D": "Frequently rearrange the child's room and toys to keep the child interested"
+ },
+ "PN-S14-16": {
+  "A": "Explore the client's childhood experiences and early family relationships",
+  "C": "Schedule long-term psychotherapy to begin in the next few weeks",
+  "D": "Discuss the home insurance paperwork and claims process in detail"
+ },
+ "PN-S14-17": {
+  "A": "Ask the client about abuse in front of the partner to get both sides",
+  "C": "Ignore the bruises, since the client has not mentioned them",
+  "D": "Confront the partner about the bruises on the client's arms"
+ },
+ "PN-S14-18": {
+  "B": "Check the client and the restraints once per shift, and document the findings in the client's record at the end of the shift",
+  "C": "Secure the restraints to the side rails of the bed so they can be adjusted quickly when the client needs to be repositioned",
+  "D": "Use a tight knot that cannot be released quickly, so the client is not able to untie the restraints and climb out of the bed during the night"
+ },
+ "PN-S14-19": {
+  "A": "Call security right away so that they can help staff place the client in restraints",
+  "C": "Turn your back to the client to show that you are not a threat to them",
+  "D": "Argue with the client about why the behavior is not acceptable on the unit"
+ },
+ "PN-S14-20": {
+  "A": "\"Drink a cup of coffee after dinner to help you relax in the evening.\"",
+  "C": "\"Take long naps during the day to make up for the sleep you've lost.\"",
+  "D": "\"Exercise vigorously right before bed so you'll be tired enough to sleep.\""
+ },
+ "PN-S14-21": {
+  "A": "Prevent the client from washing their hands so that they get to breakfast on time",
+  "C": "Tell the client there will be consequences for being late to breakfast again",
+  "D": "Point out to the client how unnecessary and silly the handwashing is"
+ },
+ "PN-S14-23": {
+  "A": "Pinpoint pupils, drowsiness, and slow, shallow respirations of 8/min",
+  "C": "Hypothermia, bradycardia, and a low blood pressure reading",
+  "D": "Sedation, slurred speech, nodding off, and constipation"
+ },
+ "PN-S15-01": {
+  "A": "Checking the client's name on the door sign and on the card at the head of the bed",
+  "C": "Asking \"Are you Mrs. Smith?\" and giving the medications as soon as the client nods yes",
+  "D": "Relying on recognizing the client's face from having cared for the same client on the previous day shift"
+ },
+ "PN-S15-05": {
+  "A": "\"About 1 teaspoon, measured with the marked dosing cup or an oral syringe.\"",
+  "C": "\"About 1 tablespoon, measured with the marked dosing cup or an oral syringe.\"",
+  "D": "\"About 1 ounce, measured with the marked dosing cup or an oral syringe.\""
+ },
+ "PN-S15-09": {
+  "A": "To speed up the absorption of the medication from the muscle tissue into the client's bloodstream",
+  "C": "To reduce the total amount of medication needed to reach a therapeutic effect",
+  "D": "To allow a larger volume of medication to be injected safely into the deltoid muscle"
+ },
+ "PN-S15-10": {
+  "B": "Divide the buttock into four equal quadrants using the gluteal fold and the iliac crest as landmarks, then inject at a 90-degree angle into the center of the lower inner quadrant of the buttock",
+  "C": "Locate the acromion process, measure 3 fingerbreadths below it on the lateral upper arm, and inject at a 90-degree angle into the center of that muscle",
+  "D": "Divide the thigh into thirds between the greater trochanter and the knee, and inject into the middle third of the outer (lateral) thigh muscle"
+ },
+ "PN-S15-11": {
+  "A": "Place the drop directly onto the center of the cornea while the client tilts the head back and looks upward",
+  "C": "Touch the dropper tip gently to the lower eyelid to steady it while instilling the drop",
+  "D": "Have the client squeeze the eye shut tightly for 1 minute afterward to keep the medication in"
+ },
+ "PN-S15-14": {
+  "A": "\"Swallow it whole with a full glass of water, the same way that you would take any other tablet.\"",
+  "C": "\"Chew it thoroughly first, then swallow it with a small sip of water or juice.\"",
+  "D": "\"Place it between your cheek and your gum, and then swallow it after about 1 minute.\""
+ },
+ "PN-S15-15": {
+  "A": "Position the client on the right side and insert the lubricated suppository about 1 inch, just inside the anal opening, without passing the sphincter",
+  "C": "Insert the lubricated suppository directly into a mass of stool in the rectum so that it stays in place and dissolves",
+  "D": "Have the client stand and bend forward over the bed while the lubricated suppository is inserted into the rectum"
+ },
+ "PN-S15-16": {
+  "A": "Crush the medication and hide it in the client's applesauce so the client takes it without knowing",
+  "C": "Tell the client firmly that they must take the blood pressure medication because the provider prescribed it for them",
+  "D": "Document that the medication was given, since the client usually takes it every morning without any problem"
+ },
+ "PN-S15-18": {
+  "A": "At the start of the next nursing shift",
+  "C": "Only if the client puts on the call light",
+  "D": "About 4 hours after administration"
+ },
+ "PN-S15-19": {
+  "A": "Sign the count now so that the off-going nurse can leave on time, and look for the missing tablet later in the shift",
+  "C": "Replace the missing tablet with one from another client's supply so that the count is correct before signing",
+  "D": "Ignore the discrepancy, since a single missing tablet is not significant enough to report to the charge nurse"
+ },
+ "PN-S15-20": {
+  "A": "Tell the client to stop taking whichever medications seem least important, to cut down on the number of pills",
+  "C": "Suggest filling prescriptions at several different pharmacies so the client can get each medication at the lowest price",
+  "D": "Advise the client to take all of the medications at the same time each morning to keep things simple"
+ },
+ "PN-S15-21": {
+  "A": "Acetaminophen 325 mg regular-strength immediate-release tablet",
+  "C": "Furosemide 20 mg immediate-release oral tablet",
+  "D": "Lisinopril 10 mg immediate-release oral tablet"
+ },
+ "PN-S15-22": {
+  "A": "\"Yes, grapefruit juice improves the medicine's effect safely, so you can keep drinking a glass every morning.\"",
+  "C": "\"You can drink it, but only at night, a few hours away from when you take your medication.\"",
+  "D": "\"It doesn't matter how much grapefruit juice you drink while you take this medication.\""
+ },
+ "PN-S15-23": {
+  "A": "\"No changes are needed, because rifampin and your birth control pills don't affect each other at all.\"",
+  "C": "\"Stop taking your birth control pills completely until you have finished the rifampin.\"",
+  "D": "\"Take your birth control pills twice a day instead of once while you're taking the rifampin.\""
+ }
+}
