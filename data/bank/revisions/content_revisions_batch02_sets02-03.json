@@ -1,0 +1,238 @@
+{
+ "_comment": "Batch 02 (Sets 2-3). Distractor-only rewrites; correct options and rationales unchanged.",
+ "RN-S02-01": {
+  "A": "A client with pneumonia who has a temperature of 101°F (38.3°C), a productive cough with yellow sputum, and SpO2 94% on room air",
+  "C": "A client with COPD whose SpO2 is 90% on 2 L/min nasal cannula, which is unchanged from the client's baseline on admission",
+  "D": "A client with a chest tube whose water-seal chamber shows fluctuation with respirations and 30 mL of serous drainage this shift"
+ },
+ "RN-S02-02": {
+  "A": "Clamp the chest tube close to the client's chest and leave it clamped until the provider arrives",
+  "C": "Increase the suction to the prescribed maximum so the lung re-expands and the bubbling stops",
+  "D": "Document the finding as an expected sign that the chest drainage system is functioning correctly"
+ },
+ "RN-S02-06": {
+  "A": "\"I'll increase it right away, since more oxygen is always better for someone who is short of breath and has lung disease like your mother.\"",
+  "C": "\"Oxygen is addictive, so we try to use as little as possible to keep your mother from becoming dependent on it once she goes home from the hospital.\"",
+  "D": "\"Only the respiratory therapist is allowed to change the oxygen, so I'll ask them to come and check on your mother when they're available.\""
+ },
+ "RN-S02-09": {
+  "A": "Using the fluticasone first, then the albuterol 5 minutes later, and rinsing the mouth after the albuterol",
+  "C": "Using both inhalers back to back at the same time for a faster, stronger combined effect on the airways",
+  "D": "Using the albuterol, then swallowing water afterward to prevent thrush from developing in the mouth"
+ },
+ "RN-S02-10": {
+  "A": "Wheezing that is louder than on arrival and now heard throughout both lung fields",
+  "C": "A heart rate that increased from 104 to 118/min after the albuterol treatment",
+  "D": "A productive cough with thick white sputum and wheezing on expiration only"
+ },
+ "RN-S02-15": {
+  "B": "A tongue depressor, a penlight, and a set of sterile cotton-tipped applicators",
+  "C": "A padded tongue blade, a bite block, and a container of normal saline solution",
+  "D": "A spare nasal cannula, petroleum jelly for the stoma site, and a bag of gauze pads"
+ },
+ "RN-S02-18": {
+  "A": "Mild soreness at the puncture site that the client rates 2 on a 0–10 scale",
+  "C": "A small amount of serous drainage on the dressing, about the size of a quarter",
+  "D": "The client's request to resume eating and drinking now that the procedure is over"
+ },
+ "RN-S02-19": {
+  "B": "Elevated central venous pressure, jugular venous distention, and peripheral edema",
+  "C": "Unilateral wheezing over the right lung that clears completely with coughing",
+  "D": "Hypercapnia that corrects promptly with low-flow supplemental oxygen therapy"
+ },
+ "RN-S02-24": {
+  "A": "Allow the client to rest without disturbing them, since the SpO2 has improved to 93%",
+  "C": "Administer the scheduled nebulizer treatment and reassess the client's breathing afterward",
+  "D": "Increase the oxygen to a nonrebreather mask at 15 L/min and recheck the SpO2 in 15 minutes"
+ },
+ "RN-S03-01": {
+  "B": "A client with multiple sclerosis who reports fatigue and leg heaviness after a morning physical therapy session",
+  "C": "A client who reports a headache that worsens when sitting up 6 hours after a lumbar puncture",
+  "D": "A client with Parkinson's disease whose carbidopa-levodopa is due in 30 minutes and who has a mild tremor"
+ },
+ "RN-S03-07": {
+  "A": "Crush the medications and mix them in applesauce so they are easier for the client to swallow",
+  "C": "Give the medications with thickened liquids to reduce the client's risk of aspiration",
+  "D": "Ask the client whether they have any difficulty swallowing before giving the medications"
+ },
+ "RN-S03-09": {
+  "A": "Turning the client onto their side to keep the airway clear",
+  "B": "Loosening the clothing around the client's neck and chest",
+  "D": "Noting the time the seizure began and how long it lasts"
+ },
+ "RN-S03-10": {
+  "A": "Administer the next scheduled dose and reassess the gait and nystagmus in 4 hours",
+  "C": "Administer the next dose with food to reduce side effects such as the unsteady gait",
+  "D": "Encourage the client to ambulate in the hallway with a walker to improve balance"
+ },
+ "RN-S03-11": {
+  "A": "Administer the prescribed PRN antihypertensive medication",
+  "C": "Check the urinary catheter tubing for kinks or obstruction",
+  "D": "Notify the provider of the BP and the client's symptoms"
+ },
+ "RN-S03-12": {
+  "A": "Bladder distention and the need for intermittent catheterization",
+  "C": "Sensation and movement in the lower extremities",
+  "D": "Skin integrity over the sacrum, heels, and occiput"
+ },
+ "RN-S03-13": {
+  "A": "Ptosis of both eyelids that worsens in the evening",
+  "B": "Fatigue and leg weakness after walking to the bathroom",
+  "D": "Double vision when reading or watching television"
+ },
+ "RN-S03-14": {
+  "A": "Deep tendon reflexes in the arms and the legs",
+  "C": "Pain level and paresthesias in the legs and feet",
+  "D": "Bowel sounds and the date of the last bowel movement"
+ },
+ "RN-S03-15": {
+  "A": "\"I'll get up slowly from sitting or lying down so I don't get dizzy.\"",
+  "C": "\"My urine or sweat may turn darker, and that isn't harmful.\"",
+  "D": "\"I'll report any new jerky, twisting, or writhing movements.\""
+ },
+ "RN-S03-17": {
+  "A": "\"You're doing a wonderful job caring for your mother. Just keep going, and things will settle down.\"",
+  "C": "\"Have you considered placing her in a nursing home? That might be the best option for both of you.\"",
+  "D": "\"Most caregivers feel this way at some point. It will get easier for you as you both get used to the new nighttime routine.\""
+ },
+ "RN-S03-24": {
+  "A": "Repeat the full neurological assessment, including pupils, in 1 hour",
+  "C": "Administer the prescribed PRN analgesic for the client's worsening headache",
+  "D": "Place the client flat in bed to improve blood flow to the brain"
+ },
+ "PN-S02-01": {
+  "B": "Auscultating the lung sounds of a resident with pneumonia and reporting any crackles",
+  "C": "Adjusting the oxygen flow rate for a resident who seems short of breath during activity",
+  "D": "Reinforcing teaching on metered-dose inhaler use with a resident who has asthma"
+ },
+ "PN-S02-02": {
+  "A": "Supine with one pillow under the head and the knees slightly bent",
+  "C": "Trendelenburg, with the head lower than the feet to promote drainage",
+  "D": "Left side-lying with the head of the bed flat and a pillow behind the back"
+ },
+ "PN-S02-03": {
+  "A": "\"Breathe in through your mouth, then breathe out slowly through your nose for about the same length of time.\"",
+  "C": "\"Breathe in deeply through your nose, then hold your breath for 10 seconds after each breath.\"",
+  "D": "\"Breathe in through your nose, then breathe out forcefully and quickly through pursed lips.\""
+ },
+ "PN-S02-04": {
+  "A": "Blowing forcefully into the mouthpiece to raise the indicator as high as possible",
+  "C": "Using the device once every 4 hours while lying flat in bed with the head of the bed down",
+  "D": "Taking several rapid, shallow breaths through the mouthpiece to raise the indicator quickly"
+ },
+ "PN-S02-07": {
+  "A": "\"Collect it after breakfast, when you usually have more secretions and it's much easier to cough them up into the cup.\"",
+  "C": "\"Use mouthwash first to reduce germs in your mouth, then cough into the cup when you're ready.\"",
+  "D": "\"Spit saliva into the cup until it's about half full, then close the lid tightly and label it.\""
+ },
+ "PN-S02-09": {
+  "A": "Orange-colored urine and tears",
+  "C": "Improved appetite and weight gain",
+  "D": "Mild headache on the first day of therapy"
+ },
+ "PN-S02-10": {
+  "A": "A surgical mask and gloves",
+  "C": "Gown and gloves only, without a mask",
+  "D": "Eye protection only, such as goggles"
+ },
+ "PN-S02-11": {
+  "A": "Drowsiness and slowed reactions",
+  "C": "Constipation and abdominal cramping",
+  "D": "A slow heart rate and low BP"
+ },
+ "PN-S02-13": {
+  "A": "Shaking the inhaler well before attaching it to the spacer",
+  "C": "Breathing in slowly and deeply through the spacer after pressing the canister",
+  "D": "Holding the breath for about 10 seconds before breathing out slowly"
+ },
+ "PN-S02-15": {
+  "A": "Eat three large meals a day and avoid snacking between meals",
+  "C": "Drink large amounts of fluid with each meal to help food go down more easily",
+  "D": "Eat a high-carbohydrate, low-fat diet to provide quick energy for breathing"
+ },
+ "PN-S02-16": {
+  "A": "Immediately after meals, while the client is still sitting up",
+  "C": "Only at bedtime, once a day, to clear secretions before sleep",
+  "D": "Within 15 minutes after tube feedings, when the client is most alert"
+ },
+ "PN-S02-18": {
+  "A": "Removing the old ties completely before placing the new ties so the area can be cleaned thoroughly",
+  "C": "Tying the new ties loosely enough to fit three fingers underneath so the client is more comfortable",
+  "D": "Performing the tie change right after the client eats, while the client is sitting upright and calm"
+ },
+ "PN-S02-20": {
+  "A": "Leave the room so the client can rest quietly without distraction",
+  "C": "Tell the client firmly to stop panicking and slow down their breathing",
+  "D": "Offer the client a sedative to help them calm down and relax"
+ },
+ "PN-S02-21": {
+  "A": "A dry, intact dressing over the puncture site with no drainage",
+  "C": "The client's report of mild soreness at the puncture site",
+  "D": "A respiratory rate of 18/min with even, unlabored breathing"
+ },
+ "PN-S02-22": {
+  "A": "Give the client small sips of water to soothe the throat after the procedure",
+  "C": "Offer ice chips instead of water, since they are less likely to cause choking",
+  "D": "Give the client a warm drink such as tea to soothe the throat and relieve discomfort"
+ },
+ "PN-S03-01": {
+  "B": "A client admitted 1 hour ago with stroke symptoms who is receiving IV alteplase and needs neuro checks every 15 minutes",
+  "C": "A client with a head injury whose level of consciousness is declining and whose pupils are becoming unequal",
+  "D": "A client in status epilepticus who has had continuous seizure activity for 6 minutes despite one dose of lorazepam"
+ },
+ "PN-S03-02": {
+  "A": "Shine the penlight directly into both eyes at the same time and compare the pupil sizes",
+  "C": "Have the client look directly at the penlight while the light is moved slowly toward each eye",
+  "D": "Check the pupils only if the client reports a headache or a change in vision during the shift"
+ },
+ "PN-S03-03": {
+  "A": "Hold the client's arms and legs firmly to prevent injury from the jerking movements",
+  "C": "Place a finger or padded object in the client's mouth to keep the airway open during the seizure",
+  "D": "Leave the client in the chair and go to get the RN and the emergency equipment"
+ },
+ "PN-S03-04": {
+  "A": "Offer the client a drink of water to help with the dry mouth",
+  "C": "Ambulate the client to the bathroom to empty the bladder after the seizure",
+  "D": "Ask the client detailed questions about the seizure while the memory is fresh"
+ },
+ "PN-S03-06": {
+  "A": "\"I'll brush and floss my teeth carefully every day and see my dentist regularly.\"",
+  "B": "\"I'll keep my appointments for blood level checks even when I'm feeling fine.\"",
+  "D": "\"I'll wear a medical alert bracelet that lists my seizure disorder and medication.\""
+ },
+ "PN-S03-07": {
+  "A": "Position the client at 45 degrees with the head tilted back slightly when swallowing",
+  "C": "Use a straw for thin liquids so the client can control how much enters the mouth",
+  "D": "Place food on the affected side of the mouth to strengthen the weak muscles"
+ },
+ "PN-S03-08": {
+  "A": "Place the call light and personal items on the client's left side so the client learns to look toward that side",
+  "C": "Keep the room dark and quiet to reduce stimulation and help the client's vision recover more quickly",
+  "D": "Patch the client's left eye during the day to reduce double vision and help the client focus on the right"
+ },
+ "PN-S03-11": {
+  "A": "\"Keep your feet close together and take small, careful steps while walking.\"",
+  "C": "\"Look down at your feet while walking so you can see where you're stepping.\"",
+  "D": "\"Walk as quickly as possible and keep moving so your legs don't freeze in place.\""
+ },
+ "PN-S03-15": {
+  "B": "\"Take a hot bath in the afternoon to relax your muscles and restore your energy.\"",
+  "C": "\"Avoid all exercise, since physical activity will make your fatigue much worse.\"",
+  "D": "\"Do all your chores at once in the afternoon so you can rest for the remainder of the day.\""
+ },
+ "PN-S03-17": {
+  "A": "Reposition the client every 4 hours while in bed and every 2 hours while seated in the wheelchair",
+  "C": "Massage reddened areas over bony prominences firmly at each position change to improve blood flow",
+  "D": "Keep the head of the bed at 60 degrees at all times to prevent sliding and reduce shearing on the skin"
+ },
+ "PN-S03-21": {
+  "A": "\"Don't cry. He needs you to be strong for him right now while he recovers.\"",
+  "C": "\"He'll be back to normal after rehab. Most people recover completely from a stroke.\"",
+  "D": "\"You should ask the doctor about his prognosis, since I can't answer that for you.\""
+ },
+ "PN-S03-23": {
+  "A": "Avoid eye drops and lubricants, since they can irritate the eye and slow the facial nerve's recovery",
+  "C": "Apply warm compresses to the open eye every hour while awake to stimulate the facial muscles to close it",
+  "D": "Keep the eye uncovered at night so that air can circulate and the eye can blink naturally during sleep"
+ }
+}
