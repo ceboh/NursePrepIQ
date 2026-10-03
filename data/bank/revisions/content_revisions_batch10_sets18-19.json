@@ -1,0 +1,358 @@
+{
+ "_comment": "Batch 10 (Sets 18-19). Distractor-only rewrites to remove the longest-answer cue. Correct options, stems, and rationales are unchanged; each distractor keeps its original meaning and stays wrong for the same reason.",
+ "RN-S18-01": {
+  "B": "A client 1 day after cataract surgery who reports mild scratchiness in the operative eye and wants to know if it's normal",
+  "C": "A client whose hearing aid is whistling and who would like an appointment to have it checked this week",
+  "D": "A client with Ménière's disease requesting a refill of meclizine before the pharmacy closes this evening"
+ },
+ "RN-S18-04": {
+  "A": "\"Follow a high-sodium diet to maintain your fluid balance and reduce the dizziness you feel between attacks.\"",
+  "C": "\"Increase your caffeine intake to improve alertness and help you feel steadier during the day.\"",
+  "D": "\"You can continue to drive as usual during an attack, as long as you pull over if it gets bad.\""
+ },
+ "RN-S18-07": {
+  "A": "\"Hold ice packs in your hands for a few minutes each day to toughen your fingers.\"",
+  "C": "\"Drink more caffeinated coffee or tea to keep your circulation going.\"",
+  "D": "\"Soak your fingers in cold water every day to help them adjust to the cold.\""
+ },
+ "RN-S18-08": {
+  "A": "Completely on the left (nonoperative) side, supported with pillows behind the back",
+  "C": "Prone, with a small pillow under the chest and abdomen for comfort",
+  "D": "Trendelenburg position, with the head of the bed lower than the feet"
+ },
+ "RN-S18-09": {
+  "A": "\"I'll use the CPAP only on nights when I feel especially tired or have been snoring.\"",
+  "C": "\"I'll take a sleeping pill every night at bedtime so that I can tolerate the mask until morning.\"",
+  "D": "\"After a few weeks of using the CPAP every night, my sleep apnea will be cured and I can stop.\""
+ },
+ "RN-S18-10": {
+  "B": "\"It cures influenza within 24 hours of taking the first dose.\"",
+  "C": "\"Taking it replaces the need for a yearly flu vaccine in the future.\"",
+  "D": "\"It works only if it is started after a full week of symptoms.\""
+ },
+ "RN-S18-11": {
+  "A": "Serve very hot foods and drinks to relax the facial muscles before chewing",
+  "C": "Encourage vigorous brushing of the teeth after each meal to prevent decay",
+  "D": "Apply an ice pack to the face for several minutes before each meal"
+ },
+ "RN-S18-12": {
+  "A": "Impaired verbal communication from dysarthria",
+  "C": "Disturbed body image and self-esteem",
+  "D": "Constipation from immobility"
+ },
+ "RN-S18-13": {
+  "A": "\"There's no genetic risk for you, because Huntington's disease is caused by environmental exposures rather than by genes you inherit.\"",
+  "C": "\"Only sons can inherit Huntington's disease from an affected father, so daughters in the family are not at risk.\"",
+  "D": "\"The chance is 25%, which is the same risk as for inherited conditions in which both parents carry the gene.\""
+ },
+ "RN-S18-14": {
+  "A": "\"Take ibuprofen as needed for any headaches or muscle aches.\"",
+  "C": "\"Take up a contact sport such as soccer or basketball to strengthen your body.\"",
+  "D": "\"Floss vigorously twice a day to keep your gums healthy.\""
+ },
+ "RN-S18-15": {
+  "A": "Hypotension from anemia and blood loss",
+  "C": "Hypoglycemia with sweating and dizziness",
+  "D": "Hyperkalemia only, from cell breakdown"
+ },
+ "RN-S18-17": {
+  "A": "\"Perform the exam just once a year, such as on your birthday, so that it's easy for you to remember to do it.\"",
+  "C": "\"You only need to examine your testicles if you notice pain or discomfort in the scrotum.\"",
+  "D": "\"Squeeze each testicle firmly between your thumb and fingers to check for areas of pain.\""
+ },
+ "RN-S18-18": {
+  "A": "\"You can safely resume sexual activity tonight, since the single dose of azithromycin starts working right away.\"",
+  "C": "\"Your sexual partners don't need to be tested or treated, because the single dose of medication you took will clear the infection.\"",
+  "D": "\"After this treatment, you'll be immune to chlamydia, so you won't be able to catch it again in the future.\""
+ },
+ "RN-S18-19": {
+  "A": "Pinpoint pupils, bradycardia, hypothermia, and marked drowsiness with slurred speech",
+  "C": "Slow, shallow respirations, sedation, and slurred speech",
+  "D": "Hypotension, constricted pupils, and a slow heart rate of 48/min"
+ },
+ "RN-S19-01": {
+  "B": "A client 4 hours after shock wave lithotripsy who has pink-tinged urine and mild bruising over the left flank",
+  "C": "A client with polycystic kidney disease requesting a refill of a BP medication before discharge",
+  "D": "A client with benign prostatic hyperplasia who reports nocturia two to three times each night"
+ },
+ "RN-S19-02": {
+  "A": "The client ate a light breakfast of dry toast and apple juice about 2 hours before the scheduled cardioversion procedure",
+  "C": "The client took the usual morning dose of digoxin with a small sip of water before arriving",
+  "D": "The client's potassium level is 3.1 mEq/L on the basic metabolic panel drawn early this morning"
+ },
+ "RN-S19-03": {
+  "B": "\"You can ignore any shocks unless you have more than five of them in a single day, since a shock just means the device is doing its job to protect you.\"",
+  "C": "\"You will need to avoid all types of physical activity for the rest of your life so the device doesn't fire by mistake.\"",
+  "D": "\"Family members and friends will be seriously injured if they happen to be touching you when the device delivers a shock.\""
+ },
+ "RN-S19-05": {
+  "B": "Oral ibuprofen 400 mg with food and water",
+  "C": "A warm, moist compress applied over the painful eye",
+  "D": "IV fluids only, with no other treatment"
+ },
+ "RN-S19-07": {
+  "A": "\"Take a double dose on the morning of your surgery so that your blood sugar stays under control during the hours you're not able to eat.\"",
+  "C": "\"This medication lowers your blood sugar by causing your pancreas to release more insulin after each meal you eat.\"",
+  "D": "\"An added benefit of this medication is that it helps prevent urinary tract infections for as long as you take it.\""
+ },
+ "RN-S19-08": {
+  "A": "Pumps deliver only long-acting insulin, so the client's glucose is likely to drop too low during the night",
+  "C": "Disconnection for a few hours has no effect on the client's glucose or ketone levels",
+  "D": "The client will develop hypoglycemia from the extra insulin given when the tubing reconnects"
+ },
+ "RN-S19-09": {
+  "A": "\"Unfortunately, there is still no effective treatment for chronic hepatitis C.\"",
+  "C": "\"A vaccine given in a series of three shots will cure the infection.\"",
+  "D": "\"Treatment is only recommended for people who already have liver failure.\""
+ },
+ "RN-S19-10": {
+  "A": "Frequent watery stools every 15 to 30 minutes since starting the prep",
+  "C": "Clear, yellow liquid stools with no solid material",
+  "D": "Mild abdominal fullness and bloating after drinking the prep"
+ },
+ "RN-S19-11": {
+  "A": "Absent bowel sounds with a rigid, board-like abdomen and marked rebound tenderness",
+  "C": "Frequent bloody diarrhea with crampy lower abdominal pain and urgency",
+  "D": "Left lower quadrant pain that is relieved by having a bowel movement"
+ },
+ "RN-S19-12": {
+  "A": "Dairy products such as milk, cheese, yogurt, and ice cream at any meal",
+  "C": "All fruits, including citrus fruits, berries, and melons",
+  "D": "Acetaminophen at any dose, even for a mild headache"
+ },
+ "RN-S19-14": {
+  "A": "\"You'll be able to speak normally again in a few days, once the swelling goes down.\"",
+  "C": "\"Keep the stoma tightly covered with plastic wrap at all times to keep it clean.\"",
+  "D": "\"You can still breathe through your nose and mouth if the stoma gets blocked.\""
+ },
+ "RN-S19-15": {
+  "A": "Elevated platelets and low liver enzymes with no hemolysis",
+  "C": "Low hemoglobin with normal liver enzymes and platelets",
+  "D": "Elevated serum glucose with ketones in the urine"
+ },
+ "RN-S19-16": {
+  "A": "Apply firm, steady fundal pressure at the top of the uterus with both hands to help push the baby's impacted shoulders out as quickly as possible",
+  "C": "Use a gloved hand to push the fetal head back up into the vagina while the client stops pushing for now",
+  "D": "Place the client in Trendelenburg position, with the head of the bed lowered below the level of the hips"
+ },
+ "RN-S19-17": {
+  "A": "\"I can start trying to get pregnant again right away, since the mole has been completely removed.\"",
+  "C": "\"I don't need any follow-up visits or blood tests now that the procedure is finished.\"",
+  "D": "\"A rising hCG level over the next few weeks is a good sign that I'm healing.\""
+ },
+ "RN-S19-18": {
+  "A": "Immediately after the client's last use of opioids, before any of the withdrawal symptoms have had a chance to begin",
+  "C": "Only after the client has completed at least 2 weeks of complete abstinence from all opioids and alcohol",
+  "D": "At the same time as a dose of a full-agonist opioid such as oxycodone, to ease the transition"
+ },
+ "PN-S18-01": {
+  "A": "Have the client stand 5 feet from the wall chart and read the smallest line that is possible with both eyes open",
+  "C": "Test both eyes together only, with the client wearing their reading glasses for the test",
+  "D": "Have the client read the letters from a small handheld card held at about arm's length"
+ },
+ "PN-S18-02": {
+  "A": "Cover the affected eye with a sterile eye patch and arrange to transport the worker to the hospital emergency department right away",
+  "C": "Have the worker rub the eye gently with a clean tissue to remove the chemical and relieve the burning",
+  "D": "Apply an antibiotic eye ointment and have the worker rest quietly with the eye closed until the burning stops"
+ },
+ "PN-S18-03": {
+  "A": "\"You can wear it in the shower so that you're still able to hear people while you're washing.\"",
+  "C": "\"Wipe it down with rubbing alcohol every day to kill any germs that collect on it.\"",
+  "D": "\"Store it in the bathroom cabinet so that it's close by when you get ready each morning.\""
+ },
+ "PN-S18-04": {
+  "A": "Stand right next to the client and shout directly into the better ear so that every word can be heard very clearly",
+  "C": "Continue speaking to the client while walking away or turning to do other tasks around the room",
+  "D": "Exaggerate your lip movements dramatically and speak very slowly, pausing after every single word"
+ },
+ "PN-S18-05": {
+  "A": "Keep the room lights dim at all times to reduce glare and help protect what remains of the client's central field of vision",
+  "C": "Rearrange the furniture in the room often so the client can practice finding the way around safely",
+  "D": "Encourage the client to continue driving, but only at night, when there is less traffic on the roads"
+ },
+ "PN-S18-07": {
+  "A": "The client's favorite music to play during the procedure",
+  "C": "Whether the client wears glasses or contacts",
+  "D": "The client's blood type and Rh factor"
+ },
+ "PN-S18-08": {
+  "A": "\"Try to stand for long periods throughout the day, since standing in one place will strengthen your leg muscles.\"",
+  "C": "\"Cross your legs at the knees whenever you sit down, to help support the veins in your legs.\"",
+  "D": "\"Wear tight knee-high socks with snug elastic tops every day to give your legs more support.\""
+ },
+ "PN-S18-09": {
+  "A": "\"Strain during bowel movements so that you empty your bowels completely.\"",
+  "C": "\"Sit on the toilet for long periods until you feel completely empty.\"",
+  "D": "\"Avoid drinking fluids so that your stools are not as loose.\""
+ },
+ "PN-S18-11": {
+  "A": "\"Keep your wrist bent in a flexed position while you type at the keyboard, which helps to rest the tendons.\"",
+  "C": "\"Sleep with both wrists bent and tucked under your pillow to keep them warm and comfortable.\"",
+  "D": "\"Squeeze a soft stress ball for several hours each day to strengthen your hand and grip.\""
+ },
+ "PN-S18-12": {
+  "A": "Complete bed rest for several weeks, until the pain and fatigue have gone away completely",
+  "C": "High-impact exercise, such as running or jumping rope, every day for at least an hour",
+  "D": "Avoiding all physical activity permanently once the client has had a flare"
+ },
+ "PN-S18-13": {
+  "A": "\"Drink a cup of hot coffee or tea as soon as you feel a hot flash starting to come on.\"",
+  "C": "\"Take extra blankets to bed so that you stay warm and cozy through the night.\"",
+  "D": "\"Avoid all types of exercise and stay as still as possible during the day.\""
+ },
+ "PN-S18-14": {
+  "A": "\"The HPV vaccine is only given after a child becomes sexually active, not before.\"",
+  "C": "\"The HPV vaccine is only recommended for girls and young women, not for boys.\"",
+  "D": "\"The first dose of the vaccine is recommended at age 30, during routine screening.\""
+ },
+ "PN-S18-15": {
+  "A": "\"Once I finish the antiviral medication, the virus will be cured completely, so I won't have to worry about having any more outbreaks.\"",
+  "C": "\"I can't spread herpes to anyone as long as I don't have any sores, so condoms are only needed during outbreaks.\"",
+  "D": "\"I only need to be treated once, and after that the infection won't come back or be spread to my partner.\""
+ },
+ "PN-S18-16": {
+  "A": "\"Every man needs to have a PSA blood test once a month, starting at age 40, so that prostate cancer can be caught as early as possible.\"",
+  "C": "\"PSA tests are never recommended for any men at any age, because the results are just not useful.\"",
+  "D": "\"Only men who are over age 80 need to have a PSA test, so you can wait until then to think about it.\""
+ },
+ "PN-S18-17": {
+  "A": "Place the infant prone to sleep at night, with the head turned to one side on a firm, flat crib mattress",
+  "C": "Allow the infant to suck on a pacifier as often as needed to soothe crying after surgery",
+  "D": "Clean the suture line roughly with a dry cotton ball to remove all of the crusts"
+ },
+ "PN-S18-18": {
+  "A": "\"Remove the harness each night at bedtime so that your baby can sleep more comfortably until the morning feeding.\"",
+  "C": "\"Apply a layer of lotion and baby powder under the straps each day to protect your baby's delicate skin.\"",
+  "D": "\"Tighten the straps yourself whenever your baby kicks a lot or the harness starts to seem loose.\""
+ },
+ "PN-S18-19": {
+  "A": "Place the newborn supine on a soft blanket with a small rolled towel under the hips for support",
+  "C": "Leave the sac uncovered and open to the air so that it can dry out and form a protective crust",
+  "D": "Use standard latex gloves for all care and procedures, since the newborn has not yet shown any sign of a latex allergy"
+ },
+ "PN-S18-20": {
+  "A": "Give an antiemetic and let the child sleep it off",
+  "C": "Encourage the child to drink more fluids to prevent dehydration",
+  "D": "Document the findings and review them at the next visit"
+ },
+ "PN-S18-21": {
+  "A": "\"Give your child children's aspirin every 4 to 6 hours as needed to bring down the fever and ease discomfort.\"",
+  "C": "\"Your child can go back to school tomorrow, even if some new spots are still appearing on the skin.\"",
+  "D": "\"Letting your child scratch the itchy spots will actually help the lesions crust over and heal faster.\""
+ },
+ "PN-S18-22": {
+  "A": "\"Stop the antibiotic as soon as your child's sore throat improves.\"",
+  "C": "\"Use throat lozenges and warm tea instead of the antibiotics.\"",
+  "D": "\"Save any leftover antibiotics for the next time your child gets sick.\""
+ },
+ "PN-S18-23": {
+  "A": "The test shows that the fetus is in distress and may need to be delivered right away",
+  "C": "The test results are unclear, so the test must be repeated immediately before the client leaves",
+  "D": "The client has started early labor and should be admitted to the labor and delivery unit"
+ },
+ "PN-S19-01": {
+  "A": "Apply ice to the area and have him rest for a few hours in the clinic",
+  "C": "Give ibuprofen for the pain and send him back to class to see if it improves",
+  "D": "Tell him it's most likely just a pulled groin muscle from gym class"
+ },
+ "PN-S19-02": {
+  "A": "Give the client a personal phone number so they can stay in touch after discharge",
+  "C": "Start exploring new problems in depth during the last few sessions",
+  "D": "End the relationship without warning at the last scheduled session"
+ },
+ "PN-S19-03": {
+  "A": "\"Take it only when you feel a panic attack starting, and it will work right away.\"",
+  "C": "\"It works within minutes to calm you down, just like lorazepam does.\"",
+  "D": "\"It is highly addictive, so you should take it only for a few days.\""
+ },
+ "PN-S19-04": {
+  "A": "Tell the client firmly that the symptoms are imaginary, since all of the medical tests have come back normal",
+  "C": "Ignore any new physical complaints the client reports, since all of the previous medical workups have come back negative",
+  "D": "Encourage the client to keep asking the provider for more diagnostic tests until a physical cause is found"
+ },
+ "PN-S19-05": {
+  "A": "\"Children with Down syndrome can't safely take part in any sports, so gymnastics is out of the question.\"",
+  "C": "\"There are no special considerations, so your child can start gymnastics classes right away like any other child.\"",
+  "D": "\"Swimming is the only sport that children with Down syndrome are allowed to take part in safely.\""
+ },
+ "PN-S19-06": {
+  "A": "Feed the child while lying flat on the back to help keep the head and neck still",
+  "C": "Feed the child as quickly as possible so the child does not become tired during the meal",
+  "D": "Offer large bites of food on the spoon to reduce the total time needed for each meal"
+ },
+ "PN-S19-08": {
+  "A": "Normal motor development for a 5-year-old",
+  "C": "A positive Babinski reflex in both feet",
+  "D": "A persistent Moro (startle) reflex"
+ },
+ "PN-S19-09": {
+  "A": "Perform abdominal thrusts with the infant held upright against your body, repeating them until the food comes out or the infant stops responding",
+  "C": "Perform a blind finger sweep of the back of the infant's mouth to try to find and remove the piece of food",
+  "D": "Hold the infant upside down by the ankles and shake gently, repeating until the piece of food comes out"
+ },
+ "PN-S19-10": {
+  "A": "\"Yes, that's fine. Children's vitamins are harmless, even if your child eats a few extra of them by mistake one day.\"",
+  "C": "\"Only adult vitamins are dangerous to children, so the children's chewable vitamins can stay on the counter.\"",
+  "D": "\"Keep them in the door of the refrigerator so they stay fresh and are easy for the family to find.\""
+ },
+ "PN-S19-11": {
+  "B": "\"This rash is a sign of a serious infection that needs antibiotics.\"",
+  "C": "\"This is an allergic reaction to the formula, so you'll need to switch brands.\"",
+  "D": "\"This rash means the baby is too hot and needs fewer blankets.\""
+ },
+ "PN-S19-12": {
+  "A": "\"The newborn hearing test is usually only done when there's a known family history of hearing loss.\"",
+  "C": "\"The test checks for any ear infections that newborns can sometimes develop after birth.\"",
+  "D": "\"Hearing tests aren't really necessary until the child is ready to start school.\""
+ },
+ "PN-S19-13": {
+  "A": "\"You can feed your child a regular diet as the child grows, once the newborn period is over.\"",
+  "C": "\"PKU usually goes away on its own by about age 2, so the special diet will only be needed for a short time.\"",
+  "D": "\"Give your child extra protein, such as meat, eggs, and milk, every day to support healthy growth.\""
+ },
+ "PN-S19-14": {
+  "A": "\"The circumcision should be done right away, before your baby is discharged home from the hospital.\"",
+  "C": "\"Hypospadias usually requires no treatment, because it tends to correct itself as the baby grows.\"",
+  "D": "\"Doing a routine circumcision will fix the hypospadias at the same time, so no other surgery is needed.\""
+ },
+ "PN-S19-16": {
+  "A": "\"Thaw frozen milk quickly in the microwave for about 30 seconds on high, then swirl it well and test a few drops on the inside of your wrist before you feed the baby.\"",
+  "C": "\"If you thaw more milk than your baby drinks, you can safely put the extra back in the freezer and refreeze it to use for a later feeding.\"",
+  "D": "\"Freshly pumped milk can be left out on the kitchen counter overnight at room temperature and then used for the first feeding in the morning.\""
+ },
+ "PN-S19-17": {
+  "A": "\"Take an iron supplement every day with a glass of orange juice to keep your energy up.\"",
+  "C": "\"Eat raw oysters and clams regularly so you get extra zinc in your diet.\"",
+  "D": "\"Cook in cast-iron pans as often as possible to add iron to your food.\""
+ },
+ "PN-S19-18": {
+  "A": "Clamp the nephrostomy tube whenever the client gets up to walk so the bag does not pull on the site",
+  "C": "Irrigate the tube routinely every shift with large volumes of sterile saline to keep it from clogging",
+  "D": "Place the drainage bag on top of the client's abdomen while the client is resting in bed so it stays in view"
+ },
+ "PN-S19-19": {
+  "A": "\"Limit how much you drink for the next few days to reduce your urine output and your discomfort.\"",
+  "C": "\"Call your provider immediately if you notice any pink-tinged urine, since it means you are bleeding.\"",
+  "D": "\"You can stop straining your urine after the first day, since the stone has already been broken up into pieces.\""
+ },
+ "PN-S19-20": {
+  "A": "\"Rinse with an alcohol-based mouthwash several times a day to keep your mouth feeling fresh and clean.\"",
+  "C": "\"Eat dry, crunchy foods such as crackers, toast, and chips to help stimulate your saliva.\"",
+  "D": "\"Sip on sugary sodas or sweet tea throughout the day to keep your mouth feeling moist.\""
+ },
+ "PN-S19-21": {
+  "A": "\"Sit with a fan blowing directly on your face to cool your eyes.\"",
+  "C": "\"Rub your eyes gently several times a day to stimulate tears.\"",
+  "D": "\"Wear your contact lenses all day to protect the surface of your eyes.\""
+ },
+ "PN-S19-22": {
+  "A": "Performing advanced procedures that are outside the nurse's training to try to save the victim's life",
+  "C": "Sending the victim a bill afterward for the emergency nursing care that was provided at the scene",
+  "D": "Leaving the victim once care has started, without handing off care to another rescuer or EMS"
+ },
+ "PN-S19-23": {
+  "A": "Require every client to sign a do-not-resuscitate order as part of the standard admission paperwork packet",
+  "C": "Choose a health care proxy for the client from the staff if the client has not already named one",
+  "D": "Keep any advance directives out of the medical record to protect the client's privacy and wishes"
+ }
+}
