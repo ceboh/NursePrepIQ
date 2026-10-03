@@ -5,5 +5,6 @@
   "RN-S13-15": "Single-word antidote names (naloxone, acetylcysteine, flumazenil, vitamin K); padding the distractors would itself be a cue. Correct option is 4 characters longer than the longest distractor.",
   "PN-S15-08": "numeric",
   "PN-S23-24": "numeric",
-  "PN-S25-20": "numeric"
+  "PN-S25-20": "numeric",
+  "PN-S29-08": "numeric"
 }
