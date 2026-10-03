@@ -1,0 +1,178 @@
+{
+ "_comment": "Batch 03 (Sets 4-5). Distractor-only rewrites to remove the longest-answer cue. Correct options, stems, and rationales are unchanged; each distractor keeps its original meaning and stays wrong for the same reason.",
+ "RN-S04-01": {
+  "B": "A client with hypothyroidism who reports constipation for 3 days and is asking for a stool softener before breakfast",
+  "C": "A client with Cushing's syndrome who is asking about weight-loss options and wants to speak with a dietitian today",
+  "D": "A client with type 2 diabetes whose pre-lunch glucose is 182 mg/dL and who reports feeling well and is ready to eat"
+ },
+ "RN-S04-02": {
+  "A": "Inject air into both vials, draw up the NPH insulin first, then draw up the regular insulin",
+  "C": "Draw up the regular insulin, then inject it into the NPH vial, mix gently, and withdraw the combined dose",
+  "D": "Draw up each insulin in a separate syringe, then transfer both doses into a third syringe to combine them"
+ },
+ "RN-S04-04": {
+  "B": "Administer glucagon 1 mg IM into the deltoid and recheck the glucose in 15 minutes",
+  "C": "Give a peanut butter sandwich and a glass of milk, then recheck the glucose in 1 hour",
+  "D": "Notify the provider of the glucose result and wait for prescriptions before treating"
+ },
+ "RN-S04-05": {
+  "A": "Place 15 g of glucose gel between the client's cheek and gum",
+  "C": "Give 4 oz (120 mL) of orange juice through a straw",
+  "D": "Administer the client's regular insulin subcutaneously"
+ },
+ "RN-S04-07": {
+  "A": "Doubling the metformin dose the day before the scan to keep the blood glucose well controlled during the fasting period",
+  "C": "Giving the usual metformin dose with the contrast injection to prevent hyperglycemia while the client is NPO",
+  "D": "No change to the metformin, which the client should keep taking twice daily with breakfast and dinner as usual"
+ },
+ "RN-S04-08": {
+  "A": "Blood glucose of 320 mg/dL measured on the bedside glucometer on admission to the unit",
+  "B": "Kussmaul respirations with a fruity odor on the breath and a respiratory rate of 30/min on arrival",
+  "D": "Arterial pH of 7.10 with a serum bicarbonate of 12 mEq/L and an elevated anion gap"
+ },
+ "RN-S04-09": {
+  "A": "Incisional pain rated 4 on a 0–10 scale when swallowing",
+  "C": "Mild hoarseness when the client speaks after extubation",
+  "D": "Small amount of serosanguineous drainage on the dressing"
+ },
+ "RN-S04-12": {
+  "B": "Oral fludrocortisone with a full glass of water",
+  "C": "IV potassium chloride 20 mEq over 2 hours",
+  "D": "Fluid restriction to 1,000 mL per day"
+ },
+ "RN-S04-14": {
+  "A": "\"I'll take my dose in the morning with food to protect my stomach.\"",
+  "C": "\"I'll check my blood sugar as instructed and report high readings.\"",
+  "D": "\"I'll avoid people who are sick and wash my hands often.\""
+ },
+ "RN-S04-16": {
+  "A": "Urine specific gravity decreases from 1.004 to 1.001 over the first day",
+  "C": "Serum sodium increases from 148 to 154 mEq/L after the first dose",
+  "D": "The client reports increased thirst and drinks more water at night"
+ },
+ "RN-S04-18": {
+  "B": "Restrict fluids to 1,000 mL/day to reduce the workload on the kidneys",
+  "C": "Encourage bed rest to conserve energy while calcium levels are high",
+  "D": "Provide a high-calcium diet with milk, cheese, and yogurt each day"
+ },
+ "RN-S04-19": {
+  "A": "Mild nausea during the first few weeks of treatment",
+  "B": "Decreased appetite and eating smaller portions at meals",
+  "D": "Feeling full sooner at meals and eating less than usual"
+ },
+ "RN-S05-07": {
+  "A": "Irrigate the catheter with 50 mL of sterile saline to clear any fibrin clot that may be blocking the dialysate outflow",
+  "C": "Increase the dextrose concentration of the next exchange to pull more fluid into the peritoneal cavity",
+  "D": "Remove the peritoneal dialysis catheter and notify the provider that the catheter is not functioning"
+ },
+ "RN-S05-13": {
+  "B": "Cola-colored urine, hypertension, periorbital puffiness, and a sore throat 2 weeks ago",
+  "C": "Flank pain, fever of 102°F (38.9°C), and white blood cell casts in the urine",
+  "D": "Polyuria with low urine specific gravity of 1.003 and excessive thirst"
+ },
+ "RN-S05-17": {
+  "A": "Urinary frequency every 30 to 60 minutes today",
+  "B": "Burning and stinging pain on urination",
+  "D": "Cloudy urine with a strong, foul odor"
+ },
+ "RN-S05-19": {
+  "A": "Restrict fluids for 12 hours before the scan to reduce the risk of fluid overload",
+  "C": "Give a high-protein meal so the client is not fasting while having the scan",
+  "D": "Administer a potassium supplement to replace electrolyte losses before the scan"
+ },
+ "PN-S04-01": {
+  "B": "Deciding how much sliding-scale insulin to give based on the resident's glucose result",
+  "C": "Administering a resident's scheduled insulin dose before breakfast is served",
+  "D": "Reinforcing insulin injection teaching with a resident who is newly diagnosed"
+ },
+ "PN-S04-03": {
+  "A": "\"Use the exact same spot for every injection so the insulin is absorbed at the same rate every single time.\"",
+  "C": "\"Inject into your thigh right before you go jogging so the insulin starts working faster.\"",
+  "D": "\"Massage the site well for a minute after each injection to help the insulin spread out.\""
+ },
+ "PN-S04-04": {
+  "A": "\"Store both your opened and unopened vials together in the freezer, and thaw each one before you use it.\"",
+  "C": "\"Keep all of your insulin in the glove compartment of your car so that you always have a dose with you when you're out.\"",
+  "D": "\"Opened vials never expire, so you can keep using the same vial for as long as it takes to finish it.\""
+ },
+ "PN-S04-09": {
+  "A": "\"It shows that your blood glucose was high when it was checked at the clinic this morning before breakfast.\"",
+  "C": "\"It means you have excellent control of your diabetes, so you can keep following your current diet and medication plan.\"",
+  "D": "\"It measures the amount of ketones in your blood and tells us whether you are at risk for ketoacidosis.\""
+ },
+ "PN-S04-11": {
+  "A": "\"I'll take it at the same time every morning on an empty stomach.\"",
+  "C": "\"I'll report a racing heart, tremors, or trouble sleeping.\"",
+  "D": "\"I understand I'll need this medication for the rest of my life.\""
+ },
+ "PN-S04-13": {
+  "A": "Provide extra blankets to keep the client warm and comfortable",
+  "C": "Limit calorie intake to 1,200 calories a day to promote weight loss",
+  "D": "Encourage caffeinated drinks such as coffee or cola for energy"
+ },
+ "PN-S04-15": {
+  "A": "Place the client flat without a pillow to keep the head and neck in straight alignment",
+  "C": "Encourage the client to flex the neck forward and backward to prevent stiffness",
+  "D": "Remove the tracheostomy tray from the room once the client is awake and talking"
+ },
+ "PN-S04-17": {
+  "A": "Encourage a high-sodium diet to help maintain the client's blood pressure",
+  "C": "Restrict protein intake to reduce the workload on the client's kidneys",
+  "D": "Encourage frequent visitors, including family members who have colds"
+ },
+ "PN-S04-18": {
+  "A": "\"Take your hydrocortisone only on the days when you feel tired or weak, and skip the dose on days you feel well.\"",
+  "C": "\"Follow a low-sodium diet and avoid adding salt to your food, even on hot days when you sweat a lot.\"",
+  "D": "\"Stop taking your medication if you notice you are gaining weight, and call your provider at your next visit.\""
+ },
+ "PN-S04-20": {
+  "A": "\"You'll get used to it after a few more weeks, and it won't bother you as much then.\"",
+  "C": "\"Your parents will be very upset with you if you don't take your insulin.\"",
+  "D": "\"At least it's not something worse. Many teens have much bigger problems.\""
+ },
+ "PN-S04-21": {
+  "A": "Decreased thirst since starting the medication",
+  "C": "Urine specific gravity of 1.015 today",
+  "D": "Urine output of 1,800 mL in 24 hours"
+ },
+ "PN-S05-02": {
+  "A": "\"Collect the very first urine that comes out of the stream in the sterile cup, then finish urinating in the toilet.\"",
+  "C": "\"Touch the inside of the cup with your fingers to make sure it is completely dry before you use it.\"",
+  "D": "\"After you finish urinating into the toilet, scoop a sample of urine from the bowl into the cup.\""
+ },
+ "PN-S05-06": {
+  "A": "As soon as the catheter tip enters the urethral opening, before urine flows",
+  "C": "Before insertion, to check that the balloon inflates and holds its shape",
+  "D": "After the drainage bag has collected the first 100 mL of urine from the bladder"
+ },
+ "PN-S05-08": {
+  "A": "\"It will cure your bladder infection within a few days.\"",
+  "C": "\"Take it every day for 6 months to prevent infections.\"",
+  "D": "\"It may turn your urine a blue-green color while you take it.\""
+ },
+ "PN-S05-10": {
+  "B": "\"Limit your fluid intake to about 1 L a day from now on.\"",
+  "C": "\"Eat a very high-sodium diet and salt your food to taste.\"",
+  "D": "\"Avoid all calcium-containing foods, such as milk and cheese.\""
+ },
+ "PN-S05-17": {
+  "A": "Restrict fluids to 500 mL/day to reduce the urge to void at night",
+  "C": "Insert an indwelling catheter to keep the resident dry",
+  "D": "Use adult briefs and change them once per shift as needed"
+ },
+ "PN-S05-18": {
+  "A": "\"Tighten your abdominal and buttock muscles as hard as you can, hold for a few seconds, then relax. Repeat this daily.\"",
+  "C": "\"Do the exercises only while you are urinating, by starting and stopping the stream each time you go.\"",
+  "D": "\"Hold your breath while tightening the muscles, then breathe out slowly as you relax them again each time.\""
+ },
+ "PN-S05-20": {
+  "A": "\"Yes, she can split them as long as she washes her hands with soap and water right afterward.\"",
+  "C": "\"Yes, the medication is only harmful to her if she actually swallows some of it.\"",
+  "D": "\"It does not matter who handles the medication, as long as it is stored safely.\""
+ },
+ "PN-S05-23": {
+  "A": "Encourage the client to drink 1 L of water quickly to help the bladder empty",
+  "C": "Document the 50 mL void as adequate urine output for the first void",
+  "D": "Restrict fluids until the client is able to void a larger amount"
+ }
+}
