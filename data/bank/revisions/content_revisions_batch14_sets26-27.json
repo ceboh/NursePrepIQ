@@ -1,0 +1,378 @@
+{
+ "_comment": "Batch 14 (Sets 26-27). Distractor-only rewrites to remove the longest-answer cue. Correct options, stems, and rationales are unchanged; each distractor keeps its original meaning and stays wrong for the same reason.",
+ "RN-S26-01": {
+  "B": "A client with hypothyroidism asking whether to take levothyroxine before breakfast or with the evening meal each day",
+  "C": "A client with type 2 diabetes whose fasting glucose was 142 mg/dL and who wants to review the meal plan",
+  "D": "A client with gout who is asking about foods to avoid and would like a list of low-purine choices"
+ },
+ "RN-S26-02": {
+  "A": "At the level of the client's umbilicus, regardless of the client's position in bed",
+  "C": "At the level of the client's knee on the same side as the arterial line",
+  "D": "Wherever it is most convenient on the IV pole or the bed rail"
+ },
+ "RN-S26-04": {
+  "A": "The client's skin color improves within a minute after the tube has been placed",
+  "C": "The tube is taped securely at the corner of the client's mouth at the 22-cm mark",
+  "D": "The client stops coughing and the ventilator alarms are quiet after the tube is connected"
+ },
+ "RN-S26-05": {
+  "A": "Refrigerate the mannitol solution until just before use and hang it cold from the refrigerator",
+  "C": "Give it as a rapid IV push without a filter so that the intracranial pressure drops quickly",
+  "D": "Limit urine output measurement to once per shift so that the client is disturbed less often"
+ },
+ "RN-S26-08": {
+  "A": "\"This result is in the normal range for an adult, so you don't need to make any changes to your diet or your activity level right now.\"",
+  "C": "\"This result means you have type 2 diabetes, and you'll need to start daily insulin injections right away to bring the level back down.\"",
+  "D": "\"This test isn't useful for you, because it only measures your blood sugar level on the day that the blood sample was drawn.\""
+ },
+ "RN-S26-09": {
+  "A": "Occasional gas and bloating after eating beans, broccoli, or cabbage at dinner",
+  "C": "One day of constipation after a long trip, which resolved on its own the next day",
+  "D": "Mild heartburn after large or spicy meals that is relieved by an antacid"
+ },
+ "RN-S26-10": {
+  "A": "\"A fistula can be used for dialysis on the same day that it is created, so the timing of the surgery doesn't matter very much.\"",
+  "C": "\"It's done early mainly for insurance and scheduling reasons, not because of anything about the fistula itself.\"",
+  "D": "\"Fistulas never need any time to heal or mature, so the surgery could be done right before your very first dialysis treatment.\""
+ },
+ "RN-S26-11": {
+  "A": "Wrap in circular turns, applying the tightest pressure at the top of the limb just below the knee",
+  "C": "Wrap the limb loosely once a week and leave the bandage in place between changes",
+  "D": "Wrap from the top of the thigh down to the end of the limb, with even pressure the whole way down"
+ },
+ "RN-S26-13": {
+  "A": "The drug is no longer active in the body, so the client's immune system is at its weakest",
+  "C": "Infection risk is highest on the day of treatment only and decreases steadily after that",
+  "D": "Chemotherapy increases the white blood cell count, which can mask the signs of infection"
+ },
+ "RN-S26-15": {
+  "A": "A client who disagrees with the treatment plan and wants to leave the unit against medical advice today",
+  "C": "A client who refuses to take the daily vitamins and nutritional supplements that were prescribed by the provider on admission",
+  "D": "A client who wants a second opinion from another psychiatrist before agreeing to start a new medication"
+ },
+ "RN-S26-16": {
+  "A": "Oral feedings every 2 hours to provide extra energy for breathing",
+  "C": "Routine phototherapy only, with no other treatment or support",
+  "D": "Placing the infant in an open crib to reduce noise and stimulation"
+ },
+ "RN-S26-18": {
+  "A": "\"Your child should continue playing high-impact sports such as basketball and soccer every day, since staying very active will help the hip bone heal much faster.\"",
+  "C": "\"This condition usually resolves completely within about a week, so your child will be able to return to all normal activities and sports very soon.\"",
+  "D": "\"This condition is caused by a bacterial infection in the hip joint, so your child will need a full course of IV and then oral antibiotics to treat it.\""
+ },
+ "RN-S26-19": {
+  "A": "\"Stop giving the antibiotic once the ear pain goes away, so that your child doesn't build up a resistance to it.\"",
+  "C": "\"Give your child children's aspirin every 4 to 6 hours for the ear pain and for any fever that develops.\"",
+  "D": "\"If there is any leftover antibiotic at the end of the course, put a few drops in the ear to finish treating the infection.\""
+ },
+ "RN-S26-24": {
+  "A": "Begin a physical assessment right away without PPE to save time for the client",
+  "C": "Obtain a detailed history of the chemical exposure from the client before doing anything else",
+  "D": "Start an IV in the triage area with staff members who are not yet wearing gloves"
+ },
+ "RN-S27-01": {
+  "B": "A client 10 weeks pregnant with mild nausea in the mornings who is able to keep fluids down",
+  "C": "A client 30 weeks pregnant who is requesting a work note for her employer about her lifting limits",
+  "D": "A client 12 weeks pregnant with light spotting and no pain or cramping since this morning"
+ },
+ "RN-S27-02": {
+  "A": "Synchronized cardioversion at a low energy setting after brief procedural sedation",
+  "C": "Adenosine 6 mg by rapid IV push followed by a saline flush",
+  "D": "Observation only, with a repeat 12-lead ECG in 1 hour"
+ },
+ "RN-S27-03": {
+  "A": "Compress at 60–80 per minute, about 1 inch deep, pausing briefly after every 10 compressions to let the heart refill completely",
+  "C": "Lean on the chest between compressions to keep your hands in position and save energy during long resuscitations",
+  "D": "Pause compressions every 30 seconds to check for a carotid pulse and to look at the rhythm on the monitor"
+ },
+ "RN-S27-05": {
+  "A": "104 mm Hg, which is above the usual goal and risks cerebral hyperperfusion",
+  "C": "26 mm Hg, which is within the normal range for an adult with a head injury",
+  "D": "78 mm Hg, which is the ideal pressure for brain perfusion in adults"
+ },
+ "RN-S27-06": {
+  "A": "Administer it as prescribed with breakfast and then monitor only the client's blood glucose levels each day",
+  "C": "Give it with a potassium supplement to prevent electrolyte problems from the new medication",
+  "D": "Double the dose so that the client's blood glucose comes under control faster than expected"
+ },
+ "RN-S27-07": {
+  "A": "Incisional pain rated 4/10 at the laparoscopic sites that is relieved by the prescribed analgesic",
+  "C": "Mild nausea after small sips of water that passes within a few minutes of sitting upright",
+  "D": "Low-grade temperature of 99.3°F (37.4°C) on the evening vital signs check, with no chills"
+ },
+ "RN-S27-08": {
+  "A": "Normal ascites from cirrhosis",
+  "C": "Bleeding esophageal varices with shock",
+  "D": "Gallstones with cholecystitis"
+ },
+ "RN-S27-10": {
+  "A": "Fat embolism syndrome only",
+  "C": "Urinary tract infection from a catheter",
+  "D": "Constipation from opioid use"
+ },
+ "RN-S27-11": {
+  "A": "Immediate transfusion of 2 units of packed red blood cells today to raise the hemoglobin above 10 g/dL",
+  "C": "Transfusion is always required whenever the hemoglobin falls below 10 g/dL, even in clients who are stable and have no symptoms",
+  "D": "A platelet transfusion to correct the low hemoglobin level before the client is discharged home"
+ },
+ "RN-S27-12": {
+  "A": "\"No special precautions are needed after you go home, because the seeds stop giving off any radiation as soon as they are placed in your prostate, so you can go back to your normal routine.\"",
+  "C": "\"If you find a seed in your urine, it's fine to flush it down the toilet right away with the rest of the urine, since it is too small to cause any harm to anyone.\"",
+  "D": "\"It's safe to hold young children on your lap for long periods, and you can spend as much time as you like in close contact with pregnant family members right away.\""
+ },
+ "RN-S27-13": {
+  "A": "Start the infusion at the maximum rate allowed by the protocol so that the full dose is given in the shortest possible time and the client can go home sooner",
+  "C": "Mix the IVIG with the client's other scheduled IV medications in the same bag to save time and tubing, then infuse it at a steady rate",
+  "D": "Give the entire dose as a slow IV push over several minutes through the client's peripheral line, then flush the line with saline"
+ },
+ "RN-S27-14": {
+  "A": "Administer both the naltrexone and the oxycodone together as prescribed, since the two medications treat two completely different problems for this particular client",
+  "C": "Give the naltrexone with a small amount of alcohol so that the client can tell right away whether the medication is working to reduce the cravings",
+  "D": "Double the oxycodone dose so that the client's chronic pain stays well controlled after the naltrexone has been started this week"
+ },
+ "RN-S27-15": {
+  "A": "\"Don't think that way about yourself. You know that you're not a failure, so try to stay positive.\"",
+  "C": "\"Maybe you should think about quitting your job and finding something that is a lot less stressful.\"",
+  "D": "\"Everyone makes mistakes at work sometimes, so just try to forget about it and move on with the rest of your day.\""
+ },
+ "RN-S27-16": {
+  "A": "Pedal pulses and capillary refill in both feet every 8 hours throughout the first postoperative day",
+  "C": "Bowel sounds in all four quadrants every hour while the client is awake and alert",
+  "D": "Temperature only, measured every 4 hours, to monitor for signs of an infection"
+ },
+ "RN-S27-17": {
+  "A": "\"At your first prenatal visit, along with your routine labs.\"",
+  "C": "\"Only if you develop vaginal symptoms during pregnancy.\"",
+  "D": "\"At 20 weeks, during the anatomy ultrasound.\""
+ },
+ "RN-S27-19": {
+  "A": "The heel of one hand on the lower half of the infant's sternum",
+  "C": "Compressions over the upper abdomen, just below the infant's ribs",
+  "D": "Compressions with two hands stacked on the center of the infant's chest"
+ },
+ "RN-S27-24": {
+  "A": "Give the potassium iodide first, then give the PTU on the next day",
+  "C": "Give both medications at the same time with the client's breakfast",
+  "D": "Give only the potassium iodide and hold the PTU for the time being"
+ },
+ "PN-S26-01": {
+  "B": "Apply a thick layer of petroleum jelly under the bolster every day to protect the skin around the tube",
+  "C": "Pull the tube tight so that the external bolster presses firmly against the skin at all times",
+  "D": "Leave a wet gauze dressing over the site at all times to keep the skin around the tube moist"
+ },
+ "PN-S26-02": {
+  "A": "Take slow, deep breaths in and out while the tube is being pulled out",
+  "C": "Swallow repeatedly, as when it was inserted, while the tube is pulled out",
+  "D": "Talk continuously to the nurse while the tube is being removed"
+ },
+ "PN-S26-04": {
+  "A": "\"Shake the inhaler well for a few seconds before each use so that the powder inside is evenly mixed.\"",
+  "C": "\"Breathe out into the inhaler first, and then take a slow, deep breath in through the mouthpiece.\"",
+  "D": "\"Attach a spacer to the inhaler first, and then breathe in slowly and deeply through the spacer.\""
+ },
+ "PN-S26-05": {
+  "A": "Pull the pinna down and back, as is done when taking a young child's temperature",
+  "C": "Insert the probe straight into the ear canal without moving the ear at all",
+  "D": "Push the tragus forward to open the ear canal before inserting the probe"
+ },
+ "PN-S26-06": {
+  "A": "In the morning before walking, so the medication spreads evenly through the day",
+  "C": "Right before exercising, when blood flow to the pelvic area is at its greatest",
+  "D": "While standing up, so that the cream can be inserted more easily"
+ },
+ "PN-S26-07": {
+  "A": "Hold the cup up above eye level and read the measurement line from underneath the cup",
+  "C": "Read the top edge of the liquid where it curves up against the side of the cup",
+  "D": "Estimate the amount by looking down into the cup from above while it is held"
+ },
+ "PN-S26-08": {
+  "A": "Rub the ointment into the skin with bare fingers until it is fully absorbed, and leave the previous dose in place on the client's skin",
+  "C": "Apply each dose to the same site on the chest every time so that the absorption of the medication stays consistent",
+  "D": "Apply the measured ointment over a hairy area of the chest, as close to the heart as possible, and cover it with plastic wrap"
+ },
+ "PN-S26-09": {
+  "A": "A 3-mL syringe marked in tenths of a milliliter",
+  "C": "A tuberculin syringe marked in mL",
+  "D": "A 10-mL syringe for a larger dose"
+ },
+ "PN-S26-10": {
+  "A": "\"Test your smoke detectors once a year, and replace the batteries only when the alarm starts chirping to let you know.\"",
+  "C": "\"Remove the batteries from the smoke detector whenever you are cooking, so that it doesn't go off by mistake in the kitchen.\"",
+  "D": "\"One smoke detector in a central hallway is enough for any home, no matter how many levels or bedrooms the home has.\""
+ },
+ "PN-S26-11": {
+  "A": "\"Keep any leftover pills in your bathroom medicine cabinet at home, just in case you have pain again later on and need to take a few more of them.\"",
+  "C": "\"If you have extra pills left over, you can give them to a friend or family member who is having pain and needs some relief.\"",
+  "D": "\"Throw the leftover pills in your regular household trash in their original bottle, with the label and the childproof cap still on it.\""
+ },
+ "PN-S26-12": {
+  "A": "Tell the family member that visits are not allowed for as long as the client is on contact precautions",
+  "C": "Allow the visit without any precautions, since family members are not at risk of getting MRSA",
+  "D": "Have the family member wear only a surgical mask during the visit, without a gown or gloves"
+ },
+ "PN-S26-13": {
+  "A": "\"Eating only macaroni for days at a time is a sign of a serious eating disorder in toddlers, so your child will need to be evaluated and treated.\"",
+  "C": "\"Make your child eat all of the vegetables on the plate first, before giving any of the macaroni at all at that meal.\"",
+  "D": "\"Offer your child a favorite dessert as a reward every time they eat something other than the macaroni at a meal.\""
+ },
+ "PN-S26-14": {
+  "A": "\"Tell your child firmly that monsters aren't real, and then turn off all of the lights in the bedroom so that your child can fall asleep.\"",
+  "C": "\"Let your child watch a few scary movies before bed so that they get used to being frightened and stop worrying about it.\"",
+  "D": "\"Punish your child every time they get out of bed at night because they say that they're scared of monsters.\""
+ },
+ "PN-S26-15": {
+  "A": "\"Teens really only need about 5 hours of sleep a night, so staying up late isn't a problem for you.\"",
+  "C": "\"Try drinking an energy drink in the evening to help you stay alert and get through your homework.\"",
+  "D": "\"Sleep in until noon on school days whenever you can, so that you catch up on the sleep you've missed.\""
+ },
+ "PN-S26-16": {
+  "A": "Tell the client to stop complaining about being lonely and to try to stay busy with chores around the house instead",
+  "C": "Suggest that the client move into a nursing home right away so that there will always be other people around to talk to during the day",
+  "D": "Ignore the comment and continue with the scheduled medication review, since the client did not ask for help"
+ },
+ "PN-S26-17": {
+  "A": "\"Stop taking the prenatal vitamin until the constipation goes away completely.\"",
+  "C": "\"Take a stimulant laxative every day without asking your provider about it first.\"",
+  "D": "\"Take the prenatal vitamin with a glass of milk to make it easier on your stomach and bowels.\""
+ },
+ "PN-S26-18": {
+  "A": "\"Point your toes down toward the end of the bed and hold them there until the cramp passes.\"",
+  "C": "\"Massage the calf firmly and vigorously, even if it is red, warm, and swollen.\"",
+  "D": "\"Stop drinking any fluids in the evening so that the cramps don't wake you up at night.\""
+ },
+ "PN-S26-19": {
+  "A": "\"Sit on a donut-shaped cushion for long periods throughout the day so that all of the pressure is taken off the sore area.\"",
+  "C": "\"Apply heat packs directly to the hemorrhoids for several hours at a time, as often as you need to, to ease the pain and swelling.\"",
+  "D": "\"Limit how much you drink each day so that you don't have to get up and use the bathroom as often as you do now.\""
+ },
+ "PN-S26-20": {
+  "A": "\"Wrap your baby's legs straight down and tight together inside the blanket, so that your baby stays still, warm, and calm, and doesn't startle awake during the night.\"",
+  "C": "\"Once your baby is swaddled, place your baby on the stomach to sleep, so that your baby feels more secure and settles down faster at bedtime and for naps during the day too.\"",
+  "D": "\"Pull the top of the blanket up over your baby's face at night so that no light from the hallway or the window can wake your baby up before morning.\""
+ },
+ "PN-S26-21": {
+  "A": "\"Give your baby small bottles of plain water between breastfeedings, which helps flush the yellow color out of the body more quickly so that it goes away within just a day or two.\"",
+  "C": "\"Place your baby in direct sunlight by a sunny window for several hours each day, without clothing, so that the sunlight can break down the jaundice faster at home.\"",
+  "D": "\"Mild newborn jaundice never needs any follow-up visits or checking, so there isn't anything that you need to watch for at home after your baby is discharged.\""
+ },
+ "PN-S26-22": {
+  "A": "Encourage the client to think carefully through all of the possible worst-case outcomes of the current situation",
+  "C": "Ask the client to take a deep breath and hold it for as long as they possibly can, then breathe out",
+  "D": "Tell the client to ignore the anxious feeling and focus their attention on the next task on the list"
+ },
+ "PN-S26-23": {
+  "A": "\"Your husband died several years ago. You already know that, so please try to stop asking me about him.\"",
+  "C": "\"He'll be here to see you very soon,\" and then walk away to care for the resident in the next room",
+  "D": "Ignore the question and continue with the resident's morning care so that the resident is not upset"
+ },
+ "PN-S27-01": {
+  "A": "Both pads on the left side of the chest, one placed directly above the other one",
+  "C": "One pad on the upper abdomen and one pad on the back of the neck, below the hairline",
+  "D": "Over the person's clothing, so that the chest does not need to be exposed or dried off first"
+ },
+ "PN-S27-02": {
+  "A": "Supine with the head flat on the ground",
+  "C": "Prone with the face turned to one side",
+  "D": "Sitting upright against a wall"
+ },
+ "PN-S27-03": {
+  "A": "\"Keep working through the cramps so that you can walk it off and finish the job today.\"",
+  "C": "\"Apply heat packs to the cramping muscles to help them relax and keep working if you can.\"",
+  "D": "\"Take a few salt tablets right away, without drinking any water, to replace the salt you lost.\""
+ },
+ "PN-S27-04": {
+  "A": "Rub the person's arms and legs vigorously and continuously to get the blood flowing to them again",
+  "C": "Give the person a drink of brandy or other alcohol to help warm the body from the inside out",
+  "D": "Place the person in a hot bath right away to raise the core body temperature as quickly as possible while waiting"
+ },
+ "PN-S27-05": {
+  "A": "Squeeze the stinger out with the fingers or tweezers and then apply a warm compress",
+  "C": "Leave the stinger in the skin so that it can work its way out on its own over a day or two",
+  "D": "Apply a heating pad to the sting site to relieve the pain and swelling"
+ },
+ "PN-S27-06": {
+  "A": "\"Cover the bite with a clean bandage and just ignore it unless it starts to look red, swollen, or infected over the next few days.\"",
+  "C": "\"Apply a thick layer of butter or petroleum jelly to the bite to soothe the skin and keep it from drying out and cracking.\"",
+  "D": "\"Close the wound tightly with tape or a butterfly bandage right away, before washing it, so that dirt and germs can't get into the wound at all.\""
+ },
+ "PN-S27-07": {
+  "A": "\"Scrub the root of the tooth clean with a toothbrush and soap, then wrap the tooth in a dry tissue until you can see a dentist later this week.\"",
+  "C": "\"Throw the tooth away, since a permanent tooth that has been knocked out can never be put back in place, and ask the dentist about a false tooth.\"",
+  "D": "\"Wait a few days to see a dentist, until the swelling in the gum goes down and the area is less painful to touch.\""
+ },
+ "PN-S27-08": {
+  "A": "Every year, at the time of the client's annual physical exam with the provider",
+  "C": "Only once in a lifetime, at the time of the first childhood dose of the vaccine",
+  "D": "Every 2 years, with an earlier dose for any wound that breaks the skin, no matter how minor"
+ },
+ "PN-S27-09": {
+  "A": "A 35-year-old who has never smoked and has no respiratory symptoms",
+  "C": "A 45-year-old with a 5 pack-year history who still smokes a few cigarettes a day",
+  "D": "An 85-year-old with a 30 pack-year history who quit smoking about 30 years ago"
+ },
+ "PN-S27-11": {
+  "A": "Tell the family that getting lost and having minor crashes are a normal part of aging, so they need no follow-up",
+  "C": "Take the car keys away from the client right away, without having any discussion with the client or with the rest of the family first",
+  "D": "Suggest that he drive only at night, when there is less traffic on the roads between his home and the store"
+ },
+ "PN-S27-12": {
+  "A": "\"Place your baby on the stomach to sleep at night so that the flat spot on the back of the head can round back out again over time.\"",
+  "C": "\"Use a foam positioning pillow or wedge in the crib to keep your baby's head turned to one side while sleeping.\"",
+  "D": "\"Keep your baby in the car seat for naps so that the back of the head isn't resting on the flat crib mattress.\""
+ },
+ "PN-S27-13": {
+  "A": "\"Give your child a cold alcohol rub all over the body to bring the fever down quickly, before the high temperature can cause any harm.\"",
+  "C": "\"Give your child a dose of children's aspirin every 4 to 6 hours to bring the fever down and keep your child comfortable until the fever passes.\"",
+  "D": "\"Wrap your child in warm blankets so that your child can sweat out the fever overnight and feel much better by the morning.\""
+ },
+ "PN-S27-14": {
+  "A": "\"Tell your child that the medicine is candy so that they'll take it without a fuss.\"",
+  "C": "\"Mix the medicine into a full bottle of milk so that your child drinks it without noticing.\"",
+  "D": "\"Pinch your child's nose gently to force the mouth open, then give the medicine quickly.\""
+ },
+ "PN-S27-15": {
+  "A": "\"You're right. Vaping is harmless, because the vapor that you breathe in is just water and a little bit of flavoring, so it can't hurt your lungs the way smoking can.\"",
+  "C": "\"Vaping can actually help teens focus better in school and feel calmer during tests, so it's not something that you or your parents need to worry about.\"",
+  "D": "\"Only regular cigarettes contain nicotine, so you don't have to worry about becoming addicted to vaping, even if you vape several times every day.\""
+ },
+ "PN-S27-16": {
+  "A": "\"You'll need to get rid of your cat immediately, since having any cat in the house is unsafe for you during pregnancy.\"",
+  "C": "\"It's fine to change the litter box once a week without gloves, as long as you wash your hands well at some point later in the day.\"",
+  "D": "\"It's fine to let the cat sleep on your pillow at night, since cats don't carry any infections that can affect a pregnancy.\""
+ },
+ "PN-S27-17": {
+  "A": "Massage the fundus vigorously until it is firm, and then document the findings",
+  "C": "Restrict the client's fluids until the fundus returns to the midline position",
+  "D": "Wait until the next shift to reassess the client's fundus and bladder"
+ },
+ "PN-S27-18": {
+  "A": "Suction the nose first to clear the airway, and then suction the mouth",
+  "C": "Insert the bulb tip deep into the back of the throat before suctioning it",
+  "D": "Compress the bulb after inserting the tip into the nostril, and then release it"
+ },
+ "PN-S27-19": {
+  "A": "\"Keep all of your medications together in one large bottle at your bedside so that you never miss a dose, even if you happen to wake up in the middle of the night.\"",
+  "C": "\"If you start to have thoughts of hurting yourself, wait and call your provider's office during regular business hours the next morning.\"",
+  "D": "\"Avoid telling your family about your thoughts or about your safety plan, so that they don't worry about you while you're at home.\""
+ },
+ "PN-S27-20": {
+  "A": "Insist that the client get up and join every unit activity immediately, starting with today's morning group therapy session",
+  "C": "Allow the client to stay in bed indefinitely, until the client feels ready to get up on their own",
+  "D": "Tell the client to try to cheer up and to think about all of the good things in their life"
+ },
+ "PN-S27-21": {
+  "A": "Use a bulb syringe with forceful pressure aimed directly into the wound bed to flush out as much of the debris as possible as quickly as you can",
+  "C": "Pour the irrigation solution into the wound from a height of several feet so that it reaches the deepest areas of the wound",
+  "D": "Irrigate the wound with cold tap water straight from the sink faucet to help reduce the swelling and wash away the bacteria"
+ },
+ "PN-S27-22": {
+  "A": "Document a reading of 0% in the chart and report that the oximeter is not detecting any oxygen in the client's blood",
+  "C": "Squeeze the client's fingertip tightly for several seconds to force more blood into it, and then take the reading again",
+  "D": "Assume the client is hypoxic and start oxygen at 15 L/min by nonrebreather mask right away, without doing any further assessment of the client"
+ },
+ "PN-S27-24": {
+  "A": "Tell her that she will need to stop breastfeeding her baby for as long as she is taking any type of medication at all, just to be completely on the safe side",
+  "C": "Tell her that all medications are safe to take while breastfeeding, so there isn't anything that she needs to check with anyone first",
+  "D": "Suggest that she pump and then discard all of her breast milk for as long as she is taking the new medication, starting today"
+ }
+}
