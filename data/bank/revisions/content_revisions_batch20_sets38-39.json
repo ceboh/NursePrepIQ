@@ -1,0 +1,353 @@
+{
+ "_comment": "Batch 20 (Sets 38-39). Distractor-only rewrites to remove the longest-answer cue. Correct options, stems, and rationales are unchanged; each distractor keeps its original meaning and stays wrong for the same reason. PN-S38-07 (thermometer insertion depths) and PN-S38-20 (fundal heights) are in skipped.json as numeric.",
+ "RN-S38-01": {
+  "B": "A client reporting mild leg cramps near the end of the treatment, with stable vital signs throughout",
+  "C": "A client who is asking for a snack and something to drink partway through the treatment session",
+  "D": "A client whose fistula has a strong thrill and a loud bruit and who is waiting to be connected to the machine"
+ },
+ "RN-S38-02": {
+  "A": "\"You can return to competitive sports as soon as next week, as long as you start out slowly and stop if you feel short of breath or notice any chest pain.\"",
+  "C": "\"Hard exercise will speed the healing of your heart muscle, so try to work out every day to rebuild your strength and endurance as quickly as you possibly can.\"",
+  "D": "\"Myocarditis never causes any lasting effects once the viral infection has cleared, so you won't need any follow-up heart testing or further visits with a cardiologist after this.\""
+ },
+ "RN-S38-03": {
+  "A": "\"That's fine; stop it about a week before the dental cleaning so that your gums don't bleed, and then restart it again the day after your appointment.\"",
+  "C": "\"Stop your aspirin instead of the clopidogrel, since aspirin causes more bleeding during dental work and is the less important of the two.\"",
+  "D": "\"Double your dose of clopidogrel for a few days after the cleaning to make up for any clotting risk from the procedure and protect the stent.\""
+ },
+ "RN-S38-04": {
+  "A": "Falling blood glucose levels (hypoglycemia)",
+  "C": "A severe allergic reaction (anaphylaxis)",
+  "D": "Low core body temperature (hypothermia)"
+ },
+ "RN-S38-05": {
+  "A": "Continuing to drain until no more fluid remains in the chest, so that the effusion doesn't build up again",
+  "C": "Increasing the drainage rate so that the procedure can be finished before symptoms worsen",
+  "D": "Having the client lie flat on the back in bed so that the coughing and chest tightness ease more quickly"
+ },
+ "RN-S38-07": {
+  "A": "Proceeding with the lumbar puncture immediately so that the cause of the meningitis can be identified",
+  "C": "Delaying antibiotics until after the lumbar puncture so that the cerebrospinal fluid cultures are accurate",
+  "D": "Performing the lumbar puncture with the client sitting upright only, to lower the pressure in the spinal canal"
+ },
+ "RN-S38-08": {
+  "A": "\"Glucose control doesn't really matter until the third trimester, since that's when the baby grows the most and high blood sugar can start to cause problems.\"",
+  "C": "\"Stop taking your insulin as soon as you find out you're pregnant, and switch to an oral diabetes pill that's easier to manage during pregnancy.\"",
+  "D": "\"Pregnancy will cure your diabetes, since the hormones made by the placenta help your pancreas start making its own insulin again after delivery.\""
+ },
+ "RN-S38-09": {
+  "A": "Recommend drinking more water with meals to help the food move down, and suggest following up at the next routine visit",
+  "C": "Suggest eating faster so that the food has less time to stick in the esophagus, and taking larger bites of soft, moist foods",
+  "D": "Reassure the client that this is a normal part of aging, since the esophagus muscles weaken and some weight loss is common after age 65"
+ },
+ "RN-S38-10": {
+  "A": "The combination causes hypertension and edema",
+  "C": "The combination causes hyperglycemia and weight gain",
+  "D": "There is no concern with taking these two together"
+ },
+ "RN-S38-11": {
+  "A": "Heat applied directly to the scrotum for several hours at a time",
+  "C": "Vigorous exercise to improve blood flow and reduce the swelling",
+  "D": "Tight-fitting clothing to compress the swollen scrotum all day"
+ },
+ "RN-S38-12": {
+  "A": "High-dose oral ibuprofen taken three times daily with food",
+  "C": "Oral naproxen taken twice daily with food and water",
+  "D": "Aspirin 1,000 mg by mouth four times daily with meals"
+ },
+ "RN-S38-13": {
+  "A": "\"Take it on an empty stomach first thing in the morning so that it's absorbed more quickly.\"",
+  "C": "\"You'll need weekly INR checks so that your provider can adjust the dose of rivaroxaban.\"",
+  "D": "\"Stop it a few days before any dental work without asking anyone, since it can cause extra bleeding.\""
+ },
+ "RN-S38-14": {
+  "A": "Increased muscle mass and strength, especially in the arms and legs, over the first year",
+  "C": "Improved bone density and a lower risk of fractures, especially in the hips and the spine over time",
+  "D": "Weight loss with a steady decrease in body fat, especially around the abdomen and the waist"
+ },
+ "RN-S38-15": {
+  "A": "Oral amoxicillin taken three times a day for 3 days",
+  "C": "A topical antifungal cream applied to the sore",
+  "D": "No treatment, since the sore heals on its own"
+ },
+ "RN-S38-17": {
+  "A": "\"The nurse will hold the mask tightly on your face continuously throughout labor so that you get a steady, full dose of the gas with every breath.\"",
+  "C": "\"Nitrous oxide will completely eliminate all of the pain from your contractions, so you won't need any other type of pain relief during your whole labor.\"",
+  "D": "\"You'll need to stay NPO for about a week after using the gas, since it can cause nausea and vomiting for several days after your delivery.\""
+ },
+ "RN-S38-19": {
+  "A": "\"It's just the camera angle or the flash reflecting off your child's eye, so there's really nothing to worry about.\"",
+  "C": "\"Check the photos again when your child is about 5, since young children's eyes are still developing and often look different.\"",
+  "D": "\"Use over-the-counter lubricating eye drops twice a day, and the white color should fade within a few weeks.\""
+ },
+ "RN-S38-24": {
+  "A": "Draw a levetiracetam level to check whether the client has taken the medication",
+  "C": "Force an oral airway between the clenched teeth to protect the client's tongue",
+  "D": "Obtain a detailed seizure history from the EMS crew before they leave"
+ },
+ "RN-S39-01": {
+  "B": "A client with osteoarthritis who is asking whether a knee brace would help with the stiffness during long walks",
+  "C": "A client with gout requesting a refill of allopurinol before running out at the end of the week",
+  "D": "A client with lupus asking which sunscreen is best to use before a beach vacation next month"
+ },
+ "RN-S39-02": {
+  "A": "\"Restrict your fluids and salt intake to keep your blood pressure from going too high when you stand up, and try to limit how much you drink in the evening.\"",
+  "C": "\"Practice standing still for long periods each day so that your body slowly adapts to being upright, and try not to sit or lie down even when you feel dizzy or lightheaded.\"",
+  "D": "\"Take long, hot baths or showers each evening to relax your muscles and improve your circulation, and stay in the warm water for as long as you comfortably can.\""
+ },
+ "RN-S39-05": {
+  "A": "Document the normal oxygen saturation reading and continue routine monitoring of the client's breathing, since an SpO2 of 93% shows that the client's oxygenation is adequate",
+  "C": "Remove the pulse oximeter permanently, since the readings are unreliable in all clients with darker skin and shouldn't be used to guide the client's care at all",
+  "D": "Assume that the confusion is unrelated to the client's oxygenation, and look for other causes such as medications or a urinary tract infection"
+ },
+ "RN-S39-07": {
+  "A": "Gradual loss of hearing in one or both ears, with ringing or buzzing",
+  "C": "Visual field loss only, with no changes in the client's mood or behavior",
+  "D": "Loss of balance only, with an unsteady gait and frequent falls"
+ },
+ "RN-S39-08": {
+  "A": "Normal age-related changes",
+  "C": "Myxedema (hypothyroidism)",
+  "D": "Adrenal Cushing's syndrome"
+ },
+ "RN-S39-09": {
+  "A": "Stopping the prednisone about a week before the surgery so that it doesn't slow down wound healing or raise the client's risk of infection",
+  "C": "Doubling the usual prednisone dose for a full month after surgery to reduce inflammation and help the incision heal faster",
+  "D": "No change in the steroid plan, since the client's usual daily dose will cover any extra needs during the surgery"
+ },
+ "RN-S39-10": {
+  "A": "Keep the head of the bed flat at all times to reduce tension on the new incisions and the surgical connection in the chest",
+  "C": "Encourage the client to eat a large meal on the first day after surgery to help the stomach in its new position stretch and adjust",
+  "D": "Reinsert the NG tube right away if it falls out, using the same length and blind insertion technique used for any other client"
+ },
+ "RN-S39-11": {
+  "A": "\"Eat raw salads and drink the tap water with ice, since fresh local foods and water help your body adjust to the new area faster.\"",
+  "C": "\"Take an antidiarrheal medicine every day of the trip, starting the morning you leave, to keep diarrhea from ever starting.\"",
+  "D": "\"Avoid all fruit while you're traveling, including fruit that you peel yourself, since fruit is the main cause of diarrhea.\""
+ },
+ "RN-S39-12": {
+  "A": "\"Transplant recipients actually have a lower cancer risk, since the antirejection medicines also help your body fight off abnormal cells.\"",
+  "C": "\"Skin checks are only recommended for people over 80, since skin cancer is rare in younger adults, even after a transplant.\"",
+  "D": "\"Sunscreen isn't needed if you have darker skin, since your skin's natural pigment fully protects you from the sun's UV rays.\""
+ },
+ "RN-S39-13": {
+  "A": "\"Keep your hand down below the level of your waist as much as you can, so that more blood flows to the incision area and helps it heal more quickly.\"",
+  "C": "\"Lift heavy objects with that hand right away to strengthen your wrist, and push through any numbness or tingling that you notice.\"",
+  "D": "\"Keep the dressing wet by running water over it several times a day so that the incision stays soft and doesn't scar as much as it heals.\""
+ },
+ "RN-S39-15": {
+  "A": "An asymmetric mole with multiple colors, irregular borders, and a diameter that keeps growing over time",
+  "C": "A flat, uniform brown freckle on sun-exposed skin that darkens in summer and fades in winter",
+  "D": "A small fluid-filled blister on a red base that crusts over and heals completely within a week or two"
+ },
+ "RN-S39-16": {
+  "A": "To collect payment and finish the insurance paperwork while the client waits in the clinic for a receipt",
+  "C": "To check the client's antibody levels with a quick blood test to confirm that the vaccine has started working",
+  "D": "It is not necessary, since serious reactions to vaccines usually happen only several hours to days after the injection is given"
+ },
+ "RN-S39-17": {
+  "A": "Punishment for unwanted behavior",
+  "C": "Negative reinforcement (escape learning)",
+  "D": "Extinction of the unwanted behavior"
+ },
+ "RN-S39-18": {
+  "A": "Pupil size and response to light every hour, as part of a complete neurological check on the client",
+  "C": "Hearing, checked every hour by asking the client to repeat words spoken quietly at the bedside",
+  "D": "Deep tendon reflexes in both arms every hour, the same way they are checked for clients receiving IV magnesium sulfate"
+ },
+ "RN-S39-19": {
+  "A": "\"Feed the baby lying flat on the back so that the milk flows more easily to the back of the throat and less of it spills out of the nose or mouth.\"",
+  "C": "\"Feed the baby only once every 6 hours so that the baby is very hungry and sucks harder, which helps the baby take in more of the milk at each feeding.\"",
+  "D": "\"Use a regular bottle with a large hole cut into the nipple so that the milk pours out quickly and the baby doesn't have to suck at all to feed.\""
+ },
+ "PN-S38-01": {
+  "A": "\"Spells like this are always a sign of a seizure disorder, so your child will need an EEG and daily seizure medication, and you should call 911 every time one happens, even if your child recovers quickly on their own.\"",
+  "C": "\"Pick up your child and shake them firmly to restart the breathing as soon as the lips start to turn blue, since the shaking reminds the brain to breathe and shortens the spell a lot.\"",
+  "D": "\"Splash cold water on your child's face as soon as the breath-holding starts, since the shock of the cold water will make your child gasp and start breathing again right away, which ends the spell.\""
+ },
+ "PN-S38-02": {
+  "A": "\"Punish your child for each accident so that they learn that wetting is not acceptable anymore now that they're a big brother or sister.\"",
+  "C": "\"Your child needs medication for the bladder, since accidents after toilet training usually mean there's a medical problem.\"",
+  "D": "\"Stop toilet training permanently and go back to diapers full time, since your child clearly isn't ready to use the toilet.\""
+ },
+ "PN-S38-03": {
+  "A": "\"Give a pain reliever every day after school, since regular doses will keep the headaches from starting.\"",
+  "C": "\"Limit your child's water intake during the school day so that the headaches don't get worse.\"",
+  "D": "\"Ignore the headaches, since children often complain to get out of homework or chores after school.\""
+ },
+ "PN-S38-04": {
+  "A": "These are expected effects of intense endurance training in a young athlete, and they will all resolve on their own once the cross-country season has ended",
+  "C": "The missed periods are a sign of good fitness and low body fat, which shows that the training program is working well for this young runner and should continue",
+  "D": "Stress fractures are unrelated to diet or periods and are caused only by overuse, so the runner simply needs to rest the injured leg until the bone heals and then return to running"
+ },
+ "PN-S38-05": {
+  "A": "Keep the resident's room dark and quiet all day so that the resident can rest and isn't overwhelmed by too much noise, light, or activity around them",
+  "C": "Discourage family visits for a few weeks, since visitors can tire the resident out and make the confusion and withdrawal even worse",
+  "D": "Leave the television on all night so that the resident has some background noise and company and doesn't feel so alone in the room"
+ },
+ "PN-S38-06": {
+  "A": "To save time, since it lets the nurse skip using the stethoscope altogether when the unit is very busy",
+  "C": "To measure the diastolic pressure, which disappears at the same moment the radial pulse is no longer felt",
+  "D": "It is not recommended, since palpating the pulse while inflating the cuff can give a falsely high systolic reading"
+ },
+ "PN-S38-08": {
+  "A": "Place the wheelchair far away from the bed so that the client has plenty of room to move the slide board into position before beginning the transfer",
+  "C": "Lift the client up and over the slide board in one smooth motion, so that the client doesn't have to slide across it and risk a friction injury to the skin on the thighs and buttocks",
+  "D": "Leave the wheels on both the bed and the wheelchair unlocked so that the two surfaces can move slightly closer together as the client slides across the board"
+ },
+ "PN-S38-09": {
+  "A": "Leave the lenses in place until the client wakes up and can remove them, so that they aren't lost or damaged",
+  "C": "Throw the lenses away, since soft contact lenses are disposable and the client can easily replace them later",
+  "D": "Rinse the lenses under tap water to clean them, and then put them back into the client's eyes right away so they aren't lost"
+ },
+ "PN-S38-10": {
+  "A": "\"Take it with a large meal to protect your stomach.\"",
+  "C": "\"Take it with a full glass of milk at bedtime.\"",
+  "D": "\"Take it right after you finish breakfast each morning.\""
+ },
+ "PN-S38-11": {
+  "A": "In the unlocked medication room on the unit, so that any of the nurses or other staff members can get to them quickly whenever a client needs pain relief right away",
+  "C": "In the nurse's uniform pocket or in a personal bag during the shift, so that the medications are always within the nurse's reach when they're needed",
+  "D": "At the client's bedside in the drawer of the bedside table, so that the client can take a dose whenever the pain gets worse during the day or night"
+ },
+ "PN-S38-12": {
+  "A": "\"Clean the nebulizer parts about once a month, since the medication itself helps keep the parts free of germs between your cleanings.\"",
+  "C": "\"Store the parts while they're still wet in a sealed plastic bag so that they stay clean and ready for the next treatment.\"",
+  "D": "\"It's fine to share the mouthpiece with family members who also use a nebulizer at home, as long as you rinse it off with water first.\""
+ },
+ "PN-S38-13": {
+  "A": "\"Stop both of these medications about a week before the procedure so that you don't bleed too much afterward.\"",
+  "C": "\"Take an extra dose of each medication before the procedure to protect your stent during the work.\"",
+  "D": "\"These medications don't affect bleeding, so there's no need to mention them to your dentist at all.\""
+ },
+ "PN-S38-14": {
+  "A": "\"Take it with a small sip of water so that the powder stays thick and works more quickly in the bowel.\"",
+  "C": "\"Take the powder dry by the spoonful, and then drink a glass of water sometime later in the day if you're thirsty.\"",
+  "D": "\"Take it at the same time as all of your other medications each morning so that it's easier to remember every day.\""
+ },
+ "PN-S38-15": {
+  "A": "\"Fasten the leg bag straps as tight as you possibly can so that the bag doesn't slip down your leg or pull on the catheter tubing while you're walking around or sitting during the day.\"",
+  "C": "\"Wear the leg bag strapped above your knee while you're lying down in bed at night, so that it stays close to your body and doesn't get tangled up in the bed sheets.\"",
+  "D": "\"Never empty the leg bag during the day; just change to a brand-new bag each morning so that the closed drainage system stays sealed and germs can't get into it at all.\""
+ },
+ "PN-S38-16": {
+  "A": "\"Stop that right now. Laughing and crying at the wrong times upsets the other residents, so you need to learn to control your emotions when you're out in the dining room or the lounge.\"",
+  "C": "Laugh along with the resident so that the resident feels less embarrassed, and avoid mentioning the episode to the RN or to any of the resident's family members",
+  "D": "Leave the room quietly until the episode is over so that the resident has some privacy, and then return later as if nothing had happened, without reporting it to anyone"
+ },
+ "PN-S38-17": {
+  "A": "The skin on the back of the client's hand",
+  "C": "The soft skin of the outer earlobe",
+  "D": "The skin on the palm of the hand"
+ },
+ "PN-S38-18": {
+  "A": "\"Walk barefoot on hard floors around the house as much as you can to stretch the bottom of your foot and strengthen the arch muscles over time.\"",
+  "C": "\"Stop all walking permanently, and use a wheelchair or crutches instead so that the tissue on the bottom of your foot can rest and heal.\"",
+  "D": "\"Wear flat sandals or flip-flops without arch support so that your foot can move freely and the heel isn't squeezed by a tight shoe.\""
+ },
+ "PN-S38-21": {
+  "A": "Avoiding eye contact with the baby and looking away each time the baby is brought into the room for a feeding",
+  "C": "Referring to the baby only as \"it\" and not using the name the parents chose before the birth",
+  "D": "Declining to hold the baby at all times and asking the staff to keep the baby in the nursery"
+ },
+ "PN-S38-22": {
+  "A": "Allowing anyone who asks to carry the newborn down to the nursery, since family members and visitors often want to help out the busy staff on the unit",
+  "C": "Leaving the newborn unattended in a bassinet in the hallway for a few minutes while the nurse goes to get supplies for the mother's care in the next room",
+  "D": "Posting the newborn's full name and photo on the door of the room so that visitors and staff members can easily find the right family when they arrive on the unit"
+ },
+ "PN-S38-23": {
+  "A": "Airborne precautions, with the child in a negative-pressure room and all staff members wearing N95 respirators",
+  "C": "No special precautions are needed, since mumps is spread only through direct contact with the swollen glands",
+  "D": "Contact precautions only, with a gown and gloves worn for any care that involves touching the child or the child's bed linens"
+ },
+ "PN-S39-01": {
+  "A": "Small spit-ups after feedings in a thriving, contented baby",
+  "C": "Spitting up a little milk when the baby is burped after feeding",
+  "D": "Drooling and blowing bubbles with saliva between feedings"
+ },
+ "PN-S39-02": {
+  "A": "\"It's fine to leave a child in the car for a few minutes with the windows cracked open a bit, since the fresh air coming in will keep the inside of the car from getting too hot.\"",
+  "C": "\"Heatstroke in cars only matters on very hot summer days, so on mild or cloudy days it's safe to leave a sleeping child in the car while you run a quick errand.\"",
+  "D": "\"Leaving the air conditioning running keeps a parked car cool and safe for hours, so it's fine to leave a child inside while you shop as long as the engine stays on.\""
+ },
+ "PN-S39-03": {
+  "A": "Apply an adhesive bandage directly over the dirt to keep the scrape covered until the child gets home",
+  "C": "Pour rubbing alcohol directly into the scrape to kill any germs before covering it with a bandage",
+  "D": "Leave the scrape uncovered and dirty so that the open air can dry it out and a protective scab can form"
+ },
+ "PN-S39-04": {
+  "A": "\"Twist the jewelry often and take it out every day to clean it, so that the skin doesn't stick to the post while the piercing heals.\"",
+  "C": "\"Clean it with rubbing alcohol and hydrogen peroxide several times a day to kill any germs and keep the new piercing from becoming infected.\"",
+  "D": "\"It's fine to swim in lakes and ponds right away, since the cool water will help soothe the new piercing and reduce any swelling.\""
+ },
+ "PN-S39-05": {
+  "A": "Give the supplement right before meals to boost the resident's appetite",
+  "C": "Skip the supplement on days when the resident doesn't finish meals",
+  "D": "Mix the supplement into a cup of hot coffee at breakfast time"
+ },
+ "PN-S39-08": {
+  "A": "Clear liquid diet at every meal and snack",
+  "C": "High-fiber diet with raw vegetables and nuts",
+  "D": "NPO, with nothing given by mouth at all"
+ },
+ "PN-S39-11": {
+  "A": "Keeping the resident lying flat in bed at all times, including during and after meals, so that the resident stays comfortable and doesn't slide down in the bed",
+  "C": "Limiting the resident's fluids so that the body produces less mucus in the lungs and there are fewer secretions to cough up during the day and night",
+  "D": "Avoiding routine mouth care to reduce stimulation, since brushing the teeth and gums can cause the resident to gag, cough, and choke on the secretions"
+ },
+ "PN-S39-12": {
+  "A": "Fluid overload from the IV fluids given during surgery, which should be monitored at the next set of vital signs",
+  "C": "A normal finding after surgery that is caused by the anesthesia wearing off and needs no further action or reporting",
+  "D": "Hypertension from postoperative pain, which should be rechecked after the next dose of pain medication"
+ },
+ "PN-S39-13": {
+  "A": "Listen in only one spot on the abdomen for about 5 seconds, and document the bowel sounds as absent if nothing at all is heard during that brief time",
+  "C": "Palpate the abdomen firmly first to stimulate the bowel, and then listen in each of the four quadrants with the diaphragm of the stethoscope",
+  "D": "Use the bell of the stethoscope over the lower chest, since bowel sounds can be heard best where the abdomen meets the ribs"
+ },
+ "PN-S39-15": {
+  "A": "A mild tension headache across the forehead that is relieved by acetaminophen and rest within an hour or so",
+  "C": "A dull, throbbing headache that starts after skipping the usual morning coffee and eases after a cup of coffee",
+  "D": "A mild headache that comes with a cold, along with a stuffy nose and some sinus pressure that improves with rest"
+ },
+ "PN-S39-16": {
+  "A": "Only the skin on the forehead and the cheeks of the face",
+  "C": "The skin on the back of the neck and across both upper shoulders",
+  "D": "The skin of the scalp, after parting the hair in several places"
+ },
+ "PN-S39-17": {
+  "A": "Loose, comfortable slippers without backs that are easy to slip on",
+  "C": "Socks only, without shoes, on smooth floors around the house",
+  "D": "High heels or other shoes with a narrow, raised heel for support"
+ },
+ "PN-S39-18": {
+  "A": "Argue with the client until the client agrees about the correct place and the date, so that the confusion doesn't get any worse over time",
+  "C": "Keep the room dark all day so that the client can rest, and avoid opening the blinds or turning on lights unless necessary",
+  "D": "Avoid talking to the client except when giving care, so that the client isn't overstimulated or upset by more conversation"
+ },
+ "PN-S39-19": {
+  "A": "\"Try not to think about it too much; worrying about the MS will only make your symptoms worse, so keep your mind busy with other things instead.\"",
+  "C": "\"Keep the diagnosis to yourself for now, since telling other people will only make them worry about you and treat you differently at work and at home.\"",
+  "D": "\"You'll get used to it after a while, since most people with MS stop feeling so alone once they've lived with the disease for a year or two.\""
+ },
+ "PN-S39-20": {
+  "A": "\"This kind of discharge is a sign of a serious infection, so you'll need to see your provider today to start antibiotics before it spreads to the baby.\"",
+  "C": "\"Douche every day with a mild vinegar and water solution to keep the vaginal area clean and reduce the amount of discharge.\"",
+  "D": "\"Use scented pads or panty liners every day and change them often to control the discharge and keep any odor from developing.\""
+ },
+ "PN-S39-21": {
+  "A": "A sign of postpartum hemorrhage that should be reported right away so that the bleeding can be stopped",
+  "C": "Always a sign of an infection, even when the client's temperature and the bleeding are normal",
+  "D": "A sign of preeclampsia that needs a blood pressure check and urine protein test right away"
+ },
+ "PN-S39-22": {
+  "A": "\"No supplements are ever needed for a breastfed baby, since breast milk provides all of the vitamins and minerals your baby needs.\"",
+  "C": "\"Give an iron supplement from birth to all babies, since breast milk and formula don't provide enough iron in the first months.\"",
+  "D": "\"Give your baby a small amount of cow's milk each day for extra vitamins, starting when your baby is about 1 month old.\""
+ },
+ "PN-S39-23": {
+  "A": "Wipe the surface quickly, and then dry it immediately with a clean paper towel",
+  "C": "Use a clean, dry cloth to wipe down the commode seat and arms between residents",
+  "D": "Spray the disinfectant and wipe it off immediately so the seat is dry for the next resident"
+ }
+}
