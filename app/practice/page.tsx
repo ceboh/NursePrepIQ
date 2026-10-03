@@ -37,9 +37,18 @@ export default function PracticeHub() {
         supabase.from('profiles').select('exam_track').eq('id', auth.user.id).maybeSingle(),
         supabase.from('question_attempts').select('subject,is_correct').eq('user_id', auth.user.id),
       ]);
+      const t = profile?.exam_track === 'pn' ? 'pn' : 'rn';
+      const questions: BankQuestion[] = [];
+      for (let from = 0; ; from += 1000) {
+        const { data, error } = await supabase.from('questions').select('discipline').eq('track', t).order('source_id').range(from, from + 999);
+        if (error || !data) break;
+        questions.push(...data);
+        if (data.length < 1000) break;
+      }
       if (!active) return;
-      setTrack(profile?.exam_track === 'pn' ? 'pn' : 'rn');
+      setTrack(t);
       setAttempts((history ?? []) as Attempt[]);
+      setBank(questions);
       setLoading(false);
     })();
     return () => { active = false; };

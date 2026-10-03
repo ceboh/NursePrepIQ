@@ -1,0 +1,7 @@
+{
+  "_comment": "Answer keys the build cannot derive from answer_summary text. Bow-tie 'groups' are indexed by group position; a null entry means 'derive automatically'.",
+  "PN-S36-25": {
+    "_reason": "Summary says 'orthostatic vital signs'; the matching option is worded 'Lying and standing BP and heart rate'.",
+    "groups": [null, null, ["Lying and standing BP and heart rate", "Dizziness and fall risk during position changes"]]
+  }
+}
