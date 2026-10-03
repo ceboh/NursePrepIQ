@@ -1,0 +1,243 @@
+{
+ "_comment": "Batch 04 (Sets 6-7). Distractor-only rewrites to remove the longest-answer cue. Correct options, stems, and rationales are unchanged; each distractor keeps its original meaning and stays wrong for the same reason. RN-S06-06 (lab values) is in skipped.json as numeric.",
+ "RN-S06-01": {
+  "B": "A client with GERD who reports mild heartburn after eating breakfast and is asking for the antacid that is prescribed as needed",
+  "C": "A client with a new colostomy who is asking what foods to eat and avoid and would like to see the ostomy nurse before discharge",
+  "D": "A client with cirrhosis who is scheduled for a paracentesis tomorrow morning and whose abdominal girth is unchanged from yesterday's measurement"
+ },
+ "RN-S06-04": {
+  "A": "The head of the bed is elevated to 35 degrees while the feeding infuses at the prescribed rate",
+  "B": "The feeding bag is labeled with the date and time it was hung, and the bag was hung about 4 hours ago",
+  "D": "The tube's external length at the nares matches the length documented at the time of insertion"
+ },
+ "RN-S06-05": {
+  "A": "Hang 0.9% sodium chloride at the same rate as the PN infusion",
+  "C": "Stop the infusion and flush the line until the new bag arrives",
+  "D": "Double the rate of the new bag when it arrives to make up the volume"
+ },
+ "RN-S06-07": {
+  "A": "One hard, formed stool every 3 days and less abdominal cramping",
+  "C": "Increased asterixis when the client extends both arms",
+  "D": "Serum ammonia rising from 80 to 110 mcg/dL since yesterday"
+ },
+ "RN-S06-08": {
+  "B": "Oral propranolol tablets",
+  "C": "Ibuprofen 400 mg orally",
+  "D": "Oral lactulose solution"
+ },
+ "RN-S06-11": {
+  "A": "Pain in the right lower quadrant at McBurney's point with rebound tenderness",
+  "C": "Left lower quadrant pain that is relieved by having a bowel movement",
+  "D": "Epigastric pain that is relieved by eating and recurs a few hours later"
+ },
+ "RN-S06-15": {
+  "A": "High-fiber diet with bran cereal and raw fruits and vegetables",
+  "C": "High-fat diet including whole milk, cheese, butter, and fried foods",
+  "D": "Regular diet that includes nuts, seeds, and popcorn as tolerated"
+ },
+ "RN-S06-18": {
+  "A": "\"Drink at least two full glasses of fluid with each meal to stay hydrated.\"",
+  "C": "\"Eat three large meals each day that are high in simple sugars for some quick energy.\"",
+  "D": "\"Sit upright and take a short walk right after each meal to help with digestion.\""
+ },
+ "RN-S06-19": {
+  "A": "On the left side with a pillow placed behind the back for support",
+  "C": "Prone with a pillow under the abdomen for comfort",
+  "D": "High-Fowler's position with the knees slightly bent"
+ },
+ "RN-S06-24": {
+  "A": "Obtain informed consent for the upper endoscopy procedure",
+  "C": "Collect a stool specimen to test for occult blood in the stool",
+  "D": "Complete a detailed medication history, including NSAID use"
+ },
+ "RN-S07-01": {
+  "B": "A client 1 day after total knee arthroplasty who rates pain 5/10 and is due for the next scheduled oral analgesic dose",
+  "C": "A client with gout who is requesting a lower-purine meal tray and asking whether the kitchen has skim milk",
+  "D": "A client with osteoporosis who has questions about calcium supplements and wants to know when to take them"
+ },
+ "RN-S07-02": {
+  "A": "An absent pedal pulse on the foot of the affected leg",
+  "B": "Pale, cold foot with delayed capillary refill",
+  "D": "Inability to move the toes on the affected side"
+ },
+ "RN-S07-05": {
+  "A": "Incisional pain rated 4/10 one hour after the analgesic",
+  "B": "Temperature of 99.5°F (37.5°C) on the evening check",
+  "D": "Moderate bruising around the knee and lower thigh"
+ },
+ "RN-S07-07": {
+  "A": "Small amount of clear serous drainage at two pin sites",
+  "B": "Slight crusting around the pins at the skin surface",
+  "D": "Mild tenderness at the pin sites during cleaning"
+ },
+ "RN-S07-09": {
+  "A": "\"Take it at bedtime with a light snack and a small glass of milk so it doesn't upset your stomach overnight.\"",
+  "C": "\"Take it with your calcium supplement and a full glass of orange juice at breakfast so you remember both of them each morning.\"",
+  "D": "\"Lie down for 30 minutes after taking it, and then you can eat breakfast and take your other morning medicines.\""
+ },
+ "RN-S07-11": {
+  "A": "Low-fat milk, yogurt, and cheese",
+  "C": "Fresh vegetables and leafy greens",
+  "D": "Whole grains such as oatmeal"
+ },
+ "RN-S07-15": {
+  "A": "Keep a pillow under the residual limb at all times to reduce swelling",
+  "C": "Keep the head of the bed elevated 60 degrees continuously while in bed",
+  "D": "Encourage the client to sit in a chair for most of the day to build strength"
+ },
+ "RN-S07-17": {
+  "A": "Restrict fluids to prevent edema and reduce the workload on the kidneys",
+  "C": "Encourage ambulation in the hallway to prevent muscle stiffness",
+  "D": "Administer potassium chloride supplements with the client's meals"
+ },
+ "RN-S07-24": {
+  "A": "Obtain a portable chest x-ray at the bedside right away",
+  "C": "Draw blood for arterial blood gases before applying oxygen",
+  "D": "Document the petechiae with a photograph for the record"
+ },
+ "PN-S06-02": {
+  "A": "From the corner of the mouth down to the umbilicus on the abdomen",
+  "C": "From the tip of the chin to the sternal notch at the base of the neck",
+  "D": "From the bottom of the earlobe straight down to the umbilicus"
+ },
+ "PN-S06-03": {
+  "A": "Place the client flat in bed during the feeding to promote comfort",
+  "C": "Administer the feeding cold, straight from the refrigerator, to keep it fresh",
+  "D": "Push the formula rapidly with a syringe plunger to shorten the feeding time"
+ },
+ "PN-S06-05": {
+  "B": "\"Cut the opening about 1 inch (2.5 cm) larger than the stoma to protect the stoma.\"",
+  "C": "\"Empty the pouch only when it is completely full to make it last longer.\"",
+  "D": "\"Clean the stoma and the skin around it with rubbing alcohol once a day.\""
+ },
+ "PN-S06-06": {
+  "A": "White rice, ripe bananas, cooked carrots, and pasta",
+  "C": "Yogurt, applesauce, and low-fat cottage cheese",
+  "D": "Toast, scrambled eggs, and baked lean chicken"
+ },
+ "PN-S06-08": {
+  "A": "Right side-lying position with the left knee drawn up toward the chest",
+  "C": "Prone position with a small pillow placed under the hips",
+  "D": "Supine with the legs flat and the head of the bed raised"
+ },
+ "PN-S06-09": {
+  "A": "Viral gastroenteritis acquired from another resident",
+  "C": "Normal bowel pattern for a resident on bed rest",
+  "D": "Lactose intolerance from milk served with meals"
+ },
+ "PN-S06-10": {
+  "A": "\"Eat extra red meat and other high-protein foods every day for the 3 days before the test.\"",
+  "C": "\"Take one aspirin tablet each day before and while you are collecting the stool samples for the test.\"",
+  "D": "\"Collect each stool sample from the toilet water after you have a bowel movement at home.\""
+ },
+ "PN-S06-11": {
+  "A": "Wearing surgical masks at home whenever family members are near the client",
+  "C": "Avoiding hugging or touching the client until the jaundice resolves",
+  "D": "Boiling all drinking water indefinitely, even after the client recovers"
+ },
+ "PN-S06-13": {
+  "A": "Two soft stools per day since starting therapy",
+  "C": "Improved alertness and orientation to time",
+  "D": "Mild abdominal bloating and occasional gas"
+ },
+ "PN-S06-15": {
+  "B": "\"I'll stop taking the antibiotics once my stomach pain is gone, so I can avoid any of the side effects.\"",
+  "C": "\"I'll take ibuprofen for my stomach pain whenever it bothers me, especially at night.\"",
+  "D": "\"Smoking won't affect my ulcer, so I don't need to cut back on cigarettes while I'm on treatment.\""
+ },
+ "PN-S06-18": {
+  "A": "Hypoactive bowel sounds in all four quadrants on the first postoperative day",
+  "C": "The client reports passing flatus for the first time since surgery",
+  "D": "Mild incisional pain that is controlled with oral pain medication"
+ },
+ "PN-S06-19": {
+  "A": "A bag of salted potato chips",
+  "C": "A cold can of diet cola",
+  "D": "A few pieces of hard candy"
+ },
+ "PN-S06-20": {
+  "A": "Whole-wheat toast with butter and strawberry jam",
+  "C": "Barley soup with vegetables and beef",
+  "D": "Rye crackers with cheddar cheese slices"
+ },
+ "PN-S06-22": {
+  "A": "\"You will have to look at it eventually, so you might as well start doing it today.\"",
+  "C": "\"Your family can learn to change the pouch for you, so you don't have to look.\"",
+  "D": "\"It's really not that bad once you get used to it. You'll see that soon enough.\""
+ },
+ "PN-S06-23": {
+  "A": "\"Drink plenty of fluids with each of your meals to help the food go down more easily and to keep you hydrated.\"",
+  "C": "\"Eat three large meals daily so you get enough calories and don't need to snack between meals.\"",
+  "D": "\"Choose sweets and sugary drinks when you need extra energy during the day or before exercise.\""
+ },
+ "PN-S07-01": {
+  "B": "Checking the neurovascular status of a client with a new arm cast every 2 hours",
+  "C": "Getting a client out of bed for the first time after a total hip replacement yesterday",
+  "D": "Performing pin site care for a client with an external fixator on the leg"
+ },
+ "PN-S07-03": {
+  "A": "Lift it with the fingertips to avoid touching too much of the cast",
+  "C": "Cover it with a blanket to speed drying and keep the client warm",
+  "D": "Rest the cast on a flat, hard surface such as the over-bed table"
+ },
+ "PN-S07-05": {
+  "A": "\"Pour a little baby powder into the cast to soothe the itching.\"",
+  "C": "\"Slide a ruler or a coat hanger under the cast to scratch the itch.\"",
+  "D": "\"Remove some of the padding from inside the cast where it itches.\""
+ },
+ "PN-S07-07": {
+  "A": "Step forward with the left leg first, then lift the walker and move it forward",
+  "C": "Lift and carry the walker forward while walking at a normal pace",
+  "D": "Move both legs forward first, then lift the walker and move it ahead"
+ },
+ "PN-S07-08": {
+  "B": "\"Move the crutches up to the next step first, then bring up your right leg.\"",
+  "C": "\"Step up with your injured left leg first, and then bring up your crutches and your right leg.\"",
+  "D": "\"Hop up the stairs on your right leg without the crutches, holding the handrail.\""
+ },
+ "PN-S07-09": {
+  "A": "\"Apply a heating pad to the ankle for 1 hour at a time to ease the pain and stiffness.\"",
+  "C": "\"Walk on the ankle as much as you can today to keep stiffness from setting in.\"",
+  "D": "\"Apply ice directly to the skin of the ankle and leave it on overnight.\""
+ },
+ "PN-S07-13": {
+  "A": "\"Take it only during a gout flare, when your joint is painful.\"",
+  "C": "\"Limit your fluids to about 1 L a day while you take it.\"",
+  "D": "\"Take it with a glass of beer or wine at dinner each night.\""
+ },
+ "PN-S07-14": {
+  "A": "\"I'll check the labels for acetaminophen in any other medicines that I buy at the drugstore.\"",
+  "C": "\"I won't take more than the daily limit my provider gave me, even on bad pain days.\"",
+  "D": "\"I'll limit alcohol while I'm using this medicine to help protect my liver from damage.\""
+ },
+ "PN-S07-17": {
+  "A": "Place a pillow under the residual limb while the client is resting in bed",
+  "C": "Place a pillow between the client's thighs while the client is lying in bed",
+  "D": "Keep the client sitting up in a wheelchair for most of the day to build endurance"
+ },
+ "PN-S07-18": {
+  "A": "\"That's not possible. Your foot is gone, so it can't really be hurting you.\"",
+  "C": "\"It's all in your head, and the feeling will go away if you just try to ignore it.\"",
+  "D": "\"Try to think about something else, and the pain should start to fade.\""
+ },
+ "PN-S07-20": {
+  "A": "Small amount of clear, watery drainage",
+  "C": "Slight crust formation around the pins",
+  "D": "Mild tenderness during pin site cleaning"
+ },
+ "PN-S07-21": {
+  "A": "Have the client turn by pulling on the side rail with both hands",
+  "C": "Turn the shoulders first, then the hips, to keep the client comfortable",
+  "D": "Raise the head of the bed fully before turning the client to the side"
+ },
+ "PN-S07-22": {
+  "A": "\"You have to get up or you won't get better. Staying in bed all day will only make you weaker and much stiffer.\"",
+  "C": "\"I'll let you stay in bed today, and we can try getting up again tomorrow morning after breakfast.\"",
+  "D": "\"Falling again is very unlikely while you're here in the hospital, so please don't worry about it.\""
+ },
+ "PN-S07-23": {
+  "A": "Bend forward at the waist with the legs kept straight, then lift the box straight up",
+  "C": "Twist the trunk while lifting the box to place it on the shelf beside you",
+  "D": "Hold the box out at arm's length to keep it away from your uniform and body"
+ }
+}
