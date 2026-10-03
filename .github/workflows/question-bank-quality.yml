@@ -1,50 +1,56 @@
 name: Question Bank Quality Gate
 
+# v2 bank: content lives in data/bank/*.json and is loaded by scripts/bank/load.mjs.
+# This gate rebuilds the bank (which fails on unresolved answer keys, broken case
+# studies, duplicate ids or unknown categories) and keeps question content out of migrations.
+
 on:
   pull_request:
     paths:
+      - 'data/bank/**'
+      - 'scripts/bank/**'
       - 'supabase/migrations/**'
-      - 'content/question-batches/**'
-      - 'scripts/**question**'
+      - '.github/workflows/question-bank-quality.yml'
   push:
     branches: [main]
     paths:
+      - 'data/bank/**'
+      - 'scripts/bank/**'
       - 'supabase/migrations/**'
-      - 'content/question-batches/**'
-      - 'scripts/**question**'
+      - '.github/workflows/question-bank-quality.yml'
 
 permissions:
   contents: read
 
 jobs:
-  validate-question-content:
+  validate-bank:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Validate changed question migrations
+      - name: Build and validate the question bank
+        run: node scripts/bank/build.mjs
+      - name: Summarise answer-key review notes
+        run: |
+          echo "Low-confidence or order-only key matches (reviewed in data/bank/build/answer_key_review.csv):"
+          grep -E ',(LOW-CONFIDENCE|ORDER-ONLY|override)' data/bank/build/answer_key_review.csv | cut -d, -f1-3 | sort | uniq -c || true
+      - name: Keep question content out of migrations
         shell: bash
         run: |
           set -euo pipefail
-          git fetch --no-tags --depth=2 origin "${{ github.event.repository.default_branch }}" || true
           if [ "${{ github.event_name }}" = "pull_request" ]; then BASE="${{ github.event.pull_request.base.sha }}"; else BASE="${{ github.event.before }}"; fi
-          if [ -z "$BASE" ] || [ "$BASE" = "0000000000000000000000000000000000000000" ]; then BASE="HEAD~1"; fi
-          mapfile -t files < <(git diff --name-only "$BASE" HEAD -- 'supabase/migrations/*.sql' | grep -E '/[0-9]+_.*(question|cardiovascular|respiratory|neurologic|renal|adult|pediatric|maternal|mental|pharm).*\.sql$' || true)
-          if [ ${#files[@]} -eq 0 ] && git diff --name-only "$BASE" HEAD -- 'scripts/*question*' | grep -q .; then
-            mapfile -t files < <(find supabase/migrations -maxdepth 1 -type f -name '003[2-9]_question*.sql' | sort)
-          fi
-          if [ ${#files[@]} -eq 0 ]; then echo 'No clinical question-bank migration requires validation.'; exit 0; fi
-          for file in "${files[@]}"; do echo "Validating $file"; node scripts/validate-question-bank.mjs "$file"; done
-      - name: Enforce no direct production publication in generated batches
-        shell: bash
-        run: |
-          set -euo pipefail
-          if [ -d content/question-batches ]; then
-            if grep -RniE "production_validated|lifecycle_status[^\n]*(active)|validation_status[^\n]*production" content/question-batches; then
-              echo 'Generated batch content must remain pilot/unvalidated until validation gates pass.' >&2
-              exit 1
+          if [ -z "$BASE" ] || [ "$BASE" = "0000000000000000000000000000000000000000" ] || ! git cat-file -e "$BASE" 2>/dev/null; then BASE="HEAD~1"; fi
+          mapfile -t files < <(git diff --name-only --diff-filter=AM "$BASE" HEAD -- 'supabase/migrations/*.sql')
+          if [ ${#files[@]} -eq 0 ]; then echo 'No changed migrations.'; exit 0; fi
+          bad=0
+          for f in "${files[@]}"; do
+            if grep -niE "insert[[:space:]]+into[[:space:]]+(public\.)?(questions|case_studies)\b" "$f"; then
+              echo "::error file=$f::Question content belongs in data/bank/*.json and is loaded by scripts/bank/load.mjs, not migrations."
+              bad=1
             fi
-          fi
-          echo 'Pilot-only batch safety check passed.'
+          done
+          exit $bad
