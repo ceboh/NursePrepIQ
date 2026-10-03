@@ -1,4 +1,5 @@
 {
   "_comment": "Single-best-answer items exempt from the 15% length rule in check-revisions.mjs. Value is the reason: \"numeric\" for short number/value options that must not be padded; otherwise a one-line note for human review.",
-  "RN-S06-06": "numeric"
+  "RN-S06-06": "numeric",
+  "PN-S10-06": "Single-word drainage terms (serous, sanguineous, serosanguineous, purulent); padding the distractors would itself be a cue. Correct option is only 4 characters longer than the longest distractor."
 }

@@ -1,0 +1,248 @@
+{
+ "_comment": "Batch 06 (Sets 10-11). Distractor-only rewrites to remove the longest-answer cue. Correct options, stems, and rationales are unchanged; each distractor keeps its original meaning and stays wrong for the same reason. PN-S10-06 (single-word drainage terms) is in skipped.json.",
+ "RN-S10-02": {
+  "A": "Document the normal oxygen saturation of 99% and continue routine monitoring",
+  "C": "Apply oxygen at 2 L/min by nasal cannula and recheck the oxygen saturation in 1 hour",
+  "D": "Encourage deep breathing and coughing, then reassess the client in 1 hour"
+ },
+ "RN-S10-05": {
+  "A": "Edema of the burned arm that has gradually increased since the client's admission",
+  "C": "Pain at the edges of the burn, where the skin is partial thickness",
+  "D": "Dry, leathery, waxy white appearance of the burned skin on the upper arm"
+ },
+ "RN-S10-07": {
+  "B": "Allergy to shellfish such as shrimp",
+  "C": "History of hypertension on lisinopril",
+  "D": "Seasonal allergies to tree pollen"
+ },
+ "RN-S10-08": {
+  "A": "Low-calorie, low-protein diet to reduce the workload on the kidneys",
+  "C": "Clear liquids only for the first 2 weeks after the burn injury",
+  "D": "Low-fat, low-sodium diet only, with calories kept at the client's usual level"
+ },
+ "RN-S10-09": {
+  "A": "Dress the small entry and exit wounds with sterile gauze",
+  "C": "Calculate the TBSA burned using the rule of nines",
+  "D": "Apply cool compresses to the entry and exit wounds"
+ },
+ "RN-S10-10": {
+  "A": "Immediately flush the arms with large amounts of running water",
+  "C": "Apply a weak acid such as vinegar to neutralize the lime",
+  "D": "Cover the arms with dry, sterile dressings and transfer the client"
+ },
+ "RN-S10-14": {
+  "A": "Restart the device over the existing foam dressing and resume the prescribed settings",
+  "C": "Leave the foam dressing in place until the next scheduled dressing change in 2 days",
+  "D": "Increase the suction pressure when restarting to make up for the time it was off"
+ },
+ "RN-S10-15": {
+  "A": "Apply a tight compression bandage from the toes up to the knee each morning",
+  "C": "Keep the leg in a dependent position to improve blood flow to the area",
+  "D": "Massage the reddened area gently to reduce the swelling in the leg"
+ },
+ "RN-S10-16": {
+  "A": "Simple cellulitis that will respond to oral antibiotics",
+  "C": "Contact dermatitis from a reaction to the wound dressing",
+  "D": "Normal wound healing with expected inflammation around the edges"
+ },
+ "RN-S10-17": {
+  "A": "Continuing the medication and adding an oral antihistamine for the rash",
+  "C": "Applying hydrocortisone cream to the rash and discharging the client home today",
+  "D": "Doubling the dose to gain better control of the client's seizures"
+ },
+ "RN-S10-18": {
+  "A": "\"It's fine if I get pregnant while taking this, as long as I stop the medicine as soon as I find out.\"",
+  "C": "\"I'll take extra vitamin A supplements every day to help my skin clear up faster.\"",
+  "D": "\"I can still donate blood at the community blood drive at work while I'm taking this.\""
+ },
+ "RN-S10-24": {
+  "A": "Apply topical antimicrobial cream to all of the burned areas",
+  "C": "Administer the prescribed tetanus toxoid injection IM",
+  "D": "Obtain photographs of the burns for the medical record"
+ },
+ "RN-S11-06": {
+  "A": "Continue the infusion, since the sodium level is still below the normal range",
+  "C": "Increase the infusion rate to reach a normal sodium level sooner",
+  "D": "Encourage the client to drink more water with meals and snacks"
+ },
+ "RN-S11-07": {
+  "A": "Weight gain, bounding pulses, and distended jugular veins",
+  "C": "Muscle cramps, weakness, and U waves on the ECG",
+  "D": "Positive Trousseau's sign and numbness around the mouth"
+ },
+ "RN-S11-09": {
+  "A": "Tetany, carpopedal spasm, and seizure activity",
+  "C": "Hyperactive deep tendon reflexes and muscle twitching",
+  "D": "Diarrhea, abdominal cramps, and a positive Chvostek's sign"
+ },
+ "RN-S11-11": {
+  "A": "Hyperactive deep tendon reflexes with muscle twitching and tremors",
+  "C": "Tetany with carpopedal spasm and painful muscle cramps",
+  "D": "Tachycardia and hypertension with a pounding headache"
+ },
+ "PN-S10-02": {
+  "A": "Grasp the client under both arms and pull the client up toward the headboard",
+  "C": "Have the client bend both knees and push up in bed with the heels on the mattress",
+  "D": "Raise the head of the bed to 60 degrees before moving the client up"
+ },
+ "PN-S10-03": {
+  "B": "A shallow open wound with a pink, moist wound bed and no slough",
+  "C": "A deep, crater-like wound with bone visible at the base",
+  "D": "An intact, fluid-filled blister over the back of the heel"
+ },
+ "PN-S10-04": {
+  "A": "Place a soft pillow directly under both heels to cushion them",
+  "C": "Massage the heels firmly every shift to improve circulation",
+  "D": "Keep the heels resting directly on the mattress with a sheet over them"
+ },
+ "PN-S10-05": {
+  "A": "Wash the area with a harsh deodorant soap and scrub the skin well to remove all of the urine",
+  "C": "Leave the client in the wet brief until the next scheduled check in 2 hours",
+  "D": "Apply a thick layer of powder to the perineal area after each episode"
+ },
+ "PN-S10-07": {
+  "A": "Clean from the outer skin toward the incision in a circular motion",
+  "C": "Use the same gauze pad to clean the entire length of the incision",
+  "D": "Scrub back and forth across the incision with a moistened gauze pad"
+ },
+ "PN-S10-08": {
+  "A": "Leave the bulb fully expanded so that the drainage can flow freely",
+  "C": "Irrigate the drain with sterile saline to keep it patent",
+  "D": "Remove the drain once it has been emptied and measured"
+ },
+ "PN-S10-09": {
+  "B": "Black, dry, hard, and leathery tissue",
+  "C": "Yellow, stringy tissue that is loose and moist",
+  "D": "Pale, dry tissue with little or no bleeding"
+ },
+ "PN-S10-10": {
+  "A": "\"Put ice directly on it right away to stop the pain.\"",
+  "C": "\"Apply butter or cooking oil to soothe the burn.\"",
+  "D": "\"Pop any blisters that form so the burn can drain.\""
+ },
+ "PN-S10-11": {
+  "A": "\"I'll wear them only at night while I'm sleeping, and take them off in the morning.\"",
+  "C": "\"I'll wear them every day for 1 week, and then I can stop.\"",
+  "D": "\"They're only for comfort, so I can wear them when I feel like it.\""
+ },
+ "PN-S10-12": {
+  "A": "Give the prescribed pain medication right after the dressing change is finished",
+  "C": "Skip the dressing change today and let the client rest until the pain improves",
+  "D": "Tell the client that the pain is unavoidable and that the change will be over quickly"
+ },
+ "PN-S10-14": {
+  "A": "\"Apply it only to the itchy areas, such as between your fingers and on your wrists, then leave it on overnight and wash it off in the morning.\"",
+  "C": "\"Apply it from your neck down to your feet for just 10 minutes, then rinse it off completely in a warm shower before you go to bed.\"",
+  "D": "\"You don't need to wash your bedding or clothing after the treatment, since the cream will take care of the mites on your body.\""
+ },
+ "PN-S10-16": {
+  "A": "\"Give the child a long, hot bath every day to soften the skin and soothe the itching.\"",
+  "C": "\"Dress the child in soft wool clothing to keep the skin warm and protected.\"",
+  "D": "\"Use a gently scented soap and bubble bath to make bath time more relaxing.\""
+ },
+ "PN-S10-17": {
+  "A": "\"Keep your feet moist by applying lotion between your toes after you shower.\"",
+  "C": "\"It's fine to wear the same pair of socks for several days if they don't look dirty.\"",
+  "D": "\"Walking barefoot in the gym locker room and showers is fine for your feet.\""
+ },
+ "PN-S10-19": {
+  "A": "\"Take long, hot showers twice a day to keep your skin clean and comfortable.\"",
+  "C": "\"Use alcohol-based lotions on your skin after bathing to relieve the itch.\"",
+  "D": "\"Bathe with an antibacterial soap every day to prevent skin infections.\""
+ },
+ "PN-S10-20": {
+  "A": "\"Acne is normal for teenagers, so you really don't need to worry about it.\"",
+  "C": "\"Just ignore them, and they'll stop staring at you after a while.\"",
+  "D": "\"Your acne really isn't that bad. I'm sure no one else even notices.\""
+ },
+ "PN-S10-21": {
+  "A": "Rub the fingers vigorously between the nurse's hands to warm them",
+  "C": "Apply a heating pad set on high to the fingers to warm them quickly",
+  "D": "Rub the fingers with snow to restore circulation gradually"
+ },
+ "PN-S10-22": {
+  "A": "An area of redness over the sacrum that blanches when pressed and fades within a few minutes",
+  "C": "Dry, slightly flaky skin over the sacrum and lower back with no color change",
+  "D": "Normal skin color with no change in temperature or firmness over the sacrum"
+ },
+ "PN-S10-23": {
+  "A": "Keep the affected leg in a dependent position below heart level",
+  "C": "Apply a tight elastic bandage from the toes up to the knee each morning",
+  "D": "Encourage the client to walk long distances several times a day"
+ },
+ "PN-S11-01": {
+  "A": "Ice chips eaten after surgery",
+  "C": "IV fluid infused over the shift",
+  "D": "Gelatin dessert served at lunch"
+ },
+ "PN-S11-04": {
+  "A": "Offer the resident one large glass of water once per shift with medications",
+  "C": "Restrict fluids after breakfast to reduce nighttime incontinence",
+  "D": "Offer only caffeinated beverages such as coffee and cola"
+ },
+ "PN-S11-05": {
+  "A": "\"Crush the tablets and mix them into applesauce if they're hard for you to swallow.\"",
+  "C": "\"Take them on an empty stomach, at least 1 hour before breakfast.\"",
+  "D": "\"Chew each tablet well before you swallow it so it's absorbed faster.\""
+ },
+ "PN-S11-06": {
+  "B": "A glass of low-fat milk with cereal at breakfast each morning",
+  "C": "White rice served as a side dish with dinner each night",
+  "D": "Apple juice diluted with water as an afternoon snack"
+ },
+ "PN-S11-07": {
+  "B": "White bread, plain pasta, rice crackers, and unfortified breakfast cereals",
+  "C": "Skinless chicken breast with white rice, steamed green beans, and plain apple juice",
+  "D": "Apples, grapes, watermelon, and other fresh fruits without added calcium"
+ },
+ "PN-S11-09": {
+  "A": "Continue the infusion at the same rate and recheck in 1 hour",
+  "C": "Increase the IV rate to keep the client hydrated",
+  "D": "Encourage the client to drink more oral fluids"
+ },
+ "PN-S11-10": {
+  "A": "Apply pressure to the site and continue the infusion at the same rate",
+  "C": "Flush the line with saline to check whether the catheter is patent",
+  "D": "Wrap the arm tightly with tape to secure the catheter in place"
+ },
+ "PN-S11-11": {
+  "A": "Cool, pale, and swollen skin all around the insertion site",
+  "C": "Clear fluid leaking from under the dressing at the insertion site",
+  "D": "Blanched, tight skin with no pain at the insertion site"
+ },
+ "PN-S11-15": {
+  "A": "A client with anxiety who is breathing rapidly and deeply during a panic attack today",
+  "C": "A client who has had several days of watery diarrhea and poor oral intake",
+  "D": "A client who takes calcium carbonate antacids several times a day for heartburn"
+ },
+ "PN-S11-16": {
+  "A": "Leave the client alone in a quiet, dim room to calm down",
+  "C": "Encourage the client to breathe faster and more deeply to relax",
+  "D": "Apply a nonrebreather mask with oxygen at 15 L/min"
+ },
+ "PN-S11-17": {
+  "B": "Hemoglobin A1C and fasting blood glucose every 3 months",
+  "C": "Pupil size and reaction to light with each set of vital signs",
+  "D": "Hearing acuity only, checked at each clinic visit"
+ },
+ "PN-S11-18": {
+  "A": "Full-strength apple juice offered in a sippy cup at meals",
+  "C": "Carbonated soda that has been allowed to go flat",
+  "D": "Plain water only, given in large amounts several times an hour"
+ },
+ "PN-S11-19": {
+  "A": "Bulging anterior fontanel when the infant is upright",
+  "C": "Increased tears when the infant is crying",
+  "D": "Weight gain since the last clinic visit"
+ },
+ "PN-S11-20": {
+  "A": "Encourage the resident to continue gardening in the shade",
+  "C": "Cover the resident with a blanket to prevent chills",
+  "D": "Give an antipyretic and wait 30 minutes to recheck"
+ },
+ "PN-S11-23": {
+  "A": "A plain bagel with cream cheese and a cup of black coffee",
+  "C": "White toast with grape jelly and a cup of tea",
+  "D": "Pancakes with maple syrup, whipped butter, and black coffee"
+ }
+}
