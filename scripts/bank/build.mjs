@@ -1,11 +1,12 @@
-// Builds load-ready rows from data/bank/*.json, with data/bank/revisions/*.json applied on top.
+// Builds load-ready rows from data/bank/*.json, with data/bank/revisions/*.json and then
+// data/bank/retags/*.json (client-need re-tags) applied on top.
 //   node scripts/bank/build.mjs
 // Writes data/bank/build/{questions,case_studies}.json plus review reports, and exits
 // non-zero if any answer key cannot be resolved unambiguously.
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { classifySystem, classifyDiscipline, CASE_CATEGORIES } from './taxonomy.mjs';
-import { BANK_DIR as BANK, applyRevisions, loadBanks } from './revisions.mjs';
+import { BANK_DIR as BANK, CLIENT_NEEDS, applyRevisions, applyRetags, loadBanks } from './revisions.mjs';
 
 const OUT = new URL('build/', BANK);
 const ITEM_TYPES = ['single_best_answer', 'multiple_response', 'matrix_grid', 'drop_down_cloze', 'highlight', 'bow_tie'];
@@ -167,6 +168,15 @@ const banks = loadBanks();
   console.log(`revisions: ${files.length} file(s), ${revised.size} item(s) changed`);
   for (const [id, changes] of revised) console.log(`  ${id}: ${changes.map(c => c.key).join(', ')} (${[...new Set(changes.map(c => c.file))].join(', ')})`);
 }
+// ---------- client-need re-tags ----------
+// data/bank/retags/*.json applied after revisions (see revisions.mjs). Unknown ids or a client
+// need that does not exist for the item's track stop the build before anything is written.
+{
+  const { files, retagged, errors } = applyRetags(banks);
+  if (errors.length) { console.error(`Re-tags rejected (${errors.length}); nothing was built:\n` + errors.join('\n')); process.exit(1); }
+  console.log(`re-tags: ${files.length} file(s), ${retagged.size} item(s) re-tagged`);
+  for (const [id, t] of retagged) console.log(`  ${id}: ${t.from} -> ${t.to} (${t.file})`);
+}
 
 const questions = [], caseStudies = [], taxonomy = [];
 for (const bank of banks) {
@@ -177,6 +187,7 @@ for (const bank of banks) {
   }
   for (const q of bank.questions) {
     if (q.track !== bank.track) problems.push(`${q.source_id}: track ${q.track} in ${bank.track} file`);
+    if (!CLIENT_NEEDS[q.track]?.includes(q.client_need)) problems.push(`${q.source_id}: "${q.client_need}" is not a ${q.track.toUpperCase()} client need`);
     if (!ITEM_TYPES.includes(q.item_type)) { problems.push(`${q.source_id}: unknown item type ${q.item_type}`); continue; }
     const response = BUILDERS[q.item_type](q);
     const { system, basis } = classifySystem(q);

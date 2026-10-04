@@ -14,7 +14,7 @@
 // (skipped.json items excluded). A tie with a distractor splits the item evenly across the
 // tied ranks, so ties never count for or against either side.
 import { readFileSync, existsSync } from 'node:fs';
-import { REVISIONS_DIR, applyRevisions, loadBanks, setsCovered } from './revisions.mjs';
+import { REVISIONS_DIR, CLIENT_NEEDS, NEED_TARGETS, applyRevisions, applyRetags, loadBanks, setsCovered } from './revisions.mjs';
 
 export const LIMIT = 1.15;
 export const RANK_MIN = 0.15, RANK_MAX = 0.35;
@@ -60,6 +60,28 @@ for (const [id, reason] of Object.entries(skipped)) {
   if (!sourceById.has(id)) errors.push(`skipped.json: unknown or non-single-answer source_id ${id}`);
   if (typeof reason !== 'string' || !reason.trim()) errors.push(`skipped.json: ${id} needs a reason`);
   if (revised.has(id)) errors.push(`skipped.json: ${id} is both revised and skipped`);
+}
+
+// Client-need distribution per track: source bank vs. after re-tags. Informational; the
+// targets are the 2023 NCSBN test-plan ranges.
+if (args[0] === '--needs') {
+  const sourceAll = loadBanks().flatMap(b => b.questions);
+  const tagged = loadBanks();
+  applyRevisions(tagged);
+  applyRetags(tagged);
+  const afterAll = tagged.flatMap(b => b.questions);
+  for (const track of ['rn', 'pn']) {
+    const before = sourceAll.filter(q => q.track === track), after = afterAll.filter(q => q.track === track);
+    console.log(`\n${track.toUpperCase()}  before ${before.length}  after ${after.length}`);
+    console.log('client need'.padEnd(42) + 'target    before          after');
+    CLIENT_NEEDS[track].forEach((need, i) => {
+      const [lo, hi] = NEED_TARGETS[track][i];
+      const b = before.filter(q => q.client_need === need).length, a = after.filter(q => q.client_need === need).length;
+      const pa = 100 * a / after.length, flag = pa < lo ? '  below' : pa > hi ? '  above' : '';
+      console.log(need.padEnd(42) + `${lo}-${hi}%`.padEnd(10) + `${b} (${(100 * b / before.length).toFixed(1)}%)`.padEnd(16) + `${a} (${pa.toFixed(1)}%)${flag}`);
+    });
+  }
+  process.exit(0);
 }
 
 if (args[0] === '--stats') {
