@@ -1,0 +1,1548 @@
+{
+ "_comment": "PN NGN unfolding case studies, batch 03 (PN-C11 to PN-C15). Six items per case, one per clinical judgment step. Pilot status.",
+ "track": "pn",
+ "questions": [
+  {
+   "source_id": "PN-C11-01",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 1,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Recognize cues",
+   "item_type": "highlight",
+   "stem": "Highlight the findings that require follow-up.",
+   "rationale": "The symptoms and a glucose of 48 mg/dL show hypoglycemia. A recent dose increase, a dose taken without food, and reduced kidney function, which slows elimination of sulfonylureas, explain it and must be reported. Being able to swallow and a normal respiratory rate are not concerns.",
+   "passage_segments": [
+    {
+     "id": "s1",
+     "text": "Sweaty, shaky, and confused"
+    },
+    {
+     "id": "s2",
+     "text": "Skipped breakfast"
+    },
+    {
+     "id": "s3",
+     "text": "Took the usual glipizide dose at 0800"
+    },
+    {
+     "id": "s4",
+     "text": "Glipizide dose increased last week"
+    },
+    {
+     "id": "s5",
+     "text": "Glucose 48 mg/dL"
+    },
+    {
+     "id": "s6",
+     "text": "Creatinine 2.1 mg/dL"
+    },
+    {
+     "id": "s7",
+     "text": "Able to swallow"
+    },
+    {
+     "id": "s8",
+     "text": "RR 18/min"
+    }
+   ],
+   "correct_text": "Sweaty, shaky, and confused; Skipped breakfast; Took the usual glipizide dose at 0800; Glipizide dose increased last week; Glucose 48 mg/dL; Creatinine 2.1 mg/dL",
+   "answer_summary": "Sweaty, shaky, and confused; Skipped breakfast; Took the usual glipizide dose at 0800; Glipizide dose increased last week; Glucose 48 mg/dL; Creatinine 2.1 mg/dL",
+   "scoring": "plus_minus",
+   "case_id": "PN-C11",
+   "case_sequence": 1,
+   "clinical_judgment_step": "Recognize cues",
+   "content_hash": "687be41f86ef4055"
+  },
+  {
+   "source_id": "PN-C11-02",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 2,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Analyze cues",
+   "item_type": "matrix_grid",
+   "stem": "For each finding, indicate whether it is an adrenergic (early) sign or a neuroglycopenic sign of hypoglycemia.",
+   "rationale": "Adrenergic signs come from the stress hormone response to falling glucose: sweating, tremor, and tachycardia. Neuroglycopenic signs come from the brain's lack of glucose: confusion, difficulty thinking, and drowsiness, which can progress to seizures.",
+   "columns": [
+    "Adrenergic sign",
+    "Neuroglycopenic sign"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Sweating",
+     "correct_column": "Adrenergic sign"
+    },
+    {
+     "id": "r2",
+     "text": "Shakiness",
+     "correct_column": "Adrenergic sign"
+    },
+    {
+     "id": "r3",
+     "text": "Heart rate of 104/min",
+     "correct_column": "Adrenergic sign"
+    },
+    {
+     "id": "r4",
+     "text": "Confusion",
+     "correct_column": "Neuroglycopenic sign"
+    },
+    {
+     "id": "r5",
+     "text": "Difficulty answering questions",
+     "correct_column": "Neuroglycopenic sign"
+    },
+    {
+     "id": "r6",
+     "text": "Drowsiness",
+     "correct_column": "Neuroglycopenic sign"
+    }
+   ],
+   "answer_summary": "Sweating: Adrenergic sign; Shakiness: Adrenergic sign; Heart rate of 104/min: Adrenergic sign; Confusion: Neuroglycopenic sign; Difficulty answering questions: Neuroglycopenic sign; Drowsiness: Neuroglycopenic sign",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C11",
+   "case_sequence": 2,
+   "clinical_judgment_step": "Analyze cues",
+   "content_hash": "02458ef73cf50c29"
+  },
+  {
+   "source_id": "PN-C11-03",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 3,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Prioritize hypotheses",
+   "item_type": "drop_down_cloze",
+   "stem": "Complete the sentence by choosing from the lists of options.",
+   "rationale": "Glipizide stimulates insulin release whether or not the client eats, so a higher dose without a meal caused hypoglycemia. Because the client can swallow, 15 g of fast-acting carbohydrate by mouth is the first action.",
+   "template": "The client's hypoglycemia is most likely related to ___1___, and the LPN/VN should first ___2___.",
+   "blanks": [
+    {
+     "id": "1",
+     "options": [
+      "the increased glipizide dose taken without a meal",
+      "lisinopril",
+      "a viral infection"
+     ],
+     "correct": "the increased glipizide dose taken without a meal"
+    },
+    {
+     "id": "2",
+     "options": [
+      "give 15 g of fast-acting carbohydrate by mouth",
+      "give the next glipizide dose",
+      "have the client lie down and rest"
+     ],
+     "correct": "give 15 g of fast-acting carbohydrate by mouth"
+    }
+   ],
+   "answer_summary": "1: the increased glipizide dose taken without a meal; 2: give 15 g of fast-acting carbohydrate by mouth",
+   "scoring": "zero_one_per_blank",
+   "case_id": "PN-C11",
+   "case_sequence": 3,
+   "clinical_judgment_step": "Prioritize hypotheses",
+   "content_hash": "60a247914e2bdcfe"
+  },
+  {
+   "source_id": "PN-C11-04",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 4,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Generate solutions",
+   "item_type": "multiple_response",
+   "stem": "The client takes 15 g of glucose tablets. Which actions should the LPN/VN take next? Select all that apply.",
+   "rationale": "The 15-15 rule is repeated until the glucose is above 70 mg/dL, followed by a snack or meal to prevent recurrence. Sulfonylureas act for many hours, so hypoglycemia can return and the LPN/VN stays to monitor. Giving more glipizide would worsen the problem.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Recheck the glucose in 15 minutes",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Give another 15 g of fast-acting carbohydrate if the glucose is still below 70 mg/dL",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Give a snack with protein and complex carbohydrate once the glucose is above 70 mg/dL",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Stay with the client until the glucose is stable",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Give the evening glipizide dose early with the snack",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Leave as soon as the glucose is above 70 mg/dL",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "case_id": "PN-C11",
+   "case_sequence": 4,
+   "clinical_judgment_step": "Generate solutions",
+   "content_hash": "0e57109abf1c6169"
+  },
+  {
+   "source_id": "PN-C11-05",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 5,
+   "client_need": "Coordinated Care",
+   "topic": "Case study: Take action",
+   "item_type": "single_best_answer",
+   "stem": "The client's glucose is now 112 mg/dL, and the client is alert. What should the LPN/VN do next about the glipizide?",
+   "rationale": "A significant hypoglycemic episode after a dose increase, in a client with reduced kidney function, needs the provider's review of the prescription. The LPN/VN does not stop or change the dose independently, and adding candy does not address the cause.",
+   "answer_summary": "D",
+   "options": [
+    {
+     "key": "A",
+     "text": "Tell the client to stop taking glipizide until the next scheduled office visit",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Advise the client to take half of each tablet until the next visit with the provider",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Tell the spouse to give candy with each dose",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Report the episode and the recent dose increase to the provider for review",
+     "is_correct": true
+    }
+   ],
+   "scoring": "zero_one",
+   "case_id": "PN-C11",
+   "case_sequence": 5,
+   "clinical_judgment_step": "Take action",
+   "content_hash": "dcd923698d54f91e"
+  },
+  {
+   "source_id": "PN-C11-06",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 6,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Evaluate outcomes",
+   "item_type": "matrix_grid",
+   "stem": "The LPN/VN reinforces teaching with the client and spouse. For each statement, indicate whether it shows understanding or a need for more teaching.",
+   "rationale": "Glipizide is taken with meals, missed meals require a call to the provider, and fast-acting glucose should always be available. Taking more medication would lower glucose further, and hypoglycemia can develop quickly, especially in older adults, who may have fewer warning signs.",
+   "columns": [
+    "Understands",
+    "Needs more teaching"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "\"I'll eat a meal or snack whenever I take glipizide.\"",
+     "correct_column": "Understands"
+    },
+    {
+     "id": "r2",
+     "text": "\"If I can't eat, I'll call the provider before taking it.\"",
+     "correct_column": "Understands"
+    },
+    {
+     "id": "r3",
+     "text": "\"I'll keep glucose tablets with me.\"",
+     "correct_column": "Understands"
+    },
+    {
+     "id": "r4",
+     "text": "\"If my sugar is low, I'll take an extra pill.\"",
+     "correct_column": "Needs more teaching"
+    },
+    {
+     "id": "r5",
+     "text": "\"Low blood sugar always comes on slowly, so I'll have plenty of warning.\"",
+     "correct_column": "Needs more teaching"
+    }
+   ],
+   "answer_summary": "\"I'll eat a meal or snack whenever I take glipizide.\": Understands; \"If I can't eat, I'll call the provider before taking it.\": Understands; \"I'll keep glucose tablets with me.\": Understands; \"If my sugar is low, I'll take an extra pill.\": Needs more teaching; \"Low blood sugar always comes on slowly, so I'll have plenty of warning.\": Needs more teaching",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C11",
+   "case_sequence": 6,
+   "clinical_judgment_step": "Evaluate outcomes",
+   "content_hash": "91700cfeda0fb0aa"
+  },
+  {
+   "source_id": "PN-C12-01",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 1,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Recognize cues",
+   "item_type": "highlight",
+   "stem": "Highlight the findings that require follow-up.",
+   "rationale": "Confusion, asterixis (flapping tremor), and a high ammonia level indicate hepatic encephalopathy, and constipation after stopping lactulose explains why ammonia built up. The heart rate, oxygen saturation, and temperature are normal.",
+   "passage_segments": [
+    {
+     "id": "s1",
+     "text": "Oriented to person only"
+    },
+    {
+     "id": "s2",
+     "text": "Flapping tremor of the hands"
+    },
+    {
+     "id": "s3",
+     "text": "One hard bowel movement in 3 days"
+    },
+    {
+     "id": "s4",
+     "text": "Stopped taking lactulose last week"
+    },
+    {
+     "id": "s5",
+     "text": "Ammonia 118 mcg/dL"
+    },
+    {
+     "id": "s6",
+     "text": "HR 88/min"
+    },
+    {
+     "id": "s7",
+     "text": "SpO2 96% on room air"
+    },
+    {
+     "id": "s8",
+     "text": "T 98.6°F (37°C)"
+    }
+   ],
+   "correct_text": "Oriented to person only; Flapping tremor of the hands; One hard bowel movement in 3 days; Stopped taking lactulose last week; Ammonia 118 mcg/dL",
+   "answer_summary": "Oriented to person only; Flapping tremor of the hands; One hard bowel movement in 3 days; Stopped taking lactulose last week; Ammonia 118 mcg/dL",
+   "scoring": "plus_minus",
+   "case_id": "PN-C12",
+   "case_sequence": 1,
+   "clinical_judgment_step": "Recognize cues",
+   "content_hash": "17612864e28d314d"
+  },
+  {
+   "source_id": "PN-C12-02",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 2,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Analyze cues",
+   "item_type": "matrix_grid",
+   "stem": "For each finding, indicate whether it relates mainly to hepatic encephalopathy or to other effects of cirrhosis.",
+   "rationale": "When the liver cannot clear ammonia, it affects the brain, causing confusion, sleepiness, and asterixis. Ascites from portal hypertension and low albumin, jaundice from impaired bilirubin processing, and low platelets from an enlarged spleen are other effects of cirrhosis.",
+   "columns": [
+    "Hepatic encephalopathy",
+    "Other effects of cirrhosis"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Confusion and sleepiness",
+     "correct_column": "Hepatic encephalopathy"
+    },
+    {
+     "id": "r2",
+     "text": "Flapping tremor of the hands",
+     "correct_column": "Hepatic encephalopathy"
+    },
+    {
+     "id": "r3",
+     "text": "Ammonia 118 mcg/dL",
+     "correct_column": "Hepatic encephalopathy"
+    },
+    {
+     "id": "r4",
+     "text": "Ascites",
+     "correct_column": "Other effects of cirrhosis"
+    },
+    {
+     "id": "r5",
+     "text": "Yellow skin and sclera",
+     "correct_column": "Other effects of cirrhosis"
+    },
+    {
+     "id": "r6",
+     "text": "Platelets 82,000/mm3",
+     "correct_column": "Other effects of cirrhosis"
+    }
+   ],
+   "answer_summary": "Confusion and sleepiness: Hepatic encephalopathy; Flapping tremor of the hands: Hepatic encephalopathy; Ammonia 118 mcg/dL: Hepatic encephalopathy; Ascites: Other effects of cirrhosis; Yellow skin and sclera: Other effects of cirrhosis; Platelets 82,000/mm3: Other effects of cirrhosis",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C12",
+   "case_sequence": 2,
+   "clinical_judgment_step": "Analyze cues",
+   "content_hash": "c9e9c45792c69421"
+  },
+  {
+   "source_id": "PN-C12-03",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 3,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Prioritize hypotheses",
+   "item_type": "drop_down_cloze",
+   "stem": "Complete the sentence by choosing from the lists of options.",
+   "rationale": "Lactulose traps ammonia in the bowel and speeds its removal in the stool. Stopping it and becoming constipated allowed ammonia to rise. The client has not had alcohol for 2 years, and there are no focal signs of stroke.",
+   "template": "The client is most likely experiencing ___1___, triggered by ___2___.",
+   "blanks": [
+    {
+     "id": "1",
+     "options": [
+      "hepatic encephalopathy",
+      "a stroke",
+      "alcohol withdrawal"
+     ],
+     "correct": "hepatic encephalopathy"
+    },
+    {
+     "id": "2",
+     "options": [
+      "stopping lactulose and becoming constipated",
+      "low platelets",
+      "ascites"
+     ],
+     "correct": "stopping lactulose and becoming constipated"
+    }
+   ],
+   "answer_summary": "1: hepatic encephalopathy; 2: stopping lactulose and becoming constipated",
+   "scoring": "zero_one_per_blank",
+   "case_id": "PN-C12",
+   "case_sequence": 3,
+   "clinical_judgment_step": "Prioritize hypotheses",
+   "content_hash": "c4a657a8ed761e98"
+  },
+  {
+   "source_id": "PN-C12-04",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 4,
+   "client_need": "Safety and Infection Control",
+   "topic": "Case study: Generate solutions",
+   "item_type": "multiple_response",
+   "stem": "Which safety measures should the LPN/VN include in this client's care? Select all that apply.",
+   "rationale": "A confused client is at risk for falls, and low platelets increase the risk of bleeding, so a low bed, alarm, frequent reorientation, gentle oral care, electric razors, and checking for bleeding are appropriate. Restraints increase agitation and injury, and sedatives can worsen hepatic encephalopathy.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Keep the bed low with the bed alarm on",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Use a soft toothbrush and an electric razor",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Reorient the client often",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Check stools and gums for signs of bleeding",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Apply wrist restraints at night",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Give a sedative to help the client sleep",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "case_id": "PN-C12",
+   "case_sequence": 4,
+   "clinical_judgment_step": "Generate solutions",
+   "content_hash": "5144af5e3578052e"
+  },
+  {
+   "source_id": "PN-C12-05",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 5,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Take action",
+   "item_type": "single_best_answer",
+   "stem": "After the first doses of lactulose, the client has had one soft stool. What should the LPN/VN do?",
+   "rationale": "The prescription is titrated to 2 to 3 soft stools, so lactulose continues every 2 hours until that goal is reached. Soft stools are the intended effect, antidiarrheals would work against the treatment, and dosing is not based on waiting for the next ammonia level.",
+   "answer_summary": "B",
+   "options": [
+    {
+     "key": "A",
+     "text": "Hold the lactulose, since loose stools are a side effect that should be avoided",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Continue the lactulose every 2 hours as prescribed",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Give loperamide to keep the client from becoming dehydrated",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Give lactulose only if the next ammonia level is higher",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "case_id": "PN-C12",
+   "case_sequence": 5,
+   "clinical_judgment_step": "Take action",
+   "content_hash": "16a12de24235310b"
+  },
+  {
+   "source_id": "PN-C12-06",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 6,
+   "client_need": "Coordinated Care",
+   "topic": "Case study: Evaluate outcomes",
+   "item_type": "matrix_grid",
+   "stem": "Before discharge, the client's spouse raises several concerns. For each concern, indicate whom the LPN/VN should involve.",
+   "rationale": "Medication teaching plans and new changes in condition, such as bleeding, go to the RN. The dietitian addresses diet questions for cirrhosis. Social workers help with medication costs and community resources such as recovery support groups.",
+   "columns": [
+    "RN",
+    "Dietitian",
+    "Social worker"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Unsure how to adjust lactulose at home based on stools",
+     "correct_column": "RN"
+    },
+    {
+     "id": "r2",
+     "text": "Questions about protein and sodium in the diet",
+     "correct_column": "Dietitian"
+    },
+    {
+     "id": "r3",
+     "text": "Difficulty paying for rifaximin",
+     "correct_column": "Social worker"
+    },
+    {
+     "id": "r4",
+     "text": "Wants to find a support group for recovery from alcohol use",
+     "correct_column": "Social worker"
+    },
+    {
+     "id": "r5",
+     "text": "New bleeding from the gums noticed today",
+     "correct_column": "RN"
+    }
+   ],
+   "answer_summary": "Unsure how to adjust lactulose at home based on stools: RN; Questions about protein and sodium in the diet: Dietitian; Difficulty paying for rifaximin: Social worker; Wants to find a support group for recovery from alcohol use: Social worker; New bleeding from the gums noticed today: RN",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C12",
+   "case_sequence": 6,
+   "clinical_judgment_step": "Evaluate outcomes",
+   "content_hash": "1b34326ae3c01d25"
+  },
+  {
+   "source_id": "PN-C13-01",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 1,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Recognize cues",
+   "item_type": "highlight",
+   "stem": "Highlight the findings that require follow-up.",
+   "rationale": "Projectile vomiting, few wet diapers, a sunken fontanel, dry mucous membranes, weight loss, tachycardia, and low potassium show dehydration and electrolyte loss. The temperature is normal.",
+   "passage_segments": [
+    {
+     "id": "s1",
+     "text": "Projectile vomiting after most feedings"
+    },
+    {
+     "id": "s2",
+     "text": "Two wet diapers in the past 24 hours"
+    },
+    {
+     "id": "s3",
+     "text": "Anterior fontanel sunken"
+    },
+    {
+     "id": "s4",
+     "text": "Mucous membranes dry"
+    },
+    {
+     "id": "s5",
+     "text": "Weight down from 4.2 kg to 3.9 kg"
+    },
+    {
+     "id": "s6",
+     "text": "HR 168/min"
+    },
+    {
+     "id": "s7",
+     "text": "Potassium 3.1 mEq/L"
+    },
+    {
+     "id": "s8",
+     "text": "T 98.6°F (37°C) axillary"
+    }
+   ],
+   "correct_text": "Projectile vomiting after most feedings; Two wet diapers in the past 24 hours; Anterior fontanel sunken; Mucous membranes dry; Weight down from 4.2 kg to 3.9 kg; HR 168/min; Potassium 3.1 mEq/L",
+   "answer_summary": "Projectile vomiting after most feedings; Two wet diapers in the past 24 hours; Anterior fontanel sunken; Mucous membranes dry; Weight down from 4.2 kg to 3.9 kg; HR 168/min; Potassium 3.1 mEq/L",
+   "scoring": "plus_minus",
+   "case_id": "PN-C13",
+   "case_sequence": 1,
+   "clinical_judgment_step": "Recognize cues",
+   "content_hash": "ed930b7ac97716a4"
+  },
+  {
+   "source_id": "PN-C13-02",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 2,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Analyze cues",
+   "item_type": "matrix_grid",
+   "stem": "For each finding, indicate whether it mainly reflects dehydration or an electrolyte and acid-base imbalance.",
+   "rationale": "A sunken fontanel, low urine output, and dry mucous membranes reflect fluid loss. Repeated vomiting of stomach acid causes loss of chloride and potassium and a rise in bicarbonate, producing hypochloremic, hypokalemic metabolic alkalosis.",
+   "columns": [
+    "Dehydration",
+    "Electrolyte and acid-base imbalance"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Sunken anterior fontanel",
+     "correct_column": "Dehydration"
+    },
+    {
+     "id": "r2",
+     "text": "Two wet diapers in 24 hours",
+     "correct_column": "Dehydration"
+    },
+    {
+     "id": "r3",
+     "text": "Dry mucous membranes",
+     "correct_column": "Dehydration"
+    },
+    {
+     "id": "r4",
+     "text": "Chloride 88 mEq/L",
+     "correct_column": "Electrolyte and acid-base imbalance"
+    },
+    {
+     "id": "r5",
+     "text": "Bicarbonate 32 mEq/L",
+     "correct_column": "Electrolyte and acid-base imbalance"
+    },
+    {
+     "id": "r6",
+     "text": "Potassium 3.1 mEq/L",
+     "correct_column": "Electrolyte and acid-base imbalance"
+    }
+   ],
+   "answer_summary": "Sunken anterior fontanel: Dehydration; Two wet diapers in 24 hours: Dehydration; Dry mucous membranes: Dehydration; Chloride 88 mEq/L: Electrolyte and acid-base imbalance; Bicarbonate 32 mEq/L: Electrolyte and acid-base imbalance; Potassium 3.1 mEq/L: Electrolyte and acid-base imbalance",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C13",
+   "case_sequence": 2,
+   "clinical_judgment_step": "Analyze cues",
+   "content_hash": "b2bda5bb593876de"
+  },
+  {
+   "source_id": "PN-C13-03",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 3,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Prioritize hypotheses",
+   "item_type": "drop_down_cloze",
+   "stem": "Complete the sentence by choosing from the lists of options.",
+   "rationale": "Projectile, nonbilious vomiting in a hungry infant a few weeks old with an olive-shaped mass is classic for pyloric stenosis. Loss of gastric acid leads to metabolic alkalosis with dehydration. Reflux causes effortless spitting up, and intussusception causes intermittent pain and currant jelly stools.",
+   "template": "The infant's findings are consistent with ___1___, which has caused ___2___.",
+   "blanks": [
+    {
+     "id": "1",
+     "options": [
+      "hypertrophic pyloric stenosis",
+      "gastroesophageal reflux",
+      "intussusception"
+     ],
+     "correct": "hypertrophic pyloric stenosis"
+    },
+    {
+     "id": "2",
+     "options": [
+      "dehydration and metabolic alkalosis",
+      "metabolic acidosis",
+      "bloody stools"
+     ],
+     "correct": "dehydration and metabolic alkalosis"
+    }
+   ],
+   "answer_summary": "1: hypertrophic pyloric stenosis; 2: dehydration and metabolic alkalosis",
+   "scoring": "zero_one_per_blank",
+   "case_id": "PN-C13",
+   "case_sequence": 3,
+   "clinical_judgment_step": "Prioritize hypotheses",
+   "content_hash": "7f3f2a5602f2f7c6"
+  },
+  {
+   "source_id": "PN-C13-04",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 4,
+   "client_need": "Coordinated Care",
+   "topic": "Case study: Generate solutions",
+   "item_type": "multiple_response",
+   "stem": "Which tasks can the LPN/VN delegate to the assistive personnel? Select all that apply.",
+   "rationale": "Weighing diapers, obtaining weights, and comforting the infant are routine tasks that can be delegated. Deciding about IV additives requires a prescription and nursing judgment, checking an IV site requires assessment, and reinforcing teaching is a licensed nurse responsibility.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Weighing diapers and recording output",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Obtaining the daily weight on the same scale",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Holding and comforting the infant with a pacifier while NPO",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Deciding when potassium can be added to the IV fluid",
+     "is_correct": false
+    },
+    {
+     "key": "E",
+     "text": "Checking the IV site for infiltration and documenting it",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Reinforcing feeding instructions with the parents",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C",
+   "scoring": "plus_minus",
+   "case_id": "PN-C13",
+   "case_sequence": 4,
+   "clinical_judgment_step": "Generate solutions",
+   "content_hash": "5abefe5f36979b07"
+  },
+  {
+   "source_id": "PN-C13-05",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 5,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Case study: Take action",
+   "item_type": "single_best_answer",
+   "stem": "The parent says, crying, \"I must have done something wrong when I fed my baby.\" What is the LPN/VN's best response?",
+   "rationale": "Giving accurate information that the condition results from thickening of the pyloric muscle relieves misplaced guilt and supports the parent. Blaming the parent increases guilt, false reassurance dismisses the parent's feelings, and changing the subject avoids the concern.",
+   "answer_summary": "A",
+   "options": [
+    {
+     "key": "A",
+     "text": "\"This happens because a stomach muscle thickens. It is not caused by how you fed your baby.\"",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "\"Many parents feel that way, but you should have brought the baby in sooner when the vomiting started.\"",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "\"Don't worry. Everything will be fine after the surgery, so there is no need to be upset about it.\"",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "\"Let's talk about something else.\"",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "case_id": "PN-C13",
+   "case_sequence": 5,
+   "clinical_judgment_step": "Take action",
+   "content_hash": "bbd0065966033021"
+  },
+  {
+   "source_id": "PN-C13-06",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 6,
+   "client_need": "Reduction of Risk Potential",
+   "topic": "Case study: Evaluate outcomes",
+   "item_type": "matrix_grid",
+   "stem": "Two days after the pyloromyotomy, the LPN/VN collects data. For each finding, indicate whether it shows improvement or no improvement.",
+   "rationale": "Tolerating feedings, good urine output, a flat fontanel, and a normal potassium level show recovery; small spit-ups are common in the first days after surgery. Redness with yellow drainage at the incision suggests infection and must be reported.",
+   "columns": [
+    "Improvement",
+    "No improvement"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Tolerates small feedings with only small spit-ups",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r2",
+     "text": "Six wet diapers in 24 hours",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r3",
+     "text": "Anterior fontanel flat",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r4",
+     "text": "Potassium 4.0 mEq/L",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r5",
+     "text": "Incision red with yellow drainage",
+     "correct_column": "No improvement"
+    }
+   ],
+   "answer_summary": "Tolerates small feedings with only small spit-ups: Improvement; Six wet diapers in 24 hours: Improvement; Anterior fontanel flat: Improvement; Potassium 4.0 mEq/L: Improvement; Incision red with yellow drainage: No improvement",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C13",
+   "case_sequence": 6,
+   "clinical_judgment_step": "Evaluate outcomes",
+   "content_hash": "6ed3f92f1ca45eae"
+  },
+  {
+   "source_id": "PN-C14-01",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 1,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Recognize cues",
+   "item_type": "highlight",
+   "stem": "Highlight the findings that require follow-up.",
+   "rationale": "Chills, uterine tenderness, foul-smelling lochia, fever after the first 24 hours, and tachycardia suggest a uterine infection. The fundal height and firmness are expected on day 3, and the incision and breasts show no signs of infection.",
+   "passage_segments": [
+    {
+     "id": "s1",
+     "text": "Reports chills"
+    },
+    {
+     "id": "s2",
+     "text": "Uterus tender to touch"
+    },
+    {
+     "id": "s3",
+     "text": "Lochia with a foul odor"
+    },
+    {
+     "id": "s4",
+     "text": "T 101.4°F (38.6°C)"
+    },
+    {
+     "id": "s5",
+     "text": "HR 108/min"
+    },
+    {
+     "id": "s6",
+     "text": "Fundus firm 2 fingerbreadths below the umbilicus"
+    },
+    {
+     "id": "s7",
+     "text": "Incision edges approximated"
+    },
+    {
+     "id": "s8",
+     "text": "Breasts soft, nipples intact"
+    }
+   ],
+   "correct_text": "Reports chills; Uterus tender to touch; Lochia with a foul odor; T 101.4°F (38.6°C); HR 108/min",
+   "answer_summary": "Reports chills; Uterus tender to touch; Lochia with a foul odor; T 101.4°F (38.6°C); HR 108/min",
+   "scoring": "plus_minus",
+   "case_id": "PN-C14",
+   "case_sequence": 1,
+   "clinical_judgment_step": "Recognize cues",
+   "content_hash": "523a07f29a4f846d"
+  },
+  {
+   "source_id": "PN-C14-02",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 2,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Analyze cues",
+   "item_type": "matrix_grid",
+   "stem": "For each finding, indicate whether it is an expected postpartum finding or a sign of infection.",
+   "rationale": "The fundus descends about one fingerbreadth a day, lochia rubra lasts about 3 days, and the WBC count is normally elevated in the early postpartum period. Foul-smelling lochia, fever after the first 24 hours, and uterine tenderness are signs of endometritis.",
+   "columns": [
+    "Expected postpartum finding",
+    "Sign of infection"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Firm fundus 2 fingerbreadths below the umbilicus on day 3",
+     "correct_column": "Expected postpartum finding"
+    },
+    {
+     "id": "r2",
+     "text": "Moderate lochia rubra on day 3",
+     "correct_column": "Expected postpartum finding"
+    },
+    {
+     "id": "r3",
+     "text": "Foul-smelling lochia",
+     "correct_column": "Sign of infection"
+    },
+    {
+     "id": "r4",
+     "text": "Temperature of 101.4°F (38.6°C) on day 3",
+     "correct_column": "Sign of infection"
+    },
+    {
+     "id": "r5",
+     "text": "Uterine tenderness",
+     "correct_column": "Sign of infection"
+    },
+    {
+     "id": "r6",
+     "text": "WBC 16,000/mm3",
+     "correct_column": "Expected postpartum finding"
+    }
+   ],
+   "answer_summary": "Firm fundus 2 fingerbreadths below the umbilicus on day 3: Expected postpartum finding; Moderate lochia rubra on day 3: Expected postpartum finding; Foul-smelling lochia: Sign of infection; Temperature of 101.4°F (38.6°C) on day 3: Sign of infection; Uterine tenderness: Sign of infection; WBC 16,000/mm3: Expected postpartum finding",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C14",
+   "case_sequence": 2,
+   "clinical_judgment_step": "Analyze cues",
+   "content_hash": "d0c87bee077060c6"
+  },
+  {
+   "source_id": "PN-C14-03",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 3,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Prioritize hypotheses",
+   "item_type": "drop_down_cloze",
+   "stem": "Complete the sentence by choosing from the lists of options.",
+   "rationale": "Fever with uterine tenderness and foul lochia indicates endometritis, an infection of the uterine lining. Cesarean birth, especially after long labor with ruptured membranes, is the greatest risk factor. The breasts and incision show no signs of infection.",
+   "template": "The client is most likely experiencing ___1___, and a major risk factor was ___2___.",
+   "blanks": [
+    {
+     "id": "1",
+     "options": [
+      "endometritis",
+      "mastitis",
+      "a wound infection"
+     ],
+     "correct": "endometritis"
+    },
+    {
+     "id": "2",
+     "options": [
+      "cesarean birth after prolonged labor with ruptured membranes",
+      "breastfeeding",
+      "a firm fundus"
+     ],
+     "correct": "cesarean birth after prolonged labor with ruptured membranes"
+    }
+   ],
+   "answer_summary": "1: endometritis; 2: cesarean birth after prolonged labor with ruptured membranes",
+   "scoring": "zero_one_per_blank",
+   "case_id": "PN-C14",
+   "case_sequence": 3,
+   "clinical_judgment_step": "Prioritize hypotheses",
+   "content_hash": "ae1ea13f1f35905f"
+  },
+  {
+   "source_id": "PN-C14-04",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 4,
+   "client_need": "Health Promotion and Maintenance",
+   "topic": "Case study: Generate solutions",
+   "item_type": "multiple_response",
+   "stem": "Antibiotics are started. Which postpartum care measures should the LPN/VN include? Select all that apply.",
+   "rationale": "Fluids support recovery from fever, frequent pad changes and front-to-back hygiene reduce bacteria, and an upright position helps lochia drain. Breastfeeding usually continues with the antibiotics commonly used. Tampons are avoided postpartum, and limiting fluids does not reduce lochia and can cause dehydration.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Encourage fluids",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Change perineal pads often and clean from front to back",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Position the client in semi-Fowler's to help lochia drain",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Continue breastfeeding unless the provider advises otherwise",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Use tampons instead of pads",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Limit fluids to reduce lochia",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "case_id": "PN-C14",
+   "case_sequence": 4,
+   "clinical_judgment_step": "Generate solutions",
+   "content_hash": "7695df92a0f5c43c"
+  },
+  {
+   "source_id": "PN-C14-05",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 5,
+   "client_need": "Coordinated Care",
+   "topic": "Case study: Take action",
+   "item_type": "single_best_answer",
+   "stem": "What should the LPN/VN do first?",
+   "rationale": "Fever, tachycardia, uterine tenderness, and foul lochia need prompt evaluation and treatment, so the LPN/VN reports them to the RN immediately. Waiting delays treatment, giving acetaminophen without reporting masks the fever, and separating the newborn is not necessary for endometritis.",
+   "answer_summary": "C",
+   "options": [
+    {
+     "key": "A",
+     "text": "Encourage the client to rest and recheck the temperature in 4 hours",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Give acetaminophen as needed and document the temperature in the chart",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Report the findings to the RN right away",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Take the newborn to the nursery so the client does not spread infection",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "case_id": "PN-C14",
+   "case_sequence": 5,
+   "clinical_judgment_step": "Take action",
+   "content_hash": "13f7711eeae5f2a4"
+  },
+  {
+   "source_id": "PN-C14-06",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 6,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Case study: Evaluate outcomes",
+   "item_type": "matrix_grid",
+   "stem": "After 48 hours of antibiotics, the LPN/VN observes the client with the newborn. For each finding, indicate whether it shows positive bonding or needs follow-up.",
+   "rationale": "Skin-to-skin contact, talking to the baby, interest in feeding cues, and regular feeding show attachment. Guilt about illness and avoiding the baby can signal distress or early postpartum depression, which the LPN/VN reports so the client can receive support.",
+   "columns": [
+    "Positive bonding",
+    "Needs follow-up"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Holds the baby skin-to-skin and talks to the baby",
+     "correct_column": "Positive bonding"
+    },
+    {
+     "id": "r2",
+     "text": "Asks about the baby's feeding cues",
+     "correct_column": "Positive bonding"
+    },
+    {
+     "id": "r3",
+     "text": "Breastfeeds every 2 to 3 hours with some help",
+     "correct_column": "Positive bonding"
+    },
+    {
+     "id": "r4",
+     "text": "Says, \"I feel like a bad parent for being sick.\"",
+     "correct_column": "Needs follow-up"
+    },
+    {
+     "id": "r5",
+     "text": "Turns away when the baby cries and asks staff to take the baby",
+     "correct_column": "Needs follow-up"
+    }
+   ],
+   "answer_summary": "Holds the baby skin-to-skin and talks to the baby: Positive bonding; Asks about the baby's feeding cues: Positive bonding; Breastfeeds every 2 to 3 hours with some help: Positive bonding; Says, \"I feel like a bad parent for being sick.\": Needs follow-up; Turns away when the baby cries and asks staff to take the baby: Needs follow-up",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C14",
+   "case_sequence": 6,
+   "clinical_judgment_step": "Evaluate outcomes",
+   "content_hash": "d2584015d2cc983f"
+  },
+  {
+   "source_id": "PN-C15-01",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 1,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Recognize cues",
+   "item_type": "highlight",
+   "stem": "Highlight the findings that require follow-up.",
+   "rationale": "A new full-thickness wound with slough, moisture from incontinence, gaps in repositioning, poor intake, weight loss, and a low prealbumin all need action. The absence of odor and intact surrounding skin are reassuring.",
+   "passage_segments": [
+    {
+     "id": "s1",
+     "text": "Full-thickness skin loss with visible fat"
+    },
+    {
+     "id": "s2",
+     "text": "Small amount of yellow slough"
+    },
+    {
+     "id": "s3",
+     "text": "Brief was wet"
+    },
+    {
+     "id": "s4",
+     "text": "Gaps of 4 to 5 hours in repositioning"
+    },
+    {
+     "id": "s5",
+     "text": "Eats 25 to 50% of meals"
+    },
+    {
+     "id": "s6",
+     "text": "Weight down 8 lb in 1 month"
+    },
+    {
+     "id": "s7",
+     "text": "Prealbumin 12 mg/dL"
+    },
+    {
+     "id": "s8",
+     "text": "No odor"
+    },
+    {
+     "id": "s9",
+     "text": "Surrounding skin pink and intact"
+    }
+   ],
+   "correct_text": "Full-thickness skin loss with visible fat; Small amount of yellow slough; Brief was wet; Gaps of 4 to 5 hours in repositioning; Eats 25 to 50% of meals; Weight down 8 lb in 1 month; Prealbumin 12 mg/dL",
+   "answer_summary": "Full-thickness skin loss with visible fat; Small amount of yellow slough; Brief was wet; Gaps of 4 to 5 hours in repositioning; Eats 25 to 50% of meals; Weight down 8 lb in 1 month; Prealbumin 12 mg/dL",
+   "scoring": "plus_minus",
+   "case_id": "PN-C15",
+   "case_sequence": 1,
+   "clinical_judgment_step": "Recognize cues",
+   "content_hash": "66765d7cac534fa1"
+  },
+  {
+   "source_id": "PN-C15-02",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 2,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Analyze cues",
+   "item_type": "matrix_grid",
+   "stem": "For each description, indicate the pressure injury stage.",
+   "rationale": "Stage 1 is intact skin with nonblanchable redness. Stage 2 is partial-thickness loss with a pink wound bed. Stage 3 is full-thickness skin loss in which fat may be visible, with slough possible but no exposed bone, tendon, or muscle. Stage 4 exposes bone, tendon, or muscle. The resident's wound is stage 3.",
+   "columns": [
+    "Stage 1",
+    "Stage 2",
+    "Stage 3",
+    "Stage 4"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Intact skin with redness that does not blanch",
+     "correct_column": "Stage 1"
+    },
+    {
+     "id": "r2",
+     "text": "Shallow open area with a pink wound bed and no slough",
+     "correct_column": "Stage 2"
+    },
+    {
+     "id": "r3",
+     "text": "Full-thickness loss with visible fat but no bone or muscle",
+     "correct_column": "Stage 3"
+    },
+    {
+     "id": "r4",
+     "text": "Full-thickness loss with exposed bone",
+     "correct_column": "Stage 4"
+    },
+    {
+     "id": "r5",
+     "text": "This resident's sacral wound",
+     "correct_column": "Stage 3"
+    }
+   ],
+   "answer_summary": "Intact skin with redness that does not blanch: Stage 1; Shallow open area with a pink wound bed and no slough: Stage 2; Full-thickness loss with visible fat but no bone or muscle: Stage 3; Full-thickness loss with exposed bone: Stage 4; This resident's sacral wound: Stage 3",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C15",
+   "case_sequence": 2,
+   "clinical_judgment_step": "Analyze cues",
+   "content_hash": "54d6f8111a8e7f3a"
+  },
+  {
+   "source_id": "PN-C15-03",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 3,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Case study: Prioritize hypotheses",
+   "item_type": "drop_down_cloze",
+   "stem": "Complete the sentence by choosing from the lists of options.",
+   "rationale": "Healing needs adequate protein and calories, and the resident's intake, weight loss, and low prealbumin show malnutrition. Unrelieved pressure from gaps in repositioning and moisture from incontinence continue to damage tissue. Support surfaces and frequent repositioning help healing.",
+   "template": "The main factors that are delaying healing are ___1___ and ___2___.",
+   "blanks": [
+    {
+     "id": "1",
+     "options": [
+      "inadequate protein and calorie intake",
+      "high fluid intake",
+      "too much activity"
+     ],
+     "correct": "inadequate protein and calorie intake"
+    },
+    {
+     "id": "2",
+     "options": [
+      "prolonged pressure and moisture from incontinence",
+      "a pressure-redistribution mattress",
+      "frequent repositioning"
+     ],
+     "correct": "prolonged pressure and moisture from incontinence"
+    }
+   ],
+   "answer_summary": "1: inadequate protein and calorie intake; 2: prolonged pressure and moisture from incontinence",
+   "scoring": "zero_one_per_blank",
+   "case_id": "PN-C15",
+   "case_sequence": 3,
+   "clinical_judgment_step": "Prioritize hypotheses",
+   "content_hash": "7c3ac7f3ba44dcc3"
+  },
+  {
+   "source_id": "PN-C15-04",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 4,
+   "client_need": "Coordinated Care",
+   "topic": "Case study: Generate solutions",
+   "item_type": "multiple_response",
+   "stem": "Which actions should the LPN/VN take? Select all that apply.",
+   "rationale": "A new stage 3 injury requires an updated care plan, a nutrition consult, consistent repositioning by all shifts, and reporting under facility policy. Massage and donut cushions can damage tissue and reduce blood flow.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Report the new stage 3 pressure injury to the RN so the care plan can be revised",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Ask the RN to request a dietitian consult",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Reinforce the 2-hour repositioning schedule with the night-shift AP",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Complete an event report as facility policy requires",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Massage the skin around the wound",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Use a donut cushion when the resident is in a chair",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "case_id": "PN-C15",
+   "case_sequence": 4,
+   "clinical_judgment_step": "Generate solutions",
+   "content_hash": "1ca781a3efb2af7e"
+  },
+  {
+   "source_id": "PN-C15-05",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 5,
+   "client_need": "Coordinated Care",
+   "topic": "Case study: Take action",
+   "item_type": "single_best_answer",
+   "stem": "The night-shift AP says there isn't enough time to turn every resident every 2 hours. What should the LPN/VN do first?",
+   "rationale": "Missed repositioning may reflect an unsafe workload, so the LPN/VN reviews the assignment and reports staffing concerns so the problem can be solved. The LPN/VN cannot change the plan to an unsafe schedule, disciplining the AP first does not fix the cause, and turning once at bedtime would worsen the injury.",
+   "answer_summary": "A",
+   "options": [
+    {
+     "key": "A",
+     "text": "Review the AP's assignment and workload and report staffing concerns to the supervisor",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Change the resident's turning schedule to every 4 hours so that the AP can keep up with the work",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Write up the AP for not turning the resident",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Turn the resident only at bedtime",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "case_id": "PN-C15",
+   "case_sequence": 5,
+   "clinical_judgment_step": "Take action",
+   "content_hash": "805dc40cc7736004"
+  },
+  {
+   "source_id": "PN-C15-06",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 6,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Case study: Evaluate outcomes",
+   "item_type": "matrix_grid",
+   "stem": "Two weeks later, the LPN/VN collects data. For each finding, indicate whether it shows improvement or no improvement.",
+   "rationale": "A smaller wound with granulation tissue, better intake, weight gain, and consistent repositioning show progress. A soaked brief at early-morning rounds means moisture management at night is still not adequate and needs to be addressed.",
+   "columns": [
+    "Improvement",
+    "No improvement"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Wound 2.5 cm by 1.5 cm with red granulation tissue",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r2",
+     "text": "Eats 75% of meals plus a protein supplement",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r3",
+     "text": "Weight 105 lb (47.6 kg)",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r4",
+     "text": "Repositioning log complete every 2 hours",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r5",
+     "text": "Brief found soaked at 0600 rounds on several mornings",
+     "correct_column": "No improvement"
+    }
+   ],
+   "answer_summary": "Wound 2.5 cm by 1.5 cm with red granulation tissue: Improvement; Eats 75% of meals plus a protein supplement: Improvement; Weight 105 lb (47.6 kg): Improvement; Repositioning log complete every 2 hours: Improvement; Brief found soaked at 0600 rounds on several mornings: No improvement",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C15",
+   "case_sequence": 6,
+   "clinical_judgment_step": "Evaluate outcomes",
+   "content_hash": "96358d251e7b25c0"
+  }
+ ],
+ "case_studies": [
+  {
+   "scenario": "The LPN/VN makes a home health visit to a 78-year-old client with type 2 diabetes and chronic kidney disease. The client's spouse called because the client \"isn't making sense.\"",
+   "exhibits": [
+    {
+     "label": "Nurses' notes, 1100",
+     "content": "Sweaty, shaky, and confused. Cannot answer questions clearly but is able to swallow. Skipped breakfast because of nausea last night. Took the usual glipizide dose at 0800. The spouse says the provider increased the glipizide dose last week."
+    },
+    {
+     "label": "Vital signs and glucose, 1100",
+     "content": "Fingerstick glucose 48 mg/dL. HR 104/min, RR 18/min, BP 142/84 mm Hg."
+    },
+    {
+     "label": "Medication list and recent labs",
+     "content": "Glipizide 10 mg by mouth twice daily (increased from 5 mg last week). Lisinopril 10 mg by mouth daily. Creatinine 2.1 mg/dL (0.6–1.2) last month."
+    }
+   ],
+   "case_id": "PN-C11",
+   "track": "pn",
+   "set_number": 49,
+   "title": "Hypoglycemia in an older adult taking a sulfonylurea"
+  },
+  {
+   "scenario": "A 61-year-old client with alcohol-related cirrhosis is admitted with increasing confusion. The client stopped drinking alcohol 2 years ago.",
+   "exhibits": [
+    {
+     "label": "Nurses' notes, 0800",
+     "content": "Oriented to person only. Sleepy but arousable. Flapping tremor of the hands when the arms are held out. Abdomen distended with ascites. Skin and sclera yellow. One hard bowel movement in 3 days. The spouse says the client stopped taking lactulose last week because of \"too many bathroom trips.\""
+    },
+    {
+     "label": "Vital signs, 0800",
+     "content": "T 98.6°F (37°C), HR 88/min, RR 18/min, BP 112/70 mm Hg, SpO2 96% on room air."
+    },
+    {
+     "label": "Laboratory results",
+     "content": "Ammonia 118 mcg/dL (15–45). Bilirubin 4.2 mg/dL (0.3–1.2). Albumin 2.6 g/dL (3.5–5.0). Platelets 82,000/mm3 (150,000–400,000)."
+    },
+    {
+     "label": "Prescriptions",
+     "content": "Lactulose 30 mL by mouth every 2 hours until 2 to 3 soft stools, then every 8 hours to keep 2 to 3 soft stools a day. Rifaximin 550 mg by mouth twice daily. Fall precautions."
+    }
+   ],
+   "case_id": "PN-C12",
+   "track": "pn",
+   "set_number": 49,
+   "title": "Hepatic encephalopathy in a client with cirrhosis"
+  },
+  {
+   "scenario": "A 5-week-old infant is admitted with forceful vomiting after feedings for 4 days. The infant is hungry and eager to feed right after vomiting.",
+   "exhibits": [
+    {
+     "label": "Nurses' notes",
+     "content": "Projectile, nonbilious vomiting after most feedings. Two wet diapers in the past 24 hours. Anterior fontanel sunken. Mucous membranes dry. The provider feels a small, firm, olive-shaped mass in the upper abdomen. Weight 3.9 kg, down from 4.2 kg at the 2-week visit."
+    },
+    {
+     "label": "Vital signs",
+     "content": "T 98.6°F (37°C) axillary, HR 168/min, RR 40/min, capillary refill 3 seconds."
+    },
+    {
+     "label": "Laboratory results",
+     "content": "Sodium 132 mEq/L (135–145), potassium 3.1 mEq/L (3.5–5.0), chloride 88 mEq/L (98–106), bicarbonate 32 mEq/L (22–28)."
+    },
+    {
+     "label": "Plan",
+     "content": "NPO. IV fluids, with potassium added after the infant voids. Pyloromyotomy when the electrolytes are corrected."
+    }
+   ],
+   "case_id": "PN-C13",
+   "track": "pn",
+   "set_number": 49,
+   "title": "Infant with hypertrophic pyloric stenosis"
+  },
+  {
+   "scenario": "A client is on the third day after a cesarean birth that followed 22 hours of labor with ruptured membranes. The client is breastfeeding.",
+   "exhibits": [
+    {
+     "label": "Nurses' notes, day 3, 0800",
+     "content": "Reports chills and lower abdominal pain of 6/10. Uterus tender to touch, fundus firm 2 fingerbreadths below the umbilicus. Moderate lochia rubra with a foul odor. Incision edges approximated, with no drainage. Breasts soft, nipples intact. Says, \"I'm too tired and sore to hold the baby.\""
+    },
+    {
+     "label": "Vital signs, 0800",
+     "content": "T 101.4°F (38.6°C), HR 108/min, RR 18/min, BP 116/72 mm Hg."
+    },
+    {
+     "label": "Laboratory results",
+     "content": "WBC 16,000/mm3."
+    }
+   ],
+   "case_id": "PN-C14",
+   "track": "pn",
+   "set_number": 49,
+   "title": "Postpartum endometritis after a cesarean birth"
+  },
+  {
+   "scenario": "A 90-year-old resident of a long-term care facility had a stroke 6 months ago, is bedbound, and needs full help with care. During a bath, the assistive personnel (AP) reports an open area on the resident's sacrum.",
+   "exhibits": [
+    {
+     "label": "Nurses' notes",
+     "content": "Sacral wound 3 cm by 2 cm with full-thickness skin loss and visible fat. No bone, tendon, or muscle visible. Wound bed red with a small amount of yellow slough. Small amount of serous drainage, no odor. Surrounding skin pink and intact. Resident incontinent of urine, and the brief was wet. Repositioning log shows gaps of 4 to 5 hours on the night shift."
+    },
+    {
+     "label": "Nutrition",
+     "content": "Eats 25 to 50% of meals. Weight 104 lb (47.2 kg), down from 112 lb (50.8 kg) 1 month ago. Prealbumin 12 mg/dL (15–36)."
+    },
+    {
+     "label": "Risk assessment",
+     "content": "Braden scale score 11."
+    }
+   ],
+   "case_id": "PN-C15",
+   "track": "pn",
+   "set_number": 49,
+   "title": "Stage 3 pressure injury and malnutrition in long-term care"
+  }
+ ]
+}

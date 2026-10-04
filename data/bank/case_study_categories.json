@@ -752,6 +752,81 @@
     "PN-C10-06"
    ],
    "needs_review": false
+  },
+  {
+   "case_id": "PN-C11",
+   "title": "Hypoglycemia in an older adult taking a sulfonylurea",
+   "system": "Endocrine",
+   "discipline": "Pharmacology",
+   "items": [
+    "PN-C11-01",
+    "PN-C11-02",
+    "PN-C11-03",
+    "PN-C11-04",
+    "PN-C11-05",
+    "PN-C11-06"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "PN-C12",
+   "title": "Hepatic encephalopathy in a client with cirrhosis",
+   "system": "Gastrointestinal",
+   "discipline": "Adult Health",
+   "items": [
+    "PN-C12-01",
+    "PN-C12-02",
+    "PN-C12-03",
+    "PN-C12-04",
+    "PN-C12-05",
+    "PN-C12-06"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "PN-C13",
+   "title": "Infant with hypertrophic pyloric stenosis",
+   "system": "Gastrointestinal",
+   "discipline": "Pediatrics",
+   "items": [
+    "PN-C13-01",
+    "PN-C13-02",
+    "PN-C13-03",
+    "PN-C13-04",
+    "PN-C13-05",
+    "PN-C13-06"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "PN-C14",
+   "title": "Postpartum endometritis after a cesarean birth",
+   "system": "Reproductive",
+   "discipline": "Maternal & Newborn",
+   "items": [
+    "PN-C14-01",
+    "PN-C14-02",
+    "PN-C14-03",
+    "PN-C14-04",
+    "PN-C14-05",
+    "PN-C14-06"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "PN-C15",
+   "title": "Stage 3 pressure injury and malnutrition in long-term care",
+   "system": "Integumentary",
+   "discipline": "Fundamentals",
+   "items": [
+    "PN-C15-01",
+    "PN-C15-02",
+    "PN-C15-03",
+    "PN-C15-04",
+    "PN-C15-05",
+    "PN-C15-06"
+   ],
+   "needs_review": false
   }
  ]
 }
