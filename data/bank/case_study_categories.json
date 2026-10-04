@@ -902,6 +902,81 @@
     "PN-C20-06"
    ],
    "needs_review": false
+  },
+  {
+   "case_id": "PN-C21",
+   "title": "Atelectasis after abdominal surgery",
+   "system": "Respiratory",
+   "discipline": "Adult Health",
+   "items": [
+    "PN-C21-01",
+    "PN-C21-02",
+    "PN-C21-03",
+    "PN-C21-04",
+    "PN-C21-05",
+    "PN-C21-06"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "PN-C22",
+   "title": "Herpes zoster in an older adult",
+   "system": "Integumentary",
+   "discipline": "Safety & Infection Control",
+   "items": [
+    "PN-C22-01",
+    "PN-C22-02",
+    "PN-C22-03",
+    "PN-C22-04",
+    "PN-C22-05",
+    "PN-C22-06"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "PN-C23",
+   "title": "Hyperbilirubinemia in a breastfed newborn",
+   "system": "Hematologic",
+   "discipline": "Maternal & Newborn",
+   "items": [
+    "PN-C23-01",
+    "PN-C23-02",
+    "PN-C23-03",
+    "PN-C23-04",
+    "PN-C23-05",
+    "PN-C23-06"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "PN-C24",
+   "title": "Nephrotic syndrome in a preschool child",
+   "system": "Renal & Urinary",
+   "discipline": "Pediatrics",
+   "items": [
+    "PN-C24-01",
+    "PN-C24-02",
+    "PN-C24-03",
+    "PN-C24-04",
+    "PN-C24-05",
+    "PN-C24-06"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "PN-C25",
+   "title": "Lithium toxicity in bipolar disorder",
+   "system": "Integrated",
+   "discipline": "Mental Health",
+   "items": [
+    "PN-C25-01",
+    "PN-C25-02",
+    "PN-C25-03",
+    "PN-C25-04",
+    "PN-C25-05",
+    "PN-C25-06"
+   ],
+   "needs_review": false
   }
  ]
 }

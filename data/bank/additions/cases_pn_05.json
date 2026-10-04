@@ -1,0 +1,1532 @@
+{
+ "_comment": "PN NGN unfolding case studies, batch 05 (PN-C21 to PN-C25). Six items per case, one per clinical judgment step. Pilot status.",
+ "track": "pn",
+ "questions": [
+  {
+   "source_id": "PN-C21-01",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 1,
+   "client_need": "Reduction of Risk Potential",
+   "topic": "Case study: Recognize cues",
+   "item_type": "highlight",
+   "stem": "Highlight the findings that require follow-up.",
+   "rationale": "Shallow breathing, diminished breath sounds with basilar crackles, poor incentive spirometer use, immobility, low-grade fever, and an oxygen saturation below the goal point to atelectasis. Uncontrolled pain, with no analgesic for 6 hours, is the main barrier to deep breathing and walking. The blood pressure is normal.",
+   "passage_segments": [
+    {
+     "id": "s1",
+     "text": "Takes shallow breaths"
+    },
+    {
+     "id": "s2",
+     "text": "Diminished breath sounds with fine crackles at both bases"
+    },
+    {
+     "id": "s3",
+     "text": "Incentive spirometer used twice, reaching 500 mL"
+    },
+    {
+     "id": "s4",
+     "text": "Has stayed in bed since surgery"
+    },
+    {
+     "id": "s5",
+     "text": "Pain 7/10, last dose 6 hours ago"
+    },
+    {
+     "id": "s6",
+     "text": "T 100.2°F (37.9°C)"
+    },
+    {
+     "id": "s7",
+     "text": "SpO2 91% on room air"
+    },
+    {
+     "id": "s8",
+     "text": "BP 132/78 mm Hg"
+    }
+   ],
+   "correct_text": "Takes shallow breaths; Diminished breath sounds with fine crackles at both bases; Incentive spirometer used twice, reaching 500 mL; Has stayed in bed since surgery; Pain 7/10, last dose 6 hours ago; T 100.2°F (37.9°C); SpO2 91% on room air",
+   "answer_summary": "Takes shallow breaths; Diminished breath sounds with fine crackles at both bases; Incentive spirometer used twice, reaching 500 mL; Has stayed in bed since surgery; Pain 7/10, last dose 6 hours ago; T 100.2°F (37.9°C); SpO2 91% on room air",
+   "scoring": "plus_minus",
+   "case_id": "PN-C21",
+   "case_sequence": 1,
+   "clinical_judgment_step": "Recognize cues",
+   "content_hash": "d09dbeee6ccedc08"
+  },
+  {
+   "source_id": "PN-C21-02",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 2,
+   "client_need": "Reduction of Risk Potential",
+   "topic": "Case study: Analyze cues",
+   "item_type": "matrix_grid",
+   "stem": "For each finding, indicate whether it is a risk factor for atelectasis or a finding of atelectasis.",
+   "rationale": "Smoking, a painful abdominal incision that limits deep breathing, and immobility increase the risk of alveolar collapse. Diminished basilar breath sounds, a low-grade fever, and lower oxygen saturation are findings of atelectasis.",
+   "columns": [
+    "Risk factor",
+    "Finding of atelectasis"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Smoking 1 pack a day",
+     "correct_column": "Risk factor"
+    },
+    {
+     "id": "r2",
+     "text": "Abdominal incision with pain on breathing",
+     "correct_column": "Risk factor"
+    },
+    {
+     "id": "r3",
+     "text": "Staying in bed since surgery",
+     "correct_column": "Risk factor"
+    },
+    {
+     "id": "r4",
+     "text": "Diminished breath sounds at the bases",
+     "correct_column": "Finding of atelectasis"
+    },
+    {
+     "id": "r5",
+     "text": "Low-grade fever on the second day after surgery",
+     "correct_column": "Finding of atelectasis"
+    },
+    {
+     "id": "r6",
+     "text": "SpO2 91% on room air",
+     "correct_column": "Finding of atelectasis"
+    }
+   ],
+   "answer_summary": "Smoking 1 pack a day: Risk factor; Abdominal incision with pain on breathing: Risk factor; Staying in bed since surgery: Risk factor; Diminished breath sounds at the bases: Finding of atelectasis; Low-grade fever on the second day after surgery: Finding of atelectasis; SpO2 91% on room air: Finding of atelectasis",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C21",
+   "case_sequence": 2,
+   "clinical_judgment_step": "Analyze cues",
+   "content_hash": "d0363124144c6106"
+  },
+  {
+   "source_id": "PN-C21-03",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 3,
+   "client_need": "Reduction of Risk Potential",
+   "topic": "Case study: Prioritize hypotheses",
+   "item_type": "drop_down_cloze",
+   "stem": "Complete the sentence by choosing from the lists of options.",
+   "rationale": "Gradual findings of diminished basilar breath sounds, low-grade fever, and mild hypoxemia on the second day fit atelectasis caused by shallow breathing and staying in bed because of pain. A pulmonary embolism or pneumothorax usually causes sudden chest pain and dyspnea.",
+   "template": "The client is most likely developing ___1___, and the underlying problem is ___2___.",
+   "blanks": [
+    {
+     "id": "1",
+     "options": [
+      "atelectasis",
+      "a pulmonary embolism",
+      "a pneumothorax"
+     ],
+     "correct": "atelectasis"
+    },
+    {
+     "id": "2",
+     "options": [
+      "shallow breathing and immobility from poorly controlled pain",
+      "too much IV fluid",
+      "an allergic reaction to the anesthesia"
+     ],
+     "correct": "shallow breathing and immobility from poorly controlled pain"
+    }
+   ],
+   "answer_summary": "1: atelectasis; 2: shallow breathing and immobility from poorly controlled pain",
+   "scoring": "zero_one_per_blank",
+   "case_id": "PN-C21",
+   "case_sequence": 3,
+   "clinical_judgment_step": "Prioritize hypotheses",
+   "content_hash": "baed5bee78568767"
+  },
+  {
+   "source_id": "PN-C21-04",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 4,
+   "client_need": "Reduction of Risk Potential",
+   "topic": "Case study: Generate solutions",
+   "item_type": "multiple_response",
+   "stem": "Which actions should the LPN/VN take? Select all that apply.",
+   "rationale": "Pain control makes deep breathing and walking possible, splinting reduces pain with coughing, and sitting up and walking expand the lungs. Oxygen is applied as prescribed. Lying flat worsens atelectasis, and fluids help keep secretions thin.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Give the prescribed as-needed oxycodone, then coach deep breathing when it takes effect",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Show the client how to splint the incision with a pillow when coughing",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Help the client sit up in a chair and walk as prescribed",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Apply oxygen to keep the SpO2 at 92% or higher",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Keep the client flat in bed until the fever goes away",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Limit fluids to reduce secretions",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "case_id": "PN-C21",
+   "case_sequence": 4,
+   "clinical_judgment_step": "Generate solutions",
+   "content_hash": "3e8af1b9ed25d3e0"
+  },
+  {
+   "source_id": "PN-C21-05",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 5,
+   "client_need": "Coordinated Care",
+   "topic": "Case study: Take action",
+   "item_type": "single_best_answer",
+   "stem": "Which task can the LPN/VN delegate to the assistive personnel?",
+   "rationale": "Helping a stable client walk is a routine task an AP can perform. Teaching, evaluating breath sounds, and deciding on oxygen changes require nursing judgment.",
+   "answer_summary": "C",
+   "options": [
+    {
+     "key": "A",
+     "text": "Teaching the client how to use the incentive spirometer and setting a new volume goal",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Evaluating the client's breath sounds after the walk",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Helping the client walk in the hallway after the pain medicine takes effect",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Deciding whether to increase the oxygen flow",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "case_id": "PN-C21",
+   "case_sequence": 5,
+   "clinical_judgment_step": "Take action",
+   "content_hash": "40ca1259a3a0e107"
+  },
+  {
+   "source_id": "PN-C21-06",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 6,
+   "client_need": "Reduction of Risk Potential",
+   "topic": "Case study: Evaluate outcomes",
+   "item_type": "matrix_grid",
+   "stem": "On the third day after surgery, the LPN/VN collects data. For each finding, indicate whether it shows improvement or needs follow-up.",
+   "rationale": "Higher spirometer volumes, normal oxygen saturation and temperature, and regular walking show the atelectasis is resolving. New purulent sputum with a higher fever suggests pneumonia and must be reported.",
+   "columns": [
+    "Improvement",
+    "Needs follow-up"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Incentive spirometer volume 1,200 mL",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r2",
+     "text": "SpO2 95% on room air",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r3",
+     "text": "T 98.8°F (37.1°C)",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r4",
+     "text": "Walked in the hallway 3 times",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r5",
+     "text": "Thick green sputum with a new temperature of 101.8°F (38.8°C)",
+     "correct_column": "Needs follow-up"
+    }
+   ],
+   "answer_summary": "Incentive spirometer volume 1,200 mL: Improvement; SpO2 95% on room air: Improvement; T 98.8°F (37.1°C): Improvement; Walked in the hallway 3 times: Improvement; Thick green sputum with a new temperature of 101.8°F (38.8°C): Needs follow-up",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C21",
+   "case_sequence": 6,
+   "clinical_judgment_step": "Evaluate outcomes",
+   "content_hash": "41228050bd7297f3"
+  },
+  {
+   "source_id": "PN-C22-01",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 1,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Recognize cues",
+   "item_type": "highlight",
+   "stem": "Highlight the findings that require follow-up.",
+   "rationale": "A painful vesicular rash in a band on one side of the body suggests shingles, and uncrusted lesions can spread varicella-zoster virus to people who are not immune, such as an immunocompromised roommate or a pregnant staff member without immunity. The temperature and respiratory rate are not concerns.",
+   "passage_segments": [
+    {
+     "id": "s1",
+     "text": "Fluid-filled blisters in a band on the right chest"
+    },
+    {
+     "id": "s2",
+     "text": "Burning pain 8/10"
+    },
+    {
+     "id": "s3",
+     "text": "The lesions have not crusted"
+    },
+    {
+     "id": "s4",
+     "text": "Roommate is receiving chemotherapy"
+    },
+    {
+     "id": "s5",
+     "text": "Pregnant staff member who has never had chickenpox"
+    },
+    {
+     "id": "s6",
+     "text": "T 99.4°F (37.4°C)"
+    },
+    {
+     "id": "s7",
+     "text": "RR 16/min"
+    }
+   ],
+   "correct_text": "Fluid-filled blisters in a band on the right chest; Burning pain 8/10; The lesions have not crusted; Roommate is receiving chemotherapy; Pregnant staff member who has never had chickenpox",
+   "answer_summary": "Fluid-filled blisters in a band on the right chest; Burning pain 8/10; The lesions have not crusted; Roommate is receiving chemotherapy; Pregnant staff member who has never had chickenpox",
+   "scoring": "plus_minus",
+   "case_id": "PN-C22",
+   "case_sequence": 1,
+   "clinical_judgment_step": "Recognize cues",
+   "content_hash": "90d6221526b0d938"
+  },
+  {
+   "source_id": "PN-C22-02",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 2,
+   "client_need": "Coordinated Care",
+   "topic": "Case study: Analyze cues",
+   "item_type": "matrix_grid",
+   "stem": "For each staff member, indicate whether the LPN/VN should assign the staff member to care for this resident while the lesions are uncrusted.",
+   "rationale": "Staff with evidence of immunity, such as past chickenpox or two vaccine doses, can care for a resident with shingles. Staff without known immunity, especially those who are pregnant, should not be assigned because varicella can cause serious illness for them and harm a fetus.",
+   "columns": [
+    "Can be assigned",
+    "Should not be assigned"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "An RN who had chickenpox as a child",
+     "correct_column": "Can be assigned"
+    },
+    {
+     "id": "r2",
+     "text": "An assistive personnel who received two doses of varicella vaccine",
+     "correct_column": "Can be assigned"
+    },
+    {
+     "id": "r3",
+     "text": "A pregnant assistive personnel who has never had chickenpox",
+     "correct_column": "Should not be assigned"
+    },
+    {
+     "id": "r4",
+     "text": "A float staff member whose immunity is unknown",
+     "correct_column": "Should not be assigned"
+    },
+    {
+     "id": "r5",
+     "text": "An LPN/VN with documented immunity",
+     "correct_column": "Can be assigned"
+    }
+   ],
+   "answer_summary": "An RN who had chickenpox as a child: Can be assigned; An assistive personnel who received two doses of varicella vaccine: Can be assigned; A pregnant assistive personnel who has never had chickenpox: Should not be assigned; A float staff member whose immunity is unknown: Should not be assigned; An LPN/VN with documented immunity: Can be assigned",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C22",
+   "case_sequence": 2,
+   "clinical_judgment_step": "Analyze cues",
+   "content_hash": "1a7fd454ef1b8893"
+  },
+  {
+   "source_id": "PN-C22-03",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 3,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Prioritize hypotheses",
+   "item_type": "drop_down_cloze",
+   "stem": "Complete the sentence by choosing from the lists of options.",
+   "rationale": "Shingles is caused by reactivation of the varicella-zoster virus that stays dormant in nerve roots after chickenpox. It causes pain and then a vesicular rash in one dermatome that does not cross the midline. Contact dermatitis and cellulitis do not follow a dermatome.",
+   "template": "The resident most likely has ___1___, caused by ___2___.",
+   "blanks": [
+    {
+     "id": "1",
+     "options": [
+      "herpes zoster (shingles)",
+      "contact dermatitis",
+      "cellulitis"
+     ],
+     "correct": "herpes zoster (shingles)"
+    },
+    {
+     "id": "2",
+     "options": [
+      "reactivation of the varicella-zoster virus",
+      "a new bacterial infection",
+      "an allergy to clothing"
+     ],
+     "correct": "reactivation of the varicella-zoster virus"
+    }
+   ],
+   "answer_summary": "1: herpes zoster (shingles); 2: reactivation of the varicella-zoster virus",
+   "scoring": "zero_one_per_blank",
+   "case_id": "PN-C22",
+   "case_sequence": 3,
+   "clinical_judgment_step": "Prioritize hypotheses",
+   "content_hash": "916a8aa05b6bbcf4"
+  },
+  {
+   "source_id": "PN-C22-04",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 4,
+   "client_need": "Safety and Infection Control",
+   "topic": "Case study: Generate solutions",
+   "item_type": "multiple_response",
+   "stem": "The resident is not immunocompromised, and the rash is localized. Which infection control measures should the LPN/VN put in place? Select all that apply.",
+   "rationale": "For localized shingles in a person who is not immunocompromised, standard precautions with the lesions completely covered until they crust are used, along with hand hygiene and separating the resident from people at high risk. Gloves do not protect a nonimmune pregnant staff member, and precautions are based on the lesions crusting, not on pain. Disseminated shingles or shingles in an immunocompromised person requires airborne and contact precautions.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Keep the lesions covered until they crust",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Separate the resident from the roommate who is receiving chemotherapy",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Perform hand hygiene after any contact with the lesions or dressings",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Keep staff without immunity from caring for the resident",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Allow the pregnant staff member to give care while wearing gloves",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Stop precautions as soon as the pain improves",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "case_id": "PN-C22",
+   "case_sequence": 4,
+   "clinical_judgment_step": "Generate solutions",
+   "content_hash": "b241e588fa3ad846"
+  },
+  {
+   "source_id": "PN-C22-05",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 5,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Take action",
+   "item_type": "single_best_answer",
+   "stem": "The provider prescribes valacyclovir. Which statement by the LPN/VN about the medication is accurate?",
+   "rationale": "Antivirals such as valacyclovir shorten the illness and reduce pain when started within 72 hours of the rash and are taken for the full prescribed course. They do not eliminate the virus, and lesions must still be covered until crusted.",
+   "answer_summary": "B",
+   "options": [
+    {
+     "key": "A",
+     "text": "\"It will cure the virus completely so that shingles can never come back again.\"",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "\"It works best when started within 72 hours of the rash.\"",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "\"You only need to take it on days when the pain is very severe.\"",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "\"It prevents the spread of shingles, so you no longer need to cover the rash.\"",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "case_id": "PN-C22",
+   "case_sequence": 5,
+   "clinical_judgment_step": "Take action",
+   "content_hash": "e773f5e6907e4a2d"
+  },
+  {
+   "source_id": "PN-C22-06",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 6,
+   "client_need": "Coordinated Care",
+   "topic": "Case study: Evaluate outcomes",
+   "item_type": "matrix_grid",
+   "stem": "On day 8, the charge nurse reviews how the case was managed. For each finding, indicate whether it shows effective management or needs follow-up.",
+   "rationale": "Protecting the roommate, appropriate staff assignments, crusted lesions, and controlled pain show effective management, and interest in the shingles vaccine supports prevention. A float staff member of unknown immunity caring for the resident is an exposure that must be reported and followed up through employee health.",
+   "columns": [
+    "Effective",
+    "Needs follow-up"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "The roommate was moved to another room and has no rash",
+     "correct_column": "Effective"
+    },
+    {
+     "id": "r2",
+     "text": "Only staff with immunity were assigned to the resident",
+     "correct_column": "Effective"
+    },
+    {
+     "id": "r3",
+     "text": "The lesions are crusted, and pain is 3/10 with prescribed medication",
+     "correct_column": "Effective"
+    },
+    {
+     "id": "r4",
+     "text": "A float staff member with unknown immunity cared for the resident overnight",
+     "correct_column": "Needs follow-up"
+    },
+    {
+     "id": "r5",
+     "text": "The resident asks about the shingles vaccine after recovery",
+     "correct_column": "Effective"
+    }
+   ],
+   "answer_summary": "The roommate was moved to another room and has no rash: Effective; Only staff with immunity were assigned to the resident: Effective; The lesions are crusted, and pain is 3/10 with prescribed medication: Effective; A float staff member with unknown immunity cared for the resident overnight: Needs follow-up; The resident asks about the shingles vaccine after recovery: Effective",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C22",
+   "case_sequence": 6,
+   "clinical_judgment_step": "Evaluate outcomes",
+   "content_hash": "bdfeb85bb9e19b1e"
+  },
+  {
+   "source_id": "PN-C23-01",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 1,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Recognize cues",
+   "item_type": "highlight",
+   "stem": "Highlight the findings that require follow-up.",
+   "rationale": "Jaundice spreading down the body, sleepiness, short and infrequent feedings, few wet diapers, a weight loss of about 10%, and a bilirubin level above the treatment threshold need prompt action. The temperature and respiratory rate are normal.",
+   "passage_segments": [
+    {
+     "id": "s1",
+     "text": "Yellow skin from the face to the abdomen"
+    },
+    {
+     "id": "s2",
+     "text": "Sleepy and hard to wake for feedings"
+    },
+    {
+     "id": "s3",
+     "text": "Breastfeeds 6 times in 24 hours for about 5 minutes"
+    },
+    {
+     "id": "s4",
+     "text": "Three wet diapers in 24 hours"
+    },
+    {
+     "id": "s5",
+     "text": "Weight 3,050 g, down from a birth weight of 3,400 g"
+    },
+    {
+     "id": "s6",
+     "text": "Total serum bilirubin 18.4 mg/dL"
+    },
+    {
+     "id": "s7",
+     "text": "T 98.6°F (37°C) axillary"
+    },
+    {
+     "id": "s8",
+     "text": "RR 44/min"
+    }
+   ],
+   "correct_text": "Yellow skin from the face to the abdomen; Sleepy and hard to wake for feedings; Breastfeeds 6 times in 24 hours for about 5 minutes; Three wet diapers in 24 hours; Weight 3,050 g, down from a birth weight of 3,400 g; Total serum bilirubin 18.4 mg/dL",
+   "answer_summary": "Yellow skin from the face to the abdomen; Sleepy and hard to wake for feedings; Breastfeeds 6 times in 24 hours for about 5 minutes; Three wet diapers in 24 hours; Weight 3,050 g, down from a birth weight of 3,400 g; Total serum bilirubin 18.4 mg/dL",
+   "scoring": "plus_minus",
+   "case_id": "PN-C23",
+   "case_sequence": 1,
+   "clinical_judgment_step": "Recognize cues",
+   "content_hash": "a60b292e45301d8b"
+  },
+  {
+   "source_id": "PN-C23-02",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 2,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Analyze cues",
+   "item_type": "matrix_grid",
+   "stem": "For each finding, indicate whether it is consistent with physiologic jaundice or is a concerning feature that needs evaluation.",
+   "rationale": "Physiologic jaundice appears after 24 hours, is mild, and resolves without treatment. Jaundice in the first 24 hours, bilirubin above the treatment threshold, excessive weight loss, and lethargy with poor feeding need evaluation and treatment.",
+   "columns": [
+    "Consistent with physiologic jaundice",
+    "Concerning feature"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Mild jaundice of the face that first appears on day 2",
+     "correct_column": "Consistent with physiologic jaundice"
+    },
+    {
+     "id": "r2",
+     "text": "Bilirubin above the phototherapy threshold for age",
+     "correct_column": "Concerning feature"
+    },
+    {
+     "id": "r3",
+     "text": "Weight loss of about 10% from birth weight",
+     "correct_column": "Concerning feature"
+    },
+    {
+     "id": "r4",
+     "text": "Sleepiness with poor feeding",
+     "correct_column": "Concerning feature"
+    },
+    {
+     "id": "r5",
+     "text": "Jaundice that appears in the first 24 hours of life",
+     "correct_column": "Concerning feature"
+    }
+   ],
+   "answer_summary": "Mild jaundice of the face that first appears on day 2: Consistent with physiologic jaundice; Bilirubin above the phototherapy threshold for age: Concerning feature; Weight loss of about 10% from birth weight: Concerning feature; Sleepiness with poor feeding: Concerning feature; Jaundice that appears in the first 24 hours of life: Concerning feature",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C23",
+   "case_sequence": 2,
+   "clinical_judgment_step": "Analyze cues",
+   "content_hash": "c76c170f87a720f8"
+  },
+  {
+   "source_id": "PN-C23-03",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 3,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Prioritize hypotheses",
+   "item_type": "drop_down_cloze",
+   "stem": "Complete the sentence by choosing from the lists of options.",
+   "rationale": "The high bilirubin level indicates hyperbilirubinemia. Low intake in the first days means fewer stools, so more bilirubin is reabsorbed from the intestine; ABO incompatibility may also add to red cell breakdown. Frequent feeding helps, and sunlight is not a treatment.",
+   "template": "The newborn most likely has ___1___, made worse by ___2___.",
+   "blanks": [
+    {
+     "id": "1",
+     "options": [
+      "hyperbilirubinemia",
+      "hypoglycemia",
+      "neonatal sepsis"
+     ],
+     "correct": "hyperbilirubinemia"
+    },
+    {
+     "id": "2",
+     "options": [
+      "low breast milk intake, with fewer stools to remove bilirubin",
+      "feeding too often",
+      "too much sun exposure"
+     ],
+     "correct": "low breast milk intake, with fewer stools to remove bilirubin"
+    }
+   ],
+   "answer_summary": "1: hyperbilirubinemia; 2: low breast milk intake, with fewer stools to remove bilirubin",
+   "scoring": "zero_one_per_blank",
+   "case_id": "PN-C23",
+   "case_sequence": 3,
+   "clinical_judgment_step": "Prioritize hypotheses",
+   "content_hash": "6b8a46f299424a57"
+  },
+  {
+   "source_id": "PN-C23-04",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 4,
+   "client_need": "Health Promotion and Maintenance",
+   "topic": "Case study: Generate solutions",
+   "item_type": "multiple_response",
+   "stem": "The newborn is admitted for phototherapy. Which care measures should the LPN/VN include? Select all that apply.",
+   "rationale": "Eye shields protect the retinas, maximum skin exposure increases effectiveness, frequent feedings help remove bilirubin in stools, and temperature and output are monitored because phototherapy can cause overheating and fluid loss. Lotions can cause burns under the lights, and eye shields are removed during feedings outside the lights to support bonding.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Cover the eyes with protective shields while under the lights",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Leave the newborn undressed except for a diaper",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Breastfeed at least 8 to 12 times in 24 hours",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Monitor temperature, wet diapers, and stools",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Apply lotion to protect the skin from the lights",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Keep the eye shields on during feedings out of the lights",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "case_id": "PN-C23",
+   "case_sequence": 4,
+   "clinical_judgment_step": "Generate solutions",
+   "content_hash": "bc6d81d62ab2dce9"
+  },
+  {
+   "source_id": "PN-C23-05",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 5,
+   "client_need": "Coordinated Care",
+   "topic": "Case study: Take action",
+   "item_type": "single_best_answer",
+   "stem": "The parent says, \"I don't think my baby is getting enough milk.\" Which referral should the LPN/VN suggest to the RN?",
+   "rationale": "A lactation consultant can assess latch, milk transfer, and supply and help the parent breastfeed more effectively, which addresses the cause of the low intake. A dietitian, social worker, or physical therapist does not address breastfeeding technique.",
+   "answer_summary": "D",
+   "options": [
+    {
+     "key": "A",
+     "text": "A dietitian",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "A social worker",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "A physical therapist",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "A lactation consultant",
+     "is_correct": true
+    }
+   ],
+   "scoring": "zero_one",
+   "case_id": "PN-C23",
+   "case_sequence": 5,
+   "clinical_judgment_step": "Take action",
+   "content_hash": "37150c4a8aba3b31"
+  },
+  {
+   "source_id": "PN-C23-06",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 6,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Evaluate outcomes",
+   "item_type": "matrix_grid",
+   "stem": "After 24 hours of phototherapy, the LPN/VN collects data. For each finding, indicate whether it shows improvement or needs follow-up.",
+   "rationale": "A falling bilirubin level, frequent feedings, good output, and better alertness show improvement. A temperature of 100.8°F may reflect overheating under the lights or infection and must be reported.",
+   "columns": [
+    "Improvement",
+    "Needs follow-up"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Total serum bilirubin 13.2 mg/dL",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r2",
+     "text": "Breastfeeds 10 times in 24 hours",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r3",
+     "text": "Six wet diapers and three yellow stools in 24 hours",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r4",
+     "text": "Alert and waking for feedings",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r5",
+     "text": "T 100.8°F (38.2°C) axillary",
+     "correct_column": "Needs follow-up"
+    }
+   ],
+   "answer_summary": "Total serum bilirubin 13.2 mg/dL: Improvement; Breastfeeds 10 times in 24 hours: Improvement; Six wet diapers and three yellow stools in 24 hours: Improvement; Alert and waking for feedings: Improvement; T 100.8°F (38.2°C) axillary: Needs follow-up",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C23",
+   "case_sequence": 6,
+   "clinical_judgment_step": "Evaluate outcomes",
+   "content_hash": "cc662ad49bf643ea"
+  },
+  {
+   "source_id": "PN-C24-01",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 1,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Recognize cues",
+   "item_type": "highlight",
+   "stem": "Highlight the findings that require follow-up.",
+   "rationale": "Generalized edema, foamy urine, weight gain, heavy proteinuria, and low albumin show significant protein loss and fluid retention. The blood pressure and temperature are normal for age.",
+   "passage_segments": [
+    {
+     "id": "s1",
+     "text": "Swelling around the eyes"
+    },
+    {
+     "id": "s2",
+     "text": "Abdomen distended"
+    },
+    {
+     "id": "s3",
+     "text": "Pitting edema in both legs"
+    },
+    {
+     "id": "s4",
+     "text": "Urine dark and foamy"
+    },
+    {
+     "id": "s5",
+     "text": "Weight up 1.8 kg in 2 weeks"
+    },
+    {
+     "id": "s6",
+     "text": "Urine protein 3+"
+    },
+    {
+     "id": "s7",
+     "text": "Serum albumin 1.8 g/dL"
+    },
+    {
+     "id": "s8",
+     "text": "BP 104/66 mm Hg"
+    },
+    {
+     "id": "s9",
+     "text": "T 98.8°F (37.1°C)"
+    }
+   ],
+   "correct_text": "Swelling around the eyes; Abdomen distended; Pitting edema in both legs; Urine dark and foamy; Weight up 1.8 kg in 2 weeks; Urine protein 3+; Serum albumin 1.8 g/dL",
+   "answer_summary": "Swelling around the eyes; Abdomen distended; Pitting edema in both legs; Urine dark and foamy; Weight up 1.8 kg in 2 weeks; Urine protein 3+; Serum albumin 1.8 g/dL",
+   "scoring": "plus_minus",
+   "case_id": "PN-C24",
+   "case_sequence": 1,
+   "clinical_judgment_step": "Recognize cues",
+   "content_hash": "3ceb2c75a7e5505d"
+  },
+  {
+   "source_id": "PN-C24-02",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 2,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Analyze cues",
+   "item_type": "matrix_grid",
+   "stem": "For each finding, indicate whether it results mainly from protein loss in the urine or from fluid shifting into the tissues.",
+   "rationale": "Damaged glomeruli leak protein, causing proteinuria, foamy urine, and low serum albumin. With less albumin to hold fluid in the blood vessels, fluid shifts into the tissues, causing edema and weight gain.",
+   "columns": [
+    "Protein loss in the urine",
+    "Fluid shift into the tissues"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Urine protein 3+",
+     "correct_column": "Protein loss in the urine"
+    },
+    {
+     "id": "r2",
+     "text": "Serum albumin 1.8 g/dL",
+     "correct_column": "Protein loss in the urine"
+    },
+    {
+     "id": "r3",
+     "text": "Foamy urine",
+     "correct_column": "Protein loss in the urine"
+    },
+    {
+     "id": "r4",
+     "text": "Swelling around the eyes",
+     "correct_column": "Fluid shift into the tissues"
+    },
+    {
+     "id": "r5",
+     "text": "Pitting edema in the legs",
+     "correct_column": "Fluid shift into the tissues"
+    },
+    {
+     "id": "r6",
+     "text": "Weight gain of 1.8 kg",
+     "correct_column": "Fluid shift into the tissues"
+    }
+   ],
+   "answer_summary": "Urine protein 3+: Protein loss in the urine; Serum albumin 1.8 g/dL: Protein loss in the urine; Foamy urine: Protein loss in the urine; Swelling around the eyes: Fluid shift into the tissues; Pitting edema in the legs: Fluid shift into the tissues; Weight gain of 1.8 kg: Fluid shift into the tissues",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C24",
+   "case_sequence": 2,
+   "clinical_judgment_step": "Analyze cues",
+   "content_hash": "dbc14dcd1a96335b"
+  },
+  {
+   "source_id": "PN-C24-03",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 3,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Prioritize hypotheses",
+   "item_type": "drop_down_cloze",
+   "stem": "Complete the sentence by choosing from the lists of options.",
+   "rationale": "Massive proteinuria, low albumin, high cholesterol, and generalized edema with a normal blood pressure are typical of nephrotic syndrome in young children. Loss of immune proteins in the urine and treatment with corticosteroids increase the risk of infection. Glomerulonephritis typically causes hypertension and dark, tea-colored urine with less edema.",
+   "template": "The child most likely has ___1___, and the child is at increased risk for ___2___.",
+   "blanks": [
+    {
+     "id": "1",
+     "options": [
+      "nephrotic syndrome",
+      "acute glomerulonephritis",
+      "a urinary tract infection"
+     ],
+     "correct": "nephrotic syndrome"
+    },
+    {
+     "id": "2",
+     "options": [
+      "infection",
+      "hypertensive crisis",
+      "bleeding"
+     ],
+     "correct": "infection"
+    }
+   ],
+   "answer_summary": "1: nephrotic syndrome; 2: infection",
+   "scoring": "zero_one_per_blank",
+   "case_id": "PN-C24",
+   "case_sequence": 3,
+   "clinical_judgment_step": "Prioritize hypotheses",
+   "content_hash": "2177a999b4da7d44"
+  },
+  {
+   "source_id": "PN-C24-04",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 4,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Generate solutions",
+   "item_type": "multiple_response",
+   "stem": "Which instructions about prednisone should the LPN/VN reinforce with the parents? Select all that apply.",
+   "rationale": "Taking prednisone with food reduces stomach upset, infection precautions are important because of immunosuppression, and stopping suddenly can cause adrenal insufficiency, so the dose is tapered as prescribed. Increased appetite and mood changes are expected. Live vaccines are delayed during high-dose steroid therapy.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Give prednisone with food",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Keep the child away from people with infections and report a fever",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Do not stop prednisone suddenly",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Expect increased appetite and mood changes",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Schedule live vaccines during treatment",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Stop prednisone as soon as the swelling goes away",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "case_id": "PN-C24",
+   "case_sequence": 4,
+   "clinical_judgment_step": "Generate solutions",
+   "content_hash": "90ea192ebf3bdd8c"
+  },
+  {
+   "source_id": "PN-C24-05",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 5,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Case study: Take action",
+   "item_type": "single_best_answer",
+   "stem": "The child refuses to play and says, \"I look like a balloon.\" What is the LPN/VN's best response?",
+   "rationale": "A simple, honest explanation that the swelling will improve with treatment, along with an activity that fits the child's energy level, supports a preschooler's coping. Denying the child's feelings, making a false promise, and avoiding the topic do not help.",
+   "answer_summary": "A",
+   "options": [
+    {
+     "key": "A",
+     "text": "\"The medicine will help the puffiness go away. Let's pick a game you can play in bed.\"",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "\"You don't look like a balloon at all, so there is really nothing for you to be upset about.\"",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "\"If you eat less salt, you'll look normal again by tomorrow morning when you wake up from your sleep.\"",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "\"Let's not talk about how you look.\"",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "case_id": "PN-C24",
+   "case_sequence": 5,
+   "clinical_judgment_step": "Take action",
+   "content_hash": "c86154463c7bdc88"
+  },
+  {
+   "source_id": "PN-C24-06",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 6,
+   "client_need": "Coordinated Care",
+   "topic": "Case study: Evaluate outcomes",
+   "item_type": "matrix_grid",
+   "stem": "Before discharge, the LPN/VN reviews the plan with the family. For each finding, indicate whether the plan is ready or needs follow-up.",
+   "rationale": "Home urine testing, knowing when to report infection, and scheduled follow-up support a safe transition home. A plan to stop prednisone abruptly needs more teaching, and a cost barrier needs a social work referral through the RN before discharge.",
+   "columns": [
+    "Ready",
+    "Needs follow-up"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Parent demonstrates checking the urine for protein with a dipstick",
+     "correct_column": "Ready"
+    },
+    {
+     "id": "r2",
+     "text": "Parent states the signs of infection to report",
+     "correct_column": "Ready"
+    },
+    {
+     "id": "r3",
+     "text": "Follow-up appointment with the nephrology clinic is scheduled",
+     "correct_column": "Ready"
+    },
+    {
+     "id": "r4",
+     "text": "Parent plans to stop prednisone when the swelling goes away",
+     "correct_column": "Needs follow-up"
+    },
+    {
+     "id": "r5",
+     "text": "Family says they cannot afford the prescribed medication",
+     "correct_column": "Needs follow-up"
+    }
+   ],
+   "answer_summary": "Parent demonstrates checking the urine for protein with a dipstick: Ready; Parent states the signs of infection to report: Ready; Follow-up appointment with the nephrology clinic is scheduled: Ready; Parent plans to stop prednisone when the swelling goes away: Needs follow-up; Family says they cannot afford the prescribed medication: Needs follow-up",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C24",
+   "case_sequence": 6,
+   "clinical_judgment_step": "Evaluate outcomes",
+   "content_hash": "182eb24b1884289d"
+  },
+  {
+   "source_id": "PN-C25-01",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 1,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Recognize cues",
+   "item_type": "highlight",
+   "stem": "Highlight the findings that require follow-up.",
+   "rationale": "Coarse tremor, ataxia, slurred speech, and vomiting with a lithium level of 2.2 mEq/L indicate toxicity. Dehydration, reduced kidney function, and ibuprofen, which decreases lithium excretion, explain the rise. A stable mood without self-harm thoughts is not a concern today.",
+   "passage_segments": [
+    {
+     "id": "s1",
+     "text": "Coarse hand tremor"
+    },
+    {
+     "id": "s2",
+     "text": "Unsteady gait and slurred speech"
+    },
+    {
+     "id": "s3",
+     "text": "Vomited twice this morning"
+    },
+    {
+     "id": "s4",
+     "text": "Drinking less because of nausea"
+    },
+    {
+     "id": "s5",
+     "text": "Lithium level 2.2 mEq/L"
+    },
+    {
+     "id": "s6",
+     "text": "Creatinine 1.5 mg/dL"
+    },
+    {
+     "id": "s7",
+     "text": "Ibuprofen 600 mg three times daily"
+    },
+    {
+     "id": "s8",
+     "text": "Mood stable, with no thoughts of self-harm"
+    }
+   ],
+   "correct_text": "Coarse hand tremor; Unsteady gait and slurred speech; Vomited twice this morning; Drinking less because of nausea; Lithium level 2.2 mEq/L; Creatinine 1.5 mg/dL; Ibuprofen 600 mg three times daily",
+   "answer_summary": "Coarse hand tremor; Unsteady gait and slurred speech; Vomited twice this morning; Drinking less because of nausea; Lithium level 2.2 mEq/L; Creatinine 1.5 mg/dL; Ibuprofen 600 mg three times daily",
+   "scoring": "plus_minus",
+   "case_id": "PN-C25",
+   "case_sequence": 1,
+   "clinical_judgment_step": "Recognize cues",
+   "content_hash": "dec35239b3b00c63"
+  },
+  {
+   "source_id": "PN-C25-02",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 2,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Analyze cues",
+   "item_type": "matrix_grid",
+   "stem": "For each finding, indicate whether it is an expected effect at a therapeutic lithium level or a sign of toxicity.",
+   "rationale": "A fine tremor, mild thirst, increased urination, and mild nausea early in therapy are common at therapeutic levels. A coarse tremor, ataxia, slurred speech, and persistent vomiting and diarrhea are signs of toxicity that need immediate attention.",
+   "columns": [
+    "Expected at a therapeutic level",
+    "Sign of toxicity"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Fine hand tremor",
+     "correct_column": "Expected at a therapeutic level"
+    },
+    {
+     "id": "r2",
+     "text": "Mild thirst and increased urination",
+     "correct_column": "Expected at a therapeutic level"
+    },
+    {
+     "id": "r3",
+     "text": "Coarse hand tremor",
+     "correct_column": "Sign of toxicity"
+    },
+    {
+     "id": "r4",
+     "text": "Unsteady gait and slurred speech",
+     "correct_column": "Sign of toxicity"
+    },
+    {
+     "id": "r5",
+     "text": "Persistent vomiting and diarrhea",
+     "correct_column": "Sign of toxicity"
+    },
+    {
+     "id": "r6",
+     "text": "Mild nausea when therapy is first started",
+     "correct_column": "Expected at a therapeutic level"
+    }
+   ],
+   "answer_summary": "Fine hand tremor: Expected at a therapeutic level; Mild thirst and increased urination: Expected at a therapeutic level; Coarse hand tremor: Sign of toxicity; Unsteady gait and slurred speech: Sign of toxicity; Persistent vomiting and diarrhea: Sign of toxicity; Mild nausea when therapy is first started: Expected at a therapeutic level",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C25",
+   "case_sequence": 2,
+   "clinical_judgment_step": "Analyze cues",
+   "content_hash": "9ca43b38c1931168"
+  },
+  {
+   "source_id": "PN-C25-03",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 3,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Prioritize hypotheses",
+   "item_type": "drop_down_cloze",
+   "stem": "Complete the sentence by choosing from the lists of options.",
+   "rationale": "Lithium is cleared by the kidneys. Fluid and sodium loss from vomiting and diarrhea and NSAIDs such as ibuprofen reduce its excretion, so the level rises to a toxic range. High sodium intake and missed doses would lower the level.",
+   "template": "The client is most likely experiencing ___1___, caused by ___2___.",
+   "blanks": [
+    {
+     "id": "1",
+     "options": [
+      "lithium toxicity",
+      "a manic episode",
+      "a viral infection alone"
+     ],
+     "correct": "lithium toxicity"
+    },
+    {
+     "id": "2",
+     "options": [
+      "dehydration and ibuprofen reducing lithium excretion",
+      "too much sodium in the diet",
+      "missed lithium doses"
+     ],
+     "correct": "dehydration and ibuprofen reducing lithium excretion"
+    }
+   ],
+   "answer_summary": "1: lithium toxicity; 2: dehydration and ibuprofen reducing lithium excretion",
+   "scoring": "zero_one_per_blank",
+   "case_id": "PN-C25",
+   "case_sequence": 3,
+   "clinical_judgment_step": "Prioritize hypotheses",
+   "content_hash": "51850207ce044f51"
+  },
+  {
+   "source_id": "PN-C25-04",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 4,
+   "client_need": "Coordinated Care",
+   "topic": "Case study: Generate solutions",
+   "item_type": "multiple_response",
+   "stem": "Which actions should the LPN/VN take? Select all that apply.",
+   "rationale": "With signs of toxicity and a high level, the next dose is held and the provider is notified immediately, usually leading to emergency evaluation. The client's unsteadiness requires supervision, and the provider needs to know about the NSAID. Salt loading is not done independently, and sending the client home is unsafe.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Hold the next lithium dose",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Notify the RN and provider of the lithium level and symptoms right away",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Stay with the client because of the risk of falling",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Report the client's ibuprofen use to the provider",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Encourage the client to take the next dose with extra salt",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Send the client home to rest and recheck the level next week",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "case_id": "PN-C25",
+   "case_sequence": 4,
+   "clinical_judgment_step": "Generate solutions",
+   "content_hash": "cbe54204239905f6"
+  },
+  {
+   "source_id": "PN-C25-05",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 5,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Take action",
+   "item_type": "single_best_answer",
+   "stem": "Which instruction should the LPN/VN reinforce to help prevent another episode?",
+   "rationale": "Adequate fluids and avoiding NSAIDs unless approved help keep lithium levels stable. Sharply reducing sodium raises lithium levels, missed or skipped doses should be discussed with the provider, and stopping lithium can cause relapse.",
+   "answer_summary": "A",
+   "options": [
+    {
+     "key": "A",
+     "text": "Drink about 2 to 3 L of fluid daily and check with the provider before taking NSAIDs",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Cut back on salt as much as possible to keep the lithium level from rising again",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Skip lithium doses on days when you feel nauseated",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Stop lithium once your mood has been stable for a month",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "case_id": "PN-C25",
+   "case_sequence": 5,
+   "clinical_judgment_step": "Take action",
+   "content_hash": "e15318af2a460aca"
+  },
+  {
+   "source_id": "PN-C25-06",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 6,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Case study: Evaluate outcomes",
+   "item_type": "matrix_grid",
+   "stem": "At a follow-up visit after recovery, the LPN/VN reviews the client's progress. For each finding, indicate whether it shows progress or needs follow-up.",
+   "rationale": "Stable mood and sleep, regular therapy, recognizing early warning signs, and a crisis plan show good self-management. Thinking about stopping lithium after the toxicity episode raises the risk of relapse, so the LPN/VN reports it so the provider can discuss the client's concerns and options.",
+   "columns": [
+    "Progress",
+    "Needs follow-up"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Mood stable, sleeping about 7 hours a night",
+     "correct_column": "Progress"
+    },
+    {
+     "id": "r2",
+     "text": "Attends weekly therapy sessions",
+     "correct_column": "Progress"
+    },
+    {
+     "id": "r3",
+     "text": "Names early warning signs of mania, such as needing less sleep",
+     "correct_column": "Progress"
+    },
+    {
+     "id": "r4",
+     "text": "Has a written crisis plan",
+     "correct_column": "Progress"
+    },
+    {
+     "id": "r5",
+     "text": "Says, \"I'm thinking about stopping lithium because of what happened.\"",
+     "correct_column": "Needs follow-up"
+    }
+   ],
+   "answer_summary": "Mood stable, sleeping about 7 hours a night: Progress; Attends weekly therapy sessions: Progress; Names early warning signs of mania, such as needing less sleep: Progress; Has a written crisis plan: Progress; Says, \"I'm thinking about stopping lithium because of what happened.\": Needs follow-up",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C25",
+   "case_sequence": 6,
+   "clinical_judgment_step": "Evaluate outcomes",
+   "content_hash": "4332d84a932259b1"
+  }
+ ],
+ "case_studies": [
+  {
+   "scenario": "A 54-year-old client is on the second day after an open colectomy. The client smokes 1 pack of cigarettes a day and is reluctant to move because of pain.",
+   "exhibits": [
+    {
+     "label": "Nurses' notes, 0900",
+     "content": "Splints the abdomen and takes shallow breaths. Diminished breath sounds with fine crackles at both bases. Weak, nonproductive cough. Has used the incentive spirometer twice since last evening, reaching 500 mL (goal 1,500 mL). Has stayed in bed since surgery. Pain 7/10; the last oxycodone dose was 6 hours ago."
+    },
+    {
+     "label": "Vital signs, 0900",
+     "content": "T 100.2°F (37.9°C), HR 98/min, RR 24/min and shallow, BP 132/78 mm Hg, SpO2 91% on room air."
+    },
+    {
+     "label": "Prescriptions",
+     "content": "Oxycodone 5 mg by mouth every 4 hours as needed for pain. Incentive spirometer 10 times an hour while awake. Walk in the hallway 3 times a day. Oxygen by nasal cannula to keep SpO2 at 92% or higher."
+    }
+   ],
+   "case_id": "PN-C21",
+   "track": "pn",
+   "set_number": 49,
+   "title": "Atelectasis after abdominal surgery"
+  },
+  {
+   "scenario": "A 74-year-old resident of an assisted living facility has had burning pain on the right side of the chest for 3 days. Today, a rash has appeared in the same area.",
+   "exhibits": [
+    {
+     "label": "Nurses' notes",
+     "content": "Clusters of fluid-filled blisters on red skin in a band from the spine to the front of the right chest, stopping at the midline. Burning pain 8/10, worse when clothing touches the area. The lesions have not crusted. The resident's roommate is receiving chemotherapy. One staff member on the unit is pregnant and has never had chickenpox."
+    },
+    {
+     "label": "Vital signs",
+     "content": "T 99.4°F (37.4°C), HR 88/min, RR 16/min, BP 138/80 mm Hg."
+    },
+    {
+     "label": "History",
+     "content": "Had chickenpox as a child. Has not received the shingles vaccine."
+    }
+   ],
+   "case_id": "PN-C22",
+   "track": "pn",
+   "set_number": 49,
+   "title": "Herpes zoster in an older adult"
+  },
+  {
+   "scenario": "A 3-day-old term newborn who is exclusively breastfed is seen at the pediatric clinic for a follow-up visit. The parent says the baby has looked more yellow since yesterday.",
+   "exhibits": [
+    {
+     "label": "Nurses' notes",
+     "content": "Yellow skin from the face to the abdomen and yellow sclera. Sleepy and hard to wake for feedings. Breastfeeds 6 times in 24 hours for about 5 minutes each time. Three wet diapers and one small dark stool in 24 hours. Weight 3,050 g; birth weight 3,400 g."
+    },
+    {
+     "label": "Vital signs",
+     "content": "T 98.6°F (37°C) axillary, HR 140/min, RR 44/min."
+    },
+    {
+     "label": "Laboratory results",
+     "content": "Total serum bilirubin 18.4 mg/dL, above the phototherapy threshold for the newborn's age. Parent's blood type O positive; newborn's blood type A positive."
+    }
+   ],
+   "case_id": "PN-C23",
+   "track": "pn",
+   "set_number": 49,
+   "title": "Hyperbilirubinemia in a breastfed newborn"
+  },
+  {
+   "scenario": "A 4-year-old is admitted with swelling around the eyes and abdomen that has increased over the past week.",
+   "exhibits": [
+    {
+     "label": "Nurses' notes",
+     "content": "Swelling around the eyes, worst in the morning. Abdomen distended. Pitting edema in both legs. Urine dark and foamy. Tired and irritable and refuses to play. Weight 19.6 kg, up from 17.8 kg 2 weeks ago."
+    },
+    {
+     "label": "Vital signs",
+     "content": "T 98.8°F (37.1°C), HR 108/min, RR 24/min, BP 104/66 mm Hg."
+    },
+    {
+     "label": "Laboratory results",
+     "content": "Urine protein 3+ (negative). Serum albumin 1.8 g/dL (3.5–5.0). Cholesterol 310 mg/dL (below 170)."
+    },
+    {
+     "label": "Prescriptions",
+     "content": "Prednisone 2 mg/kg/day by mouth. Low-sodium diet. Daily weight. Strict intake and output."
+    }
+   ],
+   "case_id": "PN-C24",
+   "track": "pn",
+   "set_number": 49,
+   "title": "Nephrotic syndrome in a preschool child"
+  },
+  {
+   "scenario": "A 38-year-old client with bipolar I disorder who takes lithium comes to the outpatient mental health clinic. The client started ibuprofen for back pain 1 week ago and has had diarrhea for 2 days.",
+   "exhibits": [
+    {
+     "label": "Nurses' notes",
+     "content": "Coarse hand tremor. Unsteady gait and slurred speech. Vomited twice this morning. Five episodes of diarrhea in 24 hours. Says, \"I feel foggy.\" Has been drinking less because of nausea. Mood stable, with no thoughts of self-harm."
+    },
+    {
+     "label": "Laboratory results",
+     "content": "Lithium level 2.2 mEq/L (therapeutic 0.6–1.2). Sodium 133 mEq/L (135–145). Creatinine 1.5 mg/dL (0.6–1.2)."
+    },
+    {
+     "label": "Medications",
+     "content": "Lithium carbonate 300 mg by mouth three times daily. Ibuprofen 600 mg by mouth three times daily, over the counter."
+    }
+   ],
+   "case_id": "PN-C25",
+   "track": "pn",
+   "set_number": 49,
+   "title": "Lithium toxicity in bipolar disorder"
+  }
+ ]
+}
