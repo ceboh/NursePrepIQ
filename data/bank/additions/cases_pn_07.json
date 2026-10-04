@@ -1,0 +1,1534 @@
+{
+ "_comment": "PN NGN unfolding case studies, batch 07 (PN-C31 to PN-C35). Six items per case, one per clinical judgment step. Pilot status.",
+ "track": "pn",
+ "questions": [
+  {
+   "source_id": "PN-C31-01",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 1,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Recognize cues",
+   "item_type": "highlight",
+   "stem": "Highlight the findings that require immediate follow-up.",
+   "rationale": "Severe sedation, apneic pauses, pinpoint pupils, a respiratory rate of 8/min, and hypoxemia after an opioid combined with a benzodiazepine, in a client with sleep apnea who is not using CPAP, indicate opioid-induced respiratory depression. The temperature is normal.",
+   "passage_segments": [
+    {
+     "id": "s1",
+     "text": "Arouses briefly to a loud voice and a sternal rub"
+    },
+    {
+     "id": "s2",
+     "text": "Pauses in breathing of about 15 seconds"
+    },
+    {
+     "id": "s3",
+     "text": "Pupils pinpoint"
+    },
+    {
+     "id": "s4",
+     "text": "Not wearing the home CPAP"
+    },
+    {
+     "id": "s5",
+     "text": "RR 8/min"
+    },
+    {
+     "id": "s6",
+     "text": "SpO2 85% on room air"
+    },
+    {
+     "id": "s7",
+     "text": "Received oxycodone and then lorazepam"
+    },
+    {
+     "id": "s8",
+     "text": "T 98.4°F (36.9°C)"
+    }
+   ],
+   "correct_text": "Arouses briefly to a loud voice and a sternal rub; Pauses in breathing of about 15 seconds; Pupils pinpoint; Not wearing the home CPAP; RR 8/min; SpO2 85% on room air; Received oxycodone and then lorazepam",
+   "answer_summary": "Arouses briefly to a loud voice and a sternal rub; Pauses in breathing of about 15 seconds; Pupils pinpoint; Not wearing the home CPAP; RR 8/min; SpO2 85% on room air; Received oxycodone and then lorazepam",
+   "scoring": "plus_minus",
+   "case_id": "PN-C31",
+   "case_sequence": 1,
+   "clinical_judgment_step": "Recognize cues",
+   "content_hash": "b3d48ef6fb1a2d71"
+  },
+  {
+   "source_id": "PN-C31-02",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 2,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Analyze cues",
+   "item_type": "matrix_grid",
+   "stem": "For each factor, indicate whether it increases or decreases the risk of opioid-induced respiratory depression.",
+   "rationale": "Sleep apnea, older age, combining opioids with sedatives such as benzodiazepines, and the first day after surgery all raise the risk. CPAP keeps the airway open, and multimodal analgesia with nonopioid medicines lowers the opioid dose needed.",
+   "columns": [
+    "Increases risk",
+    "Decreases risk"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Obstructive sleep apnea",
+     "correct_column": "Increases risk"
+    },
+    {
+     "id": "r2",
+     "text": "Age 72",
+     "correct_column": "Increases risk"
+    },
+    {
+     "id": "r3",
+     "text": "Lorazepam given after oxycodone",
+     "correct_column": "Increases risk"
+    },
+    {
+     "id": "r4",
+     "text": "The first 24 hours after surgery",
+     "correct_column": "Increases risk"
+    },
+    {
+     "id": "r5",
+     "text": "Wearing CPAP during sleep",
+     "correct_column": "Decreases risk"
+    },
+    {
+     "id": "r6",
+     "text": "Using scheduled acetaminophen to reduce opioid needs",
+     "correct_column": "Decreases risk"
+    }
+   ],
+   "answer_summary": "Obstructive sleep apnea: Increases risk; Age 72: Increases risk; Lorazepam given after oxycodone: Increases risk; The first 24 hours after surgery: Increases risk; Wearing CPAP during sleep: Decreases risk; Using scheduled acetaminophen to reduce opioid needs: Decreases risk",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C31",
+   "case_sequence": 2,
+   "clinical_judgment_step": "Analyze cues",
+   "content_hash": "7433e77109346e91"
+  },
+  {
+   "source_id": "PN-C31-03",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 3,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Prioritize hypotheses",
+   "item_type": "drop_down_cloze",
+   "stem": "Complete the sentence by choosing from the lists of options.",
+   "rationale": "Profound sedation with slow, shallow breathing and pinpoint pupils after an opioid and a benzodiazepine indicates opioid-induced respiratory depression. Naloxone reverses the opioid, titrated per protocol to restore breathing without causing severe pain, while the client is stimulated and monitored. More opioid or lorazepam would worsen it.",
+   "template": "The client is most likely experiencing ___1___, and the LPN/VN should anticipate ___2___.",
+   "blanks": [
+    {
+     "id": "1",
+     "options": [
+      "opioid-induced respiratory depression",
+      "a stroke",
+      "normal sleep after surgery"
+     ],
+     "correct": "opioid-induced respiratory depression"
+    },
+    {
+     "id": "2",
+     "options": [
+      "naloxone given per protocol while the client is stimulated and monitored",
+      "another dose of oxycodone",
+      "an additional dose of lorazepam"
+     ],
+     "correct": "naloxone given per protocol while the client is stimulated and monitored"
+    }
+   ],
+   "answer_summary": "1: opioid-induced respiratory depression; 2: naloxone given per protocol while the client is stimulated and monitored",
+   "scoring": "zero_one_per_blank",
+   "case_id": "PN-C31",
+   "case_sequence": 3,
+   "clinical_judgment_step": "Prioritize hypotheses",
+   "content_hash": "91d95c663b70e4f9"
+  },
+  {
+   "source_id": "PN-C31-04",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 4,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Generate solutions",
+   "item_type": "multiple_response",
+   "stem": "Which actions should the LPN/VN take immediately? Select all that apply.",
+   "rationale": "Respiratory depression is an emergency: the LPN/VN calls for help, stimulates the client to breathe, supports the airway and oxygenation, and holds sedating medications. Letting the client sleep allows hypoventilation to continue, and giving anything by mouth to a sedated client risks aspiration.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Call for help and notify the RN right away",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Stimulate the client and encourage deep breaths",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Raise the head of the bed and apply oxygen per protocol",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Hold further opioid and sedative doses",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Let the client sleep, since the pain is controlled",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Give the scheduled acetaminophen tablet with water now",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "case_id": "PN-C31",
+   "case_sequence": 4,
+   "clinical_judgment_step": "Generate solutions",
+   "content_hash": "0be0c556d91b69ea"
+  },
+  {
+   "source_id": "PN-C31-05",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 5,
+   "client_need": "Coordinated Care",
+   "topic": "Case study: Take action",
+   "item_type": "single_best_answer",
+   "stem": "After the client stabilizes, which task can the LPN/VN delegate to the assistive personnel for the rest of the night?",
+   "rationale": "Checking that a device stays in place and reporting is a routine task that can be delegated with clear instructions. Rating sedation, evaluating breathing, and deciding about opioid doses require nursing judgment and stay with the licensed nurse.",
+   "answer_summary": "C",
+   "options": [
+    {
+     "key": "A",
+     "text": "Rating the client's sedation level with the opioid sedation scale every 2 hours overnight",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Deciding whether the client can have another oxycodone dose",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Checking that the CPAP mask stays on and reporting right away if it is off",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Evaluating the client's breathing pattern",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "case_id": "PN-C31",
+   "case_sequence": 5,
+   "clinical_judgment_step": "Take action",
+   "content_hash": "30f9823b5fb7c360"
+  },
+  {
+   "source_id": "PN-C31-06",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 6,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Evaluate outcomes",
+   "item_type": "matrix_grid",
+   "stem": "After naloxone, the LPN/VN monitors the client. For each finding, indicate whether it shows improvement or needs follow-up.",
+   "rationale": "A normal respiratory rate and oxygen saturation, easy arousal, and tolerable pain show a good response. Naloxone's effect can wear off before the opioid's, so a return of slow breathing and sedation needs immediate reporting and may require more naloxone.",
+   "columns": [
+    "Improvement",
+    "Needs follow-up"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "RR 16/min",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r2",
+     "text": "SpO2 94% with CPAP on",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r3",
+     "text": "Awake and easy to arouse",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r4",
+     "text": "Pain 5/10, and the client is able to rest",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r5",
+     "text": "Thirty minutes later, RR 9/min and hard to arouse again",
+     "correct_column": "Needs follow-up"
+    }
+   ],
+   "answer_summary": "RR 16/min: Improvement; SpO2 94% with CPAP on: Improvement; Awake and easy to arouse: Improvement; Pain 5/10, and the client is able to rest: Improvement; Thirty minutes later, RR 9/min and hard to arouse again: Needs follow-up",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C31",
+   "case_sequence": 6,
+   "clinical_judgment_step": "Evaluate outcomes",
+   "content_hash": "15e5228de82ae569"
+  },
+  {
+   "source_id": "PN-C32-01",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 1,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Recognize cues",
+   "item_type": "highlight",
+   "stem": "Highlight the findings that require follow-up.",
+   "rationale": "Inability to urinate with pain, a palpable bladder, and a large bladder volume indicate acute urinary retention. Missing tamsulosin and taking a decongestant and an antihistamine explain it. The temperature is normal, making infection less likely.",
+   "passage_segments": [
+    {
+     "id": "s1",
+     "text": "Unable to urinate for 10 hours"
+    },
+    {
+     "id": "s2",
+     "text": "Lower abdominal pain 8/10"
+    },
+    {
+     "id": "s3",
+     "text": "Bladder palpable above the pubic bone"
+    },
+    {
+     "id": "s4",
+     "text": "Bladder scan shows 950 mL"
+    },
+    {
+     "id": "s5",
+     "text": "Tamsulosin missed for 3 days"
+    },
+    {
+     "id": "s6",
+     "text": "Cold medicine with pseudoephedrine and diphenhydramine"
+    },
+    {
+     "id": "s7",
+     "text": "T 98.6°F (37°C)"
+    }
+   ],
+   "correct_text": "Unable to urinate for 10 hours; Lower abdominal pain 8/10; Bladder palpable above the pubic bone; Bladder scan shows 950 mL; Tamsulosin missed for 3 days; Cold medicine with pseudoephedrine and diphenhydramine",
+   "answer_summary": "Unable to urinate for 10 hours; Lower abdominal pain 8/10; Bladder palpable above the pubic bone; Bladder scan shows 950 mL; Tamsulosin missed for 3 days; Cold medicine with pseudoephedrine and diphenhydramine",
+   "scoring": "plus_minus",
+   "case_id": "PN-C32",
+   "case_sequence": 1,
+   "clinical_judgment_step": "Recognize cues",
+   "content_hash": "d5ac932a5e63b59d"
+  },
+  {
+   "source_id": "PN-C32-02",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 2,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Analyze cues",
+   "item_type": "matrix_grid",
+   "stem": "For each medication, indicate whether it can worsen urinary retention or helps relieve it in a client with an enlarged prostate.",
+   "rationale": "Decongestants tighten the bladder neck, and anticholinergic drugs such as diphenhydramine and oxybutynin and opioids weaken bladder contraction. Tamsulosin relaxes the prostate and bladder neck, and finasteride shrinks the prostate over time.",
+   "columns": [
+    "Can worsen retention",
+    "Helps relieve retention"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Pseudoephedrine",
+     "correct_column": "Can worsen retention"
+    },
+    {
+     "id": "r2",
+     "text": "Diphenhydramine",
+     "correct_column": "Can worsen retention"
+    },
+    {
+     "id": "r3",
+     "text": "Tamsulosin",
+     "correct_column": "Helps relieve retention"
+    },
+    {
+     "id": "r4",
+     "text": "Oxybutynin",
+     "correct_column": "Can worsen retention"
+    },
+    {
+     "id": "r5",
+     "text": "Finasteride",
+     "correct_column": "Helps relieve retention"
+    },
+    {
+     "id": "r6",
+     "text": "Opioid pain medicines",
+     "correct_column": "Can worsen retention"
+    }
+   ],
+   "answer_summary": "Pseudoephedrine: Can worsen retention; Diphenhydramine: Can worsen retention; Tamsulosin: Helps relieve retention; Oxybutynin: Can worsen retention; Finasteride: Helps relieve retention; Opioid pain medicines: Can worsen retention",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C32",
+   "case_sequence": 2,
+   "clinical_judgment_step": "Analyze cues",
+   "content_hash": "ae2fc712af2ebe89"
+  },
+  {
+   "source_id": "PN-C32-03",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 3,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Prioritize hypotheses",
+   "item_type": "drop_down_cloze",
+   "stem": "Complete the sentence by choosing from the lists of options.",
+   "rationale": "A distended bladder with 950 mL and no urine output in a client with BPH is acute urinary retention, triggered by medicines that interfere with bladder emptying while the client was off tamsulosin.",
+   "template": "The client is most likely experiencing ___1___, triggered by ___2___.",
+   "blanks": [
+    {
+     "id": "1",
+     "options": [
+      "acute urinary retention",
+      "a urinary tract infection",
+      "kidney stones"
+     ],
+     "correct": "acute urinary retention"
+    },
+    {
+     "id": "2",
+     "options": [
+      "decongestant and antihistamine use with missed tamsulosin",
+      "drinking too much water",
+      "a high-fiber diet"
+     ],
+     "correct": "decongestant and antihistamine use with missed tamsulosin"
+    }
+   ],
+   "answer_summary": "1: acute urinary retention; 2: decongestant and antihistamine use with missed tamsulosin",
+   "scoring": "zero_one_per_blank",
+   "case_id": "PN-C32",
+   "case_sequence": 3,
+   "clinical_judgment_step": "Prioritize hypotheses",
+   "content_hash": "196175340a6b20a7"
+  },
+  {
+   "source_id": "PN-C32-04",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 4,
+   "client_need": "Reduction of Risk Potential",
+   "topic": "Case study: Generate solutions",
+   "item_type": "multiple_response",
+   "stem": "The provider prescribes an indwelling urinary catheter. Which actions should the LPN/VN take? Select all that apply.",
+   "rationale": "Sterile insertion, accurate measurement, and monitoring for hematuria and hypotension after rapid drainage are expected. A curved coudé tip can help pass an enlarged prostate when prescribed. Forcing the catheter can tear the urethra, and the bladder must be drained promptly.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Insert the catheter as prescribed, using sterile technique",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Record the amount of urine drained",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Watch for blood in the urine and low blood pressure after a large volume drains",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Use a coudé-tip catheter if the provider prescribes it for an enlarged prostate",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Push the catheter forward with force if resistance is met",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Leave the bladder full until the provider sees the client tomorrow",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "case_id": "PN-C32",
+   "case_sequence": 4,
+   "clinical_judgment_step": "Generate solutions",
+   "content_hash": "c6ec8f6123f57c7c"
+  },
+  {
+   "source_id": "PN-C32-05",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 5,
+   "client_need": "Coordinated Care",
+   "topic": "Case study: Take action",
+   "item_type": "single_best_answer",
+   "stem": "Before discharge, the client says the tamsulosin costs too much to refill. What should the LPN/VN do?",
+   "rationale": "Cost was a factor in the missed doses, so the LPN/VN involves the RN, who can arrange help from a pharmacist or social worker, such as a generic or assistance program. Skipping doses, dismissing the medicine, and sharing medications are unsafe.",
+   "answer_summary": "B",
+   "options": [
+    {
+     "key": "A",
+     "text": "Suggest that the client take tamsulosin only on days when urinating is difficult",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Tell the RN so the team can help the client find a lower-cost option before discharge",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Tell the client that the medicine is not important",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Advise the client to borrow a friend's pills",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "case_id": "PN-C32",
+   "case_sequence": 5,
+   "clinical_judgment_step": "Take action",
+   "content_hash": "8801aed9ed58c6e6"
+  },
+  {
+   "source_id": "PN-C32-06",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 6,
+   "client_need": "Health Promotion and Maintenance",
+   "topic": "Case study: Evaluate outcomes",
+   "item_type": "matrix_grid",
+   "stem": "The LPN/VN reinforces teaching before discharge. For each client statement, indicate whether it shows understanding or a need for more teaching.",
+   "rationale": "Avoiding medicines that cause retention, keeping the drainage bag below the bladder, and refilling tamsulosin on time prevent problems. Fluids are spread through the day and limited before bed to reduce nighttime urgency, and diphenhydramine can cause retention again.",
+   "columns": [
+    "Understands",
+    "Needs more teaching"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "\"I'll avoid cold medicines that contain decongestants or antihistamines.\"",
+     "correct_column": "Understands"
+    },
+    {
+     "id": "r2",
+     "text": "\"I'll keep the drainage bag below my bladder.\"",
+     "correct_column": "Understands"
+    },
+    {
+     "id": "r3",
+     "text": "\"I'll refill my tamsulosin before it runs out.\"",
+     "correct_column": "Understands"
+    },
+    {
+     "id": "r4",
+     "text": "\"I'll drink most of my fluids right before bed.\"",
+     "correct_column": "Needs more teaching"
+    },
+    {
+     "id": "r5",
+     "text": "\"I'll take diphenhydramine to help me sleep.\"",
+     "correct_column": "Needs more teaching"
+    }
+   ],
+   "answer_summary": "\"I'll avoid cold medicines that contain decongestants or antihistamines.\": Understands; \"I'll keep the drainage bag below my bladder.\": Understands; \"I'll refill my tamsulosin before it runs out.\": Understands; \"I'll drink most of my fluids right before bed.\": Needs more teaching; \"I'll take diphenhydramine to help me sleep.\": Needs more teaching",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C32",
+   "case_sequence": 6,
+   "clinical_judgment_step": "Evaluate outcomes",
+   "content_hash": "bb8db7b26d2653e5"
+  },
+  {
+   "source_id": "PN-C33-01",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 1,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Recognize cues",
+   "item_type": "highlight",
+   "stem": "Highlight the findings that require follow-up.",
+   "rationale": "Taking weekly methotrexate every day is a serious dosing error. Mouth sores, low blood counts, and a high ALT are signs of toxicity, and fever with a productive cough and crackles suggests pneumonia in a client with a low neutrophil count. The blood pressure is normal.",
+   "passage_segments": [
+    {
+     "id": "s1",
+     "text": "Painful sores in the mouth"
+    },
+    {
+     "id": "s2",
+     "text": "Productive cough with yellow sputum"
+    },
+    {
+     "id": "s3",
+     "text": "Crackles in the right lower lobe"
+    },
+    {
+     "id": "s4",
+     "text": "Takes the arthritis pill every morning"
+    },
+    {
+     "id": "s5",
+     "text": "T 101.6°F (38.7°C)"
+    },
+    {
+     "id": "s6",
+     "text": "WBC 2,100/mm3"
+    },
+    {
+     "id": "s7",
+     "text": "Platelets 88,000/mm3"
+    },
+    {
+     "id": "s8",
+     "text": "ALT 96 units/L"
+    },
+    {
+     "id": "s9",
+     "text": "BP 118/72 mm Hg"
+    }
+   ],
+   "correct_text": "Painful sores in the mouth; Productive cough with yellow sputum; Crackles in the right lower lobe; Takes the arthritis pill every morning; T 101.6°F (38.7°C); WBC 2,100/mm3; Platelets 88,000/mm3; ALT 96 units/L",
+   "answer_summary": "Painful sores in the mouth; Productive cough with yellow sputum; Crackles in the right lower lobe; Takes the arthritis pill every morning; T 101.6°F (38.7°C); WBC 2,100/mm3; Platelets 88,000/mm3; ALT 96 units/L",
+   "scoring": "plus_minus",
+   "case_id": "PN-C33",
+   "case_sequence": 1,
+   "clinical_judgment_step": "Recognize cues",
+   "content_hash": "9cdabf9e9b750629"
+  },
+  {
+   "source_id": "PN-C33-02",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 2,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Analyze cues",
+   "item_type": "matrix_grid",
+   "stem": "For each finding, indicate the area affected by methotrexate toxicity.",
+   "rationale": "Methotrexate toxicity suppresses the bone marrow, lowering white cells, neutrophils, and platelets; damages the liver, raising liver enzymes and causing jaundice; and causes mucositis, such as mouth sores.",
+   "columns": [
+    "Bone marrow",
+    "Liver",
+    "Mucous membranes"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "WBC 2,100/mm3",
+     "correct_column": "Bone marrow"
+    },
+    {
+     "id": "r2",
+     "text": "Platelets 88,000/mm3",
+     "correct_column": "Bone marrow"
+    },
+    {
+     "id": "r3",
+     "text": "ALT 96 units/L",
+     "correct_column": "Liver"
+    },
+    {
+     "id": "r4",
+     "text": "Painful mouth sores",
+     "correct_column": "Mucous membranes"
+    },
+    {
+     "id": "r5",
+     "text": "Absolute neutrophil count 900/mm3",
+     "correct_column": "Bone marrow"
+    },
+    {
+     "id": "r6",
+     "text": "Yellowing of the skin",
+     "correct_column": "Liver"
+    }
+   ],
+   "answer_summary": "WBC 2,100/mm3: Bone marrow; Platelets 88,000/mm3: Bone marrow; ALT 96 units/L: Liver; Painful mouth sores: Mucous membranes; Absolute neutrophil count 900/mm3: Bone marrow; Yellowing of the skin: Liver",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C33",
+   "case_sequence": 2,
+   "clinical_judgment_step": "Analyze cues",
+   "content_hash": "a47a53784e90581b"
+  },
+  {
+   "source_id": "PN-C33-03",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 3,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Prioritize hypotheses",
+   "item_type": "drop_down_cloze",
+   "stem": "Complete the sentence by choosing from the lists of options.",
+   "rationale": "Taking a weekly methotrexate dose every day is a well-known and dangerous error that causes toxicity. The resulting neutropenia has left the client vulnerable to infection, and the cough, fever, and crackles suggest pneumonia.",
+   "template": "The client's findings are most likely caused by ___1___, which has led to ___2___.",
+   "blanks": [
+    {
+     "id": "1",
+     "options": [
+      "taking methotrexate daily instead of weekly",
+      "missing folic acid doses",
+      "the daily prednisone"
+     ],
+     "correct": "taking methotrexate daily instead of weekly"
+    },
+    {
+     "id": "2",
+     "options": [
+      "bone marrow suppression with a probable lung infection",
+      "a rheumatoid arthritis flare",
+      "dehydration"
+     ],
+     "correct": "bone marrow suppression with a probable lung infection"
+    }
+   ],
+   "answer_summary": "1: taking methotrexate daily instead of weekly; 2: bone marrow suppression with a probable lung infection",
+   "scoring": "zero_one_per_blank",
+   "case_id": "PN-C33",
+   "case_sequence": 3,
+   "clinical_judgment_step": "Prioritize hypotheses",
+   "content_hash": "30ca1059df1c70b4"
+  },
+  {
+   "source_id": "PN-C33-04",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 4,
+   "client_need": "Safety and Infection Control",
+   "topic": "Case study: Generate solutions",
+   "item_type": "multiple_response",
+   "stem": "Which infection precautions should the LPN/VN reinforce while the client's neutrophil count is low? Select all that apply.",
+   "rationale": "Masks in crowds, frequent hand hygiene, avoiding sick contacts, and prompt reporting of fever reduce the risk of serious infection. Live vaccines are avoided during immunosuppression, and raw sprouts and unpasteurized foods carry a higher risk of foodborne infection.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Wear a mask in crowded places",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Perform hand hygiene often",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Avoid people who are sick",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Report a temperature of 100.4°F (38°C) or higher right away",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Get the live intranasal influenza vaccine",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Eat raw sprouts and unpasteurized cheese",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "case_id": "PN-C33",
+   "case_sequence": 4,
+   "clinical_judgment_step": "Generate solutions",
+   "content_hash": "fff9df20fdcd9e91"
+  },
+  {
+   "source_id": "PN-C33-05",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 5,
+   "client_need": "Coordinated Care",
+   "topic": "Case study: Take action",
+   "item_type": "single_best_answer",
+   "stem": "What should the LPN/VN do first?",
+   "rationale": "Methotrexate toxicity with neutropenic fever is an emergency that needs immediate provider evaluation, often including hospital admission and leucovorin. The LPN/VN does not change the dosing schedule or the folic acid dose, and a routine visit would be dangerously late.",
+   "answer_summary": "A",
+   "options": [
+    {
+     "key": "A",
+     "text": "Report the dosing error, fever, and lab results to the provider",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Tell the client to take methotrexate every other day instead of every day from now on",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Advise the client to double the folic acid dose to protect the bone marrow",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Schedule a routine follow-up visit in 2 weeks to recheck the blood counts",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "case_id": "PN-C33",
+   "case_sequence": 5,
+   "clinical_judgment_step": "Take action",
+   "content_hash": "2c3b18bdfea8c43f"
+  },
+  {
+   "source_id": "PN-C33-06",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 6,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Evaluate outcomes",
+   "item_type": "matrix_grid",
+   "stem": "After treatment, the LPN/VN reinforces teaching. For each client statement, indicate whether it shows understanding or a need for more teaching.",
+   "rationale": "Weekly dosing on a set day with a clearly marked organizer prevents daily-dosing errors, and alcohol increases liver toxicity. Extra doses are never taken for pain, and folic acid continues to reduce side effects.",
+   "columns": [
+    "Understands",
+    "Needs more teaching"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "\"I'll take methotrexate once a week, on the same day each week.\"",
+     "correct_column": "Understands"
+    },
+    {
+     "id": "r2",
+     "text": "\"I'll use a pill organizer marked for my methotrexate day.\"",
+     "correct_column": "Understands"
+    },
+    {
+     "id": "r3",
+     "text": "\"I'll avoid alcohol while I take methotrexate.\"",
+     "correct_column": "Understands"
+    },
+    {
+     "id": "r4",
+     "text": "\"I'll take an extra methotrexate tablet if my joints hurt more.\"",
+     "correct_column": "Needs more teaching"
+    },
+    {
+     "id": "r5",
+     "text": "\"I'll stop the folic acid once I feel better.\"",
+     "correct_column": "Needs more teaching"
+    }
+   ],
+   "answer_summary": "\"I'll take methotrexate once a week, on the same day each week.\": Understands; \"I'll use a pill organizer marked for my methotrexate day.\": Understands; \"I'll avoid alcohol while I take methotrexate.\": Understands; \"I'll take an extra methotrexate tablet if my joints hurt more.\": Needs more teaching; \"I'll stop the folic acid once I feel better.\": Needs more teaching",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C33",
+   "case_sequence": 6,
+   "clinical_judgment_step": "Evaluate outcomes",
+   "content_hash": "323269e0ed194618"
+  },
+  {
+   "source_id": "PN-C34-01",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 1,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Case study: Recognize cues",
+   "item_type": "highlight",
+   "stem": "Highlight the findings that require follow-up.",
+   "rationale": "A blood pressure on the affected arm goes against the prescription, and avoiding the incision with tearfulness and a changed sense of self suggest distress about body image. The drainage amount and type, a dry dressing, and an elevated arm are expected on the first day.",
+   "passage_segments": [
+    {
+     "id": "s1",
+     "text": "The AP was about to take the BP on the left arm"
+    },
+    {
+     "id": "s2",
+     "text": "Has not looked at the incision"
+    },
+    {
+     "id": "s3",
+     "text": "Tearful"
+    },
+    {
+     "id": "s4",
+     "text": "\"I don't feel like myself anymore\""
+    },
+    {
+     "id": "s5",
+     "text": "60 mL of serosanguineous drainage in 8 hours"
+    },
+    {
+     "id": "s6",
+     "text": "Chest dressing dry and intact"
+    },
+    {
+     "id": "s7",
+     "text": "Left arm elevated on a pillow"
+    }
+   ],
+   "correct_text": "The AP was about to take the BP on the left arm; Has not looked at the incision; Tearful; \"I don't feel like myself anymore\"",
+   "answer_summary": "The AP was about to take the BP on the left arm; Has not looked at the incision; Tearful; \"I don't feel like myself anymore\"",
+   "scoring": "plus_minus",
+   "case_id": "PN-C34",
+   "case_sequence": 1,
+   "clinical_judgment_step": "Recognize cues",
+   "content_hash": "7a7c92b38573ba35"
+  },
+  {
+   "source_id": "PN-C34-02",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 2,
+   "client_need": "Reduction of Risk Potential",
+   "topic": "Case study: Analyze cues",
+   "item_type": "matrix_grid",
+   "stem": "For each finding, indicate whether it is expected after a mastectomy or should be reported to the RN.",
+   "rationale": "Moderate serosanguineous drainage and numbness from nerve disruption are expected. Rapid bright red drainage suggests bleeding, a red, warm, swollen arm suggests infection or lymphedema, and a bulb that will not stay compressed has lost suction; all should be reported.",
+   "columns": [
+    "Expected",
+    "Report to the RN"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "60 mL of serosanguineous drainage in 8 hours on day 1",
+     "correct_column": "Expected"
+    },
+    {
+     "id": "r2",
+     "text": "Drainage that becomes bright red, 100 mL in 1 hour",
+     "correct_column": "Report to the RN"
+    },
+    {
+     "id": "r3",
+     "text": "Numbness of the inner upper arm",
+     "correct_column": "Expected"
+    },
+    {
+     "id": "r4",
+     "text": "Sudden swelling, redness, and warmth of the left arm",
+     "correct_column": "Report to the RN"
+    },
+    {
+     "id": "r5",
+     "text": "A drain bulb that stays fully expanded after being compressed",
+     "correct_column": "Report to the RN"
+    }
+   ],
+   "answer_summary": "60 mL of serosanguineous drainage in 8 hours on day 1: Expected; Drainage that becomes bright red, 100 mL in 1 hour: Report to the RN; Numbness of the inner upper arm: Expected; Sudden swelling, redness, and warmth of the left arm: Report to the RN; A drain bulb that stays fully expanded after being compressed: Report to the RN",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C34",
+   "case_sequence": 2,
+   "clinical_judgment_step": "Analyze cues",
+   "content_hash": "5ea992fae8fa305f"
+  },
+  {
+   "source_id": "PN-C34-03",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 3,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Case study: Prioritize hypotheses",
+   "item_type": "drop_down_cloze",
+   "stem": "Complete the sentence by choosing from the lists of options.",
+   "rationale": "Loss of a breast can deeply affect body image and identity. Acknowledging feelings and letting the client decide when to look at the incision, with the nurse present, supports adjustment. Forcing the issue or avoiding it does not help.",
+   "template": "The client's statement and avoidance of the incision suggest ___1___, and the best approach is to ___2___.",
+   "blanks": [
+    {
+     "id": "1",
+     "options": [
+      "a disturbance in body image",
+      "acute confusion",
+      "a lack of knowledge about the drain"
+     ],
+     "correct": "a disturbance in body image"
+    },
+    {
+     "id": "2",
+     "options": [
+      "acknowledge the client's feelings and offer support at the client's pace",
+      "insist that the client look at the incision today",
+      "change the subject to discharge plans"
+     ],
+     "correct": "acknowledge the client's feelings and offer support at the client's pace"
+    }
+   ],
+   "answer_summary": "1: a disturbance in body image; 2: acknowledge the client's feelings and offer support at the client's pace",
+   "scoring": "zero_one_per_blank",
+   "case_id": "PN-C34",
+   "case_sequence": 3,
+   "clinical_judgment_step": "Prioritize hypotheses",
+   "content_hash": "ce9166e027409bb6"
+  },
+  {
+   "source_id": "PN-C34-04",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 4,
+   "client_need": "Reduction of Risk Potential",
+   "topic": "Case study: Generate solutions",
+   "item_type": "multiple_response",
+   "stem": "Which instructions about reducing the risk of lymphedema should the LPN/VN reinforce? Select all that apply.",
+   "rationale": "Protecting the arm from constriction and injury, preventing skin breaks that could lead to infection, exercising as taught, and reporting early signs of lymphedema reduce risk. Heavy loads on the affected side are avoided, and immobilizing the arm causes stiffness and does not prevent lymphedema.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Avoid blood pressures, injections, and blood draws in the left arm",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Wear gloves when gardening or cleaning",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Do the arm exercises taught by physical therapy",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Report swelling, heaviness, or redness in the left arm",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Carry heavy bags on the left shoulder",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Keep the left arm still in a sling until the drain is removed",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "case_id": "PN-C34",
+   "case_sequence": 4,
+   "clinical_judgment_step": "Generate solutions",
+   "content_hash": "837f7c7598ef9e4f"
+  },
+  {
+   "source_id": "PN-C34-05",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 5,
+   "client_need": "Coordinated Care",
+   "topic": "Case study: Take action",
+   "item_type": "single_best_answer",
+   "stem": "The AP is about to take the client's blood pressure on the left arm. What should the LPN/VN do?",
+   "rationale": "The prescription restricts procedures on the affected arm, so the LPN/VN stops the AP, explains why, and makes sure the restriction is visible to all staff, such as with an arm band or sign. Letting the AP continue, changing technique, or taking the reading personally on the same arm ignores the restriction.",
+   "answer_summary": "D",
+   "options": [
+    {
+     "key": "A",
+     "text": "Let the AP continue, since one blood pressure reading will not cause any lasting harm to the arm",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Tell the AP to take the blood pressure on the left arm but to inflate the cuff more slowly",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Take the blood pressure yourself",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Stop the AP, explain the restriction, and make sure the left arm is clearly labeled",
+     "is_correct": true
+    }
+   ],
+   "scoring": "zero_one",
+   "case_id": "PN-C34",
+   "case_sequence": 5,
+   "clinical_judgment_step": "Take action",
+   "content_hash": "cbd19639b416b85b"
+  },
+  {
+   "source_id": "PN-C34-06",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 6,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Case study: Evaluate outcomes",
+   "item_type": "matrix_grid",
+   "stem": "On day 2, the LPN/VN observes how the client is coping. For each finding, indicate whether it shows positive coping or needs follow-up.",
+   "rationale": "Looking at the incision, exploring options, and seeking peer support show adjustment. Withdrawal from everyone and a statement suggesting hopelessness need follow-up, including asking directly about thoughts of self-harm and reporting to the RN.",
+   "columns": [
+    "Positive coping",
+    "Needs follow-up"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Looks at the incision with the nurse",
+     "correct_column": "Positive coping"
+    },
+    {
+     "id": "r2",
+     "text": "Asks about breast reconstruction and prosthesis options",
+     "correct_column": "Positive coping"
+    },
+    {
+     "id": "r3",
+     "text": "Asks to meet a volunteer who has had a mastectomy",
+     "correct_column": "Positive coping"
+    },
+    {
+     "id": "r4",
+     "text": "Refuses all visitors and stays in a dark room",
+     "correct_column": "Needs follow-up"
+    },
+    {
+     "id": "r5",
+     "text": "Says, \"I don't want to live like this.\"",
+     "correct_column": "Needs follow-up"
+    }
+   ],
+   "answer_summary": "Looks at the incision with the nurse: Positive coping; Asks about breast reconstruction and prosthesis options: Positive coping; Asks to meet a volunteer who has had a mastectomy: Positive coping; Refuses all visitors and stays in a dark room: Needs follow-up; Says, \"I don't want to live like this.\": Needs follow-up",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C34",
+   "case_sequence": 6,
+   "clinical_judgment_step": "Evaluate outcomes",
+   "content_hash": "0af9c97612a20082"
+  },
+  {
+   "source_id": "PN-C35-01",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 1,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Case study: Recognize cues",
+   "item_type": "highlight",
+   "stem": "Highlight the findings that suggest possible abuse.",
+   "rationale": "An injury that does not match the explanation, bruises of different ages in protected areas, patterned loop marks, a child who is unusually quiet and watchful, changing stories, repeated injuries, delayed care, and falling growth are all warning signs of abuse. The temperature is normal.",
+   "passage_segments": [
+    {
+     "id": "s1",
+     "text": "Spiral fracture of the humerus"
+    },
+    {
+     "id": "s2",
+     "text": "Bruises of different colors on the back, buttocks, and upper arms"
+    },
+    {
+     "id": "s3",
+     "text": "Loop-shaped marks on both thighs"
+    },
+    {
+     "id": "s4",
+     "text": "Quiet and watchful, does not cry during the exam"
+    },
+    {
+     "id": "s5",
+     "text": "Gives a different explanation when asked again"
+    },
+    {
+     "id": "s6",
+     "text": "Two previous visits for injuries in 4 months"
+    },
+    {
+     "id": "s7",
+     "text": "Care sought 2 days after the injury"
+    },
+    {
+     "id": "s8",
+     "text": "T 98.8°F (37.1°C)"
+    }
+   ],
+   "correct_text": "Spiral fracture of the humerus; Bruises of different colors on the back, buttocks, and upper arms; Loop-shaped marks on both thighs; Quiet and watchful, does not cry during the exam; Gives a different explanation when asked again; Two previous visits for injuries in 4 months; Care sought 2 days after the injury",
+   "answer_summary": "Spiral fracture of the humerus; Bruises of different colors on the back, buttocks, and upper arms; Loop-shaped marks on both thighs; Quiet and watchful, does not cry during the exam; Gives a different explanation when asked again; Two previous visits for injuries in 4 months; Care sought 2 days after the injury",
+   "scoring": "plus_minus",
+   "case_id": "PN-C35",
+   "case_sequence": 1,
+   "clinical_judgment_step": "Recognize cues",
+   "content_hash": "43611a2dcb0afa5d"
+  },
+  {
+   "source_id": "PN-C35-02",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 2,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Case study: Analyze cues",
+   "item_type": "matrix_grid",
+   "stem": "For each finding in a toddler, indicate whether it is consistent with an accidental injury or suspicious for abuse.",
+   "rationale": "Toddlers often bruise bony areas such as the shins and forehead and scrape knees in falls. Fractures that do not fit the history, patterned marks such as loops from a cord, bruises in protected areas, and injuries of different ages suggest inflicted injury.",
+   "columns": [
+    "Consistent with accidental injury",
+    "Suspicious for abuse"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Bruises on the shins and forehead",
+     "correct_column": "Consistent with accidental injury"
+    },
+    {
+     "id": "r2",
+     "text": "A spiral fracture that does not match the explanation",
+     "correct_column": "Suspicious for abuse"
+    },
+    {
+     "id": "r3",
+     "text": "Loop-shaped marks on the thighs",
+     "correct_column": "Suspicious for abuse"
+    },
+    {
+     "id": "r4",
+     "text": "Bruises on the buttocks and back",
+     "correct_column": "Suspicious for abuse"
+    },
+    {
+     "id": "r5",
+     "text": "A scrape on the knee from a playground fall",
+     "correct_column": "Consistent with accidental injury"
+    },
+    {
+     "id": "r6",
+     "text": "Injuries in different stages of healing",
+     "correct_column": "Suspicious for abuse"
+    }
+   ],
+   "answer_summary": "Bruises on the shins and forehead: Consistent with accidental injury; A spiral fracture that does not match the explanation: Suspicious for abuse; Loop-shaped marks on the thighs: Suspicious for abuse; Bruises on the buttocks and back: Suspicious for abuse; A scrape on the knee from a playground fall: Consistent with accidental injury; Injuries in different stages of healing: Suspicious for abuse",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C35",
+   "case_sequence": 2,
+   "clinical_judgment_step": "Analyze cues",
+   "content_hash": "d524ad1b798faf80"
+  },
+  {
+   "source_id": "PN-C35-03",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 3,
+   "client_need": "Coordinated Care",
+   "topic": "Case study: Prioritize hypotheses",
+   "item_type": "drop_down_cloze",
+   "stem": "Complete the sentence by choosing from the lists of options.",
+   "rationale": "The pattern of findings raises a reasonable suspicion of abuse. Nurses are mandated reporters, and the law requires reporting a reasonable suspicion; proof is not required. Investigation is the role of child protective services and law enforcement, not the nurse.",
+   "template": "The findings are most consistent with ___1___, and the LPN/VN is required to ___2___.",
+   "blanks": [
+    {
+     "id": "1",
+     "options": [
+      "suspected physical abuse",
+      "normal toddler injuries",
+      "a bone disorder alone"
+     ],
+     "correct": "suspected physical abuse"
+    },
+    {
+     "id": "2",
+     "options": [
+      "make sure the suspicion is reported through the facility's mandatory reporting process",
+      "confirm the abuse before reporting it",
+      "keep asking the partner until the story is consistent"
+     ],
+     "correct": "make sure the suspicion is reported through the facility's mandatory reporting process"
+    }
+   ],
+   "answer_summary": "1: suspected physical abuse; 2: make sure the suspicion is reported through the facility's mandatory reporting process",
+   "scoring": "zero_one_per_blank",
+   "case_id": "PN-C35",
+   "case_sequence": 3,
+   "clinical_judgment_step": "Prioritize hypotheses",
+   "content_hash": "c79412d2495d502c"
+  },
+  {
+   "source_id": "PN-C35-04",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 4,
+   "client_need": "Coordinated Care",
+   "topic": "Case study: Generate solutions",
+   "item_type": "multiple_response",
+   "stem": "Which actions should the LPN/VN take? Select all that apply.",
+   "rationale": "Objective documentation, exact quotes, prompt notification so the report is made, and keeping the child safe are the nurse's responsibilities. Confronting the caregiver can escalate risk, and reporting is not delayed for more test results.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Document injuries objectively, including size, color, and location",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Record the partner's explanations in the partner's exact words",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Notify the RN and provider so a report can be made per policy",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Keep the child in a safe, supervised area",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Confront the partner about the abuse",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Wait until the skeletal survey results return before reporting",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "case_id": "PN-C35",
+   "case_sequence": 4,
+   "clinical_judgment_step": "Generate solutions",
+   "content_hash": "7ffd97cb25ae8e67"
+  },
+  {
+   "source_id": "PN-C35-05",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 5,
+   "client_need": "Coordinated Care",
+   "topic": "Case study: Take action",
+   "item_type": "single_best_answer",
+   "stem": "The partner says, \"We need to leave now.\" What should the LPN/VN do?",
+   "rationale": "When abuse is suspected, the child's safety comes first. The LPN/VN follows policy by notifying the RN and security so the child is not removed before the evaluation and report are completed. A promise to return does not protect the child, and the nurse does not confront the partner with conclusions.",
+   "answer_summary": "C",
+   "options": [
+    {
+     "key": "A",
+     "text": "Let them leave, since the partner has the right to take the child home at any time without question",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Ask the partner to promise to bring the child back tomorrow",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Notify the RN and security per policy so the child stays until the evaluation is complete",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Tell the partner that abuse has been confirmed",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "case_id": "PN-C35",
+   "case_sequence": 5,
+   "clinical_judgment_step": "Take action",
+   "content_hash": "26129fbb7111038e"
+  },
+  {
+   "source_id": "PN-C35-06",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 6,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Case study: Evaluate outcomes",
+   "item_type": "matrix_grid",
+   "stem": "Later that day, the LPN/VN observes the child. For each finding, indicate whether it is a positive response or needs to be documented and reported.",
+   "rationale": "Playing, eating, and resting comfortably show the child is responding to safe, supportive care. Flinching at raised hands and fear of a specific caregiver are significant observations that are documented objectively and shared with the RN and the investigating team.",
+   "columns": [
+    "Positive response",
+    "Document and report"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Plays with toys during a visit from the child life specialist",
+     "correct_column": "Positive response"
+    },
+    {
+     "id": "r2",
+     "text": "Eats a full meal",
+     "correct_column": "Positive response"
+    },
+    {
+     "id": "r3",
+     "text": "Sleeps comfortably with pain controlled",
+     "correct_column": "Positive response"
+    },
+    {
+     "id": "r4",
+     "text": "Flinches when an adult raises a hand",
+     "correct_column": "Document and report"
+    },
+    {
+     "id": "r5",
+     "text": "Cries and hides when the partner enters the room",
+     "correct_column": "Document and report"
+    }
+   ],
+   "answer_summary": "Plays with toys during a visit from the child life specialist: Positive response; Eats a full meal: Positive response; Sleeps comfortably with pain controlled: Positive response; Flinches when an adult raises a hand: Document and report; Cries and hides when the partner enters the room: Document and report",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C35",
+   "case_sequence": 6,
+   "clinical_judgment_step": "Evaluate outcomes",
+   "content_hash": "447748c6c280b7a1"
+  }
+ ],
+ "case_studies": [
+  {
+   "scenario": "A 72-year-old client with obstructive sleep apnea had a laparoscopic cholecystectomy this morning. At 2200, the client received oxycodone 10 mg by mouth for pain, and at 2230, lorazepam 0.5 mg by mouth for anxiety. At 2330, the assistive personnel reports that the client is hard to wake.",
+   "exhibits": [
+    {
+     "label": "Nurses' notes, 2330",
+     "content": "Arouses briefly to a loud voice and a sternal rub, then falls back asleep. Snoring, with pauses in breathing of about 15 seconds. Pupils pinpoint. Not wearing the home CPAP. Pain was 6/10 before the oxycodone dose."
+    },
+    {
+     "label": "Vital signs, 2330",
+     "content": "T 98.4°F (36.9°C), HR 62/min, RR 8/min, BP 104/62 mm Hg, SpO2 85% on room air."
+    },
+    {
+     "label": "Prescriptions",
+     "content": "Oxycodone 5 to 10 mg by mouth every 4 hours as needed for pain. Lorazepam 0.5 mg by mouth every 8 hours as needed for anxiety. Naloxone per protocol for RR below 10/min or severe sedation. CPAP at night at home settings. Opioid sedation scale every 2 hours for the first 24 hours."
+    }
+   ],
+   "case_id": "PN-C31",
+   "track": "pn",
+   "set_number": 49,
+   "title": "Opioid-induced respiratory depression after surgery"
+  },
+  {
+   "scenario": "A 74-year-old client with benign prostatic hyperplasia comes to an urgent care clinic unable to urinate for 10 hours. Two days ago, the client started an over-the-counter cold medicine.",
+   "exhibits": [
+    {
+     "label": "Nurses' notes",
+     "content": "Lower abdominal pain 8/10 and restless. Bladder palpable above the pubic bone. Has dribbled only small amounts. History of a weak stream and getting up 3 times a night to urinate. Bladder scan shows 950 mL."
+    },
+    {
+     "label": "Vital signs",
+     "content": "T 98.6°F (37°C), HR 104/min, RR 20/min, BP 168/94 mm Hg."
+    },
+    {
+     "label": "Medications",
+     "content": "Tamsulosin 0.4 mg by mouth daily, missed for 3 days because the client ran out. Over-the-counter cold medicine containing pseudoephedrine and diphenhydramine."
+    }
+   ],
+   "case_id": "PN-C32",
+   "track": "pn",
+   "set_number": 49,
+   "title": "Acute urinary retention in a client with benign prostatic hyperplasia"
+  },
+  {
+   "scenario": "A 56-year-old client with rheumatoid arthritis has taken methotrexate for 2 years. At a clinic visit, the client reports mouth sores and a cough with fever for 3 days.",
+   "exhibits": [
+    {
+     "label": "Nurses' notes",
+     "content": "Painful sores in the mouth. Productive cough with yellow sputum. Crackles in the right lower lobe. Fatigue. Says, \"I take my arthritis pill every morning now because I thought daily would work better.\""
+    },
+    {
+     "label": "Vital signs",
+     "content": "T 101.6°F (38.7°C), HR 104/min, RR 22/min, BP 118/72 mm Hg, SpO2 93% on room air."
+    },
+    {
+     "label": "Laboratory results",
+     "content": "WBC 2,100/mm3 (5,000–10,000). Absolute neutrophil count 900/mm3. Platelets 88,000/mm3 (150,000–400,000). ALT 96 units/L (7–56)."
+    },
+    {
+     "label": "Medication list",
+     "content": "Methotrexate 15 mg by mouth once weekly. Folic acid 1 mg by mouth daily. Prednisone 5 mg by mouth daily."
+    }
+   ],
+   "case_id": "PN-C33",
+   "track": "pn",
+   "set_number": 49,
+   "title": "Methotrexate toxicity in rheumatoid arthritis"
+  },
+  {
+   "scenario": "A 49-year-old client is on the first day after a left modified radical mastectomy with removal of axillary lymph nodes. A closed-suction drain is in place.",
+   "exhibits": [
+    {
+     "label": "Nurses' notes, 0900",
+     "content": "Chest dressing dry and intact. Jackson-Pratt drain with 60 mL of serosanguineous drainage in 8 hours. Left arm elevated on a pillow. Has not looked at the incision. Tearful and says, \"I don't feel like myself anymore.\" The assistive personnel (AP) was about to take the blood pressure on the left arm."
+    },
+    {
+     "label": "Vital signs, 0900",
+     "content": "T 99.0°F (37.2°C), HR 86/min, RR 16/min, BP 124/76 mm Hg (right arm), SpO2 97% on room air."
+    },
+    {
+     "label": "Prescriptions",
+     "content": "Empty and record the drain output every 8 hours. Arm exercises as taught by physical therapy, starting today. No blood pressures, injections, or blood draws in the left arm."
+    }
+   ],
+   "case_id": "PN-C34",
+   "track": "pn",
+   "set_number": 49,
+   "title": "Care after a mastectomy"
+  },
+  {
+   "scenario": "A 2-year-old is brought to the emergency department by a parent's partner, who says the child fell off a couch onto a carpeted floor 2 days ago and has been \"fussy\" since.",
+   "exhibits": [
+    {
+     "label": "Nurses' notes",
+     "content": "Swollen right upper arm; x-ray shows a spiral fracture of the humerus. Bruises of different colors on the back, buttocks, and upper arms. Loop-shaped marks on both thighs. The child is quiet and watchful and does not cry during the exam. When asked again, the partner gives a different explanation for the bruises."
+    },
+    {
+     "label": "History",
+     "content": "Two previous emergency department visits for injuries in the past 4 months. Care was sought 2 days after the injury. Weight has dropped from the 50th to the 10th percentile."
+    },
+    {
+     "label": "Vital signs",
+     "content": "T 98.8°F (37.1°C), HR 132/min, RR 28/min."
+    }
+   ],
+   "case_id": "PN-C35",
+   "track": "pn",
+   "set_number": 49,
+   "title": "Suspected physical abuse of a toddler"
+  }
+ ]
+}

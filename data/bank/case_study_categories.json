@@ -1052,6 +1052,81 @@
     "PN-C30-06"
    ],
    "needs_review": false
+  },
+  {
+   "case_id": "PN-C31",
+   "title": "Opioid-induced respiratory depression after surgery",
+   "system": "Respiratory",
+   "discipline": "Pharmacology",
+   "items": [
+    "PN-C31-01",
+    "PN-C31-02",
+    "PN-C31-03",
+    "PN-C31-04",
+    "PN-C31-05",
+    "PN-C31-06"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "PN-C32",
+   "title": "Acute urinary retention in a client with benign prostatic hyperplasia",
+   "system": "Renal & Urinary",
+   "discipline": "Adult Health",
+   "items": [
+    "PN-C32-01",
+    "PN-C32-02",
+    "PN-C32-03",
+    "PN-C32-04",
+    "PN-C32-05",
+    "PN-C32-06"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "PN-C33",
+   "title": "Methotrexate toxicity in rheumatoid arthritis",
+   "system": "Immune",
+   "discipline": "Pharmacology",
+   "items": [
+    "PN-C33-01",
+    "PN-C33-02",
+    "PN-C33-03",
+    "PN-C33-04",
+    "PN-C33-05",
+    "PN-C33-06"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "PN-C34",
+   "title": "Care after a mastectomy",
+   "system": "Reproductive",
+   "discipline": "Adult Health",
+   "items": [
+    "PN-C34-01",
+    "PN-C34-02",
+    "PN-C34-03",
+    "PN-C34-04",
+    "PN-C34-05",
+    "PN-C34-06"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "PN-C35",
+   "title": "Suspected physical abuse of a toddler",
+   "system": "Integrated",
+   "discipline": "Pediatrics",
+   "items": [
+    "PN-C35-01",
+    "PN-C35-02",
+    "PN-C35-03",
+    "PN-C35-04",
+    "PN-C35-05",
+    "PN-C35-06"
+   ],
+   "needs_review": false
   }
  ]
 }
