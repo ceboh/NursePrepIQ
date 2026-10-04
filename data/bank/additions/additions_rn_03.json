@@ -1,0 +1,1616 @@
+{
+ "_comment": "Supplemental items, RN batch 03: Management of Care and Basic Care and Comfort. Pilot status.",
+ "track": "rn",
+ "questions": [
+  {
+   "source_id": "RN-A03-001",
+   "track": "rn",
+   "set_number": 41,
+   "set_title": "Supplemental: Management of Care",
+   "source_item_number": 1,
+   "client_need": "Management of Care",
+   "topic": "Prioritization: orthopedic unit",
+   "item_type": "single_best_answer",
+   "stem": "The nurse on an orthopedic unit receives report on four clients. Which client should the nurse assess first?",
+   "rationale": "Severe pain that is out of proportion to the injury, worse with passive stretch, and unrelieved by opioids suggests acute compartment syndrome, which can cause permanent muscle and nerve damage within hours. Moderate pain during therapy, a repositioning request, and a client who should stay NPO before surgery can be addressed next.",
+   "answer_summary": "D",
+   "options": [
+    {
+     "key": "A",
+     "text": "A client 2 days after a total knee replacement who rates pain 4/10 during physical therapy",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "A client in skeletal traction who asks for help repositioning in bed for comfort",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "A client with a hip fracture awaiting surgery who is asking for a meal tray",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "A client with a new forearm cast who has severe pain on passive finger movement despite an opioid",
+     "is_correct": true
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "e25981271ddfeff1"
+  },
+  {
+   "source_id": "RN-A03-002",
+   "track": "rn",
+   "set_number": 41,
+   "set_title": "Supplemental: Management of Care",
+   "source_item_number": 2,
+   "client_need": "Management of Care",
+   "topic": "Prioritization: pediatric unit",
+   "item_type": "single_best_answer",
+   "stem": "The nurse on a pediatric unit receives report on four children. Which child should the nurse assess first?",
+   "rationale": "Vomiting and irritability in a child with a ventriculoperitoneal shunt suggest shunt malfunction and rising intracranial pressure, which needs prompt assessment. A child in traction asking for a game is stable, decreased intake on the first day after a tonsillectomy is common, and an SpO2 of 96% is acceptable.",
+   "answer_summary": "A",
+   "options": [
+    {
+     "key": "A",
+     "text": "A 3-year-old with a ventriculoperitoneal shunt who is vomiting and irritable",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "A 7-year-old with a fractured femur in traction who is asking for a video game to play",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "A 5-year-old 1 day after a tonsillectomy who is refusing to eat",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "A 10-year-old with asthma with an SpO2 of 96%",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "0a48de7ee8a81f66"
+  },
+  {
+   "source_id": "RN-A03-003",
+   "track": "rn",
+   "set_number": 41,
+   "set_title": "Supplemental: Management of Care",
+   "source_item_number": 3,
+   "client_need": "Management of Care",
+   "topic": "Prioritization: newborn nursery",
+   "item_type": "single_best_answer",
+   "stem": "The nurse in a newborn nursery is caring for four newborns. Which newborn requires the nurse's attention first?",
+   "rationale": "Grunting, nasal flaring, and a respiratory rate above 60/min are signs of respiratory distress that need immediate intervention. Acrocyanosis with a pink trunk and lips, milia, and a heart rate within the normal range of 110 to 160/min are expected newborn findings.",
+   "answer_summary": "C",
+   "options": [
+    {
+     "key": "A",
+     "text": "A 12-hour-old with bluish hands and feet, pink lips and trunk, who is sleeping quietly",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "A 1-day-old with tiny white bumps across the nose and chin and a strong suck reflex",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "A 2-hour-old with grunting, nasal flaring, and a respiratory rate of 72/min",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "A 6-hour-old with a heart rate of 136/min",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "d0950e07393c4555"
+  },
+  {
+   "source_id": "RN-A03-004",
+   "track": "rn",
+   "set_number": 41,
+   "set_title": "Supplemental: Management of Care",
+   "source_item_number": 4,
+   "client_need": "Management of Care",
+   "topic": "Prioritization: neurology unit",
+   "item_type": "single_best_answer",
+   "stem": "The nurse on a neurology unit receives report on four clients. Which client should the nurse assess first?",
+   "rationale": "A weak cough and drooling in myasthenia gravis indicate weakness of the muscles for swallowing and breathing, which can progress to myasthenic crisis and respiratory failure. A resting tremor, fatigue worsened by heat in multiple sclerosis, and light sensitivity during a migraine are expected findings.",
+   "answer_summary": "B",
+   "options": [
+    {
+     "key": "A",
+     "text": "A client with Parkinson's disease who has a resting tremor and needs help with buttons",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "A client with myasthenia gravis who has a weak cough and is drooling",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "A client with multiple sclerosis who reports fatigue after a warm shower this morning",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "A client with a migraine who asks for the lights to be dimmed and the door to be closed",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "aadae0c4db193837"
+  },
+  {
+   "source_id": "RN-A03-005",
+   "track": "rn",
+   "set_number": 41,
+   "set_title": "Supplemental: Management of Care",
+   "source_item_number": 5,
+   "client_need": "Management of Care",
+   "topic": "Patient Self-Determination Act",
+   "item_type": "single_best_answer",
+   "stem": "A client is being admitted to the hospital. Which action is required by the federal Patient Self-Determination Act?",
+   "rationale": "The Patient Self-Determination Act requires facilities that receive Medicare or Medicaid funding to ask clients on admission whether they have an advance directive, document it, and inform them of their right to make health care decisions and create one. Facilities may not require an advance directive or base care on whether one exists, and code status is the client's decision, not the family's or the staff's.",
+   "answer_summary": "B",
+   "options": [
+    {
+     "key": "A",
+     "text": "Requiring the client to complete an advance directive before admission can be finished",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Asking whether the client has an advance directive and informing them of their right to make one",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Asking the client's family to decide on the client's code status during the admission",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Recommending that the client choose do-not-resuscitate status at the time of admission",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "8f041adcb4c5c994"
+  },
+  {
+   "source_id": "RN-A03-006",
+   "track": "rn",
+   "set_number": 41,
+   "set_title": "Supplemental: Management of Care",
+   "source_item_number": 6,
+   "client_need": "Management of Care",
+   "topic": "Good Samaritan laws",
+   "item_type": "single_best_answer",
+   "stem": "An off-duty nurse at a youth soccer game starts CPR on a spectator who collapsed and is not breathing. Which statement about the nurse's legal protection is accurate?",
+   "rationale": "Good Samaritan laws vary by state but generally protect people who give emergency care in good faith, without compensation, and within their training. Consent is implied when a person is unresponsive, protection does not cover gross negligence, and accepting payment usually removes the protection.",
+   "answer_summary": "C",
+   "options": [
+    {
+     "key": "A",
+     "text": "The nurse is legally protected only if the person signs a consent form after recovering from the event",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Good Samaritan laws also protect care that is grossly negligent",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Good Samaritan laws generally protect a nurse who gives reasonable emergency care without pay",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "The nurse must accept payment to be protected",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "a0c31346bc38b2e9"
+  },
+  {
+   "source_id": "RN-A03-007",
+   "track": "rn",
+   "set_number": 41,
+   "set_title": "Supplemental: Management of Care",
+   "source_item_number": 7,
+   "client_need": "Management of Care",
+   "topic": "Legal scope of nursing practice",
+   "item_type": "single_best_answer",
+   "stem": "A nurse is unsure whether a task is within the RN scope of practice in their state. Which source defines the legal scope of nursing practice?",
+   "rationale": "Each state's nurse practice act is the law that defines nursing scope of practice, and the state board of nursing interprets and enforces it. Facility policies can be more restrictive but cannot expand scope beyond the law, the ANA code of ethics guides ethical conduct rather than legal scope, and a provider cannot authorize a nurse to act outside it.",
+   "answer_summary": "D",
+   "options": [
+    {
+     "key": "A",
+     "text": "The hospital's job description for RNs who work on the nurse's assigned unit",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "The American Nurses Association's code of ethics for all nurses who practice",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "The provider who writes the prescription",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "The state's nurse practice act, as administered by the board of nursing",
+     "is_correct": true
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "f081d537baec6563"
+  },
+  {
+   "source_id": "RN-A03-008",
+   "track": "rn",
+   "set_number": 41,
+   "set_title": "Supplemental: Management of Care",
+   "source_item_number": 8,
+   "client_need": "Management of Care",
+   "topic": "Principle of double effect",
+   "item_type": "single_best_answer",
+   "stem": "A client who is dying has severe dyspnea. The family worries that giving the prescribed morphine will hasten death. Which ethical principle supports giving the morphine as prescribed?",
+   "rationale": "The principle of double effect holds that an action intended to produce a good effect, such as relieving dyspnea, is ethical even if a possible harmful effect is foreseen but not intended, as long as the good outweighs the risk. Opioids carefully titrated for dyspnea at the end of life have not been shown to shorten life significantly. Distributive justice concerns fair allocation of resources, veracity concerns truthfulness, and paternalism overrides a client's choices.",
+   "answer_summary": "A",
+   "options": [
+    {
+     "key": "A",
+     "text": "Double effect",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Distributive justice",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Veracity and truth-telling",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Paternalism toward the client",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "cf9f8b7499cd2a76"
+  },
+  {
+   "source_id": "RN-A03-009",
+   "track": "rn",
+   "set_number": 41,
+   "set_title": "Supplemental: Management of Care",
+   "source_item_number": 9,
+   "client_need": "Management of Care",
+   "topic": "Respecting a client's choice of decision-maker",
+   "item_type": "single_best_answer",
+   "stem": "An older client from a culture in which families make medical decisions together asks the nurse to discuss the diagnosis with their eldest son instead of with them. What should the nurse do?",
+   "rationale": "Autonomy includes a client's right to choose not to receive information personally and to have a trusted person receive it and help decide. The nurse confirms and documents the client's preference, involves the provider, and checks periodically whether the client wants to be included. Forcing the information on the client, excluding the client entirely, or letting the provider choose does not respect the client's wishes.",
+   "answer_summary": "B",
+   "options": [
+    {
+     "key": "A",
+     "text": "Insist on telling the client directly, since adults must receive their own diagnoses",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Respect the client's wish and confirm who will receive information and make decisions",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Tell the son everything and stop including the client in all of the discussions",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Explain that the provider will decide who receives the client's information",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "a4913e32a750995e"
+  },
+  {
+   "source_id": "RN-A03-010",
+   "track": "rn",
+   "set_number": 41,
+   "set_title": "Supplemental: Management of Care",
+   "source_item_number": 10,
+   "client_need": "Management of Care",
+   "topic": "Disclosure of errors",
+   "item_type": "single_best_answer",
+   "stem": "A client received a medication dose twice because of a documentation error and developed hypotension that required treatment. Which statement about telling the client is accurate?",
+   "rationale": "Clients have a right to know about errors that reach them, especially those that cause harm. Disclosure is prompt and honest, includes what happened, what is being done, and an apology, and follows facility policy, usually led by the provider or a leader with the nurse involved. Resolution of the harm, telling only family, and waiting for the client to ask do not meet the standard of transparency.",
+   "answer_summary": "C",
+   "options": [
+    {
+     "key": "A",
+     "text": "The client should not be told, since the hypotension resolved and no lasting harm has resulted from it",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Only the client's family should be told",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "The client should be told about the error promptly, with an explanation and an apology",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "The client should be told only if they ask",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "55c2919f75c0609d"
+  },
+  {
+   "source_id": "RN-A03-011",
+   "track": "rn",
+   "set_number": 41,
+   "set_title": "Supplemental: Management of Care",
+   "source_item_number": 11,
+   "client_need": "Management of Care",
+   "topic": "Addressing incivility",
+   "item_type": "single_best_answer",
+   "stem": "A newly hired nurse tells the charge nurse that an experienced nurse rolls their eyes and ignores the new nurse's questions at the nurses' station. What should the charge nurse do first?",
+   "rationale": "Incivility undermines teamwork, communication, and client safety, so the charge nurse addresses it promptly and privately with the person whose behavior is the problem, describing the specific behavior and expectations. Treating it as normal allows it to continue, moving the new nurse penalizes the person who reported it, and waiting allows harm to continue.",
+   "answer_summary": "A",
+   "options": [
+    {
+     "key": "A",
+     "text": "Talk with the experienced nurse privately about the specific behavior",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Tell the new nurse that this is a normal part of being new on a busy unit",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Reassign the new nurse to another unit so the two nurses no longer work together",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Wait for more complaints first",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "2f97163d3a2d1f37"
+  },
+  {
+   "source_id": "RN-A03-012",
+   "track": "rn",
+   "set_number": 41,
+   "set_title": "Supplemental: Management of Care",
+   "source_item_number": 12,
+   "client_need": "Management of Care",
+   "topic": "Making client assignments",
+   "item_type": "single_best_answer",
+   "stem": "When making client assignments for the shift, which factor should the charge nurse consider first?",
+   "rationale": "Safe assignments match each client's acuity and care needs with the knowledge, skills, and scope of practice of the staff member. Continuity with clients the nurse already knows also matters. Seniority, room location, and personal preferences are secondary to client safety.",
+   "answer_summary": "D",
+   "options": [
+    {
+     "key": "A",
+     "text": "Which nurse has worked on the unit the longest",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Which clients are in rooms closest to the station",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Each nurse's preferences for particular clients",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Client needs matched with staff competence",
+     "is_correct": true
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "a984a1edbcdcc446"
+  },
+  {
+   "source_id": "RN-A03-013",
+   "track": "rn",
+   "set_number": 41,
+   "set_title": "Supplemental: Management of Care",
+   "source_item_number": 13,
+   "client_need": "Management of Care",
+   "topic": "Prioritization: telephone calls in a cardiology clinic",
+   "item_type": "single_best_answer",
+   "stem": "The nurse in a cardiology clinic is returning phone calls. Which caller should the nurse call back first?",
+   "rationale": "Black, tarry stools in a client taking warfarin suggest gastrointestinal bleeding, which can be serious and needs prompt evaluation. Questions about statin timing, a routine refill, and returning to activity after a catheterization are not urgent.",
+   "answer_summary": "D",
+   "options": [
+    {
+     "key": "A",
+     "text": "A client who asks whether a statin can be taken in the evening instead of the morning",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "A client with stable angina who needs a refill of sublingual nitroglycerin tablets",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "A client who had a cardiac catheterization a week ago and asks when to resume golf",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "A client with a mechanical heart valve who takes warfarin and reports black, tarry stools",
+     "is_correct": true
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "5728989d669878bc"
+  },
+  {
+   "source_id": "RN-A03-014",
+   "track": "rn",
+   "set_number": 41,
+   "set_title": "Supplemental: Management of Care",
+   "source_item_number": 14,
+   "client_need": "Management of Care",
+   "topic": "Rights of clients in psychiatric care",
+   "item_type": "multiple_response",
+   "stem": "Which rights apply to a client admitted voluntarily to an inpatient psychiatric unit? Select all that apply.",
+   "rationale": "Clients admitted voluntarily keep their civil rights, including refusing medication except in an emergency, communicating with family and legal counsel, receiving care in the least restrictive appropriate setting, and requesting discharge according to state law. Unit safety rules may limit access to sharp items, and records are not shared with employers without the client's consent.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Refusing medications, except in an emergency",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Communicating with family members and an attorney",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Treatment in the least restrictive appropriate setting",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Requesting discharge in writing, as state law allows",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Unrestricted access to their own razors and sharp items",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Having their records shared with their employer",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "content_hash": "10c313c7aae45962"
+  },
+  {
+   "source_id": "RN-A03-015",
+   "track": "rn",
+   "set_number": 41,
+   "set_title": "Supplemental: Management of Care",
+   "source_item_number": 15,
+   "client_need": "Management of Care",
+   "topic": "Structured handoff",
+   "item_type": "multiple_response",
+   "stem": "The nurse uses a structured handoff tool, such as I-PASS, at shift change. Which elements should the handoff include? Select all that apply.",
+   "rationale": "Structured handoffs such as I-PASS include illness severity, a client summary, an action list, situation awareness with contingency planning, and a synthesis in which the receiver summarizes what was heard. Opinions about staff and billing details are not part of clinical handoff, and listing every normal finding makes key information harder to notice.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Whether the client is stable or unstable",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "A to-do list with tasks and who is responsible for each",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Contingency plans for changes that could occur",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "The receiving nurse's summary of what was heard",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "The client's opinions about other staff members",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "The client's insurance and billing status",
+     "is_correct": false
+    },
+    {
+     "key": "G",
+     "text": "A recitation of every normal finding for each body system",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "content_hash": "d4a793caf6e659b9"
+  },
+  {
+   "source_id": "RN-A03-016",
+   "track": "rn",
+   "set_number": 41,
+   "set_title": "Supplemental: Management of Care",
+   "source_item_number": 16,
+   "client_need": "Management of Care",
+   "topic": "Culture of safety",
+   "item_type": "multiple_response",
+   "stem": "Which actions by nurses help build a culture of safety on a unit? Select all that apply.",
+   "rationale": "A culture of safety depends on open reporting of errors and near misses, staff feeling safe to speak up, and regular team communication such as safety huddles. Hiding errors prevents the unit from learning, and skipping required double checks removes a safeguard when errors are most likely.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Reporting errors and near misses without fear of blame",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Speaking up with a concern using phrases such as \"I am concerned\"",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Taking part in safety huddles at the start of the shift",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Not reporting minor errors to avoid being written up",
+     "is_correct": false
+    },
+    {
+     "key": "E",
+     "text": "Skipping double checks when the unit is busy",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C",
+   "scoring": "plus_minus",
+   "content_hash": "125c56ee476877a2"
+  },
+  {
+   "source_id": "RN-A03-017",
+   "track": "rn",
+   "set_number": 41,
+   "set_title": "Supplemental: Management of Care",
+   "source_item_number": 17,
+   "client_need": "Management of Care",
+   "topic": "Leadership styles",
+   "item_type": "matrix_grid",
+   "stem": "For each description of a charge nurse's behavior, indicate the leadership style it reflects.",
+   "rationale": "An autocratic leader makes decisions alone, which is useful in emergencies. A democratic leader involves the team in decisions. A laissez-faire leader gives little direction, which works only with highly experienced, self-directed teams. A transformational leader motivates staff through a shared vision and supports their development.",
+   "columns": [
+    "Autocratic",
+    "Democratic",
+    "Laissez-faire",
+    "Transformational"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Makes all decisions alone and gives direct orders during a code",
+     "correct_column": "Autocratic"
+    },
+    {
+     "id": "r2",
+     "text": "Asks staff for input before choosing a new scheduling system",
+     "correct_column": "Democratic"
+    },
+    {
+     "id": "r3",
+     "text": "Lets the team decide everything and offers little guidance",
+     "correct_column": "Laissez-faire"
+    },
+    {
+     "id": "r4",
+     "text": "Inspires staff with a shared vision and encourages their growth",
+     "correct_column": "Transformational"
+    },
+    {
+     "id": "r5",
+     "text": "Holds a staff vote on the unit's holiday coverage plan",
+     "correct_column": "Democratic"
+    }
+   ],
+   "answer_summary": "Makes all decisions alone and gives direct orders during a code: Autocratic; Asks staff for input before choosing a new scheduling system: Democratic; Lets the team decide everything and offers little guidance: Laissez-faire; Inspires staff with a shared vision and encourages their growth: Transformational; Holds a staff vote on the unit's holiday coverage plan: Democratic",
+   "scoring": "zero_one_per_row",
+   "content_hash": "53c73fa076d0b006"
+  },
+  {
+   "source_id": "RN-A03-018",
+   "track": "rn",
+   "set_number": 41,
+   "set_title": "Supplemental: Management of Care",
+   "source_item_number": 18,
+   "client_need": "Management of Care",
+   "topic": "Intentional torts",
+   "item_type": "matrix_grid",
+   "stem": "For each situation, indicate the legal term that applies.",
+   "rationale": "Assault is a threat that makes a person fear harmful or unwanted contact. Battery is touching a person without consent. Defamation is a false statement that harms someone's reputation, spoken (slander) or written (libel). False imprisonment is confining a person without legal justification.",
+   "columns": [
+    "Assault",
+    "Battery",
+    "Defamation",
+    "False imprisonment"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Threatening to restrain a client who will not take a medication",
+     "correct_column": "Assault"
+    },
+    {
+     "id": "r2",
+     "text": "Performing a procedure on a competent client who refused it",
+     "correct_column": "Battery"
+    },
+    {
+     "id": "r3",
+     "text": "Telling coworkers false stories that harm a client's reputation",
+     "correct_column": "Defamation"
+    },
+    {
+     "id": "r4",
+     "text": "Blocking the door to keep a competent client from leaving",
+     "correct_column": "False imprisonment"
+    },
+    {
+     "id": "r5",
+     "text": "Posting untrue, damaging statements about a provider online",
+     "correct_column": "Defamation"
+    }
+   ],
+   "answer_summary": "Threatening to restrain a client who will not take a medication: Assault; Performing a procedure on a competent client who refused it: Battery; Telling coworkers false stories that harm a client's reputation: Defamation; Blocking the door to keep a competent client from leaving: False imprisonment; Posting untrue, damaging statements about a provider online: Defamation",
+   "scoring": "zero_one_per_row",
+   "content_hash": "bde8e68468c8ec2e"
+  },
+  {
+   "source_id": "RN-A03-019",
+   "track": "rn",
+   "set_number": 41,
+   "set_title": "Supplemental: Management of Care",
+   "source_item_number": 19,
+   "client_need": "Management of Care",
+   "topic": "Nurse Licensure Compact",
+   "item_type": "drop_down_cloze",
+   "stem": "Complete the sentences by choosing from the lists of options.",
+   "rationale": "A multistate license issued by a compact state allows practice, in person or by telehealth, in all other compact states, but not in states that have not joined the compact. A nurse's license is issued by the primary state of residence, so a nurse who moves permanently to another compact state applies for licensure there. The NCLEX does not need to be retaken.",
+   "template": "The Nurse Licensure Compact allows a nurse with a multistate license to ___1___. When the nurse permanently moves to another compact state, the nurse must ___2___.",
+   "blanks": [
+    {
+     "id": "1",
+     "options": [
+      "practice in person or by telehealth in other compact states",
+      "practice in any state in the country",
+      "practice across state lines only by telehealth"
+     ],
+     "correct": "practice in person or by telehealth in other compact states"
+    },
+    {
+     "id": "2",
+     "options": [
+      "apply for a license in the new home state",
+      "keep the original license indefinitely",
+      "retake the NCLEX"
+     ],
+     "correct": "apply for a license in the new home state"
+    }
+   ],
+   "answer_summary": "1: practice in person or by telehealth in other compact states; 2: apply for a license in the new home state",
+   "scoring": "zero_one_per_blank",
+   "content_hash": "e30da0f5e4cdcece"
+  },
+  {
+   "source_id": "RN-A03-020",
+   "track": "rn",
+   "set_number": 41,
+   "set_title": "Supplemental: Management of Care",
+   "source_item_number": 20,
+   "client_need": "Management of Care",
+   "topic": "Just culture",
+   "item_type": "drop_down_cloze",
+   "stem": "Complete the sentence by choosing from the lists of options.",
+   "rationale": "A just culture distinguishes human error, which is managed by supporting the person and fixing the system, from at-risk behavior, which is coached, and reckless behavior, in which someone consciously disregards a substantial risk and is held accountable. Punishing honest mistakes discourages reporting, while excusing reckless behavior undermines safety.",
+   "template": "In a just culture, a nurse who makes an honest mistake is ___1___, while a nurse who knowingly disregards a substantial risk is ___2___.",
+   "blanks": [
+    {
+     "id": "1",
+     "options": [
+      "supported while the system is examined",
+      "disciplined to deter future errors",
+      "dismissed"
+     ],
+     "correct": "supported while the system is examined"
+    },
+    {
+     "id": "2",
+     "options": [
+      "held accountable through remedial or disciplinary action",
+      "treated the same as a nurse who made an honest mistake",
+      "excused because errors are always system problems"
+     ],
+     "correct": "held accountable through remedial or disciplinary action"
+    }
+   ],
+   "answer_summary": "1: supported while the system is examined; 2: held accountable through remedial or disciplinary action",
+   "scoring": "zero_one_per_blank",
+   "content_hash": "6f7392762f3918eb"
+  },
+  {
+   "source_id": "RN-A03-021",
+   "track": "rn",
+   "set_number": 41,
+   "set_title": "Supplemental: Management of Care",
+   "source_item_number": 21,
+   "client_need": "Management of Care",
+   "topic": "Social media and client privacy",
+   "item_type": "highlight",
+   "stem": "A nurse writes the following post on a personal social media account after a shift. Highlight the parts of the post that violate client privacy.",
+   "rationale": "A room number with a diagnosis, revealing that a recognizable person is a client, and a photo of a whiteboard that likely shows client names or details all disclose protected health information. General comments about a long shift, teamwork, and days off do not identify clients.",
+   "passage_segments": [
+    {
+     "id": "s1",
+     "text": "Long night at work!"
+    },
+    {
+     "id": "s2",
+     "text": "Room 12 had a GI bleed and needed four units of blood."
+    },
+    {
+     "id": "s3",
+     "text": "So proud of our team for working together."
+    },
+    {
+     "id": "s4",
+     "text": "A famous local news anchor is on our floor this week."
+    },
+    {
+     "id": "s5",
+     "text": "Here's a photo of the unit's whiteboard from tonight."
+    },
+    {
+     "id": "s6",
+     "text": "Can't wait for my days off."
+    }
+   ],
+   "correct_text": "Room 12 had a GI bleed and needed four units of blood; A famous local news anchor is on our floor this week; Here's a photo of the unit's whiteboard from tonight",
+   "answer_summary": "Room 12 had a GI bleed and needed four units of blood; A famous local news anchor is on our floor this week; Here's a photo of the unit's whiteboard from tonight",
+   "scoring": "plus_minus",
+   "content_hash": "b8f51c1e76389947"
+  },
+  {
+   "source_id": "RN-A03-022",
+   "track": "rn",
+   "set_number": 41,
+   "set_title": "Supplemental: Management of Care",
+   "source_item_number": 22,
+   "client_need": "Management of Care",
+   "topic": "Inappropriate delegation",
+   "item_type": "highlight",
+   "stem": "The RN reviews the tasks delegated to assistive personnel (AP) this shift. Highlight the tasks that should not have been delegated to the AP.",
+   "rationale": "Deciding whether a change needs to be reported, teaching, and evaluating a client's response to medication require nursing judgment. A client's first meal after a stroke requires assessment of swallowing safety. Vital signs on stable clients, ambulating a stable client, and measuring urine output are routine tasks that can be delegated.",
+   "passage_segments": [
+    {
+     "id": "s1",
+     "text": "Decide whether a client's new confusion needs to be reported."
+    },
+    {
+     "id": "s2",
+     "text": "Take vital signs on four stable clients."
+    },
+    {
+     "id": "s3",
+     "text": "Explain a new low-sodium diet to a client being discharged."
+    },
+    {
+     "id": "s4",
+     "text": "Help a stable client walk to the bathroom."
+    },
+    {
+     "id": "s5",
+     "text": "Evaluate a client's pain after an IV opioid."
+    },
+    {
+     "id": "s6",
+     "text": "Feed the first meal to a client who had a stroke today."
+    },
+    {
+     "id": "s7",
+     "text": "Empty and record the urine from a Foley bag."
+    }
+   ],
+   "correct_text": "Decide whether a client's new confusion needs to be reported; Explain a new low-sodium diet to a client being discharged; Evaluate a client's pain after an IV opioid; Feed the first meal to a client who had a stroke today",
+   "answer_summary": "Decide whether a client's new confusion needs to be reported; Explain a new low-sodium diet to a client being discharged; Evaluate a client's pain after an IV opioid; Feed the first meal to a client who had a stroke today",
+   "scoring": "plus_minus",
+   "content_hash": "2f2c6d7b4e38d385"
+  },
+  {
+   "source_id": "RN-A03-023",
+   "track": "rn",
+   "set_number": 45,
+   "set_title": "Supplemental: Basic Care and Comfort",
+   "source_item_number": 23,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Walking with a cane",
+   "item_type": "single_best_answer",
+   "stem": "The nurse is reinforcing teaching for a client with right knee weakness who has a new single-point cane. Which instruction is correct?",
+   "rationale": "A cane is held on the stronger side and advanced with the weaker leg, which widens the base of support and shifts weight away from the weak leg. Holding it on the weak side, moving it after both legs, or changing sides reduces stability.",
+   "answer_summary": "A",
+   "options": [
+    {
+     "key": "A",
+     "text": "Hold the cane in the left hand and move it forward with the right leg",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Hold the cane in the right hand and move it forward together with the right leg each time",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Move the cane forward after both legs have stepped",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Use the cane on whichever side feels best",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "be25d5a224f9459f"
+  },
+  {
+   "source_id": "RN-A03-024",
+   "track": "rn",
+   "set_number": 45,
+   "set_title": "Supplemental: Basic Care and Comfort",
+   "source_item_number": 24,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Using a walker",
+   "item_type": "single_best_answer",
+   "stem": "Which action by a client using a standard (pickup) walker indicates correct use?",
+   "rationale": "A standard walker is lifted and moved forward a short distance, and then the client steps into the middle of it. Sliding a walker without wheels can make it catch and tip, stepping up to the front legs reduces stability, and pulling up on a walker to stand can tip it over; the client pushes up from the chair arms instead.",
+   "answer_summary": "B",
+   "options": [
+    {
+     "key": "A",
+     "text": "Sliding the walker forward quickly while walking, without lifting it off the floor",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Lifting the walker and placing it forward about one step's length",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Stepping into the walker until the feet are in line with its front legs",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Pulling up on the walker to stand",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "fc74d2d2c15935d0"
+  },
+  {
+   "source_id": "RN-A03-025",
+   "track": "rn",
+   "set_number": 45,
+   "set_title": "Supplemental: Basic Care and Comfort",
+   "source_item_number": 25,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Bladder training",
+   "item_type": "single_best_answer",
+   "stem": "The nurse is helping a client with urge incontinence begin a bladder training program. Which instruction is correct?",
+   "rationale": "Bladder training uses scheduled voiding with gradually longer intervals, along with urge-suppression techniques, to increase bladder capacity. Severe fluid restriction concentrates urine, which irritates the bladder, waiting until the urge is overwhelming leads to accidents, and evening fluids increase nighttime voiding.",
+   "answer_summary": "C",
+   "options": [
+    {
+     "key": "A",
+     "text": "Agree, as long as the heating pad is set on high for faster warming of the feet",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Void only when the urge becomes too strong to ignore any longer",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Discourage it, since reduced sensation increases burn risk",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Drink most of the day's fluids in the evening before going to bed",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "ff361601272cc606"
+  },
+  {
+   "source_id": "RN-A03-026",
+   "track": "rn",
+   "set_number": 45,
+   "set_title": "Supplemental: Basic Care and Comfort",
+   "source_item_number": 26,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Constipation in older adults",
+   "item_type": "single_best_answer",
+   "stem": "An older adult in long-term care reports constipation. Which intervention should the nurse try first?",
+   "rationale": "First-line measures for constipation are adequate fluids, dietary fiber, physical activity, and toileting after meals, when the gastrocolic reflex is strongest. Routine stimulant laxatives and daily enemas can cause dependence and electrolyte problems, and limiting fluids worsens constipation.",
+   "answer_summary": "A",
+   "options": [
+    {
+     "key": "A",
+     "text": "Increasing fluid and fiber intake and encouraging walking and toileting after meals",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Giving a daily stimulant laxative to make sure a bowel movement occurs each day",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Giving a soapsuds enema each morning until bowel movements are regular",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Limiting fluids to prevent incontinence",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "5a6e13752e050501"
+  },
+  {
+   "source_id": "RN-A03-027",
+   "track": "rn",
+   "set_number": 45,
+   "set_title": "Supplemental: Basic Care and Comfort",
+   "source_item_number": 27,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Clean intermittent self-catheterization",
+   "item_type": "single_best_answer",
+   "stem": "A client with a neurogenic bladder will perform clean intermittent self-catheterization at home. Which statement indicates correct understanding?",
+   "rationale": "At home, clean technique with good hand hygiene is used for intermittent self-catheterization; sterile technique is not required. Because bladder sensation is often impaired, catheterization is done on a schedule, commonly every 4 to 6 hours, rather than when the bladder feels full. An intermittent catheter is removed after each use.",
+   "answer_summary": "B",
+   "options": [
+    {
+     "key": "A",
+     "text": "\"I'll need to use a sterile kit and sterile gloves every single time I catheterize at home.\"",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "\"I'll wash my hands and use clean technique each time I catheterize.\"",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "\"I'll catheterize only when I feel my bladder is full.\"",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "\"I'll leave the catheter in overnight.\"",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "5c70c453fd994670"
+  },
+  {
+   "source_id": "RN-A03-028",
+   "track": "rn",
+   "set_number": 45,
+   "set_title": "Supplemental: Basic Care and Comfort",
+   "source_item_number": 28,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Emptying an ostomy pouch",
+   "item_type": "single_best_answer",
+   "stem": "The nurse is reinforcing teaching with a client who has a new ileostomy. When should the client empty the pouch?",
+   "rationale": "Emptying the pouch when it is one-third to one-half full prevents the weight of the contents from pulling the seal loose and causing leaks. Ileostomy output is frequent and liquid, so waiting until the pouch is full, emptying once a day, or emptying only at pouch changes leads to leaks and skin damage.",
+   "answer_summary": "C",
+   "options": [
+    {
+     "key": "A",
+     "text": "Only when the pouch is completely full",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Once a day, at the same time each morning",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "When it is one-third to one-half full",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Each time the pouch is changed",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "8162ca5d670def82"
+  },
+  {
+   "source_id": "RN-A03-029",
+   "track": "rn",
+   "set_number": 45,
+   "set_title": "Supplemental: Basic Care and Comfort",
+   "source_item_number": 29,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Heat and sensory loss",
+   "item_type": "single_best_answer",
+   "stem": "A client with diabetic neuropathy asks whether to use a heating pad on their cold feet at night. What is the nurse's best response?",
+   "rationale": "Clients with peripheral neuropathy may not feel excessive heat, so heating pads and hot soaks can cause serious burns that heal poorly. Warm socks and loose bedding are safer ways to keep the feet warm, and any heat application requires careful temperature checks and time limits.",
+   "answer_summary": "D",
+   "options": [
+    {
+     "key": "A",
+     "text": "Agree, as long as the heating pad is set on high for faster warming",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Agree, but tell the client to sleep with it on to keep the feet warm overnight",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Suggest soaking the feet in hot water instead of using the heating pad",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Discourage it, since decreased sensation raises the risk of burns",
+     "is_correct": true
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "13fda0aef5fa206d"
+  },
+  {
+   "source_id": "RN-A03-030",
+   "track": "rn",
+   "set_number": 45,
+   "set_title": "Supplemental: Basic Care and Comfort",
+   "source_item_number": 30,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Oral care for an unconscious client",
+   "item_type": "single_best_answer",
+   "stem": "The nurse is providing oral care for an unconscious client. Which action is most important?",
+   "rationale": "An unconscious client cannot protect the airway, so the nurse positions the client on the side with the head turned and has suction ready. Large amounts of fluid increase aspiration risk, lemon-glycerin swabs dry and irritate the mucosa, and lying flat on the back allows fluid to flow toward the airway.",
+   "answer_summary": "D",
+   "options": [
+    {
+     "key": "A",
+     "text": "Using a large amount of water to rinse the mouth thoroughly after brushing",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Cleaning the mouth with lemon-glycerin swabs at least every 2 hours",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Placing the client flat on the back during care",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Turning the client to the side and having suction ready to prevent aspiration",
+     "is_correct": true
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "857d2f5ca74b4340"
+  },
+  {
+   "source_id": "RN-A03-031",
+   "track": "rn",
+   "set_number": 45,
+   "set_title": "Supplemental: Basic Care and Comfort",
+   "source_item_number": 31,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Hearing aid care",
+   "item_type": "single_best_answer",
+   "stem": "Which action by the nurse reflects correct care of a client's hearing aid?",
+   "rationale": "At night, a hearing aid is stored in a labeled case with the battery door open to save the battery and let moisture escape. Hearing aids are wiped clean, never soaked, and removed before showering. Wrapping one in a tissue or leaving it on a tray often leads to it being thrown away.",
+   "answer_summary": "B",
+   "options": [
+    {
+     "key": "A",
+     "text": "Cleaning the hearing aid by soaking it in warm, soapy water each night before bedtime",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Removing it at bedtime and storing it in a labeled case with the battery door open",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Leaving it in while the client showers",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Wrapping it in a tissue on the meal tray",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "61f97e012a2d4000"
+  },
+  {
+   "source_id": "RN-A03-032",
+   "track": "rn",
+   "set_number": 45,
+   "set_title": "Supplemental: Basic Care and Comfort",
+   "source_item_number": 32,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Preventing foot drop",
+   "item_type": "single_best_answer",
+   "stem": "Which intervention helps prevent foot drop in a client on prolonged bed rest?",
+   "rationale": "Foot drop results from prolonged plantar flexion. Devices that hold the feet at a right angle, along with range-of-motion exercises, prevent it. Pillows under the knees promote knee flexion contractures, tight sheets push the feet into plantar flexion, and keeping the feet pointed causes the problem.",
+   "answer_summary": "A",
+   "options": [
+    {
+     "key": "A",
+     "text": "Using a foot board or high-top boots to keep the feet at 90 degrees",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Placing a pillow under the knees to keep them flexed throughout the day",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Tucking the top sheet tightly over the client's feet so that it stays in place",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Keeping the feet pointed",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "e1350923081b6ffd"
+  },
+  {
+   "source_id": "RN-A03-033",
+   "track": "rn",
+   "set_number": 45,
+   "set_title": "Supplemental: Basic Care and Comfort",
+   "source_item_number": 33,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Nutrition for wound healing",
+   "item_type": "single_best_answer",
+   "stem": "A client with a stage 3 pressure injury asks which snack will best support wound healing. Which choice should the nurse recommend?",
+   "rationale": "Wound healing requires adequate protein and calories, along with nutrients such as zinc and vitamin C. Greek yogurt with nuts provides protein and calories. Chips with soda and crackers with jelly provide mostly carbohydrates and little protein, and plain lettuce is low in both protein and calories.",
+   "answer_summary": "C",
+   "options": [
+    {
+     "key": "A",
+     "text": "A bag of potato chips with soda",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "A plate of crackers and grape jelly",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Greek yogurt with nuts",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "A large bowl of plain lettuce salad",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "16702d0b6ecad8a8"
+  },
+  {
+   "source_id": "RN-A03-034",
+   "track": "rn",
+   "set_number": 45,
+   "set_title": "Supplemental: Basic Care and Comfort",
+   "source_item_number": 34,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Nonpharmacologic pain relief",
+   "item_type": "multiple_response",
+   "stem": "Which nonpharmacologic measures can the nurse use to help relieve a client's pain? Select all that apply.",
+   "rationale": "Guided imagery, supportive positioning, music, and slow breathing reduce pain perception and anxiety. Heat on an area with impaired sensation can cause burns, and massaging a leg with a suspected deep vein thrombosis could dislodge the clot.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Guided imagery",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Repositioning with pillows for support",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Music the client enjoys",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Applying heat to an area with impaired sensation",
+     "is_correct": false
+    },
+    {
+     "key": "E",
+     "text": "Massaging a calf with a suspected deep vein thrombosis",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Slow, deep breathing",
+     "is_correct": true
+    }
+   ],
+   "answer_summary": "A, B, C, F",
+   "scoring": "plus_minus",
+   "content_hash": "362739af5d6ecb62"
+  },
+  {
+   "source_id": "RN-A03-035",
+   "track": "rn",
+   "set_number": 45,
+   "set_title": "Supplemental: Basic Care and Comfort",
+   "source_item_number": 35,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Promoting sleep in the hospital",
+   "item_type": "multiple_response",
+   "stem": "Which actions by the nurse promote sleep for a hospitalized client? Select all that apply.",
+   "rationale": "Grouping nighttime care, reducing light and noise, following the client's usual routine, and relaxation measures such as a back rub promote sleep. Caffeine in the evening and long afternoon naps make it harder to fall asleep at night.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Clustering care to limit interruptions at night",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Dimming lights and reducing noise after bedtime",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Keeping the client's usual bedtime routine when possible",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Offering a caffeinated drink with the evening snack",
+     "is_correct": false
+    },
+    {
+     "key": "E",
+     "text": "Encouraging long naps during the afternoon",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Offering a back rub before sleep",
+     "is_correct": true
+    }
+   ],
+   "answer_summary": "A, B, C, F",
+   "scoring": "plus_minus",
+   "content_hash": "3e6a7d6aef994b54"
+  },
+  {
+   "source_id": "RN-A03-036",
+   "track": "rn",
+   "set_number": 45,
+   "set_title": "Supplemental: Basic Care and Comfort",
+   "source_item_number": 36,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Transferring a client with hemiplegia",
+   "item_type": "multiple_response",
+   "stem": "The nurse is helping a client with left-sided weakness move from the bed to a wheelchair. Which actions are correct? Select all that apply.",
+   "rationale": "The wheelchair is placed on the client's stronger side so the client can pivot on the strong leg, the brakes are locked, a gait belt is used for a secure hold, and nonskid footwear prevents slipping. Pivoting on the weak leg risks a fall, and pulling under the arms can injure the shoulder, especially on the weak side.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Place the wheelchair on the client's right side",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Lock the wheelchair brakes before the transfer",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Use a gait belt",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Have the client pivot on the left leg",
+     "is_correct": false
+    },
+    {
+     "key": "E",
+     "text": "Lift the client by pulling under the arms",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Have the client wear nonskid footwear",
+     "is_correct": true
+    }
+   ],
+   "answer_summary": "A, B, C, F",
+   "scoring": "plus_minus",
+   "content_hash": "d5ce8eff511a4fe3"
+  },
+  {
+   "source_id": "RN-A03-037",
+   "track": "rn",
+   "set_number": 45,
+   "set_title": "Supplemental: Basic Care and Comfort",
+   "source_item_number": 37,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Clear and full liquid diets",
+   "item_type": "matrix_grid",
+   "stem": "For each food, indicate whether it is allowed on a clear liquid diet or only on a full liquid diet.",
+   "rationale": "A clear liquid diet includes foods that are liquid or clear at body temperature, such as gelatin, broth, and pulp-free juices like apple juice. A full liquid diet adds milk-based and opaque liquids, such as pudding, ice cream, and strained cream soups.",
+   "columns": [
+    "Clear liquid diet",
+    "Full liquid diet only"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Gelatin",
+     "correct_column": "Clear liquid diet"
+    },
+    {
+     "id": "r2",
+     "text": "Broth",
+     "correct_column": "Clear liquid diet"
+    },
+    {
+     "id": "r3",
+     "text": "Pudding",
+     "correct_column": "Full liquid diet only"
+    },
+    {
+     "id": "r4",
+     "text": "Apple juice",
+     "correct_column": "Clear liquid diet"
+    },
+    {
+     "id": "r5",
+     "text": "Ice cream",
+     "correct_column": "Full liquid diet only"
+    },
+    {
+     "id": "r6",
+     "text": "Strained cream soup",
+     "correct_column": "Full liquid diet only"
+    }
+   ],
+   "answer_summary": "Gelatin: Clear liquid diet; Broth: Clear liquid diet; Pudding: Full liquid diet only; Apple juice: Clear liquid diet; Ice cream: Full liquid diet only; Strained cream soup: Full liquid diet only",
+   "scoring": "zero_one_per_row",
+   "content_hash": "fe40ca2e529a0670"
+  },
+  {
+   "source_id": "RN-A03-038",
+   "track": "rn",
+   "set_number": 45,
+   "set_title": "Supplemental: Basic Care and Comfort",
+   "source_item_number": 38,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Hygiene care",
+   "item_type": "matrix_grid",
+   "stem": "For each hygiene action, indicate whether it is appropriate or inappropriate.",
+   "rationale": "Front-to-back perineal care reduces urinary tract infection, a towel-lined sink prevents dentures from breaking if dropped, and drying between the toes prevents fungal infection. Long soaks dry and macerate the skin of clients with diabetes, swabs can push wax deeper and injure the ear canal, and nail care for clients with diabetes is often done by a podiatrist per policy because of the risk of injury.",
+   "columns": [
+    "Appropriate",
+    "Inappropriate"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Cleaning the perineum of a female client from front to back",
+     "correct_column": "Appropriate"
+    },
+    {
+     "id": "r2",
+     "text": "Soaking the feet of a client with diabetes for 30 minutes",
+     "correct_column": "Inappropriate"
+    },
+    {
+     "id": "r3",
+     "text": "Brushing dentures over a sink lined with a towel",
+     "correct_column": "Appropriate"
+    },
+    {
+     "id": "r4",
+     "text": "Using cotton-tipped swabs to clean deep in the ear canal",
+     "correct_column": "Inappropriate"
+    },
+    {
+     "id": "r5",
+     "text": "Drying thoroughly between the toes after washing",
+     "correct_column": "Appropriate"
+    },
+    {
+     "id": "r6",
+     "text": "Cutting the toenails of a client with diabetes, against facility policy",
+     "correct_column": "Inappropriate"
+    }
+   ],
+   "answer_summary": "Cleaning the perineum of a female client from front to back: Appropriate; Soaking the feet of a client with diabetes for 30 minutes: Inappropriate; Brushing dentures over a sink lined with a towel: Appropriate; Using cotton-tipped swabs to clean deep in the ear canal: Inappropriate; Drying thoroughly between the toes after washing: Appropriate; Cutting the toenails of a client with diabetes, against facility policy: Inappropriate",
+   "scoring": "zero_one_per_row",
+   "content_hash": "9ad0d9a5850ee610"
+  },
+  {
+   "source_id": "RN-A03-039",
+   "track": "rn",
+   "set_number": 45,
+   "set_title": "Supplemental: Basic Care and Comfort",
+   "source_item_number": 39,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Heat and cold applications",
+   "item_type": "drop_down_cloze",
+   "stem": "Complete the sentence by choosing from the lists of options.",
+   "rationale": "Cold constricts blood vessels and numbs nerve endings, which limits swelling and pain during the first 24 to 48 hours after an injury. Heat dilates blood vessels, increasing blood flow and relaxing muscles, which is helpful later for stiffness. Both are applied with a barrier and time limits to protect the skin.",
+   "template": "Cold is applied during the first ___1___ after an acute soft-tissue injury to reduce swelling, while heat ___2___.",
+   "blanks": [
+    {
+     "id": "1",
+     "options": [
+      "24 to 48 hours",
+      "5 to 7 days",
+      "2 to 3 weeks"
+     ],
+     "correct": "24 to 48 hours"
+    },
+    {
+     "id": "2",
+     "options": [
+      "increases blood flow and relaxes muscles",
+      "constricts blood vessels and numbs nerve endings",
+      "is safe to apply directly to the skin"
+     ],
+     "correct": "increases blood flow and relaxes muscles"
+    }
+   ],
+   "answer_summary": "1: 24 to 48 hours; 2: increases blood flow and relaxes muscles",
+   "scoring": "zero_one_per_blank",
+   "content_hash": "291e37f10b573515"
+  },
+  {
+   "source_id": "RN-A03-040",
+   "track": "rn",
+   "set_number": 45,
+   "set_title": "Supplemental: Basic Care and Comfort",
+   "source_item_number": 40,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Complications of immobility",
+   "item_type": "highlight",
+   "stem": "The nurse reviews data for a client who has been on bed rest for 10 days after a pelvic fracture. Highlight the findings that indicate a complication of immobility.",
+   "rationale": "Constipation, a nonblanchable reddened area (a stage 1 pressure injury), and a swollen, warm calf that suggests deep vein thrombosis are complications of immobility that need intervention and reporting. Adequate intake, clear lungs, controlled pain, and clear urine are not signs of complications.",
+   "passage_segments": [
+    {
+     "id": "s1",
+     "text": "No bowel movement for 4 days."
+    },
+    {
+     "id": "s2",
+     "text": "Reddened area over the sacrum that does not blanch."
+    },
+    {
+     "id": "s3",
+     "text": "Left calf is swollen and warmer than the right."
+    },
+    {
+     "id": "s4",
+     "text": "Eats 75% of meals."
+    },
+    {
+     "id": "s5",
+     "text": "Lungs clear in all fields."
+    },
+    {
+     "id": "s6",
+     "text": "Pain 3/10 with scheduled acetaminophen."
+    },
+    {
+     "id": "s7",
+     "text": "Urine clear and yellow."
+    }
+   ],
+   "correct_text": "No bowel movement for 4 days; Reddened area over the sacrum that does not blanch; Left calf is swollen and warmer than the right",
+   "answer_summary": "No bowel movement for 4 days; Reddened area over the sacrum that does not blanch; Left calf is swollen and warmer than the right",
+   "scoring": "plus_minus",
+   "content_hash": "4ba9ac47f48a97dd"
+  }
+ ]
+}
