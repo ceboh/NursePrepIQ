@@ -977,6 +977,81 @@
     "PN-C25-06"
    ],
    "needs_review": false
+  },
+  {
+   "case_id": "PN-C26",
+   "title": "Surgical site infection after a total knee replacement",
+   "system": "Musculoskeletal",
+   "discipline": "Adult Health",
+   "items": [
+    "PN-C26-01",
+    "PN-C26-02",
+    "PN-C26-03",
+    "PN-C26-04",
+    "PN-C26-05",
+    "PN-C26-06"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "PN-C27",
+   "title": "Influenza outbreak in long-term care",
+   "system": "Respiratory",
+   "discipline": "Safety & Infection Control",
+   "items": [
+    "PN-C27-01",
+    "PN-C27-02",
+    "PN-C27-03",
+    "PN-C27-04",
+    "PN-C27-05",
+    "PN-C27-06"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "PN-C28",
+   "title": "Hyperemesis gravidarum",
+   "system": "Gastrointestinal",
+   "discipline": "Maternal & Newborn",
+   "items": [
+    "PN-C28-01",
+    "PN-C28-02",
+    "PN-C28-03",
+    "PN-C28-04",
+    "PN-C28-05",
+    "PN-C28-06"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "PN-C29",
+   "title": "Vaso-occlusive pain crisis in a school-age child with sickle cell disease",
+   "system": "Hematologic",
+   "discipline": "Pediatrics",
+   "items": [
+    "PN-C29-01",
+    "PN-C29-02",
+    "PN-C29-03",
+    "PN-C29-04",
+    "PN-C29-05",
+    "PN-C29-06"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "PN-C30",
+   "title": "Opioid withdrawal in a hospitalized client",
+   "system": "Integrated",
+   "discipline": "Mental Health",
+   "items": [
+    "PN-C30-01",
+    "PN-C30-02",
+    "PN-C30-03",
+    "PN-C30-04",
+    "PN-C30-05",
+    "PN-C30-06"
+   ],
+   "needs_review": false
   }
  ]
 }

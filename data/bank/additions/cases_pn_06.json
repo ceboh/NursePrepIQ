@@ -1,0 +1,1540 @@
+{
+ "_comment": "PN NGN unfolding case studies, batch 06 (PN-C26 to PN-C30). Six items per case, one per clinical judgment step. Pilot status.",
+ "track": "pn",
+ "questions": [
+  {
+   "source_id": "PN-C26-01",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 1,
+   "client_need": "Reduction of Risk Potential",
+   "topic": "Case study: Recognize cues",
+   "item_type": "highlight",
+   "stem": "Highlight the findings that require follow-up.",
+   "rationale": "Spreading redness, purulent drainage, increasing swelling and pain, and fever suggest a surgical site infection. High glucose impairs healing and immune function, and stopping exercises risks stiffness. A soft, nontender calf and a normal blood pressure are reassuring.",
+   "passage_segments": [
+    {
+     "id": "s1",
+     "text": "Incision red and warm for 2 cm on each side"
+    },
+    {
+     "id": "s2",
+     "text": "Thick yellow drainage"
+    },
+    {
+     "id": "s3",
+     "text": "Knee more swollen than at the last visit"
+    },
+    {
+     "id": "s4",
+     "text": "Pain 7/10, up from 3/10"
+    },
+    {
+     "id": "s5",
+     "text": "Has stopped doing range-of-motion exercises"
+    },
+    {
+     "id": "s6",
+     "text": "Glucose readings 210 to 260 mg/dL"
+    },
+    {
+     "id": "s7",
+     "text": "T 100.9°F (38.3°C)"
+    },
+    {
+     "id": "s8",
+     "text": "Left calf soft and nontender"
+    },
+    {
+     "id": "s9",
+     "text": "BP 128/76 mm Hg"
+    }
+   ],
+   "correct_text": "Incision red and warm for 2 cm on each side; Thick yellow drainage; Knee more swollen than at the last visit; Pain 7/10, up from 3/10; Has stopped doing range-of-motion exercises; Glucose readings 210 to 260 mg/dL; T 100.9°F (38.3°C)",
+   "answer_summary": "Incision red and warm for 2 cm on each side; Thick yellow drainage; Knee more swollen than at the last visit; Pain 7/10, up from 3/10; Has stopped doing range-of-motion exercises; Glucose readings 210 to 260 mg/dL; T 100.9°F (38.3°C)",
+   "scoring": "plus_minus",
+   "case_id": "PN-C26",
+   "case_sequence": 1,
+   "clinical_judgment_step": "Recognize cues",
+   "content_hash": "669496399b552f4d"
+  },
+  {
+   "source_id": "PN-C26-02",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 2,
+   "client_need": "Reduction of Risk Potential",
+   "topic": "Case study: Analyze cues",
+   "item_type": "matrix_grid",
+   "stem": "For each finding 9 days after knee replacement, indicate whether it is expected during healing or a sign of infection.",
+   "rationale": "Bruising, closed incision edges, and mild swelling that responds to elevation are expected. Spreading redness and warmth, purulent drainage, and pain that worsens after improving are signs of infection.",
+   "columns": [
+    "Expected during healing",
+    "Sign of infection"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Mild bruising around the knee",
+     "correct_column": "Expected during healing"
+    },
+    {
+     "id": "r2",
+     "text": "Edges of the incision closed, with staples intact",
+     "correct_column": "Expected during healing"
+    },
+    {
+     "id": "r3",
+     "text": "Redness and warmth spreading 2 cm from the incision",
+     "correct_column": "Sign of infection"
+    },
+    {
+     "id": "r4",
+     "text": "Thick yellow drainage",
+     "correct_column": "Sign of infection"
+    },
+    {
+     "id": "r5",
+     "text": "Pain that increases after it had been improving",
+     "correct_column": "Sign of infection"
+    },
+    {
+     "id": "r6",
+     "text": "Mild swelling that improves with elevation",
+     "correct_column": "Expected during healing"
+    }
+   ],
+   "answer_summary": "Mild bruising around the knee: Expected during healing; Edges of the incision closed, with staples intact: Expected during healing; Redness and warmth spreading 2 cm from the incision: Sign of infection; Thick yellow drainage: Sign of infection; Pain that increases after it had been improving: Sign of infection; Mild swelling that improves with elevation: Expected during healing",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C26",
+   "case_sequence": 2,
+   "clinical_judgment_step": "Analyze cues",
+   "content_hash": "7f6f48485662cd3c"
+  },
+  {
+   "source_id": "PN-C26-03",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 3,
+   "client_need": "Reduction of Risk Potential",
+   "topic": "Case study: Prioritize hypotheses",
+   "item_type": "drop_down_cloze",
+   "stem": "Complete the sentence by choosing from the lists of options.",
+   "rationale": "Purulent drainage, spreading redness, fever, and worsening pain indicate a surgical site infection, and poorly controlled diabetes increases the risk. The calf findings do not suggest a deep vein thrombosis, and the findings go beyond normal inflammation.",
+   "template": "The client most likely has ___1___, and a factor that increases the risk is ___2___.",
+   "blanks": [
+    {
+     "id": "1",
+     "options": [
+      "a surgical site infection",
+      "a deep vein thrombosis",
+      "a normal inflammatory response"
+     ],
+     "correct": "a surgical site infection"
+    },
+    {
+     "id": "2",
+     "options": [
+      "elevated blood glucose",
+      "aspirin use",
+      "doing range-of-motion exercises"
+     ],
+     "correct": "elevated blood glucose"
+    }
+   ],
+   "answer_summary": "1: a surgical site infection; 2: elevated blood glucose",
+   "scoring": "zero_one_per_blank",
+   "case_id": "PN-C26",
+   "case_sequence": 3,
+   "clinical_judgment_step": "Prioritize hypotheses",
+   "content_hash": "b2d122c6e840a760"
+  },
+  {
+   "source_id": "PN-C26-04",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 4,
+   "client_need": "Coordinated Care",
+   "topic": "Case study: Generate solutions",
+   "item_type": "multiple_response",
+   "stem": "Which actions should the LPN/VN take during this visit? Select all that apply.",
+   "rationale": "Signs of a surgical site infection after joint replacement need prompt reporting and evaluation because infection can spread to the prosthesis. Accurate documentation, hand hygiene, and reporting the glucose pattern support care. Heat can increase swelling and burns, and the LPN/VN does not stop prescribed medications.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Report the findings to the RN case manager and the provider today",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Document the incision's appearance and the drainage",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Reinforce hand hygiene before touching the dressing",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Report the pattern of high glucose readings",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Apply a heating pad to the knee to reduce swelling",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Tell the client to stop taking the aspirin",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "case_id": "PN-C26",
+   "case_sequence": 4,
+   "clinical_judgment_step": "Generate solutions",
+   "content_hash": "8729dc44acef10e0"
+  },
+  {
+   "source_id": "PN-C26-05",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 5,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Take action",
+   "item_type": "single_best_answer",
+   "stem": "The provider prescribes cephalexin for 10 days. Which instruction should the LPN/VN reinforce?",
+   "rationale": "Completing the full course helps clear the infection and reduces resistance. Stopping early can allow the infection to return, saving leftover antibiotics leads to incomplete future treatment, and antibiotics are not taken for pain.",
+   "answer_summary": "A",
+   "options": [
+    {
+     "key": "A",
+     "text": "Take every dose until the prescription is finished, even if the knee looks better",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Stop the antibiotic as soon as the drainage stops and the redness begins to fade away",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Save any leftover capsules in case the knee ever becomes infected again in the future",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Take it only when the pain is bad",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "case_id": "PN-C26",
+   "case_sequence": 5,
+   "clinical_judgment_step": "Take action",
+   "content_hash": "b5ad2b2c55660893"
+  },
+  {
+   "source_id": "PN-C26-06",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 6,
+   "client_need": "Reduction of Risk Potential",
+   "topic": "Case study: Evaluate outcomes",
+   "item_type": "matrix_grid",
+   "stem": "One week later, the LPN/VN visits again. For each finding, indicate whether it shows improvement or needs follow-up.",
+   "rationale": "Less redness, no drainage, a normal temperature, and improved pain and motion show the infection is responding. Persistently high glucose slows healing and needs to be reported so the diabetes plan can be adjusted.",
+   "columns": [
+    "Improvement",
+    "Needs follow-up"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Redness limited to the incision line",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r2",
+     "text": "No drainage",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r3",
+     "text": "T 98.6°F (37°C)",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r4",
+     "text": "Pain 3/10 and knee flexion back to 90 degrees",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r5",
+     "text": "Glucose readings still 240 to 260 mg/dL",
+     "correct_column": "Needs follow-up"
+    }
+   ],
+   "answer_summary": "Redness limited to the incision line: Improvement; No drainage: Improvement; T 98.6°F (37°C): Improvement; Pain 3/10 and knee flexion back to 90 degrees: Improvement; Glucose readings still 240 to 260 mg/dL: Needs follow-up",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C26",
+   "case_sequence": 6,
+   "clinical_judgment_step": "Evaluate outcomes",
+   "content_hash": "42f2f657c5b018ff"
+  },
+  {
+   "source_id": "PN-C27-01",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 1,
+   "client_need": "Safety and Infection Control",
+   "topic": "Case study: Recognize cues",
+   "item_type": "highlight",
+   "stem": "Highlight the findings that require follow-up.",
+   "rationale": "A cluster of respiratory illness with a positive influenza test suggests an outbreak, Resident C has signs of severe illness, and unvaccinated staff increase the risk of spread. Vaccination does not prevent every case, so the residents' vaccine history does not change the immediate actions.",
+   "passage_segments": [
+    {
+     "id": "s1",
+     "text": "Three residents with fever and cough within 48 hours"
+    },
+    {
+     "id": "s2",
+     "text": "Rapid influenza test positive"
+    },
+    {
+     "id": "s3",
+     "text": "Resident C: RR 28/min and SpO2 89% on room air"
+    },
+    {
+     "id": "s4",
+     "text": "Resident C: new confusion"
+    },
+    {
+     "id": "s5",
+     "text": "Two evening staff declined the influenza vaccine"
+    },
+    {
+     "id": "s6",
+     "text": "All three residents received the vaccine in October"
+    }
+   ],
+   "correct_text": "Three residents with fever and cough within 48 hours; Rapid influenza test positive; Resident C: RR 28/min and SpO2 89% on room air; Resident C: new confusion; Two evening staff declined the influenza vaccine",
+   "answer_summary": "Three residents with fever and cough within 48 hours; Rapid influenza test positive; Resident C: RR 28/min and SpO2 89% on room air; Resident C: new confusion; Two evening staff declined the influenza vaccine",
+   "scoring": "plus_minus",
+   "case_id": "PN-C27",
+   "case_sequence": 1,
+   "clinical_judgment_step": "Recognize cues",
+   "content_hash": "bdf97278baca98f3"
+  },
+  {
+   "source_id": "PN-C27-02",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 2,
+   "client_need": "Coordinated Care",
+   "topic": "Case study: Analyze cues",
+   "item_type": "matrix_grid",
+   "stem": "For each resident, indicate whether the LPN/VN should attend to the resident immediately or next.",
+   "rationale": "Low oxygen saturation with new confusion in a 91-year-old suggests respiratory failure or pneumonia and needs immediate action and reporting. Residents who are alert with milder symptoms, and exposed residents without symptoms, are addressed next.",
+   "columns": [
+    "Immediately",
+    "Next"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Resident C: SpO2 89% with new confusion",
+     "correct_column": "Immediately"
+    },
+    {
+     "id": "r2",
+     "text": "Resident A: fever and body aches, alert",
+     "correct_column": "Next"
+    },
+    {
+     "id": "r3",
+     "text": "Resident B: low-grade fever and sore throat",
+     "correct_column": "Next"
+    },
+    {
+     "id": "r4",
+     "text": "Resident A's roommate, who has no symptoms",
+     "correct_column": "Next"
+    }
+   ],
+   "answer_summary": "Resident C: SpO2 89% with new confusion: Immediately; Resident A: fever and body aches, alert: Next; Resident B: low-grade fever and sore throat: Next; Resident A's roommate, who has no symptoms: Next",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C27",
+   "case_sequence": 2,
+   "clinical_judgment_step": "Analyze cues",
+   "content_hash": "da803bacccd01d6d"
+  },
+  {
+   "source_id": "PN-C27-03",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 3,
+   "client_need": "Safety and Infection Control",
+   "topic": "Case study: Prioritize hypotheses",
+   "item_type": "drop_down_cloze",
+   "stem": "Complete the sentence by choosing from the lists of options.",
+   "rationale": "Fever, cough, and body aches in several residents within a short time, with a positive influenza test, indicate an influenza outbreak. Influenza spreads mainly by respiratory droplets, so droplet precautions are used in addition to standard precautions.",
+   "template": "The situation is most consistent with ___1___, and residents with symptoms should be placed on ___2___ precautions.",
+   "blanks": [
+    {
+     "id": "1",
+     "options": [
+      "an influenza outbreak",
+      "a norovirus outbreak",
+      "seasonal allergies"
+     ],
+     "correct": "an influenza outbreak"
+    },
+    {
+     "id": "2",
+     "options": [
+      "droplet",
+      "airborne",
+      "contact only"
+     ],
+     "correct": "droplet"
+    }
+   ],
+   "answer_summary": "1: an influenza outbreak; 2: droplet",
+   "scoring": "zero_one_per_blank",
+   "case_id": "PN-C27",
+   "case_sequence": 3,
+   "clinical_judgment_step": "Prioritize hypotheses",
+   "content_hash": "c78ca4eefd35c64c"
+  },
+  {
+   "source_id": "PN-C27-04",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 4,
+   "client_need": "Safety and Infection Control",
+   "topic": "Case study: Generate solutions",
+   "item_type": "multiple_response",
+   "stem": "Which outbreak control measures should be put in place? Select all that apply.",
+   "rationale": "Droplet precautions, prompt reporting, limiting group activities, and excluding ill staff reduce spread. Precautions begin when influenza is suspected, and moving ill residents to other halls spreads the virus.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Place residents with symptoms on droplet precautions",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Report the suspected outbreak to the RN supervisor and the infection preventionist",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Limit group activities and shared dining on the affected hall",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Have staff with fever or respiratory symptoms stay home",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Wait for all test results before starting precautions",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Move residents with symptoms to other halls to spread out the cases",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "case_id": "PN-C27",
+   "case_sequence": 4,
+   "clinical_judgment_step": "Generate solutions",
+   "content_hash": "48ed2bea10fbf208"
+  },
+  {
+   "source_id": "PN-C27-05",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 5,
+   "client_need": "Coordinated Care",
+   "topic": "Case study: Take action",
+   "item_type": "single_best_answer",
+   "stem": "Which staffing plan for the evening shift is most appropriate?",
+   "rationale": "Cohorting staff, so the same staff care for residents with symptoms and do not move between affected and unaffected residents, limits spread. Spreading ill residents across all staff, assigning unvaccinated staff to infected residents, and rotating between halls increase transmission.",
+   "answer_summary": "D",
+   "options": [
+    {
+     "key": "A",
+     "text": "Spread the residents with symptoms among all of the assistive personnel to share the workload",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Assign the unvaccinated staff members to the residents with influenza symptoms",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Rotate staff between halls every 2 hours to keep everyone fresh",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Assign the same staff to the residents with symptoms",
+     "is_correct": true
+    }
+   ],
+   "scoring": "zero_one",
+   "case_id": "PN-C27",
+   "case_sequence": 5,
+   "clinical_judgment_step": "Take action",
+   "content_hash": "ca762a0aa757f953"
+  },
+  {
+   "source_id": "PN-C27-06",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 6,
+   "client_need": "Coordinated Care",
+   "topic": "Case study: Evaluate outcomes",
+   "item_type": "matrix_grid",
+   "stem": "Seventy-two hours later, the charge nurse reviews the response. For each finding, indicate whether it shows effective outbreak control or needs follow-up.",
+   "rationale": "No new cases, prompt antiviral treatment and prophylaxis as prescribed, and escalation for the resident with hypoxemia show effective control. An ill staff member working puts residents at risk and needs follow-up with the supervisor and employee health.",
+   "columns": [
+    "Effective",
+    "Needs follow-up"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "No new cases on the hall in the past 72 hours",
+     "correct_column": "Effective"
+    },
+    {
+     "id": "r2",
+     "text": "Residents A and B started antiviral treatment within 48 hours of symptoms",
+     "correct_column": "Effective"
+    },
+    {
+     "id": "r3",
+     "text": "Resident C was transferred to the hospital for low oxygen",
+     "correct_column": "Effective"
+    },
+    {
+     "id": "r4",
+     "text": "Residents without symptoms received antiviral prophylaxis as prescribed",
+     "correct_column": "Effective"
+    },
+    {
+     "id": "r5",
+     "text": "A staff member with a fever worked the night shift",
+     "correct_column": "Needs follow-up"
+    }
+   ],
+   "answer_summary": "No new cases on the hall in the past 72 hours: Effective; Residents A and B started antiviral treatment within 48 hours of symptoms: Effective; Resident C was transferred to the hospital for low oxygen: Effective; Residents without symptoms received antiviral prophylaxis as prescribed: Effective; A staff member with a fever worked the night shift: Needs follow-up",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C27",
+   "case_sequence": 6,
+   "clinical_judgment_step": "Evaluate outcomes",
+   "content_hash": "56769468369caf6e"
+  },
+  {
+   "source_id": "PN-C28-01",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 1,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Recognize cues",
+   "item_type": "highlight",
+   "stem": "Highlight the findings that require follow-up.",
+   "rationale": "Persistent vomiting, inability to keep fluids down, weight loss of about 7%, orthostatic changes, tachycardia, ketonuria, and hypokalemia show dehydration, starvation, and electrolyte loss. The temperature is normal.",
+   "passage_segments": [
+    {
+     "id": "s1",
+     "text": "Vomiting 8 to 10 times a day"
+    },
+    {
+     "id": "s2",
+     "text": "Unable to keep fluids down for 24 hours"
+    },
+    {
+     "id": "s3",
+     "text": "Weight down 9 lb from before pregnancy"
+    },
+    {
+     "id": "s4",
+     "text": "Dizzy when standing"
+    },
+    {
+     "id": "s5",
+     "text": "HR 112/min"
+    },
+    {
+     "id": "s6",
+     "text": "BP 86/52 mm Hg standing"
+    },
+    {
+     "id": "s7",
+     "text": "Urine ketones 3+"
+    },
+    {
+     "id": "s8",
+     "text": "Potassium 3.2 mEq/L"
+    },
+    {
+     "id": "s9",
+     "text": "T 98.9°F (37.2°C)"
+    }
+   ],
+   "correct_text": "Vomiting 8 to 10 times a day; Unable to keep fluids down for 24 hours; Weight down 9 lb from before pregnancy; Dizzy when standing; HR 112/min; BP 86/52 mm Hg standing; Urine ketones 3+; Potassium 3.2 mEq/L",
+   "answer_summary": "Vomiting 8 to 10 times a day; Unable to keep fluids down for 24 hours; Weight down 9 lb from before pregnancy; Dizzy when standing; HR 112/min; BP 86/52 mm Hg standing; Urine ketones 3+; Potassium 3.2 mEq/L",
+   "scoring": "plus_minus",
+   "case_id": "PN-C28",
+   "case_sequence": 1,
+   "clinical_judgment_step": "Recognize cues",
+   "content_hash": "80cd029ed68b0b5d"
+  },
+  {
+   "source_id": "PN-C28-02",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 2,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Analyze cues",
+   "item_type": "matrix_grid",
+   "stem": "For each finding, indicate whether it is consistent with common nausea of pregnancy or with hyperemesis gravidarum.",
+   "rationale": "Common nausea and vomiting of pregnancy are bothersome but allow adequate intake and usually improve by the second trimester. Hyperemesis gravidarum causes weight loss of more than 5%, ketosis, dehydration, and electrolyte imbalance.",
+   "columns": [
+    "Common nausea of pregnancy",
+    "Hyperemesis gravidarum"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Nausea that improves by about 14 weeks",
+     "correct_column": "Common nausea of pregnancy"
+    },
+    {
+     "id": "r2",
+     "text": "Occasional vomiting while still able to eat and drink",
+     "correct_column": "Common nausea of pregnancy"
+    },
+    {
+     "id": "r3",
+     "text": "Loss of more than 5% of prepregnancy weight",
+     "correct_column": "Hyperemesis gravidarum"
+    },
+    {
+     "id": "r4",
+     "text": "Ketones in the urine",
+     "correct_column": "Hyperemesis gravidarum"
+    },
+    {
+     "id": "r5",
+     "text": "Orthostatic hypotension",
+     "correct_column": "Hyperemesis gravidarum"
+    },
+    {
+     "id": "r6",
+     "text": "Nausea triggered by strong smells",
+     "correct_column": "Common nausea of pregnancy"
+    }
+   ],
+   "answer_summary": "Nausea that improves by about 14 weeks: Common nausea of pregnancy; Occasional vomiting while still able to eat and drink: Common nausea of pregnancy; Loss of more than 5% of prepregnancy weight: Hyperemesis gravidarum; Ketones in the urine: Hyperemesis gravidarum; Orthostatic hypotension: Hyperemesis gravidarum; Nausea triggered by strong smells: Common nausea of pregnancy",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C28",
+   "case_sequence": 2,
+   "clinical_judgment_step": "Analyze cues",
+   "content_hash": "4a73bd19f1a8f297"
+  },
+  {
+   "source_id": "PN-C28-03",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 3,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Prioritize hypotheses",
+   "item_type": "drop_down_cloze",
+   "stem": "Complete the sentence by choosing from the lists of options.",
+   "rationale": "Severe, persistent vomiting with weight loss, ketonuria, and orthostatic hypotension fits hyperemesis gravidarum. Fluid loss causes dehydration, inadequate intake leads to fat breakdown and ketosis, and vomiting causes potassium loss.",
+   "template": "The client most likely has ___1___, which has caused ___2___.",
+   "blanks": [
+    {
+     "id": "1",
+     "options": [
+      "hyperemesis gravidarum",
+      "common nausea of pregnancy",
+      "gastroenteritis"
+     ],
+     "correct": "hyperemesis gravidarum"
+    },
+    {
+     "id": "2",
+     "options": [
+      "dehydration, ketosis, and hypokalemia",
+      "hyperkalemia",
+      "fluid overload"
+     ],
+     "correct": "dehydration, ketosis, and hypokalemia"
+    }
+   ],
+   "answer_summary": "1: hyperemesis gravidarum; 2: dehydration, ketosis, and hypokalemia",
+   "scoring": "zero_one_per_blank",
+   "case_id": "PN-C28",
+   "case_sequence": 3,
+   "clinical_judgment_step": "Prioritize hypotheses",
+   "content_hash": "07fd30c8d6b46731"
+  },
+  {
+   "source_id": "PN-C28-04",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 4,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Case study: Generate solutions",
+   "item_type": "multiple_response",
+   "stem": "Once vomiting is controlled, which measures should the LPN/VN include as the client begins eating? Select all that apply.",
+   "rationale": "Small, frequent bland meals, separating fluids from solids, avoiding strong odors, and oral care reduce nausea and improve comfort. Large meals and lying flat after eating increase nausea and reflux.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Offer small, frequent bland meals",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Give liquids between meals rather than with meals",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Keep strong food odors away from the room",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Provide mouth care after any vomiting",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Offer three large meals a day",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Have the client lie flat right after eating",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "case_id": "PN-C28",
+   "case_sequence": 4,
+   "clinical_judgment_step": "Generate solutions",
+   "content_hash": "3353073691791638"
+  },
+  {
+   "source_id": "PN-C28-05",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 5,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Case study: Take action",
+   "item_type": "single_best_answer",
+   "stem": "The client says, \"I can't keep living like this. I'm afraid I'm hurting my baby.\" What is the LPN/VN's best response?",
+   "rationale": "Hyperemesis gravidarum is linked with depression and anxiety, and \"I can't keep living like this\" may express suicidal thoughts, so the LPN/VN asks directly and reports the answer to the RN. Asking does not increase risk. Minimizing the illness, offering reassurance that cannot be guaranteed, and telling the client to think positively dismiss the concern.",
+   "answer_summary": "C",
+   "options": [
+    {
+     "key": "A",
+     "text": "\"Lots of pregnant people feel sick in the first trimester, and it always goes away on its own soon.\"",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "\"You're not hurting your baby.\"",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "\"When you say you can't keep living like this, are you thinking about harming yourself?\"",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "\"Try to think positive thoughts.\"",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "case_id": "PN-C28",
+   "case_sequence": 5,
+   "clinical_judgment_step": "Take action",
+   "content_hash": "69e0800b50ddc3e5"
+  },
+  {
+   "source_id": "PN-C28-06",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 6,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Evaluate outcomes",
+   "item_type": "matrix_grid",
+   "stem": "On day 3, the LPN/VN collects data. For each finding, indicate whether it shows improvement or needs follow-up.",
+   "rationale": "Tolerating food, clearing of ketones, a normal potassium level, and resolved orthostatic symptoms show improvement. Continued frequent vomiting means the treatment plan needs to be reviewed with the provider.",
+   "columns": [
+    "Improvement",
+    "Needs follow-up"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Keeps down crackers and small meals",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r2",
+     "text": "Urine ketones negative",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r3",
+     "text": "Potassium 3.9 mEq/L",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r4",
+     "text": "HR 84/min with no dizziness when standing",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r5",
+     "text": "Still vomiting 5 times a day",
+     "correct_column": "Needs follow-up"
+    }
+   ],
+   "answer_summary": "Keeps down crackers and small meals: Improvement; Urine ketones negative: Improvement; Potassium 3.9 mEq/L: Improvement; HR 84/min with no dizziness when standing: Improvement; Still vomiting 5 times a day: Needs follow-up",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C28",
+   "case_sequence": 6,
+   "clinical_judgment_step": "Evaluate outcomes",
+   "content_hash": "2187569fc2683b54"
+  },
+  {
+   "source_id": "PN-C29-01",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 1,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Recognize cues",
+   "item_type": "highlight",
+   "stem": "Highlight the findings that require follow-up.",
+   "rationale": "Severe pain, guarding, poor fluid intake, dry mucous membranes, and tachycardia need treatment. Clear lungs, a normal oxygen saturation, and a hemoglobin near the child's baseline suggest no acute chest syndrome or sequestration at this time.",
+   "passage_segments": [
+    {
+     "id": "s1",
+     "text": "Pain 9/10 in both legs and the lower back"
+    },
+    {
+     "id": "s2",
+     "text": "Crying and guarding the legs"
+    },
+    {
+     "id": "s3",
+     "text": "Drank little water during the tournament"
+    },
+    {
+     "id": "s4",
+     "text": "Mucous membranes dry"
+    },
+    {
+     "id": "s5",
+     "text": "HR 118/min"
+    },
+    {
+     "id": "s6",
+     "text": "Lungs clear, with no chest pain"
+    },
+    {
+     "id": "s7",
+     "text": "SpO2 97% on room air"
+    },
+    {
+     "id": "s8",
+     "text": "Hemoglobin 7.8 g/dL (baseline 8.2)"
+    }
+   ],
+   "correct_text": "Pain 9/10 in both legs and the lower back; Crying and guarding the legs; Drank little water during the tournament; Mucous membranes dry; HR 118/min",
+   "answer_summary": "Pain 9/10 in both legs and the lower back; Crying and guarding the legs; Drank little water during the tournament; Mucous membranes dry; HR 118/min",
+   "scoring": "plus_minus",
+   "case_id": "PN-C29",
+   "case_sequence": 1,
+   "clinical_judgment_step": "Recognize cues",
+   "content_hash": "5430a0a15bde2104"
+  },
+  {
+   "source_id": "PN-C29-02",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 2,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Analyze cues",
+   "item_type": "matrix_grid",
+   "stem": "For each factor, indicate whether it can trigger a sickle cell crisis or helps prevent one.",
+   "rationale": "Dehydration, temperature extremes, infection, and strenuous exertion promote sickling and vaso-occlusion. Good hydration and hydroxyurea, which increases fetal hemoglobin, help prevent crises.",
+   "columns": [
+    "Can trigger a crisis",
+    "Helps prevent a crisis"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Dehydration",
+     "correct_column": "Can trigger a crisis"
+    },
+    {
+     "id": "r2",
+     "text": "Exposure to extreme heat or cold",
+     "correct_column": "Can trigger a crisis"
+    },
+    {
+     "id": "r3",
+     "text": "Infection",
+     "correct_column": "Can trigger a crisis"
+    },
+    {
+     "id": "r4",
+     "text": "Strenuous exercise without rest breaks",
+     "correct_column": "Can trigger a crisis"
+    },
+    {
+     "id": "r5",
+     "text": "Drinking plenty of fluids",
+     "correct_column": "Helps prevent a crisis"
+    },
+    {
+     "id": "r6",
+     "text": "Taking hydroxyurea as prescribed",
+     "correct_column": "Helps prevent a crisis"
+    }
+   ],
+   "answer_summary": "Dehydration: Can trigger a crisis; Exposure to extreme heat or cold: Can trigger a crisis; Infection: Can trigger a crisis; Strenuous exercise without rest breaks: Can trigger a crisis; Drinking plenty of fluids: Helps prevent a crisis; Taking hydroxyurea as prescribed: Helps prevent a crisis",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C29",
+   "case_sequence": 2,
+   "clinical_judgment_step": "Analyze cues",
+   "content_hash": "e54a5c4af29bc8f1"
+  },
+  {
+   "source_id": "PN-C29-03",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 3,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Prioritize hypotheses",
+   "item_type": "drop_down_cloze",
+   "stem": "Complete the sentence by choosing from the lists of options.",
+   "rationale": "Severe pain after dehydration and exertion, with a stable hemoglobin and no enlarged spleen, fits a vaso-occlusive crisis. Acute chest syndrome is a life-threatening complication that can develop during a pain crisis, so chest pain, fever, or falling oxygen saturation must be reported immediately.",
+   "template": "The child is most likely experiencing ___1___, and the LPN/VN should watch closely for ___2___.",
+   "blanks": [
+    {
+     "id": "1",
+     "options": [
+      "a vaso-occlusive pain crisis",
+      "a splenic sequestration crisis",
+      "an aplastic crisis"
+     ],
+     "correct": "a vaso-occlusive pain crisis"
+    },
+    {
+     "id": "2",
+     "options": [
+      "new chest pain, fever, or low oxygen saturation",
+      "a rising hemoglobin level",
+      "bradycardia"
+     ],
+     "correct": "new chest pain, fever, or low oxygen saturation"
+    }
+   ],
+   "answer_summary": "1: a vaso-occlusive pain crisis; 2: new chest pain, fever, or low oxygen saturation",
+   "scoring": "zero_one_per_blank",
+   "case_id": "PN-C29",
+   "case_sequence": 3,
+   "clinical_judgment_step": "Prioritize hypotheses",
+   "content_hash": "83b009a19fa7a4b1"
+  },
+  {
+   "source_id": "PN-C29-04",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 4,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Generate solutions",
+   "item_type": "multiple_response",
+   "stem": "Which pain management measures should the LPN/VN include? Select all that apply.",
+   "rationale": "Prompt, regularly reassessed opioid and nonopioid analgesia, along with warmth and distraction, is the standard for a vaso-occlusive crisis. Cold causes vasoconstriction and can worsen sickling, and withholding opioids out of fear of addiction leaves pain undertreated.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Give the prescribed opioid promptly when the child reports pain",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Reassess pain after each dose using an age-appropriate scale",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Give the scheduled acetaminophen on time",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Use warm compresses and distraction, such as games or videos",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Apply ice packs to the painful areas",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Delay opioid doses because of concern about addiction",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "case_id": "PN-C29",
+   "case_sequence": 4,
+   "clinical_judgment_step": "Generate solutions",
+   "content_hash": "e298f0c16907fc42"
+  },
+  {
+   "source_id": "PN-C29-05",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 5,
+   "client_need": "Coordinated Care",
+   "topic": "Case study: Take action",
+   "item_type": "single_best_answer",
+   "stem": "Before discharge, the parent asks how the school can help prevent future crises. Which suggestion should the LPN/VN make?",
+   "rationale": "A school health plan coordinated with the school nurse can allow water, bathroom, and rest breaks, temperature precautions, and a plan for pain, supporting both safety and participation. Keeping the child home is unnecessary, and limiting water or rest increases the risk of a crisis.",
+   "answer_summary": "B",
+   "options": [
+    {
+     "key": "A",
+     "text": "Keep the child home from school until the end of the school year to avoid any risk",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Work with the school nurse on a health plan that allows water and rest breaks",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Ask the coach to let the child play every game without breaks so the child fits in",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Tell the school not to let the child drink water during class to avoid bathroom trips",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "case_id": "PN-C29",
+   "case_sequence": 5,
+   "clinical_judgment_step": "Take action",
+   "content_hash": "d89eb87377d41cdc"
+  },
+  {
+   "source_id": "PN-C29-06",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 6,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Case study: Evaluate outcomes",
+   "item_type": "matrix_grid",
+   "stem": "On day 3, the LPN/VN observes how the child is coping. For each finding, indicate whether it shows positive coping or needs follow-up.",
+   "rationale": "Using coping strategies, talking with a child life specialist, and planning how to talk with friends show healthy coping. Fear about the future and withdrawal need follow-up so the team can support the child and family.",
+   "columns": [
+    "Positive coping",
+    "Needs follow-up"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Uses slow breathing and video games when pain increases",
+     "correct_column": "Positive coping"
+    },
+    {
+     "id": "r2",
+     "text": "Talks with the child life specialist about the hospital stay",
+     "correct_column": "Positive coping"
+    },
+    {
+     "id": "r3",
+     "text": "Asks how to explain sickle cell disease to friends",
+     "correct_column": "Positive coping"
+    },
+    {
+     "id": "r4",
+     "text": "Says, \"I'm scared I'll never be able to play soccer again.\"",
+     "correct_column": "Needs follow-up"
+    },
+    {
+     "id": "r5",
+     "text": "Refuses to talk and hides under the blanket most of the day",
+     "correct_column": "Needs follow-up"
+    }
+   ],
+   "answer_summary": "Uses slow breathing and video games when pain increases: Positive coping; Talks with the child life specialist about the hospital stay: Positive coping; Asks how to explain sickle cell disease to friends: Positive coping; Says, \"I'm scared I'll never be able to play soccer again.\": Needs follow-up; Refuses to talk and hides under the blanket most of the day: Needs follow-up",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C29",
+   "case_sequence": 6,
+   "clinical_judgment_step": "Evaluate outcomes",
+   "content_hash": "48824c38ea649a70"
+  },
+  {
+   "source_id": "PN-C30-01",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 1,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Case study: Recognize cues",
+   "item_type": "highlight",
+   "stem": "Highlight the findings that indicate opioid withdrawal.",
+   "rationale": "Yawning, rhinorrhea, tearing, piloerection, muscle aches, gastrointestinal symptoms, dilated pupils, and a COWS score of 14 indicate moderate opioid withdrawal. The low-grade temperature and the cellulitis are related to the infection being treated.",
+   "passage_segments": [
+    {
+     "id": "s1",
+     "text": "Yawning"
+    },
+    {
+     "id": "s2",
+     "text": "Runny nose and tearing eyes"
+    },
+    {
+     "id": "s3",
+     "text": "Gooseflesh on the arms"
+    },
+    {
+     "id": "s4",
+     "text": "Muscle aches, stomach cramps, and diarrhea"
+    },
+    {
+     "id": "s5",
+     "text": "Pupils dilated"
+    },
+    {
+     "id": "s6",
+     "text": "COWS score 14"
+    },
+    {
+     "id": "s7",
+     "text": "T 99.2°F (37.3°C)"
+    },
+    {
+     "id": "s8",
+     "text": "Cellulitis of the forearm"
+    }
+   ],
+   "correct_text": "Yawning; Runny nose and tearing eyes; Gooseflesh on the arms; Muscle aches, stomach cramps, and diarrhea; Pupils dilated; COWS score 14",
+   "answer_summary": "Yawning; Runny nose and tearing eyes; Gooseflesh on the arms; Muscle aches, stomach cramps, and diarrhea; Pupils dilated; COWS score 14",
+   "scoring": "plus_minus",
+   "case_id": "PN-C30",
+   "case_sequence": 1,
+   "clinical_judgment_step": "Recognize cues",
+   "content_hash": "b924f64ea261b530"
+  },
+  {
+   "source_id": "PN-C30-02",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 2,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Case study: Analyze cues",
+   "item_type": "matrix_grid",
+   "stem": "For each finding, indicate whether it suggests opioid withdrawal or opioid intoxication.",
+   "rationale": "Withdrawal causes overactivity of the body's systems: dilated pupils, yawning, rhinorrhea, and gastrointestinal upset. Intoxication causes pinpoint pupils, drowsiness, and respiratory depression, which can be fatal.",
+   "columns": [
+    "Opioid withdrawal",
+    "Opioid intoxication"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Dilated pupils",
+     "correct_column": "Opioid withdrawal"
+    },
+    {
+     "id": "r2",
+     "text": "Pinpoint pupils",
+     "correct_column": "Opioid intoxication"
+    },
+    {
+     "id": "r3",
+     "text": "Yawning and runny nose",
+     "correct_column": "Opioid withdrawal"
+    },
+    {
+     "id": "r4",
+     "text": "Slow, shallow breathing",
+     "correct_column": "Opioid intoxication"
+    },
+    {
+     "id": "r5",
+     "text": "Drowsiness",
+     "correct_column": "Opioid intoxication"
+    },
+    {
+     "id": "r6",
+     "text": "Diarrhea and stomach cramps",
+     "correct_column": "Opioid withdrawal"
+    }
+   ],
+   "answer_summary": "Dilated pupils: Opioid withdrawal; Pinpoint pupils: Opioid intoxication; Yawning and runny nose: Opioid withdrawal; Slow, shallow breathing: Opioid intoxication; Drowsiness: Opioid intoxication; Diarrhea and stomach cramps: Opioid withdrawal",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C30",
+   "case_sequence": 2,
+   "clinical_judgment_step": "Analyze cues",
+   "content_hash": "aa8d7681fc042746"
+  },
+  {
+   "source_id": "PN-C30-03",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 3,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Prioritize hypotheses",
+   "item_type": "drop_down_cloze",
+   "stem": "Complete the sentence by choosing from the lists of options.",
+   "rationale": "A COWS score of 14 indicates moderate opioid withdrawal. Buprenorphine is a partial agonist that binds tightly to opioid receptors; if given while full agonists such as heroin still occupy them, it can cause sudden, severe precipitated withdrawal, so it is started once withdrawal is established.",
+   "template": "The client is experiencing ___1___ withdrawal, and buprenorphine is started ___2___.",
+   "blanks": [
+    {
+     "id": "1",
+     "options": [
+      "moderate opioid",
+      "alcohol",
+      "stimulant"
+     ],
+     "correct": "moderate opioid"
+    },
+    {
+     "id": "2",
+     "options": [
+      "once withdrawal signs are present, to avoid precipitated withdrawal",
+      "right after the last heroin use",
+      "only after all symptoms resolve"
+     ],
+     "correct": "once withdrawal signs are present, to avoid precipitated withdrawal"
+    }
+   ],
+   "answer_summary": "1: moderate opioid; 2: once withdrawal signs are present, to avoid precipitated withdrawal",
+   "scoring": "zero_one_per_blank",
+   "case_id": "PN-C30",
+   "case_sequence": 3,
+   "clinical_judgment_step": "Prioritize hypotheses",
+   "content_hash": "fc65c9befd07d443"
+  },
+  {
+   "source_id": "PN-C30-04",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 4,
+   "client_need": "Coordinated Care",
+   "topic": "Case study: Generate solutions",
+   "item_type": "multiple_response",
+   "stem": "The client repeats, \"I'm leaving.\" Which actions should the LPN/VN take? Select all that apply.",
+   "rationale": "The LPN/VN involves the RN and provider, explores the reason, and explains that withdrawal can be treated now, which often allows the client to stay for the infection treatment. If a competent client still leaves, harm reduction such as naloxone and treatment resources can save a life. Blocking the door is false imprisonment, and threats damage trust.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Notify the RN and provider right away",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Ask what is making the client want to leave",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Explain that treatment for the withdrawal symptoms is available now",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Offer a naloxone kit and treatment resources if the client still decides to leave",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Block the doorway so the client cannot leave",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Tell the client the police will be called if they leave",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "case_id": "PN-C30",
+   "case_sequence": 4,
+   "clinical_judgment_step": "Generate solutions",
+   "content_hash": "c9be90c73813b3b8"
+  },
+  {
+   "source_id": "PN-C30-05",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 5,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Take action",
+   "item_type": "single_best_answer",
+   "stem": "The COWS score is 14, and buprenorphine 4 mg sublingual is due. Which instruction should the LPN/VN give the client?",
+   "rationale": "Sublingual buprenorphine is absorbed through the oral mucosa and is much less effective if swallowed, so the client lets it dissolve fully under the tongue and avoids eating or drinking until it has dissolved.",
+   "answer_summary": "A",
+   "options": [
+    {
+     "key": "A",
+     "text": "Let the tablet dissolve completely under the tongue without chewing or swallowing it",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Swallow the tablet whole with a full glass of water so that it is absorbed faster in the stomach",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Chew the tablet thoroughly and then swallow it with juice so that it starts working sooner",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Dissolve it in coffee",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "case_id": "PN-C30",
+   "case_sequence": 5,
+   "clinical_judgment_step": "Take action",
+   "content_hash": "f822079733c1e868"
+  },
+  {
+   "source_id": "PN-C30-06",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 6,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Case study: Evaluate outcomes",
+   "item_type": "matrix_grid",
+   "stem": "Two days later, the LPN/VN reviews the client's progress. For each finding, indicate whether it shows progress or needs follow-up.",
+   "rationale": "Controlled withdrawal, interest in continuing medication for opioid use disorder, accepting a treatment referral, and accepting naloxone show progress. A plan to use heroin while taking buprenorphine, after losing tolerance, increases the risk of overdose and needs follow-up and teaching.",
+   "columns": [
+    "Progress",
+    "Needs follow-up"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "COWS score 4",
+     "correct_column": "Progress"
+    },
+    {
+     "id": "r2",
+     "text": "Says, \"I want to keep taking buprenorphine after I go home.\"",
+     "correct_column": "Progress"
+    },
+    {
+     "id": "r3",
+     "text": "Agrees to a referral to an outpatient treatment program",
+     "correct_column": "Progress"
+    },
+    {
+     "id": "r4",
+     "text": "Accepts a naloxone kit",
+     "correct_column": "Progress"
+    },
+    {
+     "id": "r5",
+     "text": "Says, \"I'll use just a little heroin at home to take the edge off.\"",
+     "correct_column": "Needs follow-up"
+    }
+   ],
+   "answer_summary": "COWS score 4: Progress; Says, \"I want to keep taking buprenorphine after I go home.\": Progress; Agrees to a referral to an outpatient treatment program: Progress; Accepts a naloxone kit: Progress; Says, \"I'll use just a little heroin at home to take the edge off.\": Needs follow-up",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C30",
+   "case_sequence": 6,
+   "clinical_judgment_step": "Evaluate outcomes",
+   "content_hash": "28bf8226e9da8f3c"
+  }
+ ],
+ "case_studies": [
+  {
+   "scenario": "The home health LPN/VN visits a 67-year-old client with type 2 diabetes who had a right total knee replacement 9 days ago.",
+   "exhibits": [
+    {
+     "label": "Nurses' notes",
+     "content": "Incision red and warm for 2 cm on each side, with thick yellow drainage from the lower end. Knee more swollen than at the last visit. Pain 7/10, up from 3/10 two days ago. Has stopped doing range-of-motion exercises because of pain. Left calf soft and nontender. Home glucose readings 210 to 260 mg/dL this week."
+    },
+    {
+     "label": "Vital signs",
+     "content": "T 100.9°F (38.3°C), HR 102/min, RR 18/min, BP 128/76 mm Hg."
+    },
+    {
+     "label": "Medications",
+     "content": "Aspirin 81 mg by mouth twice daily for clot prevention. Metformin 1,000 mg by mouth twice daily. Oxycodone 5 mg by mouth every 4 hours as needed for pain."
+    }
+   ],
+   "case_id": "PN-C26",
+   "track": "pn",
+   "set_number": 49,
+   "title": "Surgical site infection after a total knee replacement"
+  },
+  {
+   "scenario": "In January, three residents on one hall of a long-term care facility develop fever and cough within 48 hours. The LPN/VN is the charge nurse on the evening shift.",
+   "exhibits": [
+    {
+     "label": "Nurses' notes, 1600",
+     "content": "Resident A, 84 years old: T 101.6°F (38.7°C), cough, and body aches since this morning; rapid influenza test positive. Resident B, 79 years old: T 100.8°F (38.2°C), new cough, and sore throat since yesterday. Resident C, 91 years old: T 102.2°F (39°C), RR 28/min, SpO2 89% on room air, and new confusion."
+    },
+    {
+     "label": "Vaccination records",
+     "content": "All three residents received the influenza vaccine in October. Two of the evening staff members declined the influenza vaccine this season."
+    },
+    {
+     "label": "Facility policy",
+     "content": "Use droplet precautions for suspected or confirmed influenza. Report suspected outbreaks to the RN supervisor and the infection preventionist. The provider decides on antiviral treatment and prophylaxis."
+    }
+   ],
+   "case_id": "PN-C27",
+   "track": "pn",
+   "set_number": 49,
+   "title": "Influenza outbreak in long-term care"
+  },
+  {
+   "scenario": "A client at 10 weeks of gestation is admitted with nausea and vomiting that have prevented eating or drinking for 2 days.",
+   "exhibits": [
+    {
+     "label": "Nurses' notes",
+     "content": "Vomiting 8 to 10 times a day for a week. Unable to keep fluids down for 24 hours. Weight 121 lb (54.9 kg), down from 130 lb (59 kg) before pregnancy. Mucous membranes dry. Dizzy when standing. Says, \"I can't keep living like this. I'm afraid I'm hurting my baby.\""
+    },
+    {
+     "label": "Vital signs",
+     "content": "T 98.9°F (37.2°C), HR 112/min, RR 18/min, BP 98/60 mm Hg sitting and 86/52 mm Hg standing."
+    },
+    {
+     "label": "Laboratory results",
+     "content": "Urine ketones 3+ (negative). Potassium 3.2 mEq/L (3.5–5.0). Urine specific gravity 1.032 (1.005–1.030)."
+    },
+    {
+     "label": "Prescriptions",
+     "content": "IV fluids with potassium. Thiamine 100 mg IV daily. Ondansetron 4 mg IV every 8 hours as needed. NPO until vomiting is controlled, then small, frequent bland meals."
+    }
+   ],
+   "case_id": "PN-C28",
+   "track": "pn",
+   "set_number": 49,
+   "title": "Hyperemesis gravidarum"
+  },
+  {
+   "scenario": "An 8-year-old with sickle cell disease is admitted with severe pain in the legs and back after a soccer tournament on a hot day.",
+   "exhibits": [
+    {
+     "label": "Nurses' notes",
+     "content": "Pain 9/10 in both legs and the lower back. Crying and guarding the legs. Drank little water during the tournament. Mucous membranes dry. Lungs clear, with no chest pain. Spleen not palpable. No fever."
+    },
+    {
+     "label": "Vital signs",
+     "content": "T 98.8°F (37.1°C), HR 118/min, RR 22/min, BP 110/68 mm Hg, SpO2 97% on room air."
+    },
+    {
+     "label": "Laboratory results",
+     "content": "Hemoglobin 7.8 g/dL (child's baseline 8.2). Reticulocytes 12%."
+    },
+    {
+     "label": "Prescriptions",
+     "content": "Morphine IV every 2 hours as needed for pain. Acetaminophen by mouth every 6 hours. IV fluids at 1.5 times maintenance. Incentive spirometer every 2 hours while awake."
+    }
+   ],
+   "case_id": "PN-C29",
+   "track": "pn",
+   "set_number": 49,
+   "title": "Vaso-occlusive pain crisis in a school-age child with sickle cell disease"
+  },
+  {
+   "scenario": "A 29-year-old client was admitted 2 days ago with cellulitis of the forearm at an injection site. The client uses heroin daily, and the last use was 30 hours ago.",
+   "exhibits": [
+    {
+     "label": "Nurses' notes",
+     "content": "Restless, yawning, with a runny nose and tearing eyes. Gooseflesh on the arms. Reports muscle aches, stomach cramps, and diarrhea. Pupils dilated. Says, \"I need something, or I'm leaving.\""
+    },
+    {
+     "label": "Vital signs",
+     "content": "T 99.2°F (37.3°C), HR 108/min, RR 20/min, BP 146/88 mm Hg."
+    },
+    {
+     "label": "Clinical Opiate Withdrawal Scale (COWS)",
+     "content": "Score 14 (moderate withdrawal)."
+    },
+    {
+     "label": "Prescriptions",
+     "content": "Buprenorphine 4 mg sublingual once the COWS score is 12 or higher; reassess in 1 hour. Clonidine 0.1 mg by mouth every 6 hours as needed for withdrawal symptoms. Cefazolin IV."
+    }
+   ],
+   "case_id": "PN-C30",
+   "track": "pn",
+   "set_number": 49,
+   "title": "Opioid withdrawal in a hospitalized client"
+  }
+ ]
+}
