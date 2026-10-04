@@ -1,5 +1,5 @@
 {
- "_comment": "One system and one discipline per RN case study. All 6 items in the case inherit these values. Items flagged needs_review are judgment calls the owner may change.",
+ "_comment": "One system and one discipline per case study. All 6 items in the case inherit these values. \"cases\" holds the RN case studies and \"pn_cases\" the PN ones. Items flagged needs_review are judgment calls the owner may change.",
  "cases": [
   {
    "case_id": "RN-S01-CASE",
@@ -600,6 +600,83 @@
     "RN-S40-25"
    ],
    "needs_review": true
+  }
+ ],
+ "pn_cases": [
+  {
+   "case_id": "PN-C01",
+   "title": "Urinary tract infection with acute confusion in a long-term care resident",
+   "system": "Renal & Urinary",
+   "discipline": "Adult Health",
+   "items": [
+    "PN-C01-01",
+    "PN-C01-02",
+    "PN-C01-03",
+    "PN-C01-04",
+    "PN-C01-05",
+    "PN-C01-06"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "PN-C02",
+   "title": "Cellulitis of the lower leg in a client with diabetes",
+   "system": "Integumentary",
+   "discipline": "Adult Health",
+   "items": [
+    "PN-C02-01",
+    "PN-C02-02",
+    "PN-C02-03",
+    "PN-C02-04",
+    "PN-C02-05",
+    "PN-C02-06"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "PN-C03",
+   "title": "Digoxin toxicity in an older adult",
+   "system": "Cardiovascular",
+   "discipline": "Pharmacology",
+   "items": [
+    "PN-C03-01",
+    "PN-C03-02",
+    "PN-C03-03",
+    "PN-C03-04",
+    "PN-C03-05",
+    "PN-C03-06"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "PN-C04",
+   "title": "Toddler with a febrile seizure",
+   "system": "Neurologic",
+   "discipline": "Pediatrics",
+   "items": [
+    "PN-C04-01",
+    "PN-C04-02",
+    "PN-C04-03",
+    "PN-C04-04",
+    "PN-C04-05",
+    "PN-C04-06"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "PN-C05",
+   "title": "Major depressive disorder with suicidal thoughts",
+   "system": "Integrated",
+   "discipline": "Mental Health",
+   "items": [
+    "PN-C05-01",
+    "PN-C05-02",
+    "PN-C05-03",
+    "PN-C05-04",
+    "PN-C05-05",
+    "PN-C05-06"
+   ],
+   "needs_review": false
   }
  ]
 }

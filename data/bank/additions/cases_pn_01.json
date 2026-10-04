@@ -1,0 +1,1569 @@
+{
+ "_comment": "PN NGN unfolding case studies, batch 01 (PN-C01 to PN-C05). Six items per case, one per clinical judgment step. Pilot status.",
+ "track": "pn",
+ "questions": [
+  {
+   "source_id": "PN-C01-01",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 1,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Recognize cues",
+   "item_type": "highlight",
+   "stem": "Highlight the findings that require follow-up.",
+   "rationale": "New confusion and restlessness, urinary burning with cloudy, foul-smelling urine, low fluid intake, and fever are changes from the resident's baseline that point to an acute problem. Clear lungs, a normal oxygen saturation, and orientation to person are not new concerns.",
+   "passage_segments": [
+    {
+     "id": "s1",
+     "text": "Confused to place and time, which is new"
+    },
+    {
+     "id": "s2",
+     "text": "Restless and picking at bed linens"
+    },
+    {
+     "id": "s3",
+     "text": "Cloudy, foul-smelling urine"
+    },
+    {
+     "id": "s4",
+     "text": "Says urinating burns"
+    },
+    {
+     "id": "s5",
+     "text": "Drank about 400 mL of fluid yesterday"
+    },
+    {
+     "id": "s6",
+     "text": "T 100.9°F (38.3°C)"
+    },
+    {
+     "id": "s7",
+     "text": "Lungs clear"
+    },
+    {
+     "id": "s8",
+     "text": "SpO2 96% on room air"
+    },
+    {
+     "id": "s9",
+     "text": "Oriented to person"
+    }
+   ],
+   "correct_text": "Confused to place and time, which is new; Restless and picking at bed linens; Cloudy, foul-smelling urine; Says urinating burns; Drank about 400 mL of fluid yesterday; T 100.9°F (38.3°C)",
+   "answer_summary": "Confused to place and time, which is new; Restless and picking at bed linens; Cloudy, foul-smelling urine; Says urinating burns; Drank about 400 mL of fluid yesterday; T 100.9°F (38.3°C)",
+   "scoring": "plus_minus",
+   "case_id": "PN-C01",
+   "case_sequence": 1,
+   "clinical_judgment_step": "Recognize cues",
+   "content_hash": "62c2587b5e7ab7c9"
+  },
+  {
+   "source_id": "PN-C01-02",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 2,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Case study: Analyze cues",
+   "item_type": "matrix_grid",
+   "stem": "For each finding, indicate whether it suggests delirium or is consistent with the resident's baseline dementia.",
+   "rationale": "Delirium develops suddenly, over hours to days, with fluctuating attention and often restlessness or picking behaviors. Dementia develops gradually, so long-standing short-term memory loss and the resident's usual orientation reflect the baseline.",
+   "columns": [
+    "Delirium",
+    "Baseline dementia"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Confusion to time and place that began overnight",
+     "correct_column": "Delirium"
+    },
+    {
+     "id": "r2",
+     "text": "Restlessness and picking at bed linens",
+     "correct_column": "Delirium"
+    },
+    {
+     "id": "r3",
+     "text": "Oriented to person",
+     "correct_column": "Baseline dementia"
+    },
+    {
+     "id": "r4",
+     "text": "Short-term memory loss over the past 2 years",
+     "correct_column": "Baseline dementia"
+    },
+    {
+     "id": "r5",
+     "text": "Attention that comes and goes during conversation",
+     "correct_column": "Delirium"
+    }
+   ],
+   "answer_summary": "Confusion to time and place that began overnight: Delirium; Restlessness and picking at bed linens: Delirium; Oriented to person: Baseline dementia; Short-term memory loss over the past 2 years: Baseline dementia; Attention that comes and goes during conversation: Delirium",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C01",
+   "case_sequence": 2,
+   "clinical_judgment_step": "Analyze cues",
+   "content_hash": "8cec8a80622a0c2b"
+  },
+  {
+   "source_id": "PN-C01-03",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 3,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Prioritize hypotheses",
+   "item_type": "drop_down_cloze",
+   "stem": "Complete the sentence by choosing from the lists of options.",
+   "rationale": "A sudden change in mental status with fever, urinary burning, and cloudy urine in an older adult suggests delirium caused by a urinary tract infection, made worse by dehydration. Alzheimer's disease progresses slowly, and there are no focal neurologic signs of stroke.",
+   "template": "The resident is most likely experiencing ___1___ caused by ___2___.",
+   "blanks": [
+    {
+     "id": "1",
+     "options": [
+      "delirium",
+      "a worsening of Alzheimer's disease",
+      "depression"
+     ],
+     "correct": "delirium"
+    },
+    {
+     "id": "2",
+     "options": [
+      "a urinary tract infection with low fluid intake",
+      "an ischemic stroke",
+      "a side effect of a dementia medication"
+     ],
+     "correct": "a urinary tract infection with low fluid intake"
+    }
+   ],
+   "answer_summary": "1: delirium; 2: a urinary tract infection with low fluid intake",
+   "scoring": "zero_one_per_blank",
+   "case_id": "PN-C01",
+   "case_sequence": 3,
+   "clinical_judgment_step": "Prioritize hypotheses",
+   "content_hash": "7b329efb0fe58721"
+  },
+  {
+   "source_id": "PN-C01-04",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 4,
+   "client_need": "Coordinated Care",
+   "topic": "Case study: Generate solutions",
+   "item_type": "multiple_response",
+   "stem": "The LPN/VN prepares to report to the RN using SBAR. Which information should the LPN/VN include? Select all that apply.",
+   "rationale": "A useful report gives the current situation, relevant baseline information, the nurse's findings compared with the baseline, and the data needed to act, such as vital signs, urinary changes, and intake. Opinions about behavior and unrelated preferences do not help the RN or provider make decisions.",
+   "options": [
+    {
+     "key": "A",
+     "text": "The change in mental status compared with the resident's baseline",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Temperature, heart rate, and blood pressure compared with the usual values",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "The changes in the urine and the burning with urination",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "The resident's fluid intake yesterday",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "The assistive personnel's opinion that the resident is being difficult",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "The resident's favorite television programs",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "case_id": "PN-C01",
+   "case_sequence": 4,
+   "clinical_judgment_step": "Generate solutions",
+   "content_hash": "c000de74b5b1fc1e"
+  },
+  {
+   "source_id": "PN-C01-05",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 5,
+   "client_need": "Reduction of Risk Potential",
+   "topic": "Case study: Take action",
+   "item_type": "single_best_answer",
+   "stem": "The provider prescribes a urinalysis with culture and an oral antibiotic. Which action should the LPN/VN take first?",
+   "rationale": "A urine specimen for culture is collected before antibiotics start so that the results accurately identify the organism and its sensitivities. An indwelling catheter left in place increases infection risk, and fluids should be encouraged, not restricted, unless another condition requires limits.",
+   "answer_summary": "C",
+   "options": [
+    {
+     "key": "A",
+     "text": "Give the first antibiotic dose right away and collect the urine specimen with the next void",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Insert an indwelling urinary catheter and leave it in place until the infection clears",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Collect the urine specimen for culture before giving the first antibiotic dose",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Restrict fluids until the results return",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "case_id": "PN-C01",
+   "case_sequence": 5,
+   "clinical_judgment_step": "Take action",
+   "content_hash": "0d14e11e4e81e6a1"
+  },
+  {
+   "source_id": "PN-C01-06",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 6,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Evaluate outcomes",
+   "item_type": "matrix_grid",
+   "stem": "Two days after the antibiotic was started, the LPN/VN collects data. For each finding, indicate whether it shows improvement or no improvement.",
+   "rationale": "A return to baseline orientation, a normal temperature, clear urine, and better fluid intake show that the infection and delirium are responding to treatment. Continued picking at night and a rising heart rate show the problem has not fully resolved and need to be reported.",
+   "columns": [
+    "Improvement",
+    "No improvement"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Oriented to person and place",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r2",
+     "text": "T 98.6°F (37°C)",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r3",
+     "text": "Urine clear and yellow",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r4",
+     "text": "Drinks about 1,100 mL a day",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r5",
+     "text": "Still picks at bed linens at night",
+     "correct_column": "No improvement"
+    },
+    {
+     "id": "r6",
+     "text": "Heart rate 112/min",
+     "correct_column": "No improvement"
+    }
+   ],
+   "answer_summary": "Oriented to person and place: Improvement; T 98.6°F (37°C): Improvement; Urine clear and yellow: Improvement; Drinks about 1,100 mL a day: Improvement; Still picks at bed linens at night: No improvement; Heart rate 112/min: No improvement",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C01",
+   "case_sequence": 6,
+   "clinical_judgment_step": "Evaluate outcomes",
+   "content_hash": "1026998ae8821fe9"
+  },
+  {
+   "source_id": "PN-C02-01",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 1,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Recognize cues",
+   "item_type": "highlight",
+   "stem": "Highlight the findings that require follow-up.",
+   "rationale": "Signs of infection at the site and in the body, a high blood glucose, and a reported penicillin allergy before a cephalosporin is given all need follow-up. Palpable, equal pulses and a normal oxygen saturation are reassuring.",
+   "passage_segments": [
+    {
+     "id": "s1",
+     "text": "Red, warm, and swollen from the ankle to midcalf"
+    },
+    {
+     "id": "s2",
+     "text": "Yellow drainage from the scrape"
+    },
+    {
+     "id": "s3",
+     "text": "Rash with penicillin years ago"
+    },
+    {
+     "id": "s4",
+     "text": "T 101.2°F (38.4°C)"
+    },
+    {
+     "id": "s5",
+     "text": "WBC 15,200/mm3"
+    },
+    {
+     "id": "s6",
+     "text": "Blood glucose 268 mg/dL"
+    },
+    {
+     "id": "s7",
+     "text": "Pedal pulses palpable and equal"
+    },
+    {
+     "id": "s8",
+     "text": "SpO2 98% on room air"
+    }
+   ],
+   "correct_text": "Red, warm, and swollen from the ankle to midcalf; Yellow drainage from the scrape; Rash with penicillin years ago; T 101.2°F (38.4°C); WBC 15,200/mm3; Blood glucose 268 mg/dL",
+   "answer_summary": "Red, warm, and swollen from the ankle to midcalf; Yellow drainage from the scrape; Rash with penicillin years ago; T 101.2°F (38.4°C); WBC 15,200/mm3; Blood glucose 268 mg/dL",
+   "scoring": "plus_minus",
+   "case_id": "PN-C02",
+   "case_sequence": 1,
+   "clinical_judgment_step": "Recognize cues",
+   "content_hash": "bbc2b972c48e5160"
+  },
+  {
+   "source_id": "PN-C02-02",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 2,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Analyze cues",
+   "item_type": "matrix_grid",
+   "stem": "For each finding, indicate whether it is a local or a systemic sign of infection.",
+   "rationale": "Local signs of infection occur at the site: redness, warmth, swelling, and drainage. Systemic signs show the body's overall response: fever, chills, body aches, and an elevated white blood cell count.",
+   "columns": [
+    "Local",
+    "Systemic"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Redness and warmth of the leg",
+     "correct_column": "Local"
+    },
+    {
+     "id": "r2",
+     "text": "Swelling from the ankle to midcalf",
+     "correct_column": "Local"
+    },
+    {
+     "id": "r3",
+     "text": "Temperature of 101.2°F (38.4°C)",
+     "correct_column": "Systemic"
+    },
+    {
+     "id": "r4",
+     "text": "WBC 15,200/mm3",
+     "correct_column": "Systemic"
+    },
+    {
+     "id": "r5",
+     "text": "Yellow drainage from the scrape",
+     "correct_column": "Local"
+    },
+    {
+     "id": "r6",
+     "text": "Chills and body aches",
+     "correct_column": "Systemic"
+    }
+   ],
+   "answer_summary": "Redness and warmth of the leg: Local; Swelling from the ankle to midcalf: Local; Temperature of 101.2°F (38.4°C): Systemic; WBC 15,200/mm3: Systemic; Yellow drainage from the scrape: Local; Chills and body aches: Systemic",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C02",
+   "case_sequence": 2,
+   "clinical_judgment_step": "Analyze cues",
+   "content_hash": "21c26350d7541f7b"
+  },
+  {
+   "source_id": "PN-C02-03",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 3,
+   "client_need": "Reduction of Risk Potential",
+   "topic": "Case study: Prioritize hypotheses",
+   "item_type": "drop_down_cloze",
+   "stem": "Complete the sentence by choosing from the lists of options.",
+   "rationale": "Infection triggers stress hormones that raise blood glucose, on top of the poor control shown by the A1C of 9.2%. High glucose impairs white blood cell function and circulation, which slows healing and makes infection harder to clear.",
+   "template": "The client's blood glucose of 268 mg/dL is most likely related to ___1___, and it increases the risk of ___2___.",
+   "blanks": [
+    {
+     "id": "1",
+     "options": [
+      "the stress response to infection",
+      "too much insulin at home",
+      "the IV antibiotic"
+     ],
+     "correct": "the stress response to infection"
+    },
+    {
+     "id": "2",
+     "options": [
+      "delayed wound healing",
+      "low blood pressure",
+      "kidney stones"
+     ],
+     "correct": "delayed wound healing"
+    }
+   ],
+   "answer_summary": "1: the stress response to infection; 2: delayed wound healing",
+   "scoring": "zero_one_per_blank",
+   "case_id": "PN-C02",
+   "case_sequence": 3,
+   "clinical_judgment_step": "Prioritize hypotheses",
+   "content_hash": "a4840deb2dab018d"
+  },
+  {
+   "source_id": "PN-C02-04",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 4,
+   "client_need": "Reduction of Risk Potential",
+   "topic": "Case study: Generate solutions",
+   "item_type": "multiple_response",
+   "stem": "Which findings should the LPN/VN report to the RN right away? Select all that apply.",
+   "rationale": "Spreading redness means the infection is not controlled, purple blisters and severe pain can signal a deeper, necrotizing infection, and confusion with hypotension suggests sepsis. Redness within the marked border and mild tenderness are expected while treatment takes effect.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Redness spreading beyond the marked border",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "New purple blisters on the leg",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Pain that becomes much worse than before",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "New confusion with a BP of 88/50 mm Hg",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Redness that stays within the marked border",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Mild tenderness when the leg is touched",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "case_id": "PN-C02",
+   "case_sequence": 4,
+   "clinical_judgment_step": "Generate solutions",
+   "content_hash": "6c2dfec6e60dac7b"
+  },
+  {
+   "source_id": "PN-C02-05",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 5,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Take action",
+   "item_type": "single_best_answer",
+   "stem": "Before the first dose of IV cefazolin is given, the LPN/VN notes the client's report of a rash with penicillin. What should the LPN/VN do?",
+   "rationale": "Cefazolin is a cephalosporin, and although cross-reactivity with penicillin is low, any reported allergy must be clarified and documented by the provider before the first dose. The LPN/VN does not decide that an allergy no longer matters, change the dose, or give a premedication without a prescription.",
+   "answer_summary": "B",
+   "options": [
+    {
+     "key": "A",
+     "text": "Give the dose, since a rash many years ago means the allergy is no longer a concern for the client",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Report the penicillin allergy history to the RN and provider before the dose is given",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Give half the dose first to see whether a reaction occurs",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Give diphenhydramine first without a prescription",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "case_id": "PN-C02",
+   "case_sequence": 5,
+   "clinical_judgment_step": "Take action",
+   "content_hash": "6aa3a0f7d960a8bc"
+  },
+  {
+   "source_id": "PN-C02-06",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 6,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Evaluate outcomes",
+   "item_type": "matrix_grid",
+   "stem": "Three days later, the LPN/VN collects data. For each finding, indicate whether it shows improvement or no improvement.",
+   "rationale": "Fading redness within the border, a normal temperature and WBC, less pain, and better glucose control show the treatment is working. A new red streak toward the knee suggests lymphangitis, meaning the infection is spreading, and must be reported.",
+   "columns": [
+    "Improvement",
+    "No improvement"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Redness has faded and is inside the marked border",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r2",
+     "text": "T 98.9°F (37.2°C)",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r3",
+     "text": "WBC 9,400/mm3",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r4",
+     "text": "Pain 2/10",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r5",
+     "text": "A new red streak extending toward the knee",
+     "correct_column": "No improvement"
+    },
+    {
+     "id": "r6",
+     "text": "Blood glucose readings of 140 to 180 mg/dL",
+     "correct_column": "Improvement"
+    }
+   ],
+   "answer_summary": "Redness has faded and is inside the marked border: Improvement; T 98.9°F (37.2°C): Improvement; WBC 9,400/mm3: Improvement; Pain 2/10: Improvement; A new red streak extending toward the knee: No improvement; Blood glucose readings of 140 to 180 mg/dL: Improvement",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C02",
+   "case_sequence": 6,
+   "clinical_judgment_step": "Evaluate outcomes",
+   "content_hash": "a5351612a60b5074"
+  },
+  {
+   "source_id": "PN-C03-01",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 1,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Recognize cues",
+   "item_type": "highlight",
+   "stem": "Highlight the findings that require follow-up.",
+   "rationale": "Nausea, visual halos, and a slow, irregular pulse are signs of digoxin toxicity, which is confirmed by a level above the therapeutic range. Low potassium, missed potassium doses, and reduced kidney function raise the risk. Unchanged crackles and a normal temperature are not new concerns.",
+   "passage_segments": [
+    {
+     "id": "s1",
+     "text": "Nauseated for 2 days"
+    },
+    {
+     "id": "s2",
+     "text": "Yellow-green halos around lights"
+    },
+    {
+     "id": "s3",
+     "text": "Apical pulse 52/min and irregular"
+    },
+    {
+     "id": "s4",
+     "text": "Fine crackles at both bases, unchanged"
+    },
+    {
+     "id": "s5",
+     "text": "Refused oral potassium for 3 days"
+    },
+    {
+     "id": "s6",
+     "text": "Potassium 3.1 mEq/L"
+    },
+    {
+     "id": "s7",
+     "text": "Digoxin 2.8 ng/mL"
+    },
+    {
+     "id": "s8",
+     "text": "Creatinine 1.8 mg/dL"
+    },
+    {
+     "id": "s9",
+     "text": "T 98.2°F (36.8°C)"
+    }
+   ],
+   "correct_text": "Nauseated for 2 days; Yellow-green halos around lights; Apical pulse 52/min and irregular; Refused oral potassium for 3 days; Potassium 3.1 mEq/L; Digoxin 2.8 ng/mL; Creatinine 1.8 mg/dL",
+   "answer_summary": "Nauseated for 2 days; Yellow-green halos around lights; Apical pulse 52/min and irregular; Refused oral potassium for 3 days; Potassium 3.1 mEq/L; Digoxin 2.8 ng/mL; Creatinine 1.8 mg/dL",
+   "scoring": "plus_minus",
+   "case_id": "PN-C03",
+   "case_sequence": 1,
+   "clinical_judgment_step": "Recognize cues",
+   "content_hash": "be364c13d95285f5"
+  },
+  {
+   "source_id": "PN-C03-02",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 2,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Analyze cues",
+   "item_type": "matrix_grid",
+   "stem": "For each finding, indicate whether it increases the risk of digoxin toxicity or is a sign of digoxin toxicity.",
+   "rationale": "Hypokalemia increases digoxin's effect on the heart, and reduced kidney function and older age slow its elimination. Gastrointestinal symptoms, visual changes such as yellow-green halos, and bradycardia or new dysrhythmias are signs of toxicity.",
+   "columns": [
+    "Increases risk",
+    "Sign of toxicity"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Potassium 3.1 mEq/L",
+     "correct_column": "Increases risk"
+    },
+    {
+     "id": "r2",
+     "text": "Creatinine 1.8 mg/dL",
+     "correct_column": "Increases risk"
+    },
+    {
+     "id": "r3",
+     "text": "Age 81",
+     "correct_column": "Increases risk"
+    },
+    {
+     "id": "r4",
+     "text": "Yellow-green halos around lights",
+     "correct_column": "Sign of toxicity"
+    },
+    {
+     "id": "r5",
+     "text": "Nausea and poor appetite",
+     "correct_column": "Sign of toxicity"
+    },
+    {
+     "id": "r6",
+     "text": "Apical pulse 52/min and irregular",
+     "correct_column": "Sign of toxicity"
+    }
+   ],
+   "answer_summary": "Potassium 3.1 mEq/L: Increases risk; Creatinine 1.8 mg/dL: Increases risk; Age 81: Increases risk; Yellow-green halos around lights: Sign of toxicity; Nausea and poor appetite: Sign of toxicity; Apical pulse 52/min and irregular: Sign of toxicity",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C03",
+   "case_sequence": 2,
+   "clinical_judgment_step": "Analyze cues",
+   "content_hash": "6f869a343c02d235"
+  },
+  {
+   "source_id": "PN-C03-03",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 3,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Prioritize hypotheses",
+   "item_type": "bow_tie",
+   "stem": "Complete the diagram by choosing the condition the resident is most likely experiencing, 2 actions the LPN/VN should take, and 2 parameters the LPN/VN should monitor.",
+   "rationale": "The findings and the elevated level indicate digoxin toxicity rather than worsening heart failure or a viral illness, and the potassium is low, not high. The LPN/VN holds the digoxin and reports immediately. Taking digoxin with food does not treat toxicity, extra fluids do not remove it, and potassium is given only as prescribed. The apical pulse and potassium level show whether the toxicity and its main risk factor are resolving.",
+   "bowtie_groups": [
+    {
+     "label": "Condition (choose 1)",
+     "pick": 1,
+     "options": [
+      "Digoxin toxicity",
+      "Worsening heart failure",
+      "Viral gastroenteritis",
+      "Hyperkalemia"
+     ]
+    },
+    {
+     "label": "Actions to take (choose 2)",
+     "pick": 2,
+     "options": [
+      "Hold the 0900 digoxin dose",
+      "Report the findings to the RN and provider right away",
+      "Give the digoxin with food to reduce nausea",
+      "Encourage extra fluids to flush out the digoxin",
+      "Give an extra potassium tablet without a prescription"
+     ]
+    },
+    {
+     "label": "Parameters to monitor (choose 2)",
+     "pick": 2,
+     "options": [
+      "Apical pulse rate and rhythm",
+      "Potassium level",
+      "Blood glucose",
+      "Pupil size",
+      "Bowel sounds"
+     ]
+    }
+   ],
+   "answer_summary": "Condition: Digoxin toxicity. Actions: Hold the 0900 digoxin dose; Report the findings to the RN and provider right away. Monitor: Apical pulse rate and rhythm; Potassium level.",
+   "scoring": "zero_one_per_selection",
+   "case_id": "PN-C03",
+   "case_sequence": 3,
+   "clinical_judgment_step": "Prioritize hypotheses",
+   "content_hash": "6a282f3e78508049"
+  },
+  {
+   "source_id": "PN-C03-04",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 4,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Generate solutions",
+   "item_type": "multiple_response",
+   "stem": "The provider holds digoxin and prescribes potassium replacement. Before digoxin is restarted at a lower dose, which instructions should the LPN/VN reinforce with the resident? Select all that apply.",
+   "rationale": "Early reporting of nausea and visual changes helps catch toxicity, taking potassium with food or fluid reduces stomach upset, and potassium-rich foods help maintain levels. Doubling digoxin can cause toxicity, and stopping potassium without telling the nurse led to this problem; the resident should report stomach upset instead.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Report nausea or changes in vision right away",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Take the potassium with food or a full glass of water",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Eat potassium-rich foods, such as bananas and potatoes, as allowed",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Take a double dose of digoxin if a dose is missed",
+     "is_correct": false
+    },
+    {
+     "key": "E",
+     "text": "Stop taking the potassium whenever the stomach is upset",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C",
+   "scoring": "plus_minus",
+   "case_id": "PN-C03",
+   "case_sequence": 4,
+   "clinical_judgment_step": "Generate solutions",
+   "content_hash": "4790e63fcfd81d74"
+  },
+  {
+   "source_id": "PN-C03-05",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 5,
+   "client_need": "Coordinated Care",
+   "topic": "Case study: Take action",
+   "item_type": "single_best_answer",
+   "stem": "Which report by the LPN/VN to the RN is most complete?",
+   "rationale": "A complete report gives specific findings, the critical lab values, and the action already taken, so the RN can notify the provider and act quickly. Vague statements, partial information, and dismissing a low pulse delay treatment.",
+   "answer_summary": "D",
+   "options": [
+    {
+     "key": "A",
+     "text": "\"The resident's labs came back this morning, and a few of the results look a little off to me.\"",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "\"The resident has nausea and isn't eating well.\"",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "\"The resident's pulse is low, but it's probably fine.\"",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "\"Apical pulse is 52 and irregular, digoxin level is 2.8, and potassium is 3.1. I held the digoxin.\"",
+     "is_correct": true
+    }
+   ],
+   "scoring": "zero_one",
+   "case_id": "PN-C03",
+   "case_sequence": 5,
+   "clinical_judgment_step": "Take action",
+   "content_hash": "316b7ef8d829724c"
+  },
+  {
+   "source_id": "PN-C03-06",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 6,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Evaluate outcomes",
+   "item_type": "matrix_grid",
+   "stem": "Forty-eight hours later, the LPN/VN collects data. For each finding, indicate whether it shows improvement or no improvement.",
+   "rationale": "Resolution of nausea, a normal pulse rate and rhythm, normal potassium, a digoxin level back in range, and better appetite show improvement. Continuing visual disturbances should still be reported.",
+   "columns": [
+    "Improvement",
+    "No improvement"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Nausea has resolved",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r2",
+     "text": "Apical pulse 66/min and regular",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r3",
+     "text": "Potassium 4.0 mEq/L",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r4",
+     "text": "Digoxin level 1.6 ng/mL",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r5",
+     "text": "Still sees yellow halos around lights",
+     "correct_column": "No improvement"
+    },
+    {
+     "id": "r6",
+     "text": "Eats 75% of meals",
+     "correct_column": "Improvement"
+    }
+   ],
+   "answer_summary": "Nausea has resolved: Improvement; Apical pulse 66/min and regular: Improvement; Potassium 4.0 mEq/L: Improvement; Digoxin level 1.6 ng/mL: Improvement; Still sees yellow halos around lights: No improvement; Eats 75% of meals: Improvement",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C03",
+   "case_sequence": 6,
+   "clinical_judgment_step": "Evaluate outcomes",
+   "content_hash": "4bbca4cb748896df"
+  },
+  {
+   "source_id": "PN-C04-01",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 1,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Recognize cues",
+   "item_type": "highlight",
+   "stem": "Highlight the findings that meet the criteria for a simple febrile seizure.",
+   "rationale": "A simple febrile seizure occurs in a child between 6 months and 5 years old with a fever, is generalized, lasts less than 15 minutes, stops on its own, and happens once in 24 hours. Nasal drainage, immunization status, and oxygen saturation are not part of the definition.",
+   "passage_segments": [
+    {
+     "id": "s1",
+     "text": "Age 18 months"
+    },
+    {
+     "id": "s2",
+     "text": "Whole body stiffened and then jerked"
+    },
+    {
+     "id": "s3",
+     "text": "Lasted about 2 minutes"
+    },
+    {
+     "id": "s4",
+     "text": "Stopped on its own"
+    },
+    {
+     "id": "s5",
+     "text": "Fever that began this morning"
+    },
+    {
+     "id": "s6",
+     "text": "Clear nasal drainage"
+    },
+    {
+     "id": "s7",
+     "text": "Immunizations are up to date"
+    },
+    {
+     "id": "s8",
+     "text": "SpO2 98% on room air"
+    }
+   ],
+   "correct_text": "Age 18 months; Whole body stiffened and then jerked; Lasted about 2 minutes; Stopped on its own; Fever that began this morning",
+   "answer_summary": "Age 18 months; Whole body stiffened and then jerked; Lasted about 2 minutes; Stopped on its own; Fever that began this morning",
+   "scoring": "plus_minus",
+   "case_id": "PN-C04",
+   "case_sequence": 1,
+   "clinical_judgment_step": "Recognize cues",
+   "content_hash": "0cc2fc297704e894"
+  },
+  {
+   "source_id": "PN-C04-02",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 2,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Analyze cues",
+   "item_type": "matrix_grid",
+   "stem": "For each finding, indicate whether it needs immediate evaluation by the provider or is expected after a simple febrile seizure.",
+   "rationale": "A stiff neck or a nonblanching purple rash may signal meningitis, and a prolonged seizure is not a simple febrile seizure; all need immediate evaluation. Brief drowsiness, fever with a cold, and crying during an exam are expected.",
+   "columns": [
+    "Needs immediate evaluation",
+    "Expected"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "A stiff neck",
+     "correct_column": "Needs immediate evaluation"
+    },
+    {
+     "id": "r2",
+     "text": "A seizure lasting longer than 15 minutes",
+     "correct_column": "Needs immediate evaluation"
+    },
+    {
+     "id": "r3",
+     "text": "Drowsiness for a short time after the seizure",
+     "correct_column": "Expected"
+    },
+    {
+     "id": "r4",
+     "text": "Fever with cold symptoms",
+     "correct_column": "Expected"
+    },
+    {
+     "id": "r5",
+     "text": "A purple rash that does not fade when pressed",
+     "correct_column": "Needs immediate evaluation"
+    },
+    {
+     "id": "r6",
+     "text": "Crying when examined",
+     "correct_column": "Expected"
+    }
+   ],
+   "answer_summary": "A stiff neck: Needs immediate evaluation; A seizure lasting longer than 15 minutes: Needs immediate evaluation; Drowsiness for a short time after the seizure: Expected; Fever with cold symptoms: Expected; A purple rash that does not fade when pressed: Needs immediate evaluation; Crying when examined: Expected",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C04",
+   "case_sequence": 2,
+   "clinical_judgment_step": "Analyze cues",
+   "content_hash": "e494d38428215158"
+  },
+  {
+   "source_id": "PN-C04-03",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 3,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Prioritize hypotheses",
+   "item_type": "drop_down_cloze",
+   "stem": "Complete the sentence by choosing from the lists of options.",
+   "rationale": "A single, brief, generalized seizure with fever in a toddler who is recovering normally fits a simple febrile seizure, here with a viral upper respiratory illness. A complex febrile seizure is focal, prolonged, or repeated, a breath-holding spell follows crying, and there is no history of injury or hypoglycemia.",
+   "template": "The toddler most likely had a ___1___ triggered by ___2___.",
+   "blanks": [
+    {
+     "id": "1",
+     "options": [
+      "simple febrile seizure",
+      "complex febrile seizure",
+      "breath-holding spell"
+     ],
+     "correct": "simple febrile seizure"
+    },
+    {
+     "id": "2",
+     "options": [
+      "fever from a viral illness",
+      "low blood glucose",
+      "a head injury"
+     ],
+     "correct": "fever from a viral illness"
+    }
+   ],
+   "answer_summary": "1: simple febrile seizure; 2: fever from a viral illness",
+   "scoring": "zero_one_per_blank",
+   "case_id": "PN-C04",
+   "case_sequence": 3,
+   "clinical_judgment_step": "Prioritize hypotheses",
+   "content_hash": "7170ff985140c168"
+  },
+  {
+   "source_id": "PN-C04-04",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 4,
+   "client_need": "Safety and Infection Control",
+   "topic": "Case study: Generate solutions",
+   "item_type": "multiple_response",
+   "stem": "Which instructions should the LPN/VN reinforce with the parents about managing a seizure at home? Select all that apply.",
+   "rationale": "Side-lying on a safe surface protects the airway and prevents injury, timing the seizure guides decisions, and a seizure longer than 5 minutes or breathing problems need emergency care. Nothing is put in the mouth. Restraining movements can cause injury, and a bath during a seizure risks drowning.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Place the child on the side on a safe surface",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Time how long the seizure lasts",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Call 911 if the seizure lasts longer than 5 minutes or breathing is a problem",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Keep objects out of the child's mouth",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Hold the child's arms and legs to stop the jerking",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Put the child in a cool bath during the seizure",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "case_id": "PN-C04",
+   "case_sequence": 4,
+   "clinical_judgment_step": "Generate solutions",
+   "content_hash": "85800f69e4f42743"
+  },
+  {
+   "source_id": "PN-C04-05",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 5,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Take action",
+   "item_type": "single_best_answer",
+   "stem": "The parent asks whether giving fever medicine on a schedule will prevent another febrile seizure. Which response is accurate?",
+   "rationale": "Antipyretics such as acetaminophen improve comfort but have not been shown to prevent febrile seizures. Most children with simple febrile seizures do not need daily antiseizure medicine, and simple febrile seizures do not cause brain damage.",
+   "answer_summary": "A",
+   "options": [
+    {
+     "key": "A",
+     "text": "\"Fever medicine helps your child feel better, but it has not been shown to prevent febrile seizures.\"",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "\"Giving fever medicine every 4 hours, day and night, will keep any more seizures from happening.\"",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "\"Your child will need daily seizure medicine for life.\"",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "\"Febrile seizures usually cause brain damage.\"",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "case_id": "PN-C04",
+   "case_sequence": 5,
+   "clinical_judgment_step": "Take action",
+   "content_hash": "252cd02e11bd8b30"
+  },
+  {
+   "source_id": "PN-C04-06",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 6,
+   "client_need": "Health Promotion and Maintenance",
+   "topic": "Case study: Evaluate outcomes",
+   "item_type": "matrix_grid",
+   "stem": "Before discharge, the LPN/VN reinforces teaching. For each parent statement, indicate whether it shows understanding or a need for more teaching.",
+   "rationale": "Parents should know that febrile seizures rarely lead to epilepsy, may recur with future fevers, and need emergency care if they last longer than 5 minutes. Nothing is placed in the child's mouth, and aspirin is avoided in children because of the risk of Reye's syndrome.",
+   "columns": [
+    "Understands",
+    "Needs more teaching"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "\"Most children who have a febrile seizure do not develop epilepsy.\"",
+     "correct_column": "Understands"
+    },
+    {
+     "id": "r2",
+     "text": "\"I'll put a spoon in my child's mouth so the tongue isn't swallowed.\"",
+     "correct_column": "Needs more teaching"
+    },
+    {
+     "id": "r3",
+     "text": "\"I'll call 911 if a seizure lasts more than 5 minutes.\"",
+     "correct_column": "Understands"
+    },
+    {
+     "id": "r4",
+     "text": "\"Another febrile seizure could happen with a future fever.\"",
+     "correct_column": "Understands"
+    },
+    {
+     "id": "r5",
+     "text": "\"I should give aspirin for fever.\"",
+     "correct_column": "Needs more teaching"
+    }
+   ],
+   "answer_summary": "\"Most children who have a febrile seizure do not develop epilepsy.\": Understands; \"I'll put a spoon in my child's mouth so the tongue isn't swallowed.\": Needs more teaching; \"I'll call 911 if a seizure lasts more than 5 minutes.\": Understands; \"Another febrile seizure could happen with a future fever.\": Understands; \"I should give aspirin for fever.\": Needs more teaching",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C04",
+   "case_sequence": 6,
+   "clinical_judgment_step": "Evaluate outcomes",
+   "content_hash": "6deb25949cec7210"
+  },
+  {
+   "source_id": "PN-C05-01",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 1,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Case study: Recognize cues",
+   "item_type": "highlight",
+   "stem": "Highlight the findings that indicate an increased risk of suicide.",
+   "rationale": "Statements of being a burden, giving away valued possessions, a specific method, a previous attempt, and access to lethal means all increase suicide risk. A supportive sister is a protective factor, and poor appetite is a symptom of depression rather than a specific suicide warning sign.",
+   "passage_segments": [
+    {
+     "id": "s1",
+     "text": "\"My family would be better off without me\""
+    },
+    {
+     "id": "s2",
+     "text": "Gave a favorite guitar to a friend"
+    },
+    {
+     "id": "s3",
+     "text": "Has thought about taking all the pills"
+    },
+    {
+     "id": "s4",
+     "text": "Suicide attempt 5 years ago"
+    },
+    {
+     "id": "s5",
+     "text": "Stockpile of prescription medicines at home"
+    },
+    {
+     "id": "s6",
+     "text": "Sister visits daily and is supportive"
+    },
+    {
+     "id": "s7",
+     "text": "Ate 20% of meals"
+    }
+   ],
+   "correct_text": "\"My family would be better off without me\"; Gave a favorite guitar to a friend; Has thought about taking all the pills; Suicide attempt 5 years ago; Stockpile of prescription medicines at home",
+   "answer_summary": "\"My family would be better off without me\"; Gave a favorite guitar to a friend; Has thought about taking all the pills; Suicide attempt 5 years ago; Stockpile of prescription medicines at home",
+   "scoring": "plus_minus",
+   "case_id": "PN-C05",
+   "case_sequence": 1,
+   "clinical_judgment_step": "Recognize cues",
+   "content_hash": "4195c6268baac1ff"
+  },
+  {
+   "source_id": "PN-C05-02",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 2,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Case study: Analyze cues",
+   "item_type": "matrix_grid",
+   "stem": "For each finding, indicate whether it is a risk factor or a protective factor for suicide.",
+   "rationale": "A previous attempt, a recent major loss, living alone, and access to lethal means increase risk. Social support and engagement with care are protective factors that the team can build on.",
+   "columns": [
+    "Risk factor",
+    "Protective factor"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Previous suicide attempt",
+     "correct_column": "Risk factor"
+    },
+    {
+     "id": "r2",
+     "text": "Recent job loss",
+     "correct_column": "Risk factor"
+    },
+    {
+     "id": "r3",
+     "text": "Lives alone",
+     "correct_column": "Risk factor"
+    },
+    {
+     "id": "r4",
+     "text": "A supportive sister who visits daily",
+     "correct_column": "Protective factor"
+    },
+    {
+     "id": "r5",
+     "text": "Access to a stockpile of medicines",
+     "correct_column": "Risk factor"
+    },
+    {
+     "id": "r6",
+     "text": "Willingness to talk with staff about feelings",
+     "correct_column": "Protective factor"
+    }
+   ],
+   "answer_summary": "Previous suicide attempt: Risk factor; Recent job loss: Risk factor; Lives alone: Risk factor; A supportive sister who visits daily: Protective factor; Access to a stockpile of medicines: Risk factor; Willingness to talk with staff about feelings: Protective factor",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C05",
+   "case_sequence": 2,
+   "clinical_judgment_step": "Analyze cues",
+   "content_hash": "ca8c2c07275e0b07"
+  },
+  {
+   "source_id": "PN-C05-03",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 3,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Case study: Prioritize hypotheses",
+   "item_type": "drop_down_cloze",
+   "stem": "Complete the sentence by choosing from the lists of options.",
+   "rationale": "Safety comes first. A stated method and giving away a valued possession signal a high risk of suicide, which takes priority over sleep and nutrition problems that will also be addressed.",
+   "template": "The priority concern for this client is ___1___, as shown by ___2___.",
+   "blanks": [
+    {
+     "id": "1",
+     "options": [
+      "risk for suicide",
+      "disturbed sleep",
+      "poor nutrition"
+     ],
+     "correct": "risk for suicide"
+    },
+    {
+     "id": "2",
+     "options": [
+      "a plan involving pills and giving away a valued possession",
+      "sleeping about 3 hours a night",
+      "eating 20% of meals"
+     ],
+     "correct": "a plan involving pills and giving away a valued possession"
+    }
+   ],
+   "answer_summary": "1: risk for suicide; 2: a plan involving pills and giving away a valued possession",
+   "scoring": "zero_one_per_blank",
+   "case_id": "PN-C05",
+   "case_sequence": 3,
+   "clinical_judgment_step": "Prioritize hypotheses",
+   "content_hash": "593965e82f35b1b2"
+  },
+  {
+   "source_id": "PN-C05-04",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 4,
+   "client_need": "Safety and Infection Control",
+   "topic": "Case study: Generate solutions",
+   "item_type": "multiple_response",
+   "stem": "Which actions should be part of this client's care? Select all that apply.",
+   "rationale": "Suicide precautions include a safe environment, observation at the ordered level, making sure medications are swallowed and not saved, and asking directly about suicidal thoughts, which does not increase risk. Nurses cannot promise secrecy about safety risks, and a room near the nurses' station allows closer observation.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Remove items that could be used for self-harm from the room",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Observe the client as often as the precaution order requires",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Check that oral medications are swallowed",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Ask the client directly about suicidal thoughts",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Promise to keep the client's statements secret",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Assign a room far from the nurses' station for privacy",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "case_id": "PN-C05",
+   "case_sequence": 4,
+   "clinical_judgment_step": "Generate solutions",
+   "content_hash": "e045eecaa57515f4"
+  },
+  {
+   "source_id": "PN-C05-05",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 5,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Case study: Take action",
+   "item_type": "single_best_answer",
+   "stem": "On day 4, the client tells the LPN/VN, \"Please don't tell anyone, but I've been saving my trazodone in my pillowcase.\" What should the LPN/VN do first?",
+   "rationale": "Hoarding medication is a sign of a possible suicide plan, so the LPN/VN reports it immediately so the pills can be removed and the level of precautions reviewed. Safety information cannot be kept secret, waiting leaves the client with a means of self-harm, and exploring the reason comes after the client is safe.",
+   "answer_summary": "A",
+   "options": [
+    {
+     "key": "A",
+     "text": "Report it to the RN right away so the room can be searched and precautions reviewed",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Agree to keep this information private so that the client continues to trust the nurse",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Remove the pills later in the shift while the client is at group",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Ask why the client saved the pills",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "case_id": "PN-C05",
+   "case_sequence": 5,
+   "clinical_judgment_step": "Take action",
+   "content_hash": "7dec92e36cb9ac9c"
+  },
+  {
+   "source_id": "PN-C05-06",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 6,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Case study: Evaluate outcomes",
+   "item_type": "matrix_grid",
+   "stem": "On day 10, the LPN/VN reviews the client's progress. For each finding, indicate whether it shows improvement or no improvement.",
+   "rationale": "Taking part in groups, better appetite and sleep, and naming supports and coping resources show progress. Continued hopelessness and withdrawal from staff are warning signs that must be reported.",
+   "columns": [
+    "Improvement",
+    "No improvement"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Attends group therapy daily",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r2",
+     "text": "Eats 75% of meals",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r3",
+     "text": "Sleeps about 6 hours a night",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r4",
+     "text": "Says, \"I can call my sister or the crisis line when I feel this way\"",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r5",
+     "text": "Says, \"Nothing will ever get better\"",
+     "correct_column": "No improvement"
+    },
+    {
+     "id": "r6",
+     "text": "Has stopped talking with staff and stays in the room",
+     "correct_column": "No improvement"
+    }
+   ],
+   "answer_summary": "Attends group therapy daily: Improvement; Eats 75% of meals: Improvement; Sleeps about 6 hours a night: Improvement; Says, \"I can call my sister or the crisis line when I feel this way\": Improvement; Says, \"Nothing will ever get better\": No improvement; Has stopped talking with staff and stays in the room: No improvement",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C05",
+   "case_sequence": 6,
+   "clinical_judgment_step": "Evaluate outcomes",
+   "content_hash": "bf9261fc071d460a"
+  }
+ ],
+ "case_studies": [
+  {
+   "scenario": "An 84-year-old resident of a long-term care facility has mild Alzheimer's disease and is usually oriented to person and place. This morning, the assistive personnel tells the LPN/VN that the resident is \"not acting like usual.\"",
+   "exhibits": [
+    {
+     "label": "Nurses' notes, 0700",
+     "content": "Confused to place and time, which is new. Restless and picking at bed linens. Attention comes and goes during conversation. Incontinent of cloudy, foul-smelling urine twice overnight and says urinating \"burns.\" Drank about 400 mL of fluid yesterday. Oriented to person. Lungs clear. Skin intact."
+    },
+    {
+     "label": "Vital signs, 0700",
+     "content": "T 100.9°F (38.3°C), HR 104/min, RR 20/min, BP 118/70 mm Hg (usual 136/78), SpO2 96% on room air."
+    },
+    {
+     "label": "Care plan baseline",
+     "content": "Oriented to person and place, with short-term memory loss for the past 2 years. Continent with reminders every 2 hours. Walks with a walker. Usually drinks about 1,200 mL a day."
+    }
+   ],
+   "case_id": "PN-C01",
+   "track": "pn",
+   "set_number": 49,
+   "title": "Urinary tract infection with acute confusion in a long-term care resident"
+  },
+  {
+   "scenario": "A 58-year-old client with type 2 diabetes is admitted with cellulitis of the left lower leg that began after a scrape while gardening 4 days ago. IV cefazolin has been prescribed.",
+   "exhibits": [
+    {
+     "label": "Nurses' notes, 0800",
+     "content": "Left lower leg red, warm, and swollen from the ankle to midcalf. Border of redness outlined with a skin marker. Small scrape on the shin with yellow drainage. Pain 6/10. Reports chills and body aches. Pedal pulses palpable and equal. Reports having a rash with penicillin years ago."
+    },
+    {
+     "label": "Vital signs, 0800",
+     "content": "T 101.2°F (38.4°C), HR 98/min, RR 18/min, BP 132/80 mm Hg, SpO2 98% on room air."
+    },
+    {
+     "label": "Laboratory results",
+     "content": "WBC 15,200/mm3 (5,000–10,000), blood glucose 268 mg/dL (70–110), hemoglobin A1C 9.2% (below 5.7)."
+    }
+   ],
+   "case_id": "PN-C02",
+   "track": "pn",
+   "set_number": 49,
+   "title": "Cellulitis of the lower leg in a client with diabetes"
+  },
+  {
+   "scenario": "An 81-year-old resident of a long-term care facility with heart failure takes digoxin and furosemide. For 2 days, the resident has had nausea and a poor appetite.",
+   "exhibits": [
+    {
+     "label": "Nurses' notes, 0800",
+     "content": "Nauseated for 2 days and ate 25% of meals. States that lights look like they have yellow-green halos. More tired than usual. Apical pulse 52/min and irregular, counted for 1 full minute. Fine crackles at both lung bases, unchanged from last week. Refused oral potassium for the past 3 days because of nausea."
+    },
+    {
+     "label": "Vital signs, 0800",
+     "content": "T 98.2°F (36.8°C), HR 52/min apical, RR 18/min, BP 108/64 mm Hg."
+    },
+    {
+     "label": "Laboratory results, 0600",
+     "content": "Potassium 3.1 mEq/L (3.5–5.0), digoxin 2.8 ng/mL (0.5–2.0), creatinine 1.8 mg/dL (0.6–1.2), BUN 30 mg/dL (7–20)."
+    },
+    {
+     "label": "Medication administration record",
+     "content": "Digoxin 0.25 mg by mouth daily at 0900. Furosemide 40 mg by mouth daily at 0900. Potassium chloride 20 mEq by mouth daily at 0900."
+    }
+   ],
+   "case_id": "PN-C03",
+   "track": "pn",
+   "set_number": 49,
+   "title": "Digoxin toxicity in an older adult"
+  },
+  {
+   "scenario": "An 18-month-old is brought to an urgent care clinic 20 minutes after a seizure at home. The toddler has had a runny nose since yesterday and a fever that began this morning.",
+   "exhibits": [
+    {
+     "label": "Parent report",
+     "content": "The whole body stiffened and then jerked for about 2 minutes, then stopped on its own. No previous seizures. Immunizations are up to date. No recent falls or injuries."
+    },
+    {
+     "label": "Nurses' notes",
+     "content": "Drowsy but opens eyes to voice and cries when examined. Moves all extremities. Neck supple. Clear nasal drainage. No rash."
+    },
+    {
+     "label": "Vital signs",
+     "content": "T 103.1°F (39.5°C) tympanic, HR 150/min, RR 32/min, SpO2 98% on room air. Weight 11 kg."
+    }
+   ],
+   "case_id": "PN-C04",
+   "track": "pn",
+   "set_number": 49,
+   "title": "Toddler with a febrile seizure"
+  },
+  {
+   "scenario": "A 47-year-old client is admitted to an inpatient mental health unit with major depressive disorder after losing a job 2 months ago. Sertraline was started 7 days ago.",
+   "exhibits": [
+    {
+     "label": "Nurses' notes, day 2",
+     "content": "Flat affect and poor eye contact. Slept about 3 hours. Ate 20% of meals. States, \"My family would be better off without me.\" Gave a favorite guitar to a friend last week. When asked directly, says, \"I've thought about taking all my pills.\" Sister visits daily and is supportive."
+    },
+    {
+     "label": "History",
+     "content": "Suicide attempt by overdose 5 years ago. Lives alone. Has a stockpile of prescription medicines at home."
+    },
+    {
+     "label": "Medications",
+     "content": "Sertraline 50 mg by mouth daily. Trazodone 50 mg by mouth at bedtime as needed for sleep."
+    }
+   ],
+   "case_id": "PN-C05",
+   "track": "pn",
+   "set_number": 49,
+   "title": "Major depressive disorder with suicidal thoughts"
+  }
+ ]
+}
