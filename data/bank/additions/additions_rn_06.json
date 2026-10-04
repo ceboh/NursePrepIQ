@@ -1,0 +1,932 @@
+{
+ "_comment": "Supplemental items, RN batch 06: Basic Care and Comfort and Safety and Infection Control. Pilot status.",
+ "track": "rn",
+ "questions": [
+  {
+   "source_id": "RN-A06-001",
+   "track": "rn",
+   "set_number": 45,
+   "set_title": "Supplemental: Basic Care and Comfort",
+   "source_item_number": 1,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Improving iron absorption",
+   "item_type": "single_best_answer",
+   "stem": "A client with iron deficiency anemia asks how to get the most iron from food. Which suggestion is best?",
+   "rationale": "Vitamin C increases absorption of iron, especially the nonheme iron in plant foods, so pairing iron-rich foods with foods such as citrus or tomatoes helps. Calcium in milk and tannins in tea and coffee reduce iron absorption, and iron-rich foods should be eaten regularly.",
+   "answer_summary": "A",
+   "options": [
+    {
+     "key": "A",
+     "text": "Eat iron-rich foods, such as lean meat or beans, along with a source of vitamin C",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Drink a large glass of milk with every iron-rich meal to help absorb the iron",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Have tea or coffee with meals to improve absorption",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Eat iron-rich foods only once a week",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "965a4ccc09b27b62"
+  },
+  {
+   "source_id": "RN-A06-002",
+   "track": "rn",
+   "set_number": 45,
+   "set_title": "Supplemental: Basic Care and Comfort",
+   "source_item_number": 2,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Nutrition in a vegan diet",
+   "item_type": "single_best_answer",
+   "stem": "A client who follows a vegan diet asks which nutrient is most likely to need a supplement or fortified food. What is the nurse's best response?",
+   "rationale": "Vitamin B12 comes almost entirely from animal products, so people who follow a vegan diet need fortified foods or a supplement to prevent anemia and nerve damage. Fruits and vegetables are rich in vitamin C, and plant-based diets usually provide plenty of carbohydrates and fiber.",
+   "answer_summary": "C",
+   "options": [
+    {
+     "key": "A",
+     "text": "Vitamin C, since fruits and vegetables do not provide enough of it to meet the daily needs of adults",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Carbohydrates",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Vitamin B12, since it is found mainly in animal foods",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Fiber",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "be439c1183163a5a"
+  },
+  {
+   "source_id": "RN-A06-003",
+   "track": "rn",
+   "set_number": 45,
+   "set_title": "Supplemental: Basic Care and Comfort",
+   "source_item_number": 3,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Perineal care for an uncircumcised client",
+   "item_type": "single_best_answer",
+   "stem": "The nurse is providing perineal care for an uncircumcised male client. Which action is correct?",
+   "rationale": "The foreskin is gently retracted so the glans can be cleaned and then returned to its normal position, because a foreskin left retracted can constrict the glans (paraphimosis). Cleaning only the outside leaves secretions underneath, and alcohol irritates the delicate tissue.",
+   "answer_summary": "D",
+   "options": [
+    {
+     "key": "A",
+     "text": "Retract the foreskin, clean the glans, and leave the foreskin retracted to let the area dry",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Clean only the outside of the foreskin, without retracting it at any time",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Use alcohol wipes on the glans",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Gently retract the foreskin, clean the glans, and return the foreskin",
+     "is_correct": true
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "d78536a6509a4b66"
+  },
+  {
+   "source_id": "RN-A06-004",
+   "track": "rn",
+   "set_number": 45,
+   "set_title": "Supplemental: Basic Care and Comfort",
+   "source_item_number": 4,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Mouth care at the end of life",
+   "item_type": "single_best_answer",
+   "stem": "A client receiving end-of-life care breathes through the mouth and has a very dry mouth. Which comfort measure is most appropriate?",
+   "rationale": "Frequent moistening with swabs or a water spray and a lip moisturizer relieve dryness safely. Large sips can cause aspiration in a client who has trouble swallowing, lemon-glycerin swabs dry and irritate the mouth, and petroleum jelly is not used inside the mouth because it can be aspirated.",
+   "answer_summary": "B",
+   "options": [
+    {
+     "key": "A",
+     "text": "Give large sips of water every hour even though the client has trouble swallowing",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Moisten the mouth often with swabs and apply lip balm",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Clean the mouth with lemon-glycerin swabs several times a day",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Apply petroleum jelly inside the mouth to keep it moist",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "b09a15e5dfd707af"
+  },
+  {
+   "source_id": "RN-A06-005",
+   "track": "rn",
+   "set_number": 45,
+   "set_title": "Supplemental: Basic Care and Comfort",
+   "source_item_number": 5,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Helping a client with low vision eat",
+   "item_type": "single_best_answer",
+   "stem": "A client with low vision is having difficulty finding food on the meal tray. Which action by the nurse is most helpful?",
+   "rationale": "Describing food locations by clock position, such as \"meat at 6 o'clock,\" lets the client eat independently and with dignity. Mixing foods together is unappetizing, feeding the client removes independence, and leaving without explaining the tray does not solve the problem.",
+   "answer_summary": "C",
+   "options": [
+    {
+     "key": "A",
+     "text": "Put all of the foods together in one bowl to make them easier to find",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Feed the client every meal so all of the food is eaten",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Describe where each food is on the plate using the positions of a clock face",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Leave the tray and check back in an hour",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "a2ee339b89a3925b"
+  },
+  {
+   "source_id": "RN-A06-006",
+   "track": "rn",
+   "set_number": 45,
+   "set_title": "Supplemental: Basic Care and Comfort",
+   "source_item_number": 6,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Denture care",
+   "item_type": "single_best_answer",
+   "stem": "The nurse is caring for a client's dentures at bedtime. Which action is correct?",
+   "rationale": "Dentures are stored in a labeled denture cup with cool water or a soaking solution so they do not dry out, warp, or get lost. Hot water can warp them, and dentures wrapped in paper towels or left on trays are often thrown away by mistake.",
+   "answer_summary": "D",
+   "options": [
+    {
+     "key": "A",
+     "text": "Soak the dentures in very hot water overnight to kill bacteria and remove all stains completely",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Wrap the dentures in a paper towel",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Leave the dentures dry on the tray",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Store the dentures in a labeled cup with cool water or soaking solution",
+     "is_correct": true
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "24abf3e768734cf2"
+  },
+  {
+   "source_id": "RN-A06-007",
+   "track": "rn",
+   "set_number": 45,
+   "set_title": "Supplemental: Basic Care and Comfort",
+   "source_item_number": 7,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Bedpan use after hip fracture",
+   "item_type": "single_best_answer",
+   "stem": "A client with a new hip fracture is on bed rest and needs to void. Which approach is correct?",
+   "rationale": "A fracture pan is flatter than a regular bedpan, so it can be placed with little lifting or hip movement, reducing pain and the risk of displacing the fracture. Sitting fully upright on a regular bedpan or standing on the injured leg is unsafe, and relying only on a brief does not support toileting and increases skin breakdown.",
+   "answer_summary": "B",
+   "options": [
+    {
+     "key": "A",
+     "text": "Use a regular bedpan after the client sits fully upright with the hips flexed to 90 degrees",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Use a fracture pan, slid under the buttocks with minimal hip movement",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Use a bedside commode after helping the client stand and pivot on the injured leg",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Use an adult brief only",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "b2c3e278aab55c14"
+  },
+  {
+   "source_id": "RN-A06-008",
+   "track": "rn",
+   "set_number": 45,
+   "set_title": "Supplemental: Basic Care and Comfort",
+   "source_item_number": 8,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Relieving dyspnea at the end of life",
+   "item_type": "multiple_response",
+   "stem": "A client receiving hospice care has dyspnea. Which comfort measures can the nurse use? Select all that apply.",
+   "rationale": "Moving cool air across the face, upright positioning, prescribed low-dose opioids, and a calm environment reduce the sensation of breathlessness. Walking to build stamina is not a goal at the end of life and increases dyspnea, and a hot, closed room usually worsens the feeling of air hunger.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Use a fan to blow cool air across the face",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Raise the head of the bed or position the client upright",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Give prescribed opioids for breathlessness",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Keep the room calm and quiet",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Encourage the client to walk in the hallway to build stamina",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Keep the room very warm with the windows closed",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "content_hash": "59997c2dc6115bb4"
+  },
+  {
+   "source_id": "RN-A06-009",
+   "track": "rn",
+   "set_number": 45,
+   "set_title": "Supplemental: Basic Care and Comfort",
+   "source_item_number": 9,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Independent eating after a stroke",
+   "item_type": "multiple_response",
+   "stem": "A client with right-sided weakness and loss of the right visual field after a stroke is learning to eat independently. Which actions help? Select all that apply.",
+   "rationale": "Adaptive utensils and plate guards make self-feeding easier, placing food in the intact visual field helps the client see it, and teaching the client to turn the head compensates for the field loss. Feeding the client removes independence, and food placed on the affected side may be missed.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Provide adaptive utensils with built-up handles",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Use a plate guard or scoop dish",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Place food within the client's intact (left) visual field",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Remind the client to turn the head to scan the whole tray",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Feed the client to save time",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Place the tray on the client's right side",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "content_hash": "13acb1709d53e733"
+  },
+  {
+   "source_id": "RN-A06-010",
+   "track": "rn",
+   "set_number": 45,
+   "set_title": "Supplemental: Basic Care and Comfort",
+   "source_item_number": 10,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Sleep hygiene",
+   "item_type": "matrix_grid",
+   "stem": "A client asks how to sleep better at home. For each practice, indicate whether it is helpful or not helpful for sleep.",
+   "rationale": "A consistent wake time, a cool, dark, quiet bedroom, and leaving bed when unable to sleep strengthen the link between bed and sleep. Screens, caffeine later in the day, and long late naps make it harder to fall asleep.",
+   "columns": [
+    "Helpful",
+    "Not helpful"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Getting up at the same time every day",
+     "correct_column": "Helpful"
+    },
+    {
+     "id": "r2",
+     "text": "Using a phone or tablet in bed",
+     "correct_column": "Not helpful"
+    },
+    {
+     "id": "r3",
+     "text": "Drinking coffee in the late afternoon",
+     "correct_column": "Not helpful"
+    },
+    {
+     "id": "r4",
+     "text": "Keeping the bedroom cool, dark, and quiet",
+     "correct_column": "Helpful"
+    },
+    {
+     "id": "r5",
+     "text": "Taking long naps late in the day",
+     "correct_column": "Not helpful"
+    },
+    {
+     "id": "r6",
+     "text": "Getting out of bed after about 20 minutes of being unable to sleep",
+     "correct_column": "Helpful"
+    }
+   ],
+   "answer_summary": "Getting up at the same time every day: Helpful; Using a phone or tablet in bed: Not helpful; Drinking coffee in the late afternoon: Not helpful; Keeping the bedroom cool, dark, and quiet: Helpful; Taking long naps late in the day: Not helpful; Getting out of bed after about 20 minutes of being unable to sleep: Helpful",
+   "scoring": "zero_one_per_row",
+   "content_hash": "d8aa89eea5583f67"
+  },
+  {
+   "source_id": "RN-A06-011",
+   "track": "rn",
+   "set_number": 45,
+   "set_title": "Supplemental: Basic Care and Comfort",
+   "source_item_number": 11,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Graduated compression stockings",
+   "item_type": "drop_down_cloze",
+   "stem": "Complete the sentence by choosing from the lists of options.",
+   "rationale": "Stockings are applied before the legs swell, ideally before the client gets up in the morning, and must fit correctly without wrinkles. They are removed at least daily, or as often as policy requires, to inspect the skin and check circulation.",
+   "template": "Graduated compression stockings are best applied ___1___, and they are removed ___2___ to check the skin.",
+   "blanks": [
+    {
+     "id": "1",
+     "options": [
+      "before the client gets out of bed in the morning",
+      "after the client has walked for an hour",
+      "only at bedtime"
+     ],
+     "correct": "before the client gets out of bed in the morning"
+    },
+    {
+     "id": "2",
+     "options": [
+      "at least once a day",
+      "once a week",
+      "only when the client asks"
+     ],
+     "correct": "at least once a day"
+    }
+   ],
+   "answer_summary": "1: before the client gets out of bed in the morning; 2: at least once a day",
+   "scoring": "zero_one_per_blank",
+   "content_hash": "e165a1821b94e1ba"
+  },
+  {
+   "source_id": "RN-A06-012",
+   "track": "rn",
+   "set_number": 45,
+   "set_title": "Supplemental: Basic Care and Comfort",
+   "source_item_number": 12,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Pureed diet",
+   "item_type": "highlight",
+   "stem": "A client with dysphagia is prescribed a pureed diet. Highlight the items on the meal tray that the client should not receive.",
+   "rationale": "A pureed diet includes only smooth foods without lumps that need no chewing, such as pureed meats, smooth applesauce, pudding, and smooth mashed potatoes. Toast, raw vegetables, and loose grains such as rice need chewing or can scatter in the mouth and be aspirated.",
+   "passage_segments": [
+    {
+     "id": "s1",
+     "text": "Pureed chicken"
+    },
+    {
+     "id": "s2",
+     "text": "Toast with butter"
+    },
+    {
+     "id": "s3",
+     "text": "Smooth applesauce"
+    },
+    {
+     "id": "s4",
+     "text": "Raw carrot sticks"
+    },
+    {
+     "id": "s5",
+     "text": "Pudding"
+    },
+    {
+     "id": "s6",
+     "text": "Cooked white rice"
+    },
+    {
+     "id": "s7",
+     "text": "Smooth mashed potatoes"
+    }
+   ],
+   "correct_text": "Toast with butter; Raw carrot sticks; Cooked white rice",
+   "answer_summary": "Toast with butter; Raw carrot sticks; Cooked white rice",
+   "scoring": "plus_minus",
+   "content_hash": "eda9d8ff5014c7a7"
+  },
+  {
+   "source_id": "RN-A06-013",
+   "track": "rn",
+   "set_number": 42,
+   "set_title": "Supplemental: Safety and Infection Control",
+   "source_item_number": 13,
+   "client_need": "Safety and Infection Control",
+   "topic": "Lead exposure during renovation",
+   "item_type": "single_best_answer",
+   "stem": "Parents are renovating their 1950s home, where their 2-year-old lives. Which recommendation is most important to reduce the child's lead exposure?",
+   "rationale": "Homes built before 1978 may contain lead paint, and renovation creates lead dust that young children swallow through hand-to-mouth activity. Keeping the child away during the work, using lead-safe certified contractors, and wet cleaning reduce exposure. Sanding nearby and dry sweeping spread dust, and juice does not remove lead.",
+   "answer_summary": "A",
+   "options": [
+    {
+     "key": "A",
+     "text": "Have the child stay elsewhere during the renovation",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Sand the old painted walls while the child naps in another room of the house",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Sweep paint dust dry each evening with a household broom to keep floors clean",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Give the child extra juice to flush lead from the body after the work is done",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "cbc4cae5e11c2ce9"
+  },
+  {
+   "source_id": "RN-A06-014",
+   "track": "rn",
+   "set_number": 42,
+   "set_title": "Supplemental: Safety and Infection Control",
+   "source_item_number": 14,
+   "client_need": "Safety and Infection Control",
+   "topic": "Carbon monoxide safety",
+   "item_type": "single_best_answer",
+   "stem": "A family uses a gas furnace and a fuel-burning space heater in winter. Which teaching best protects the family from carbon monoxide poisoning?",
+   "rationale": "Carbon monoxide is colorless and odorless, so alarms near sleeping areas and yearly inspection of fuel-burning appliances are the best protection. Headache is only one possible early symptom and is easily missed, charcoal grills must never be used indoors, and the smell of natural gas does not detect carbon monoxide.",
+   "answer_summary": "C",
+   "options": [
+    {
+     "key": "A",
+     "text": "Open a window slightly when headaches occur, since headaches are the only warning sign",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Use a charcoal grill indoors only when the space heater is turned off",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Install carbon monoxide alarms near sleeping areas and have the furnace inspected each year",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Rely on the smell of gas to detect carbon monoxide",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "c9041876a7627dbc"
+  },
+  {
+   "source_id": "RN-A06-015",
+   "track": "rn",
+   "set_number": 42,
+   "set_title": "Supplemental: Safety and Infection Control",
+   "source_item_number": 15,
+   "client_need": "Safety and Infection Control",
+   "topic": "Preventing furniture tip-over injuries",
+   "item_type": "single_best_answer",
+   "stem": "The nurse is teaching the parents of a toddler about home injury prevention. Which instruction is most important for preventing furniture tip-over injuries?",
+   "rationale": "Toddlers climb furniture and pull on drawers, so anchoring heavy furniture and televisions to the wall prevents them from tipping over. A television on a tall dresser increases the risk, toys on high shelves encourage climbing, and open drawers act as steps.",
+   "answer_summary": "D",
+   "options": [
+    {
+     "key": "A",
+     "text": "Place the television on top of a tall dresser so the toddler cannot reach the cords or the buttons",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Keep toys on the top shelves",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Leave the drawers open",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Anchor dressers, bookcases, and televisions to the wall",
+     "is_correct": true
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "c286383b27b1db28"
+  },
+  {
+   "source_id": "RN-A06-016",
+   "track": "rn",
+   "set_number": 42,
+   "set_title": "Supplemental: Safety and Infection Control",
+   "source_item_number": 16,
+   "client_need": "Safety and Infection Control",
+   "topic": "Poison prevention at home",
+   "item_type": "single_best_answer",
+   "stem": "Which statement by a parent shows correct understanding of poison prevention at home?",
+   "rationale": "Chemicals stay in their original labeled containers and are stored locked and out of reach. Food or drink containers invite children to drink the contents, inducing vomiting is not recommended, and purses are easy for children to open. Parents should call Poison Control at 1-800-222-1222 for any suspected poisoning.",
+   "answer_summary": "A",
+   "options": [
+    {
+     "key": "A",
+     "text": "\"I'll keep cleaning products in their original containers, locked up.\"",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "\"I'll put the leftover bleach in an empty juice bottle so it's easy to pour.\"",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "\"I'll make my child vomit right away if they swallow something harmful.\"",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "\"I'll store medicines in my purse.\"",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "6fd53c14e8ead3f0"
+  },
+  {
+   "source_id": "RN-A06-017",
+   "track": "rn",
+   "set_number": 42,
+   "set_title": "Supplemental: Safety and Infection Control",
+   "source_item_number": 17,
+   "client_need": "Safety and Infection Control",
+   "topic": "Cleaning a blood spill",
+   "item_type": "single_best_answer",
+   "stem": "A small amount of blood has spilled on the floor of a client's room. What should the nurse do?",
+   "rationale": "Blood spills are cleaned promptly while wearing gloves: the blood is absorbed and the area is cleaned and disinfected with an EPA-registered disinfectant or diluted bleach per policy. Any amount of blood can transmit bloodborne pathogens, leaving it creates a hazard, and water alone does not disinfect.",
+   "answer_summary": "B",
+   "options": [
+    {
+     "key": "A",
+     "text": "Wipe it up with a paper towel without gloves, since the amount of blood is very small",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Wear gloves, absorb it, and clean with an approved disinfectant",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Cover it with a towel and wait for housekeeping to arrive tomorrow morning",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Spray it with water and mop the area until the floor looks clean",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "83bf8ae29634502f"
+  },
+  {
+   "source_id": "RN-A06-018",
+   "track": "rn",
+   "set_number": 42,
+   "set_title": "Supplemental: Safety and Infection Control",
+   "source_item_number": 18,
+   "client_need": "Safety and Infection Control",
+   "topic": "Transporting a client on airborne precautions",
+   "item_type": "single_best_answer",
+   "stem": "A client on airborne precautions for tuberculosis must go to radiology. What should the nurse do?",
+   "rationale": "Clients on airborne precautions leave the room only when necessary. During transport, the client wears a surgical mask to contain respiratory particles, and the receiving department is notified so it can take precautions. Staff need N95 respirators rather than surgical masks when caring for the client, needed imaging is not delayed, and busy areas should be avoided.",
+   "answer_summary": "B",
+   "options": [
+    {
+     "key": "A",
+     "text": "Have staff wear surgical masks while the client stays unmasked",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Have the client wear a surgical mask and notify radiology in advance",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Delay all imaging until the client is no longer contagious",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Take the client quickly through the busiest hallway",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "d3ae1fca5289b09f"
+  },
+  {
+   "source_id": "RN-A06-019",
+   "track": "rn",
+   "set_number": 42,
+   "set_title": "Supplemental: Safety and Infection Control",
+   "source_item_number": 19,
+   "client_need": "Safety and Infection Control",
+   "topic": "Disposing of leftover opioids",
+   "item_type": "single_best_answer",
+   "stem": "A client asks how to get rid of leftover oxycodone tablets after recovering from surgery. What is the nurse's best response?",
+   "rationale": "Drug take-back sites are the preferred way to dispose of unused opioids. If none is available, FDA guidance allows some opioids, including oxycodone, to be flushed. Keeping leftover opioids or giving them to others leads to misuse and accidental poisoning, and a full bottle in the trash can be found and used.",
+   "answer_summary": "D",
+   "options": [
+    {
+     "key": "A",
+     "text": "\"Keep them in the medicine cabinet in case a family member has pain later on this year.\"",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "\"Give them to a friend who has back pain.\"",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "\"Throw the bottle in the trash.\"",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "\"Take them to a drug take-back site, such as a pharmacy kiosk.\"",
+     "is_correct": true
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "3aabae65491dae87"
+  },
+  {
+   "source_id": "RN-A06-020",
+   "track": "rn",
+   "set_number": 42,
+   "set_title": "Supplemental: Safety and Infection Control",
+   "source_item_number": 20,
+   "client_need": "Safety and Infection Control",
+   "topic": "Purposeful hourly rounding",
+   "item_type": "multiple_response",
+   "stem": "The unit uses purposeful hourly rounding to prevent falls. Which actions are part of each round? Select all that apply.",
+   "rationale": "Purposeful rounding addresses the needs that often lead clients to get up alone: pain, toileting, positioning, and items within reach. Turning off a bed alarm removes a safeguard, and raising all four side rails acts as a restraint and increases fall injuries.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Ask about and address pain",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Offer help with toileting",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Help the client change position if needed",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Place the call light and personal items within reach",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Turn off the bed alarm to let the client rest",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Raise all four side rails",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "content_hash": "1ae916c95c3265b8"
+  },
+  {
+   "source_id": "RN-A06-021",
+   "track": "rn",
+   "set_number": 42,
+   "set_title": "Supplemental: Safety and Infection Control",
+   "source_item_number": 21,
+   "client_need": "Safety and Infection Control",
+   "topic": "Safe sleep for infants",
+   "item_type": "multiple_response",
+   "stem": "The nurse is teaching parents about safe sleep for their newborn. Which instructions are correct? Select all that apply.",
+   "rationale": "Safe sleep practices to reduce sudden unexpected infant death include back sleeping, a firm, flat surface, a crib free of soft items, and room sharing without bed sharing. Stomach sleeping increases risk, and sitting devices such as car seats are not used for routine sleep.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Place the infant on the back for every sleep",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Use a firm, flat mattress with a fitted sheet",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Keep pillows, blankets, and bumpers out of the crib",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Share the room, but not the bed, with the infant",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Place the infant on the stomach after feedings",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Let the infant sleep in a car seat in the crib",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "content_hash": "3694ae2b64ec2c2c"
+  },
+  {
+   "source_id": "RN-A06-022",
+   "track": "rn",
+   "set_number": 42,
+   "set_title": "Supplemental: Safety and Infection Control",
+   "source_item_number": 22,
+   "client_need": "Safety and Infection Control",
+   "topic": "Choosing a hand hygiene method",
+   "item_type": "matrix_grid",
+   "stem": "For each situation, indicate the appropriate hand hygiene method.",
+   "rationale": "Alcohol-based hand rub is preferred for most routine hand hygiene, including before and after client contact and glove use. Soap and water are needed when hands are visibly soiled and after caring for clients with C. difficile or norovirus, because alcohol does not reliably kill spores or norovirus.",
+   "columns": [
+    "Alcohol-based hand rub",
+    "Soap and water"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Before touching a client colonized with MRSA",
+     "correct_column": "Alcohol-based hand rub"
+    },
+    {
+     "id": "r2",
+     "text": "After caring for a client with C. difficile diarrhea",
+     "correct_column": "Soap and water"
+    },
+    {
+     "id": "r3",
+     "text": "When hands are visibly soiled with blood",
+     "correct_column": "Soap and water"
+    },
+    {
+     "id": "r4",
+     "text": "Before putting on gloves to start an IV",
+     "correct_column": "Alcohol-based hand rub"
+    },
+    {
+     "id": "r5",
+     "text": "After caring for a client with norovirus",
+     "correct_column": "Soap and water"
+    },
+    {
+     "id": "r6",
+     "text": "After removing gloves following routine vital signs",
+     "correct_column": "Alcohol-based hand rub"
+    }
+   ],
+   "answer_summary": "Before touching a client colonized with MRSA: Alcohol-based hand rub; After caring for a client with C. difficile diarrhea: Soap and water; When hands are visibly soiled with blood: Soap and water; Before putting on gloves to start an IV: Alcohol-based hand rub; After caring for a client with norovirus: Soap and water; After removing gloves following routine vital signs: Alcohol-based hand rub",
+   "scoring": "zero_one_per_row",
+   "content_hash": "dc15b4fea89564bb"
+  },
+  {
+   "source_id": "RN-A06-023",
+   "track": "rn",
+   "set_number": 42,
+   "set_title": "Supplemental: Safety and Infection Control",
+   "source_item_number": 23,
+   "client_need": "Safety and Infection Control",
+   "topic": "Preventing scald burns",
+   "item_type": "drop_down_cloze",
+   "stem": "Complete the sentence by choosing from the lists of options.",
+   "rationale": "At 120°F (49°C) or lower, water takes longer to cause a serious burn, giving time to react. The inner wrist or elbow is more sensitive to heat than the fingertips, and a child's foot should never be used to test the water.",
+   "template": "To prevent scald burns in a home with young children, the water heater should be set no higher than ___1___, and bath water should be tested with ___2___ before the child gets in.",
+   "blanks": [
+    {
+     "id": "1",
+     "options": [
+      "120°F (49°C)",
+      "140°F (60°C)",
+      "160°F (71°C)"
+     ],
+     "correct": "120°F (49°C)"
+    },
+    {
+     "id": "2",
+     "options": [
+      "the wrist or elbow",
+      "the child's foot",
+      "the fingertips only"
+     ],
+     "correct": "the wrist or elbow"
+    }
+   ],
+   "answer_summary": "1: 120°F (49°C); 2: the wrist or elbow",
+   "scoring": "zero_one_per_blank",
+   "content_hash": "31afbdc8b68ca308"
+  }
+ ]
+}
