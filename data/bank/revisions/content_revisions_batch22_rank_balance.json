@@ -1,0 +1,2014 @@
+{
+ "_comment": "Batch 22 (rank balance, all sets). Rebalances the length rank of the correct option so no rank holds more than 35% or less than 15% of single_best_answer items per track. For selected items where the correct option was second-longest, one more distractor is lengthened (correct becomes rank 3), two are lengthened (rank 4), or the one longer distractor is trimmed so the correct option is at most about 10% longer (rank 1). Distractor text only; stems, correct options, and rationales are unchanged, and each distractor keeps its meaning and stays wrong for the same reason. Items whose options are numeric values were left out.",
+ "RN-S01-01": {
+  "D": "A client with stable angina who is NPO for a stress test scheduled in 2 hours and is asking for a drink of water because of a dry mouth"
+ },
+ "RN-S01-06": {
+  "A": "Mediastinal chest tube drainage of 90 mL in the past hour, which is serosanguineous and slightly less than the previous hour's 100 mL, with stable vital signs"
+ },
+ "RN-S01-07": {
+  "A": "Administer epinephrine 1 mg IV push right away"
+ },
+ "RN-S01-15": {
+  "B": "Fatigue after ambulating in the hallway this morning"
+ },
+ "RN-S02-06": {
+  "C": "\"Oxygen is addictive, so we try to use as little as possible to keep your mother from becoming dependent on it once she goes back home.\""
+ },
+ "RN-S02-15": {
+  "D": "A spare nasal cannula, petroleum jelly for the stoma, and a bag of gauze pads"
+ },
+ "RN-S03-09": {
+  "A": "Turning the client onto the side to keep the airway clear"
+ },
+ "RN-S03-12": {
+  "A": "Bladder distention and need for catheterization"
+ },
+ "RN-S03-15": {
+  "A": "\"I'll rise slowly from sitting or lying down so I don't get dizzy.\""
+ },
+ "RN-S03-17": {
+  "A": "\"You're doing a wonderful job caring for your mother. Just keep going, and things will settle down for you soon.\"",
+  "C": "\"Have you considered placing her in a nursing home? That might be the best option for both of you right now.\""
+ },
+ "RN-S04-05": {
+  "A": "Place 15 g of glucose gel between the cheek and gum"
+ },
+ "RN-S04-07": {
+  "A": "Doubling the metformin dose the day before the scan to keep blood glucose well controlled during the fasting period"
+ },
+ "RN-S04-08": {
+  "A": "Blood glucose of 320 mg/dL measured on the bedside glucometer on admission to the medical unit"
+ },
+ "RN-S04-11": {
+  "C": "Administering oral levothyroxine tablets",
+  "D": "Providing a high-fiber, high-residue diet"
+ },
+ "RN-S04-12": {
+  "C": "IV potassium chloride 20 mEq infused over 2 hours",
+  "D": "Fluid restriction to 1,000 mL per day by mouth"
+ },
+ "RN-S04-16": {
+  "A": "Urine specific gravity falls from 1.004 to 1.001 over the first day"
+ },
+ "RN-S04-24": {
+  "A": "Regular insulin 0.1 unit/kg IV bolus right away",
+  "D": "Sodium bicarbonate 50 mEq IV push over 5 minutes"
+ },
+ "RN-S05-01": {
+  "D": "A client with a kidney stone who rates pain 7 of 10 and received a prescribed analgesic about 15 minutes ago"
+ },
+ "RN-S05-07": {
+  "C": "Increase the dextrose concentration of the next exchange to pull more fluid into the peritoneal cavity for drainage",
+  "D": "Remove the peritoneal dialysis catheter at the bedside and notify the provider that the catheter is not functioning"
+ },
+ "RN-S05-10": {
+  "A": "Administer the dose as prescribed this morning",
+  "C": "Double the dose to prevent anemia from recurring"
+ },
+ "RN-S05-12": {
+  "C": "\"I'll avoid crowds and people who are sick, especially in flu season.\"",
+  "D": "\"I'll keep all of my appointments for blood level checks at the lab.\""
+ },
+ "RN-S05-13": {
+  "B": "Cola-colored urine, hypertension, periorbital edema, and a recent sore throat"
+ },
+ "RN-S05-17": {
+  "A": "Urinary frequency every 30 to 60 minutes"
+ },
+ "RN-S05-19": {
+  "A": "Restrict fluids for 12 hours before the scan to cut the risk of fluid overload"
+ },
+ "RN-S06-01": {
+  "B": "A client with GERD who reports mild heartburn after eating a large breakfast and is asking for the antacid that is prescribed to be taken as needed"
+ },
+ "RN-S06-05": {
+  "D": "Double the new bag's rate when it arrives to make up the volume"
+ },
+ "RN-S06-07": {
+  "C": "Increased asterixis when the client extends both arms and wrists",
+  "D": "Serum ammonia rising from 80 to 110 mcg/dL since yesterday morning"
+ },
+ "RN-S06-11": {
+  "A": "Right lower quadrant pain at McBurney's point with rebound tenderness"
+ },
+ "RN-S06-12": {
+  "A": "\"I'll wash my hands well with soap after using the bathroom.\"",
+  "B": "\"I won't prepare food for others while I'm still contagious.\""
+ },
+ "RN-S06-18": {
+  "C": "\"Eat three large meals each day that are high in simple sugars for quick energy.\""
+ },
+ "RN-S06-19": {
+  "D": "High-Fowler's position with the knees slightly bent for comfort"
+ },
+ "RN-S06-24": {
+  "A": "Obtain informed consent for the upper endoscopy procedure right away",
+  "D": "Complete a detailed medication history, including any NSAID use"
+ },
+ "RN-S07-01": {
+  "C": "A client with gout who is requesting a lower-purine meal tray and asking whether the kitchen has any skim milk available",
+  "D": "A client with osteoporosis who has questions about calcium supplements and wants to know the best time of day to take them"
+ },
+ "RN-S07-02": {
+  "A": "Absent pedal pulse on the foot of the affected leg"
+ },
+ "RN-S07-05": {
+  "A": "Incision pain rated 4/10 one hour after the analgesic"
+ },
+ "RN-S07-06": {
+  "D": "The ropes move freely through the pulleys without fraying"
+ },
+ "RN-S07-13": {
+  "A": "\"I'll take my folic acid every day as prescribed.\""
+ },
+ "RN-S07-15": {
+  "A": "Keep a pillow under the residual limb at all times to reduce swelling and pain",
+  "C": "Keep the head of the bed elevated 60 degrees continuously while the client is in bed"
+ },
+ "RN-S07-16": {
+  "A": "The crutch pads are 2–3 fingerbreadths below the axillae when standing"
+ },
+ "RN-S07-17": {
+  "A": "Restrict fluids to prevent edema and reduce the kidneys' workload"
+ },
+ "RN-S08-02": {
+  "C": "Administer acetaminophen as prescribed and continue the transfusion at the same rate as before",
+  "D": "Flush the existing blood tubing with 0.9% sodium chloride to clear the line, then continue"
+ },
+ "RN-S08-04": {
+  "C": "Transfusing platelets to bring the platelet count back up toward the normal range quickly",
+  "D": "Switching from the heparin infusion to enoxaparin given subcutaneously every 12 hours"
+ },
+ "RN-S08-05": {
+  "A": "Increased platelets, shortened PT and aPTT, high fibrinogen, and normal D-dimer"
+ },
+ "RN-S08-07": {
+  "A": "Encourage oral fluids and rest, and reassess the client's pain and breathing in about 4 hours"
+ },
+ "RN-S08-08": {
+  "A": "\"Take each dose with a full glass of milk to reduce any stomach upset it causes.\""
+ },
+ "RN-S08-09": {
+  "D": "\"I only need treatment until my energy improves and the fatigue and weakness go away.\""
+ },
+ "RN-S08-16": {
+  "A": "Put on two pairs of gloves, pick up the implant by hand, and reinsert it into the vagina at once"
+ },
+ "RN-S08-17": {
+  "C": "An increased warfarin dose each day for the next 3 days in a row",
+  "D": "Oral aspirin 81 mg once daily with breakfast, starting today"
+ },
+ "RN-S08-18": {
+  "C": "\"I need to avoid eating spinach, kale, broccoli, and all other green leafy vegetables while I take it.\""
+ },
+ "RN-S09-08": {
+  "D": "\"Stop the medication once your joint pain is better.\""
+ },
+ "RN-S09-09": {
+  "A": "Document the food allergies in the medical record and notify only the hospital's dietary department",
+  "D": "No further action is needed beyond completing the routine preoperative checklist for surgery"
+ },
+ "RN-S09-10": {
+  "C": "\"Use it only if taking an antihistamine such as diphenhydramine doesn't relieve your symptoms within 30 minutes.\""
+ },
+ "RN-S09-14": {
+  "A": "\"Hold a lit match to the tick to burn it off, then wash the area well with soap and water and apply a bandage.\""
+ },
+ "RN-S09-15": {
+  "C": "A nurse who received both recommended doses of the varicella vaccine as a teen",
+  "D": "A nurse who had an episode of shingles on the back last year that has healed"
+ },
+ "RN-S09-16": {
+  "A": "Continue the infusion at the same rate and recheck the skin and vital signs in 30 minutes to see if it fades"
+ },
+ "RN-S09-18": {
+  "A": "Before taking a blood pressure on a stable client",
+  "C": "After touching a clean over-bed table in the room"
+ },
+ "RN-S10-02": {
+  "A": "Document the normal oxygen saturation of 99% and continue routine monitoring of the client",
+  "D": "Encourage deep breathing and coughing, then reassess the client's breathing in 1 hour"
+ },
+ "RN-S10-05": {
+  "C": "Pain at the edges of the burn wound, where the skin is only partial thickness",
+  "D": "Dry, leathery, waxy white appearance of the burned skin on the upper part of the arm"
+ },
+ "RN-S10-08": {
+  "A": "Low-calorie, low-protein diet to reduce the workload on the kidneys and liver"
+ },
+ "RN-S10-10": {
+  "D": "Cover the arms with dry, sterile dressings and arrange transfer"
+ },
+ "RN-S10-14": {
+  "A": "Restart the device over the existing foam dressing at the prescribed settings"
+ },
+ "RN-S10-16": {
+  "C": "Contact dermatitis from an allergic reaction to the wound dressing"
+ },
+ "RN-S10-17": {
+  "A": "Continuing the medication and adding an oral antihistamine for the rash and itching"
+ },
+ "RN-S10-24": {
+  "C": "Administer the prescribed tetanus toxoid injection IM right now",
+  "D": "Obtain photographs of the burns for the client's medical record"
+ },
+ "RN-S11-06": {
+  "A": "Continue the infusion, since the sodium is still below the normal range"
+ },
+ "RN-S11-09": {
+  "D": "Diarrhea, cramping, and a positive Chvostek's sign"
+ },
+ "RN-S11-11": {
+  "C": "Tetany with carpopedal spasm and painful muscle cramps in the legs",
+  "D": "Tachycardia and hypertension with a pounding, throbbing headache"
+ },
+ "RN-S11-12": {
+  "A": "Elevated serum calcium",
+  "C": "Elevated serum sodium"
+ },
+ "RN-S11-13": {
+  "A": "Uncompensated acidosis of respiratory origin",
+  "C": "Fully compensated metabolic alkalosis with a normal pH"
+ },
+ "RN-S12-04": {
+  "C": "Place the client in high-Fowler's position, call the provider to the bedside, and wait with the client",
+  "D": "Wrap the exposed cord in dry gauze and keep the client still in bed until the provider arrives on the unit"
+ },
+ "RN-S12-08": {
+  "A": "Painless bright red vaginal bleeding and a soft, nontender, relaxed uterus"
+ },
+ "RN-S12-10": {
+  "A": "Increase the oxytocin rate to strengthen labor and shorten it",
+  "D": "Document the findings as an expected response to the oxytocin"
+ },
+ "RN-S12-15": {
+  "C": "\"It prevents jaundice, which many healthy newborns develop during the first week or so after they are born.\"",
+  "D": "\"It boosts the immune system so your baby can fight off infections during the first few weeks at home.\""
+ },
+ "RN-S12-18": {
+  "A": "The newborn feeds every 5–6 hours and sleeps well in between"
+ },
+ "RN-S13-06": {
+  "A": "Administer the dose as prescribed, since it is within the safe range for the child"
+ },
+ "RN-S13-10": {
+  "A": "Passing meconium within 24 hours of birth with a soft, nondistended abdomen",
+  "C": "Yellow, seedy stools by day 4 in a newborn who is breastfeeding well and gaining"
+ },
+ "RN-S13-18": {
+  "A": "\"I'll wear it only at night while I'm sleeping and take it off before school.\""
+ },
+ "RN-S13-19": {
+  "C": "Ask the provider for a prescribed sedative to calm the child after the parents leave the hospital each night",
+  "D": "Tell the child firmly to stop crying because the other children on the unit are trying to sleep right now"
+ },
+ "RN-S14-06": {
+  "C": "Pepperoni pizza with a glass of draft beer on tap at dinner",
+  "D": "Vegetable stir-fry with soy sauce and fermented tofu over rice"
+ },
+ "RN-S14-08": {
+  "C": "Encourage ambulation in the hallway to help relieve the muscle rigidity"
+ },
+ "RN-S14-09": {
+  "D": "Encourage warm salt-water gargles only and recheck the client's temperature at bedtime tonight"
+ },
+ "RN-S14-10": {
+  "B": "An additional dose of haloperidol now"
+ },
+ "RN-S14-11": {
+  "A": "\"Yes, I can hear them too. Let's sit down together and figure out what they want.\""
+ },
+ "RN-S14-17": {
+  "C": "Touch the client firmly on the shoulder without warning to get the client's attention"
+ },
+ "RN-S14-18": {
+  "A": "Naloxone causes permanent sedation that develops soon after the client wakes up",
+  "C": "Naloxone causes hypoglycemia that typically develops within the first hour after it's given"
+ },
+ "RN-S15-01": {
+  "C": "PRN acetaminophen for a headache rated 3/10 that started about an hour ago",
+  "D": "A daily oral multivitamin that is scheduled for 0900 with the client's breakfast"
+ },
+ "RN-S15-10": {
+  "C": "Oral multivitamin tablet"
+ },
+ "RN-S15-13": {
+  "A": "Save it in a labeled syringe in the locked medication room for the next dose"
+ },
+ "RN-S15-15": {
+  "C": "Two hours after the previous dose has finished infusing",
+  "D": "At any convenient time of day during the nurse's shift"
+ },
+ "RN-S15-16": {
+  "C": "Older adults need fewer monitoring visits once a medication is started and well tolerated",
+  "D": "Drug interactions are less common in older adults than they are in younger adults"
+ },
+ "RN-S15-18": {
+  "A": "No change in INR monitoring is needed while the client is on the antibiotic"
+ },
+ "RN-S15-19": {
+  "A": "\"Yes, pressing the button for her while she sleeps will keep her pain under control, so she won't wake up hurting in the middle of the night.\""
+ },
+ "RN-S16-02": {
+  "C": "A client receiving an insulin infusion for DKA whose glucose is now down to 210 mg/dL",
+  "D": "A client with a new chest tube for a pneumothorax that was placed earlier today in the ED"
+ },
+ "RN-S16-03": {
+  "B": "A client newly admitted with chest pain who needs a full admission assessment and a 12-lead ECG"
+ },
+ "RN-S16-06": {
+  "C": "Complete the task yourself and say nothing to the AP about the refusal",
+  "D": "Discuss the problem at the next team huddle in front of the other staff"
+ },
+ "RN-S16-07": {
+  "D": "Tell the client that the doctor knows best and that the surgery is really needed"
+ },
+ "RN-S16-08": {
+  "C": "Stop all nursing care and treatments, since a DNR order means the client should be kept comfortable only from now on"
+ },
+ "RN-S16-10": {
+  "A": "Apply restraints to keep the client in bed until the provider comes to talk with the client about the risks"
+ },
+ "RN-S16-18": {
+  "C": "To gather information that the facility's lawyers can use to prepare for a possible malpractice lawsuit",
+  "D": "To document all of the details of the event in the client's permanent medical record right away"
+ },
+ "RN-S17-01": {
+  "C": "Squeeze the handle first, then pull the pin, sweep side to side, and finally aim at the fire",
+  "D": "Sweep the nozzle side to side, aim at the fire, pull the pin, and then squeeze the handle"
+ },
+ "RN-S17-08": {
+  "A": "The client showers with chlorhexidine soap the night before and morning of surgery"
+ },
+ "RN-S17-09": {
+  "C": "Droplet precautions with surgical masks for all staff members and visitors who enter",
+  "D": "Strict reverse (protective) isolation in private rooms with HEPA filtration for each client"
+ },
+ "RN-S17-11": {
+  "C": "Pour plenty of water on the spill to dilute it, then mop the whole area until the floor is completely dry"
+ },
+ "RN-S17-12": {
+  "A": "Put on regular exam gloves, clean up the spill with paper towels, and throw them in the regular trash"
+ },
+ "RN-S17-19": {
+  "D": "Give the medication now and report the alert to the pharmacy later in the shift"
+ },
+ "RN-S17-24": {
+  "C": "Apply soft wrist restraints right away to keep the client from trying to climb out of the bed again",
+  "D": "Administer the PRN haloperidol that is prescribed for agitation and recheck the client in 30 minutes"
+ },
+ "RN-S18-02": {
+  "A": "Timolol ophthalmic eye drops"
+ },
+ "RN-S18-03": {
+  "A": "\"I'll wear the eye shield at night while I sleep.\"",
+  "D": "\"I'll avoid lifting anything heavy for the next few weeks.\""
+ },
+ "RN-S18-05": {
+  "B": "An S4 heart sound heard only at the apex",
+  "C": "Unilateral leg swelling and calf pain"
+ },
+ "RN-S18-07": {
+  "A": "\"Hold ice packs in your hands a few minutes each day to toughen your fingers.\""
+ },
+ "RN-S18-08": {
+  "D": "Trendelenburg position, with the head of the bed lower than the client's feet"
+ },
+ "RN-S18-12": {
+  "C": "Disturbed body image and low self-esteem",
+  "D": "Constipation from immobility and low fiber"
+ },
+ "RN-S18-18": {
+  "C": "\"Your sexual partners don't need to be tested or treated, because the single dose that you took will clear the infection.\""
+ },
+ "RN-S19-03": {
+  "B": "\"You can ignore any shocks unless you have more than five of them in a single day, since a shock just means that the device is doing its job.\""
+ },
+ "RN-S19-05": {
+  "B": "Oral ibuprofen 400 mg with food and a full glass of water"
+ },
+ "RN-S19-07": {
+  "A": "\"Take a double dose on the morning of your surgery so that your blood sugar stays under control during the hours you can't eat.\""
+ },
+ "RN-S19-09": {
+  "C": "\"A vaccine given in a series of three shots over 6 months will cure the infection.\"",
+  "D": "\"Treatment is only recommended for people who already have advanced liver failure.\""
+ },
+ "RN-S19-10": {
+  "D": "Mild abdominal fullness and bloating after drinking the prep solution"
+ },
+ "RN-S19-11": {
+  "C": "Frequent bloody diarrhea with crampy lower abdominal pain and urgency to have a stool",
+  "D": "Left lower quadrant pain that is relieved by having a bowel movement each morning"
+ },
+ "RN-S19-14": {
+  "C": "\"Keep the stoma tightly covered with plastic wrap at all times to keep it clean and dry.\"",
+  "D": "\"You can still breathe through your nose and mouth if the stoma ever gets blocked by mucus.\""
+ },
+ "RN-S20-01": {
+  "B": "A client with a laceration on the forearm with controlled bleeding who needs sutures today",
+  "C": "A client with a sprained ankle rating pain 6/10 who is resting with the leg elevated on pillows"
+ },
+ "RN-S20-03": {
+  "C": "Perform synchronized cardioversion as soon as the pads are placed on the chest",
+  "D": "Administer adenosine 6 mg by rapid IV push followed by a saline flush"
+ },
+ "RN-S20-04": {
+  "A": "\"My heart rate will increase right away when I start exercising, just the way it did before my surgery.\""
+ },
+ "RN-S20-10": {
+  "D": "A low-calcium diet with limited dairy products and no supplements"
+ },
+ "RN-S20-12": {
+  "A": "Place the client in high-Fowler's position to ease breathing and apply oxygen"
+ },
+ "RN-S20-13": {
+  "D": "The client asks for something to eat and drink after the procedure"
+ },
+ "RN-S21-03": {
+  "A": "\"The enoxaparin injections will be stopped today, because the warfarin has started and will take over treating your clot.\""
+ },
+ "RN-S21-10": {
+  "C": "Stop the evening insulin dose until the cause has been found",
+  "D": "Check glucose only at bedtime and before breakfast each day"
+ },
+ "RN-S21-12": {
+  "A": "Gastroesophageal reflux disease (GERD)"
+ },
+ "RN-S21-16": {
+  "C": "Mild fatigue in the late afternoon that improves with a short rest",
+  "D": "Occasional mild headache that is relieved by acetaminophen and rest"
+ },
+ "RN-S21-17": {
+  "A": "\"No follow-up visits or testing are needed once you start PrEP, as long as you take it each and every day.\""
+ },
+ "RN-S21-19": {
+  "C": "Worsening periorbital swelling, especially in the morning when the child wakes"
+ },
+ "RN-S22-01": {
+  "D": "A client recovering from a total hip replacement who has a scheduled physical therapy visit at home later today"
+ },
+ "RN-S22-05": {
+  "C": "\"Take a sleeping pill right after takeoff so that you can sleep comfortably and without moving through most of the long flight.\"",
+  "D": "\"Cross your legs at the knees or ankles to stay more comfortable in the small, cramped airplane seat for the long flight.\""
+ },
+ "RN-S22-08": {
+  "C": "Stopping all of the client's cardiac medications while the levothyroxine dose is being started",
+  "D": "Taking each dose of levothyroxine with a calcium supplement at breakfast to improve its absorption"
+ },
+ "RN-S22-10": {
+  "D": "Hypertension from excess fluid in the vascular space and tissues"
+ },
+ "RN-S22-18": {
+  "D": "Insulin is usually stopped in the third trimester and replaced by diet control to protect the baby"
+ },
+ "RN-S22-24": {
+  "D": "Start only a maintenance IV fluid rate for the infant"
+ },
+ "RN-S23-03": {
+  "D": "The client reports feeling relaxed and a little sleepy but is easy to rouse"
+ },
+ "RN-S23-05": {
+  "C": "\"Take the sacubitril-valsartan only on days you feel short of breath.\""
+ },
+ "RN-S23-07": {
+  "A": "A normal breathing pattern after chest trauma"
+ },
+ "RN-S23-09": {
+  "A": "\"Eat three large, high-fiber meals each day with plenty of water.\"",
+  "C": "\"Lie down right after eating to help with digestion and nausea.\""
+ },
+ "RN-S23-12": {
+  "A": "Decreased joint pain and swelling in the toe",
+  "D": "Mild fatigue in the afternoon after lunch"
+ },
+ "RN-S23-24": {
+  "C": "Give a 2-L bolus of normal saline as fast as possible through the IV to raise the MAP"
+ },
+ "RN-S24-01": {
+  "B": "A client with COPD who is requesting a scheduled bronchodilator inhaler that is due at the next hour"
+ },
+ "RN-S24-11": {
+  "C": "Hyperkalemia from impaired K+ clearance"
+ },
+ "RN-S24-13": {
+  "A": "Restrict the client's fluids to 1,000 mL per day to reduce the workload on the client's damaged kidneys and heart",
+  "C": "Encourage strict bed rest at all times to reduce the bone pain and to protect the weakened bones from any fractures"
+ },
+ "RN-S24-14": {
+  "C": "Raynaud's phenomenon flare"
+ },
+ "RN-S24-17": {
+  "A": "\"Take some acetaminophen and rest in a dark, quiet room until the headache and blurred vision go away completely on their own.\"",
+  "D": "\"Wait and mention the headache and the blurred vision to your provider at your routine 6-week postpartum checkup visit.\""
+ },
+ "RN-S24-24": {
+  "D": "Insert a nasogastric tube to suction"
+ },
+ "RN-S25-03": {
+  "A": "\"Metoprolol will raise your blood sugar to dangerous levels, so you will need to take much more insulin every day while you're on this medication.\""
+ },
+ "RN-S25-07": {
+  "A": "Lower blood glucose levels throughout the day, so the client's diabetes medications may need to be reduced during prednisone"
+ },
+ "RN-S25-11": {
+  "C": "Joint pain, mouth sores, and a butterfly-shaped rash across the cheeks and nose"
+ },
+ "RN-S25-14": {
+  "D": "Ignore the movements, since they are a harmless habit that develops in some clients after many years of treatment"
+ },
+ "RN-S25-19": {
+  "C": "Apply a heating pad to the knee for 20 minutes several times a day to relieve the child's pain",
+  "D": "Reassure the family that the pain is just growing pains, which are very common in children this age"
+ },
+ "RN-S25-24": {
+  "C": "Permanently discontinue the acetylcysteine and document a severe drug allergy in the client's medical record",
+  "D": "Administer epinephrine 0.3 mg IM into the outer thigh immediately and call the rapid response team to the room"
+ },
+ "RN-S26-01": {
+  "C": "A client with type 2 diabetes whose fasting glucose was 142 mg/dL this morning and who wants to review the meal plan again"
+ },
+ "RN-S26-04": {
+  "D": "The client stops coughing and the ventilator alarms quiet after the tube is connected"
+ },
+ "RN-S26-09": {
+  "A": "Occasional gas and bloating after eating beans, broccoli, or cabbage with dinner at home",
+  "D": "Mild heartburn after large or spicy meals that is relieved by an over-the-counter antacid"
+ },
+ "RN-S26-15": {
+  "A": "A client who disagrees with the current treatment plan and wants to leave the unit against medical advice this afternoon"
+ },
+ "RN-S26-18": {
+  "A": "\"Your child should continue playing high-impact sports such as basketball and soccer every day, since staying very active will help the hip heal faster.\""
+ },
+ "RN-S26-19": {
+  "A": "\"Stop giving the antibiotic once the ear pain goes away, so that your child doesn't build up a resistance to the medicine.\"",
+  "C": "\"Give your child children's aspirin every 4 to 6 hours for the ear pain and for any fever that develops over the next few days.\""
+ },
+ "RN-S27-01": {
+  "C": "A client 30 weeks pregnant who is requesting a work note for her employer about lifting limits"
+ },
+ "RN-S27-07": {
+  "C": "Mild nausea after small sips of water that passes within a few minutes of sitting upright in bed",
+  "D": "Low-grade temperature of 99.3°F (37.4°C) on the evening vital signs check, with no chills or sweats"
+ },
+ "RN-S27-08": {
+  "A": "Normal ascites from the client's cirrhosis",
+  "D": "Gallstones with acute cholecystitis"
+ },
+ "RN-S27-10": {
+  "D": "Constipation from opioid pain medication use"
+ },
+ "RN-S27-12": {
+  "A": "\"No special precautions are needed after you go home, because the seeds stop giving off any radiation as soon as they are placed in your prostate, so you can go back to your routine.\""
+ },
+ "RN-S27-19": {
+  "C": "Compressions over the upper abdomen, just below the bottom of the infant's ribs"
+ },
+ "RN-S28-03": {
+  "A": "Give 81 mg enteric-coated aspirin to be swallowed whole"
+ },
+ "RN-S28-07": {
+  "A": "Sudden hearing loss; a 10-day course of oral antibiotics",
+  "C": "Ischemic stroke; IV thrombolytic therapy given right away"
+ },
+ "RN-S28-11": {
+  "C": "Double the lisinopril dose so that the client's blood pressure is controlled more quickly and the kidneys are better protected from damage"
+ },
+ "RN-S28-13": {
+  "A": "Administering IV vitamin K and fresh frozen plasma immediately to bring the INR back into the therapeutic range as quickly as possible"
+ },
+ "RN-S28-17": {
+  "A": "Express shock and disapproval so that the adolescent clearly understands how serious and upsetting the behavior is to others"
+ },
+ "RN-S28-24": {
+  "C": "Obtain a repeat portable chest x-ray at the bedside now",
+  "D": "Perform abdominal thrusts to clear water from the lungs"
+ },
+ "RN-S29-02": {
+  "C": "\"It will lower your blood sugar to help prevent you from developing diabetes in the future, since heart failure raises that risk for you.\"",
+  "D": "\"It replaces all of your other heart failure medications, so you can stop taking all of those once you start this new pill each morning.\""
+ },
+ "RN-S29-03": {
+  "A": "Titrate the infusion rate every few minutes to relieve the chest pain without checking the client's BP in between rate changes",
+  "D": "Stop the infusion abruptly as soon as the chest pain resolves, without notifying the provider or gradually tapering the rate"
+ },
+ "RN-S29-05": {
+  "A": "A pair of bandage scissors to cut away the padding and vest straps in an emergency"
+ },
+ "RN-S29-09": {
+  "C": "Incisional pain rated 4/10 that is well controlled with the prescribed analgesic and repositioning in bed"
+ },
+ "RN-S29-11": {
+  "A": "Painless hematuria in an older adult is almost always harmless and usually clears up on its own within a few days without treatment"
+ },
+ "RN-S29-24": {
+  "A": "Apply a warm compress to the left leg to improve blood flow to the foot and ease the pain"
+ },
+ "RN-S30-03": {
+  "C": "Flumazenil IV push"
+ },
+ "RN-S30-08": {
+  "A": "High continuous wall suction"
+ },
+ "RN-S30-10": {
+  "C": "A urinary tract infection from the indwelling catheter and irrigation"
+ },
+ "RN-S30-17": {
+  "A": "No Rh immune globulin will be given until after delivery, when the baby's blood type can finally be checked",
+  "D": "Giving Rh immune globulin now only if the client develops any vaginal bleeding or spotting later in the pregnancy"
+ },
+ "RN-S30-18": {
+  "A": "No treatment until the infant reaches 1 year of age and can be tested for the virus",
+  "C": "Formula feeding is required, since the virus is passed to the infant through breast milk"
+ },
+ "RN-S30-19": {
+  "A": "A soft, flat anterior fontanel and steady head growth along the infant's percentile curve at each well-child visit"
+ },
+ "RN-S31-03": {
+  "A": "\"Drink an extra cup or two of coffee on the morning of the test so that your heart rate rises more easily during exercise.\""
+ },
+ "RN-S31-09": {
+  "C": "Heat intolerance, weight loss with a large appetite, tremors, a rapid pulse, and bulging eyes (exophthalmos)",
+  "D": "Hyperglycemia, hypokalemia, high blood pressure, and fluid retention with edema in the legs and ankles"
+ },
+ "RN-S31-10": {
+  "A": "Vitamin C supplements taken by mouth with meals"
+ },
+ "RN-S31-18": {
+  "C": "\"If you notice any spotting at home, use a tampon to absorb it, and mention it to your provider at your next scheduled prenatal visit.\"",
+  "D": "\"You should plan for a vaginal birth, since the placenta will usually move up and out of the way on its own as your due date gets closer.\""
+ },
+ "RN-S32-02": {
+  "C": "Give a second dose of oral dexamethasone every hour until the stridor goes away completely at rest",
+  "D": "Place the child flat in bed to rest, with the head of the bed lowered and the room lights kept dimmed"
+ },
+ "RN-S32-04": {
+  "A": "\"You can take apixaban instead of warfarin, since it doesn't need regular INR checks and works just as well with a mechanical valve.\""
+ },
+ "RN-S32-08": {
+  "A": "Chronic memory loss only, with a gradual decline in thinking over many months or years and no change in alertness or attention"
+ },
+ "RN-S32-12": {
+  "C": "\"Eat large, dry meals quickly so the food builds up enough weight to push through your esophagus.\""
+ },
+ "RN-S32-16": {
+  "A": "Withholding all opioids, since they could suppress the client's breathing and shorten the client's life at this late stage of illness"
+ },
+ "RN-S32-18": {
+  "A": "A mother with a common cold who has a runny nose and a mild cough, without fever or any other symptoms of illness",
+  "C": "A mother taking acetaminophen as needed for perineal pain and afterpains in the first few days after giving birth"
+ },
+ "RN-S33-01": {
+  "B": "A client with COPD on 2 L/min oxygen by nasal cannula whose SpO2 is 91%, which is the client's usual baseline, with no signs of distress",
+  "C": "A client with pneumonia who is requesting cough medicine for a dry, nonproductive cough that keeps waking them up several times at night"
+ },
+ "RN-S33-02": {
+  "D": "Remove the compression band all at once after 30 minutes and apply a small adhesive bandage to the site"
+ },
+ "RN-S33-03": {
+  "D": "Starting antibiotics for a likely respiratory infection that is causing the client's dry cough"
+ },
+ "RN-S33-07": {
+  "C": "\"You only need to have your glucose checked again if you become pregnant in the future, since gestational diabetes only happens during pregnancy and doesn't affect your long-term health.\""
+ },
+ "RN-S33-08": {
+  "C": "\"You should stop all of your medications, including your acid reducers, now that the diagnosis of Barrett's has been made.\"",
+  "D": "\"It will go away on its own in about a week, as long as you avoid spicy foods, caffeine, alcohol, and large late-night meals.\""
+ },
+ "RN-S33-16": {
+  "C": "Suggest taking the zolpidem with a glass of wine at bedtime so that the client sleeps more deeply through the night and doesn't get up to cook or wander"
+ },
+ "RN-S34-04": {
+  "A": "\"You can fly and go scuba diving right away once you're discharged home, since the lung has already re-expanded fully and the pressure changes won't affect it.\""
+ },
+ "RN-S34-12": {
+  "A": "Serum uric acid level alone, drawn during the acute flare of the knee",
+  "D": "Urinalysis to check for uric acid crystals and blood in the urine"
+ },
+ "RN-S34-13": {
+  "D": "Pause the infusion every 5 minutes to check the client's vital signs, and then restart it at the same rate each time until the whole unit is finished infusing"
+ },
+ "RN-S34-14": {
+  "C": "This is a normal part of aging, and the client should simply rest more often and keep the feet up when sitting"
+ },
+ "RN-S34-15": {
+  "A": "No treatment, since the rash will fade on its own",
+  "C": "IV vancomycin given in the hospital for 2 weeks"
+ },
+ "RN-S34-16": {
+  "D": "Constricted pupils and respiratory depression, with slow breathing and sedation"
+ },
+ "RN-S35-02": {
+  "A": "Continuing the lisinopril at the same dose, since the client's blood pressure is already well controlled"
+ },
+ "RN-S35-04": {
+  "D": "Massage of the affected leg to ease the pain and swelling"
+ },
+ "RN-S35-07": {
+  "D": "It only affects the client's sleep, since the medication mainly helps the client fall asleep and stay asleep through the whole night"
+ },
+ "RN-S35-16": {
+  "C": "An immediate hepatitis C vaccine, with the full series started within 24 hours of the exposure to prevent a chronic infection from developing",
+  "D": "Hepatitis C immune globulin given within 24 hours of the needlestick, followed by a second dose 1 month later to complete the protection"
+ },
+ "RN-S35-17": {
+  "D": "Avoiding all exercise and outdoor activity during the winter to conserve energy until the mood lifts in spring"
+ },
+ "RN-S35-24": {
+  "B": "Obtain a Kleihauer-Betke test to check for any fetal-maternal hemorrhage",
+  "D": "Perform a digital cervical exam to check for cervical dilation and effacement"
+ },
+ "RN-S36-06": {
+  "A": "High-Fowler's at 90 degrees, with the client sitting fully upright in bed to help drain fluid away from the surgical site in the head",
+  "C": "Prone with the neck flexed forward on a pillow, so that the incision at the back of the head stays completely off the mattress"
+ },
+ "RN-S36-08": {
+  "D": "\"It is only for the pelvic pain that comes with PCOS, and it doesn't affect your insulin levels or your periods.\""
+ },
+ "RN-S36-12": {
+  "D": "\"Stuff small, soft toys or cotton balls inside the edges of the cast for comfort, so that the hard cast doesn't rub against your child's skin while they are playing or sleeping.\""
+ },
+ "RN-S36-13": {
+  "A": "Hyperglycemia and hypernatremia from the transfusions"
+ },
+ "RN-S36-17": {
+  "C": "Risk of the fetus being too small to deliver safely, since fetal growth slows down after the due date, so the plan is to wait until the fetus gains more weight before any discussion of a labor induction"
+ },
+ "RN-S36-19": {
+  "C": "Sleeping about 16 hours a day, waking up to feed every 3 to 4 hours and settling easily again afterward",
+  "D": "Pink mucous membranes, warm hands and feet, and brisk capillary refill of less than 2 seconds in the toes"
+ },
+ "RN-S37-03": {
+  "D": "\"Reach up over your head often during the day to stretch the incision and keep the scar from becoming tight, stiff, and sore.\""
+ },
+ "RN-S37-06": {
+  "C": "An acute epidural hematoma (arterial)"
+ },
+ "RN-S37-09": {
+  "C": "\"Drink alcohol only in moderation, such as one drink a day, since small amounts of alcohol won't affect your pancreas at all.\"",
+  "D": "\"Take your pancreatic enzymes once a week with your largest meal, and check your glucose only if you start to feel unwell.\""
+ },
+ "RN-S37-10": {
+  "A": "\"No follow-up visits are needed once your symptoms go away, since being in remission means the colitis is cured and won't come back.\""
+ },
+ "RN-S37-13": {
+  "D": "Acute hepatitis A affecting the liver"
+ },
+ "RN-S37-19": {
+  "A": "A chest x-ray only, to look for pneumonia in the lungs as the cause",
+  "C": "A throat culture to check for a group A strep throat infection"
+ },
+ "RN-S38-01": {
+  "B": "A client reporting mild leg cramps near the end of the treatment, with stable vital signs throughout the session"
+ },
+ "RN-S38-04": {
+  "A": "Falling blood sugar levels (hypoglycemia)"
+ },
+ "RN-S38-07": {
+  "C": "Delaying antibiotics until after the lumbar puncture so that the cerebrospinal fluid cultures are accurate and reliable"
+ },
+ "RN-S38-08": {
+  "A": "\"Glucose control doesn't really matter until the third trimester, since that's when the baby grows the most and high blood sugar can cause problems.\""
+ },
+ "RN-S38-12": {
+  "C": "Oral naproxen taken twice daily with food and a glass of water",
+  "D": "Aspirin 1,000 mg by mouth four times daily with meals and milk"
+ },
+ "RN-S38-15": {
+  "C": "A topical antifungal cream applied to the sore twice daily",
+  "D": "No treatment, since the sore heals on its own in a few weeks"
+ },
+ "RN-S39-02": {
+  "C": "\"Practice standing still for long periods each day so that your body slowly adapts to being upright, and try not to sit or lie down even when you feel dizzy.\""
+ },
+ "RN-S39-03": {
+  "C": "Second intercostal space, at the left sternal border",
+  "D": "Left midaxillary line, at the same horizontal level as V4"
+ },
+ "RN-S39-04": {
+  "A": "Left upper lobe only",
+  "C": "Left lingula segment"
+ },
+ "RN-S39-07": {
+  "C": "Visual field loss only, without any changes in mood or in behavior"
+ },
+ "RN-S39-10": {
+  "D": "Reinsert the NG tube right away if it falls out, using the same length and blind insertion technique that is used for any other client"
+ },
+ "RN-S39-17": {
+  "D": "Extinction of the unwanted behavior over time"
+ },
+ "RN-S40-01": {
+  "C": "A client with a sore throat, a temperature of 100.4°F (38°C), and good fluid intake"
+ },
+ "RN-S40-02": {
+  "A": "Serum amylase, serum lipase"
+ },
+ "RN-S40-08": {
+  "C": "Double the dose so that the client's glucose comes down faster, and check the glucose again before the next meal to see how well the higher dose worked"
+ },
+ "RN-S40-10": {
+  "A": "\"It's your body weight right after a big meal, when your stomach is full and you've had plenty of fluids to drink during the day at home.\"",
+  "C": "\"It's your weight just before dialysis starts, when all of the extra fluid you've gained since the last treatment is still in your body.\""
+ },
+ "RN-S40-13": {
+  "C": "\"Take an over-the-counter antacid with meals and wait a few months to see whether the symptoms go away on their own.\"",
+  "D": "\"You only need to worry if you have vaginal bleeding, since that's the main early warning sign of ovarian cancer.\""
+ },
+ "RN-S40-14": {
+  "C": "A course of oral antibiotics only, such as amoxicillin-clavulanate, to prevent a bacterial infection of the bite wound"
+ },
+ "PN-S01-02": {
+  "A": "A falsely low BP reading",
+  "C": "An accurate, reliable reading"
+ },
+ "PN-S01-11": {
+  "C": "\"You can bend your right knee to get comfortable while you eat, as long as you move it slowly and very gently.\""
+ },
+ "PN-S01-12": {
+  "A": "Finish the bath quickly so that the client can rest afterward"
+ },
+ "PN-S01-17": {
+  "D": "\"I'll weigh myself once a week, in my coat and shoes, on whichever scale is closest.\""
+ },
+ "PN-S01-20": {
+  "C": "\"That's a question to ask your cardiologist about at your next follow-up visit.\""
+ },
+ "PN-S01-22": {
+  "A": "\"Raise your left arm above your head several times a day to prevent shoulder stiffness.\""
+ },
+ "PN-S02-02": {
+  "D": "Left side-lying with the head of the bed flat and a pillow at the back"
+ },
+ "PN-S02-03": {
+  "C": "\"Breathe in deeply through your nose, then hold your breath for 10 seconds after each breath you take.\"",
+  "D": "\"Breathe in through your nose, then breathe out forcefully and quickly through pursed lips to empty your lungs.\""
+ },
+ "PN-S02-04": {
+  "D": "Taking several rapid, shallow breaths through the mouthpiece to raise the indicator fast"
+ },
+ "PN-S02-07": {
+  "C": "\"Use mouthwash first to reduce germs in your mouth, then cough into the cup whenever you're ready to give the sample.\"",
+  "D": "\"Spit saliva into the cup until it's about half full, then close the lid tightly and label it with your name.\""
+ },
+ "PN-S02-09": {
+  "D": "Mild headache on the first day of use"
+ },
+ "PN-S02-12": {
+  "C": "\"Stop using it if your symptoms improve after a week.\""
+ },
+ "PN-S02-13": {
+  "A": "Shaking the inhaler well for several seconds before attaching it to the spacer",
+  "D": "Holding the breath for about 10 seconds, then breathing out slowly through the mouth"
+ },
+ "PN-S03-12": {
+  "C": "Give an extra dose to improve symptom control",
+  "D": "Tell the client to stop the medication right away"
+ },
+ "PN-S03-16": {
+  "A": "Immediately after each meal is finished"
+ },
+ "PN-S03-20": {
+  "A": "Mild headache that is relieved by lying down flat",
+  "D": "Request for something to drink and a snack"
+ },
+ "PN-S04-01": {
+  "B": "Deciding how much sliding-scale insulin to give based on a resident's glucose"
+ },
+ "PN-S04-03": {
+  "C": "\"Inject into your thigh right before you go jogging so the insulin starts working faster during exercise.\"",
+  "D": "\"Massage the site firmly for a minute after each injection to help the insulin spread out and absorb faster.\""
+ },
+ "PN-S04-04": {
+  "A": "\"Store both your opened and unopened vials together in the freezer, and thaw each one completely before you use it.\"",
+  "D": "\"Opened vials never expire, so you can keep using the same vial at room temperature for as long as it takes to finish it.\""
+ },
+ "PN-S04-09": {
+  "C": "\"It means you have excellent control of your diabetes, so you can keep following your current diet and medications.\""
+ },
+ "PN-S04-15": {
+  "A": "Place the client flat without a pillow to keep the head and neck in alignment"
+ },
+ "PN-S04-19": {
+  "C": "At noon with a liquid antacid"
+ },
+ "PN-S04-20": {
+  "C": "\"Your parents will be very upset with you if you don't take your insulin every day.\"",
+  "D": "\"At least it's not something worse. Many teens have much bigger problems than this.\""
+ },
+ "PN-S05-02": {
+  "A": "\"Collect the very first urine that comes out in the sterile cup, then finish urinating in the toilet.\""
+ },
+ "PN-S05-03": {
+  "A": "Pour urine from the drainage bag into a specimen cup and send it to the lab"
+ },
+ "PN-S05-06": {
+  "D": "After the drainage bag collects the first 100 mL of urine from the bladder"
+ },
+ "PN-S05-09": {
+  "C": "Apply heat and continue the medication as prescribed",
+  "D": "Tell the client this is an expected side effect"
+ },
+ "PN-S05-10": {
+  "D": "\"Avoid all calcium-containing foods, like milk and cheese.\""
+ },
+ "PN-S05-14": {
+  "A": "Weight 2 kg less than the client's predialysis weight"
+ },
+ "PN-S05-17": {
+  "C": "Insert an indwelling catheter to keep the resident dry at night",
+  "D": "Use adult briefs and change them once per shift as needed for wetness"
+ },
+ "PN-S05-20": {
+  "C": "\"Yes, the medication is only harmful to her if she actually swallows some of the tablet pieces.\"",
+  "D": "\"It does not matter who handles the medication, as long as it is stored safely away from children.\""
+ },
+ "PN-S05-22": {
+  "A": "\"You're not a burden at all. Your family loves you very much.\""
+ },
+ "PN-S05-23": {
+  "C": "Document the 50 mL void as adequate urine output for the client's first void",
+  "D": "Restrict fluids until the client is able to void a larger amount of urine"
+ },
+ "PN-S06-01": {
+  "B": "Checking placement of a nasogastric tube before a feeding"
+ },
+ "PN-S06-03": {
+  "C": "Give the feeding cold, straight from the refrigerator, to keep it fresh"
+ },
+ "PN-S06-04": {
+  "D": "Using liquid forms of the medications whenever they are available"
+ },
+ "PN-S06-05": {
+  "C": "\"Empty the pouch only when it is completely full to make each pouch last longer.\"",
+  "D": "\"Clean the stoma and the skin around it with rubbing alcohol once a day to kill germs.\""
+ },
+ "PN-S06-06": {
+  "C": "Yogurt, applesauce, and low-fat cottage cheese at meals",
+  "D": "Toast, scrambled eggs, and baked lean chicken breast"
+ },
+ "PN-S06-08": {
+  "C": "Prone position with a small pillow placed under the hips and chest",
+  "D": "Supine with the legs flat and the head of the bed raised slightly"
+ },
+ "PN-S06-09": {
+  "A": "Viral gastroenteritis caught from another resident"
+ },
+ "PN-S06-10": {
+  "C": "\"Take one aspirin tablet daily before and while you're collecting the stool samples for the test.\""
+ },
+ "PN-S06-15": {
+  "D": "\"Smoking won't affect my ulcer, so I don't need to cut back on cigarettes while I'm on this treatment plan.\""
+ },
+ "PN-S06-20": {
+  "C": "Barley soup with mixed vegetables and beef",
+  "D": "Rye crackers with sliced cheddar cheese and apple"
+ },
+ "PN-S06-23": {
+  "C": "\"Eat three large meals every day so that you get enough calories and don't need to snack between meals or at night.\""
+ },
+ "PN-S07-01": {
+  "B": "Checking the neurovascular status of a client with a new arm cast every 2 hours overnight",
+  "D": "Performing pin site care for a client with an external fixator on the lower leg each shift"
+ },
+ "PN-S07-04": {
+  "C": "Give another dose of the prescribed pain medication"
+ },
+ "PN-S07-06": {
+  "A": "\"I'll use a raised toilet seat at home for a while.\""
+ },
+ "PN-S07-07": {
+  "A": "Step forward with the left leg, then lift the walker and move it ahead"
+ },
+ "PN-S07-08": {
+  "D": "\"Hop up the stairs on your right leg without the crutches, holding on to the handrail for balance.\""
+ },
+ "PN-S07-09": {
+  "A": "\"Apply a heating pad to the ankle for 1 hour at a time to ease pain and stiffness.\""
+ },
+ "PN-S07-13": {
+  "A": "\"Take it only during a gout flare, when the joint hurts.\""
+ },
+ "PN-S07-14": {
+  "C": "\"I won't take more than the daily limit that my provider gave me, even on my worst pain days.\"",
+  "D": "\"I'll limit alcohol while I'm using this medicine to help protect my liver from any damage.\""
+ },
+ "PN-S07-18": {
+  "A": "\"That's not possible. Your foot is gone, so it can't really be hurting you anymore.\"",
+  "D": "\"Try to think about something else, and the pain should start to fade on its own.\""
+ },
+ "PN-S07-22": {
+  "C": "\"I'll let you stay in bed today, and we can try getting up again tomorrow morning after you've had your breakfast.\""
+ },
+ "PN-S07-23": {
+  "C": "Twist at the trunk while lifting the box so that you can place it on the shelf beside you",
+  "D": "Hold the box out at arm's length to keep it away from your clean uniform and your body"
+ },
+ "PN-S08-01": {
+  "C": "Reinforcing teaching about neutropenic precautions at the bedside"
+ },
+ "PN-S08-03": {
+  "C": "\"Mix the full dose into the child's bottle of formula so your child takes it unnoticed.\""
+ },
+ "PN-S08-11": {
+  "A": "\"It's only hair, after all. It will grow back once your chemotherapy treatments are over.\"",
+  "D": "\"You should focus on getting better instead of worrying so much about losing your hair.\""
+ },
+ "PN-S08-13": {
+  "C": "\"Apply a scented, perfumed lotion to the treated area every day.\"",
+  "D": "\"Scrub the area firmly with a washcloth to remove dead skin cells.\""
+ },
+ "PN-S08-14": {
+  "C": "Increased appetite at meals and snacking more often between meals",
+  "D": "Dry, flaky skin on the hands and lower legs during the winter months"
+ },
+ "PN-S08-16": {
+  "C": "Give a dose of children's aspirin for the pain and swelling, then recheck the knee in an hour"
+ },
+ "PN-S08-19": {
+  "C": "\"You only need a mammogram if you or your provider feel a new lump during a breast exam, so watch for changes.\""
+ },
+ "PN-S08-21": {
+  "B": "No bowel movement in the past 2 days since surgery",
+  "D": "Pain rated 3/10 about an hour after the last dose"
+ },
+ "PN-S08-23": {
+  "A": "\"No, she can't hear anything anymore now that she is no longer responding to you or to us.\""
+ },
+ "PN-S09-02": {
+  "A": "Rub the hands together for about 5 seconds, then dry them completely with a paper towel"
+ },
+ "PN-S09-03": {
+  "C": "Only when caring for clients who have a known infection or a positive culture result on their chart"
+ },
+ "PN-S09-05": {
+  "C": "Wear a gown only when the client is actively coughing or sneezing in the room",
+  "D": "Allow the client to walk in the hallway without any restrictions or a cover gown"
+ },
+ "PN-S09-09": {
+  "C": "Wearing a surgical mask at all times while working on the unit"
+ },
+ "PN-S09-11": {
+  "A": "\"The shingles vaccine is only recommended for people over age 80, so you don't need to get it yet.\""
+ },
+ "PN-S09-14": {
+  "C": "Tell the client this is an expected side effect"
+ },
+ "PN-S09-18": {
+  "A": "\"HIV can be spread through unprotected sexual contact.\"",
+  "C": "\"HIV can be spread by sharing needles or syringes.\""
+ },
+ "PN-S09-20": {
+  "D": "\"You can stop your medications once your rash starts to improve.\""
+ },
+ "PN-S09-21": {
+  "D": "\"Have all of the siblings share the same comb so that everyone in the family gets treated at once.\""
+ },
+ "PN-S09-22": {
+  "A": "\"Don't say that. You're going to be just fine, and you'll feel much better very soon.\"",
+  "D": "\"Lots of people are living with HIV these days, so it's really not such a big deal anymore.\""
+ },
+ "PN-S09-23": {
+  "A": "Swab the purulent drainage on the old dressing before discarding the dressing",
+  "D": "Apply antibiotic ointment to the wound before collecting the culture specimen"
+ },
+ "PN-S10-03": {
+  "C": "A deep, crater-like wound with bone or tendon visible at the base",
+  "D": "An intact, fluid-filled blister over the back of the client's heel"
+ },
+ "PN-S10-04": {
+  "A": "Place a soft pillow directly under both heels to cushion them in bed",
+  "C": "Massage the heels firmly every shift to improve the circulation there"
+ },
+ "PN-S10-08": {
+  "C": "Irrigate the drain with sterile saline to keep the drain and tubing patent"
+ },
+ "PN-S10-11": {
+  "D": "\"They're only for comfort, so I can wear them just when I feel like it at home.\""
+ },
+ "PN-S10-12": {
+  "D": "Tell the client that the pain is unavoidable and the change will be over quickly"
+ },
+ "PN-S10-14": {
+  "C": "\"Apply it from your neck down to your feet for just 10 minutes, then rinse it off completely in a warm shower before you go to bed that night.\""
+ },
+ "PN-S10-16": {
+  "C": "\"Dress the child in soft wool clothing to keep the skin warm and protected from scratching.\"",
+  "D": "\"Use a gently scented soap and bubble bath to make bath time more relaxing for your child.\""
+ },
+ "PN-S10-17": {
+  "C": "\"It's fine to wear the same socks for several days if they don't look dirty.\""
+ },
+ "PN-S10-20": {
+  "A": "\"Acne is normal for teenagers, so you don't need to worry about it.\""
+ },
+ "PN-S10-23": {
+  "A": "Keep the affected leg in a dependent position below heart level at all times",
+  "D": "Encourage the client to walk long distances several times a day to help healing"
+ },
+ "PN-S11-04": {
+  "C": "Restrict fluids after breakfast each day to reduce nighttime incontinence"
+ },
+ "PN-S11-05": {
+  "D": "\"Chew each tablet well before you swallow it so that it's absorbed into your body faster.\""
+ },
+ "PN-S11-07": {
+  "C": "Skinless chicken breast with white rice, green beans, and plain apple juice"
+ },
+ "PN-S11-09": {
+  "C": "Increase the IV rate to keep the client well hydrated and comfortable"
+ },
+ "PN-S11-11": {
+  "C": "Clear fluid leaking from under the dressing at the IV site"
+ },
+ "PN-S11-15": {
+  "C": "A client who has had several days of watery diarrhea and very poor oral intake at home",
+  "D": "A client who takes calcium carbonate antacids several times a day for chronic heartburn"
+ },
+ "PN-S11-16": {
+  "A": "Leave the client alone in a quiet, dim room to calm down for a while",
+  "D": "Apply a nonrebreather mask with oxygen at 15 L/min right away"
+ },
+ "PN-S11-18": {
+  "D": "Plain water only, in large amounts several times an hour"
+ },
+ "PN-S11-19": {
+  "C": "Increased tears when the infant is crying loudly",
+  "D": "Weight gain since the infant's last clinic visit"
+ },
+ "PN-S11-20": {
+  "C": "Cover the resident with a warm blanket to prevent chills",
+  "D": "Give an antipyretic and wait 30 minutes to recheck the resident"
+ },
+ "PN-S12-05": {
+  "C": "Have the client sit up and walk around the room"
+ },
+ "PN-S12-07": {
+  "D": "\"Fetal movement doesn't need to be monitored at this stage of pregnancy unless you have a high-risk pregnancy.\""
+ },
+ "PN-S12-09": {
+  "A": "Notify the provider and wait for orders before touching the uterus"
+ },
+ "PN-S12-11": {
+  "B": "\"Apply warm heat packs to the perineum for the first 24 hours to ease soreness.\""
+ },
+ "PN-S12-12": {
+  "A": "\"Stop breastfeeding for a day or two until the breast swelling and pain go down.\""
+ },
+ "PN-S12-14": {
+  "C": "\"If it hasn't fallen off on its own by then, gently pull the cord off when the baby is about 3 days old.\"",
+  "D": "\"Cover the cord with a snug bandage and tape to keep it clean and protected from germs until it falls off.\""
+ },
+ "PN-S12-19": {
+  "A": "Yellowish exudate forming on the glans on day 2"
+ },
+ "PN-S12-20": {
+  "C": "\"Hold the baby on your lap for short trips around town.\"",
+  "D": "\"Place the car seat in front of an active airbag.\""
+ },
+ "PN-S12-21": {
+  "C": "\"Crying all the time like this means that you have postpartum depression, and you will need to start medication for it right away.\"",
+  "D": "\"Try your best not to cry in front of the baby, because babies can pick up on their mother's moods and become very fussy and upset.\""
+ },
+ "PN-S12-23": {
+  "C": "\"You can't ovulate for a full year after giving birth, whether or not you are breastfeeding your baby, so you're protected.\"",
+  "D": "\"Only mothers who are formula-feeding their babies need to think about contraception during the first year after birth.\""
+ },
+ "PN-S13-06": {
+  "A": "\"Prop the bottle on a rolled blanket so your baby can feed independently.\""
+ },
+ "PN-S13-08": {
+  "C": "Red zone: call 911 or go to the nearest emergency department immediately",
+  "D": "The meter is broken and should be replaced before the child's next reading"
+ },
+ "PN-S13-09": {
+  "C": "Right after the child's evening bath, just before bedtime",
+  "D": "At bedtime, right after the child brushes their teeth for the night"
+ },
+ "PN-S13-10": {
+  "D": "\"Wait at home to see whether any symptoms develop over the next few hours before calling.\""
+ },
+ "PN-S13-13": {
+  "C": "Can count to 10 and recite most of the alphabet without any help",
+  "D": "Sleeps through the night without waking up for a feeding or a drink"
+ },
+ "PN-S13-14": {
+  "C": "\"Spank your child firmly so that they learn tantrums are not allowed in your home.\"",
+  "D": "\"Lock your child in a room by themselves until they have completely calmed down.\""
+ },
+ "PN-S13-15": {
+  "A": "Assigning the teen to a room with a toddler with a similar illness"
+ },
+ "PN-S13-16": {
+  "A": "Explain the procedure in detail a full week ahead so the child has time to prepare"
+ },
+ "PN-S13-19": {
+  "D": "Give it while the infant is lying flat on the back so that it goes down more easily"
+ },
+ "PN-S13-20": {
+  "A": "\"Use scented baby wipes to clean the diaper area thoroughly at each and every diaper change.\""
+ },
+ "PN-S14-01": {
+  "B": "Determining a client's suicide risk level at the start of the shift"
+ },
+ "PN-S14-06": {
+  "A": "\"It may take several weeks before I start to feel better.\""
+ },
+ "PN-S14-10": {
+  "C": "A stable level of consciousness and attention that stays steady throughout the day"
+ },
+ "PN-S14-11": {
+  "C": "Mild forgetfulness about the names of new staff members and neighbors in the apartment building",
+  "D": "Waking up once each night to void and then falling back asleep easily afterward until morning"
+ },
+ "PN-S14-12": {
+  "C": "\"I can still have one beer a day with dinner without having any problems or reactions.\"",
+  "D": "\"This medication will reduce my cravings for alcohol so I won't even want to drink anymore.\""
+ },
+ "PN-S14-16": {
+  "C": "Schedule long-term psychotherapy to begin sometime in the next few weeks",
+  "D": "Discuss the home insurance paperwork and the claims process in full detail"
+ },
+ "PN-S14-17": {
+  "A": "Ask the client about abuse in front of the partner for both views"
+ },
+ "PN-S14-19": {
+  "D": "Argue with the client about why the behavior is not acceptable on the unit or anywhere else"
+ },
+ "PN-S14-21": {
+  "A": "Prevent the client from washing their hands so they get to breakfast on time"
+ },
+ "PN-S14-23": {
+  "C": "Hypothermia, bradycardia, and a low blood pressure reading on arrival",
+  "D": "Sedation, slurred speech, nodding off, and constipation for several days"
+ },
+ "PN-S15-09": {
+  "A": "To speed up the absorption of the medication from the muscle into the client's bloodstream"
+ },
+ "PN-S15-11": {
+  "A": "Place the drop directly on the center of the cornea while the client tilts the head back and looks up"
+ },
+ "PN-S15-12": {
+  "C": "Push the tragus inward firmly"
+ },
+ "PN-S15-13": {
+  "A": "\"I'll remove the old patch before applying a new one each time.\""
+ },
+ "PN-S15-16": {
+  "D": "Document that the medication was given, since the client usually takes it every morning without any problem or complaint"
+ },
+ "PN-S15-18": {
+  "C": "Only if the client uses the call light"
+ },
+ "PN-S15-19": {
+  "C": "Replace the missing tablet with one taken from another client's supply so that the count is correct before signing",
+  "D": "Ignore the discrepancy, since a single missing tablet is not significant enough to report to the charge nurse or supervisor"
+ },
+ "PN-S15-21": {
+  "C": "Furosemide 20 mg immediate-release oral tablet, taken once daily",
+  "D": "Lisinopril 10 mg immediate-release oral tablet with breakfast"
+ },
+ "PN-S15-23": {
+  "C": "\"Stop taking your birth control pills completely until you have finished the full course of rifampin.\"",
+  "D": "\"Take your birth control pills twice a day instead of once while you're taking the rifampin capsules.\""
+ },
+ "PN-S16-01": {
+  "A": "Giving scheduled oral medications to a stable client with a chronic illness"
+ },
+ "PN-S16-04": {
+  "B": "A resident requesting help to make a phone call to a family member today",
+  "D": "A resident who wants a snack and a glass of juice before lunch is served"
+ },
+ "PN-S16-06": {
+  "C": "Change the dose to an amount that seems safer for the client and document the reason for the change in the record",
+  "D": "Explain the concern to the client and ask whether they still want to take the medication as it was ordered"
+ },
+ "PN-S16-08": {
+  "A": "\"Proud to be a nurse!\" posted with a selfie of the nurse in uniform and no client details"
+ },
+ "PN-S16-09": {
+  "C": "\"Client had a really bad day today and was in a poor mood during most of the shift on the unit.\"",
+  "D": "\"Client is being difficult and very uncooperative with the staff about meals and morning care again.\""
+ },
+ "PN-S16-10": {
+  "A": "Document the dressing change using the original time, as if it had been charted on time 3 hours ago"
+ },
+ "PN-S16-12": {
+  "C": "Have the client's spouse sign the consent form instead while the client rests in bed after the morphine"
+ },
+ "PN-S16-13": {
+  "C": "Give the bath anyway, since the resident is scheduled for one this morning and it can't wait"
+ },
+ "PN-S16-17": {
+  "D": "Give the resident a sedative from the stock supply without a provider's order to help them sleep"
+ },
+ "PN-S16-20": {
+  "C": "Speak more loudly and slowly in English, and use only simple, short words",
+  "D": "Give the client detailed written instructions printed in English to read at home"
+ },
+ "PN-S17-05": {
+  "D": "\"Share your medications with your spouse if either of you runs out before the pharmacy refill is ready.\""
+ },
+ "PN-S17-08": {
+  "A": "Operate the lift by yourself to save time when the unit is short-staffed at mealtimes"
+ },
+ "PN-S17-10": {
+  "A": "Giving oral medications to the client"
+ },
+ "PN-S17-11": {
+  "C": "Place the soiled linens on the floor next to the bed until the whole bed change is finished"
+ },
+ "PN-S17-12": {
+  "C": "A puncture-resistant sharps container in the client's room",
+  "D": "The recycling bin in the clean utility room down the hall"
+ },
+ "PN-S17-13": {
+  "C": "Cover the spill with a towel and wait for housekeeping to clean it, without warning anyone else in the area"
+ },
+ "PN-S17-14": {
+  "C": "Sterile shoe covers worn over the nurse's shoes",
+  "D": "An N95 respirator only, with no gown or eyewear"
+ },
+ "PN-S17-15": {
+  "B": "Cancel the radiology test until the client no longer needs to be on droplet precautions at all"
+ },
+ "PN-S17-16": {
+  "C": "Pasteurized yogurt and low-fat cottage cheese at lunch",
+  "D": "Washed fresh fruit, such as apples and pears, as snacks"
+ },
+ "PN-S17-19": {
+  "C": "Ask the client's roommate to confirm the client's full name and date of birth and then give the medications as scheduled",
+  "D": "Use the room number and bed number on the assignment sheet to identify the client before giving any of the medications"
+ },
+ "PN-S18-02": {
+  "D": "Apply an antibiotic eye ointment and have the worker rest quietly with the eye closed until the burning and tearing stop completely"
+ },
+ "PN-S18-03": {
+  "C": "\"Wipe it down with rubbing alcohol every day to kill any germs that collect on it overnight.\"",
+  "D": "\"Store it in the bathroom cabinet so that it's close by when you get ready for the day each morning.\""
+ },
+ "PN-S18-05": {
+  "D": "Encourage the client to continue driving, but only at night, when there is less traffic and fewer people on the roads"
+ },
+ "PN-S18-07": {
+  "C": "Whether the client wears glasses or contact lenses",
+  "D": "The client's blood type and Rh factor from the lab"
+ },
+ "PN-S18-08": {
+  "C": "\"Cross your legs at the knees whenever you sit down, to help support the veins in your legs and improve blood flow.\"",
+  "D": "\"Wear tight knee-high socks with snug elastic tops every day to give your legs and veins more support all day.\""
+ },
+ "PN-S18-11": {
+  "A": "\"Keep your wrist bent in a flexed position while you type at the keyboard, which helps rest the tendons.\""
+ },
+ "PN-S18-13": {
+  "A": "\"Drink a cup of hot coffee or tea as soon as you feel a hot flash coming on.\""
+ },
+ "PN-S18-17": {
+  "C": "Allow the infant to suck on a pacifier as often as needed to soothe the crying after surgery is over"
+ },
+ "PN-S18-21": {
+  "C": "\"Your child can go back to school tomorrow, even if some new spots are still appearing on the skin each day.\"",
+  "D": "\"Letting your child scratch the itchy spots will actually help the lesions crust over and heal much faster.\""
+ },
+ "PN-S18-23": {
+  "C": "The results are unclear, so the test must be repeated immediately before the client leaves"
+ },
+ "PN-S19-02": {
+  "A": "Give the client a personal phone number to stay in touch after discharge"
+ },
+ "PN-S19-03": {
+  "A": "\"Take it only when you feel a panic attack starting; it will work right away.\""
+ },
+ "PN-S19-06": {
+  "A": "Feed the child while lying flat on the back to help keep the head and neck still and steady",
+  "D": "Offer large bites of food on the spoon to reduce the total time that is needed for each meal"
+ },
+ "PN-S19-10": {
+  "C": "\"Only adult vitamins are dangerous to children, so the children's chewable vitamins can safely stay on the counter.\""
+ },
+ "PN-S19-12": {
+  "C": "\"The test checks for any ear infections that newborns can sometimes develop in the first days after birth.\""
+ },
+ "PN-S19-13": {
+  "C": "\"PKU usually goes away on its own by about age 2, so the special diet is only needed for a short time.\""
+ },
+ "PN-S19-19": {
+  "A": "\"Limit how much you drink for the next few days to reduce your urine output and your discomfort when voiding.\"",
+  "C": "\"Call your provider immediately if you notice any pink-tinged urine at all, since it means you are bleeding.\""
+ },
+ "PN-S19-20": {
+  "C": "\"Eat dry, crunchy foods such as crackers, toast, and chips to help stimulate more saliva in your mouth.\""
+ },
+ "PN-S19-23": {
+  "C": "Choose a health care proxy for the client from the staff if the client has not already named one on admission",
+  "D": "Keep any advance directives out of the medical record to protect the client's privacy and personal wishes"
+ },
+ "PN-S20-06": {
+  "C": "Perform the range-of-motion exercises only once a week to avoid tiring the client out or causing any discomfort",
+  "D": "Move each joint rapidly through its full range of motion several times in a row without stopping to rest"
+ },
+ "PN-S20-07": {
+  "C": "Keep the compression sleeves off while the client is resting in bed so that the skin on the legs can breathe",
+  "D": "Apply the compression sleeves over thick padding or bulky blankets to make them more comfortable for the client"
+ },
+ "PN-S20-09": {
+  "A": "Supine with the head flat on the bed and the mouth held open",
+  "D": "Prone, with the face turned to one side on a soft pillow for support"
+ },
+ "PN-S20-11": {
+  "A": "Leave the eyes partly open to the air at all times so the client can still see the room"
+ },
+ "PN-S20-12": {
+  "C": "Keeping the room brightly lit all night so the client is not confused on waking"
+ },
+ "PN-S20-13": {
+  "D": "\"Rapid rewarming in a hot bath is the best and quickest way to treat this low temperature.\""
+ },
+ "PN-S20-15": {
+  "D": "Ignore the request, since the client is too seriously ill to have any visitors now"
+ },
+ "PN-S20-18": {
+  "C": "Give the teaching materials to the family only and let them explain it to the client later"
+ },
+ "PN-S20-19": {
+  "A": "\"It's fine to use any spoon from your kitchen drawer to measure the dose, since one teaspoon is the same as any other.\""
+ },
+ "PN-S21-01": {
+  "C": "\"Squeeze the bag to force the water in quickly, so that the irrigation is finished in just a few minutes each day.\"",
+  "D": "\"If you ever need an ileostomy in the future, you can irrigate it in exactly the same way as your current colostomy.\""
+ },
+ "PN-S21-02": {
+  "D": "Set the flow meter at 2 L/min instead, since that is the usual starting flow rate for a nasal cannula"
+ },
+ "PN-S21-04": {
+  "C": "Measure over the client's gown or clothing to protect the client's privacy and dignity",
+  "D": "Measure only when the client is standing upright beside the bed, at any convenient time of day"
+ },
+ "PN-S21-06": {
+  "A": "Skipping the priming step before each injection so that none of the expensive insulin is wasted"
+ },
+ "PN-S21-08": {
+  "A": "\"Keep your head flat on the mattress without a pillow when you sleep to rest your eyes.\""
+ },
+ "PN-S21-10": {
+  "A": "Offer toileting at random times of the day so the resident does not expect it"
+ },
+ "PN-S21-13": {
+  "D": "\"Take pain relievers every day, even when you don't have a headache, to prevent one from starting.\""
+ },
+ "PN-S21-15": {
+  "A": "Encourage the client to walk on the grafted leg the first day to improve circulation"
+ },
+ "PN-S21-22": {
+  "A": "\"You will need to stop breastfeeding your baby for a few weeks after you get the MMR vaccine today.\"",
+  "D": "\"It's perfectly fine to become pregnant again right away after you receive this vaccine, if you'd like.\""
+ },
+ "PN-S22-02": {
+  "C": "At 1 week after the injection, by asking the client whether the site has been itching or sore",
+  "D": "Only if the client later reports symptoms such as a persistent cough, fever, or night sweats"
+ },
+ "PN-S22-03": {
+  "A": "\"Take your blood pressure right after your morning coffee, so that you get a consistent reading each day.\""
+ },
+ "PN-S22-06": {
+  "A": "0–10 numeric rating scale for the resident's self-report"
+ },
+ "PN-S22-12": {
+  "A": "Fiber supplements alone, without any increase in the client's fluid intake"
+ },
+ "PN-S22-14": {
+  "D": "\"Drink the contrast solution about an hour before the test so the images come out clearly.\""
+ },
+ "PN-S22-15": {
+  "D": "\"Apply a vaginal cream the night before the test to soothe the area and prevent any discomfort during the exam.\""
+ },
+ "PN-S22-16": {
+  "C": "Lighter menstrual periods with less cramping than before starting the pills",
+  "D": "Mild nausea during the first few weeks of taking the pills, eased by food"
+ },
+ "PN-S22-19": {
+  "C": "\"Each shot only works for about a day, the same way that my pills did, so I'll need one daily.\"",
+  "D": "\"I'll keep taking extra pills at home along with the shots, just to be on the safe side.\""
+ },
+ "PN-S22-21": {
+  "D": "\"Add a little rice cereal to the bottle at night to help the baby sleep longer and more soundly.\""
+ },
+ "PN-S23-01": {
+  "C": "The client's ID band is in place on the left wrist and is legible",
+  "D": "The client voided in the bathroom just before transport to surgery"
+ },
+ "PN-S23-04": {
+  "D": "\"Apply a moisturizing lotion over the strips daily to keep the skin around them soft.\""
+ },
+ "PN-S23-05": {
+  "A": "A regular diet first, then switching to clear liquids only if the client becomes nauseated"
+ },
+ "PN-S23-07": {
+  "C": "\"Bend over to pick up heavy items as you normally would at home.\""
+ },
+ "PN-S23-09": {
+  "D": "\"Use a clean hairpin to gently scoop out any earwax that builds up in the ear canal each week.\""
+ },
+ "PN-S23-11": {
+  "D": "\"Calcium isn't really important for adults, since it's only needed by children whose bones are still growing and developing.\""
+ },
+ "PN-S23-12": {
+  "C": "\"Sodium, since it is needed for fluid balance and for nerve and muscle function\"",
+  "D": "\"Fiber, since it supports regular bowel movements and long-term heart health\""
+ },
+ "PN-S23-19": {
+  "A": "\"Do you drink more alcohol than most of your friends or family do?\"",
+  "D": "\"Do you drink alcohol only on the weekends with friends or family?\""
+ },
+ "PN-S23-21": {
+  "A": "Black, sticky stools that continue for the first 2 weeks and then change to firm, brown, well-formed stools"
+ },
+ "PN-S24-04": {
+  "A": "\"Take away a favorite privilege or punish your child after each wet night so that they learn to stay dry.\""
+ },
+ "PN-S24-06": {
+  "A": "Restrict the resident's fluids during the day so that the resident needs to urinate less often, especially at night",
+  "C": "Insert an indwelling urinary catheter so that the resident stays dry and comfortable all day and through the night"
+ },
+ "PN-S24-08": {
+  "C": "\"Canned soup has no sodium in it, so it's a good choice for your low-salt diet.\"",
+  "D": "\"The number of servings doesn't matter, only the total calories in the whole can.\""
+ },
+ "PN-S24-09": {
+  "C": "\"Complete all of your chores in the morning without breaks, while you have the energy.\""
+ },
+ "PN-S24-11": {
+  "D": "Popcorn, sunflower seeds, and fresh berries as daily snacks"
+ },
+ "PN-S24-12": {
+  "C": "Scrambled eggs, bacon, and a slice of buttered white toast with jam"
+ },
+ "PN-S24-13": {
+  "C": "Warming each bag of dialysate in the microwave for a minute or two before the exchange to make it more comfortable",
+  "D": "Skipping some of the scheduled exchanges on days when the client is feeling well and has plenty of energy"
+ },
+ "PN-S24-19": {
+  "D": "\"Strong cramping like this after delivery means that something is wrong, so you should go to the emergency room right away to be checked by a provider.\""
+ },
+ "PN-S24-23": {
+  "D": "Discourage the child from asking questions about treatment so the child does not become frightened"
+ },
+ "PN-S25-01": {
+  "A": "\"Test the bath water with your fingertips first, and if it feels hot to you, that's still fine and safe for the baby's skin.\""
+ },
+ "PN-S25-03": {
+  "A": "\"You should never use a pacifier with a breastfed baby, because it will always cause problems with feeding and with your milk supply.\""
+ },
+ "PN-S25-04": {
+  "A": "Vitamin C toxicity with diarrhea and abdominal cramps"
+ },
+ "PN-S25-06": {
+  "C": "\"Add a capful of scented bubble bath to the water each time to make the sitz bath more relaxing and pleasant.\"",
+  "D": "\"Stand up quickly as soon as you're finished, so that you don't start to get chilled sitting in the bathroom.\""
+ },
+ "PN-S25-07": {
+  "A": "Leave the warm compress in place overnight so the area stays warm and the client doesn't have to be disturbed during sleep"
+ },
+ "PN-S25-10": {
+  "C": "The back of the heel, just above the sole of the newborn's foot",
+  "D": "The ball of the foot, just below the base of the big toe on either foot"
+ },
+ "PN-S25-11": {
+  "A": "Squeeze the urine out of a freshly wet disposable diaper into a specimen cup"
+ },
+ "PN-S25-23": {
+  "D": "A client with facial swelling after oral surgery to remove wisdom teeth today"
+ },
+ "PN-S26-05": {
+  "C": "Insert the probe straight into the ear canal without moving or pulling the ear at all",
+  "D": "Push the tragus forward firmly to open the ear canal before inserting the probe"
+ },
+ "PN-S26-07": {
+  "C": "Read the top edge of the liquid where it curves up against the side of the plastic cup",
+  "D": "Estimate the amount by looking down into the cup from above while it is held in the hand"
+ },
+ "PN-S26-10": {
+  "C": "\"Remove the batteries from the smoke detector whenever you are cooking, so it doesn't go off by mistake in the kitchen.\""
+ },
+ "PN-S26-12": {
+  "C": "Allow the visit without any precautions, since healthy family members are not at risk of getting MRSA",
+  "D": "Have the family member wear only a surgical mask during the whole visit, without a gown or any gloves"
+ },
+ "PN-S26-14": {
+  "C": "\"Let your child watch a few scary movies before bed so that they get used to being frightened and stop worrying about monsters.\""
+ },
+ "PN-S26-17": {
+  "C": "\"Take a stimulant laxative every day without asking your provider about it first, since it's safe.\""
+ },
+ "PN-S26-19": {
+  "A": "\"Sit on a donut-shaped cushion for long periods throughout the day so that all of the pressure is taken off the sore and swollen area.\""
+ },
+ "PN-S26-21": {
+  "A": "\"Give your baby small bottles of plain water between breastfeedings, which helps flush the yellow color out of the body so that it goes away within just a day or two.\""
+ },
+ "PN-S26-23": {
+  "A": "\"Your husband died several years ago. You already know that, so please stop asking me about him.\""
+ },
+ "PN-S27-01": {
+  "D": "Over the person's clothing, so the chest does not need to be exposed or dried off first"
+ },
+ "PN-S27-03": {
+  "D": "\"Take a few salt tablets right away, without any water, to replace the salt you lost.\""
+ },
+ "PN-S27-06": {
+  "A": "\"Cover the bite with a clean adhesive bandage and just ignore it unless it starts to look red, swollen, warm, or infected over the next several days.\""
+ },
+ "PN-S27-08": {
+  "A": "Every year, at the time of the client's annual physical exam with the primary care provider",
+  "C": "Only once in a lifetime, at the time of the first childhood dose of the vaccine series in infancy"
+ },
+ "PN-S27-12": {
+  "C": "\"Use a foam positioning pillow or wedge in the crib to keep your baby's head turned to one side while sleeping at night.\"",
+  "D": "\"Keep your baby in the car seat for naps so that the back of the head isn't resting on the hard, flat crib mattress all day.\""
+ },
+ "PN-S27-13": {
+  "A": "\"Give your child a cold alcohol rub all over the body to bring the fever down quickly, before the high temperature can cause any lasting brain damage.\""
+ },
+ "PN-S27-15": {
+  "C": "\"Vaping can actually help teens focus better in school and feel calmer during tests and exams, so it's not something that you or your parents need to worry about at all.\""
+ },
+ "PN-S27-16": {
+  "A": "\"You'll need to get rid of your cat immediately, since having any cat in the house is unsafe for you and the baby during pregnancy.\"",
+  "D": "\"It's fine to let the cat sleep on your pillow at night, since cats don't carry any infections that can affect you or a pregnancy.\""
+ },
+ "PN-S27-18": {
+  "D": "Compress the bulb after inserting the tip into the nostril, then release it"
+ },
+ "PN-S28-01": {
+  "C": "\"Open the windows only from the bottom, never from the top, so that the air circulates better through the room.\""
+ },
+ "PN-S28-04": {
+  "D": "\"You should exercise every day until you feel completely exhausted in order to get the full health benefit from it.\""
+ },
+ "PN-S28-06": {
+  "A": "Offer the resident thin water between meals, since plain water does not need to be thickened the way that other drinks and liquids do",
+  "C": "Add the thickener only to the resident's milk and juice, and serve the coffee, tea, and water thin, just as the resident prefers them"
+ },
+ "PN-S28-10": {
+  "A": "Apply heat to the toe and encourage the client to walk around to loosen up the stiff joint",
+  "C": "Massage the swollen joint gently to work out the crystals and reduce the swelling and pain"
+ },
+ "PN-S28-13": {
+  "D": "\"Grip objects such as pens and utensils tightly for long periods each day to strengthen your hand muscles.\""
+ },
+ "PN-S28-14": {
+  "A": "Dim all of the lights on the unit in the late afternoon so the resident can rest quietly and calm down before the evening meal"
+ },
+ "PN-S28-19": {
+  "D": "\"Apply a little baby powder under the foreskin after each bath to keep the whole area clean and dry.\""
+ },
+ "PN-S28-21": {
+  "A": "Go down the ramp facing forward, letting the chair roll ahead slowly"
+ },
+ "PN-S28-23": {
+  "C": "\"You only need to wear a medical alert bracelet once you are over 65 years old and living on your own at home.\"",
+  "D": "\"Just tell your friends and family members about your allergy and diabetes instead of wearing a medical ID.\""
+ },
+ "PN-S29-01": {
+  "A": "Speaking in full paragraphs and stories"
+ },
+ "PN-S29-03": {
+  "A": "The oral rotavirus vaccine at this visit"
+ },
+ "PN-S29-06": {
+  "A": "\"They keep you from falling by improving your balance and steadiness when you walk.\""
+ },
+ "PN-S29-09": {
+  "C": "Applying petroleum jelly inside the client's nostrils to keep the nasal passages moist, soft, and comfortable",
+  "D": "Increasing the flow to 10 L/min so that more moisture reaches the client's airway and the dry nasal passages"
+ },
+ "PN-S29-11": {
+  "A": "Over the spine and the kidneys, where the airways are closest to the surface of the client's back and chest",
+  "D": "Over bare skin, using an open, flat palm to slap the chest firmly and create a strong vibration in the lungs"
+ },
+ "PN-S29-12": {
+  "C": "A sign of fluid overload in the body's tissues that should be monitored closely each shift"
+ },
+ "PN-S29-13": {
+  "A": "\"Stomas never change size after surgery, so the opening you were measured for in the hospital will always fit your stoma correctly.\""
+ },
+ "PN-S29-14": {
+  "A": "Increase the flow rate so that the enema can be finished more quickly and the cramping ends that much sooner"
+ },
+ "PN-S29-17": {
+  "C": "\"You can stay out in the sun as long as you like, since you won't feel the heat the way other people usually do.\"",
+  "D": "\"Heat doesn't affect people with spinal cord injuries, so there's no need to change any of your plans for the day.\""
+ },
+ "PN-S30-02": {
+  "A": "\"Helmets are only needed when your child is riding on busy streets or roads with lots of car and truck traffic.\""
+ },
+ "PN-S30-03": {
+  "C": "\"I'm not able to talk with you about STI testing at all without one of your parents present, so you'll need to come back with one of them another day.\"",
+  "D": "\"You're too young to be tested for sexually transmitted infections, so you'll need to wait until you turn 18 to have any STI testing done here at the clinic.\""
+ },
+ "PN-S30-06": {
+  "A": "Prone on the bed with the arms raised overhead and a pillow under the abdomen for support during the procedure"
+ },
+ "PN-S30-10": {
+  "C": "\"Drink plenty of fluids with each meal so that you feel full sooner and your stomach doesn't get upset from eating too much.\"",
+  "D": "\"Skip meals completely on the days when you feel nauseated, and try to make up for them later in the week when you feel better.\""
+ },
+ "PN-S30-12": {
+  "A": "The wrist and hand hanging lower than the elbow so the fingers can rest comfortably at the client's side"
+ },
+ "PN-S30-13": {
+  "C": "To test the client's vision and ability to see the nurse's hands clearly from a short distance away at the bedside"
+ },
+ "PN-S30-14": {
+  "A": "A dry gauze dressing that is changed every hour to keep the wound bed completely dry and clean",
+  "D": "A heating pad placed over the wound to increase the circulation and speed up the healing time"
+ },
+ "PN-S30-18": {
+  "A": "Mild afterpains or cramping during and after breastfeeding in the first week"
+ },
+ "PN-S30-19": {
+  "C": "Give the newborn a warm bath to bring the body temperature up, then dress and swaddle the baby and recheck the axillary temperature in about an hour"
+ },
+ "PN-S31-01": {
+  "D": "\"Small magnets are safe for babies to play with, as long as an adult is supervising them.\""
+ },
+ "PN-S31-03": {
+  "A": "\"Put your child on a strict low-calorie diet alone, while the rest of the family continues to eat the way they usually do at every meal.\""
+ },
+ "PN-S31-10": {
+  "A": "Insert the needle at a 90-degree angle into the muscle, then massage the site afterward to spread the solution"
+ },
+ "PN-S31-12": {
+  "D": "\"It's fine to share the same bottle of nasal spray with your family members, as long as you wipe off the tip carefully after each person uses it.\""
+ },
+ "PN-S31-16": {
+  "C": "Repeat the test several more times until the toes curl downward, then document only the final result"
+ },
+ "PN-S31-18": {
+  "A": "Leave the hand clenched in a fist to protect the fingers and the joints from further injury",
+  "C": "Tape the fingers together loosely to keep the hand in a more comfortable resting position"
+ },
+ "PN-S31-19": {
+  "C": "\"Switch from energy drinks to espresso instead, since coffee is a natural source of caffeine and is much better for your anxiety level.\"",
+  "D": "\"Stop drinking all fluids for a few days so that your body has a chance to flush out the caffeine and your anxiety can settle down.\""
+ },
+ "PN-S31-20": {
+  "C": "\"A no-harm contract only works if the client signs it twice, once in front of the nurse and once in front of a family member or a close friend.\"",
+  "D": "\"Signed contracts are required for all clients on the unit, so make sure each client signs one on admission before anything else is done.\""
+ },
+ "PN-S31-23": {
+  "D": "\"It's fine to share your pump parts with friends who are breastfeeding, as long as they rinse them off with water first.\""
+ },
+ "PN-S32-03": {
+  "D": "Ignore the request and distract the child with a toy until the child calms down and forgets about wanting a bandage"
+ },
+ "PN-S32-05": {
+  "A": "\"Protein isn't really important at your age, since your body doesn't need to build or repair any of your muscle anymore.\""
+ },
+ "PN-S32-06": {
+  "A": "\"Walk around right after meals so that you burn off the food and keep your blood moving to your legs.\"",
+  "C": "\"Drink a glass of wine or beer with your meals to help you relax and improve your appetite for food.\""
+ },
+ "PN-S32-11": {
+  "A": "Check the pulse on one foot only, since the pulses on both feet are usually about the same strength in adults",
+  "C": "Use the thumb to palpate the pedal pulses, since the thumb is the most sensitive part of the nurse's hand"
+ },
+ "PN-S32-15": {
+  "C": "Give the client a drink of cold water to help calm the client down and keep the seizure from starting"
+ },
+ "PN-S32-16": {
+  "A": "Apply butter or another kitchen fat to the sunburned skin to soothe the burn, cool the skin, and hold in the moisture overnight",
+  "C": "Scrub the sunburned skin firmly with a washcloth to remove the damaged layer and help the new skin underneath grow back faster"
+ },
+ "PN-S32-18": {
+  "A": "Explaining each procedure clearly and simply before giving any care"
+ },
+ "PN-S32-19": {
+  "C": "\"Drink coffee, soda, or juice while you are using it to help cover up the strong, peppery taste of the gum and make it easier to chew.\""
+ },
+ "PN-S32-21": {
+  "A": "\"Prop the bottle up on a rolled blanket so the baby can feed alone, which frees your hands for other things during the feedings.\""
+ },
+ "PN-S33-03": {
+  "A": "Increased interest in school activities, such as joining clubs and sports teams with classmates after school",
+  "C": "Making new friends at school and wanting to invite them over to play more often on the weekends and holidays"
+ },
+ "PN-S33-07": {
+  "C": "Add extra pillows or blankets on some days, depending on what the client needs for comfort and warmth"
+ },
+ "PN-S33-09": {
+  "A": "Tighten the mask straps so that the mask stays firmly in place and doesn't slide or rub on the skin"
+ },
+ "PN-S33-10": {
+  "A": "Pulse of 72/min at rest, with no dizziness or other symptoms at all",
+  "D": "Pulse of 64/min at rest, with no dizziness, fainting, or fatigue"
+ },
+ "PN-S33-12": {
+  "A": "Insert an indwelling urinary catheter immediately to empty the bladder completely, before trying other nursing measures to help the client void"
+ },
+ "PN-S33-15": {
+  "A": "\"Avoid all physical activity, since any movement will wear down the cartilage in your knees and make your pain worse.\""
+ },
+ "PN-S33-16": {
+  "A": "\"Stop yelling at me right now. I can't help you until you calm down and lower your voice a little.\""
+ },
+ "PN-S33-20": {
+  "D": "\"Your baby is allergic to your breast milk, so you'll need to stop nursing and switch to a hypoallergenic formula right away.\""
+ },
+ "PN-S33-21": {
+  "C": "Wear a surgical mask over the respirator instead of checking the seal, so that any small air leaks around the edges are covered",
+  "D": "Pinch the metal nosepiece only loosely so that the respirator stays comfortable to wear for the whole time that is spent in the room"
+ },
+ "PN-S34-04": {
+  "C": "Enjoying time with friends after school and on the weekends, and making plans with them for upcoming events and outings",
+  "D": "Interest in a new hobby, such as learning to play the guitar, and practicing it for about an hour after school each day"
+ },
+ "PN-S34-05": {
+  "C": "Give the lorazepam dose earlier in the evening so that the resident is less drowsy and unsteady by morning",
+  "D": "Add diphenhydramine at bedtime to help the resident fall asleep without needing as much of the lorazepam"
+ },
+ "PN-S34-06": {
+  "C": "A client who just drank a glass of cold water a few minutes ago with lunch",
+  "D": "A client with a head cold who is breathing mostly through the mouth at night"
+ },
+ "PN-S34-10": {
+  "A": "\"The concentrator works without any electricity, so you can keep using it as usual during a power outage or a bad storm at home.\""
+ },
+ "PN-S34-14": {
+  "A": "\"Check your skin carefully about once a month, or whenever you change your clothes, since pressure injuries take a long time to start to develop.\""
+ },
+ "PN-S34-15": {
+  "D": "\"Apply rubbing alcohol to the blister every day to keep it clean and help it dry out faster.\""
+ },
+ "PN-S34-16": {
+  "C": "Never check the skin under the collar, since opening it at all could injure the spinal cord, so skin care is limited to the areas that can be seen around the outer edges of the collar"
+ },
+ "PN-S34-17": {
+  "C": "\"Smoke doesn't really affect children the way it affects adults, since their lungs are still growing and can clear the smoke out quickly on their own, so there's really nothing to worry about.\""
+ },
+ "PN-S35-02": {
+  "A": "\"Use a baby walker near the stairs so that your baby can move around safely on their own while you're busy.\"",
+  "C": "\"Let the baby practice climbing up and down the stairs alone so that they learn to do it safely on their own.\""
+ },
+ "PN-S35-08": {
+  "D": "Estimate the weight by looking at the infant and comparing it with the last weight"
+ },
+ "PN-S35-11": {
+  "C": "Massage the carotid artery firmly to feel the pulse more easily and clearly",
+  "D": "Palpate high up at the angle of the jaw, using strong, firm pressure"
+ },
+ "PN-S35-12": {
+  "C": "\"Eat only eggs and fish for your protein, since these foods are gentle on the stoma and help keep your stools formed and regular each day.\""
+ },
+ "PN-S35-14": {
+  "A": "Clamp the catheter for long periods throughout the day to help train the bladder to hold more urine before it's drained again at bedtime",
+  "D": "Apply powder generously around the insertion site after cleaning it to keep the skin dry and absorb any drainage or urine leakage around it"
+ },
+ "PN-S35-17": {
+  "D": "\"Work for several hours at a time without taking breaks so that you finish your tasks sooner and spend less total time sitting at the desk.\""
+ },
+ "PN-S35-18": {
+  "D": "\"Try to stay as busy as you can this week with work and errands so you don't have time to think about it or feel sad about anything.\""
+ },
+ "PN-S35-19": {
+  "A": "Argue with the client that the voices aren't real and that the client should simply ignore them from now on"
+ },
+ "PN-S36-04": {
+  "A": "\"Tanning beds are safer than the sun, since the UV light is carefully controlled and you can limit how long you're exposed during each tanning session.\""
+ },
+ "PN-S36-05": {
+  "A": "Recommend an over-the-counter laxative and reassure the client that the constipation and weight change will improve with more fiber and fluids"
+ },
+ "PN-S36-12": {
+  "C": "\"Don't eat anything for 3 days so that your stomach and intestines have time to rest and heal fully after the infection.\"",
+  "D": "\"Drink only soda for the first few days, since the sugar and fizz help settle your stomach and replace all of the lost fluids.\""
+ },
+ "PN-S36-13": {
+  "C": "Only the client's bowel movements, including the times, the amounts, and the consistency of each stool, for several days in a row at home"
+ },
+ "PN-S36-15": {
+  "A": "Reapply the same type of tape more tightly over the area so that the dressing stays firmly in place and protects the blistered skin from rubbing and further damage"
+ },
+ "PN-S36-16": {
+  "C": "Tighten the straps until the leg feels numb, so that the knee can't move at all inside the immobilizer while the client rests in bed",
+  "D": "Wear it over damp or wet clothing so that the skin stays cool and the immobilizer doesn't cause the leg to sweat or overheat during the day"
+ },
+ "PN-S36-17": {
+  "C": "\"Tell me more about being the president and what your job is like each day.\"",
+  "D": "\"How do you know the FBI is after you? What have they been doing to you lately?\""
+ },
+ "PN-S36-19": {
+  "C": "\"Use an over-the-counter decongestant nasal spray several times a day for as many weeks as you need it during pregnancy, since it's the fastest and easiest way to clear your nose and stop the nosebleeds.\""
+ },
+ "PN-S37-03": {
+  "A": "Aching in both legs in the evening or during the night that is gone by morning, with no limp or fever the next day",
+  "C": "Leg pain that is relieved by gentle massage, warm compresses, and comforting from a parent at bedtime each night"
+ },
+ "PN-S37-05": {
+  "C": "Rub the skin vigorously with a rough towel when drying after a bath to stimulate the circulation and keep the skin firm, toned, and healthy"
+ },
+ "PN-S37-09": {
+  "A": "Buccal medications are swallowed whole with water, while sublingual medications are placed under the tongue to dissolve"
+ },
+ "PN-S37-11": {
+  "C": "\"Hang your laundry and bedding outside to dry on sunny days, since fresh air and sunlight help remove allergens from your clothes and sheets.\""
+ },
+ "PN-S37-13": {
+  "C": "Have the client rinse with an antiseptic mouthwash twice a day, and recheck the white patch at the next routine yearly dental checkup"
+ },
+ "PN-S37-15": {
+  "C": "Remove all clocks and calendars from the room so that the resident isn't confused or upset by the date and time of day"
+ },
+ "PN-S37-20": {
+  "A": "Scant, which needs no further action",
+  "C": "Light, which is expected at this point"
+ },
+ "PN-S37-21": {
+  "A": "Use a mild baby soap on the eyes and face first, and then rinse with warm water, so that any dried secretions around the eyes are fully removed before washing the rest of the baby's body",
+  "C": "Immerse the newborn fully in a small tub of warm water before the umbilical cord stump falls off, since a tub bath is the most thorough way to clean the skin and keep the baby nice and warm"
+ },
+ "PN-S38-06": {
+  "C": "To measure the diastolic pressure, which disappears at the same moment the radial pulse is no longer felt by the nurse"
+ },
+ "PN-S38-09": {
+  "A": "Leave the lenses in place until the client wakes up and can remove them, so that they aren't lost, torn, or otherwise damaged",
+  "C": "Throw the lenses away, since soft contact lenses are disposable and the client can easily replace them later with a new pair"
+ },
+ "PN-S38-10": {
+  "D": "\"Take it right after you finish breakfast each day.\""
+ },
+ "PN-S38-13": {
+  "C": "\"Take an extra dose of each medication before the procedure to protect your stent during the dental work.\"",
+  "D": "\"These medications don't affect bleeding, so there's no need to mention them to your dentist or the hygienist.\""
+ },
+ "PN-S38-16": {
+  "D": "Leave the room quietly until the episode is over so that the resident has some privacy, and then return later as if nothing had happened, without reporting it to anyone on the team"
+ },
+ "PN-S38-17": {
+  "C": "The thin, soft skin of the outer earlobe",
+  "D": "The skin on the palm of the client's hand"
+ },
+ "PN-S38-18": {
+  "C": "\"Stop all walking permanently, and use a wheelchair or crutches instead so that the tissue on the bottom of your foot can rest and heal completely.\""
+ },
+ "PN-S38-22": {
+  "D": "Posting the newborn's full name and photo on the door of the room so that visitors and staff can easily find the right family when they arrive on the unit"
+ },
+ "PN-S39-01": {
+  "A": "Small spit-ups after feedings in a thriving, contented, growing baby",
+  "D": "Drooling and blowing bubbles with saliva between daytime feedings"
+ },
+ "PN-S39-03": {
+  "D": "Leave the scrape uncovered and dirty so the open air can dry it out and a protective scab can form"
+ },
+ "PN-S39-04": {
+  "A": "\"Twist the jewelry often and take it out every day to clean it, so that the skin doesn't stick to the post while the new piercing is healing.\"",
+  "D": "\"It's fine to swim in lakes and ponds right away, since the cool water will help soothe the new piercing and reduce any swelling or pain.\""
+ },
+ "PN-S39-05": {
+  "C": "Skip the supplement on days when the resident doesn't finish the meals served"
+ },
+ "PN-S39-12": {
+  "C": "A normal finding after surgery that's caused by the anesthesia wearing off and needs no action or reporting"
+ },
+ "PN-S39-13": {
+  "C": "Palpate the abdomen firmly first to stimulate the bowel, and then listen in each of the four quadrants with the diaphragm of the nurse's stethoscope"
+ },
+ "PN-S39-15": {
+  "A": "A mild tension headache across the forehead that is relieved by acetaminophen and rest within an hour or so of onset",
+  "C": "A dull, throbbing headache that starts after skipping the usual morning coffee and eases after drinking a cup of coffee"
+ },
+ "PN-S39-22": {
+  "C": "\"Give an iron supplement from birth to all babies, since breast milk and formula don't provide enough iron during the first months of life.\""
+ },
+ "PN-S40-01": {
+  "D": "\"Switch your baby over to formula, since breast milk alone doesn't have enough fiber in it to keep your baby's bowel movements regular and soft every day.\""
+ },
+ "PN-S40-04": {
+  "A": "\"Let them sleep it off on the couch, and then check on them again first thing in the morning.\"",
+  "D": "\"Put them in a cold shower to shock them awake and bring them back around more quickly.\""
+ },
+ "PN-S40-05": {
+  "C": "\"Mix all of your pills together in one container so you only have one bottle to read and to open.\""
+ },
+ "PN-S40-13": {
+  "A": "\"Go to the bathroom every time you feel any urge at all, even a very slight one, so that your bladder never gets full enough to leak urine.\""
+ },
+ "PN-S40-16": {
+  "C": "As tightly as possible around the whole foot and ankle so that the injured joint can't move at all and the swelling is held down as firmly as possible by the wrap",
+  "D": "Only around the ankle joint itself in a single layer, leaving the foot and toes completely uncovered so that the client can walk more easily in a regular shoe"
+ },
+ "PN-S40-18": {
+  "C": "\"Exercise vigorously until you're completely exhausted, so that your muscles are too tired to stay tense for the rest of the day.\"",
+  "D": "\"Think about your problems in as much detail as you can, so that you can work through each worry one at a time before bed.\""
+ },
+ "PN-S40-20": {
+  "D": "\"You're going to lose all of your hair over the next few months, since this kind of shedding after pregnancy usually won't stop on its own.\""
+ },
+ "PN-S40-21": {
+  "D": "\"Cover one of your baby's eyes with a patch for a few hours each day, starting now, so that the other eye gets stronger and stops crossing on its own over time.\""
+ }
+}

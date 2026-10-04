@@ -8,10 +8,17 @@
 // covered by a revision file still has a correct option more than 15% longer than its
 // longest distractor (unless listed in data/bank/revisions/skipped.json with a reason).
 // Sets not yet covered by any revision file are reported as pending, not failed.
+//
+// Also fails if, per track, the length rank of the correct option (1 = longest ... 4 = shortest)
+// is unbalanced: each rank must hold between 15% and 35% of single_best_answer items
+// (skipped.json items excluded). A tie with a distractor splits the item evenly across the
+// tied ranks, so ties never count for or against either side.
 import { readFileSync, existsSync } from 'node:fs';
 import { REVISIONS_DIR, applyRevisions, loadBanks, setsCovered } from './revisions.mjs';
 
 export const LIMIT = 1.15;
+export const RANK_MIN = 0.15, RANK_MAX = 0.35;
+const RANKS = [1, 2, 3, 4];
 const args = process.argv.slice(2);
 
 const SKIPPED_FILE = new URL('skipped.json', REVISIONS_DIR);
@@ -25,6 +32,21 @@ const lengths = q => {
 const overLimit = q => lengths(q).ratio > LIMIT;
 const correctIsLongest = q => lengths(q).ratio >= 1;
 const sba = banks => banks.flatMap(b => b.questions).filter(q => q.item_type === 'single_best_answer');
+
+// Share of one item at each length rank of its correct option: { 1: 0, 2: 0.5, 3: 0.5, 4: 0 }.
+const rankShares = q => {
+  const correct = q.options.find(o => o.is_correct).text.length;
+  const distractors = q.options.filter(o => !o.is_correct).map(o => o.text.length);
+  const best = 1 + distractors.filter(d => d > correct).length;
+  const worst = 1 + distractors.filter(d => d >= correct).length;
+  return Object.fromEntries(RANKS.map(r => [r, r >= best && r <= worst ? 1 / (worst - best + 1) : 0]));
+};
+const rankDistribution = rows => {
+  const total = Object.fromEntries(RANKS.map(r => [r, 0]));
+  for (const q of rows) for (const [r, share] of Object.entries(rankShares(q))) total[r] += share;
+  return Object.fromEntries(RANKS.map(r => [r, total[r] / rows.length]));
+};
+const formatRanks = dist => RANKS.map(r => `rank ${r} ${(100 * dist[r]).toFixed(1)}%`).join('  ');
 
 const source = sba(loadBanks());
 const banks = loadBanks();
@@ -46,6 +68,9 @@ if (args[0] === '--stats') {
     const pct = (rows, f) => `${rows.filter(f).length}/${rows.length} (${(100 * rows.filter(f).length / rows.length).toFixed(1)}%)`;
     console.log(`${track.toUpperCase()} correct is longest: before ${pct(before, correctIsLongest)}, after ${pct(after, correctIsLongest)}; `
       + `>15% longer: before ${pct(before, overLimit)}, after ${pct(after, overLimit)}`);
+    const ranked = rows => rows.filter(q => !skipped[q.source_id]);
+    console.log(`${track.toUpperCase()} length rank of correct option: before ${formatRanks(rankDistribution(ranked(before)))}`);
+    console.log(`${track.toUpperCase()} length rank of correct option: after  ${formatRanks(rankDistribution(ranked(after)))}`);
   }
   process.exit(0);
 }
@@ -80,6 +105,17 @@ for (const track of ['rn', 'pn']) {
 for (const q of remaining) {
   const l = lengths(q);
   errors.push(`${q.source_id}: correct option is ${l.correct} chars vs longest distractor ${l.longestDistractor} (${Math.round((l.ratio - 1) * 100)}% longer); revise or add to skipped.json`);
+}
+
+console.log(`\nlength rank of the correct option (allowed ${100 * RANK_MIN}-${100 * RANK_MAX}% each; skipped items excluded)`);
+for (const track of ['rn', 'pn']) {
+  const rows = items.filter(q => q.track === track && !skipped[q.source_id]);
+  const dist = rankDistribution(rows);
+  console.log(`${track.padEnd(5)} ${String(rows.length).padStart(4)} items  ${formatRanks(dist)}`);
+  for (const r of RANKS) {
+    if (dist[r] < RANK_MIN || dist[r] > RANK_MAX)
+      errors.push(`${track.toUpperCase()}: correct option is length rank ${r} in ${(100 * dist[r]).toFixed(1)}% of items; must be ${100 * RANK_MIN}-${100 * RANK_MAX}%`);
+  }
 }
 if (errors.length) { console.error(`\nFAILED (${errors.length}):\n` + errors.join('\n')); process.exit(1); }
 console.log('\nOK');
