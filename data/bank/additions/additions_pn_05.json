@@ -1,0 +1,1569 @@
+{
+ "_comment": "Supplemental items, PN batch 05: Coordinated Care, Psychosocial Integrity, Physiological Adaptation, and Pharmacological Therapies. Pilot status.",
+ "track": "pn",
+ "questions": [
+  {
+   "source_id": "PN-A05-001",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 1,
+   "client_need": "Coordinated Care",
+   "topic": "Prioritization: urgent care clinic",
+   "item_type": "single_best_answer",
+   "stem": "The LPN/VN in an urgent care clinic is checking in four clients. Which client should the provider see first?",
+   "rationale": "Sudden slurred speech and facial drooping are signs of stroke, and treatment depends on time since onset, so the provider is notified at once and emergency services activated per protocol. An ankle injury with weight bearing, urinary symptoms, and a tetanus booster can wait.",
+   "answer_summary": "C",
+   "options": [
+    {
+     "key": "A",
+     "text": "A 25-year-old with an ankle injury from basketball who can bear weight on it",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "A 40-year-old with burning and urgency on urination since yesterday",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "A 64-year-old whose speech became slurred and whose face began drooping 30 minutes ago",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "A 52-year-old who needs a tetanus booster after a minor cut",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "4d16692e6909aea8"
+  },
+  {
+   "source_id": "PN-A05-002",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 2,
+   "client_need": "Coordinated Care",
+   "topic": "Prioritization: endoscopy recovery",
+   "item_type": "single_best_answer",
+   "stem": "The LPN/VN in an endoscopy recovery area is collecting data on four clients. Which finding should the LPN/VN report to the RN immediately?",
+   "rationale": "Chest pain with crackling under the skin (subcutaneous emphysema) after an upper endoscopy suggests esophageal perforation, an emergency. Bloating from insufflated air, a mild sore throat, and improving drowsiness after sedation are expected.",
+   "answer_summary": "B",
+   "options": [
+    {
+     "key": "A",
+     "text": "Mild bloating and passing gas after a colonoscopy, with stable vital signs and no pain at all",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "New chest pain and crackling under the skin of the neck after an upper endoscopy",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "A sore throat after an upper endoscopy",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Drowsiness that is improving",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "02abd80b4bbe9759"
+  },
+  {
+   "source_id": "PN-A05-003",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 3,
+   "client_need": "Coordinated Care",
+   "topic": "Referral for alcohol use treatment",
+   "item_type": "single_best_answer",
+   "stem": "A client admitted with alcohol-related pancreatitis tells the LPN/VN, \"I want to stop drinking, but I don't know where to start.\" What should the LPN/VN do?",
+   "rationale": "A client who expresses readiness to change should be connected with help, such as a treatment program, counseling, or mutual-help groups, and the provider needs to know because stopping alcohol can cause dangerous withdrawal. Delaying the conversation misses the opportunity, cutting back without medical guidance can be unsafe, and changing the subject dismisses the client.",
+   "answer_summary": "D",
+   "options": [
+    {
+     "key": "A",
+     "text": "Tell the client to wait until after discharge to think about stopping drinking",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Suggest that the client cut back slowly on their own without telling the provider",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Change the subject",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Tell the RN so the team can arrange a referral to a treatment program",
+     "is_correct": true
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "57e0f6632a846dbc"
+  },
+  {
+   "source_id": "PN-A05-004",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 4,
+   "client_need": "Coordinated Care",
+   "topic": "Charting by exception",
+   "item_type": "single_best_answer",
+   "stem": "A facility uses charting by exception. Which finding should the LPN/VN document in a narrative note?",
+   "rationale": "Charting by exception documents only findings that differ from established normal standards, with routine normal findings recorded on flow sheets. A new skin tear is a deviation that needs a narrative entry. Normal lung sounds, usual intake, and usual vital signs are already captured by the flow sheets.",
+   "answer_summary": "A",
+   "options": [
+    {
+     "key": "A",
+     "text": "A new skin tear on the right forearm",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Lungs clear, matching the normal findings already listed on the flow sheet",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "The resident ate breakfast as usual, as recorded on the meal record",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Vital signs within the resident's usual range for this time of day",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "bd675a8fde773dbd"
+  },
+  {
+   "source_id": "PN-A05-005",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 5,
+   "client_need": "Coordinated Care",
+   "topic": "Discharge after moderate sedation",
+   "item_type": "single_best_answer",
+   "stem": "A client who received moderate sedation for an outpatient procedure tells the LPN/VN, \"I'll just take a taxi home by myself.\" What should the LPN/VN do?",
+   "rationale": "After sedation, judgment and reaction time can be impaired for hours, so facilities require a responsible adult to accompany the client home. The LPN/VN explains this and tells the RN so the discharge can be arranged safely. Walking unassisted does not show that sedation has worn off, a taxi alone does not provide supervision, and a driver cannot be responsible for the client.",
+   "answer_summary": "A",
+   "options": [
+    {
+     "key": "A",
+     "text": "Explain that a responsible adult must go with the client, and tell the RN",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Let the client leave once they can walk to the elevator without any help",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Agree, since a taxi is safer than driving after the sedation",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Ask the taxi driver to stay with the client overnight",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "9feff043c4537dc6"
+  },
+  {
+   "source_id": "PN-A05-006",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 6,
+   "client_need": "Coordinated Care",
+   "topic": "Following up on a refused meal",
+   "item_type": "single_best_answer",
+   "stem": "An assistive personnel (AP) reports that a resident refused lunch. What should the LPN/VN do?",
+   "rationale": "A refused meal can signal a problem such as pain, nausea, ill-fitting dentures, swallowing difficulty, depression, or a food preference, so the LPN/VN follows up and reports patterns to the RN. Residents may refuse, but the reason still matters. Waiting a day delays finding the cause, and the LPN/VN cannot order a supplement.",
+   "answer_summary": "D",
+   "options": [
+    {
+     "key": "A",
+     "text": "Document the refusal and tell the AP to remove the tray, since residents have the right to refuse meals",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Tell the AP to try again tomorrow",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Order a supplement",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Check with the resident to find out why, such as pain, nausea, or a dental problem",
+     "is_correct": true
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "7eb7592c13a6b3bf"
+  },
+  {
+   "source_id": "PN-A05-007",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 7,
+   "client_need": "Coordinated Care",
+   "topic": "Assigning residents with infection risks",
+   "item_type": "single_best_answer",
+   "stem": "The LPN/VN is assigning residents to assistive personnel (AP). Which pair of residents should the LPN/VN avoid assigning to the same AP?",
+   "rationale": "When possible, the same caregiver should not care for a resident with a transmissible infection and a resident whose immune system is suppressed, to reduce the risk of spreading infection. The other pairings do not create this risk.",
+   "answer_summary": "C",
+   "options": [
+    {
+     "key": "A",
+     "text": "A resident who needs help with meals and a resident who walks with a walker in the hallway",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "A resident with dementia who wanders and a resident with a hearing impairment who needs cueing",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "A resident with C. difficile diarrhea and a resident receiving chemotherapy",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Two residents who are independent",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "1cf9410d5c3f13e6"
+  },
+  {
+   "source_id": "PN-A05-008",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 8,
+   "client_need": "Coordinated Care",
+   "topic": "Advocating for understandable information",
+   "item_type": "single_best_answer",
+   "stem": "After the provider leaves, a client tells the LPN/VN, \"I didn't understand a word the doctor said about my test.\" What should the LPN/VN do?",
+   "rationale": "The LPN/VN advocates for the client's right to understand their care by asking the provider to explain the results again in plain language; the LPN/VN can then reinforce the information and use teach-back. Dismissing the concern, interpreting new results independently, or saying understanding is unnecessary does not meet the client's needs.",
+   "answer_summary": "B",
+   "options": [
+    {
+     "key": "A",
+     "text": "Tell the client that the provider is very busy and that the explanation was clear enough for most clients",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Ask the provider to return and explain it in plain language",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Interpret the test results for the client using the provider's notes in the medical record",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Tell the client that understanding the test results is not necessary for the treatment",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "1303182433028011"
+  },
+  {
+   "source_id": "PN-A05-009",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 9,
+   "client_need": "Coordinated Care",
+   "topic": "Escalating an emergency in long-term care",
+   "item_type": "single_best_answer",
+   "stem": "At night in a long-term care facility, a resident suddenly develops slurred speech and weakness of one arm. The RN supervisor cannot be reached. What should the LPN/VN do?",
+   "rationale": "Sudden slurred speech and arm weakness suggest a stroke, and every minute counts. The LPN/VN follows the facility's emergency protocol, such as calling emergency services and notifying the provider, while continuing to reach the RN. Waiting or putting the resident to bed loses critical time, and aspirin without a prescription could worsen a hemorrhagic stroke.",
+   "answer_summary": "C",
+   "options": [
+    {
+     "key": "A",
+     "text": "Wait until the RN supervisor can be reached before taking any other action for the resident",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Put the resident to bed and recheck the symptoms in the morning",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Follow the facility's emergency protocol, such as calling 911, and keep trying to reach the RN",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Give the resident aspirin from the stock supply",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "73b28e7c02ba4868"
+  },
+  {
+   "source_id": "PN-A05-010",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 10,
+   "client_need": "Coordinated Care",
+   "topic": "Telephone calls in a clinic",
+   "item_type": "single_best_answer",
+   "stem": "A client calls the clinic and tells the LPN/VN about new shortness of breath. According to clinic protocol, what should the LPN/VN do?",
+   "rationale": "The LPN/VN collects data using the clinic's protocol and passes the call promptly to the RN or provider, who makes the triage decision; per protocol, a client in severe distress is told to call 911. Deciding on treatment is outside the LPN/VN's role, and a routine appointment or callback could delay care for a serious symptom.",
+   "answer_summary": "A",
+   "options": [
+    {
+     "key": "A",
+     "text": "Collect information using the protocol and route the call to the RN or provider right away",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Decide on a treatment plan and tell the client which medications to take for the shortness of breath at home",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Schedule a routine visit for next week",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Tell the client to call back later",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "1b926c85b3917bd3"
+  },
+  {
+   "source_id": "PN-A05-011",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 11,
+   "client_need": "Coordinated Care",
+   "topic": "Requests to email health information",
+   "item_type": "single_best_answer",
+   "stem": "A client asks the LPN/VN to email their lab results to the client's personal email address. What should the LPN/VN do?",
+   "rationale": "Clients have a right to their health information, and facilities provide it through secure methods, such as the patient portal, following policy and documenting the request. Personal email accounts and texted photos are not secure, and refusing access violates the client's rights.",
+   "answer_summary": "D",
+   "options": [
+    {
+     "key": "A",
+     "text": "Email the results from the LPN/VN's personal account, since the client asked for them",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Text a photo of the results to the client's cell phone to save the client time",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Refuse to share any results",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Follow facility policy, such as sending results through the patient portal",
+     "is_correct": true
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "ad4360c5d0c1f081"
+  },
+  {
+   "source_id": "PN-A05-012",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 12,
+   "client_need": "Coordinated Care",
+   "topic": "Respecting an informed choice to accept risk",
+   "item_type": "single_best_answer",
+   "stem": "A competent resident with dysphagia was taught the risks of thin liquids by the speech-language pathologist and still chooses to drink regular coffee. What should the LPN/VN do?",
+   "rationale": "A competent resident who understands the risks may make choices that others would not. The LPN/VN respects the decision and reports it so the team can document the informed choice and reduce the risk, for example with upright positioning and supervision. Secretly thickening the coffee is deceptive, removing coffee is punitive, and labeling the resident noncompliant does not respect their rights.",
+   "answer_summary": "B",
+   "options": [
+    {
+     "key": "A",
+     "text": "Thicken the resident's coffee without telling the resident, since it is safer for the resident",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Respect the choice and report it so the plan can reflect it",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Remove all coffee from the resident's meal trays until the resident agrees to drink thickened liquids",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Tell the family that the resident is being noncompliant and ask them to step in",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "b6af7b0b534147e7"
+  },
+  {
+   "source_id": "PN-A05-013",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 13,
+   "client_need": "Coordinated Care",
+   "topic": "Family presence at the end of life",
+   "item_type": "single_best_answer",
+   "stem": "The family of a resident who is actively dying asks whether they can stay overnight. What should the LPN/VN do?",
+   "rationale": "Facilities generally allow flexible visiting for residents at the end of life, and family presence supports both the resident and the family. The LPN/VN arranges for the family to stay and makes them comfortable. Strict visiting hours and time limits are not appropriate at the end of life.",
+   "answer_summary": "D",
+   "options": [
+    {
+     "key": "A",
+     "text": "Explain that visiting hours end at 8:00 p.m. and that the family must leave by then",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Allow only one family member to stay for 30 minutes at a time",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Ask the family to wait in the lobby overnight",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Arrange for the family to stay and provide comfort items, such as a recliner and blankets",
+     "is_correct": true
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "bb2725bbd2d6f68c"
+  },
+  {
+   "source_id": "PN-A05-014",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 14,
+   "client_need": "Coordinated Care",
+   "topic": "Responding to public criticism from a provider",
+   "item_type": "single_best_answer",
+   "stem": "A provider criticizes the LPN/VN loudly in front of a client about a delayed lab draw. What should the LPN/VN do?",
+   "rationale": "Moving the conversation to a private place protects the client from distress and allows a professional discussion of the concern. If disrespectful behavior continues, the LPN/VN uses the chain of command. Arguing in front of the client is unprofessional, and staying silent or walking out leaves the issue unresolved.",
+   "answer_summary": "C",
+   "options": [
+    {
+     "key": "A",
+     "text": "Argue with the provider in front of the client to explain why the lab draw was delayed",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Say nothing",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Ask to continue the conversation privately, away from the client",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Leave the room",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "351315966da1b67d"
+  },
+  {
+   "source_id": "PN-A05-015",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 15,
+   "client_need": "Coordinated Care",
+   "topic": "Protecting dignity during personal care",
+   "item_type": "multiple_response",
+   "stem": "Which actions by the LPN/VN protect a client's dignity during personal care? Select all that apply.",
+   "rationale": "Privacy, explanations, appropriate draping, and using the client's preferred name show respect. Terms of endearment can feel demeaning, and personal conversations with coworkers during care ignore the client.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Closing the door and curtain before care",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Explaining each step before doing it",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Keeping the client covered except for the area being cleaned",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Calling the client \"honey\" to seem friendly",
+     "is_correct": false
+    },
+    {
+     "key": "E",
+     "text": "Talking with coworkers about weekend plans during care",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Asking how the client prefers to be addressed",
+     "is_correct": true
+    }
+   ],
+   "answer_summary": "A, B, C, F",
+   "scoring": "plus_minus",
+   "content_hash": "085daf29532624b1"
+  },
+  {
+   "source_id": "PN-A05-016",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 16,
+   "client_need": "Coordinated Care",
+   "topic": "When to use the chain of command",
+   "item_type": "multiple_response",
+   "stem": "In which situations should the LPN/VN use the chain of command? Select all that apply.",
+   "rationale": "The chain of command is used when a client-safety concern is not resolved at the first level, such as an unaddressed change in condition, an unsafe prescription, or unsafe staffing. Meal preferences and a coworker's long lunch are handled directly, not through escalation.",
+   "options": [
+    {
+     "key": "A",
+     "text": "The RN does not respond to a report that a client's condition is worsening",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "A prescription seems unsafe and the provider will not clarify it",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Staffing is unsafe and the charge nurse does not act",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "A client prefers a different meal",
+     "is_correct": false
+    },
+    {
+     "key": "E",
+     "text": "A coworker takes a longer lunch break than usual",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C",
+   "scoring": "plus_minus",
+   "content_hash": "6eb008d3c9e9c33f"
+  },
+  {
+   "source_id": "PN-A05-017",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 17,
+   "client_need": "Coordinated Care",
+   "topic": "Ethical principles in practice",
+   "item_type": "matrix_grid",
+   "stem": "For each nursing action, indicate the ethical principle it best demonstrates.",
+   "rationale": "Autonomy is respecting a person's right to choose. Nonmaleficence is avoiding harm, such as holding a medication when toxicity is suspected or avoiding a harmful restraint. Justice is fair and equal treatment. Veracity is truthfulness.",
+   "columns": [
+    "Autonomy",
+    "Nonmaleficence",
+    "Justice",
+    "Veracity"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Respecting a resident's choice to skip a physical therapy session",
+     "correct_column": "Autonomy"
+    },
+    {
+     "id": "r2",
+     "text": "Holding a medication and reporting it when the client shows signs of toxicity",
+     "correct_column": "Nonmaleficence"
+    },
+    {
+     "id": "r3",
+     "text": "Answering a client's question truthfully within the LPN/VN's role",
+     "correct_column": "Veracity"
+    },
+    {
+     "id": "r4",
+     "text": "Giving each resident the same quality of care regardless of family involvement",
+     "correct_column": "Justice"
+    },
+    {
+     "id": "r5",
+     "text": "Choosing a safer alternative instead of a restraint that could cause injury",
+     "correct_column": "Nonmaleficence"
+    }
+   ],
+   "answer_summary": "Respecting a resident's choice to skip a physical therapy session: Autonomy; Holding a medication and reporting it when the client shows signs of toxicity: Nonmaleficence; Answering a client's question truthfully within the LPN/VN's role: Veracity; Giving each resident the same quality of care regardless of family involvement: Justice; Choosing a safer alternative instead of a restraint that could cause injury: Nonmaleficence",
+   "scoring": "zero_one_per_row",
+   "content_hash": "6398f2d925bf43dc"
+  },
+  {
+   "source_id": "PN-A05-018",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 18,
+   "client_need": "Coordinated Care",
+   "topic": "Secure communication of health information",
+   "item_type": "matrix_grid",
+   "stem": "For each method of sharing client information, indicate whether it is secure or not secure.",
+   "rationale": "Patient portals, verified faxes with confidentiality cover sheets, and approved secure messaging systems protect health information. Personal email, personal texting, and social media messages are not controlled by the facility and can expose information.",
+   "columns": [
+    "Secure",
+    "Not secure"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "A message through the patient portal",
+     "correct_column": "Secure"
+    },
+    {
+     "id": "r2",
+     "text": "An email from a personal account",
+     "correct_column": "Not secure"
+    },
+    {
+     "id": "r3",
+     "text": "A fax to a verified number with a cover sheet",
+     "correct_column": "Secure"
+    },
+    {
+     "id": "r4",
+     "text": "A text from a personal phone",
+     "correct_column": "Not secure"
+    },
+    {
+     "id": "r5",
+     "text": "The facility's approved secure messaging app",
+     "correct_column": "Secure"
+    },
+    {
+     "id": "r6",
+     "text": "A direct message on social media",
+     "correct_column": "Not secure"
+    }
+   ],
+   "answer_summary": "A message through the patient portal: Secure; An email from a personal account: Not secure; A fax to a verified number with a cover sheet: Secure; A text from a personal phone: Not secure; The facility's approved secure messaging app: Secure; A direct message on social media: Not secure",
+   "scoring": "zero_one_per_row",
+   "content_hash": "ace482c4bfedc1c0"
+  },
+  {
+   "source_id": "PN-A05-019",
+   "track": "pn",
+   "set_number": 44,
+   "set_title": "Supplemental: Psychosocial Integrity",
+   "source_item_number": 19,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Postpartum psychosis",
+   "item_type": "bow_tie",
+   "stem": "On the third day after giving birth, a client tells the LPN/VN that voices are saying the baby is evil. The client has not slept for 2 nights, is pacing the room, and is talking rapidly. The client's partner says the client has been acting differently since yesterday. Complete the diagram by choosing the condition the client is most likely experiencing, 2 actions the LPN/VN should take, and 2 parameters the LPN/VN should monitor.",
+   "rationale": "Hallucinations about the infant, severe insomnia, agitation, and rapid speech shortly after birth indicate postpartum psychosis, a psychiatric emergency with a risk of harm to the client and infant. Postpartum blues involve tearfulness and mood swings without psychosis. The LPN/VN keeps the client and infant safe and reports immediately. Reassurance, rooming in, and waiting until tomorrow are unsafe. Statements about harm and sleep show the client's safety and response to treatment.",
+   "bowtie_groups": [
+    {
+     "label": "Condition (choose 1)",
+     "pick": 1,
+     "options": [
+      "Postpartum psychosis",
+      "Postpartum blues",
+      "Normal adjustment to parenthood",
+      "Sleep deprivation without a psychiatric disorder"
+     ]
+    },
+    {
+     "label": "Actions to take (choose 2)",
+     "pick": 2,
+     "options": [
+      "Stay with the client and do not leave the client alone with the infant",
+      "Report the findings to the RN and provider immediately",
+      "Reassure the client that these feelings are common after birth",
+      "Encourage the client to keep the infant in the room overnight",
+      "Suggest a nap and recheck the client tomorrow"
+     ]
+    },
+    {
+     "label": "Parameters to monitor (choose 2)",
+     "pick": 2,
+     "options": [
+      "Statements about harming self or the infant",
+      "Sleep pattern",
+      "Fundal height",
+      "Lochia amount",
+      "Blood glucose"
+     ]
+    }
+   ],
+   "answer_summary": "Condition: Postpartum psychosis. Actions: Stay with the client and do not leave the client alone with the infant; Report the findings to the RN and provider immediately. Monitor: Statements about harming self or the infant; Sleep pattern.",
+   "scoring": "zero_one_per_selection",
+   "content_hash": "7026419d11afb863"
+  },
+  {
+   "source_id": "PN-A05-020",
+   "track": "pn",
+   "set_number": 44,
+   "set_title": "Supplemental: Psychosocial Integrity",
+   "source_item_number": 20,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Care after sexual assault",
+   "item_type": "single_best_answer",
+   "stem": "A client arrives at the emergency department 2 hours after a sexual assault and asks to shower. What should the LPN/VN do?",
+   "rationale": "Showering, changing clothes, eating, or drinking can destroy evidence, so the client is told this before deciding. Evidence collection by a trained examiner is voluntary, and an adult client can decide whether to report to police. The LPN/VN supports the client's control over choices, does not require evidence collection, and does not question the client in detail.",
+   "answer_summary": "A",
+   "options": [
+    {
+     "key": "A",
+     "text": "Explain that showering may remove evidence and that the choice to collect evidence is the client's",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Help the client shower right away so that the client can feel clean and more comfortable",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Tell the client that evidence collection is required by law before treatment",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Ask the client to describe the assault in detail",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "2f7ee9d50546a5c4"
+  },
+  {
+   "source_id": "PN-A05-021",
+   "track": "pn",
+   "set_number": 44,
+   "set_title": "Supplemental: Psychosocial Integrity",
+   "source_item_number": 21,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Young children's understanding of death",
+   "item_type": "single_best_answer",
+   "stem": "A 5-year-old whose grandfather died last week asks the LPN/VN when Grandpa will come back. Which response is most appropriate?",
+   "rationale": "Preschool children often think death is temporary or reversible. Simple, concrete words such as \"died\" and an explanation that the body stopped working help them understand, along with permission to feel sad. Comparing death to sleep can create fear of sleeping, a trip suggests the person will return, and avoiding the topic leaves the child confused.",
+   "answer_summary": "B",
+   "options": [
+    {
+     "key": "A",
+     "text": "\"Grandpa is sleeping now, and he will stay asleep for a very, very long time, so you won't see him for a while.\"",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "\"Grandpa died, and his body stopped working. He can't come back, and it's okay to feel sad.\"",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "\"Grandpa went on a long trip.\"",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "\"Don't think about it.\"",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "56920a1d6b8026aa"
+  },
+  {
+   "source_id": "PN-A05-022",
+   "track": "pn",
+   "set_number": 44,
+   "set_title": "Supplemental: Psychosocial Integrity",
+   "source_item_number": 22,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Hot-cold beliefs about health",
+   "item_type": "single_best_answer",
+   "stem": "A client whose culture follows a hot-cold theory of illness refuses ice chips after giving birth, saying the body needs warmth now. What should the LPN/VN do?",
+   "rationale": "Many cultures believe that childbirth makes the body cold and that warm foods and drinks restore balance. Offering warm fluids respects the client's beliefs and still meets the care plan. Insisting on ice chips or dismissing the belief damages trust, and withholding fluids is unsafe.",
+   "answer_summary": "D",
+   "options": [
+    {
+     "key": "A",
+     "text": "Insist on ice chips, since they are part of the facility's routine postpartum care",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Tell the client that hot-cold beliefs are not supported by evidence and should be ignored",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Withhold all fluids",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Offer warm drinks that fit the client's beliefs and the care plan",
+     "is_correct": true
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "dd1f47c4606dfccf"
+  },
+  {
+   "source_id": "PN-A05-023",
+   "track": "pn",
+   "set_number": 44,
+   "set_title": "Supplemental: Psychosocial Integrity",
+   "source_item_number": 23,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Suicide risk early in antidepressant treatment",
+   "item_type": "single_best_answer",
+   "stem": "A client who started an antidepressant 2 weeks ago now has more energy but still feels hopeless. Why should the LPN/VN monitor the client closely?",
+   "rationale": "Antidepressants often improve energy before mood, so a client who still feels hopeless may now have the energy to act on suicidal thoughts. The risk is highest early in treatment and after dose changes, especially in young people. Increased energy is not a reason to stop the drug, and hopelessness is a symptom of depression, not a side effect.",
+   "answer_summary": "B",
+   "options": [
+    {
+     "key": "A",
+     "text": "The medication will cause a dangerous rise in blood pressure within days",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Suicide risk may rise as energy returns",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Increased energy means the medication should be stopped right away",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Hopelessness is a common side effect of antidepressants that requires a dose increase",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "204c8a402552dd01"
+  },
+  {
+   "source_id": "PN-A05-024",
+   "track": "pn",
+   "set_number": 44,
+   "set_title": "Supplemental: Psychosocial Integrity",
+   "source_item_number": 24,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Splitting in borderline personality disorder",
+   "item_type": "single_best_answer",
+   "stem": "A client with borderline personality disorder tells the LPN/VN, \"You're the only nurse who understands me. The others are terrible.\" What is the LPN/VN's best response?",
+   "rationale": "Idealizing one staff member and devaluing others is called splitting. A consistent team approach with the same plan and limits reduces it. Accepting the special role or agreeing that other nurses are bad reinforces splitting, and asking why invites more criticism of staff.",
+   "answer_summary": "A",
+   "options": [
+    {
+     "key": "A",
+     "text": "\"All the nurses on this unit are working with you, and we follow the same plan of care.\"",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "\"I'm glad you trust me. I'll make sure I'm assigned to you every day from now on.\"",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "\"You're right that some of the other nurses aren't very good at their jobs here.\"",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "\"Why do you dislike the other nurses?\"",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "5c6d1565b2244ea1"
+  },
+  {
+   "source_id": "PN-A05-025",
+   "track": "pn",
+   "set_number": 44,
+   "set_title": "Supplemental: Psychosocial Integrity",
+   "source_item_number": 25,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Wound care after self-harm",
+   "item_type": "single_best_answer",
+   "stem": "A client who self-harms by cutting has new superficial cuts on the forearm. How should the LPN/VN approach wound care?",
+   "rationale": "Calm, nonjudgmental wound care meets the physical need without reinforcing the behavior or adding shame. The LPN/VN reports the injury to the RN so suicide risk can be assessed. Expressing disappointment, delaying care, and lecturing increase shame and can damage the therapeutic relationship.",
+   "answer_summary": "C",
+   "options": [
+    {
+     "key": "A",
+     "text": "Express disappointment to the client so that the client understands how serious cutting is and will stop doing it",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Make the client wait for care",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Provide wound care in a calm, matter-of-fact, nonjudgmental way",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Lecture about scars",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "95473fc1c15126a0"
+  },
+  {
+   "source_id": "PN-A05-026",
+   "track": "pn",
+   "set_number": 44,
+   "set_title": "Supplemental: Psychosocial Integrity",
+   "source_item_number": 26,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Signs of caregiver strain",
+   "item_type": "multiple_response",
+   "stem": "A spouse is caring at home for a partner with advanced dementia. Which findings suggest caregiver strain? Select all that apply.",
+   "rationale": "Sleep loss, neglecting one's own health, irritability, and feeling trapped are signs of caregiver strain that the LPN/VN reports so the team can offer support and resources. Arranging respite and sharing tasks are healthy coping strategies.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Sleeping only 3 to 4 hours a night",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Missing their own medical appointments",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Becoming irritable and tearful",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Saying, \"I feel trapped and can't do this much longer\"",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Arranging weekly respite care",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Sharing care tasks with adult children",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "content_hash": "5d26f3eefb084755"
+  },
+  {
+   "source_id": "PN-A05-027",
+   "track": "pn",
+   "set_number": 44,
+   "set_title": "Supplemental: Psychosocial Integrity",
+   "source_item_number": 27,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Trauma-informed care",
+   "item_type": "multiple_response",
+   "stem": "Which actions reflect trauma-informed care? Select all that apply.",
+   "rationale": "Trauma-informed care emphasizes safety, choice, collaboration, and trust, assuming that any client may have a trauma history. Explaining care, offering choices, asking permission, and understanding behavior in light of trauma reduce distress. Requiring disclosure can retraumatize the client, and restraints are a last resort that can trigger trauma responses.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Explaining each step before touching the client",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Offering choices about how care is given when possible",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Asking permission before entering personal space",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Recognizing that some behaviors may be responses to past trauma",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Requiring the client to describe past trauma before care begins",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Using restraints first if the client becomes upset",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "content_hash": "391ba2259401f946"
+  },
+  {
+   "source_id": "PN-A05-028",
+   "track": "pn",
+   "set_number": 44,
+   "set_title": "Supplemental: Psychosocial Integrity",
+   "source_item_number": 28,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Relocation stress in long-term care",
+   "item_type": "multiple_response",
+   "stem": "An older adult is moving into a long-term care facility. Which actions help reduce relocation stress? Select all that apply.",
+   "rationale": "Familiar belongings, participation in decisions, social connections, and familiar routines give a sense of control and continuity. Discouraging family visits and limiting choices increase isolation and loss of control, which worsen relocation stress.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Encourage the resident to bring familiar personal items",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Involve the resident in decisions about their room and routine",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Introduce the resident to staff and other residents",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Keep the resident's usual daily routines when possible",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Ask the family not to visit for the first few weeks",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Limit the resident's choices until they adjust",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "content_hash": "2b25e23589fd8c36"
+  },
+  {
+   "source_id": "PN-A05-029",
+   "track": "pn",
+   "set_number": 44,
+   "set_title": "Supplemental: Psychosocial Integrity",
+   "source_item_number": 29,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Signs of child neglect",
+   "item_type": "matrix_grid",
+   "stem": "The LPN/VN is collecting data on a 4-year-old at a clinic visit. For each finding, indicate whether it may indicate neglect or is an expected finding.",
+   "rationale": "Untreated health problems, missed care, poor growth without a medical cause, and repeatedly inadequate clothing or hygiene may indicate neglect and are reported to the RN and through mandatory reporting channels. Bruises on the shins, minor play injuries, and occasional tantrums are expected in active preschool children.",
+   "columns": [
+    "May indicate neglect",
+    "Expected finding"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Untreated tooth decay and repeated missed appointments",
+     "correct_column": "May indicate neglect"
+    },
+    {
+     "id": "r2",
+     "text": "Bruises on the shins",
+     "correct_column": "Expected finding"
+    },
+    {
+     "id": "r3",
+     "text": "Weight below the 3rd percentile with no medical cause",
+     "correct_column": "May indicate neglect"
+    },
+    {
+     "id": "r4",
+     "text": "Dirty clothing that is not warm enough for cold weather at repeated visits",
+     "correct_column": "May indicate neglect"
+    },
+    {
+     "id": "r5",
+     "text": "Occasional temper tantrums",
+     "correct_column": "Expected finding"
+    },
+    {
+     "id": "r6",
+     "text": "A scab on the knee from a fall at the playground",
+     "correct_column": "Expected finding"
+    }
+   ],
+   "answer_summary": "Untreated tooth decay and repeated missed appointments: May indicate neglect; Bruises on the shins: Expected finding; Weight below the 3rd percentile with no medical cause: May indicate neglect; Dirty clothing that is not warm enough for cold weather at repeated visits: May indicate neglect; Occasional temper tantrums: Expected finding; A scab on the knee from a fall at the playground: Expected finding",
+   "scoring": "zero_one_per_row",
+   "content_hash": "814cd8feb7e6e29a"
+  },
+  {
+   "source_id": "PN-A05-030",
+   "track": "pn",
+   "set_number": 48,
+   "set_title": "Supplemental: Physiological Adaptation",
+   "source_item_number": 30,
+   "client_need": "Physiological Adaptation",
+   "topic": "Clear nasal drainage after a head injury",
+   "item_type": "single_best_answer",
+   "stem": "A client who fell and struck their head has clear, watery drainage from the nose. What should the LPN/VN do first?",
+   "rationale": "Clear drainage from the nose after a head injury may be cerebrospinal fluid from a basilar skull fracture, which creates a risk of meningitis. The LPN/VN reports it immediately and lets it drain freely onto a loose pad. Blowing the nose, packing it, or nasal suctioning can increase pressure, introduce bacteria, or push material through the fracture.",
+   "answer_summary": "A",
+   "options": [
+    {
+     "key": "A",
+     "text": "Report it to the RN immediately, since it may be cerebrospinal fluid from a skull fracture",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Have the client blow the nose gently to clear the drainage before checking it again",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Pack the nose with gauze to stop the drainage",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Suction the nose",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "cb318fe5a2c618cf"
+  },
+  {
+   "source_id": "PN-A05-031",
+   "track": "pn",
+   "set_number": 48,
+   "set_title": "Supplemental: Physiological Adaptation",
+   "source_item_number": 31,
+   "client_need": "Physiological Adaptation",
+   "topic": "Choking in an adult",
+   "item_type": "single_best_answer",
+   "stem": "A resident who is eating suddenly grasps the throat, cannot speak or cough, and is turning blue. What should the LPN/VN do first?",
+   "rationale": "Inability to speak or cough with cyanosis indicates a severe airway obstruction, which is treated with abdominal thrusts until the object comes out or the person becomes unresponsive, when CPR is started. Fluids can worsen the obstruction, blind finger sweeps can push the object deeper, and a person with a complete obstruction cannot cough.",
+   "answer_summary": "C",
+   "options": [
+    {
+     "key": "A",
+     "text": "Give the resident a glass of water to help wash the food down and then wait to see whether breathing improves",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Perform a blind finger sweep of the resident's mouth to look for and remove the food that is stuck",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Perform abdominal thrusts until the object is expelled or the resident becomes unresponsive",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Encourage coughing",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "b42396aac17da2a0"
+  },
+  {
+   "source_id": "PN-A05-032",
+   "track": "pn",
+   "set_number": 48,
+   "set_title": "Supplemental: Physiological Adaptation",
+   "source_item_number": 32,
+   "client_need": "Physiological Adaptation",
+   "topic": "Hyponatremia",
+   "item_type": "single_best_answer",
+   "stem": "A client's sodium level is 122 mEq/L. Which finding should the LPN/VN report to the RN immediately?",
+   "rationale": "Low sodium causes water to shift into brain cells, so new confusion and headache can signal cerebral edema, which may progress to seizures. Thirst after activity, mild end-of-day ankle swelling, and adequate urine output do not indicate a neurologic emergency.",
+   "answer_summary": "B",
+   "options": [
+    {
+     "key": "A",
+     "text": "A dry mouth and thirst after physical therapy",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "New confusion and a headache",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Mild ankle swelling at the end of the day",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Urine output of 50 mL/hr",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "566e282637ea5ba0"
+  },
+  {
+   "source_id": "PN-A05-033",
+   "track": "pn",
+   "set_number": 48,
+   "set_title": "Supplemental: Physiological Adaptation",
+   "source_item_number": 33,
+   "client_need": "Physiological Adaptation",
+   "topic": "Disconnected chest tube",
+   "item_type": "single_best_answer",
+   "stem": "The chest tube of a client with a pneumothorax becomes disconnected from the drainage system. What should the LPN/VN do first?",
+   "rationale": "Placing the end of the tube in sterile water creates a temporary water seal that keeps air from entering the pleural space until a new system is connected. Prolonged clamping can cause a tension pneumothorax, the tube is never removed by the nurse in this situation, and the drainage system must stay below the chest.",
+   "answer_summary": "D",
+   "options": [
+    {
+     "key": "A",
+     "text": "Clamp the chest tube tightly for several hours until the provider arrives on the unit",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Remove the chest tube and cover the site with a dry dressing",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Raise the drainage system above the level of the chest",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Place the end of the tube in sterile water",
+     "is_correct": true
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "a449f84969f62f36"
+  },
+  {
+   "source_id": "PN-A05-034",
+   "track": "pn",
+   "set_number": 48,
+   "set_title": "Supplemental: Physiological Adaptation",
+   "source_item_number": 34,
+   "client_need": "Physiological Adaptation",
+   "topic": "Early sign of increased intracranial pressure",
+   "item_type": "single_best_answer",
+   "stem": "The LPN/VN is collecting data on a client with a head injury. Which finding is the earliest sign of increasing intracranial pressure?",
+   "rationale": "A change in level of consciousness, such as restlessness or confusion, is the earliest and most sensitive sign of rising intracranial pressure and must be reported promptly. Cushing's triad, fixed dilated pupils, and abnormal posturing are late signs.",
+   "answer_summary": "D",
+   "options": [
+    {
+     "key": "A",
+     "text": "Widening pulse pressure with a slow heart rate and an irregular breathing pattern",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Fixed and dilated pupils on both sides that no longer react to light from a penlight",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Decorticate posturing",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "A change in level of consciousness, such as new restlessness or confusion",
+     "is_correct": true
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "37774cf5a41dcb7a"
+  },
+  {
+   "source_id": "PN-A05-035",
+   "track": "pn",
+   "set_number": 48,
+   "set_title": "Supplemental: Physiological Adaptation",
+   "source_item_number": 35,
+   "client_need": "Physiological Adaptation",
+   "topic": "Small bowel obstruction",
+   "item_type": "single_best_answer",
+   "stem": "A client with a history of abdominal surgery has crampy abdominal pain, vomiting, and abdominal distention and has not passed gas for 2 days. What should the LPN/VN suspect?",
+   "rationale": "Adhesions from previous surgery are a common cause of small bowel obstruction, which causes crampy pain, vomiting, distention, and no passage of gas or stool. The LPN/VN reports the findings promptly. Reflux, irritable bowel syndrome, and lactose intolerance do not cause complete absence of flatus with vomiting and distention.",
+   "answer_summary": "C",
+   "options": [
+    {
+     "key": "A",
+     "text": "Gastroesophageal reflux disease",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Irritable bowel syndrome",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Small bowel obstruction",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Lactose intolerance after dairy",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "9345a3526ca84b4b"
+  },
+  {
+   "source_id": "PN-A05-036",
+   "track": "pn",
+   "set_number": 48,
+   "set_title": "Supplemental: Physiological Adaptation",
+   "source_item_number": 36,
+   "client_need": "Physiological Adaptation",
+   "topic": "Adrenal crisis",
+   "item_type": "single_best_answer",
+   "stem": "A client who has taken prednisone daily for a year stopped it abruptly 3 days ago. The client is weak and dizzy, with a BP of 82/50 mm Hg. What should the LPN/VN suspect?",
+   "rationale": "Long-term corticosteroid use suppresses the adrenal glands, so stopping suddenly can cause adrenal crisis, with weakness, hypotension, and sometimes hypoglycemia and hyponatremia. This is an emergency that needs immediate reporting. Steroids must be tapered as prescribed.",
+   "answer_summary": "B",
+   "options": [
+    {
+     "key": "A",
+     "text": "An allergic reaction to prednisone",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Adrenal crisis",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Expected fatigue after stopping a medication",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Dehydration from drinking too little water",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "8b73037df1130b00"
+  },
+  {
+   "source_id": "PN-A05-037",
+   "track": "pn",
+   "set_number": 48,
+   "set_title": "Supplemental: Physiological Adaptation",
+   "source_item_number": 37,
+   "client_need": "Physiological Adaptation",
+   "topic": "Hypocalcemia after thyroidectomy",
+   "item_type": "bow_tie",
+   "stem": "A client had a total thyroidectomy yesterday. The client reports tingling around the mouth and in the fingertips, and when the LPN/VN inflates the blood pressure cuff, the client's hand goes into spasm. Complete the diagram by choosing the condition the client is most likely experiencing, 2 actions the LPN/VN should take, and 2 parameters the LPN/VN should monitor.",
+   "rationale": "Damage to or removal of the parathyroid glands during thyroidectomy can cause hypocalcemia, with perioral and fingertip tingling and carpal spasm when a blood pressure cuff is inflated (Trousseau's sign). The LPN/VN reports immediately and makes sure IV calcium is available per protocol. Breathing into a bag, ice, and potassium do not treat hypocalcemia. Worsening tingling and spasms and signs of laryngeal spasm, such as stridor, show whether the condition is progressing.",
+   "bowtie_groups": [
+    {
+     "label": "Condition (choose 1)",
+     "pick": 1,
+     "options": [
+      "Hypocalcemia",
+      "Thyroid storm",
+      "Hyperkalemia",
+      "Anxiety reaction"
+     ]
+    },
+    {
+     "label": "Actions to take (choose 2)",
+     "pick": 2,
+     "options": [
+      "Report the findings to the RN immediately",
+      "Make sure IV calcium gluconate is available per protocol",
+      "Have the client breathe into a paper bag",
+      "Apply ice to the neck",
+      "Give the client a potassium supplement"
+     ]
+    },
+    {
+     "label": "Parameters to monitor (choose 2)",
+     "pick": 2,
+     "options": [
+      "Tingling and muscle spasms",
+      "Airway and breathing for laryngeal spasm",
+      "Blood glucose",
+      "Bowel sounds",
+      "Urine color"
+     ]
+    }
+   ],
+   "answer_summary": "Condition: Hypocalcemia. Actions: Report the findings to the RN immediately; Make sure IV calcium gluconate is available per protocol. Monitor: Tingling and muscle spasms; Airway and breathing for laryngeal spasm.",
+   "scoring": "zero_one_per_selection",
+   "content_hash": "ebb48cdebdf4b6fd"
+  },
+  {
+   "source_id": "PN-A05-038",
+   "track": "pn",
+   "set_number": 48,
+   "set_title": "Supplemental: Physiological Adaptation",
+   "source_item_number": 38,
+   "client_need": "Physiological Adaptation",
+   "topic": "Hypovolemic shock after a fall",
+   "item_type": "bow_tie",
+   "stem": "A 78-year-old resident fell and has hip and pelvic pain. Thirty minutes later, the resident is restless, pale, cool, and clammy, with a heart rate of 122/min, BP of 92/58 mm Hg, and a respiratory rate of 26/min. Complete the diagram by choosing the condition the client is most likely experiencing, 2 actions the LPN/VN should take, and 2 parameters the LPN/VN should monitor.",
+   "rationale": "A pelvic or hip fracture can cause significant internal bleeding. Tachycardia, falling blood pressure, rapid breathing, restlessness, and cool, clammy skin indicate hypovolemic shock. The LPN/VN calls for emergency help and keeps the resident flat, warm, and still. Walking, oral fluids, and sitting the resident upright can worsen bleeding, injury, or hypotension. Heart rate, blood pressure, and level of consciousness show whether perfusion is worsening.",
+   "bowtie_groups": [
+    {
+     "label": "Condition (choose 1)",
+     "pick": 1,
+     "options": [
+      "Hypovolemic shock from internal bleeding",
+      "Anxiety after a fall",
+      "Hypoglycemia",
+      "Septic shock"
+     ]
+    },
+    {
+     "label": "Actions to take (choose 2)",
+     "pick": 2,
+     "options": [
+      "Call for emergency help and notify the RN immediately",
+      "Keep the resident lying flat and warm without moving the hips",
+      "Help the resident walk to the bed",
+      "Give the resident a large glass of water",
+      "Raise the head of the bed to 90 degrees"
+     ]
+    },
+    {
+     "label": "Parameters to monitor (choose 2)",
+     "pick": 2,
+     "options": [
+      "Heart rate and blood pressure",
+      "Level of consciousness",
+      "Bowel sounds",
+      "Pupil reaction to light",
+      "Hearing"
+     ]
+    }
+   ],
+   "answer_summary": "Condition: Hypovolemic shock from internal bleeding. Actions: Call for emergency help and notify the RN immediately; Keep the resident lying flat and warm without moving the hips. Monitor: Heart rate and blood pressure; Level of consciousness.",
+   "scoring": "zero_one_per_selection",
+   "content_hash": "3d209fc3cfbad35e"
+  },
+  {
+   "source_id": "PN-A05-039",
+   "track": "pn",
+   "set_number": 46,
+   "set_title": "Supplemental: Pharmacological Therapies",
+   "source_item_number": 39,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Warfarin and vitamin K intake",
+   "item_type": "single_best_answer",
+   "stem": "A client taking warfarin asks the LPN/VN whether they need to stop eating green leafy vegetables. Which response is correct?",
+   "rationale": "Vitamin K counteracts warfarin, so large changes in intake change the INR. Clients are taught to keep vitamin K intake consistent rather than avoid these foods. Diet does affect warfarin, and extra greens do not make up for a missed dose.",
+   "answer_summary": "A",
+   "options": [
+    {
+     "key": "A",
+     "text": "\"Keep your vitamin K intake about the same each day rather than avoiding these foods.\"",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "\"Stop eating all green vegetables, since they will make the warfarin stop working completely.\"",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "\"Eat as much as you want, since diet does not affect warfarin.\"",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "\"Eat extra greens on days you forget a dose.\"",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "2ec1fda21c657d81"
+  }
+ ]
+}
