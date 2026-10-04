@@ -827,6 +827,81 @@
     "PN-C15-06"
    ],
    "needs_review": false
+  },
+  {
+   "case_id": "PN-C16",
+   "title": "Acute stroke in a long-term care resident",
+   "system": "Neurologic",
+   "discipline": "Adult Health",
+   "items": [
+    "PN-C16-01",
+    "PN-C16-02",
+    "PN-C16-03",
+    "PN-C16-04",
+    "PN-C16-05",
+    "PN-C16-06"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "PN-C17",
+   "title": "Elevated INR and bleeding in a client taking warfarin",
+   "system": "Hematologic",
+   "discipline": "Pharmacology",
+   "items": [
+    "PN-C17-01",
+    "PN-C17-02",
+    "PN-C17-03",
+    "PN-C17-04",
+    "PN-C17-05",
+    "PN-C17-06"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "PN-C18",
+   "title": "Toddler with gastroenteritis and dehydration",
+   "system": "Fluids & Electrolytes",
+   "discipline": "Pediatrics",
+   "items": [
+    "PN-C18-01",
+    "PN-C18-02",
+    "PN-C18-03",
+    "PN-C18-04",
+    "PN-C18-05",
+    "PN-C18-06"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "PN-C19",
+   "title": "Dementia with agitation and caregiver strain",
+   "system": "Neurologic",
+   "discipline": "Mental Health",
+   "items": [
+    "PN-C19-01",
+    "PN-C19-02",
+    "PN-C19-03",
+    "PN-C19-04",
+    "PN-C19-05",
+    "PN-C19-06"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "PN-C20",
+   "title": "Insulin given to the wrong client",
+   "system": "Endocrine",
+   "discipline": "Management of Care",
+   "items": [
+    "PN-C20-01",
+    "PN-C20-02",
+    "PN-C20-03",
+    "PN-C20-04",
+    "PN-C20-05",
+    "PN-C20-06"
+   ],
+   "needs_review": false
   }
  ]
 }

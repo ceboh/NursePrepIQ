@@ -1,0 +1,1538 @@
+{
+ "_comment": "PN NGN unfolding case studies, batch 04 (PN-C16 to PN-C20). Six items per case, one per clinical judgment step. Pilot status.",
+ "track": "pn",
+ "questions": [
+  {
+   "source_id": "PN-C16-01",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 1,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Recognize cues",
+   "item_type": "highlight",
+   "stem": "Highlight the findings that require immediate follow-up.",
+   "rationale": "Sudden facial droop, arm drift, and speech changes are signs of stroke, and an irregular pulse with missed anticoagulant doses increases the risk of an embolic stroke. The time last known well determines treatment options. A normal glucose and oxygen saturation and the ability to follow commands do not need immediate action.",
+   "passage_segments": [
+    {
+     "id": "s1",
+     "text": "Right side of the face droops"
+    },
+    {
+     "id": "s2",
+     "text": "Right arm drifts down"
+    },
+    {
+     "id": "s3",
+     "text": "Speech slurred, with trouble finding words"
+    },
+    {
+     "id": "s4",
+     "text": "HR 96/min and irregular"
+    },
+    {
+     "id": "s5",
+     "text": "Refused the last two doses of apixaban"
+    },
+    {
+     "id": "s6",
+     "text": "Last seen acting normally at 0930"
+    },
+    {
+     "id": "s7",
+     "text": "Glucose 118 mg/dL"
+    },
+    {
+     "id": "s8",
+     "text": "SpO2 95% on room air"
+    },
+    {
+     "id": "s9",
+     "text": "Alert and follows commands"
+    }
+   ],
+   "correct_text": "Right side of the face droops; Right arm drifts down; Speech slurred, with trouble finding words; HR 96/min and irregular; Refused the last two doses of apixaban; Last seen acting normally at 0930",
+   "answer_summary": "Right side of the face droops; Right arm drifts down; Speech slurred, with trouble finding words; HR 96/min and irregular; Refused the last two doses of apixaban; Last seen acting normally at 0930",
+   "scoring": "plus_minus",
+   "case_id": "PN-C16",
+   "case_sequence": 1,
+   "clinical_judgment_step": "Recognize cues",
+   "content_hash": "f95281ace511e5f2"
+  },
+  {
+   "source_id": "PN-C16-02",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 2,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Analyze cues",
+   "item_type": "matrix_grid",
+   "stem": "For each finding, indicate whether it supports a stroke or helps rule out a condition that can mimic a stroke.",
+   "rationale": "Sudden one-sided weakness and speech changes in a client with atrial fibrillation who missed anticoagulant doses strongly suggest stroke. A normal glucose rules out hypoglycemia, and no seizure activity makes weakness after a seizure unlikely; both conditions can mimic a stroke.",
+   "columns": [
+    "Supports stroke",
+    "Helps rule out a mimic"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Sudden onset about 45 minutes ago",
+     "correct_column": "Supports stroke"
+    },
+    {
+     "id": "r2",
+     "text": "Right facial droop and right arm drift",
+     "correct_column": "Supports stroke"
+    },
+    {
+     "id": "r3",
+     "text": "Irregular pulse with missed anticoagulant doses",
+     "correct_column": "Supports stroke"
+    },
+    {
+     "id": "r4",
+     "text": "Glucose 118 mg/dL",
+     "correct_column": "Helps rule out a mimic"
+    },
+    {
+     "id": "r5",
+     "text": "No seizure activity before the symptoms",
+     "correct_column": "Helps rule out a mimic"
+    }
+   ],
+   "answer_summary": "Sudden onset about 45 minutes ago: Supports stroke; Right facial droop and right arm drift: Supports stroke; Irregular pulse with missed anticoagulant doses: Supports stroke; Glucose 118 mg/dL: Helps rule out a mimic; No seizure activity before the symptoms: Helps rule out a mimic",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C16",
+   "case_sequence": 2,
+   "clinical_judgment_step": "Analyze cues",
+   "content_hash": "7096108959af6a0c"
+  },
+  {
+   "source_id": "PN-C16-03",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 3,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Prioritize hypotheses",
+   "item_type": "drop_down_cloze",
+   "stem": "Complete the sentence by choosing from the lists of options.",
+   "rationale": "Sudden facial droop, arm drift, and speech changes indicate a stroke. Treatments such as clot-dissolving medicine or clot removal depend on how much time has passed since the resident was last known well. The glucose is normal, and Bell's palsy affects only the face.",
+   "template": "The resident is most likely experiencing ___1___, and the most important information for the emergency team is ___2___.",
+   "blanks": [
+    {
+     "id": "1",
+     "options": [
+      "an acute stroke",
+      "hypoglycemia",
+      "Bell's palsy"
+     ],
+     "correct": "an acute stroke"
+    },
+    {
+     "id": "2",
+     "options": [
+      "the time the resident was last known well",
+      "the resident's breakfast intake",
+      "the resident's favorite activities"
+     ],
+     "correct": "the time the resident was last known well"
+    }
+   ],
+   "answer_summary": "1: an acute stroke; 2: the time the resident was last known well",
+   "scoring": "zero_one_per_blank",
+   "case_id": "PN-C16",
+   "case_sequence": 3,
+   "clinical_judgment_step": "Prioritize hypotheses",
+   "content_hash": "061895dc0aa03f84"
+  },
+  {
+   "source_id": "PN-C16-04",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 4,
+   "client_need": "Coordinated Care",
+   "topic": "Case study: Generate solutions",
+   "item_type": "multiple_response",
+   "stem": "Following the facility protocol, which actions should the LPN/VN take? Select all that apply.",
+   "rationale": "The protocol calls for emergency transport, notifying the RN and provider, recording the time last known well, keeping the resident NPO because swallowing may be impaired, and close monitoring. Anticoagulants or aspirin are not given until imaging rules out bleeding, and waiting loses time for treatment.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Call 911",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Notify the RN supervisor and the provider",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Keep the resident NPO until a swallow screen is done",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Record the time the resident was last known well",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Stay with the resident and monitor neurologic status",
+     "is_correct": true
+    },
+    {
+     "key": "F",
+     "text": "Give the missed apixaban dose now",
+     "is_correct": false
+    },
+    {
+     "key": "G",
+     "text": "Give aspirin from the stock supply",
+     "is_correct": false
+    },
+    {
+     "key": "H",
+     "text": "Wait 1 hour to see whether the symptoms resolve",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D, E",
+   "scoring": "plus_minus",
+   "case_id": "PN-C16",
+   "case_sequence": 4,
+   "clinical_judgment_step": "Generate solutions",
+   "content_hash": "679ff0f7d67bb2aa"
+  },
+  {
+   "source_id": "PN-C16-05",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 5,
+   "client_need": "Coordinated Care",
+   "topic": "Case study: Take action",
+   "item_type": "single_best_answer",
+   "stem": "Paramedics arrive. Which information is most important for the LPN/VN to include in the handoff?",
+   "rationale": "The receiving team needs the time last known well, the deficits and their onset, the glucose result, anticoagulant use and missed doses, and code status to make treatment decisions quickly. Food preferences, visitors, and insurance information do not affect emergency stroke care.",
+   "answer_summary": "C",
+   "options": [
+    {
+     "key": "A",
+     "text": "The resident's food preferences, usual bedtime routine, and favorite daily activities",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "The names of the resident's visitors this week",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "The time last known well, current deficits, glucose, missed apixaban doses, and code status",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "The resident's insurance information",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "case_id": "PN-C16",
+   "case_sequence": 5,
+   "clinical_judgment_step": "Take action",
+   "content_hash": "b1232e9df85fb3a1"
+  },
+  {
+   "source_id": "PN-C16-06",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 6,
+   "client_need": "Reduction of Risk Potential",
+   "topic": "Case study: Evaluate outcomes",
+   "item_type": "matrix_grid",
+   "stem": "Five days later, the resident returns from the hospital after treatment. For each finding, indicate whether it shows improvement or needs follow-up.",
+   "rationale": "Clear speech, returning arm strength, a passed swallow screen, and controlled blood pressure show recovery. Coughing and a wet voice with thin liquids suggest aspiration, so the LPN/VN holds thin liquids and reports the finding so a speech-language pathologist can reevaluate swallowing.",
+   "columns": [
+    "Improvement",
+    "Needs follow-up"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Speech clear",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r2",
+     "text": "Right arm strength nearly equal to the left",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r3",
+     "text": "Passed a swallow screen and eats a soft diet",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r4",
+     "text": "BP 132/78 mm Hg",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r5",
+     "text": "Coughs and has a wet-sounding voice when drinking thin liquids",
+     "correct_column": "Needs follow-up"
+    }
+   ],
+   "answer_summary": "Speech clear: Improvement; Right arm strength nearly equal to the left: Improvement; Passed a swallow screen and eats a soft diet: Improvement; BP 132/78 mm Hg: Improvement; Coughs and has a wet-sounding voice when drinking thin liquids: Needs follow-up",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C16",
+   "case_sequence": 6,
+   "clinical_judgment_step": "Evaluate outcomes",
+   "content_hash": "753b8189243d4932"
+  },
+  {
+   "source_id": "PN-C17-01",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 1,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Recognize cues",
+   "item_type": "highlight",
+   "stem": "Highlight the findings that require follow-up.",
+   "rationale": "Minor bleeding signs and an INR well above the goal show excessive anticoagulation. The new antibiotic, which increases warfarin's effect, and lower vitamin K intake from eating less explain the rise. The absence of black stools and a normal hemoglobin suggest no major bleeding.",
+   "passage_segments": [
+    {
+     "id": "s1",
+     "text": "Gums bleed when brushing"
+    },
+    {
+     "id": "s2",
+     "text": "Nosebleed yesterday"
+    },
+    {
+     "id": "s3",
+     "text": "Several bruises on both forearms"
+    },
+    {
+     "id": "s4",
+     "text": "Eating less because of the sinus infection"
+    },
+    {
+     "id": "s5",
+     "text": "INR 5.8"
+    },
+    {
+     "id": "s6",
+     "text": "Trimethoprim-sulfamethoxazole started 5 days ago"
+    },
+    {
+     "id": "s7",
+     "text": "Denies black stools"
+    },
+    {
+     "id": "s8",
+     "text": "Hemoglobin 12.9 g/dL"
+    }
+   ],
+   "correct_text": "Gums bleed when brushing; Nosebleed yesterday; Several bruises on both forearms; Eating less because of the sinus infection; INR 5.8; Trimethoprim-sulfamethoxazole started 5 days ago",
+   "answer_summary": "Gums bleed when brushing; Nosebleed yesterday; Several bruises on both forearms; Eating less because of the sinus infection; INR 5.8; Trimethoprim-sulfamethoxazole started 5 days ago",
+   "scoring": "plus_minus",
+   "case_id": "PN-C17",
+   "case_sequence": 1,
+   "clinical_judgment_step": "Recognize cues",
+   "content_hash": "93a85cfef52b2f0f"
+  },
+  {
+   "source_id": "PN-C17-02",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 2,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Analyze cues",
+   "item_type": "matrix_grid",
+   "stem": "For each factor, indicate whether it tends to increase or decrease the effect of warfarin.",
+   "rationale": "Some antibiotics, including trimethoprim-sulfamethoxazole, raise warfarin levels and the INR, and less vitamin K in the diet strengthens warfarin's effect. A sudden increase in vitamin K foods, vitamin K given as an antidote, and missed doses lower the effect.",
+   "columns": [
+    "Increases effect",
+    "Decreases effect"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Taking trimethoprim-sulfamethoxazole",
+     "correct_column": "Increases effect"
+    },
+    {
+     "id": "r2",
+     "text": "Eating fewer foods that contain vitamin K",
+     "correct_column": "Increases effect"
+    },
+    {
+     "id": "r3",
+     "text": "Eating a large serving of kale every day",
+     "correct_column": "Decreases effect"
+    },
+    {
+     "id": "r4",
+     "text": "Receiving vitamin K",
+     "correct_column": "Decreases effect"
+    },
+    {
+     "id": "r5",
+     "text": "Missing several warfarin doses",
+     "correct_column": "Decreases effect"
+    }
+   ],
+   "answer_summary": "Taking trimethoprim-sulfamethoxazole: Increases effect; Eating fewer foods that contain vitamin K: Increases effect; Eating a large serving of kale every day: Decreases effect; Receiving vitamin K: Decreases effect; Missing several warfarin doses: Decreases effect",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C17",
+   "case_sequence": 2,
+   "clinical_judgment_step": "Analyze cues",
+   "content_hash": "c86e928d79d0c6ef"
+  },
+  {
+   "source_id": "PN-C17-03",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 3,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Prioritize hypotheses",
+   "item_type": "drop_down_cloze",
+   "stem": "Complete the sentence by choosing from the lists of options.",
+   "rationale": "The antibiotic interaction and reduced vitamin K intake increased warfarin's effect, raising the INR and the risk of bleeding. A clot on the valve would be a risk with a low INR, and leafy greens would lower the INR.",
+   "template": "The elevated INR is most likely caused by ___1___, and the client is at risk for ___2___.",
+   "blanks": [
+    {
+     "id": "1",
+     "options": [
+      "an interaction with the antibiotic and lower vitamin K intake",
+      "a blood clot on the heart valve",
+      "eating more leafy greens"
+     ],
+     "correct": "an interaction with the antibiotic and lower vitamin K intake"
+    },
+    {
+     "id": "2",
+     "options": [
+      "bleeding",
+      "clotting of the valve",
+      "hypoglycemia"
+     ],
+     "correct": "bleeding"
+    }
+   ],
+   "answer_summary": "1: an interaction with the antibiotic and lower vitamin K intake; 2: bleeding",
+   "scoring": "zero_one_per_blank",
+   "case_id": "PN-C17",
+   "case_sequence": 3,
+   "clinical_judgment_step": "Prioritize hypotheses",
+   "content_hash": "6f943aae6f0e924f"
+  },
+  {
+   "source_id": "PN-C17-04",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 4,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Generate solutions",
+   "item_type": "multiple_response",
+   "stem": "Which instructions should the LPN/VN reinforce with the client? Select all that apply.",
+   "rationale": "Bleeding precautions, prompt reporting of signs of serious bleeding, consistent vitamin K intake, and checking for interactions before new medicines keep warfarin therapy safe. Aspirin increases bleeding risk, and missed doses are not doubled.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Use a soft toothbrush and an electric razor",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Report black stools, blood in the urine, or a severe headache right away",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Keep vitamin K intake about the same each day",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Tell every provider about warfarin before starting a new medicine",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Take aspirin for sinus pain",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Double the next dose if a dose is missed",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "case_id": "PN-C17",
+   "case_sequence": 4,
+   "clinical_judgment_step": "Generate solutions",
+   "content_hash": "47bdd358a7f80bae"
+  },
+  {
+   "source_id": "PN-C17-05",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 5,
+   "client_need": "Coordinated Care",
+   "topic": "Case study: Take action",
+   "item_type": "single_best_answer",
+   "stem": "The client says, \"Can't you just tell me how much warfarin to take so I don't have to wait for the provider?\" What is the LPN/VN's best response?",
+   "rationale": "Changing an anticoagulant dose requires a provider's prescription, especially with a mechanical valve, where too little anticoagulation risks a clot. The LPN/VN communicates the INR and bleeding signs to the provider promptly. Independent dose instructions and dismissing the bleeding are unsafe.",
+   "answer_summary": "A",
+   "options": [
+    {
+     "key": "A",
+     "text": "\"The provider adjusts the dose. I'll relay your INR and symptoms today.\"",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "\"Skip your warfarin for the next week, and then restart your usual dose after that.\"",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "\"Cut your dose in half until your INR is back in the goal range for your heart valve.\"",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "\"Keep taking the same dose, since a little bleeding is expected with warfarin.\"",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "case_id": "PN-C17",
+   "case_sequence": 5,
+   "clinical_judgment_step": "Take action",
+   "content_hash": "59bceeb1d0ba1b4d"
+  },
+  {
+   "source_id": "PN-C17-06",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 6,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Evaluate outcomes",
+   "item_type": "matrix_grid",
+   "stem": "Three days later, the client returns for a recheck. For each finding, indicate whether it shows improvement or needs follow-up.",
+   "rationale": "An INR back in the goal range, no new bruising or gum bleeding, and an understanding of drug interactions show improvement. New pink-tinged urine may be blood and must be reported.",
+   "columns": [
+    "Improvement",
+    "Needs follow-up"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "INR 3.0",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r2",
+     "text": "No new bruises",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r3",
+     "text": "Gums no longer bleed when brushing",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r4",
+     "text": "Says, \"I'll ask before starting any new medicine.\"",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r5",
+     "text": "New pink-tinged urine",
+     "correct_column": "Needs follow-up"
+    }
+   ],
+   "answer_summary": "INR 3.0: Improvement; No new bruises: Improvement; Gums no longer bleed when brushing: Improvement; Says, \"I'll ask before starting any new medicine.\": Improvement; New pink-tinged urine: Needs follow-up",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C17",
+   "case_sequence": 6,
+   "clinical_judgment_step": "Evaluate outcomes",
+   "content_hash": "da4eaf1787e8ac70"
+  },
+  {
+   "source_id": "PN-C18-01",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 1,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Recognize cues",
+   "item_type": "highlight",
+   "stem": "Highlight the findings that require follow-up.",
+   "rationale": "Frequent diarrhea, reduced urine output, sticky mucous membranes, fewer tears, a 5% weight loss, and a fast heart rate show dehydration. A normal capillary refill and a consolable child suggest the dehydration is not severe.",
+   "passage_segments": [
+    {
+     "id": "s1",
+     "text": "Six watery stools in 24 hours"
+    },
+    {
+     "id": "s2",
+     "text": "One wet diaper since last night"
+    },
+    {
+     "id": "s3",
+     "text": "Mucous membranes sticky"
+    },
+    {
+     "id": "s4",
+     "text": "Fewer tears than usual"
+    },
+    {
+     "id": "s5",
+     "text": "Weight down from 12 kg to 11.4 kg"
+    },
+    {
+     "id": "s6",
+     "text": "HR 132/min"
+    },
+    {
+     "id": "s7",
+     "text": "Capillary refill 2 seconds"
+    },
+    {
+     "id": "s8",
+     "text": "Fussy but consolable"
+    }
+   ],
+   "correct_text": "Six watery stools in 24 hours; One wet diaper since last night; Mucous membranes sticky; Fewer tears than usual; Weight down from 12 kg to 11.4 kg; HR 132/min",
+   "answer_summary": "Six watery stools in 24 hours; One wet diaper since last night; Mucous membranes sticky; Fewer tears than usual; Weight down from 12 kg to 11.4 kg; HR 132/min",
+   "scoring": "plus_minus",
+   "case_id": "PN-C18",
+   "case_sequence": 1,
+   "clinical_judgment_step": "Recognize cues",
+   "content_hash": "2a34c21afbfc92d1"
+  },
+  {
+   "source_id": "PN-C18-02",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 2,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Analyze cues",
+   "item_type": "matrix_grid",
+   "stem": "For each finding, indicate whether it is consistent with mild to moderate dehydration or with severe dehydration.",
+   "rationale": "Mild to moderate dehydration causes dry or sticky mucous membranes, fewer tears, and weight loss of about 3 to 9%. Severe dehydration causes lethargy, delayed capillary refill, very low or no urine output, sunken eyes, and absent tears, and needs urgent IV fluids.",
+   "columns": [
+    "Mild to moderate",
+    "Severe"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Sticky mucous membranes",
+     "correct_column": "Mild to moderate"
+    },
+    {
+     "id": "r2",
+     "text": "Fewer tears than usual",
+     "correct_column": "Mild to moderate"
+    },
+    {
+     "id": "r3",
+     "text": "Weight loss of about 5%",
+     "correct_column": "Mild to moderate"
+    },
+    {
+     "id": "r4",
+     "text": "Lethargic and hard to wake",
+     "correct_column": "Severe"
+    },
+    {
+     "id": "r5",
+     "text": "Capillary refill longer than 3 seconds",
+     "correct_column": "Severe"
+    },
+    {
+     "id": "r6",
+     "text": "No urine for 12 hours with sunken eyes and no tears",
+     "correct_column": "Severe"
+    }
+   ],
+   "answer_summary": "Sticky mucous membranes: Mild to moderate; Fewer tears than usual: Mild to moderate; Weight loss of about 5%: Mild to moderate; Lethargic and hard to wake: Severe; Capillary refill longer than 3 seconds: Severe; No urine for 12 hours with sunken eyes and no tears: Severe",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C18",
+   "case_sequence": 2,
+   "clinical_judgment_step": "Analyze cues",
+   "content_hash": "73135c1bee5d7d56"
+  },
+  {
+   "source_id": "PN-C18-03",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 3,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Prioritize hypotheses",
+   "item_type": "drop_down_cloze",
+   "stem": "Complete the sentence by choosing from the lists of options.",
+   "rationale": "The findings fit mild to moderate dehydration, which is treated first with oral rehydration solution given in small, frequent amounts. IV fluids are for severe dehydration or failed oral rehydration, and juice and sports drinks have too much sugar and too little sodium.",
+   "template": "The child most likely has ___1___ dehydration, and the first-line treatment is ___2___.",
+   "blanks": [
+    {
+     "id": "1",
+     "options": [
+      "mild to moderate",
+      "severe",
+      "no"
+     ],
+     "correct": "mild to moderate"
+    },
+    {
+     "id": "2",
+     "options": [
+      "oral rehydration solution in small, frequent amounts",
+      "IV fluids right away",
+      "apple juice and sports drinks"
+     ],
+     "correct": "oral rehydration solution in small, frequent amounts"
+    }
+   ],
+   "answer_summary": "1: mild to moderate; 2: oral rehydration solution in small, frequent amounts",
+   "scoring": "zero_one_per_blank",
+   "case_id": "PN-C18",
+   "case_sequence": 3,
+   "clinical_judgment_step": "Prioritize hypotheses",
+   "content_hash": "81f8849580f6631b"
+  },
+  {
+   "source_id": "PN-C18-04",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 4,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Case study: Generate solutions",
+   "item_type": "multiple_response",
+   "stem": "Which instructions about oral rehydration should the LPN/VN reinforce with the parent? Select all that apply.",
+   "rationale": "Small, frequent amounts of oral rehydration solution are usually tolerated even with vomiting. The usual diet resumes once the child is rehydrated, and parents watch urine output and signs of worsening. Sugary drinks can worsen diarrhea, and prolonged fasting is not recommended.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Give about 5 mL of oral rehydration solution every 1 to 2 minutes, increasing as tolerated",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Restart the child's usual diet once the child is rehydrated",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Count wet diapers and call if there are fewer than usual",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Call right away if the child becomes very sleepy or cannot keep fluids down",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Give fruit juice or soda to replace fluids",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Stop all food for 48 hours",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "case_id": "PN-C18",
+   "case_sequence": 4,
+   "clinical_judgment_step": "Generate solutions",
+   "content_hash": "599b22c4b35311f3"
+  },
+  {
+   "source_id": "PN-C18-05",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 5,
+   "client_need": "Coordinated Care",
+   "topic": "Case study: Take action",
+   "item_type": "single_best_answer",
+   "stem": "Which task can the LPN/VN delegate to the assistive personnel in the clinic?",
+   "rationale": "Weighing and recording are routine tasks that can be delegated. Teaching, evaluating the child's response to treatment, and deciding about IV fluids require nursing or provider judgment.",
+   "answer_summary": "B",
+   "options": [
+    {
+     "key": "A",
+     "text": "Teaching the parent how to give oral rehydration solution at home",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Weighing the child on the clinic scale and recording the weight",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Deciding whether the child needs IV fluids",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Checking the child's response to the first trial of oral rehydration fluid",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "case_id": "PN-C18",
+   "case_sequence": 5,
+   "clinical_judgment_step": "Take action",
+   "content_hash": "33ffb4d70d859f25"
+  },
+  {
+   "source_id": "PN-C18-06",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 6,
+   "client_need": "Safety and Infection Control",
+   "topic": "Case study: Evaluate outcomes",
+   "item_type": "matrix_grid",
+   "stem": "The LPN/VN reinforces infection prevention at home. For each parent statement, indicate whether it shows understanding or a need for more teaching.",
+   "rationale": "Viral gastroenteritis spreads easily. Soap-and-water handwashing, bleach-based cleaning, and not sharing utensils reduce spread. Children usually stay home from child care until the diarrhea has stopped, and alcohol-based sanitizer does not reliably kill some common causes, such as norovirus.",
+   "columns": [
+    "Understands",
+    "Needs more teaching"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "\"I'll wash my hands with soap and water after every diaper change.\"",
+     "correct_column": "Understands"
+    },
+    {
+     "id": "r2",
+     "text": "\"I'll clean the changing area with a bleach-based cleaner.\"",
+     "correct_column": "Understands"
+    },
+    {
+     "id": "r3",
+     "text": "\"I'll keep my child's cups and utensils separate.\"",
+     "correct_column": "Understands"
+    },
+    {
+     "id": "r4",
+     "text": "\"My child can go back to child care as soon as the vomiting stops, even if the diarrhea continues.\"",
+     "correct_column": "Needs more teaching"
+    },
+    {
+     "id": "r5",
+     "text": "\"Hand sanitizer alone is enough after diaper changes.\"",
+     "correct_column": "Needs more teaching"
+    }
+   ],
+   "answer_summary": "\"I'll wash my hands with soap and water after every diaper change.\": Understands; \"I'll clean the changing area with a bleach-based cleaner.\": Understands; \"I'll keep my child's cups and utensils separate.\": Understands; \"My child can go back to child care as soon as the vomiting stops, even if the diarrhea continues.\": Needs more teaching; \"Hand sanitizer alone is enough after diaper changes.\": Needs more teaching",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C18",
+   "case_sequence": 6,
+   "clinical_judgment_step": "Evaluate outcomes",
+   "content_hash": "7b1dfb6d8ee538dc"
+  },
+  {
+   "source_id": "PN-C19-01",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 1,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Case study: Recognize cues",
+   "item_type": "highlight",
+   "stem": "Highlight the findings that require follow-up.",
+   "rationale": "Agitation, constipation, possible knee pain, and a new anticholinergic medicine are likely contributors to the client's behavior. The spouse's sleep loss, isolation, and statement of being unable to continue show caregiver strain. Donepezil is the client's usual dementia medicine.",
+   "passage_segments": [
+    {
+     "id": "s1",
+     "text": "Pacing and pulling at clothes"
+    },
+    {
+     "id": "s2",
+     "text": "Became angry when a bath was insisted on"
+    },
+    {
+     "id": "s3",
+     "text": "No bowel movement in 4 days"
+    },
+    {
+     "id": "s4",
+     "text": "Grimaces when moving the left knee"
+    },
+    {
+     "id": "s5",
+     "text": "Diphenhydramine at bedtime, started 1 week ago"
+    },
+    {
+     "id": "s6",
+     "text": "Spouse sleeps 3 to 4 hours a night"
+    },
+    {
+     "id": "s7",
+     "text": "\"I can't do this anymore\""
+    },
+    {
+     "id": "s8",
+     "text": "Donepezil 10 mg by mouth daily"
+    }
+   ],
+   "correct_text": "Pacing and pulling at clothes; Became angry when a bath was insisted on; No bowel movement in 4 days; Grimaces when moving the left knee; Diphenhydramine at bedtime, started 1 week ago; Spouse sleeps 3 to 4 hours a night; \"I can't do this anymore\"",
+   "answer_summary": "Pacing and pulling at clothes; Became angry when a bath was insisted on; No bowel movement in 4 days; Grimaces when moving the left knee; Diphenhydramine at bedtime, started 1 week ago; Spouse sleeps 3 to 4 hours a night; \"I can't do this anymore\"",
+   "scoring": "plus_minus",
+   "case_id": "PN-C19",
+   "case_sequence": 1,
+   "clinical_judgment_step": "Recognize cues",
+   "content_hash": "cf11bb001203fba9"
+  },
+  {
+   "source_id": "PN-C19-02",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 2,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Case study: Analyze cues",
+   "item_type": "matrix_grid",
+   "stem": "For each factor, indicate whether it is a likely trigger of the client's agitation.",
+   "rationale": "People with dementia often express unmet needs, such as pain or constipation, through agitation, and symptoms commonly worsen in the late afternoon. Diphenhydramine is anticholinergic and can increase confusion in older adults, and being rushed through care can feel threatening. Donepezil is not a usual cause of agitation.",
+   "columns": [
+    "Likely trigger",
+    "Not a likely trigger"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Constipation for 4 days",
+     "correct_column": "Likely trigger"
+    },
+    {
+     "id": "r2",
+     "text": "Pain in the left knee",
+     "correct_column": "Likely trigger"
+    },
+    {
+     "id": "r3",
+     "text": "Late afternoon and evening hours",
+     "correct_column": "Likely trigger"
+    },
+    {
+     "id": "r4",
+     "text": "Bedtime diphenhydramine",
+     "correct_column": "Likely trigger"
+    },
+    {
+     "id": "r5",
+     "text": "Being rushed into a bath",
+     "correct_column": "Likely trigger"
+    },
+    {
+     "id": "r6",
+     "text": "Daily donepezil",
+     "correct_column": "Not a likely trigger"
+    }
+   ],
+   "answer_summary": "Constipation for 4 days: Likely trigger; Pain in the left knee: Likely trigger; Late afternoon and evening hours: Likely trigger; Bedtime diphenhydramine: Likely trigger; Being rushed into a bath: Likely trigger; Daily donepezil: Not a likely trigger",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C19",
+   "case_sequence": 2,
+   "clinical_judgment_step": "Analyze cues",
+   "content_hash": "4e307e891eceeba3"
+  },
+  {
+   "source_id": "PN-C19-03",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 3,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Case study: Prioritize hypotheses",
+   "item_type": "drop_down_cloze",
+   "stem": "Complete the sentence by choosing from the lists of options.",
+   "rationale": "Pain, constipation, late-day sundowning, and an anticholinergic medicine explain the change in behavior, which is not intentional. The spouse's exhaustion, isolation, statement of being unable to cope, and yelling are signs of caregiver strain that put both people at risk.",
+   "template": "The client's agitation is most likely related to ___1___, and the spouse is showing signs of ___2___.",
+   "blanks": [
+    {
+     "id": "1",
+     "options": [
+      "unmet needs and sundowning made worse by diphenhydramine",
+      "the normal progression of dementia alone",
+      "a wish to upset the spouse"
+     ],
+     "correct": "unmet needs and sundowning made worse by diphenhydramine"
+    },
+    {
+     "id": "2",
+     "options": [
+      "caregiver strain",
+      "normal adjustment",
+      "depression in the client"
+     ],
+     "correct": "caregiver strain"
+    }
+   ],
+   "answer_summary": "1: unmet needs and sundowning made worse by diphenhydramine; 2: caregiver strain",
+   "scoring": "zero_one_per_blank",
+   "case_id": "PN-C19",
+   "case_sequence": 3,
+   "clinical_judgment_step": "Prioritize hypotheses",
+   "content_hash": "f709a13b8c160edf"
+  },
+  {
+   "source_id": "PN-C19-04",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 4,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Case study: Generate solutions",
+   "item_type": "multiple_response",
+   "stem": "Which strategies should the LPN/VN reinforce with the spouse? Select all that apply.",
+   "rationale": "Choosing calmer times for care, offering simple choices, redirecting, keeping routines, and adding daytime activity and light reduce agitation and sundowning. Repeatedly correcting the client causes distress, and more diphenhydramine would worsen confusion.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Offer the bath at a calmer time of day and give simple choices",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Use calm redirection instead of arguing",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Keep a consistent daily routine",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Increase daytime activity and light",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Correct the client each time the client asks for the deceased parent",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Give an extra dose of diphenhydramine when the client is agitated",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "case_id": "PN-C19",
+   "case_sequence": 4,
+   "clinical_judgment_step": "Generate solutions",
+   "content_hash": "4d53f83c0d5376a6"
+  },
+  {
+   "source_id": "PN-C19-05",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 5,
+   "client_need": "Coordinated Care",
+   "topic": "Case study: Take action",
+   "item_type": "single_best_answer",
+   "stem": "Which action should the LPN/VN take in response to the spouse's statements?",
+   "rationale": "Caregiver strain, including yelling at the client, needs a coordinated response, such as respite care, home health aide support, social work, and support groups, which the RN arranges with the team. The other responses blame the spouse, worsen the client's confusion, or dismiss the problem.",
+   "answer_summary": "D",
+   "options": [
+    {
+     "key": "A",
+     "text": "Tell the spouse that caregivers need to try harder to stay patient with the client",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Suggest that the spouse give the client more diphenhydramine on difficult nights",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Tell the spouse that these feelings will pass on their own with time",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Report the caregiver strain to the RN so support can be arranged",
+     "is_correct": true
+    }
+   ],
+   "scoring": "zero_one",
+   "case_id": "PN-C19",
+   "case_sequence": 5,
+   "clinical_judgment_step": "Take action",
+   "content_hash": "38e3d1e9c98d4122"
+  },
+  {
+   "source_id": "PN-C19-06",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 6,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Case study: Evaluate outcomes",
+   "item_type": "matrix_grid",
+   "stem": "Three weeks later, the LPN/VN revisits. For each finding, indicate whether it shows improvement or needs follow-up.",
+   "rationale": "Fewer outbursts, regular bowel movements, less pain, and the spouse's use of a support group show progress. Ongoing exhaustion and statements of being unable to cope mean the spouse needs more help, such as respite care, so the LPN/VN reports it.",
+   "columns": [
+    "Improvement",
+    "Needs follow-up"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Fewer outbursts in the late afternoon",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r2",
+     "text": "A soft bowel movement every day",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r3",
+     "text": "Walks without grimacing",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r4",
+     "text": "Spouse attends a caregiver support group each week",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r5",
+     "text": "Spouse still sleeps 4 hours a night and says, \"I can't cope\"",
+     "correct_column": "Needs follow-up"
+    }
+   ],
+   "answer_summary": "Fewer outbursts in the late afternoon: Improvement; A soft bowel movement every day: Improvement; Walks without grimacing: Improvement; Spouse attends a caregiver support group each week: Improvement; Spouse still sleeps 4 hours a night and says, \"I can't cope\": Needs follow-up",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C19",
+   "case_sequence": 6,
+   "clinical_judgment_step": "Evaluate outcomes",
+   "content_hash": "6bf2abb9f517bf39"
+  },
+  {
+   "source_id": "PN-C20-01",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 1,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Recognize cues",
+   "item_type": "highlight",
+   "stem": "Highlight the findings that put the client in bed 2 at risk for harm.",
+   "rationale": "A client who does not normally use insulin received a full dose of rapid-acting insulin before eating, and the glucose is already falling, so hypoglycemia is likely as the insulin peaks. Being alert and symptom-free now does not mean the client will stay safe.",
+   "passage_segments": [
+    {
+     "id": "s1",
+     "text": "10 units of rapid-acting insulin lispro"
+    },
+    {
+     "id": "s2",
+     "text": "Managed with diet and metformin"
+    },
+    {
+     "id": "s3",
+     "text": "Has not yet eaten breakfast"
+    },
+    {
+     "id": "s4",
+     "text": "Breakfast tray arriving at 0800"
+    },
+    {
+     "id": "s5",
+     "text": "Glucose 128 mg/dL at 0745, down from 142"
+    },
+    {
+     "id": "s6",
+     "text": "Alert and oriented"
+    },
+    {
+     "id": "s7",
+     "text": "No symptoms"
+    }
+   ],
+   "correct_text": "10 units of rapid-acting insulin lispro; Managed with diet and metformin; Has not yet eaten breakfast; Breakfast tray arriving at 0800; Glucose 128 mg/dL at 0745, down from 142",
+   "answer_summary": "10 units of rapid-acting insulin lispro; Managed with diet and metformin; Has not yet eaten breakfast; Breakfast tray arriving at 0800; Glucose 128 mg/dL at 0745, down from 142",
+   "scoring": "plus_minus",
+   "case_id": "PN-C20",
+   "case_sequence": 1,
+   "clinical_judgment_step": "Recognize cues",
+   "content_hash": "df2564209c84cc5d"
+  },
+  {
+   "source_id": "PN-C20-02",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 2,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Analyze cues",
+   "item_type": "matrix_grid",
+   "stem": "For each time point after the 0730 dose of insulin lispro, indicate the expected insulin action.",
+   "rationale": "Rapid-acting insulin lispro starts working in about 15 minutes, peaks in about 1 to 2 hours, and lasts about 3 to 5 hours. The risk of hypoglycemia is highest at the peak, so monitoring is most important then.",
+   "columns": [
+    "Onset",
+    "Peak",
+    "Wearing off"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "About 0745",
+     "correct_column": "Onset"
+    },
+    {
+     "id": "r2",
+     "text": "About 0830 to 0930",
+     "correct_column": "Peak"
+    },
+    {
+     "id": "r3",
+     "text": "About 1130 to 1230",
+     "correct_column": "Wearing off"
+    },
+    {
+     "id": "r4",
+     "text": "The time of greatest risk for hypoglycemia",
+     "correct_column": "Peak"
+    }
+   ],
+   "answer_summary": "About 0745: Onset; About 0830 to 0930: Peak; About 1130 to 1230: Wearing off; The time of greatest risk for hypoglycemia: Peak",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C20",
+   "case_sequence": 2,
+   "clinical_judgment_step": "Analyze cues",
+   "content_hash": "e2e525972032e7cc"
+  },
+  {
+   "source_id": "PN-C20-03",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 3,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Prioritize hypotheses",
+   "item_type": "drop_down_cloze",
+   "stem": "Complete the sentence by choosing from the lists of options.",
+   "rationale": "Extra insulin in a client who does not use insulin lowers blood glucose, with the greatest effect when rapid-acting insulin peaks about 1 to 2 hours after the dose.",
+   "template": "The client is at greatest risk for ___1___ between ___2___.",
+   "blanks": [
+    {
+     "id": "1",
+     "options": [
+      "hypoglycemia",
+      "hyperglycemia",
+      "diabetic ketoacidosis"
+     ],
+     "correct": "hypoglycemia"
+    },
+    {
+     "id": "2",
+     "options": [
+      "0830 and 0930",
+      "0730 and 0745",
+      "1400 and 1600"
+     ],
+     "correct": "0830 and 0930"
+    }
+   ],
+   "answer_summary": "1: hypoglycemia; 2: 0830 and 0930",
+   "scoring": "zero_one_per_blank",
+   "case_id": "PN-C20",
+   "case_sequence": 3,
+   "clinical_judgment_step": "Prioritize hypotheses",
+   "content_hash": "61df11f4cf8dcb43"
+  },
+  {
+   "source_id": "PN-C20-04",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 4,
+   "client_need": "Coordinated Care",
+   "topic": "Case study: Generate solutions",
+   "item_type": "multiple_response",
+   "stem": "Following the facility policy, which actions should the LPN/VN take? Select all that apply.",
+   "rationale": "The policy requires immediate notification, protecting the client from hypoglycemia, monitoring, and an event report. The client in bed 1 also missed the prescribed dose, which must be addressed. Waiting is unsafe, and the event report is not mentioned in the medical record.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Notify the RN and provider immediately",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Make sure the client eats breakfast and has fast-acting glucose available",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Monitor glucose as the provider prescribes",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Complete an event report",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Report that the client in bed 1 has not received the prescribed insulin",
+     "is_correct": true
+    },
+    {
+     "key": "F",
+     "text": "Wait to see whether symptoms develop before telling anyone",
+     "is_correct": false
+    },
+    {
+     "key": "G",
+     "text": "Write \"event report filed\" in the client's progress notes",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D, E",
+   "scoring": "plus_minus",
+   "case_id": "PN-C20",
+   "case_sequence": 4,
+   "clinical_judgment_step": "Generate solutions",
+   "content_hash": "2be675aea59b6a18"
+  },
+  {
+   "source_id": "PN-C20-05",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 5,
+   "client_need": "Coordinated Care",
+   "topic": "Case study: Take action",
+   "item_type": "single_best_answer",
+   "stem": "The client in bed 2 asks why the glucose is being checked so often. Which response by the LPN/VN is best?",
+   "rationale": "Clients have a right to honest information about errors that affect them. The LPN/VN acknowledges the error truthfully, explains the monitoring, and lets the client know the provider will discuss it, following the facility's disclosure policy. Misleading explanations and asking the client to keep the error secret are dishonest.",
+   "answer_summary": "D",
+   "options": [
+    {
+     "key": "A",
+     "text": "\"Your glucose has been a little high, so the provider wants us to check it more often for a while today, okay?\"",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "\"It's just a routine check we do for everyone on this unit.\"",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "\"I made a terrible mistake and could lose my nursing license, so please don't tell anyone else about it.\"",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "\"There was an error with your medication. We're watching your glucose, and your provider will explain.\"",
+     "is_correct": true
+    }
+   ],
+   "scoring": "zero_one",
+   "case_id": "PN-C20",
+   "case_sequence": 5,
+   "clinical_judgment_step": "Take action",
+   "content_hash": "70e1a69296d4149c"
+  },
+  {
+   "source_id": "PN-C20-06",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 6,
+   "client_need": "Coordinated Care",
+   "topic": "Case study: Evaluate outcomes",
+   "item_type": "matrix_grid",
+   "stem": "Later that day, the charge nurse reviews the event. For each finding, indicate whether it shows the error was managed safely or needs follow-up.",
+   "rationale": "Stable glucose, care for both clients, an event report, and honest disclosure show the immediate error was handled safely. Scanners being unavailable again during the medication pass is a system problem that can cause the same error, so it needs follow-up through quality improvement.",
+   "columns": [
+    "Managed safely",
+    "Needs follow-up"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Glucose 96 mg/dL at 0900 after breakfast",
+     "correct_column": "Managed safely"
+    },
+    {
+     "id": "r2",
+     "text": "Client in bed 1 received the correct dose after the provider was notified",
+     "correct_column": "Managed safely"
+    },
+    {
+     "id": "r3",
+     "text": "Event report submitted",
+     "correct_column": "Managed safely"
+    },
+    {
+     "id": "r4",
+     "text": "Client says the error was explained honestly",
+     "correct_column": "Managed safely"
+    },
+    {
+     "id": "r5",
+     "text": "Bar-code scanners were again charging during the next morning's medication pass",
+     "correct_column": "Needs follow-up"
+    }
+   ],
+   "answer_summary": "Glucose 96 mg/dL at 0900 after breakfast: Managed safely; Client in bed 1 received the correct dose after the provider was notified: Managed safely; Event report submitted: Managed safely; Client says the error was explained honestly: Managed safely; Bar-code scanners were again charging during the next morning's medication pass: Needs follow-up",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C20",
+   "case_sequence": 6,
+   "clinical_judgment_step": "Evaluate outcomes",
+   "content_hash": "65efcb2a22f04a04"
+  }
+ ],
+ "case_studies": [
+  {
+   "scenario": "A 76-year-old resident of a long-term care facility with atrial fibrillation and hypertension is found by the assistive personnel at 1015 with slurred speech. The resident was last seen acting normally at 0930 during breakfast.",
+   "exhibits": [
+    {
+     "label": "Nurses' notes, 1020",
+     "content": "Right side of the face droops. Right arm drifts down when both arms are held out. Speech slurred, with trouble finding words. Alert and follows commands. Able to swallow saliva. No seizure activity witnessed."
+    },
+    {
+     "label": "Vital signs and glucose, 1020",
+     "content": "T 98.4°F (36.9°C), HR 96/min and irregular, RR 18/min, BP 176/94 mm Hg, SpO2 95% on room air. Fingerstick glucose 118 mg/dL."
+    },
+    {
+     "label": "Medication record",
+     "content": "Apixaban 5 mg by mouth twice daily; the resident refused the last two doses. Lisinopril 20 mg by mouth daily."
+    },
+    {
+     "label": "Facility stroke protocol",
+     "content": "Call 911. Notify the RN supervisor and provider. Record the time the resident was last known well. Check glucose. Keep NPO until a swallow screen is done. Stay with the resident and monitor neurologic status."
+    }
+   ],
+   "case_id": "PN-C16",
+   "track": "pn",
+   "set_number": 49,
+   "title": "Acute stroke in a long-term care resident"
+  },
+  {
+   "scenario": "A 70-year-old client with a mechanical heart valve who takes warfarin comes to the anticoagulation clinic for a routine INR check. The client started an antibiotic 5 days ago for a sinus infection.",
+   "exhibits": [
+    {
+     "label": "Nurses' notes",
+     "content": "Reports that the gums bleed when brushing and that a nosebleed yesterday stopped after 10 minutes of pressure. Several bruises on both forearms. Denies black stools, blood in the urine, or headache. Has been eating less because of the sinus infection."
+    },
+    {
+     "label": "Laboratory results",
+     "content": "INR 5.8 (goal 2.5–3.5). Hemoglobin 12.9 g/dL (12–16)."
+    },
+    {
+     "label": "Medications",
+     "content": "Warfarin 5 mg by mouth daily. Trimethoprim-sulfamethoxazole by mouth twice daily, started 5 days ago."
+    }
+   ],
+   "case_id": "PN-C17",
+   "track": "pn",
+   "set_number": 49,
+   "title": "Elevated INR and bleeding in a client taking warfarin"
+  },
+  {
+   "scenario": "A 2-year-old is brought to the pediatric clinic with vomiting and diarrhea for 2 days. A sibling at home had similar symptoms last week.",
+   "exhibits": [
+    {
+     "label": "Parent report",
+     "content": "Vomited 4 times yesterday and once today. Six watery stools in 24 hours. One wet diaper since last night. Refuses solid food but takes sips of juice."
+    },
+    {
+     "label": "Nurses' notes",
+     "content": "Fussy but consolable. Mucous membranes sticky. Tears present when crying but fewer than usual. Capillary refill 2 seconds. Weight 11.4 kg, down from 12 kg at a visit 2 weeks ago."
+    },
+    {
+     "label": "Vital signs",
+     "content": "T 100.2°F (37.9°C), HR 132/min, RR 28/min."
+    }
+   ],
+   "case_id": "PN-C18",
+   "track": "pn",
+   "set_number": 49,
+   "title": "Toddler with gastroenteritis and dehydration"
+  },
+  {
+   "scenario": "An 82-year-old client with moderate Alzheimer's disease lives at home with a spouse. The home health LPN/VN visits after the spouse calls about the client's \"outbursts\" in the late afternoon.",
+   "exhibits": [
+    {
+     "label": "Nurses' notes, 1600 visit",
+     "content": "Client is pacing and pulling at clothes. Calls out for a parent who died years ago. Became angry when the spouse insisted on a bath at 1700 yesterday. No bowel movement in 4 days. Grimaces when moving the left knee. Sleeping poorly at night."
+    },
+    {
+     "label": "Spouse report",
+     "content": "Sleeps 3 to 4 hours a night and has stopped seeing friends. Says, \"I can't do this anymore. I yelled at my spouse yesterday.\""
+    },
+    {
+     "label": "Medications",
+     "content": "Donepezil 10 mg by mouth daily. Over-the-counter diphenhydramine at bedtime \"to help with sleep,\" started by the spouse 1 week ago."
+    }
+   ],
+   "case_id": "PN-C19",
+   "track": "pn",
+   "set_number": 49,
+   "title": "Dementia with agitation and caregiver strain"
+  },
+  {
+   "scenario": "On a medical unit, an LPN/VN gives 10 units of rapid-acting insulin lispro at 0730 to the client in bed 2. Fifteen minutes later, the LPN/VN realizes the insulin was prescribed for the client in bed 1. The client in bed 2 has type 2 diabetes managed with diet and metformin and has not yet eaten breakfast.",
+   "exhibits": [
+    {
+     "label": "Nurses' notes, 0745",
+     "content": "Client in bed 2 is alert and oriented, with no symptoms. Breakfast tray arriving at 0800. The bar-code scanner was not used because it was charging."
+    },
+    {
+     "label": "Glucose results",
+     "content": "Fingerstick glucose 142 mg/dL at 0700 and 128 mg/dL at 0745."
+    },
+    {
+     "label": "Facility policy: medication errors",
+     "content": "Assess the client. Notify the RN and provider immediately. Monitor as the provider prescribes. Complete an event report. Disclose the error to the client according to policy."
+    }
+   ],
+   "case_id": "PN-C20",
+   "track": "pn",
+   "set_number": 49,
+   "title": "Insulin given to the wrong client"
+  }
+ ]
+}
