@@ -1,0 +1,1611 @@
+{
+ "_comment": "Supplemental items, RN batch 05: Psychosocial Integrity and Basic Care and Comfort. Pilot status.",
+ "track": "rn",
+ "questions": [
+  {
+   "source_id": "RN-A05-001",
+   "track": "rn",
+   "set_number": 44,
+   "set_title": "Supplemental: Psychosocial Integrity",
+   "source_item_number": 1,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Grandiose delusions",
+   "item_type": "single_best_answer",
+   "stem": "A client with bipolar disorder tells the nurse, \"I'm a famous surgeon, and I need to operate on the patient down the hall.\" What is the nurse's best response?",
+   "rationale": "Arguing with a delusion increases defensiveness, and asking for details or agreeing to pass the request along reinforces it. The nurse acknowledges the feeling behind the statement without confirming the false belief and redirects the conversation to reality-based topics.",
+   "answer_summary": "A",
+   "options": [
+    {
+     "key": "A",
+     "text": "\"It sounds like you want to help. Let's talk about what's going on for you on the unit today.\"",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "\"You are not a surgeon. You are a client in a hospital, and you need to accept that now.\"",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "\"Which hospital did you train at, and how long have you been operating?\"",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "\"I'll let the surgeon know you'd like to help with that patient's care.\"",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "25beca0b4889f8fd"
+  },
+  {
+   "source_id": "RN-A05-002",
+   "track": "rn",
+   "set_number": 44,
+   "set_title": "Supplemental: Psychosocial Integrity",
+   "source_item_number": 2,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Supporting a child with ADHD",
+   "item_type": "single_best_answer",
+   "stem": "The parents of a 7-year-old with attention-deficit/hyperactivity disorder ask how to help their child finish homework. Which suggestion is most helpful?",
+   "rationale": "Children with ADHD do best with short, structured tasks, frequent breaks, and few distractions, along with consistent routines and positive reinforcement. Long sessions with a television on increase distraction, removing all privileges is overly punitive, and doing the work for the child prevents learning.",
+   "answer_summary": "B",
+   "options": [
+    {
+     "key": "A",
+     "text": "Have the child do all of the homework at once in front of the television to stay relaxed",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Break homework into short tasks with brief breaks in a quiet space",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Remove all privileges until every assignment is done",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Do the homework for the child",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "3a3010d523e9c4d6"
+  },
+  {
+   "source_id": "RN-A05-003",
+   "track": "rn",
+   "set_number": 44,
+   "set_title": "Supplemental: Psychosocial Integrity",
+   "source_item_number": 3,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Hospital care for a child with autism",
+   "item_type": "single_best_answer",
+   "stem": "A 6-year-old with autism spectrum disorder is admitted for surgery. Which nursing action is most appropriate?",
+   "rationale": "Children with autism spectrum disorder often find change, noise, and unexpected touch distressing. Keeping familiar routines, using consistent caregivers, and providing a quiet environment reduce distress. Rotating nurses, a busy room, and frequent hugs can increase anxiety and behavioral problems.",
+   "answer_summary": "C",
+   "options": [
+    {
+     "key": "A",
+     "text": "Assign a different nurse each shift so the child gets used to meeting new people",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Place the child in a busy room near the nurses' station for close observation",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Ask the parents about the child's routines and keep them as much as possible",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Hug the child often",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "79df3ba4df1f237b"
+  },
+  {
+   "source_id": "RN-A05-004",
+   "track": "rn",
+   "set_number": 44,
+   "set_title": "Supplemental: Psychosocial Integrity",
+   "source_item_number": 4,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Somatic symptom disorder",
+   "item_type": "single_best_answer",
+   "stem": "A client with somatic symptom disorder has had many visits for different physical complaints, and test results have been normal. Which approach by the nurse is most appropriate?",
+   "rationale": "The symptoms and distress are real to the client. Care focuses on acknowledging them, scheduling regular visits with a consistent provider, and building coping skills and daily function rather than repeating tests. Calling the symptoms imaginary or refusing to discuss them damages trust, and repeated testing reinforces the focus on symptoms.",
+   "answer_summary": "D",
+   "options": [
+    {
+     "key": "A",
+     "text": "Tell the client that the symptoms are imaginary, since all of the test results have been normal",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Encourage the client to request new diagnostic tests whenever a new symptom develops",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Avoid discussing the client's symptoms at all so that the client will stop focusing on them",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Acknowledge the symptoms and focus on coping and function",
+     "is_correct": true
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "5f61d7500729147f"
+  },
+  {
+   "source_id": "RN-A05-005",
+   "track": "rn",
+   "set_number": 44,
+   "set_title": "Supplemental: Psychosocial Integrity",
+   "source_item_number": 5,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Religious fasting and diabetes",
+   "item_type": "single_best_answer",
+   "stem": "A client with type 2 diabetes who takes insulin plans to fast from dawn to sunset during Ramadan. What is the nurse's best response?",
+   "rationale": "The nurse respects the client's religious practice and helps the client plan for safety. A visit before Ramadan allows the provider to assess risk, adjust insulin doses and timing, and plan glucose monitoring, which does not break the fast, along with clear guidance on when to end the fast for hypoglycemia. Many people with diabetes fast safely with planning, while unchanged insulin doses and skipping glucose checks risk hypoglycemia.",
+   "answer_summary": "D",
+   "options": [
+    {
+     "key": "A",
+     "text": "\"People with diabetes are never allowed to fast, so you will have to skip Ramadan this year.\"",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "\"You can keep taking your usual insulin doses at the usual times during the fast.\"",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "\"Fasting is fine as long as you stop checking your blood glucose until sunset.\"",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "\"Let's arrange a visit with your provider before Ramadan to adjust your medicines and glucose checks.\"",
+     "is_correct": true
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "23d7be6d0957da88"
+  },
+  {
+   "source_id": "RN-A05-006",
+   "track": "rn",
+   "set_number": 44,
+   "set_title": "Supplemental: Psychosocial Integrity",
+   "source_item_number": 6,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Therapeutic factors in groups",
+   "item_type": "single_best_answer",
+   "stem": "In a support group for parents of children with cancer, a parent says, \"I thought I was the only one who felt this angry.\" Which therapeutic factor does this statement reflect?",
+   "rationale": "Universality is the realization that others share similar feelings and experiences, which reduces isolation. Altruism is helping others in the group, catharsis is the release of strong emotions, and instillation of hope comes from seeing others improve or cope.",
+   "answer_summary": "A",
+   "options": [
+    {
+     "key": "A",
+     "text": "Universality",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Altruism",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Catharsis",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Instillation of hope",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "3eff9573bfa68333"
+  },
+  {
+   "source_id": "RN-A05-007",
+   "track": "rn",
+   "set_number": 44,
+   "set_title": "Supplemental: Psychosocial Integrity",
+   "source_item_number": 7,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Factitious disorder imposed on another",
+   "item_type": "single_best_answer",
+   "stem": "A 3-year-old has had repeated hospital admissions for unexplained seizures and bleeding. The symptoms occur only when the child's mother is present and stop when staff supervise the child. Which condition should the nurse suspect?",
+   "rationale": "Symptoms that appear only in a caregiver's presence and stop when the child is separated from the caregiver suggest factitious disorder imposed on another, in which a caregiver fabricates or induces illness. It is a form of child abuse, so the nurse documents objective observations, keeps the child safe, and follows mandatory reporting requirements. The pattern does not fit separation anxiety, a genetic disorder, or normal development.",
+   "answer_summary": "B",
+   "options": [
+    {
+     "key": "A",
+     "text": "Separation anxiety disorder in the child",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Factitious disorder imposed on another",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "A rare genetic bleeding and seizure disorder",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Normal developmental behavior",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "588afed358bcd938"
+  },
+  {
+   "source_id": "RN-A05-008",
+   "track": "rn",
+   "set_number": 44,
+   "set_title": "Supplemental: Psychosocial Integrity",
+   "source_item_number": 8,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Depression in older adults",
+   "item_type": "single_best_answer",
+   "stem": "Over the past month, since the death of a spouse, an 80-year-old client has become forgetful, withdrawn, and slow to respond and often answers \"I don't know\" to questions. Which condition should the nurse suspect?",
+   "rationale": "Depression in older adults can look like dementia, with poor concentration, memory complaints, withdrawal, and frequent \"I don't know\" answers, especially after a loss. Alzheimer's disease develops gradually over a longer time, and people with it often try to answer or cover gaps. Delirium has an acute onset with fluctuating attention, and normal aging does not cause withdrawal. The nurse screens for depression and reports the findings.",
+   "answer_summary": "C",
+   "options": [
+    {
+     "key": "A",
+     "text": "Alzheimer's disease in its early stage",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Delirium caused by a urinary tract infection",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Depression",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Normal age-related memory changes",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "bbb1cc162fc33b4f"
+  },
+  {
+   "source_id": "RN-A05-009",
+   "track": "rn",
+   "set_number": 44,
+   "set_title": "Supplemental: Psychosocial Integrity",
+   "source_item_number": 9,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Traditional healing practices",
+   "item_type": "single_best_answer",
+   "stem": "During a clinic visit, the nurse notices evenly spaced, linear red marks on the back of a child who has had a cold. The parent explains that the family used coin rubbing, a traditional remedy. What should the nurse do?",
+   "rationale": "Coin rubbing (coining), used in several Southeast Asian cultures, produces linear red marks that can be mistaken for abuse. When the marks match the explanation, the nurse respects the practice, asks about the child's illness and other treatments, and makes sure the child receives needed care. Reporting abuse is not warranted by these findings alone, dismissing the practice damages trust, and ignoring the marks misses a chance to assess.",
+   "answer_summary": "D",
+   "options": [
+    {
+     "key": "A",
+     "text": "Report the parent to child protective services right away for physical abuse of the child",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Tell the parent that traditional remedies are harmful and must be stopped",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Ignore the marks and avoid mentioning them",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Recognize coining as a traditional healing practice and ask about the child's symptoms and care",
+     "is_correct": true
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "debcfa2aab32127d"
+  },
+  {
+   "source_id": "RN-A05-010",
+   "track": "rn",
+   "set_number": 44,
+   "set_title": "Supplemental: Psychosocial Integrity",
+   "source_item_number": 10,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Signs that death is near",
+   "item_type": "single_best_answer",
+   "stem": "The family of a client receiving hospice care asks what changes to expect as death approaches. Which information should the nurse include?",
+   "rationale": "As death approaches, breathing often becomes irregular with periods of apnea, and the extremities become cool and mottled as circulation decreases. Hearing is thought to be one of the last senses to fade, so families are encouraged to keep talking to their loved one. Appetite naturally declines, and pushing food can cause discomfort or aspiration.",
+   "answer_summary": "A",
+   "options": [
+    {
+     "key": "A",
+     "text": "\"Breathing may become irregular with pauses, and the hands and feet may look mottled.\"",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "\"Breathing usually becomes deeper and more regular, and the skin becomes warm and pink all over.\"",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "\"Hearing is lost first, so talking to your loved one won't help.\"",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "\"Eating more will help.\"",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "32a16246ea62e132"
+  },
+  {
+   "source_id": "RN-A05-011",
+   "track": "rn",
+   "set_number": 44,
+   "set_title": "Supplemental: Psychosocial Integrity",
+   "source_item_number": 11,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Flashbacks in posttraumatic stress disorder",
+   "item_type": "single_best_answer",
+   "stem": "A client with posttraumatic stress disorder suddenly looks terrified and says, \"They're coming. I have to hide.\" The nurse recognizes a flashback. What should the nurse do?",
+   "rationale": "Grounding techniques, such as calm orientation to the present and noticing what can be seen, heard, and touched, help the client return to the here and now. Leaving the client alone during a flashback is unsafe, pushing the client to recount the trauma can deepen distress, and unexpected touch may be perceived as a threat.",
+   "answer_summary": "B",
+   "options": [
+    {
+     "key": "A",
+     "text": "Leave the client alone in the room until the flashback ends on its own, and then return to talk",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Speak calmly, state the client's name and location, and help them notice things in the room",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Ask the client to describe every detail of the original traumatic event right now while it is fresh",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Firmly grasp the client's shoulders",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "ed27173baaefa5fe"
+  },
+  {
+   "source_id": "RN-A05-012",
+   "track": "rn",
+   "set_number": 44,
+   "set_title": "Supplemental: Psychosocial Integrity",
+   "source_item_number": 12,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Time-out for young children",
+   "item_type": "single_best_answer",
+   "stem": "The parents of a 4-year-old ask how long a time-out should last. What is the nurse's best response?",
+   "rationale": "A common guideline is about 1 minute per year of age, in a calm, boring place, ending with a return to activity. Very long time-outs or time-outs that depend on an apology or on the child falling asleep lose their effect and can become punitive.",
+   "answer_summary": "C",
+   "options": [
+    {
+     "key": "A",
+     "text": "Until the child apologizes, no matter how long it takes",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "About 30 minutes, so that the child has enough time to calm down",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "About 4 minutes, roughly 1 minute per year of age",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Until the child falls asleep or stops crying completely",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "fefb39788d559f43"
+  },
+  {
+   "source_id": "RN-A05-013",
+   "track": "rn",
+   "set_number": 44,
+   "set_title": "Supplemental: Psychosocial Integrity",
+   "source_item_number": 13,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Motivational interviewing",
+   "item_type": "single_best_answer",
+   "stem": "A client who smokes says, \"I know I should quit, but smoking is the only thing that helps me relax.\" Which response by the nurse reflects motivational interviewing?",
+   "rationale": "Motivational interviewing reflects both sides of the client's ambivalence and uses open-ended questions to draw out the client's own reasons for change. Lecturing about risks and dismissing the client's reason increase resistance, and waiting misses the chance to build motivation.",
+   "answer_summary": "A",
+   "options": [
+    {
+     "key": "A",
+     "text": "\"Smoking helps you relax, and you also see reasons to quit. What would quitting mean for you?\"",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "\"You need to quit right away, because smoking will cause lung cancer and heart disease.\"",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "\"Lots of people find other ways to relax, so that's not really a good reason.\"",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "\"Let's wait until you're ready to talk about smoking.\"",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "856dd413d549de6c"
+  },
+  {
+   "source_id": "RN-A05-014",
+   "track": "rn",
+   "set_number": 44,
+   "set_title": "Supplemental: Psychosocial Integrity",
+   "source_item_number": 14,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Suicide safety planning",
+   "item_type": "multiple_response",
+   "stem": "The nurse is helping a client who has had suicidal thoughts develop a safety plan before discharge. Which elements belong in the plan? Select all that apply.",
+   "rationale": "A safety plan lists the client's warning signs, internal coping strategies, people and places for distraction and support, professional and crisis contacts such as 988, and ways to reduce access to lethal means. No-suicide contracts are not effective and do not replace a safety plan, and the plan encourages the client to reach out rather than keep suicidal thoughts secret.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Personal warning signs that a crisis may be developing",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Coping strategies the client can use alone",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "People and professionals to contact, including the 988 Suicide and Crisis Lifeline",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Steps to make the environment safer, such as limiting access to lethal means",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "A signed promise not to self-harm in place of the other steps",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "A plan to keep future suicidal thoughts to oneself",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "content_hash": "329cb4a10e7e0aa2"
+  },
+  {
+   "source_id": "RN-A05-015",
+   "track": "rn",
+   "set_number": 44,
+   "set_title": "Supplemental: Psychosocial Integrity",
+   "source_item_number": 15,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Signs of bulimia nervosa",
+   "item_type": "multiple_response",
+   "stem": "Which findings should the nurse recognize as possible signs of bulimia nervosa? Select all that apply.",
+   "rationale": "Self-induced vomiting can cause calluses on the knuckles (Russell's sign), parotid gland swelling, and dental erosion, and clients often go to the bathroom right after eating. People with bulimia nervosa are usually at or near normal weight; lanugo and very low body weight are more typical of anorexia nervosa.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Calluses or scars on the backs of the knuckles",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Swollen parotid glands",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Erosion of tooth enamel",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Frequent trips to the bathroom right after meals",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Lanugo over the trunk and face",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Body weight more than 20% below normal",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "content_hash": "97b0f3ef8325e07a"
+  },
+  {
+   "source_id": "RN-A05-016",
+   "track": "rn",
+   "set_number": 44,
+   "set_title": "Supplemental: Psychosocial Integrity",
+   "source_item_number": 16,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Supporting a family after a sudden death",
+   "item_type": "multiple_response",
+   "stem": "A client has died unexpectedly in the emergency department after a car crash. Which actions by the nurse support the family? Select all that apply.",
+   "rationale": "Privacy, the chance to see the person who died, spiritual and social support, and clear, honest information help families begin to grieve after a sudden death. Viewing the body is the family's choice and often helps acceptance, and telling family members how they should feel minimizes their grief.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Provide a private room for the family",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Offer the family the chance to see the client",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Offer to contact a chaplain or other support person",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Explain what happened in clear, simple language",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Discourage the family from viewing the body to avoid upsetting them",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Tell the family that they should feel relieved",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "content_hash": "02521d86ed151cf3"
+  },
+  {
+   "source_id": "RN-A05-017",
+   "track": "rn",
+   "set_number": 44,
+   "set_title": "Supplemental: Psychosocial Integrity",
+   "source_item_number": 17,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Preventing sensory overload in the ICU",
+   "item_type": "multiple_response",
+   "stem": "A client in the intensive care unit is at risk for sensory overload and sleep deprivation. Which nursing actions help? Select all that apply.",
+   "rationale": "Supporting a normal day-night cycle, using sensory aids, frequent orientation, and protected sleep time reduce sensory overload and the risk of delirium. Constant noise from a television disrupts sleep, and restraints increase agitation and confusion rather than preventing them.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Dim the lights at night and open the blinds during the day",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Make sure the client's glasses and hearing aids are in place",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Orient the client to the date, time, and plan of care",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Cluster care to allow periods of uninterrupted sleep",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Keep the television on all night for background noise",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Apply restraints to prevent confusion",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "content_hash": "792b0c7d01742ed0"
+  },
+  {
+   "source_id": "RN-A05-018",
+   "track": "rn",
+   "set_number": 44,
+   "set_title": "Supplemental: Psychosocial Integrity",
+   "source_item_number": 18,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Therapeutic communication techniques",
+   "item_type": "matrix_grid",
+   "stem": "For each nurse statement, indicate the therapeutic communication technique it demonstrates.",
+   "rationale": "Reflection directs the client's feelings back to them. Clarification asks the client to explain something unclear. Restating repeats the main idea of what the client said. Summarizing reviews the main points of a conversation.",
+   "columns": [
+    "Reflection",
+    "Clarification",
+    "Restating",
+    "Summarizing"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "\"You sound angry about the change in your discharge date.\"",
+     "correct_column": "Reflection"
+    },
+    {
+     "id": "r2",
+     "text": "\"I'm not sure I understand. What do you mean by 'giving up'?\"",
+     "correct_column": "Clarification"
+    },
+    {
+     "id": "r3",
+     "text": "Client: \"I can't sleep.\" Nurse: \"You can't sleep?\"",
+     "correct_column": "Restating"
+    },
+    {
+     "id": "r4",
+     "text": "\"Today we talked about your fears, your family, and your plans for next week.\"",
+     "correct_column": "Summarizing"
+    },
+    {
+     "id": "r5",
+     "text": "\"It seems you feel hurt that no one visited.\"",
+     "correct_column": "Reflection"
+    }
+   ],
+   "answer_summary": "\"You sound angry about the change in your discharge date.\": Reflection; \"I'm not sure I understand. What do you mean by 'giving up'?\": Clarification; Client: \"I can't sleep.\" Nurse: \"You can't sleep?\": Restating; \"Today we talked about your fears, your family, and your plans for next week.\": Summarizing; \"It seems you feel hurt that no one visited.\": Reflection",
+   "scoring": "zero_one_per_row",
+   "content_hash": "4f82a4d88f3036bc"
+  },
+  {
+   "source_id": "RN-A05-019",
+   "track": "rn",
+   "set_number": 44,
+   "set_title": "Supplemental: Psychosocial Integrity",
+   "source_item_number": 19,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Positive and negative symptoms of schizophrenia",
+   "item_type": "matrix_grid",
+   "stem": "For each finding in a client with schizophrenia, indicate whether it is a positive or a negative symptom.",
+   "rationale": "Positive symptoms are added experiences or behaviors, such as hallucinations, delusions, and disorganized speech. Negative symptoms are losses of normal function, such as reduced speech (alogia), inability to feel pleasure (anhedonia), and lack of motivation (avolition).",
+   "columns": [
+    "Positive symptom",
+    "Negative symptom"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Hallucinations",
+     "correct_column": "Positive symptom"
+    },
+    {
+     "id": "r2",
+     "text": "Alogia (poverty of speech)",
+     "correct_column": "Negative symptom"
+    },
+    {
+     "id": "r3",
+     "text": "Delusions",
+     "correct_column": "Positive symptom"
+    },
+    {
+     "id": "r4",
+     "text": "Anhedonia",
+     "correct_column": "Negative symptom"
+    },
+    {
+     "id": "r5",
+     "text": "Disorganized speech",
+     "correct_column": "Positive symptom"
+    },
+    {
+     "id": "r6",
+     "text": "Avolition",
+     "correct_column": "Negative symptom"
+    }
+   ],
+   "answer_summary": "Hallucinations: Positive symptom; Alogia (poverty of speech): Negative symptom; Delusions: Positive symptom; Anhedonia: Negative symptom; Disorganized speech: Positive symptom; Avolition: Negative symptom",
+   "scoring": "zero_one_per_row",
+   "content_hash": "ad1ee3d46e87dcdd"
+  },
+  {
+   "source_id": "RN-A05-020",
+   "track": "rn",
+   "set_number": 44,
+   "set_title": "Supplemental: Psychosocial Integrity",
+   "source_item_number": 20,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Withdrawal syndromes",
+   "item_type": "matrix_grid",
+   "stem": "For each withdrawal finding, indicate the substance it is most characteristic of.",
+   "rationale": "Opioid withdrawal resembles a severe flu, with yawning, rhinorrhea, piloerection, muscle aches, diarrhea, and dilated pupils. Alcohol withdrawal can cause tremors, seizures, and delirium tremens with hallucinations and confusion, typically 48 to 96 hours after the last drink. Stimulant withdrawal causes a crash with fatigue, hypersomnia, increased appetite, and depression.",
+   "columns": [
+    "Alcohol",
+    "Opioids",
+    "Stimulants"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Yawning, runny nose, and gooseflesh",
+     "correct_column": "Opioids"
+    },
+    {
+     "id": "r2",
+     "text": "Tremors and a risk of seizures",
+     "correct_column": "Alcohol"
+    },
+    {
+     "id": "r3",
+     "text": "Excessive sleep, increased appetite, and depressed mood",
+     "correct_column": "Stimulants"
+    },
+    {
+     "id": "r4",
+     "text": "Visual hallucinations and severe confusion 2 to 4 days after the last drink",
+     "correct_column": "Alcohol"
+    },
+    {
+     "id": "r5",
+     "text": "Muscle aches, diarrhea, and dilated pupils",
+     "correct_column": "Opioids"
+    }
+   ],
+   "answer_summary": "Yawning, runny nose, and gooseflesh: Opioids; Tremors and a risk of seizures: Alcohol; Excessive sleep, increased appetite, and depressed mood: Stimulants; Visual hallucinations and severe confusion 2 to 4 days after the last drink: Alcohol; Muscle aches, diarrhea, and dilated pupils: Opioids",
+   "scoring": "zero_one_per_row",
+   "content_hash": "b61b46ff30ce7713"
+  },
+  {
+   "source_id": "RN-A05-021",
+   "track": "rn",
+   "set_number": 44,
+   "set_title": "Supplemental: Psychosocial Integrity",
+   "source_item_number": 21,
+   "client_need": "Psychosocial Integrity",
+   "topic": "General adaptation syndrome",
+   "item_type": "drop_down_cloze",
+   "stem": "Complete the sentence by choosing from the lists of options.",
+   "rationale": "In the alarm stage, the fight-or-flight response mobilizes the body. In the resistance stage, the body adapts to ongoing stress. If stress continues without relief, the exhaustion stage follows, when resources are depleted and the risk of illness rises.",
+   "template": "According to Selye's general adaptation syndrome, the body first responds to a stressor in the ___1___ stage, and prolonged stress without relief can lead to the ___2___ stage, when illness becomes more likely.",
+   "blanks": [
+    {
+     "id": "1",
+     "options": [
+      "alarm",
+      "resistance",
+      "exhaustion"
+     ],
+     "correct": "alarm"
+    },
+    {
+     "id": "2",
+     "options": [
+      "exhaustion",
+      "alarm",
+      "recovery"
+     ],
+     "correct": "exhaustion"
+    }
+   ],
+   "answer_summary": "1: alarm; 2: exhaustion",
+   "scoring": "zero_one_per_blank",
+   "content_hash": "79cb87cde4026b1c"
+  },
+  {
+   "source_id": "RN-A05-022",
+   "track": "rn",
+   "set_number": 44,
+   "set_title": "Supplemental: Psychosocial Integrity",
+   "source_item_number": 22,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Phases of the nurse-client relationship",
+   "item_type": "drop_down_cloze",
+   "stem": "Complete the sentence by choosing from the lists of options.",
+   "rationale": "During the orientation phase, the nurse and client establish trust, set goals, and agree on the limits of the relationship, including when it will end. Discussing the end from the start prepares the client for termination and reduces feelings of abandonment.",
+   "template": "In the nurse-client relationship, the nurse and client set goals and agree on boundaries during the ___1___ phase, and the nurse begins preparing the client for the end of the relationship ___2___.",
+   "blanks": [
+    {
+     "id": "1",
+     "options": [
+      "orientation",
+      "working",
+      "termination"
+     ],
+     "correct": "orientation"
+    },
+    {
+     "id": "2",
+     "options": [
+      "from the first meeting",
+      "only during the last meeting",
+      "after discharge"
+     ],
+     "correct": "from the first meeting"
+    }
+   ],
+   "answer_summary": "1: orientation; 2: from the first meeting",
+   "scoring": "zero_one_per_blank",
+   "content_hash": "dd4a2997cc8288e7"
+  },
+  {
+   "source_id": "RN-A05-023",
+   "track": "rn",
+   "set_number": 44,
+   "set_title": "Supplemental: Psychosocial Integrity",
+   "source_item_number": 23,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Evaluating progress in depression treatment",
+   "item_type": "highlight",
+   "stem": "The nurse reviews progress notes for a client hospitalized for major depressive disorder with suicidal thoughts. Highlight the findings that indicate progress toward the treatment goals.",
+   "rationale": "Participating in groups, identifying coping strategies and supports, denying suicidal thoughts while engaging in safety planning, and eating well show progress. Giving away belongings is a warning sign of suicide risk that must be reported, and staying in bed with the door closed suggests continued withdrawal.",
+   "passage_segments": [
+    {
+     "id": "s1",
+     "text": "Attends group therapy daily and participates."
+    },
+    {
+     "id": "s2",
+     "text": "Names two coping strategies and a person to call when distressed."
+    },
+    {
+     "id": "s3",
+     "text": "Has given away several personal belongings this week."
+    },
+    {
+     "id": "s4",
+     "text": "Denies suicidal thoughts and helped write a safety plan."
+    },
+    {
+     "id": "s5",
+     "text": "Spends most of the day in bed with the door closed."
+    },
+    {
+     "id": "s6",
+     "text": "Eats 75 to 100 percent of meals."
+    }
+   ],
+   "correct_text": "Attends group therapy daily and participates; Names two coping strategies and a person to call when distressed; Denies suicidal thoughts and helped write a safety plan; Eats 75 to 100 percent of meals",
+   "answer_summary": "Attends group therapy daily and participates; Names two coping strategies and a person to call when distressed; Denies suicidal thoughts and helped write a safety plan; Eats 75 to 100 percent of meals",
+   "scoring": "plus_minus",
+   "content_hash": "87fd15de4d6db959"
+  },
+  {
+   "source_id": "RN-A05-024",
+   "track": "rn",
+   "set_number": 45,
+   "set_title": "Supplemental: Basic Care and Comfort",
+   "source_item_number": 24,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Wheelchair safety on ramps",
+   "item_type": "single_best_answer",
+   "stem": "The nurse is taking a client in a wheelchair down a steep ramp. Which technique is safest?",
+   "rationale": "Going down a steep ramp backward lets the nurse control the speed and keeps the client from sliding forward out of the chair. Going forward quickly, tilting the chair, or letting it roll freely risks a fall.",
+   "answer_summary": "D",
+   "options": [
+    {
+     "key": "A",
+     "text": "Go down the ramp forward quickly so that the wheelchair does not roll back against the nurse",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Tilt the chair onto its back wheels",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Unlock the brakes and let it roll",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Go down the ramp backward while looking over the shoulder",
+     "is_correct": true
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "44fc78b22d7c1467"
+  },
+  {
+   "source_id": "RN-A05-025",
+   "track": "rn",
+   "set_number": 45,
+   "set_title": "Supplemental: Basic Care and Comfort",
+   "source_item_number": 25,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Pelvic floor exercises",
+   "item_type": "single_best_answer",
+   "stem": "A client with stress urinary incontinence asks how to do pelvic floor (Kegel) exercises. Which instruction is correct?",
+   "rationale": "Kegel exercises contract the pelvic floor muscles, the ones used to stop urine flow, holding for a few seconds and then relaxing, repeated several times a day. Abdominal and buttock muscles are not the target, breath-holding should be avoided, and routinely stopping the urine stream can lead to incomplete emptying.",
+   "answer_summary": "C",
+   "options": [
+    {
+     "key": "A",
+     "text": "Tighten the abdominal and buttock muscles together while holding the breath",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Practice by stopping the urine stream every time you urinate during the day",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Tighten the muscles used to stop urine flow, hold, and then relax",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Do them once a week",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "092c715c9ae6b119"
+  },
+  {
+   "source_id": "RN-A05-026",
+   "track": "rn",
+   "set_number": 45,
+   "set_title": "Supplemental: Basic Care and Comfort",
+   "source_item_number": 26,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Positioning for an enema",
+   "item_type": "single_best_answer",
+   "stem": "The nurse is preparing to give a cleansing enema to an adult client. How should the nurse position the client?",
+   "rationale": "The left side-lying (Sims') position with the upper knee flexed allows the solution to flow by gravity along the natural curve of the sigmoid colon and descending colon. The other positions make the enema less effective and less comfortable.",
+   "answer_summary": "B",
+   "options": [
+    {
+     "key": "A",
+     "text": "On the right side with both legs straight and the head of the bed raised",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "On the left side with the right knee flexed",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Supine with the head of the bed raised to 45 degrees",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Prone with a pillow placed under the hips for comfort",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "c3513c94f2e46e60"
+  },
+  {
+   "source_id": "RN-A05-027",
+   "track": "rn",
+   "set_number": 45,
+   "set_title": "Supplemental: Basic Care and Comfort",
+   "source_item_number": 27,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Applying an external catheter",
+   "item_type": "single_best_answer",
+   "stem": "The nurse is applying a condom (external) catheter for a client with urinary incontinence. Which action is correct?",
+   "rationale": "A small space at the tip prevents irritation and allows urine to drain. The catheter is applied to clean, dry skin and secured with the device's own adhesive or a strap that is not too tight, because tight tape can restrict circulation. It is usually changed every 24 hours so the skin can be inspected.",
+   "answer_summary": "D",
+   "options": [
+    {
+     "key": "A",
+     "text": "Wrap adhesive tape tightly around the penis so the catheter stays in place",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Apply the catheter over skin that has not been cleaned or dried",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Change the catheter once a week",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Leave a small space between the tip of the penis and the end of the catheter",
+     "is_correct": true
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "549dc307a0081ee6"
+  },
+  {
+   "source_id": "RN-A05-028",
+   "track": "rn",
+   "set_number": 45,
+   "set_title": "Supplemental: Basic Care and Comfort",
+   "source_item_number": 28,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Fecal impaction",
+   "item_type": "single_best_answer",
+   "stem": "An older adult who has not had a formed bowel movement in 6 days now has small amounts of liquid stool leaking. What should the nurse suspect?",
+   "rationale": "Liquid stool can seep around a mass of hardened stool, so leakage after several days without a formed bowel movement suggests impaction. The nurse reports the finding and follows prescribed or protocol-based measures. Giving an antidiarrheal would worsen the impaction.",
+   "answer_summary": "A",
+   "options": [
+    {
+     "key": "A",
+     "text": "Fecal impaction with liquid stool passing around it",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Viral gastroenteritis that requires an antidiarrheal medication right away for several days",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "A normal stool pattern",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Lactose intolerance",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "c1aeee8ce327a447"
+  },
+  {
+   "source_id": "RN-A05-029",
+   "track": "rn",
+   "set_number": 45,
+   "set_title": "Supplemental: Basic Care and Comfort",
+   "source_item_number": 29,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Logrolling",
+   "item_type": "single_best_answer",
+   "stem": "The nurse is turning a client 1 day after spinal fusion surgery. Which technique is correct?",
+   "rationale": "Logrolling turns the client as a unit, with a pillow between the knees, to prevent twisting of the spine after surgery. Pulling on the side rail and turning the shoulders before the hips twist the spine, and raising the head of the bed fully is not part of turning and may be restricted.",
+   "answer_summary": "B",
+   "options": [
+    {
+     "key": "A",
+     "text": "Have the client grab the side rail and pull themselves over in one quick motion",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Logroll the client with a pillow between the knees, keeping the spine aligned",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Turn the shoulders first and then turn the hips once the client feels comfortable",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Raise the head of the bed fully first",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "37ba87094f208af4"
+  },
+  {
+   "source_id": "RN-A05-030",
+   "track": "rn",
+   "set_number": 45,
+   "set_title": "Supplemental: Basic Care and Comfort",
+   "source_item_number": 30,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Passive range of motion",
+   "item_type": "single_best_answer",
+   "stem": "The nurse is performing passive range-of-motion exercises for an unconscious client. Which action is correct?",
+   "rationale": "Each joint is moved slowly and smoothly through its range only to the point of resistance, with the joint supported. Forcing past resistance can injure joints and soft tissue, moving quickly risks injury, and all joints need range of motion to prevent contractures.",
+   "answer_summary": "C",
+   "options": [
+    {
+     "key": "A",
+     "text": "Push each joint past the point of resistance to increase flexibility over time",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Move the joints quickly to complete the exercises in less time",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Move each joint only to the point of resistance",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Exercise only the joints on the client's dominant side of the body",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "eefc8a348e342f02"
+  },
+  {
+   "source_id": "RN-A05-031",
+   "track": "rn",
+   "set_number": 45,
+   "set_title": "Supplemental: Basic Care and Comfort",
+   "source_item_number": 31,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Preventing orthostatic hypotension",
+   "item_type": "single_best_answer",
+   "stem": "A client who has been on bed rest for several days is getting up for the first time. Which action by the nurse best prevents orthostatic hypotension?",
+   "rationale": "Sitting on the edge of the bed for a few minutes (dangling) lets the circulation adjust before the client stands, and the nurse checks for dizziness. Standing quickly, a large meal, which diverts blood to the gut, and a hot room all make orthostatic hypotension more likely.",
+   "answer_summary": "D",
+   "options": [
+    {
+     "key": "A",
+     "text": "Have the client stand quickly so the blood pressure has no time to drop",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Give the client a large meal right before getting up to raise energy",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Keep the room very warm during the first walk",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Have the client sit on the edge of the bed for a few minutes before standing",
+     "is_correct": true
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "c3902e51acd69cfe"
+  },
+  {
+   "source_id": "RN-A05-032",
+   "track": "rn",
+   "set_number": 45,
+   "set_title": "Supplemental: Basic Care and Comfort",
+   "source_item_number": 32,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Shaving a client who takes an anticoagulant",
+   "item_type": "single_best_answer",
+   "stem": "A client who takes apixaban asks the nurse for help shaving. Which method should the nurse use?",
+   "rationale": "Anticoagulants such as apixaban increase the risk of bleeding from small cuts, so an electric razor is used. A blade razor with firm pressure increases the risk of nicks, a straight razor is even riskier, and the client does not need to go without shaving.",
+   "answer_summary": "B",
+   "options": [
+    {
+     "key": "A",
+     "text": "Use a new blade razor with firm pressure to finish in one pass and reduce nicks",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Use an electric razor instead of a blade razor",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Skip shaving for the entire stay",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Use a straight razor",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "b8399803932bac82"
+  },
+  {
+   "source_id": "RN-A05-033",
+   "track": "rn",
+   "set_number": 45,
+   "set_title": "Supplemental: Basic Care and Comfort",
+   "source_item_number": 33,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Eye care for an unconscious client",
+   "item_type": "single_best_answer",
+   "stem": "The nurse is caring for an unconscious client who has lost the blink reflex. Which eye care is appropriate?",
+   "rationale": "Without a blink reflex, the cornea can dry out and become abraded or ulcerated. Care includes keeping the lids closed as prescribed, applying lubricating drops or ointment, and cleaning from the inner to the outer corner with sterile saline. Dry tissues, tap water, and leaving the eyes open can injure or infect the cornea.",
+   "answer_summary": "C",
+   "options": [
+    {
+     "key": "A",
+     "text": "Wipe each eye from the outer corner toward the nose using a dry tissue every hour",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Rinse each eye every hour with tap water from the sink so that the eyes stay moist",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Keep the eyelids closed and apply the prescribed lubricating drops or ointment",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Leave the eyes open so the client can see staff",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "74eafc79cfb1f0d9"
+  },
+  {
+   "source_id": "RN-A05-034",
+   "track": "rn",
+   "set_number": 45,
+   "set_title": "Supplemental: Basic Care and Comfort",
+   "source_item_number": 34,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Safe swallowing after a stroke",
+   "item_type": "single_best_answer",
+   "stem": "A client with dysphagia after a stroke is beginning to eat soft foods. Which instruction should the nurse reinforce?",
+   "rationale": "A slight chin tuck helps close the airway during swallowing and reduces aspiration. Tilting the head back opens the airway, large bites are harder to control, and thin liquids are more easily aspirated unless the speech-language pathologist has approved them.",
+   "answer_summary": "A",
+   "options": [
+    {
+     "key": "A",
+     "text": "Tuck the chin slightly when swallowing",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Tilt the head back when swallowing so that the food slides down faster",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Take large bites to finish the meal before becoming tired",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Drink thin liquids with each bite to wash food down quickly",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "90a1d4a41f0ded4a"
+  },
+  {
+   "source_id": "RN-A05-035",
+   "track": "rn",
+   "set_number": 45,
+   "set_title": "Supplemental: Basic Care and Comfort",
+   "source_item_number": 35,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Skin care with fecal incontinence",
+   "item_type": "multiple_response",
+   "stem": "Which actions help protect the skin of a client with frequent fecal incontinence? Select all that apply.",
+   "rationale": "Gentle cleansing with a pH-balanced cleanser, a moisture barrier, and prompt changes of soiled linens prevent incontinence-associated dermatitis. Scrubbing with soap and hot water damages the skin, and tight briefs trap moisture and heat.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Cleanse the skin gently with a pH-balanced cleanser after each episode",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Apply a moisture barrier cream or ointment",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Check the skin often and change soiled linens promptly",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Scrub the area firmly with soap and hot water",
+     "is_correct": false
+    },
+    {
+     "key": "E",
+     "text": "Keep the client in a tight adult brief at all times",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C",
+   "scoring": "plus_minus",
+   "content_hash": "393760a06b307c2d"
+  },
+  {
+   "source_id": "RN-A05-036",
+   "track": "rn",
+   "set_number": 45,
+   "set_title": "Supplemental: Basic Care and Comfort",
+   "source_item_number": 36,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Comfort measures in labor",
+   "item_type": "multiple_response",
+   "stem": "Which nonpharmacologic measures can help relieve discomfort during labor? Select all that apply.",
+   "rationale": "Counterpressure, position changes and walking, warm water, and patterned breathing reduce the perception of pain in labor. Lying flat on the back can compress the vena cava and reduce placental blood flow, and breath-holding during contractions increases tension and reduces oxygenation.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Counterpressure on the lower back",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Changing positions and walking if allowed",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Warm water immersion or showers if allowed",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Slow, patterned breathing",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Lying flat on the back throughout labor",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Holding the breath during each contraction",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "content_hash": "ca97b19eab32985e"
+  },
+  {
+   "source_id": "RN-A05-037",
+   "track": "rn",
+   "set_number": 45,
+   "set_title": "Supplemental: Basic Care and Comfort",
+   "source_item_number": 37,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Gluten-free diet",
+   "item_type": "matrix_grid",
+   "stem": "A client with celiac disease is choosing foods. For each item, indicate whether it is gluten-free or contains gluten.",
+   "rationale": "Gluten is found in wheat, barley, and rye. Rice, corn, and potatoes are naturally gluten-free, although clients should check labels for cross-contamination and added ingredients.",
+   "columns": [
+    "Gluten-free",
+    "Contains gluten"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Rice",
+     "correct_column": "Gluten-free"
+    },
+    {
+     "id": "r2",
+     "text": "Wheat bread",
+     "correct_column": "Contains gluten"
+    },
+    {
+     "id": "r3",
+     "text": "Corn tortillas",
+     "correct_column": "Gluten-free"
+    },
+    {
+     "id": "r4",
+     "text": "Barley soup",
+     "correct_column": "Contains gluten"
+    },
+    {
+     "id": "r5",
+     "text": "Plain potatoes",
+     "correct_column": "Gluten-free"
+    },
+    {
+     "id": "r6",
+     "text": "Rye crackers",
+     "correct_column": "Contains gluten"
+    }
+   ],
+   "answer_summary": "Rice: Gluten-free; Wheat bread: Contains gluten; Corn tortillas: Gluten-free; Barley soup: Contains gluten; Plain potatoes: Gluten-free; Rye crackers: Contains gluten",
+   "scoring": "zero_one_per_row",
+   "content_hash": "ac8254eeb3ac39d7"
+  },
+  {
+   "source_id": "RN-A05-038",
+   "track": "rn",
+   "set_number": 45,
+   "set_title": "Supplemental: Basic Care and Comfort",
+   "source_item_number": 38,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Religious dietary practices",
+   "item_type": "matrix_grid",
+   "stem": "For each meal choice, indicate whether it fits or conflicts with the client's stated religious dietary practice.",
+   "rationale": "Halal practices prohibit pork, and many Hindus avoid beef. Kosher practices allow fish with fins and scales, such as salmon, but not shellfish, and do not combine meat and dairy in the same meal. Many Seventh-day Adventists follow a vegetarian diet. Because practices vary, the nurse asks each client about their own preferences.",
+   "columns": [
+    "Fits the practice",
+    "Conflicts with the practice"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Pork sausage for a client who follows halal practices",
+     "correct_column": "Conflicts with the practice"
+    },
+    {
+     "id": "r2",
+     "text": "A beef burger for a Hindu client who avoids beef",
+     "correct_column": "Conflicts with the practice"
+    },
+    {
+     "id": "r3",
+     "text": "Salmon for a client who keeps kosher",
+     "correct_column": "Fits the practice"
+    },
+    {
+     "id": "r4",
+     "text": "A cheeseburger for a client who keeps kosher",
+     "correct_column": "Conflicts with the practice"
+    },
+    {
+     "id": "r5",
+     "text": "A lentil dish for a Seventh-day Adventist client who is vegetarian",
+     "correct_column": "Fits the practice"
+    },
+    {
+     "id": "r6",
+     "text": "Shrimp for a client who keeps kosher",
+     "correct_column": "Conflicts with the practice"
+    }
+   ],
+   "answer_summary": "Pork sausage for a client who follows halal practices: Conflicts with the practice; A beef burger for a Hindu client who avoids beef: Conflicts with the practice; Salmon for a client who keeps kosher: Fits the practice; A cheeseburger for a client who keeps kosher: Conflicts with the practice; A lentil dish for a Seventh-day Adventist client who is vegetarian: Fits the practice; Shrimp for a client who keeps kosher: Conflicts with the practice",
+   "scoring": "zero_one_per_row",
+   "content_hash": "39435e63e33f1645"
+  },
+  {
+   "source_id": "RN-A05-039",
+   "track": "rn",
+   "set_number": 45,
+   "set_title": "Supplemental: Basic Care and Comfort",
+   "source_item_number": 39,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Transcutaneous electrical nerve stimulation",
+   "item_type": "drop_down_cloze",
+   "stem": "Complete the sentences by choosing from the lists of options.",
+   "rationale": "TENS delivers mild electrical stimulation that is thought to block pain transmission (the gate control theory) and to release endorphins. Electrodes are placed on intact skin near the painful area, never over broken skin or the front of the neck, where stimulation could affect the carotid sinus, and TENS is used only as cleared by the provider in clients with implanted cardiac devices.",
+   "template": "A transcutaneous electrical nerve stimulation (TENS) unit relieves pain by ___1___. The electrodes should not be placed ___2___.",
+   "blanks": [
+    {
+     "id": "1",
+     "options": [
+      "stimulating nerves to interrupt pain signals",
+      "delivering pain medicine through the skin",
+      "numbing the skin with cold"
+     ],
+     "correct": "stimulating nerves to interrupt pain signals"
+    },
+    {
+     "id": "2",
+     "options": [
+      "over broken skin or the front of the neck",
+      "on the lower back",
+      "near the painful area"
+     ],
+     "correct": "over broken skin or the front of the neck"
+    }
+   ],
+   "answer_summary": "1: stimulating nerves to interrupt pain signals; 2: over broken skin or the front of the neck",
+   "scoring": "zero_one_per_blank",
+   "content_hash": "2ecfafea4f0548f9"
+  },
+  {
+   "source_id": "RN-A05-040",
+   "track": "rn",
+   "set_number": 45,
+   "set_title": "Supplemental: Basic Care and Comfort",
+   "source_item_number": 40,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Bed bath technique",
+   "item_type": "highlight",
+   "stem": "The nurse observes a bed bath given to an older adult with diabetes. Highlight the actions that need to be corrected.",
+   "rationale": "A separate part of the washcloth is used for each eye to avoid spreading infection, the client is kept covered except for the area being washed to maintain warmth and dignity, and the feet of a client with diabetes are not soaked because soaking dries and macerates the skin. Testing the water, washing from clean to dirty, and drying skin folds and between the toes are correct.",
+   "passage_segments": [
+    {
+     "id": "s1",
+     "text": "Tested the water temperature before starting."
+    },
+    {
+     "id": "s2",
+     "text": "Used the same part of the washcloth for both eyes."
+    },
+    {
+     "id": "s3",
+     "text": "Washed from the cleanest areas to the dirtiest areas."
+    },
+    {
+     "id": "s4",
+     "text": "Left the client uncovered during the whole bath."
+    },
+    {
+     "id": "s5",
+     "text": "Soaked the client's feet for 20 minutes."
+    },
+    {
+     "id": "s6",
+     "text": "Dried the skin folds and between the toes thoroughly."
+    }
+   ],
+   "correct_text": "Used the same part of the washcloth for both eyes; Left the client uncovered during the whole bath; Soaked the client's feet for 20 minutes",
+   "answer_summary": "Used the same part of the washcloth for both eyes; Left the client uncovered during the whole bath; Soaked the client's feet for 20 minutes",
+   "scoring": "plus_minus",
+   "content_hash": "c3060ba90f2d92bd"
+  }
+ ]
+}
