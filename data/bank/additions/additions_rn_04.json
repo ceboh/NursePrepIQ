@@ -1,0 +1,1604 @@
+{
+ "_comment": "Supplemental items, RN batch 04: Management of Care, Safety and Infection Control, and Psychosocial Integrity. Pilot status.",
+ "track": "rn",
+ "questions": [
+  {
+   "source_id": "RN-A04-001",
+   "track": "rn",
+   "set_number": 41,
+   "set_title": "Supplemental: Management of Care",
+   "source_item_number": 1,
+   "client_need": "Management of Care",
+   "topic": "Prioritization: antepartum unit",
+   "item_type": "single_best_answer",
+   "stem": "The nurse on an antepartum unit receives report on four clients. Which client should the nurse assess first?",
+   "rationale": "New bright red bleeding in a client with placenta previa can quickly become a hemorrhage that threatens both the client and the fetus, so this client needs immediate assessment. A normal fasting glucose, tolerating breakfast with hyperemesis, and irregular Braxton Hicks contractions near term are stable findings.",
+   "answer_summary": "A",
+   "options": [
+    {
+     "key": "A",
+     "text": "A client at 33 weeks with placenta previa who reports a new gush of bright red, painless bleeding",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "A client at 28 weeks with gestational diabetes whose fasting glucose this morning was 92 mg/dL",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "A client at 30 weeks with hyperemesis who kept down crackers and juice at breakfast",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "A client at 36 weeks who reports Braxton Hicks contractions off and on today",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "02c4b04156b82fd3"
+  },
+  {
+   "source_id": "RN-A04-002",
+   "track": "rn",
+   "set_number": 41,
+   "set_title": "Supplemental: Management of Care",
+   "source_item_number": 2,
+   "client_need": "Management of Care",
+   "topic": "Prioritization: occupational health",
+   "item_type": "single_best_answer",
+   "stem": "The occupational health nurse at a manufacturing plant receives four requests at once. Which worker needs the nurse's response first?",
+   "rationale": "Alkaline chemicals penetrate eye tissue quickly and can cause permanent damage, so immediate, continuous irrigation is needed. Discussing screening results, a minor cut, and a vaccination are not urgent.",
+   "answer_summary": "D",
+   "options": [
+    {
+     "key": "A",
+     "text": "A worker who wants to discuss the results of a hearing screening done last month at the plant",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "A worker with a paper cut who is asking for a bandage",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "A worker who needs a flu shot",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "A worker who splashed an alkaline cleaning solution into one eye",
+     "is_correct": true
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "93c87acd60f350c1"
+  },
+  {
+   "source_id": "RN-A04-003",
+   "track": "rn",
+   "set_number": 41,
+   "set_title": "Supplemental: Management of Care",
+   "source_item_number": 3,
+   "client_need": "Management of Care",
+   "topic": "Illegal substances in a client's belongings",
+   "item_type": "single_best_answer",
+   "stem": "While listing a newly admitted client's belongings, the nurse finds a bag of what appears to be illegal drugs. What should the nurse do?",
+   "rationale": "Facilities have policies for suspected illegal substances, which usually call for securing the item, notifying security, and documenting objectively, without the nurse searching further or confronting the client. Returning the drugs creates a safety risk for the client and others, and destroying them is not the nurse's decision.",
+   "answer_summary": "B",
+   "options": [
+    {
+     "key": "A",
+     "text": "Return the bag to the client's belongings, since the client's property is private and protected by law",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Follow facility policy, which usually involves notifying security and securing the bag",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Flush the contents down the toilet right away so that no one else on the unit can use them",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Let the client keep it",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "44d8dd3d02402bc4"
+  },
+  {
+   "source_id": "RN-A04-004",
+   "track": "rn",
+   "set_number": 41,
+   "set_title": "Supplemental: Management of Care",
+   "source_item_number": 4,
+   "client_need": "Management of Care",
+   "topic": "Law enforcement requests for blood samples",
+   "item_type": "single_best_answer",
+   "stem": "A police officer asks the nurse to draw a blood alcohol sample from a conscious, competent client involved in a car crash. The client refuses. What should the nurse do?",
+   "rationale": "Drawing blood from a competent client who refuses, without a warrant, court order, or other legal authority, can be battery. The nurse follows facility policy, which usually involves the supervisor or risk management. A police request alone does not override the client's refusal, deceiving the client is unethical, and the officer cannot perform the procedure.",
+   "answer_summary": "C",
+   "options": [
+    {
+     "key": "A",
+     "text": "Draw the sample, since a police officer has the authority to request it from any client",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Draw the sample while the client is distracted so that the client does not become upset",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Not draw blood without consent, a warrant, or another legal basis per policy",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Ask the officer to draw the sample personally, since nurses are not allowed to be involved",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "a8c8752102d2ede3"
+  },
+  {
+   "source_id": "RN-A04-005",
+   "track": "rn",
+   "set_number": 41,
+   "set_title": "Supplemental: Management of Care",
+   "source_item_number": 5,
+   "client_need": "Management of Care",
+   "topic": "Assignments for a nurse in orientation",
+   "item_type": "single_best_answer",
+   "stem": "The charge nurse is choosing a client for a newly licensed nurse in the second week of orientation with a preceptor. Which client is most appropriate?",
+   "rationale": "Early in orientation, a new nurse should care for stable clients with predictable needs while building skills with the preceptor. A client on a vasopressor after an ICU transfer, a client with a new tracheostomy who needs frequent suctioning, and a client with worsening alcohol withdrawal are unstable or high risk.",
+   "answer_summary": "B",
+   "options": [
+    {
+     "key": "A",
+     "text": "A client with sepsis on a vasopressor who arrived from the ICU an hour ago",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "A stable client 2 days after a laparoscopic cholecystectomy who needs teaching",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "A client with a new tracheostomy who needs frequent suctioning",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "A client in alcohol withdrawal whose symptom score is rising",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "4ce5049af3c4b285"
+  },
+  {
+   "source_id": "RN-A04-006",
+   "track": "rn",
+   "set_number": 41,
+   "set_title": "Supplemental: Management of Care",
+   "source_item_number": 6,
+   "client_need": "Management of Care",
+   "topic": "Evaluating staff education",
+   "item_type": "single_best_answer",
+   "stem": "The nurse educator teaches staff to use a new IV infusion pump. Which method best evaluates whether staff can use the pump correctly?",
+   "rationale": "A psychomotor skill is best evaluated by observing the learner perform it, so a return demonstration shows whether each nurse can program the pump correctly. Attendance, knowledge of pump history, and self-reported confidence do not show competence.",
+   "answer_summary": "D",
+   "options": [
+    {
+     "key": "A",
+     "text": "Having each nurse sign an attendance sheet at the end of the education session on the pump",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Giving a written test on pump history",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Asking whether staff feel confident",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Having each nurse program the pump during a return demonstration",
+     "is_correct": true
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "e6690b458f1cbc51"
+  },
+  {
+   "source_id": "RN-A04-007",
+   "track": "rn",
+   "set_number": 41,
+   "set_title": "Supplemental: Management of Care",
+   "source_item_number": 7,
+   "client_need": "Management of Care",
+   "topic": "Supporting a client's discharge choice",
+   "item_type": "single_best_answer",
+   "stem": "A competent client recovering from a stroke wants to go home rather than to the skilled nursing facility the team recommends. What should the nurse do?",
+   "rationale": "A competent client has the right to make decisions that the team would not choose. The nurse supports the decision and helps plan the safest discharge, such as home health services, equipment, and family support. Misstating insurance rules, seeking a finding of incompetence because the team disagrees, and delaying discharge to pressure the client do not respect autonomy.",
+   "answer_summary": "C",
+   "options": [
+    {
+     "key": "A",
+     "text": "Tell the client that the team's recommendation must be followed for insurance to pay for care",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Ask the provider to declare the client incompetent so the family can decide for them",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Respect the choice and work with the team to plan the safest discharge home",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Delay discharge until the client agrees",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "4b369fc312b411b3"
+  },
+  {
+   "source_id": "RN-A04-008",
+   "track": "rn",
+   "set_number": 41,
+   "set_title": "Supplemental: Management of Care",
+   "source_item_number": 8,
+   "client_need": "Management of Care",
+   "topic": "Do-not-resuscitate orders and surgery",
+   "item_type": "single_best_answer",
+   "stem": "A client with a do-not-resuscitate (DNR) order is scheduled for surgery to repair a hip fracture. Which action reflects current guidelines?",
+   "rationale": "Current guidelines call for required reconsideration: a DNR order is neither automatically suspended nor ignored during surgery. The surgeon and anesthesia team discuss with the client or surrogate which interventions are acceptable during the procedure, and the plan is documented. Clients with DNR orders can have surgery, and the anesthesia team must know the client's wishes.",
+   "answer_summary": "A",
+   "options": [
+    {
+     "key": "A",
+     "text": "Make sure the team discusses the DNR order with the client before surgery",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Suspend the DNR order automatically for the entire perioperative period without a discussion",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Cancel the surgery, since clients with DNR orders cannot undergo any procedures",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Keep the DNR order in place without telling the anesthesia team anything about it",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "0c12c48c550a0f69"
+  },
+  {
+   "source_id": "RN-A04-009",
+   "track": "rn",
+   "set_number": 41,
+   "set_title": "Supplemental: Management of Care",
+   "source_item_number": 9,
+   "client_need": "Management of Care",
+   "topic": "Referral for diabetes self-management education",
+   "item_type": "single_best_answer",
+   "stem": "A client newly diagnosed with type 2 diabetes is overwhelmed by the information given in the hospital. Which referral will best support ongoing self-management?",
+   "rationale": "Diabetes self-management education and support programs teach skills over time, such as glucose monitoring, medication use, nutrition, and problem solving, which is more effective than teaching everything during a hospital stay. A home health aide cannot give medications, and physical therapy and hospice do not address the client's learning needs.",
+   "answer_summary": "B",
+   "options": [
+    {
+     "key": "A",
+     "text": "A home health aide to give all of the client's medications each day",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "A diabetes self-management education and support program after discharge",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "A physical therapist for a strengthening program at home",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "A hospice program for symptom management",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "837c17184d97c4bf"
+  },
+  {
+   "source_id": "RN-A04-010",
+   "track": "rn",
+   "set_number": 41,
+   "set_title": "Supplemental: Management of Care",
+   "source_item_number": 10,
+   "client_need": "Management of Care",
+   "topic": "Speaking up during a surgical time-out",
+   "item_type": "single_best_answer",
+   "stem": "During a time-out, the nurse notices that the surgical site marked on the client does not match the consent form. The surgeon says to proceed. What should the nurse do?",
+   "rationale": "Under the Universal Protocol, any team member can stop a procedure when there is a safety concern. If a first concern is dismissed, the nurse states it again clearly (the two-challenge rule) and uses the chain of command if needed. Proceeding risks wrong-site surgery, documenting afterward does not prevent harm, and an anesthetized client cannot answer.",
+   "answer_summary": "A",
+   "options": [
+    {
+     "key": "A",
+     "text": "Restate the concern and stop the procedure until the discrepancy is resolved",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Proceed as directed, since the surgeon is responsible for knowing the correct surgical site",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Document the discrepancy after the case",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Ask the anesthetized client",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "6b836b32c30291d0"
+  },
+  {
+   "source_id": "RN-A04-011",
+   "track": "rn",
+   "set_number": 41,
+   "set_title": "Supplemental: Management of Care",
+   "source_item_number": 11,
+   "client_need": "Management of Care",
+   "topic": "Prioritization: cardiac unit",
+   "item_type": "single_best_answer",
+   "stem": "The nurse on a cardiac unit receives report on four clients. Which client should the nurse assess first?",
+   "rationale": "A growing swelling at the femoral access site suggests a hematoma from bleeding, which needs immediate pressure, assessment of distal pulses and vital signs, and notification of the provider. A question about daily weights, a scheduled stress test, and a menu request can wait.",
+   "answer_summary": "D",
+   "options": [
+    {
+     "key": "A",
+     "text": "A client with heart failure who asks why a daily weight is needed every single morning before breakfast",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "A client with stable angina who is scheduled for an exercise stress test early tomorrow morning",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "A client with hypertension asking for a menu",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "A client 2 hours after a femoral cardiac catheterization with a growing groin swelling",
+     "is_correct": true
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "4d931a860cf44a74"
+  },
+  {
+   "source_id": "RN-A04-012",
+   "track": "rn",
+   "set_number": 41,
+   "set_title": "Supplemental: Management of Care",
+   "source_item_number": 12,
+   "client_need": "Management of Care",
+   "topic": "Verbal prescriptions in nonemergency situations",
+   "item_type": "single_best_answer",
+   "stem": "A provider stops the nurse in the hallway and verbally prescribes a stool softener for a client. It is not an emergency, and the provider can use the electronic order system. What should the nurse do?",
+   "rationale": "Verbal prescriptions increase the risk of errors, so policies limit them to emergencies or situations in which the provider cannot enter them. When the provider can use the electronic system, the nurse asks the provider to enter the prescription. Notes on scraps of paper, delayed signatures, and relying on another nurse's memory invite errors.",
+   "answer_summary": "C",
+   "options": [
+    {
+     "key": "A",
+     "text": "Write the prescription on a paper towel and enter it into the client's record later in the shift",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Give the stool softener now and ask the provider to sign for it at the end of the week",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Ask the provider to enter the prescription in the electronic record",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Ask another nurse to remember the prescription and enter it into the record at a later time",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "288f7749227c80cd"
+  },
+  {
+   "source_id": "RN-A04-013",
+   "track": "rn",
+   "set_number": 41,
+   "set_title": "Supplemental: Management of Care",
+   "source_item_number": 13,
+   "client_need": "Management of Care",
+   "topic": "Prioritization: bariatric surgery unit",
+   "item_type": "single_best_answer",
+   "stem": "The nurse on a bariatric surgery unit is caring for four clients on the first day after surgery. Which client should the nurse assess first?",
+   "rationale": "Persistent tachycardia, new left shoulder pain, and restlessness after bariatric surgery can be early signs of an anastomotic leak or pulmonary embolism, both of which need urgent evaluation. Mild pain, following the prescribed fluid schedule, and questions about the diet are expected.",
+   "answer_summary": "C",
+   "options": [
+    {
+     "key": "A",
+     "text": "A client who reports mild incisional pain and wants to know when walking is allowed",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "A client who is sipping 30 mL of water every 15 minutes as prescribed",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "A client with a heart rate of 124/min, new left shoulder pain, and increasing restlessness",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "A client who asks when pureed foods can be started after discharge",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "330cd9fb35dd216b"
+  },
+  {
+   "source_id": "RN-A04-014",
+   "track": "rn",
+   "set_number": 41,
+   "set_title": "Supplemental: Management of Care",
+   "source_item_number": 14,
+   "client_need": "Management of Care",
+   "topic": "Nurse-sensitive quality indicators",
+   "item_type": "multiple_response",
+   "stem": "Which outcomes are considered nurse-sensitive quality indicators? Select all that apply.",
+   "rationale": "Nurse-sensitive indicators reflect the structure, process, and outcomes of nursing care, such as pressure injuries, falls with injury, catheter-associated urinary tract infections, and restraint use. Insurance status and the number of later office visits are not measures of nursing care quality.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Hospital-acquired pressure injuries",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Falls with injury",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Catheter-associated urinary tract infections",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "The client's insurance status",
+     "is_correct": false
+    },
+    {
+     "key": "E",
+     "text": "Physical restraint prevalence",
+     "is_correct": true
+    },
+    {
+     "key": "F",
+     "text": "The number of provider office visits after discharge",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, E",
+   "scoring": "plus_minus",
+   "content_hash": "da22af0f596f8b38"
+  },
+  {
+   "source_id": "RN-A04-015",
+   "track": "rn",
+   "set_number": 41,
+   "set_title": "Supplemental: Management of Care",
+   "source_item_number": 15,
+   "client_need": "Management of Care",
+   "topic": "Emergency Medical Treatment and Active Labor Act",
+   "item_type": "multiple_response",
+   "stem": "A client with chest pain and no health insurance arrives at the emergency department. Which actions comply with the Emergency Medical Treatment and Active Labor Act (EMTALA)? Select all that apply.",
+   "rationale": "EMTALA requires hospitals with emergency departments to provide a medical screening examination and stabilizing treatment regardless of ability to pay, and to arrange appropriate transfer only when the hospital cannot provide the needed care. Delaying screening to ask about payment and transferring a client because of a lack of insurance violate the law.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Providing a medical screening examination",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Stabilizing the client's emergency condition before any transfer",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Arranging an appropriate transfer only if the hospital cannot provide needed care",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Asking about payment before the screening examination",
+     "is_correct": false
+    },
+    {
+     "key": "E",
+     "text": "Sending the client to a public hospital because of a lack of insurance",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C",
+   "scoring": "plus_minus",
+   "content_hash": "ee02ab64021d546f"
+  },
+  {
+   "source_id": "RN-A04-016",
+   "track": "rn",
+   "set_number": 41,
+   "set_title": "Supplemental: Management of Care",
+   "source_item_number": 16,
+   "client_need": "Management of Care",
+   "topic": "Client rights under HIPAA",
+   "item_type": "multiple_response",
+   "stem": "Under HIPAA, which rights do clients have regarding their health information? Select all that apply.",
+   "rationale": "HIPAA gives clients the right to access their records, request amendments, receive an accounting of certain disclosures, and request confidential communications. A request for amendment can be denied and does not delete the original entry, and clients cannot view another person's record without authorization.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Getting a copy of their medical record",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Requesting corrections to information they believe is wrong",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Receiving a list of certain disclosures of their information",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Asking to be contacted at an alternative address or phone number",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Having any entry they disagree with deleted from the record",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Viewing a family member's record without permission",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "content_hash": "7a49b09219571994"
+  },
+  {
+   "source_id": "RN-A04-017",
+   "track": "rn",
+   "set_number": 41,
+   "set_title": "Supplemental: Management of Care",
+   "source_item_number": 17,
+   "client_need": "Management of Care",
+   "topic": "Conflict management strategies",
+   "item_type": "matrix_grid",
+   "stem": "For each response to a conflict between two nurses about holiday scheduling, indicate the conflict management strategy it reflects.",
+   "rationale": "Avoiding sidesteps the conflict. Accommodating sets aside one's own needs for the other person's. Compromising means each side gives up something to reach an acceptable middle ground. Collaborating means working together toward a solution that satisfies both parties and is usually the most effective long-term approach.",
+   "columns": [
+    "Avoiding",
+    "Accommodating",
+    "Compromising",
+    "Collaborating"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "One nurse says nothing and hopes the issue goes away",
+     "correct_column": "Avoiding"
+    },
+    {
+     "id": "r2",
+     "text": "One nurse gives up the request so the other can have the holiday off",
+     "correct_column": "Accommodating"
+    },
+    {
+     "id": "r3",
+     "text": "Each nurse works half of the holiday",
+     "correct_column": "Compromising"
+    },
+    {
+     "id": "r4",
+     "text": "The nurses work together to find a solution that fully meets both of their needs",
+     "correct_column": "Collaborating"
+    },
+    {
+     "id": "r5",
+     "text": "The nurses agree that each will give up one preferred day",
+     "correct_column": "Compromising"
+    }
+   ],
+   "answer_summary": "One nurse says nothing and hopes the issue goes away: Avoiding; One nurse gives up the request so the other can have the holiday off: Accommodating; Each nurse works half of the holiday: Compromising; The nurses work together to find a solution that fully meets both of their needs: Collaborating; The nurses agree that each will give up one preferred day: Compromising",
+   "scoring": "zero_one_per_row",
+   "content_hash": "9e643a170d813533"
+  },
+  {
+   "source_id": "RN-A04-018",
+   "track": "rn",
+   "set_number": 41,
+   "set_title": "Supplemental: Management of Care",
+   "source_item_number": 18,
+   "client_need": "Management of Care",
+   "topic": "Quality improvement tools",
+   "item_type": "matrix_grid",
+   "stem": "For each quality improvement purpose, indicate the most appropriate tool.",
+   "rationale": "A root cause analysis looks back at an event to find system causes. A failure mode and effects analysis looks ahead at a new process to find where it could fail. A run chart shows data over time to reveal trends. A fishbone (cause-and-effect) diagram organizes possible causes of a problem into categories.",
+   "columns": [
+    "Root cause analysis",
+    "Failure mode and effects analysis",
+    "Run chart",
+    "Fishbone diagram"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Analyze why a sentinel event occurred after it happened",
+     "correct_column": "Root cause analysis"
+    },
+    {
+     "id": "r2",
+     "text": "Predict how a new medication process could fail before it is put in place",
+     "correct_column": "Failure mode and effects analysis"
+    },
+    {
+     "id": "r3",
+     "text": "Track the unit's monthly fall rate over a year",
+     "correct_column": "Run chart"
+    },
+    {
+     "id": "r4",
+     "text": "Sort possible causes of medication delays into categories such as people, equipment, and methods",
+     "correct_column": "Fishbone diagram"
+    },
+    {
+     "id": "r5",
+     "text": "Display weekly hand hygiene compliance over time",
+     "correct_column": "Run chart"
+    }
+   ],
+   "answer_summary": "Analyze why a sentinel event occurred after it happened: Root cause analysis; Predict how a new medication process could fail before it is put in place: Failure mode and effects analysis; Track the unit's monthly fall rate over a year: Run chart; Sort possible causes of medication delays into categories such as people, equipment, and methods: Fishbone diagram; Display weekly hand hygiene compliance over time: Run chart",
+   "scoring": "zero_one_per_row",
+   "content_hash": "11653b10ece30da0"
+  },
+  {
+   "source_id": "RN-A04-019",
+   "track": "rn",
+   "set_number": 41,
+   "set_title": "Supplemental: Management of Care",
+   "source_item_number": 19,
+   "client_need": "Management of Care",
+   "topic": "Lewin's change theory",
+   "item_type": "drop_down_cloze",
+   "stem": "Complete the sentence by choosing from the lists of options.",
+   "rationale": "Lewin's model has three stages. Unfreezing creates readiness by showing why the current approach needs to change, moving puts the change into practice, and refreezing builds the change into routines and policies so that it lasts.",
+   "template": "According to Lewin's change theory, the nurse manager first ___1___ by helping staff see why a change is needed, and the change becomes lasting during the ___2___ stage.",
+   "blanks": [
+    {
+     "id": "1",
+     "options": [
+      "unfreezes the current situation",
+      "enforces the new policy",
+      "evaluates the outcomes"
+     ],
+     "correct": "unfreezes the current situation"
+    },
+    {
+     "id": "2",
+     "options": [
+      "refreezing",
+      "moving",
+      "unfreezing"
+     ],
+     "correct": "refreezing"
+    }
+   ],
+   "answer_summary": "1: unfreezes the current situation; 2: refreezing",
+   "scoring": "zero_one_per_blank",
+   "content_hash": "8f9240a5939c7cda"
+  },
+  {
+   "source_id": "RN-A04-020",
+   "track": "rn",
+   "set_number": 41,
+   "set_title": "Supplemental: Management of Care",
+   "source_item_number": 20,
+   "client_need": "Management of Care",
+   "topic": "Research ethics",
+   "item_type": "drop_down_cloze",
+   "stem": "Complete the sentence by choosing from the lists of options.",
+   "rationale": "An institutional review board reviews research involving human participants to protect their rights and safety. Participation is voluntary, so participants may withdraw at any time without penalty or loss of the care they would otherwise receive.",
+   "template": "Before a study involving human participants begins, it must be approved by ___1___, and a participant who has given consent ___2___.",
+   "blanks": [
+    {
+     "id": "1",
+     "options": [
+      "an institutional review board",
+      "the unit's charge nurse",
+      "the participant's insurer"
+     ],
+     "correct": "an institutional review board"
+    },
+    {
+     "id": "2",
+     "options": [
+      "may withdraw at any time without losing access to usual care",
+      "must stay in the study until it ends",
+      "may withdraw only with the researcher's permission"
+     ],
+     "correct": "may withdraw at any time without losing access to usual care"
+    }
+   ],
+   "answer_summary": "1: an institutional review board; 2: may withdraw at any time without losing access to usual care",
+   "scoring": "zero_one_per_blank",
+   "content_hash": "095bd70c45612ffe"
+  },
+  {
+   "source_id": "RN-A04-021",
+   "track": "rn",
+   "set_number": 41,
+   "set_title": "Supplemental: Management of Care",
+   "source_item_number": 21,
+   "client_need": "Management of Care",
+   "topic": "Assignment cues for RN care",
+   "item_type": "highlight",
+   "stem": "The charge nurse is reviewing a client's data before assigning the client to an LPN/VN. Highlight the findings that indicate the client should instead be assigned to an RN.",
+   "rationale": "A recent ICU transfer and falling oxygen saturation make the client's condition unstable and unpredictable, and initial teaching is an RN responsibility, so the client should be assigned to an RN. Scheduled oral medications, a simple dressing change, and walking with standby assistance are within the LPN/VN's scope.",
+   "passage_segments": [
+    {
+     "id": "s1",
+     "text": "Transferred from the ICU 1 hour ago."
+    },
+    {
+     "id": "s2",
+     "text": "Takes scheduled oral medications."
+    },
+    {
+     "id": "s3",
+     "text": "SpO2 dropped from 96% to 89% in the last hour."
+    },
+    {
+     "id": "s4",
+     "text": "Needs initial teaching for a new insulin regimen."
+    },
+    {
+     "id": "s5",
+     "text": "Has a clean, dry incision that needs a daily dressing change."
+    },
+    {
+     "id": "s6",
+     "text": "Walks to the bathroom with standby assistance."
+    }
+   ],
+   "correct_text": "Transferred from the ICU 1 hour ago; SpO2 dropped from 96% to 89% in the last hour; Needs initial teaching for a new insulin regimen",
+   "answer_summary": "Transferred from the ICU 1 hour ago; SpO2 dropped from 96% to 89% in the last hour; Needs initial teaching for a new insulin regimen",
+   "scoring": "plus_minus",
+   "content_hash": "ac3e56c582ca5c6c"
+  },
+  {
+   "source_id": "RN-A04-022",
+   "track": "rn",
+   "set_number": 42,
+   "set_title": "Supplemental: Safety and Infection Control",
+   "source_item_number": 22,
+   "client_need": "Safety and Infection Control",
+   "topic": "Removing personal protective equipment",
+   "item_type": "single_best_answer",
+   "stem": "The nurse is leaving the room of a client on contact and droplet precautions while wearing gloves, a gown, a surgical mask, and goggles. Which item should the nurse remove first?",
+   "rationale": "Gloves are the most contaminated item, so they are removed first (or together with the gown), followed by the goggles, gown, and then the mask, which is removed last by the ties or ear loops. Hand hygiene is performed immediately after removing all PPE and whenever the hands become contaminated.",
+   "answer_summary": "A",
+   "options": [
+    {
+     "key": "A",
+     "text": "The gloves",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "The goggles",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "The gown",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "The mask",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "7ea096e19216ac28"
+  },
+  {
+   "source_id": "RN-A04-023",
+   "track": "rn",
+   "set_number": 42,
+   "set_title": "Supplemental: Safety and Infection Control",
+   "source_item_number": 23,
+   "client_need": "Safety and Infection Control",
+   "topic": "N95 respirator seal check",
+   "item_type": "single_best_answer",
+   "stem": "Before entering the room of a client with suspected pulmonary tuberculosis, the nurse puts on a fit-tested N95 respirator. What should the nurse do next?",
+   "rationale": "A user seal check is done every time an N95 respirator is put on to make sure air is not leaking around the edges. The nosepiece is molded firmly to the nose, the top strap goes over the crown of the head and the bottom strap at the back of the neck, and annual fit testing does not replace the seal check.",
+   "answer_summary": "D",
+   "options": [
+    {
+     "key": "A",
+     "text": "Pinch the nosepiece loosely so the respirator is comfortable to wear during the visit",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Pull the bottom strap over the top of the head and the top strap under the ears",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Skip the seal check, since the respirator was fit-tested",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Perform a user seal check by exhaling and inhaling to detect leaks",
+     "is_correct": true
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "d7057c9d9636d55e"
+  },
+  {
+   "source_id": "RN-A04-024",
+   "track": "rn",
+   "set_number": 42,
+   "set_title": "Supplemental: Safety and Infection Control",
+   "source_item_number": 24,
+   "client_need": "Safety and Infection Control",
+   "topic": "Home fall prevention",
+   "item_type": "single_best_answer",
+   "stem": "The home health nurse is visiting an 80-year-old client who lives alone. Which recommendation best reduces the client's risk of falling at home?",
+   "rationale": "Throw rugs are a common tripping hazard, and night-lights improve visibility during nighttime trips to the bathroom. Items on high shelves lead to climbing and reaching, backless slippers can slide off, and anything stored on stairs is a tripping hazard.",
+   "answer_summary": "B",
+   "options": [
+    {
+     "key": "A",
+     "text": "Keep frequently used items on high shelves to save floor space",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Remove throw rugs and add night-lights",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Wear soft slippers without backs for comfort around the house",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Store a few pairs of shoes on the stairs so they are easy to reach",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "da97e2e28a7eced1"
+  },
+  {
+   "source_id": "RN-A04-025",
+   "track": "rn",
+   "set_number": 42,
+   "set_title": "Supplemental: Safety and Infection Control",
+   "source_item_number": 25,
+   "client_need": "Safety and Infection Control",
+   "topic": "Car seat safety",
+   "item_type": "single_best_answer",
+   "stem": "Parents of a 14-month-old ask when their child can ride in a forward-facing car seat. What is the nurse's best response?",
+   "rationale": "Current recommendations are to keep children rear-facing as long as possible, until they reach the highest height or weight allowed by the car seat, which for most children is well past age 2. Legs touching the vehicle seat are not a safety concern. Sitting unsupported and walking are not criteria for turning the seat, and booster seats are for much older children.",
+   "answer_summary": "B",
+   "options": [
+    {
+     "key": "A",
+     "text": "Turn the seat to face forward on the child's first birthday, since the legs are now too long",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Keep the child rear-facing as long as possible, until the seat's height or weight limit is reached",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Turn the seat forward once the child can sit up without support and hold up the head",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Use a booster seat with the vehicle's lap and shoulder belt once the child walks",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "fef462953a017c13"
+  },
+  {
+   "source_id": "RN-A04-026",
+   "track": "rn",
+   "set_number": 42,
+   "set_title": "Supplemental: Safety and Infection Control",
+   "source_item_number": 26,
+   "client_need": "Safety and Infection Control",
+   "topic": "Side rails and bed safety",
+   "item_type": "single_best_answer",
+   "stem": "A confused older client keeps trying to climb out of bed. Which action by the nurse is safest?",
+   "rationale": "A low bed, a bed alarm, frequent checks, and meeting needs such as toileting are the least restrictive ways to prevent falls. Four raised side rails act as a restraint, and a confused client may climb over them and fall from a greater height or become trapped. Tight sheets restrict movement, and a dark room increases confusion and fall risk.",
+   "answer_summary": "D",
+   "options": [
+    {
+     "key": "A",
+     "text": "Raise all four side rails so the client cannot get out of bed without help from staff",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Tuck the sheets tightly",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Keep the room dark",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Lower the bed, use a bed alarm, and check on the client frequently",
+     "is_correct": true
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "fbaf643abb09bef2"
+  },
+  {
+   "source_id": "RN-A04-027",
+   "track": "rn",
+   "set_number": 42,
+   "set_title": "Supplemental: Safety and Infection Control",
+   "source_item_number": 27,
+   "client_need": "Safety and Infection Control",
+   "topic": "Single-dose vials",
+   "item_type": "single_best_answer",
+   "stem": "A single-dose vial still contains some medication after the nurse draws up the prescribed dose for a client. What should the nurse do with the vial?",
+   "rationale": "Single-dose vials do not contain preservatives and are meant for one client and one procedure. Saving or reusing the leftover medication has caused outbreaks of bloodstream infections and hepatitis, so the vial is discarded after one use.",
+   "answer_summary": "C",
+   "options": [
+    {
+     "key": "A",
+     "text": "Label it with the date and time and save it for the next client who needs the same drug",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Store it in the refrigerator for use with this same client later in the week",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Discard it, even though medication is left in the vial",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Use it for the next client",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "2403a1624e4fd252"
+  },
+  {
+   "source_id": "RN-A04-028",
+   "track": "rn",
+   "set_number": 42,
+   "set_title": "Supplemental: Safety and Infection Control",
+   "source_item_number": 28,
+   "client_need": "Safety and Infection Control",
+   "topic": "Smart pump dose alerts",
+   "item_type": "single_best_answer",
+   "stem": "When the nurse programs a heparin infusion, the smart pump alerts that the dose exceeds the hard limit in the drug library. What should the nurse do?",
+   "rationale": "A hard limit means the programmed dose is outside the safe range set for that drug and cannot be overridden. It usually signals a programming error, such as confusing units per hour with milliliters per hour, or a prescription error, so the nurse stops and verifies with the prescription, pharmacist, or provider. Bypassing the drug library removes the safety check.",
+   "answer_summary": "A",
+   "options": [
+    {
+     "key": "A",
+     "text": "Stop and recheck the prescription and programming",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Override the alert, since smart pump limits are only suggestions that can be bypassed",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Program the pump without the drug library so the alert does not appear again",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Ask another nurse to override the alert using that nurse's own pump access code",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "32683f5cda673858"
+  },
+  {
+   "source_id": "RN-A04-029",
+   "track": "rn",
+   "set_number": 42,
+   "set_title": "Supplemental: Safety and Infection Control",
+   "source_item_number": 29,
+   "client_need": "Safety and Infection Control",
+   "topic": "Respiratory hygiene in waiting areas",
+   "item_type": "multiple_response",
+   "stem": "Which measures support respiratory hygiene and cough etiquette in a clinic waiting room? Select all that apply.",
+   "rationale": "Signs, masks, tissues with no-touch disposal, and spatial separation reduce the spread of respiratory infections. Clients are taught to cough into a tissue or their elbow rather than their hands, and coughing clients are kept away from busy areas such as the reception desk.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Posting signs that ask clients with respiratory symptoms to tell staff",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Offering masks to clients who are coughing",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Providing tissues and no-touch waste containers",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Seating coughing clients apart from others when possible",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Asking coughing clients to cover their mouths with their hands",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Seating coughing clients next to the reception desk",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "content_hash": "4107a395480e22e1"
+  },
+  {
+   "source_id": "RN-A04-030",
+   "track": "rn",
+   "set_number": 42,
+   "set_title": "Supplemental: Safety and Infection Control",
+   "source_item_number": 30,
+   "client_need": "Safety and Infection Control",
+   "topic": "Firearm safety at home",
+   "item_type": "multiple_response",
+   "stem": "The nurse is teaching parents about firearm safety in a home with children. Which instructions are correct? Select all that apply.",
+   "rationale": "Storing firearms unloaded and locked, with ammunition locked separately, and asking about firearms in other homes reduce the risk of unintentional shootings and suicide. Children can find hidden firearms, and teaching young children about guns does not reliably prevent them from handling a gun they find.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Store firearms unloaded and locked",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Store ammunition locked and separate from firearms",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Ask about unsecured firearms in homes the child visits",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Hide a loaded firearm on a high closet shelf",
+     "is_correct": false
+    },
+    {
+     "key": "E",
+     "text": "Teach young children to handle guns safely so locked storage is not needed",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C",
+   "scoring": "plus_minus",
+   "content_hash": "6e098dd365319afc"
+  },
+  {
+   "source_id": "RN-A04-031",
+   "track": "rn",
+   "set_number": 42,
+   "set_title": "Supplemental: Safety and Infection Control",
+   "source_item_number": 31,
+   "client_need": "Safety and Infection Control",
+   "topic": "Reprocessing equipment",
+   "item_type": "matrix_grid",
+   "stem": "For each item, indicate the minimum level of reprocessing required before it is used for another client.",
+   "rationale": "Critical items that enter sterile tissue or the bloodstream, such as surgical instruments and biopsy forceps, must be sterilized. Semicritical items that contact mucous membranes, such as endoscopes and vaginal probes, need at least high-level disinfection. Noncritical items that touch only intact skin, such as blood pressure cuffs and stethoscopes, need low-level disinfection.",
+   "columns": [
+    "Sterilization",
+    "High-level disinfection",
+    "Low-level disinfection"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Surgical instruments",
+     "correct_column": "Sterilization"
+    },
+    {
+     "id": "r2",
+     "text": "A flexible endoscope",
+     "correct_column": "High-level disinfection"
+    },
+    {
+     "id": "r3",
+     "text": "A blood pressure cuff",
+     "correct_column": "Low-level disinfection"
+    },
+    {
+     "id": "r4",
+     "text": "A stethoscope",
+     "correct_column": "Low-level disinfection"
+    },
+    {
+     "id": "r5",
+     "text": "Biopsy forceps that enter sterile tissue",
+     "correct_column": "Sterilization"
+    },
+    {
+     "id": "r6",
+     "text": "A vaginal ultrasound probe",
+     "correct_column": "High-level disinfection"
+    }
+   ],
+   "answer_summary": "Surgical instruments: Sterilization; A flexible endoscope: High-level disinfection; A blood pressure cuff: Low-level disinfection; A stethoscope: Low-level disinfection; Biopsy forceps that enter sterile tissue: Sterilization; A vaginal ultrasound probe: High-level disinfection",
+   "scoring": "zero_one_per_row",
+   "content_hash": "bb2ab3fe8282f812"
+  },
+  {
+   "source_id": "RN-A04-032",
+   "track": "rn",
+   "set_number": 42,
+   "set_title": "Supplemental: Safety and Infection Control",
+   "source_item_number": 32,
+   "client_need": "Safety and Infection Control",
+   "topic": "Thawing breast milk",
+   "item_type": "drop_down_cloze",
+   "stem": "Complete the sentence by choosing from the lists of options.",
+   "rationale": "Breast milk is thawed in the refrigerator overnight or by placing the container in warm water. Thawing at room temperature allows bacteria to grow, and boiling water can damage the milk. Microwaving heats unevenly, creating hot spots that can burn the infant's mouth.",
+   "template": "Frozen breast milk should be thawed ___1___, and it should never be ___2___.",
+   "blanks": [
+    {
+     "id": "1",
+     "options": [
+      "in the refrigerator or in a bowl of warm water",
+      "on the kitchen counter overnight",
+      "in a pot of boiling water"
+     ],
+     "correct": "in the refrigerator or in a bowl of warm water"
+    },
+    {
+     "id": "2",
+     "options": [
+      "heated in a microwave oven",
+      "swirled gently to mix the fat",
+      "fed to the infant after thawing"
+     ],
+     "correct": "heated in a microwave oven"
+    }
+   ],
+   "answer_summary": "1: in the refrigerator or in a bowl of warm water; 2: heated in a microwave oven",
+   "scoring": "zero_one_per_blank",
+   "content_hash": "a81a9e1f2194ec00"
+  },
+  {
+   "source_id": "RN-A04-033",
+   "track": "rn",
+   "set_number": 42,
+   "set_title": "Supplemental: Safety and Infection Control",
+   "source_item_number": 33,
+   "client_need": "Safety and Infection Control",
+   "topic": "Prescriptions that need clarification",
+   "item_type": "highlight",
+   "stem": "During an electronic system downtime, the nurse reviews new handwritten prescriptions. Highlight the prescriptions that must be clarified with the provider before they are carried out.",
+   "rationale": "\"U\" is on the do-not-use list because it can be misread as 0 or 4, so the prescription must say \"units.\" The furosemide prescription has no dose, and an as-needed morphine prescription must state the indication. The metoprolol, acetaminophen, and heparin prescriptions are complete.",
+   "passage_segments": [
+    {
+     "id": "s1",
+     "text": "Metoprolol tartrate 25 mg by mouth twice daily."
+    },
+    {
+     "id": "s2",
+     "text": "Insulin regular 10 U subcutaneously now."
+    },
+    {
+     "id": "s3",
+     "text": "Furosemide IV now."
+    },
+    {
+     "id": "s4",
+     "text": "Acetaminophen 650 mg by mouth every 6 hours as needed for temperature above 101°F (38.3°C)."
+    },
+    {
+     "id": "s5",
+     "text": "Morphine 2 mg IV every 2 hours as needed."
+    },
+    {
+     "id": "s6",
+     "text": "Heparin 5,000 units subcutaneously every 8 hours."
+    }
+   ],
+   "correct_text": "Insulin regular 10 U subcutaneously now; Furosemide IV now; Morphine 2 mg IV every 2 hours as needed",
+   "answer_summary": "Insulin regular 10 U subcutaneously now; Furosemide IV now; Morphine 2 mg IV every 2 hours as needed",
+   "scoring": "plus_minus",
+   "content_hash": "a6afbc5a3131cd75"
+  },
+  {
+   "source_id": "RN-A04-034",
+   "track": "rn",
+   "set_number": 44,
+   "set_title": "Supplemental: Psychosocial Integrity",
+   "source_item_number": 34,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Limit setting with manipulative behavior",
+   "item_type": "single_best_answer",
+   "stem": "A client with antisocial personality disorder compliments the nurse and asks for an exception to the unit's phone-use rules. What is the nurse's best response?",
+   "rationale": "Clients with antisocial personality disorder may use flattery to gain special treatment. Clear, consistent limits applied by all staff reduce manipulation. Granting exceptions reinforces the behavior, inviting the client to argue that the rules do not apply opens negotiation, and postponing the answer suggests the rule may change.",
+   "answer_summary": "A",
+   "options": [
+    {
+     "key": "A",
+     "text": "Restate the unit's phone rules calmly and apply them the same way as for other clients",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Grant the exception, since the client has been cooperative and polite with staff",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Ask the client to explain why they feel the rules do not apply",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Tell the client the request will be discussed at the next meeting",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "123925289c929e87"
+  },
+  {
+   "source_id": "RN-A04-035",
+   "track": "rn",
+   "set_number": 44,
+   "set_title": "Supplemental: Psychosocial Integrity",
+   "source_item_number": 35,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Relapse prevention in substance use disorder",
+   "item_type": "single_best_answer",
+   "stem": "A client in early recovery from opioid use disorder asks the nurse how to avoid relapsing. Which response by the nurse is most helpful?",
+   "rationale": "Relapse prevention focuses on recognizing personal triggers, such as certain people, places, and emotions, and planning coping strategies and support, such as a sponsor, peer group, or counselor, along with continuing medication for opioid use disorder if prescribed. Trying not to think about using does not stop cravings, relapse is a common part of recovery from a chronic illness rather than proof that treatment failed, and isolation increases the risk of relapse.",
+   "answer_summary": "C",
+   "options": [
+    {
+     "key": "A",
+     "text": "\"Just avoid thinking about using, and the cravings will stop on their own soon enough.\"",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "\"A relapse would mean treatment has failed.\"",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "\"Let's identify your triggers and plan who you can call when cravings start.\"",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "\"Stay home alone for now.\"",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "e64912f882eea8ed"
+  },
+  {
+   "source_id": "RN-A04-036",
+   "track": "rn",
+   "set_number": 44,
+   "set_title": "Supplemental: Psychosocial Integrity",
+   "source_item_number": 36,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Progressive muscle relaxation",
+   "item_type": "single_best_answer",
+   "stem": "The nurse is teaching progressive muscle relaxation to a client with generalized anxiety disorder. Which instruction is correct?",
+   "rationale": "Progressive muscle relaxation involves tensing one muscle group at a time for a few seconds and then releasing it, helping the client recognize and reduce tension. It works best when practiced regularly, not only during a crisis. Tensing everything at once and holding the breath work against relaxation.",
+   "answer_summary": "D",
+   "options": [
+    {
+     "key": "A",
+     "text": "Tense all of the muscles in the body at once and hold the tension for as long as possible",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Practice only during a panic attack, since the technique will not help at other times",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Hold the breath while tensing",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Tense each muscle group for a few seconds, then relax it and notice the difference",
+     "is_correct": true
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "5ba9c6c55d0bd22e"
+  },
+  {
+   "source_id": "RN-A04-037",
+   "track": "rn",
+   "set_number": 44,
+   "set_title": "Supplemental: Psychosocial Integrity",
+   "source_item_number": 37,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Negative symptoms of schizophrenia",
+   "item_type": "single_best_answer",
+   "stem": "A client with schizophrenia has a flat affect, says very little, and stays in bed most of the day. Which nursing intervention is most appropriate?",
+   "rationale": "Negative symptoms such as flat affect, alogia, and avolition respond best to structure and small, achievable goals that build success. Leaving the client in bed reinforces withdrawal, leading a large meeting is too demanding at first, and calling the client lazy is judgmental and ignores that these are symptoms of the illness.",
+   "answer_summary": "B",
+   "options": [
+    {
+     "key": "A",
+     "text": "Let the client stay in bed, since the negative symptoms will resolve without intervention",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Set small, achievable daily goals for self-care",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Encourage the client to lead the evening community meeting for the whole unit",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Confront the client about laziness so that they will feel motivated to get up",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "c905c767a9948cfd"
+  },
+  {
+   "source_id": "RN-A04-038",
+   "track": "rn",
+   "set_number": 44,
+   "set_title": "Supplemental: Psychosocial Integrity",
+   "source_item_number": 38,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Signs of elder abuse or neglect",
+   "item_type": "multiple_response",
+   "stem": "The nurse is caring for an older adult brought in by a family caregiver. Which findings may indicate abuse or neglect? Select all that apply.",
+   "rationale": "Bruises in various stages of healing, especially on the upper arms where someone might grab, poor hygiene, a caregiver who will not let the client speak, and delays in seeking care are warning signs that need further assessment and reporting. Thin skin from aging and weight loss explained by a known illness with appropriate care are not, by themselves, signs of abuse.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Bruises in different stages of healing on the upper arms",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Poor hygiene and soiled clothing",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "The caregiver insists on answering every question for the client",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Unexplained delays in seeking care for an injury",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Thin, fragile skin consistent with aging",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Gradual weight loss with a documented cancer diagnosis and an appropriate care plan",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "content_hash": "8aab81ea41068d75"
+  },
+  {
+   "source_id": "RN-A04-039",
+   "track": "rn",
+   "set_number": 44,
+   "set_title": "Supplemental: Psychosocial Integrity",
+   "source_item_number": 39,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Sundowning in dementia",
+   "item_type": "multiple_response",
+   "stem": "A client with Alzheimer's disease becomes agitated and confused every evening. Which interventions should the nurse include in the plan of care? Select all that apply.",
+   "rationale": "A predictable routine, brighter light in the late afternoon, a calm evening environment, and daytime activity reduce sundowning. Restraints increase agitation and injury, and repeatedly correcting a confused client can increase distress; calm redirection works better.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Keep a consistent daily routine",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Increase lighting in the late afternoon",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Reduce noise and activity in the evening",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Encourage physical activity earlier in the day",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Apply restraints during the evening hours",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Correct the client firmly each time they are confused",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "content_hash": "8db88e19792dd548"
+  },
+  {
+   "source_id": "RN-A04-040",
+   "track": "rn",
+   "set_number": 44,
+   "set_title": "Supplemental: Psychosocial Integrity",
+   "source_item_number": 40,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Adaptive and maladaptive coping",
+   "item_type": "matrix_grid",
+   "stem": "For each way a client describes coping with stress, indicate whether it is adaptive or maladaptive.",
+   "rationale": "Adaptive coping, such as exercise, talking with supportive people, and journaling, reduces stress without causing new problems. Maladaptive coping, such as using alcohol to sleep, withdrawing from everyone, and emotional overeating, may bring short-term relief but creates new health and social problems.",
+   "columns": [
+    "Adaptive",
+    "Maladaptive"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Going for a walk after a stressful day",
+     "correct_column": "Adaptive"
+    },
+    {
+     "id": "r2",
+     "text": "Drinking alcohol every night to fall asleep",
+     "correct_column": "Maladaptive"
+    },
+    {
+     "id": "r3",
+     "text": "Talking with a friend about worries",
+     "correct_column": "Adaptive"
+    },
+    {
+     "id": "r4",
+     "text": "Avoiding all social contact",
+     "correct_column": "Maladaptive"
+    },
+    {
+     "id": "r5",
+     "text": "Writing in a journal",
+     "correct_column": "Adaptive"
+    },
+    {
+     "id": "r6",
+     "text": "Eating large amounts of food when upset",
+     "correct_column": "Maladaptive"
+    }
+   ],
+   "answer_summary": "Going for a walk after a stressful day: Adaptive; Drinking alcohol every night to fall asleep: Maladaptive; Talking with a friend about worries: Adaptive; Avoiding all social contact: Maladaptive; Writing in a journal: Adaptive; Eating large amounts of food when upset: Maladaptive",
+   "scoring": "zero_one_per_row",
+   "content_hash": "0d01dfbf1fdba8ca"
+  }
+ ]
+}
