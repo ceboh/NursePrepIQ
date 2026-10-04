@@ -677,6 +677,81 @@
     "PN-C05-06"
    ],
    "needs_review": false
+  },
+  {
+   "case_id": "PN-C06",
+   "title": "Acute asthma exacerbation in an adult",
+   "system": "Respiratory",
+   "discipline": "Adult Health",
+   "items": [
+    "PN-C06-01",
+    "PN-C06-02",
+    "PN-C06-03",
+    "PN-C06-04",
+    "PN-C06-05",
+    "PN-C06-06"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "PN-C07",
+   "title": "Hip fracture repair: first postoperative day",
+   "system": "Musculoskeletal",
+   "discipline": "Adult Health",
+   "items": [
+    "PN-C07-01",
+    "PN-C07-02",
+    "PN-C07-03",
+    "PN-C07-04",
+    "PN-C07-05",
+    "PN-C07-06"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "PN-C08",
+   "title": "Newborn hypoglycemia after a pregnancy with gestational diabetes",
+   "system": "Endocrine",
+   "discipline": "Maternal & Newborn",
+   "items": [
+    "PN-C08-01",
+    "PN-C08-02",
+    "PN-C08-03",
+    "PN-C08-04",
+    "PN-C08-05",
+    "PN-C08-06"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "PN-C09",
+   "title": "Clostridioides difficile infection in long-term care",
+   "system": "Gastrointestinal",
+   "discipline": "Safety & Infection Control",
+   "items": [
+    "PN-C09-01",
+    "PN-C09-02",
+    "PN-C09-03",
+    "PN-C09-04",
+    "PN-C09-05",
+    "PN-C09-06"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "PN-C10",
+   "title": "Acute dystonia after starting an antipsychotic",
+   "system": "Neurologic",
+   "discipline": "Mental Health",
+   "items": [
+    "PN-C10-01",
+    "PN-C10-02",
+    "PN-C10-03",
+    "PN-C10-04",
+    "PN-C10-05",
+    "PN-C10-06"
+   ],
+   "needs_review": false
   }
  ]
 }

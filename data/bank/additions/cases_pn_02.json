@@ -1,0 +1,1534 @@
+{
+ "_comment": "PN NGN unfolding case studies, batch 02 (PN-C06 to PN-C10). Six items per case, one per clinical judgment step. Pilot status.",
+ "track": "pn",
+ "questions": [
+  {
+   "source_id": "PN-C06-01",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 1,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Recognize cues",
+   "item_type": "highlight",
+   "stem": "Highlight the findings that require follow-up.",
+   "rationale": "Speaking in short phrases, accessory muscle use, rapid breathing, and an oxygen saturation below the prescribed goal show significant respiratory distress. Heavy rescue inhaler use and skipping the controller medicine explain the poor control. The blood pressure and temperature are not concerns.",
+   "passage_segments": [
+    {
+     "id": "s1",
+     "text": "Speaking in short phrases"
+    },
+    {
+     "id": "s2",
+     "text": "Using neck muscles to breathe"
+    },
+    {
+     "id": "s3",
+     "text": "Rescue inhaler about 10 times a day"
+    },
+    {
+     "id": "s4",
+     "text": "Not taking the daily inhaled corticosteroid"
+    },
+    {
+     "id": "s5",
+     "text": "RR 28/min"
+    },
+    {
+     "id": "s6",
+     "text": "SpO2 91% on room air"
+    },
+    {
+     "id": "s7",
+     "text": "BP 128/82 mm Hg"
+    },
+    {
+     "id": "s8",
+     "text": "T 99.0°F (37.2°C)"
+    }
+   ],
+   "correct_text": "Speaking in short phrases; Using neck muscles to breathe; Rescue inhaler about 10 times a day; Not taking the daily inhaled corticosteroid; RR 28/min; SpO2 91% on room air",
+   "answer_summary": "Speaking in short phrases; Using neck muscles to breathe; Rescue inhaler about 10 times a day; Not taking the daily inhaled corticosteroid; RR 28/min; SpO2 91% on room air",
+   "scoring": "plus_minus",
+   "case_id": "PN-C06",
+   "case_sequence": 1,
+   "clinical_judgment_step": "Recognize cues",
+   "content_hash": "fc8d0c4984924488"
+  },
+  {
+   "source_id": "PN-C06-02",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 2,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Analyze cues",
+   "item_type": "matrix_grid",
+   "stem": "For each finding, indicate whether it is an early sign of respiratory distress or a late, life-threatening sign during an asthma attack.",
+   "rationale": "Wheezing, anxiety, and tachypnea occur early. A \"silent chest\" with little air movement, decreasing level of consciousness, and cyanosis mean the client is tiring and may be heading toward respiratory failure, which requires emergency help.",
+   "columns": [
+    "Early sign",
+    "Late, life-threatening sign"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Wheezing",
+     "correct_column": "Early sign"
+    },
+    {
+     "id": "r2",
+     "text": "Restlessness and anxiety",
+     "correct_column": "Early sign"
+    },
+    {
+     "id": "r3",
+     "text": "Rapid breathing",
+     "correct_column": "Early sign"
+    },
+    {
+     "id": "r4",
+     "text": "Diminished or absent breath sounds",
+     "correct_column": "Late, life-threatening sign"
+    },
+    {
+     "id": "r5",
+     "text": "Drowsiness or confusion",
+     "correct_column": "Late, life-threatening sign"
+    },
+    {
+     "id": "r6",
+     "text": "Cyanosis of the lips",
+     "correct_column": "Late, life-threatening sign"
+    }
+   ],
+   "answer_summary": "Wheezing: Early sign; Restlessness and anxiety: Early sign; Rapid breathing: Early sign; Diminished or absent breath sounds: Late, life-threatening sign; Drowsiness or confusion: Late, life-threatening sign; Cyanosis of the lips: Late, life-threatening sign",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C06",
+   "case_sequence": 2,
+   "clinical_judgment_step": "Analyze cues",
+   "content_hash": "354fc9f0989beeb4"
+  },
+  {
+   "source_id": "PN-C06-03",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 3,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Prioritize hypotheses",
+   "item_type": "drop_down_cloze",
+   "stem": "Complete the sentence by choosing from the lists of options.",
+   "rationale": "Inhaled corticosteroids are controller medicines that reduce airway inflammation when taken every day, even when symptoms are absent. Stopping them allows inflammation to build, and the client then relies on a quick-relief inhaler that does not treat inflammation.",
+   "template": "The client's poor asthma control was most likely worsened by ___1___. Daily fluticasone helps by ___2___.",
+   "blanks": [
+    {
+     "id": "1",
+     "options": [
+      "not using the controller inhaler",
+      "taking prednisone",
+      "using albuterol"
+     ],
+     "correct": "not using the controller inhaler"
+    },
+    {
+     "id": "2",
+     "options": [
+      "reducing airway inflammation over time",
+      "opening the airways within minutes",
+      "thinning mucus in the lungs"
+     ],
+     "correct": "reducing airway inflammation over time"
+    }
+   ],
+   "answer_summary": "1: not using the controller inhaler; 2: reducing airway inflammation over time",
+   "scoring": "zero_one_per_blank",
+   "case_id": "PN-C06",
+   "case_sequence": 3,
+   "clinical_judgment_step": "Prioritize hypotheses",
+   "content_hash": "ad0d318069696d84"
+  },
+  {
+   "source_id": "PN-C06-04",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 4,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Generate solutions",
+   "item_type": "multiple_response",
+   "stem": "Which instructions about inhalers should the LPN/VN reinforce before discharge? Select all that apply.",
+   "rationale": "Albuterol relieves symptoms quickly, while fluticasone must be taken daily to control inflammation. Rinsing after an inhaled corticosteroid prevents oral thrush, and needing the rescue inhaler more often signals poor control. Fluticasone does not work fast enough to treat an attack and should not be stopped when the client feels better.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Use albuterol for quick relief of symptoms",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Use fluticasone every day, even when feeling well",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Rinse the mouth and spit after using fluticasone",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Report needing the rescue inhaler more often than usual",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Use fluticasone during an attack for fast relief",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Stop fluticasone once symptoms go away",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "case_id": "PN-C06",
+   "case_sequence": 4,
+   "clinical_judgment_step": "Generate solutions",
+   "content_hash": "de6760d0a80afb09"
+  },
+  {
+   "source_id": "PN-C06-05",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 5,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Take action",
+   "item_type": "single_best_answer",
+   "stem": "After a nebulizer treatment, the client's SpO2 is 88%, the client can say only one or two words, and wheezes are now barely audible. What should the LPN/VN do first?",
+   "rationale": "Falling oxygen saturation, inability to speak, and diminishing wheezes signal a worsening attack with little air movement, an emergency that needs immediate help. Waiting an hour delays care, lying flat makes breathing harder, and giving prednisone early does not act fast enough and requires a prescription.",
+   "answer_summary": "A",
+   "options": [
+    {
+     "key": "A",
+     "text": "Stay with the client, call the RN immediately, and increase oxygen as protocol allows",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Encourage the client to use the rescue inhaler again and then recheck the client in 1 hour",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Lay the client flat so the client can rest",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Give the next prednisone dose early",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "case_id": "PN-C06",
+   "case_sequence": 5,
+   "clinical_judgment_step": "Take action",
+   "content_hash": "8e1849ec4f71151c"
+  },
+  {
+   "source_id": "PN-C06-06",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 6,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Evaluate outcomes",
+   "item_type": "matrix_grid",
+   "stem": "On day 2, the LPN/VN collects data. For each finding, indicate whether it shows improvement or no improvement.",
+   "rationale": "Full sentences, normal oxygen saturation and respiratory rate, a peak flow above 80% of personal best, and fewer wheezes show improvement. Needing the rescue inhaler every hour means the asthma is still not controlled and must be reported.",
+   "columns": [
+    "Improvement",
+    "No improvement"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Speaks in full sentences",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r2",
+     "text": "SpO2 95% on room air",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r3",
+     "text": "RR 18/min",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r4",
+     "text": "Peak flow 85% of personal best",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r5",
+     "text": "Faint wheezes only at the end of expiration",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r6",
+     "text": "Uses the rescue inhaler every hour",
+     "correct_column": "No improvement"
+    }
+   ],
+   "answer_summary": "Speaks in full sentences: Improvement; SpO2 95% on room air: Improvement; RR 18/min: Improvement; Peak flow 85% of personal best: Improvement; Faint wheezes only at the end of expiration: Improvement; Uses the rescue inhaler every hour: No improvement",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C06",
+   "case_sequence": 6,
+   "clinical_judgment_step": "Evaluate outcomes",
+   "content_hash": "a251ff63f178b96c"
+  },
+  {
+   "source_id": "PN-C07-01",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 1,
+   "client_need": "Reduction of Risk Potential",
+   "topic": "Case study: Recognize cues",
+   "item_type": "highlight",
+   "stem": "Highlight the findings that require follow-up.",
+   "rationale": "Uncontrolled pain, poor use of the incentive spirometer with diminished breath sounds, urinary retention, and poor intake all need action to prevent complications. A dry dressing and good circulation in the foot are expected findings.",
+   "passage_segments": [
+    {
+     "id": "s1",
+     "text": "Pain 7/10 with movement"
+    },
+    {
+     "id": "s2",
+     "text": "Incentive spirometer used only twice"
+    },
+    {
+     "id": "s3",
+     "text": "Has not voided since 0200"
+    },
+    {
+     "id": "s4",
+     "text": "Bladder scan shows 650 mL"
+    },
+    {
+     "id": "s5",
+     "text": "Diminished breath sounds at both bases"
+    },
+    {
+     "id": "s6",
+     "text": "Ate 30% of breakfast"
+    },
+    {
+     "id": "s7",
+     "text": "Dressing dry and intact"
+    },
+    {
+     "id": "s8",
+     "text": "Right foot warm with brisk capillary refill"
+    }
+   ],
+   "correct_text": "Pain 7/10 with movement; Incentive spirometer used only twice; Has not voided since 0200; Bladder scan shows 650 mL; Diminished breath sounds at both bases; Ate 30% of breakfast",
+   "answer_summary": "Pain 7/10 with movement; Incentive spirometer used only twice; Has not voided since 0200; Bladder scan shows 650 mL; Diminished breath sounds at both bases; Ate 30% of breakfast",
+   "scoring": "plus_minus",
+   "case_id": "PN-C07",
+   "case_sequence": 1,
+   "clinical_judgment_step": "Recognize cues",
+   "content_hash": "6481c0d428ff497b"
+  },
+  {
+   "source_id": "PN-C07-02",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 2,
+   "client_need": "Reduction of Risk Potential",
+   "topic": "Case study: Analyze cues",
+   "item_type": "matrix_grid",
+   "stem": "For each finding, indicate the postoperative complication it most suggests.",
+   "rationale": "A large bladder volume without voiding indicates urinary retention. Shallow breathing after surgery leads to atelectasis, with diminished basilar breath sounds and sometimes a low-grade fever on the first day. Unilateral calf swelling, warmth, and pain suggest deep vein thrombosis, a risk after hip surgery.",
+   "columns": [
+    "Urinary retention",
+    "Atelectasis",
+    "Deep vein thrombosis"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Bladder scan of 650 mL",
+     "correct_column": "Urinary retention"
+    },
+    {
+     "id": "r2",
+     "text": "No void for 7 hours after catheter removal",
+     "correct_column": "Urinary retention"
+    },
+    {
+     "id": "r3",
+     "text": "Diminished breath sounds at the bases",
+     "correct_column": "Atelectasis"
+    },
+    {
+     "id": "r4",
+     "text": "Low-grade temperature on the first day after surgery",
+     "correct_column": "Atelectasis"
+    },
+    {
+     "id": "r5",
+     "text": "Swelling, warmth, and pain in one calf",
+     "correct_column": "Deep vein thrombosis"
+    }
+   ],
+   "answer_summary": "Bladder scan of 650 mL: Urinary retention; No void for 7 hours after catheter removal: Urinary retention; Diminished breath sounds at the bases: Atelectasis; Low-grade temperature on the first day after surgery: Atelectasis; Swelling, warmth, and pain in one calf: Deep vein thrombosis",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C07",
+   "case_sequence": 2,
+   "clinical_judgment_step": "Analyze cues",
+   "content_hash": "c6a8dbc49cd117a0"
+  },
+  {
+   "source_id": "PN-C07-03",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 3,
+   "client_need": "Reduction of Risk Potential",
+   "topic": "Case study: Prioritize hypotheses",
+   "item_type": "drop_down_cloze",
+   "stem": "Complete the sentence by choosing from the lists of options.",
+   "rationale": "The prescription calls for a straight catheterization when the client cannot void within 6 hours and the bladder scan is above 500 mL, and both conditions are met. Waiting risks bladder overdistension, and an indwelling catheter is not prescribed and increases infection risk.",
+   "template": "Following the protocol, the LPN/VN should ___1___ because ___2___.",
+   "blanks": [
+    {
+     "id": "1",
+     "options": [
+      "perform a straight catheterization",
+      "wait another 4 hours",
+      "insert an indwelling catheter"
+     ],
+     "correct": "perform a straight catheterization"
+    },
+    {
+     "id": "2",
+     "options": [
+      "the client has not voided for more than 6 hours and the bladder holds more than 500 mL",
+      "the client's pain is 7/10",
+      "the client ate only 30% of breakfast"
+     ],
+     "correct": "the client has not voided for more than 6 hours and the bladder holds more than 500 mL"
+    }
+   ],
+   "answer_summary": "1: perform a straight catheterization; 2: the client has not voided for more than 6 hours and the bladder holds more than 500 mL",
+   "scoring": "zero_one_per_blank",
+   "case_id": "PN-C07",
+   "case_sequence": 3,
+   "clinical_judgment_step": "Prioritize hypotheses",
+   "content_hash": "cae9dbd5ae8a28cc"
+  },
+  {
+   "source_id": "PN-C07-04",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 4,
+   "client_need": "Coordinated Care",
+   "topic": "Case study: Generate solutions",
+   "item_type": "multiple_response",
+   "stem": "Which tasks can the LPN/VN delegate to the assistive personnel (AP)? Select all that apply.",
+   "rationale": "Offering fluids and recording intake, reminding the client to use the spirometer, and reapplying compression devices are routine tasks an AP can perform. Evaluating a medication's effect, reinforcing teaching, and deciding on a procedure require nursing judgment and stay with the LPN/VN.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Offering fluids and recording the client's intake",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Reminding the client to use the incentive spirometer every hour while awake",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Reapplying sequential compression devices after the client returns to bed",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Evaluating the client's pain after the oxycodone dose",
+     "is_correct": false
+    },
+    {
+     "key": "E",
+     "text": "Reinforcing teaching about enoxaparin injections at home",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Deciding whether the client needs a straight catheterization",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C",
+   "scoring": "plus_minus",
+   "case_id": "PN-C07",
+   "case_sequence": 4,
+   "clinical_judgment_step": "Generate solutions",
+   "content_hash": "321bed48f58f0b40"
+  },
+  {
+   "source_id": "PN-C07-05",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 5,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Take action",
+   "item_type": "single_best_answer",
+   "stem": "The LPN/VN is giving the prescribed enoxaparin. Which action is correct?",
+   "rationale": "Enoxaparin is given subcutaneously in the abdomen, away from the navel, and the site is not rubbed, to reduce bruising. The air bubble in the prefilled syringe is not expelled because it helps deliver the full dose, and the drug is not given intramuscularly.",
+   "answer_summary": "C",
+   "options": [
+    {
+     "key": "A",
+     "text": "Expel the air bubble from the prefilled syringe before giving the injection",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Inject into the deltoid muscle",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Inject into the abdomen at least 2 inches from the navel without rubbing the site",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Massage the site for 1 minute after injecting",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "case_id": "PN-C07",
+   "case_sequence": 5,
+   "clinical_judgment_step": "Take action",
+   "content_hash": "01b426ca9e5693b9"
+  },
+  {
+   "source_id": "PN-C07-06",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 6,
+   "client_need": "Coordinated Care",
+   "topic": "Case study: Evaluate outcomes",
+   "item_type": "matrix_grid",
+   "stem": "The client will go home in a few days and lives alone. For each need, indicate the most appropriate resource.",
+   "rationale": "Home health nursing provides skilled care such as injections and wound assessment. Physical therapy builds strength and teaches safe mobility, including stairs. Social workers help arrange community services and address financial concerns. The LPN/VN shares these needs with the RN, who coordinates the referrals.",
+   "columns": [
+    "Home health nursing",
+    "Physical therapy",
+    "Social work"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Ongoing enoxaparin injections and wound checks",
+     "correct_column": "Home health nursing"
+    },
+    {
+     "id": "r2",
+     "text": "Strengthening and safe walking with a walker",
+     "correct_column": "Physical therapy"
+    },
+    {
+     "id": "r3",
+     "text": "Arranging help with meals and transportation",
+     "correct_column": "Social work"
+    },
+    {
+     "id": "r4",
+     "text": "Learning to climb stairs safely",
+     "correct_column": "Physical therapy"
+    },
+    {
+     "id": "r5",
+     "text": "Concern about paying for services at home",
+     "correct_column": "Social work"
+    }
+   ],
+   "answer_summary": "Ongoing enoxaparin injections and wound checks: Home health nursing; Strengthening and safe walking with a walker: Physical therapy; Arranging help with meals and transportation: Social work; Learning to climb stairs safely: Physical therapy; Concern about paying for services at home: Social work",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C07",
+   "case_sequence": 6,
+   "clinical_judgment_step": "Evaluate outcomes",
+   "content_hash": "0c1f31868cc0d788"
+  },
+  {
+   "source_id": "PN-C08-01",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 1,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Recognize cues",
+   "item_type": "highlight",
+   "stem": "Highlight the findings that require follow-up.",
+   "rationale": "Jitteriness, a weak suck, a slightly fast respiratory rate, a low axillary temperature, and a glucose below 40 mg/dL are signs of neonatal hypoglycemia and cold stress. No grunting or retractions and pink skin are reassuring.",
+   "passage_segments": [
+    {
+     "id": "s1",
+     "text": "Jittery when unwrapped"
+    },
+    {
+     "id": "s2",
+     "text": "Weak suck at the breast"
+    },
+    {
+     "id": "s3",
+     "text": "Respirations 64/min"
+    },
+    {
+     "id": "s4",
+     "text": "No grunting or retractions"
+    },
+    {
+     "id": "s5",
+     "text": "Skin pink"
+    },
+    {
+     "id": "s6",
+     "text": "T 97.5°F (36.4°C) axillary"
+    },
+    {
+     "id": "s7",
+     "text": "Glucose 32 mg/dL"
+    }
+   ],
+   "correct_text": "Jittery when unwrapped; Weak suck at the breast; Respirations 64/min; T 97.5°F (36.4°C) axillary; Glucose 32 mg/dL",
+   "answer_summary": "Jittery when unwrapped; Weak suck at the breast; Respirations 64/min; T 97.5°F (36.4°C) axillary; Glucose 32 mg/dL",
+   "scoring": "plus_minus",
+   "case_id": "PN-C08",
+   "case_sequence": 1,
+   "clinical_judgment_step": "Recognize cues",
+   "content_hash": "f329368007253bab"
+  },
+  {
+   "source_id": "PN-C08-02",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 2,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Analyze cues",
+   "item_type": "matrix_grid",
+   "stem": "For each finding, indicate whether it is a risk factor for or a sign of neonatal hypoglycemia.",
+   "rationale": "A parent with diabetes during pregnancy and a large-for-gestational-age newborn are risk factors. Jitteriness, poor feeding, temperature instability, and tachypnea are common signs of low glucose in a newborn.",
+   "columns": [
+    "Risk factor",
+    "Sign of hypoglycemia"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Parent's gestational diabetes treated with insulin",
+     "correct_column": "Risk factor"
+    },
+    {
+     "id": "r2",
+     "text": "Birth weight of 4,350 g",
+     "correct_column": "Risk factor"
+    },
+    {
+     "id": "r3",
+     "text": "Jitteriness",
+     "correct_column": "Sign of hypoglycemia"
+    },
+    {
+     "id": "r4",
+     "text": "Weak suck",
+     "correct_column": "Sign of hypoglycemia"
+    },
+    {
+     "id": "r5",
+     "text": "Low axillary temperature",
+     "correct_column": "Sign of hypoglycemia"
+    },
+    {
+     "id": "r6",
+     "text": "Rapid breathing",
+     "correct_column": "Sign of hypoglycemia"
+    }
+   ],
+   "answer_summary": "Parent's gestational diabetes treated with insulin: Risk factor; Birth weight of 4,350 g: Risk factor; Jitteriness: Sign of hypoglycemia; Weak suck: Sign of hypoglycemia; Low axillary temperature: Sign of hypoglycemia; Rapid breathing: Sign of hypoglycemia",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C08",
+   "case_sequence": 2,
+   "clinical_judgment_step": "Analyze cues",
+   "content_hash": "cec1625fcc68c319"
+  },
+  {
+   "source_id": "PN-C08-03",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 3,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Prioritize hypotheses",
+   "item_type": "drop_down_cloze",
+   "stem": "Complete the sentence by choosing from the lists of options.",
+   "rationale": "High maternal glucose levels during pregnancy cause the fetus to produce extra insulin. After birth, the glucose supply stops but insulin remains high, causing hypoglycemia. The other choices do not explain the low glucose.",
+   "template": "The newborn is most likely experiencing ___1___ because ___2___.",
+   "blanks": [
+    {
+     "id": "1",
+     "options": [
+      "hypoglycemia",
+      "hypocalcemia",
+      "neonatal abstinence syndrome"
+     ],
+     "correct": "hypoglycemia"
+    },
+    {
+     "id": "2",
+     "options": [
+      "the newborn's insulin level stayed high after the parent's glucose supply ended at birth",
+      "the newborn swallowed amniotic fluid",
+      "the umbilical cord was clamped late"
+     ],
+     "correct": "the newborn's insulin level stayed high after the parent's glucose supply ended at birth"
+    }
+   ],
+   "answer_summary": "1: hypoglycemia; 2: the newborn's insulin level stayed high after the parent's glucose supply ended at birth",
+   "scoring": "zero_one_per_blank",
+   "case_id": "PN-C08",
+   "case_sequence": 3,
+   "clinical_judgment_step": "Prioritize hypotheses",
+   "content_hash": "de82331152a85e87"
+  },
+  {
+   "source_id": "PN-C08-04",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 4,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Generate solutions",
+   "item_type": "multiple_response",
+   "stem": "The RN is notifying the provider. Which actions should the LPN/VN take now? Select all that apply.",
+   "rationale": "Warmth reduces glucose use, feeding or prescribed dextrose gel raises glucose, repeat testing shows the response, and the newborn is watched for worsening signs while the provider is notified. Sugar water is not prescribed and can cause rebound hypoglycemia, and feeding is part of treatment.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Keep the newborn warm with skin-to-skin contact or a radiant warmer",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Help the parent breastfeed or give the prescribed feeding or dextrose gel",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Recheck the glucose when the protocol directs",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Watch for worsening signs, such as poor tone or apnea",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Give sugar water by bottle without a prescription",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Delay feeding until the glucose level is normal",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "case_id": "PN-C08",
+   "case_sequence": 4,
+   "clinical_judgment_step": "Generate solutions",
+   "content_hash": "1c06186aa44bf621"
+  },
+  {
+   "source_id": "PN-C08-05",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 5,
+   "client_need": "Coordinated Care",
+   "topic": "Case study: Take action",
+   "item_type": "single_best_answer",
+   "stem": "The LPN/VN calls the RN about the newborn. Which statement best communicates the situation?",
+   "rationale": "A clear report states the newborn's age, the specific symptoms, the glucose value, and what the protocol requires, so the RN understands the urgency. Dismissing jitteriness, a vague request, and a statement about the parent's worry do not convey the problem.",
+   "answer_summary": "D",
+   "options": [
+    {
+     "key": "A",
+     "text": "\"The baby seems a little shaky, but that is probably normal for a large newborn in the first hour.\"",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "\"Can you look at the baby when you have a minute?\"",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "\"The parent is worried about the baby.\"",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "\"The 1-hour-old is jittery, sucks weakly, and has a glucose of 32. Protocol says notify the provider now.\"",
+     "is_correct": true
+    }
+   ],
+   "scoring": "zero_one",
+   "case_id": "PN-C08",
+   "case_sequence": 5,
+   "clinical_judgment_step": "Take action",
+   "content_hash": "7633928aac280e6f"
+  },
+  {
+   "source_id": "PN-C08-06",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 6,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Evaluate outcomes",
+   "item_type": "matrix_grid",
+   "stem": "After treatment, the LPN/VN collects data. For each finding, indicate whether it shows improvement or no improvement.",
+   "rationale": "A glucose above 50 mg/dL, no jitteriness, effective feeding, and a normal temperature show improvement. Faster breathing with new grunting is a sign of respiratory distress that must be reported right away.",
+   "columns": [
+    "Improvement",
+    "No improvement"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Glucose 55 mg/dL",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r2",
+     "text": "No jitteriness",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r3",
+     "text": "Strong, coordinated suck",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r4",
+     "text": "T 98.2°F (36.8°C) axillary",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r5",
+     "text": "RR 72/min with new grunting",
+     "correct_column": "No improvement"
+    }
+   ],
+   "answer_summary": "Glucose 55 mg/dL: Improvement; No jitteriness: Improvement; Strong, coordinated suck: Improvement; T 98.2°F (36.8°C) axillary: Improvement; RR 72/min with new grunting: No improvement",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C08",
+   "case_sequence": 6,
+   "clinical_judgment_step": "Evaluate outcomes",
+   "content_hash": "680009040dad78d8"
+  },
+  {
+   "source_id": "PN-C09-01",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 1,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Recognize cues",
+   "item_type": "highlight",
+   "stem": "Highlight the findings that require follow-up.",
+   "rationale": "Frequent diarrhea with dry mucous membranes, low intake, and a drop in blood pressure point to fluid loss. Irritated perianal skin needs care, and a shared bathroom is an infection control risk for the roommate. The respiratory rate is normal.",
+   "passage_segments": [
+    {
+     "id": "s1",
+     "text": "Six watery, foul-smelling stools since yesterday"
+    },
+    {
+     "id": "s2",
+     "text": "Mucous membranes dry"
+    },
+    {
+     "id": "s3",
+     "text": "Skin around the anus red and tender"
+    },
+    {
+     "id": "s4",
+     "text": "Drinking about 600 mL a day"
+    },
+    {
+     "id": "s5",
+     "text": "Shares a bathroom with a roommate"
+    },
+    {
+     "id": "s6",
+     "text": "BP 108/66 mm Hg (usual 130/76)"
+    },
+    {
+     "id": "s7",
+     "text": "RR 18/min"
+    }
+   ],
+   "correct_text": "Six watery, foul-smelling stools since yesterday; Mucous membranes dry; Skin around the anus red and tender; Drinking about 600 mL a day; Shares a bathroom with a roommate; BP 108/66 mm Hg (usual 130/76)",
+   "answer_summary": "Six watery, foul-smelling stools since yesterday; Mucous membranes dry; Skin around the anus red and tender; Drinking about 600 mL a day; Shares a bathroom with a roommate; BP 108/66 mm Hg (usual 130/76)",
+   "scoring": "plus_minus",
+   "case_id": "PN-C09",
+   "case_sequence": 1,
+   "clinical_judgment_step": "Recognize cues",
+   "content_hash": "c24f343cb9d18a26"
+  },
+  {
+   "source_id": "PN-C09-02",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 2,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Analyze cues",
+   "item_type": "matrix_grid",
+   "stem": "For each finding, indicate whether it most reflects fluid volume deficit or infection.",
+   "rationale": "Dry mucous membranes, a high sodium level from water loss, and a drop in blood pressure reflect dehydration from diarrhea. An elevated WBC, fever, and a positive toxin test reflect the C. difficile infection itself.",
+   "columns": [
+    "Fluid volume deficit",
+    "Infection"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Dry mucous membranes",
+     "correct_column": "Fluid volume deficit"
+    },
+    {
+     "id": "r2",
+     "text": "Sodium 147 mEq/L",
+     "correct_column": "Fluid volume deficit"
+    },
+    {
+     "id": "r3",
+     "text": "BP 108/66 mm Hg, down from 130/76",
+     "correct_column": "Fluid volume deficit"
+    },
+    {
+     "id": "r4",
+     "text": "WBC 16,800/mm3",
+     "correct_column": "Infection"
+    },
+    {
+     "id": "r5",
+     "text": "Temperature 100.4°F (38°C)",
+     "correct_column": "Infection"
+    },
+    {
+     "id": "r6",
+     "text": "Positive stool toxin test",
+     "correct_column": "Infection"
+    }
+   ],
+   "answer_summary": "Dry mucous membranes: Fluid volume deficit; Sodium 147 mEq/L: Fluid volume deficit; BP 108/66 mm Hg, down from 130/76: Fluid volume deficit; WBC 16,800/mm3: Infection; Temperature 100.4°F (38°C): Infection; Positive stool toxin test: Infection",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C09",
+   "case_sequence": 2,
+   "clinical_judgment_step": "Analyze cues",
+   "content_hash": "c2e504b4d3b1b5b8"
+  },
+  {
+   "source_id": "PN-C09-03",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 3,
+   "client_need": "Safety and Infection Control",
+   "topic": "Case study: Prioritize hypotheses",
+   "item_type": "drop_down_cloze",
+   "stem": "Complete the sentence by choosing from the lists of options.",
+   "rationale": "C. difficile spreads through the fecal-oral route by spores on hands and surfaces, so contact precautions are used. Alcohol does not kill the spores, so hands are washed with soap and water, which physically removes them.",
+   "template": "The resident should be placed on ___1___ precautions, and staff should clean their hands with ___2___ after care.",
+   "blanks": [
+    {
+     "id": "1",
+     "options": [
+      "contact",
+      "droplet",
+      "airborne"
+     ],
+     "correct": "contact"
+    },
+    {
+     "id": "2",
+     "options": [
+      "soap and water",
+      "alcohol-based hand rub",
+      "a dry paper towel"
+     ],
+     "correct": "soap and water"
+    }
+   ],
+   "answer_summary": "1: contact; 2: soap and water",
+   "scoring": "zero_one_per_blank",
+   "case_id": "PN-C09",
+   "case_sequence": 3,
+   "clinical_judgment_step": "Prioritize hypotheses",
+   "content_hash": "f9ef63a5641baa16"
+  },
+  {
+   "source_id": "PN-C09-04",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 4,
+   "client_need": "Safety and Infection Control",
+   "topic": "Case study: Generate solutions",
+   "item_type": "multiple_response",
+   "stem": "Which infection control measures should the LPN/VN put in place? Select all that apply.",
+   "rationale": "Private toileting, gowns and gloves, sporicidal cleaning, and dedicated equipment prevent the spread of spores. Precautions continue until at least 48 hours after diarrhea resolves, per policy. Antidiarrheal drugs are not used for C. difficile because they can worsen the illness and do not prevent spread.",
+   "options": [
+    {
+     "key": "A",
+     "text": "A private room or a dedicated bathroom or commode",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "A gown and gloves when entering the room",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Cleaning surfaces with a sporicidal disinfectant, such as a bleach product",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Dedicated equipment, such as a stethoscope",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Stopping precautions as soon as the first formed stool occurs",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Giving loperamide to stop the spread",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "case_id": "PN-C09",
+   "case_sequence": 4,
+   "clinical_judgment_step": "Generate solutions",
+   "content_hash": "edcf93970624bfee"
+  },
+  {
+   "source_id": "PN-C09-05",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 5,
+   "client_need": "Coordinated Care",
+   "topic": "Case study: Take action",
+   "item_type": "single_best_answer",
+   "stem": "The roommate's daughter asks the LPN/VN what illness the resident has and whether her parent can catch it. What is the best response?",
+   "rationale": "The resident's diagnosis is protected health information that cannot be shared with another resident's family. The LPN/VN can reassure the daughter that infection control measures are in place. Disclosing the diagnosis violates privacy, false reassurance is misleading, and redirecting to the roommate is inappropriate.",
+   "answer_summary": "B",
+   "options": [
+    {
+     "key": "A",
+     "text": "\"Your parent's roommate has C. diff, so your parent should not use the shared bathroom.\"",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "\"I can't share another resident's health information, but we are taking steps to protect everyone.\"",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "\"It's nothing to worry about.\"",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "\"Please ask the roommate.\"",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "case_id": "PN-C09",
+   "case_sequence": 5,
+   "clinical_judgment_step": "Take action",
+   "content_hash": "03e5249600c22540"
+  },
+  {
+   "source_id": "PN-C09-06",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 6,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Evaluate outcomes",
+   "item_type": "matrix_grid",
+   "stem": "After 3 days of oral vancomycin, the LPN/VN collects data. For each finding, indicate whether it shows improvement or no improvement.",
+   "rationale": "Fewer stools, no fever, better intake, a normal sodium level, and healing skin show a response to vancomycin. New abdominal distention with no stool can signal ileus or toxic megacolon, a serious complication that must be reported right away.",
+   "columns": [
+    "Improvement",
+    "No improvement"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Two soft stools a day",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r2",
+     "text": "T 98.4°F (36.9°C)",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r3",
+     "text": "Drinks about 1,400 mL a day",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r4",
+     "text": "Sodium 141 mEq/L",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r5",
+     "text": "Perianal skin intact with barrier cream",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r6",
+     "text": "New abdominal distention with no stool for 24 hours",
+     "correct_column": "No improvement"
+    }
+   ],
+   "answer_summary": "Two soft stools a day: Improvement; T 98.4°F (36.9°C): Improvement; Drinks about 1,400 mL a day: Improvement; Sodium 141 mEq/L: Improvement; Perianal skin intact with barrier cream: Improvement; New abdominal distention with no stool for 24 hours: No improvement",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C09",
+   "case_sequence": 6,
+   "clinical_judgment_step": "Evaluate outcomes",
+   "content_hash": "d02d3f8fbee1facb"
+  },
+  {
+   "source_id": "PN-C10-01",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 1,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Recognize cues",
+   "item_type": "highlight",
+   "stem": "Highlight the findings that require follow-up.",
+   "rationale": "Sudden sustained muscle spasms of the neck, eyes, and tongue soon after starting haloperidol are an acute dystonic reaction, and the client's fear needs attention too. Unlabored breathing, a normal temperature, and normal oxygen saturation are reassuring and help rule out complications such as laryngeal involvement or neuroleptic malignant syndrome.",
+   "passage_segments": [
+    {
+     "id": "s1",
+     "text": "Head twisted to the left and pulled back"
+    },
+    {
+     "id": "s2",
+     "text": "Eyes rolled upward"
+    },
+    {
+     "id": "s3",
+     "text": "Tongue protruding"
+    },
+    {
+     "id": "s4",
+     "text": "Anxious and crying"
+    },
+    {
+     "id": "s5",
+     "text": "Third dose of haloperidol at 1200"
+    },
+    {
+     "id": "s6",
+     "text": "Breathing unlabored"
+    },
+    {
+     "id": "s7",
+     "text": "T 98.8°F (37.1°C)"
+    },
+    {
+     "id": "s8",
+     "text": "SpO2 98% on room air"
+    }
+   ],
+   "correct_text": "Head twisted to the left and pulled back; Eyes rolled upward; Tongue protruding; Anxious and crying; Third dose of haloperidol at 1200",
+   "answer_summary": "Head twisted to the left and pulled back; Eyes rolled upward; Tongue protruding; Anxious and crying; Third dose of haloperidol at 1200",
+   "scoring": "plus_minus",
+   "case_id": "PN-C10",
+   "case_sequence": 1,
+   "clinical_judgment_step": "Recognize cues",
+   "content_hash": "8b485fb35ca667f3"
+  },
+  {
+   "source_id": "PN-C10-02",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 2,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Analyze cues",
+   "item_type": "matrix_grid",
+   "stem": "For each finding, indicate the antipsychotic adverse effect it represents.",
+   "rationale": "Acute dystonia causes sudden muscle spasms early in treatment. Akathisia is a feeling of restlessness with an urge to move. Tardive dyskinesia causes involuntary movements of the mouth and face after long-term use. Neuroleptic malignant syndrome is a medical emergency with fever, rigidity, and altered mental status.",
+   "columns": [
+    "Acute dystonia",
+    "Akathisia",
+    "Tardive dyskinesia",
+    "Neuroleptic malignant syndrome"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Sudden neck spasm with eyes rolling upward days after starting the drug",
+     "correct_column": "Acute dystonia"
+    },
+    {
+     "id": "r2",
+     "text": "Inner restlessness and inability to sit still",
+     "correct_column": "Akathisia"
+    },
+    {
+     "id": "r3",
+     "text": "Lip smacking and tongue movements after years of treatment",
+     "correct_column": "Tardive dyskinesia"
+    },
+    {
+     "id": "r4",
+     "text": "High fever, severe muscle rigidity, and confusion",
+     "correct_column": "Neuroleptic malignant syndrome"
+    },
+    {
+     "id": "r5",
+     "text": "Constant pacing and shifting weight from foot to foot",
+     "correct_column": "Akathisia"
+    }
+   ],
+   "answer_summary": "Sudden neck spasm with eyes rolling upward days after starting the drug: Acute dystonia; Inner restlessness and inability to sit still: Akathisia; Lip smacking and tongue movements after years of treatment: Tardive dyskinesia; High fever, severe muscle rigidity, and confusion: Neuroleptic malignant syndrome; Constant pacing and shifting weight from foot to foot: Akathisia",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C10",
+   "case_sequence": 2,
+   "clinical_judgment_step": "Analyze cues",
+   "content_hash": "132e712b396f0586"
+  },
+  {
+   "source_id": "PN-C10-03",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 3,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Prioritize hypotheses",
+   "item_type": "drop_down_cloze",
+   "stem": "Complete the sentence by choosing from the lists of options.",
+   "rationale": "Sudden spasms of the neck, eyes, and tongue within days of starting a high-potency antipsychotic are acute dystonia. Anticholinergic medicines such as benztropine or diphenhydramine relieve it, often within minutes when given IM. More haloperidol would worsen it.",
+   "template": "The client is most likely experiencing ___1___, and the LPN/VN should anticipate giving ___2___.",
+   "blanks": [
+    {
+     "id": "1",
+     "options": [
+      "acute dystonia",
+      "tardive dyskinesia",
+      "a panic attack"
+     ],
+     "correct": "acute dystonia"
+    },
+    {
+     "id": "2",
+     "options": [
+      "benztropine or diphenhydramine",
+      "another dose of haloperidol",
+      "a dose of an SSRI"
+     ],
+     "correct": "benztropine or diphenhydramine"
+    }
+   ],
+   "answer_summary": "1: acute dystonia; 2: benztropine or diphenhydramine",
+   "scoring": "zero_one_per_blank",
+   "case_id": "PN-C10",
+   "case_sequence": 3,
+   "clinical_judgment_step": "Prioritize hypotheses",
+   "content_hash": "02fd8de9d5a8167c"
+  },
+  {
+   "source_id": "PN-C10-04",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 4,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Case study: Generate solutions",
+   "item_type": "multiple_response",
+   "stem": "While the medication takes effect, which actions should the LPN/VN take? Select all that apply.",
+   "rationale": "A dystonic reaction is frightening, so staying with the client, explaining that it is a treatable side effect, and speaking calmly reduce fear. Breathing and swallowing are watched because laryngeal spasm can occur, and the RN is informed. Leaving the client alone or blaming the client's emotions increases distress.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Stay with the client and speak calmly",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Explain that this is a medication side effect that can be treated",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Watch the client's breathing and swallowing closely",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Report the reaction to the RN",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Leave the client alone in a quiet room to rest",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Tell the client that crying will make the spasm worse",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "case_id": "PN-C10",
+   "case_sequence": 4,
+   "clinical_judgment_step": "Generate solutions",
+   "content_hash": "c5e72f1c6593b788"
+  },
+  {
+   "source_id": "PN-C10-05",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 5,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Take action",
+   "item_type": "single_best_answer",
+   "stem": "What should the LPN/VN do first?",
+   "rationale": "An as-needed anticholinergic is prescribed for this reaction and usually relieves the spasm quickly. Another dose of haloperidol would worsen it, forcing the head straight can cause injury, and the client cannot voluntarily relax a dystonic spasm.",
+   "answer_summary": "C",
+   "options": [
+    {
+     "key": "A",
+     "text": "Give the next scheduled haloperidol dose early to calm the client down",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Hold the client's head straight to correct the posture",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Give the as-needed benztropine as prescribed and stay with the client",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Tell the client to relax the neck",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "case_id": "PN-C10",
+   "case_sequence": 5,
+   "clinical_judgment_step": "Take action",
+   "content_hash": "d2de09a81162fe25"
+  },
+  {
+   "source_id": "PN-C10-06",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 6,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Case study: Evaluate outcomes",
+   "item_type": "matrix_grid",
+   "stem": "An hour after treatment, the LPN/VN talks with the client. For each finding, indicate whether it shows a positive response or a need for follow-up.",
+   "rationale": "Understanding the reaction, calmness, and wanting to discuss options with the provider show positive coping. A plan to stop all medications and withdrawal from staff suggest fear and possible nonadherence, which the LPN/VN reports so the team can address the client's concerns.",
+   "columns": [
+    "Positive response",
+    "Needs follow-up"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Says, \"I was scared, but I understand what happened now.\"",
+     "correct_column": "Positive response"
+    },
+    {
+     "id": "r2",
+     "text": "Calm and resting",
+     "correct_column": "Positive response"
+    },
+    {
+     "id": "r3",
+     "text": "Asks to talk with the provider about medication options",
+     "correct_column": "Positive response"
+    },
+    {
+     "id": "r4",
+     "text": "Says, \"I'm going to stop all my medicines when I get home.\"",
+     "correct_column": "Needs follow-up"
+    },
+    {
+     "id": "r5",
+     "text": "Refuses to speak with staff",
+     "correct_column": "Needs follow-up"
+    }
+   ],
+   "answer_summary": "Says, \"I was scared, but I understand what happened now.\": Positive response; Calm and resting: Positive response; Asks to talk with the provider about medication options: Positive response; Says, \"I'm going to stop all my medicines when I get home.\": Needs follow-up; Refuses to speak with staff: Needs follow-up",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C10",
+   "case_sequence": 6,
+   "clinical_judgment_step": "Evaluate outcomes",
+   "content_hash": "91b774a67921ffa7"
+  }
+ ],
+ "case_studies": [
+  {
+   "scenario": "A 32-year-old client with asthma is admitted from the emergency department after 2 days of worsening wheezing that followed a cold. The client received albuterol nebulizer treatments and oral prednisone in the emergency department.",
+   "exhibits": [
+    {
+     "label": "Nurses' notes, 1400",
+     "content": "Sitting upright and speaking in short phrases. Expiratory wheezes in all lung fields. Using neck muscles to breathe. Says the rescue inhaler \"stopped helping.\" Has used the rescue inhaler about 10 times a day this week. Has not been taking the daily inhaled corticosteroid because \"I feel fine most of the time.\""
+    },
+    {
+     "label": "Vital signs, 1400",
+     "content": "T 99.0°F (37.2°C), HR 112/min, RR 28/min, BP 128/82 mm Hg, SpO2 91% on room air."
+    },
+    {
+     "label": "Prescriptions",
+     "content": "Albuterol nebulizer every 4 hours and as needed. Prednisone 40 mg by mouth daily. Fluticasone inhaler 2 puffs twice daily. Oxygen to keep SpO2 at 92% or higher. Peak flow before and after each nebulizer treatment."
+    }
+   ],
+   "case_id": "PN-C06",
+   "track": "pn",
+   "set_number": 49,
+   "title": "Acute asthma exacerbation in an adult"
+  },
+  {
+   "scenario": "A 79-year-old client had surgical repair (open reduction and internal fixation) of a right hip fracture yesterday after a fall at home. The client lives alone.",
+   "exhibits": [
+    {
+     "label": "Nurses' notes, day 1, 0900",
+     "content": "Dressing over the right hip dry and intact. Pain 7/10 with movement. Right foot warm with brisk capillary refill and a palpable pedal pulse. Has used the incentive spirometer only twice since surgery. Has not voided since the urinary catheter was removed at 0200. Bladder scan shows 650 mL. Diminished breath sounds at both bases. Ate 30% of breakfast."
+    },
+    {
+     "label": "Vital signs, 0900",
+     "content": "T 99.6°F (37.6°C), HR 92/min, RR 20/min, BP 124/76 mm Hg, SpO2 93% on room air."
+    },
+    {
+     "label": "Prescriptions",
+     "content": "Enoxaparin 40 mg subcutaneously daily. Oxycodone 5 mg by mouth every 4 hours as needed for pain. Straight catheterization if unable to void within 6 hours of catheter removal and bladder scan shows more than 500 mL. Incentive spirometer 10 times an hour while awake. Physical therapy daily."
+    }
+   ],
+   "case_id": "PN-C07",
+   "track": "pn",
+   "set_number": 49,
+   "title": "Hip fracture repair: first postoperative day"
+  },
+  {
+   "scenario": "A term newborn, now 1 hour old, was born to a parent whose gestational diabetes was treated with insulin. Birth weight is 4,350 g (9 lb 9 oz).",
+   "exhibits": [
+    {
+     "label": "Nurses' notes, 1 hour",
+     "content": "Jittery when unwrapped. Weak suck at the breast. Respirations 64/min with no grunting or retractions. Skin pink."
+    },
+    {
+     "label": "Vital signs and glucose, 1 hour",
+     "content": "T 97.5°F (36.4°C) axillary, HR 150/min, RR 64/min. Point-of-care glucose 32 mg/dL."
+    },
+    {
+     "label": "Unit protocol",
+     "content": "Glucose below 40 mg/dL with symptoms: notify the provider immediately. Glucose below 40 mg/dL without symptoms: feed, then recheck glucose in 30 to 60 minutes."
+    }
+   ],
+   "case_id": "PN-C08",
+   "track": "pn",
+   "set_number": 49,
+   "title": "Newborn hypoglycemia after a pregnancy with gestational diabetes"
+  },
+  {
+   "scenario": "An 88-year-old resident of a long-term care facility finished a course of clindamycin for a dental infection 5 days ago. Since yesterday, the resident has had frequent watery stools.",
+   "exhibits": [
+    {
+     "label": "Nurses' notes",
+     "content": "Six watery, foul-smelling stools since yesterday. Lower abdominal cramping. Mucous membranes dry. Skin around the anus red and tender. Drinking about 600 mL a day. Shares a bathroom with a roommate."
+    },
+    {
+     "label": "Vital signs",
+     "content": "T 100.4°F (38°C), HR 102/min, RR 18/min, BP 108/66 mm Hg (usual 130/76)."
+    },
+    {
+     "label": "Laboratory results",
+     "content": "Stool positive for Clostridioides difficile toxin. WBC 16,800/mm3 (5,000–10,000). Sodium 147 mEq/L (135–145)."
+    }
+   ],
+   "case_id": "PN-C09",
+   "track": "pn",
+   "set_number": 49,
+   "title": "Clostridioides difficile infection in long-term care"
+  },
+  {
+   "scenario": "A 22-year-old client with schizophrenia was admitted to an inpatient mental health unit 2 days ago and started on haloperidol. At 1500, the client calls for help, frightened, saying, \"My neck is stuck.\"",
+   "exhibits": [
+    {
+     "label": "Nurses' notes, 1500",
+     "content": "Head twisted to the left and pulled back. Eyes rolled upward. Speech slurred, with the tongue protruding. Anxious and crying. Breathing unlabored, swallowing secretions. Received the third dose of haloperidol at 1200."
+    },
+    {
+     "label": "Vital signs, 1500",
+     "content": "T 98.8°F (37.1°C), HR 108/min, RR 20/min, BP 128/80 mm Hg, SpO2 98% on room air."
+    },
+    {
+     "label": "Prescriptions",
+     "content": "Haloperidol 5 mg by mouth twice daily. Benztropine 1 mg IM or by mouth as needed for extrapyramidal symptoms. Diphenhydramine 50 mg IM as needed for acute dystonia."
+    }
+   ],
+   "case_id": "PN-C10",
+   "track": "pn",
+   "set_number": 49,
+   "title": "Acute dystonia after starting an antipsychotic"
+  }
+ ]
+}
