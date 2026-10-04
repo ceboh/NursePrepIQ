@@ -13,8 +13,15 @@
 // is unbalanced: each rank must hold between 15% and 35% of single_best_answer items
 // (skipped.json items excluded). A tie with a distractor splits the item evenly across the
 // tied ranks, so ties never count for or against either side.
+//
+// New items (data/bank/additions) must also pass: each single_best_answer item keeps its correct
+// option within 15% of the longest distractor; across each track's additions the correct option's
+// position (A-D) and its length rank must each hold 15-35% of items; no two options of an item may
+// be identical; and no item may duplicate or nearly duplicate another item (word overlap of the
+// whole item; new PN cases are compared by scenario and exhibits).
+//   node scripts/bank/check-revisions.mjs --needs      client-need distribution vs. the NCSBN ranges
 import { readFileSync, existsSync } from 'node:fs';
-import { REVISIONS_DIR, CLIENT_NEEDS, NEED_TARGETS, applyRevisions, applyRetags, loadBanks, setsCovered } from './revisions.mjs';
+import { REVISIONS_DIR, CLIENT_NEEDS, NEED_TARGETS, applyRevisions, applyRetags, isAddition, loadAll, loadBanks, setsCovered } from './revisions.mjs';
 
 export const LIMIT = 1.15;
 export const RANK_MIN = 0.15, RANK_MAX = 0.35;
@@ -49,8 +56,9 @@ const rankDistribution = rows => {
 const formatRanks = dist => RANKS.map(r => `rank ${r} ${(100 * dist[r]).toFixed(1)}%`).join('  ');
 
 const source = sba(loadBanks());
-const banks = loadBanks();
+const banks = loadAll();
 const { files, revised, errors } = applyRevisions(banks);
+errors.push(...applyRetags(banks).errors);
 const items = sba(banks);
 const sourceById = new Map(source.map(q => [q.source_id, q]));
 
@@ -66,7 +74,7 @@ for (const [id, reason] of Object.entries(skipped)) {
 // targets are the 2023 NCSBN test-plan ranges.
 if (args[0] === '--needs') {
   const sourceAll = loadBanks().flatMap(b => b.questions);
-  const tagged = loadBanks();
+  const tagged = loadAll();
   applyRevisions(tagged);
   applyRetags(tagged);
   const afterAll = tagged.flatMap(b => b.questions);
@@ -139,5 +147,54 @@ for (const track of ['rn', 'pn']) {
       errors.push(`${track.toUpperCase()}: correct option is length rank ${r} in ${(100 * dist[r]).toFixed(1)}% of items; must be ${100 * RANK_MIN}-${100 * RANK_MAX}%`);
   }
 }
+
+// ---------- additions ----------
+const POSITIONS = ['A', 'B', 'C', 'D'];
+const STOP = new Set('a an the of and or to in on for with by at from is are be as that this than then its it his her their they them what which who whom whose when where how why should would does do did has have had will can may not no client clients resident residents patient nurse nurses lpn vn rn following best most first next statement statements response indicates action actions'.split(' '));
+const words = s => new Set(String(s).toLowerCase().replace(/[^a-z0-9 ]+/g, ' ').split(' ').filter(w => w.length > 2 && !STOP.has(w)).map(w => w.replace(/(ing|ed|es|s)$/, '')));
+const jaccard = (a, b) => { let n = 0; for (const w of a) if (b.has(w)) n++; return n / (a.size + b.size - n || 1); };
+const allQuestions = banks.flatMap(b => b.questions);
+const added = allQuestions.filter(q => isAddition(q.source_id));
+if (added.length) {
+  const same = t => String(t).trim().replace(/\s+/g, ' ').toLowerCase();
+  for (const q of added) {
+    const texts = q.options?.map(o => o.text) ?? q.rows?.map(r => r.text) ?? q.passage_segments?.map(p => p.text) ?? [];
+    if (new Set(texts.map(same)).size !== texts.length) errors.push(`${q.source_id}: two options are identical`);
+    if (q.item_type === 'single_best_answer') {
+      if (q.options.length !== 4) errors.push(`${q.source_id}: multiple-choice additions need 4 options`);
+      else if (overLimit(q)) errors.push(`${q.source_id}: correct option is ${Math.round((lengths(q).ratio - 1) * 100)}% longer than the longest distractor (limit 15%)`);
+    }
+  }
+  // Near-duplicates: word overlap of the whole item (stem, topic and every option, row, segment or
+  // blank), since many stems are generic ("Which task can the LPN/VN delegate?"). Standalone items
+  // are compared with every other standalone item; a new case study's scenario and exhibits with
+  // every other case. Calibrated on the source bank, where no two distinct items reach 0.6.
+  const body = q => [q.stem, q.topic, ...(q.options || []).map(o => o.text), ...(q.rows || []).map(r => r.text), ...(q.passage_segments || []).map(p => p.text), ...(q.blanks || []).flatMap(b => b.options), ...(q.bowtie_groups || []).flatMap(g => g.options)].join(' ');
+  const similar = [];
+  const nearest = (id, fingerprint, pool) => {
+    let best = { s: 0 };
+    for (const [otherId, other] of pool) if (otherId !== id) { const s = jaccard(fingerprint, other); if (s > best.s) best = { s, id: otherId }; }
+    if (best.s >= 0.6) errors.push(`${id}: nearly duplicates ${best.id} (similarity ${best.s.toFixed(2)})`);
+    else if (best.s >= 0.4) similar.push(`${id} ~ ${best.id} (${best.s.toFixed(2)})`);
+  };
+  const standalone = new Map(allQuestions.filter(q => !q.case_id).map(q => [q.source_id, words(body(q))]));
+  for (const q of added) if (!q.case_id) nearest(q.source_id, standalone.get(q.source_id), standalone);
+  const allCases = banks.flatMap(b => b.case_studies);
+  const caseWords = new Map(allCases.map(c => [c.case_id, words(c.scenario + ' ' + c.exhibits.map(e => e.content).join(' '))]));
+  for (const c of allCases) if (/^PN-C\d{2}$/.test(c.case_id)) nearest(c.case_id, caseWords.get(c.case_id), caseWords);
+  console.log(`\nadditions: ${added.length} items (${added.filter(q => q.track === 'rn').length} RN, ${added.filter(q => q.track === 'pn').length} PN)`);
+  for (const track of ['rn', 'pn']) {
+    const mc = added.filter(q => q.track === track && q.item_type === 'single_best_answer' && q.options.length === 4);
+    if (!mc.length) continue;
+    const pos = Object.fromEntries(POSITIONS.map(p => [p, mc.filter(q => POSITIONS[q.options.findIndex(o => o.is_correct)] === p).length / mc.length]));
+    const ranks = rankDistribution(mc);
+    console.log(`${track.padEnd(5)} ${String(mc.length).padStart(4)} MC   position ${POSITIONS.map(p => `${p} ${(100 * pos[p]).toFixed(1)}%`).join('  ')}`);
+    console.log(`${' '.repeat(14)}length ${formatRanks(ranks)}`);
+    for (const p of POSITIONS) if (pos[p] < RANK_MIN || pos[p] > RANK_MAX) errors.push(`${track.toUpperCase()} additions: correct option is in position ${p} in ${(100 * pos[p]).toFixed(1)}% of MC items; must be 15-35%`);
+    for (const r of RANKS) if (ranks[r] < RANK_MIN || ranks[r] > RANK_MAX) errors.push(`${track.toUpperCase()} additions: correct option is length rank ${r} in ${(100 * ranks[r]).toFixed(1)}% of MC items; must be 15-35%`);
+  }
+  if (similar.length) console.log('similar items to review (0.4-0.6):\n  ' + similar.join('\n  '));
+}
+
 if (errors.length) { console.error(`\nFAILED (${errors.length}):\n` + errors.join('\n')); process.exit(1); }
 console.log('\nOK');

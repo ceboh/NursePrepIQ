@@ -51,7 +51,9 @@ function hits(text, words) {
 // NGN case studies are indivisible: every item takes its case's system and discipline from
 // data/bank/case_study_categories.json, never from per-item classification.
 const CASE_FILE = new URL('../../data/bank/case_study_categories.json', import.meta.url);
-export const CASE_CATEGORIES = new Map(JSON.parse(readFileSync(CASE_FILE, 'utf8')).cases.map(c => [c.case_id, c]));
+// "cases" holds the RN case studies and "pn_cases" the PN ones.
+const caseFile = JSON.parse(readFileSync(CASE_FILE, 'utf8'));
+export const CASE_CATEGORIES = new Map([...caseFile.cases, ...(caseFile.pn_cases || [])].map(c => [c.case_id, c]));
 for (const c of CASE_CATEGORIES.values()) {
   if (!SYSTEMS.includes(c.system)) throw new Error(`${c.case_id}: unknown system "${c.system}" in case_study_categories.json`);
   if (!DISCIPLINES.includes(c.discipline)) throw new Error(`${c.case_id}: unknown discipline "${c.discipline}" in case_study_categories.json`);

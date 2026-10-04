@@ -21,6 +21,31 @@ export const NEED_TARGETS = {
 
 export const loadBanks = () => BANK_FILES.map(file => JSON.parse(readFileSync(new URL(file, BANK_DIR), 'utf8')));
 
+// New items, same schema as the bank files:
+//   data/bank/additions/additions_<rn|pn>_NN.json  standalone items, source_ids RN-ANN-001 / PN-ANN-001,
+//                                                  set_number 41 + client-need index, set_title "Supplemental: <client need>"
+//   data/bank/additions/cases_pn_NN.json           PN unfolding case studies PN-C01..., items PN-C01-01...,
+//                                                  set_number 49, set_title "Supplemental: PN NGN Case Studies"
+export const ADDITIONS_DIR = new URL('additions/', BANK_DIR);
+export const SUPPLEMENTAL_SET_START = 41;
+export const PN_CASE_SET = { set_number: 49, set_title: 'Supplemental: PN NGN Case Studies' };
+export const additionFiles = () =>
+  existsSync(ADDITIONS_DIR) ? readdirSync(ADDITIONS_DIR).filter(f => /^(additions_(rn|pn)|cases_pn)_\d+\.json$/.test(f)).sort() : [];
+export const loadAdditions = () => additionFiles().map(file => ({ file, ...JSON.parse(readFileSync(new URL(file, ADDITIONS_DIR), 'utf8')) }));
+export const isAddition = id => /^(RN|PN)-A\d{2}-\d{3}$/.test(id) || /^PN-C\d{2}-\d{2}$/.test(id);
+
+// Bank files with every additions file merged into its track: [rn, pn].
+export function loadAll() {
+  const banks = loadBanks();
+  for (const add of loadAdditions()) {
+    const bank = banks.find(b => b.track === add.track);
+    if (!bank) throw new Error(`${add.file}: unknown track "${add.track}"`);
+    bank.questions.push(...(add.questions || []));
+    bank.case_studies.push(...(add.case_studies || []));
+  }
+  return banks;
+}
+
 export const revisionFiles = () =>
   existsSync(REVISIONS_DIR) ? readdirSync(REVISIONS_DIR).filter(f => /^content_revisions_.*\.json$/.test(f)).sort() : [];
 

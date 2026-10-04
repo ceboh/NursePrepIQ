@@ -1,12 +1,13 @@
-// Builds load-ready rows from data/bank/*.json, with data/bank/revisions/*.json and then
-// data/bank/retags/*.json (client-need re-tags) applied on top.
+// Builds load-ready rows from data/bank/*.json plus data/bank/additions/*.json (new items and
+// PN case studies), with data/bank/revisions/*.json and then data/bank/retags/*.json
+// (client-need re-tags) applied on top.
 //   node scripts/bank/build.mjs
 // Writes data/bank/build/{questions,case_studies}.json plus review reports, and exits
 // non-zero if any answer key cannot be resolved unambiguously.
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { classifySystem, classifyDiscipline, CASE_CATEGORIES } from './taxonomy.mjs';
-import { BANK_DIR as BANK, CLIENT_NEEDS, applyRevisions, applyRetags, loadBanks } from './revisions.mjs';
+import { BANK_DIR as BANK, CLIENT_NEEDS, PN_CASE_SET, SUPPLEMENTAL_SET_START, applyRevisions, applyRetags, loadAdditions, loadAll, loadBanks } from './revisions.mjs';
 
 const OUT = new URL('build/', BANK);
 const ITEM_TYPES = ['single_best_answer', 'multiple_response', 'matrix_grid', 'drop_down_cloze', 'highlight', 'bow_tie'];
@@ -161,7 +162,7 @@ const BUILDERS = { single_best_answer: choiceResponse, multiple_response: choice
 // ---------- content revisions ----------
 // data/bank/revisions/*.json applied on top of the source bank (see revisions.mjs). Any
 // error stops the build before anything is written.
-const banks = loadBanks();
+const banks = loadAll();
 {
   const { files, revised, errors } = applyRevisions(banks);
   if (errors.length) { console.error(`Revisions rejected (${errors.length}); nothing was built:\n` + errors.join('\n')); process.exit(1); }
@@ -176,6 +177,36 @@ const banks = loadBanks();
   if (errors.length) { console.error(`Re-tags rejected (${errors.length}); nothing was built:\n` + errors.join('\n')); process.exit(1); }
   console.log(`re-tags: ${files.length} file(s), ${retagged.size} item(s) re-tagged`);
   for (const [id, t] of retagged) console.log(`  ${id}: ${t.from} -> ${t.to} (${t.file})`);
+}
+
+// ---------- additions ----------
+// Expected totals come from the files themselves (bank files plus every additions file), never a
+// hardcoded count. Additions must follow the id, set and case conventions in revisions.mjs.
+const CJ_STEPS = ['Recognize cues', 'Analyze cues', 'Prioritize hypotheses', 'Generate solutions', 'Take action', 'Evaluate outcomes'];
+const expected = Object.fromEntries(loadBanks().map(b => [b.track, { questions: b.questions.length, cases: b.case_studies.length }]));
+for (const add of loadAdditions()) {
+  const [, , standaloneTrack, , nn] = add.file.match(/^(additions_(rn|pn)|cases_(pn))_(\d+)\.json$/);
+  const track = standaloneTrack || 'pn', T = track.toUpperCase();
+  if (add.track !== track) problems.push(`${add.file}: track "${add.track}" does not match the file name`);
+  expected[track].questions += (add.questions || []).length;
+  expected[track].cases += (add.case_studies || []).length;
+  for (const q of add.questions || []) {
+    if (standaloneTrack) {
+      if (q.source_id.slice(0, 6) !== `${T}-A${nn}` || !/^(RN|PN)-A\d{2}-\d{3}$/.test(q.source_id)) problems.push(`${add.file}: ${q.source_id} should be ${T}-A${nn}-NNN`);
+      if (q.case_id) problems.push(`${q.source_id}: standalone additions cannot belong to a case`);
+      const set = SUPPLEMENTAL_SET_START + CLIENT_NEEDS[track].indexOf(q.client_need);
+      if (q.set_number !== set || q.set_title !== `Supplemental: ${q.client_need}`) problems.push(`${q.source_id}: set should be ${set} "Supplemental: ${q.client_need}"`);
+    } else {
+      const m = /^PN-C(\d{2})-(\d{2})$/.exec(q.source_id);
+      if (!m || q.case_id !== `PN-C${m[1]}` || q.case_sequence !== Number(m[2])) problems.push(`${q.source_id}: case items are PN-Cxx-yy with case_id PN-Cxx and case_sequence yy`);
+      else if (q.clinical_judgment_step !== CJ_STEPS[q.case_sequence - 1]) problems.push(`${q.source_id}: item ${q.case_sequence} should be "${CJ_STEPS[q.case_sequence - 1]}"`);
+      if (q.set_number !== PN_CASE_SET.set_number || q.set_title !== PN_CASE_SET.set_title) problems.push(`${q.source_id}: set should be ${PN_CASE_SET.set_number} "${PN_CASE_SET.set_title}"`);
+    }
+  }
+  for (const c of add.case_studies || []) {
+    if (!/^PN-C\d{2}$/.test(c.case_id) || c.track !== 'pn' || c.set_number !== PN_CASE_SET.set_number) problems.push(`${c.case_id}: PN case studies are PN-Cxx, track pn, set ${PN_CASE_SET.set_number}`);
+    if (!c.scenario || !Array.isArray(c.exhibits) || !c.exhibits.length || c.exhibits.some(e => !e.label || !e.content)) problems.push(`${c.case_id}: needs a scenario and labeled exhibits`);
+  }
 }
 
 const questions = [], caseStudies = [], taxonomy = [];
@@ -226,6 +257,13 @@ writeFileSync(new URL('case_studies.json', OUT), JSON.stringify(caseStudies));
 const csv = v => /[",\n]/.test(String(v)) ? `"${String(v).replace(/"/g, '""')}"` : String(v);
 writeFileSync(new URL('taxonomy_review.csv', OUT), ['source_id,track,set,topic,system,system_basis,discipline', ...taxonomy.map(r => r.map(csv).join(','))].join('\n') + '\n');
 writeFileSync(new URL('answer_key_review.csv', OUT), ['source_id,kind,status,detail', ...review.map(r => [r.id, r.kind, r.note, r.detail].map(csv).join(','))].join('\n') + '\n');
+
+for (const [track, e] of Object.entries(expected)) {
+  const got = questions.filter(q => q.track === track).length, gotCases = caseStudies.filter(c => c.track === track).length;
+  console.log(`expected from files: ${track} ${e.questions} questions, ${e.cases} case studies`);
+  if (got !== e.questions) problems.push(`${track}: built ${got} questions, files have ${e.questions}`);
+  if (gotCases !== e.cases) problems.push(`${track}: built ${gotCases} case studies, files have ${e.cases}`);
+}
 
 const count = (rows, f) => rows.reduce((m, r) => (m[f(r)] = (m[f(r)] || 0) + 1, m), {});
 console.log('questions', questions.length, count(questions, q => q.track));
