@@ -1,0 +1,1607 @@
+{
+ "_comment": "Supplemental items, PN batch 04: Coordinated Care. Pilot status.",
+ "track": "pn",
+ "questions": [
+  {
+   "source_id": "PN-A04-001",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 1,
+   "client_need": "Coordinated Care",
+   "topic": "Prioritization: pediatric unit",
+   "item_type": "single_best_answer",
+   "stem": "The LPN/VN on a pediatric unit is collecting data on four children. Which child should the LPN/VN report to the RN first?",
+   "rationale": "Stridor at rest with retractions means the child's upper airway is significantly narrowed and the child needs immediate assessment and treatment. A request for a popsicle, a single episode of vomiting, and a scheduled inhaler dose are stable situations.",
+   "answer_summary": "C",
+   "options": [
+    {
+     "key": "A",
+     "text": "A 4-year-old with a fractured arm in a cast who is asking for a popsicle",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "A 6-year-old with gastroenteritis who vomited once this morning",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "A 2-year-old with croup who has stridor while resting quietly and new retractions",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "A 9-year-old with asthma who is due for a scheduled inhaler",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "b990bdde1b6384a1"
+  },
+  {
+   "source_id": "PN-A04-002",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 2,
+   "client_need": "Coordinated Care",
+   "topic": "Prioritization: memory care unit",
+   "item_type": "single_best_answer",
+   "stem": "The LPN/VN on a memory care unit is collecting data on four residents. Which finding should the LPN/VN report to the RN first?",
+   "rationale": "New swelling, warmth, and pain in one calf suggest a deep vein thrombosis, which can lead to a pulmonary embolism and needs prompt evaluation. Wandering that is easily redirected, eating half a meal, and asking for a deceased spouse are common in dementia and do not signal an acute change.",
+   "answer_summary": "A",
+   "options": [
+    {
+     "key": "A",
+     "text": "A resident with new swelling, warmth, and pain in one calf",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "A resident who is wandering in the hallway but is easily redirected by staff members",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "A resident who ate half of lunch",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "A resident who is asking for a deceased spouse",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "bf9a829961b119ee"
+  },
+  {
+   "source_id": "PN-A04-003",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 3,
+   "client_need": "Coordinated Care",
+   "topic": "Prioritization: newborn nursery",
+   "item_type": "single_best_answer",
+   "stem": "The LPN/VN in a newborn nursery is collecting data on four newborns. Which finding should the LPN/VN report to the RN first?",
+   "rationale": "Jaundice that appears within the first 24 hours of life is pathologic, often from hemolysis, and needs prompt evaluation. Acrocyanosis with a pink trunk, milia, and a heart rate within the normal range of 110 to 160/min are expected newborn findings.",
+   "answer_summary": "B",
+   "options": [
+    {
+     "key": "A",
+     "text": "Bluish hands and feet in a 3-hour-old newborn whose lips and trunk are pink and warm",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Yellow skin on the face and chest of a newborn who is 16 hours old",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Small white spots on the nose of a newborn who is 1 day old and feeding well",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "A heart rate of 140/min in a newborn",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "69d8ef5539a6af70"
+  },
+  {
+   "source_id": "PN-A04-004",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 4,
+   "client_need": "Coordinated Care",
+   "topic": "Prioritization: oncology unit",
+   "item_type": "single_best_answer",
+   "stem": "The LPN/VN on an oncology unit is collecting data on four clients. Which client should the LPN/VN report to the RN first?",
+   "rationale": "New back pain with leg weakness in a client with cancer suggests spinal cord compression from metastasis, an emergency that can cause permanent paralysis without rapid treatment. Fatigue during radiation is expected, and requests for a wig catalog or a dietitian are routine.",
+   "answer_summary": "D",
+   "options": [
+    {
+     "key": "A",
+     "text": "A client receiving radiation to the chest who reports feeling more tired than usual this week",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "A client with breast cancer who asks for a wig catalog before chemotherapy starts next week",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "A client with prostate cancer who wants to talk with the dietitian about meal choices",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "A client with lung cancer who has new back pain and leg weakness",
+     "is_correct": true
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "080fe79bb20d0234"
+  },
+  {
+   "source_id": "PN-A04-005",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 5,
+   "client_need": "Coordinated Care",
+   "topic": "Prioritization: medical unit",
+   "item_type": "single_best_answer",
+   "stem": "The LPN/VN on a medical unit receives report on four clients. Which client should the LPN/VN check on first?",
+   "rationale": "Vomiting bright red blood in a client with cirrhosis suggests bleeding esophageal varices, a life-threatening emergency that needs immediate action and reporting. A productive cough with pneumonia, a question about breakfast, and cellulitis that is not spreading are stable findings.",
+   "answer_summary": "D",
+   "options": [
+    {
+     "key": "A",
+     "text": "A client with pneumonia who has a cough with yellow sputum and is resting",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "A client with diabetes who is asking when breakfast will arrive",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "A client with cellulitis whose redness is within the marked border",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "A client with cirrhosis who just vomited a large amount of bright red blood",
+     "is_correct": true
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "8e6accc427af5b05"
+  },
+  {
+   "source_id": "PN-A04-006",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 6,
+   "client_need": "Coordinated Care",
+   "topic": "Timing of medication documentation",
+   "item_type": "single_best_answer",
+   "stem": "To save time, an LPN/VN documents morning medications as given before taking them to the residents. How should this practice be described?",
+   "rationale": "Documenting care before it is given creates a false record and can lead to errors, such as another nurse assuming a dose was given or a refusal going unrecorded. Medications are documented after they are given. Being busy does not make the practice acceptable, and it is wrong whether or not a resident refuses.",
+   "answer_summary": "A",
+   "options": [
+    {
+     "key": "A",
+     "text": "Unacceptable, because documentation must reflect care that has actually been given",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Acceptable, as long as the LPN/VN gives each of the medications within the next hour",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Acceptable on busy days",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Unacceptable only if a resident later refuses a dose",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "f6bd9c061c4e1788"
+  },
+  {
+   "source_id": "PN-A04-007",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 7,
+   "client_need": "Coordinated Care",
+   "topic": "Responding to a privacy breach",
+   "item_type": "single_best_answer",
+   "stem": "The LPN/VN realizes that an email containing a client's lab results was sent to the wrong outside address. What should the LPN/VN do?",
+   "rationale": "Sending protected health information to the wrong recipient is a breach that must be reported promptly so the facility can take steps to contain it and meet legal notification requirements. Handling it privately, waiting, or deleting the sent message hides the breach and does not protect the client.",
+   "answer_summary": "C",
+   "options": [
+    {
+     "key": "A",
+     "text": "Send a follow-up email asking the person to ignore the message and say nothing else",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Wait to see whether the person who received the email responds to it",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Report it right away to the supervisor or privacy officer",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Delete the sent email",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "a7ed29b272e4a760"
+  },
+  {
+   "source_id": "PN-A04-008",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 8,
+   "client_need": "Coordinated Care",
+   "topic": "Tasks the LPN/VN has not been trained to do",
+   "item_type": "single_best_answer",
+   "stem": "The charge nurse asks the LPN/VN to access a client's implanted port. The LPN/VN has never been trained or checked off on this skill. What should the LPN/VN do?",
+   "rationale": "Nurses are accountable for performing only tasks they are competent and authorized to do. The LPN/VN tells the charge nurse so the task can be reassigned or done with proper training and validation per facility policy and state scope. An assignment does not transfer accountability, a video does not establish competence, and an AP cannot assist in a way that makes the task safe.",
+   "answer_summary": "B",
+   "options": [
+    {
+     "key": "A",
+     "text": "Access the port anyway, since the charge nurse is responsible for the assignment",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Tell the charge nurse they have not been trained in this skill",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Watch a video about implanted ports and then access the port without supervision",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Ask the assistive personnel to help, since two people make the procedure safer",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "bac275d6a1a6eb6b"
+  },
+  {
+   "source_id": "PN-A04-009",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 9,
+   "client_need": "Coordinated Care",
+   "topic": "Practicing with an expired license",
+   "item_type": "single_best_answer",
+   "stem": "Before a shift, the LPN/VN realizes their nursing license expired 2 days ago because they forgot to renew it. What should the LPN/VN do?",
+   "rationale": "Practicing nursing with an expired license is practicing without a license, which is illegal regardless of the client assignment. The LPN/VN informs the supervisor and does not work as a nurse until the license is active. Having another nurse sign for care falsifies the record.",
+   "answer_summary": "B",
+   "options": [
+    {
+     "key": "A",
+     "text": "Work the shift and renew the license online at the end of the shift",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Tell the supervisor and not work as a nurse until the license is renewed",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Work only with stable clients until the license is renewed",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Ask another nurse to sign the documentation",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "7f512588a21fdab2"
+  },
+  {
+   "source_id": "PN-A04-010",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 10,
+   "client_need": "Coordinated Care",
+   "topic": "Addressing a coworker's unsafe practice",
+   "item_type": "single_best_answer",
+   "stem": "The LPN/VN notices that a coworker repeatedly goes from one resident to another without performing hand hygiene. What should the LPN/VN do first?",
+   "rationale": "Skipped hand hygiene spreads infection. A direct, respectful reminder addresses the problem in the moment, and repeated lapses are reported through the facility's process. Experience does not excuse unsafe practice, involving residents is inappropriate, and social media posts breach professional standards without solving the problem.",
+   "answer_summary": "D",
+   "options": [
+    {
+     "key": "A",
+     "text": "Ignore it, since the coworker has more experience on the unit than the LPN/VN has",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Tell the residents to watch the coworker",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Post a complaint on social media",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Remind the coworker directly and, if it continues, report it per policy",
+     "is_correct": true
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "47ab0060df5d4c1c"
+  },
+  {
+   "source_id": "PN-A04-011",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 11,
+   "client_need": "Coordinated Care",
+   "topic": "Fatigue and safe practice",
+   "item_type": "single_best_answer",
+   "stem": "At the end of a 12-hour shift, the supervisor asks the LPN/VN to stay for another 8 hours. The LPN/VN feels too tired to work safely. What should the LPN/VN do?",
+   "rationale": "Nurses are accountable for being fit to practice, and severe fatigue increases the risk of errors. Declining the extra shift and explaining why is appropriate, and the LPN/VN still gives a full report before leaving. Caffeine does not reverse fatigue-related impairment, and leaving without report can be abandonment.",
+   "answer_summary": "A",
+   "options": [
+    {
+     "key": "A",
+     "text": "Decline the extra shift and explain the safety concern to the supervisor",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Accept the extra shift and drink several cups of coffee to stay alert all night",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Accept the extra shift but ask to care for only the most stable clients on the unit",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Leave without giving report",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "bc432c66e3f4ba2a"
+  },
+  {
+   "source_id": "PN-A04-012",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 12,
+   "client_need": "Coordinated Care",
+   "topic": "Client's choice of visitors",
+   "item_type": "single_best_answer",
+   "stem": "A client asks the LPN/VN not to allow a former partner to visit. What should the LPN/VN do?",
+   "rationale": "Clients have the right to choose who visits them. The LPN/VN honors the request and follows facility policy, such as notifying the front desk and security so the restriction is enforced. A court order is not required, allowing the visit ignores the client's wishes, and the family does not decide for a competent client.",
+   "answer_summary": "C",
+   "options": [
+    {
+     "key": "A",
+     "text": "Explain that visitors cannot be restricted unless a court order is in place for the client",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Let the former partner visit briefly so there is no conflict at the front desk",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Honor the request and notify the front desk and security per policy",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Ask the client's family to decide which visitors are allowed to see the client",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "5cb02790ff65c8d5"
+  },
+  {
+   "source_id": "PN-A04-013",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 13,
+   "client_need": "Coordinated Care",
+   "topic": "Requests for information about charges",
+   "item_type": "single_best_answer",
+   "stem": "A client asks the LPN/VN how much the hospital stay will cost. What should the LPN/VN do?",
+   "rationale": "Clients have the right to information about charges for their care, and the billing or financial counseling office has accurate information. Delaying the answer, guessing from other clients' bills, and dismissing the concern do not meet the client's need.",
+   "answer_summary": "C",
+   "options": [
+    {
+     "key": "A",
+     "text": "Tell the client that charges cannot be discussed until after discharge home",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Give the client an estimate based on what other clients have paid",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Help the client contact the billing office, which can explain the expected charges",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Tell the client not to worry about the cost",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "9f2eee86f869bf8b"
+  },
+  {
+   "source_id": "PN-A04-014",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 14,
+   "client_need": "Coordinated Care",
+   "topic": "Confidentiality in staff areas",
+   "item_type": "single_best_answer",
+   "stem": "In the staff break room, the LPN/VN hears an assistive personnel (AP) telling a visitor details about a resident's diagnosis. What should the LPN/VN do?",
+   "rationale": "Sharing a resident's health information with someone not involved in care is a confidentiality violation, wherever it happens. The LPN/VN stops it right away and reminds the AP, and follows facility policy for reporting. Break rooms are not private when visitors are present, adding correct details worsens the breach, and the AP, not the visitor, caused the problem.",
+   "answer_summary": "D",
+   "options": [
+    {
+     "key": "A",
+     "text": "Let the conversation continue, since the break room is a staff area and is considered private",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Join the conversation to correct any wrong details",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Report the visitor to security",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Stop the conversation and remind the AP that resident information cannot be shared",
+     "is_correct": true
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "62f07131a3420067"
+  },
+  {
+   "source_id": "PN-A04-015",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 15,
+   "client_need": "Coordinated Care",
+   "topic": "Complementary therapies",
+   "item_type": "single_best_answer",
+   "stem": "A client with chronic low back pain tells the LPN/VN that they want to try acupuncture along with their prescribed treatment. What is the best response?",
+   "rationale": "Clients may choose complementary therapies, and some, including acupuncture, have evidence of benefit for chronic low back pain. The LPN/VN supports the client's interest and makes sure the provider and RN know so care can be coordinated. Dismissing the therapy, advising the client to stop prescribed treatment, and encouraging secrecy are inappropriate.",
+   "answer_summary": "B",
+   "options": [
+    {
+     "key": "A",
+     "text": "\"Acupuncture has no benefit for back pain, so it would be a waste of your money and time.\"",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "\"That's worth discussing with your provider. I'll let the RN know you're interested.\"",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "\"You should stop taking your prescribed pain medicine as soon as you start acupuncture.\"",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "\"Don't tell your provider about it.\"",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "6326a8929e443f4e"
+  },
+  {
+   "source_id": "PN-A04-016",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 16,
+   "client_need": "Coordinated Care",
+   "topic": "Questions about results in a patient portal",
+   "item_type": "single_best_answer",
+   "stem": "A client sees new lab results in the patient portal before the provider has reviewed them and asks the LPN/VN what they mean. What should the LPN/VN do?",
+   "rationale": "Interpreting new results in terms of the client's diagnosis and treatment is the provider's role, so the LPN/VN makes sure the provider knows the client has questions. Portal results are not usually wrong, and online searches can mislead or alarm the client.",
+   "answer_summary": "A",
+   "options": [
+    {
+     "key": "A",
+     "text": "Notify the provider that the client has questions about the results",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Explain what the results mean for the client's diagnosis and treatment going forward",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Tell the client that results in the portal are often wrong and should be ignored",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Advise the client to search online for an explanation of each abnormal value",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "03d833f84b25a539"
+  },
+  {
+   "source_id": "PN-A04-017",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 17,
+   "client_need": "Coordinated Care",
+   "topic": "Falling behind on a medication pass",
+   "item_type": "single_best_answer",
+   "stem": "Because of an unexpected admission, the LPN/VN is 45 minutes behind on the morning medication pass in a long-term care facility. What should the LPN/VN do?",
+   "rationale": "When behind, the nurse gives time-critical medications, such as insulin and antiseizure drugs, first and asks for help so other doses are not missed. Skipping doses or documenting them at a time they were not given is unsafe and inaccurate, and an AP cannot pass medications.",
+   "answer_summary": "D",
+   "options": [
+    {
+     "key": "A",
+     "text": "Skip the morning medications that are not time-critical and give them at lunch",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Give all of the medications in room order and document them at the scheduled time",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Ask an assistive personnel to pass the oral medications",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Give time-critical medications first and ask the charge nurse for help with the rest",
+     "is_correct": true
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "58e2ed575a8c1a93"
+  },
+  {
+   "source_id": "PN-A04-018",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 18,
+   "client_need": "Coordinated Care",
+   "topic": "Following up on an AP's report of reddened skin",
+   "item_type": "single_best_answer",
+   "stem": "An assistive personnel (AP) reports that a resident has a reddened area over the sacrum. What should the LPN/VN do?",
+   "rationale": "The LPN/VN collects data, including whether the redness blanches, which helps identify a stage 1 pressure injury, makes sure pressure is relieved, and reports to the RN so the plan can be updated. Massaging reddened skin can cause further damage, and lotion or waiting does not address the cause.",
+   "answer_summary": "A",
+   "options": [
+    {
+     "key": "A",
+     "text": "Check the area, including whether it blanches, and report the findings to the RN",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Ask the AP to massage the area firmly to improve blood flow to the skin and tissue",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Tell the AP to apply lotion",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Note it in tomorrow's report",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "829146b08afdfbde"
+  },
+  {
+   "source_id": "PN-A04-019",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 19,
+   "client_need": "Coordinated Care",
+   "topic": "Clarifying information during handoff",
+   "item_type": "single_best_answer",
+   "stem": "During handoff, the off-going nurse does not mention whether a client's afternoon blood glucose was checked. What should the LPN/VN do?",
+   "rationale": "Handoff is the time to clarify missing information while the off-going nurse is still available. Assuming the check was done or waiting could miss hypoglycemia or hyperglycemia, and the client may not know whether a result was obtained or acted on.",
+   "answer_summary": "B",
+   "options": [
+    {
+     "key": "A",
+     "text": "Assume the glucose was checked, since the off-going nurse is usually very thorough",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Ask the off-going nurse about the glucose check before the nurse leaves",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Recheck the client's glucose at the next scheduled time tomorrow before breakfast",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Ask the client",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "4f1c7cf0e1dddd16"
+  },
+  {
+   "source_id": "PN-A04-020",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 20,
+   "client_need": "Coordinated Care",
+   "topic": "Request not to document a fall",
+   "item_type": "single_best_answer",
+   "stem": "A client who slipped in the bathroom without injury says, \"Please don't write down that I fell. I don't want my children to worry.\" What should the LPN/VN say?",
+   "rationale": "Falls are documented and reported even without injury, because they affect the client's fall risk and care plan and some injuries appear later. The LPN/VN explains this respectfully. Leaving out or altering information makes the record inaccurate, and who receives the information is a separate privacy question.",
+   "answer_summary": "C",
+   "options": [
+    {
+     "key": "A",
+     "text": "\"Since you weren't hurt, I'll leave it out of the record so your children don't hear.\"",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "\"I'll document it, but I'll change the details so it doesn't sound like a real fall.\"",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "\"I need to document and report the fall so we can keep you safe.\"",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "\"I'll only write it down if you start having any pain later today or tomorrow.\"",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "4fe949654e815b50"
+  },
+  {
+   "source_id": "PN-A04-021",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 21,
+   "client_need": "Coordinated Care",
+   "topic": "Health questions from visitors",
+   "item_type": "single_best_answer",
+   "stem": "A visitor shows the LPN/VN a rash on their own arm and asks what cream to use. What should the LPN/VN do?",
+   "rationale": "The visitor is not the LPN/VN's client, and diagnosing or treating the rash is outside the LPN/VN's role. The LPN/VN suggests seeing a provider, or seeking urgent care if symptoms are severe. Recommending a treatment, naming a diagnosis, or giving facility supplies could cause harm and creates liability.",
+   "answer_summary": "A",
+   "options": [
+    {
+     "key": "A",
+     "text": "Suggest that the visitor see their own health care provider about the rash",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Recommend a hydrocortisone cream, since most rashes improve with it",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Look at the rash closely and tell the visitor what it is",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Give the visitor cream from the unit's supply",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "2d6c69b5c60d5134"
+  },
+  {
+   "source_id": "PN-A04-022",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 22,
+   "client_need": "Coordinated Care",
+   "topic": "Responding to an angry family member",
+   "item_type": "single_best_answer",
+   "stem": "A client's daughter is shouting at the nurses' station that her father has not been seen all morning. What should the LPN/VN do first?",
+   "rationale": "A calm voice, a private setting, and active listening often de-escalate anger and show respect for the family's concern, which can then be checked and addressed. Telling her to leave or making excuses can escalate the situation. Security is called if there is a threat of violence, which is not described here.",
+   "answer_summary": "C",
+   "options": [
+    {
+     "key": "A",
+     "text": "Ask her to leave the unit until she can speak in a calmer, quieter tone of voice",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Explain that the staff is very busy",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Speak calmly, move to a private area, and listen to her concerns",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Call security right away",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "a60790428b768cc3"
+  },
+  {
+   "source_id": "PN-A04-023",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 23,
+   "client_need": "Coordinated Care",
+   "topic": "Medications brought from home",
+   "item_type": "single_best_answer",
+   "stem": "The family of a newly admitted resident brings several of the resident's medications from home in unlabeled bottles. What should the LPN/VN do?",
+   "rationale": "Unlabeled medications cannot be verified and are not given. The LPN/VN follows policy, which usually means sending them home with the family or storing them, and reports to the RN so the home medication list can be verified and the provider can prescribe what is needed. A family's identification of pills is not a reliable check.",
+   "answer_summary": "D",
+   "options": [
+    {
+     "key": "A",
+     "text": "Give the medications from home so the resident's usual routine is not interrupted",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Ask the family to identify each pill so that every one of them can be given safely",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Mix the pills into one container",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Not give the medications, and follow policy for storing or returning them",
+     "is_correct": true
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "e9f538e28f1f15b1"
+  },
+  {
+   "source_id": "PN-A04-024",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 24,
+   "client_need": "Coordinated Care",
+   "topic": "Request to hide medications in food",
+   "item_type": "single_best_answer",
+   "stem": "The daughter of a resident with dementia asks the LPN/VN to hide the resident's medications in food because the resident often refuses them. What should the LPN/VN do?",
+   "rationale": "Giving medications covertly affects the resident's right to refuse and is done only after a capacity assessment and a documented decision by the provider and team, usually with a pharmacist's review. The LPN/VN reports the request to the RN rather than acting on a family request. Simply stopping medications without informing the RN and provider is also unsafe.",
+   "answer_summary": "B",
+   "options": [
+    {
+     "key": "A",
+     "text": "Hide the medications in pudding, since the daughter has asked the LPN/VN to do so",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Report the request to the RN, since hidden dosing needs a team decision",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Tell the daughter to hide the medications herself during her visits each day",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Stop offering the medications to the resident, since refusing them is the resident's right",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "faafb44789994515"
+  },
+  {
+   "source_id": "PN-A04-025",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 25,
+   "client_need": "Coordinated Care",
+   "topic": "Interpreters for clients who are deaf",
+   "item_type": "single_best_answer",
+   "stem": "A client who is deaf and uses American Sign Language is being admitted. Which action by the LPN/VN is most appropriate?",
+   "rationale": "Clients who are deaf are entitled to effective communication, which for complex discussions such as admission, consent, and teaching usually means a qualified sign language interpreter, in person or by video, at no cost to the client. Family members, especially children, should not interpret. Written notes may help for simple needs, but English may not be the client's first language, and speaking loudly does not help.",
+   "answer_summary": "C",
+   "options": [
+    {
+     "key": "A",
+     "text": "Ask the client's teenage child to interpret during the admission interview",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Rely on written notes for all communication",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Arrange for a qualified sign language interpreter for important discussions",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Speak loudly and slowly",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "c4f4a488b427037f"
+  },
+  {
+   "source_id": "PN-A04-026",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 26,
+   "client_need": "Coordinated Care",
+   "topic": "Questions about completing a living will",
+   "item_type": "single_best_answer",
+   "stem": "A client asks the LPN/VN to help fill out a living will form. What should the LPN/VN do?",
+   "rationale": "The LPN/VN can give general information about advance directives and connect the client with the RN and resources such as a social worker, who can help the client record their own wishes. The choices must be the client's own, advance directives are useful for any adult, and legal advice is outside the nurse's role.",
+   "answer_summary": "B",
+   "options": [
+    {
+     "key": "A",
+     "text": "Fill in the client's choices on the form based on what most clients prefer at the end of life",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Give general information and let the RN know so a social worker can assist",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Tell the client that living wills are only for people who are dying",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Advise the client on legal wording",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "794b8c704130c874"
+  },
+  {
+   "source_id": "PN-A04-027",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 27,
+   "client_need": "Coordinated Care",
+   "topic": "Bedside shift report",
+   "item_type": "single_best_answer",
+   "stem": "The unit is starting bedside shift report. A client asks why nurses now give report in the room. Which response is accurate?",
+   "rationale": "Bedside report involves the client in planning, lets the client correct or add information, and allows both nurses to check the client and equipment together, which improves safety. Sensitive information is shared only with the client's permission when visitors are present, and documentation is still required.",
+   "answer_summary": "D",
+   "options": [
+    {
+     "key": "A",
+     "text": "\"It lets the nurses finish the shift faster so they can leave on time each day.\"",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "\"It lets your visitors hear all about your diagnosis and your treatment plan.\"",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "\"It replaces the need for us to document your care.\"",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "\"It lets you take part in your care and helps us catch any mistakes.\"",
+     "is_correct": true
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "27b5af6b74438028"
+  },
+  {
+   "source_id": "PN-A04-028",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 28,
+   "client_need": "Coordinated Care",
+   "topic": "Giving feedback to an AP",
+   "item_type": "single_best_answer",
+   "stem": "The LPN/VN team leader notices that an assistive personnel (AP) did not record intake and output for two residents. How should the LPN/VN give feedback?",
+   "rationale": "Effective feedback is timely, private, and specific about the behavior and the expectation, which gives the AP a chance to explain and improve. Naming the AP in a meeting or giving feedback in front of residents is humiliating, and written feedback alone misses the chance to clarify the problem.",
+   "answer_summary": "A",
+   "options": [
+    {
+     "key": "A",
+     "text": "Privately, describing the missed task and what is expected",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "At the next staff meeting, using the AP's name as an example for everyone",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "In writing only, without discussing it with the AP directly",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "In front of the residents, so they know the problem is being handled",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "ff339a6bc860e1cf"
+  },
+  {
+   "source_id": "PN-A04-029",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 29,
+   "client_need": "Coordinated Care",
+   "topic": "Prioritization: clinic waiting room",
+   "item_type": "single_best_answer",
+   "stem": "The LPN/VN in a family practice clinic is bringing clients from the waiting room. Which client should be seen first?",
+   "rationale": "Chest pressure with nausea can signal an acute coronary syndrome and needs immediate evaluation, often including activating emergency services. A sore throat with low-grade fever, paperwork, and a routine blood pressure check are not urgent.",
+   "answer_summary": "B",
+   "options": [
+    {
+     "key": "A",
+     "text": "A 30-year-old with a sore throat and a temperature of 100.6°F (38.1°C)",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "A 58-year-old who reports chest pressure and nausea that started 20 minutes ago",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "A 45-year-old who needs a form completed for work",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "A 70-year-old who is here for a routine blood pressure check",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "content_hash": "97b92a4c65143a0d"
+  },
+  {
+   "source_id": "PN-A04-030",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 30,
+   "client_need": "Coordinated Care",
+   "topic": "Questioning outdated practices",
+   "item_type": "multiple_response",
+   "stem": "Which practices should the LPN/VN question because current evidence does not support them? Select all that apply.",
+   "rationale": "Massaging reddened areas and donut-shaped cushions can damage tissue and reduce blood flow, and listening for an air bolus does not reliably confirm feeding tube placement; current practice uses methods such as aspirate pH testing and x-ray confirmation per policy. Pressure-redistribution surfaces and hand hygiene are supported by evidence.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Massaging reddened skin over bony prominences",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Using donut-shaped cushions to relieve pressure",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Checking nasogastric tube placement by listening for an air bolus",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Using a pressure-redistribution mattress for a resident at high risk",
+     "is_correct": false
+    },
+    {
+     "key": "E",
+     "text": "Performing hand hygiene before and after resident contact",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C",
+   "scoring": "plus_minus",
+   "content_hash": "a26a669f436e7f64"
+  },
+  {
+   "source_id": "PN-A04-031",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 31,
+   "client_need": "Coordinated Care",
+   "topic": "Managing time during a shift",
+   "item_type": "multiple_response",
+   "stem": "Which strategies help the LPN/VN manage time effectively during a shift? Select all that apply.",
+   "rationale": "Planning with a worksheet, clustering care, prioritizing time-critical tasks, and appropriate delegation use time well. Waiting until the end of the shift to document leads to inaccurate, late records, and skipping the care plan review can cause missed care.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Using a worksheet to plan the shift",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Grouping care tasks for each client when possible",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Giving time-critical medications first",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Delegating appropriate tasks to the assistive personnel",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Saving all documentation until the end of the shift",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Skipping a review of the care plan",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "content_hash": "76ec06e9cd35cbb0"
+  },
+  {
+   "source_id": "PN-A04-032",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 32,
+   "client_need": "Coordinated Care",
+   "topic": "Contents of an event report",
+   "item_type": "multiple_response",
+   "stem": "Which information should the LPN/VN include in an event (incident) report? Select all that apply.",
+   "rationale": "An event report states the facts: when and where the event occurred, what was observed, what was done, who was notified, and who witnessed it. Opinions about blame do not belong in the report, and the report is not placed in the client's medical record.",
+   "options": [
+    {
+     "key": "A",
+     "text": "The date, time, and location of the event",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "An objective description of what happened",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Actions taken and who was notified",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Names of any witnesses",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "The LPN/VN's opinion about who was at fault",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "A note that a copy was placed in the client's chart",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "content_hash": "e4919642dbdcf52e"
+  },
+  {
+   "source_id": "PN-A04-033",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 33,
+   "client_need": "Coordinated Care",
+   "topic": "Recognizing social service needs",
+   "item_type": "multiple_response",
+   "stem": "Which client situations should the LPN/VN report to the RN as possible needs for a social work referral? Select all that apply.",
+   "rationale": "Social workers help with financial barriers, transportation, home support services, and caregiver resources. A request for a blanket and a bathing preference are routine care needs that the nursing team can meet.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Cannot afford prescribed medications",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Has no way to get to follow-up appointments",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Lives alone and can no longer manage housework",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Caregiver says they are overwhelmed",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Asks for an extra blanket",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Prefers to shower in the evening",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "content_hash": "07de487048580025"
+  },
+  {
+   "source_id": "PN-A04-034",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 34,
+   "client_need": "Coordinated Care",
+   "topic": "Discharge planning on admission",
+   "item_type": "multiple_response",
+   "stem": "Which information should the LPN/VN collect on admission to help begin discharge planning? Select all that apply.",
+   "rationale": "Discharge planning starts on admission. Knowing the client's home support, physical barriers, access to medications and transportation, and baseline self-care ability helps the team identify needs early. A previous employer and opinions about food do not affect discharge needs.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Who lives with the client and can help at home",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Stairs or other barriers in the home",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "How the client gets medications and gets to appointments",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "The client's ability to care for themselves before admission",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "The name of the client's previous employer",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "The client's opinion of the hospital's food",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "content_hash": "17470999267ff0cd"
+  },
+  {
+   "source_id": "PN-A04-035",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 35,
+   "client_need": "Coordinated Care",
+   "topic": "Teamwork",
+   "item_type": "multiple_response",
+   "stem": "Which behaviors by the LPN/VN promote teamwork and help prevent conflict? Select all that apply.",
+   "rationale": "Direct, private communication, mutual support, respectful language, and early clarification prevent misunderstandings and build trust. Discussing coworkers with residents is unprofessional, and ignoring repeated disrespect allows it to continue and harms the team.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Addressing concerns directly and privately",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Offering help to coworkers when one's own work is done",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Using respectful language with all team members",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Clarifying unclear assignments early in the shift",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Discussing coworkers' mistakes with residents",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Ignoring repeated disrespectful behavior",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "content_hash": "70b8938148412a24"
+  },
+  {
+   "source_id": "PN-A04-036",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 36,
+   "client_need": "Coordinated Care",
+   "topic": "Resident rights in long-term care",
+   "item_type": "matrix_grid",
+   "stem": "For each action in a long-term care facility, indicate whether it respects or violates resident rights.",
+   "rationale": "Residents keep their rights as citizens, including voting and managing their own finances, and have the right to voice complaints without retaliation. They must be given notice before a room change, their mail is private, and visits cannot be restricted as punishment.",
+   "columns": [
+    "Respects rights",
+    "Violates rights"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Helping a resident request an absentee ballot",
+     "correct_column": "Respects rights"
+    },
+    {
+     "id": "r2",
+     "text": "Moving a resident to a new room without notice",
+     "correct_column": "Violates rights"
+    },
+    {
+     "id": "r3",
+     "text": "Letting a resident manage their own spending money",
+     "correct_column": "Respects rights"
+    },
+    {
+     "id": "r4",
+     "text": "Opening a resident's mail to check for bills",
+     "correct_column": "Violates rights"
+    },
+    {
+     "id": "r5",
+     "text": "Taking a resident's complaint without any change in how the resident is treated",
+     "correct_column": "Respects rights"
+    },
+    {
+     "id": "r6",
+     "text": "Restricting a resident's visitors as punishment for refusing a bath",
+     "correct_column": "Violates rights"
+    }
+   ],
+   "answer_summary": "Helping a resident request an absentee ballot: Respects rights; Moving a resident to a new room without notice: Violates rights; Letting a resident manage their own spending money: Respects rights; Opening a resident's mail to check for bills: Violates rights; Taking a resident's complaint without any change in how the resident is treated: Respects rights; Restricting a resident's visitors as punishment for refusing a bath: Violates rights",
+   "scoring": "zero_one_per_row",
+   "content_hash": "05efc501f23cdfbc"
+  },
+  {
+   "source_id": "PN-A04-037",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 37,
+   "client_need": "Coordinated Care",
+   "topic": "Roles in informed consent",
+   "item_type": "matrix_grid",
+   "stem": "For each responsibility in the informed consent process, indicate who is responsible.",
+   "rationale": "The provider performing the procedure explains it, its risks, benefits, and alternatives, and answers questions about them. The client decides and signs. The nurse witnesses the signature, confirming identity and that it was voluntary, and notifies the provider if the client has questions or seems not to understand.",
+   "columns": [
+    "Provider",
+    "Nurse",
+    "Client"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Explains the procedure, its risks, and the alternatives",
+     "correct_column": "Provider"
+    },
+    {
+     "id": "r2",
+     "text": "Witnesses the client's signature",
+     "correct_column": "Nurse"
+    },
+    {
+     "id": "r3",
+     "text": "Decides whether to have the procedure",
+     "correct_column": "Client"
+    },
+    {
+     "id": "r4",
+     "text": "Answers the client's questions about the risks",
+     "correct_column": "Provider"
+    },
+    {
+     "id": "r5",
+     "text": "Tells the provider when the client has more questions",
+     "correct_column": "Nurse"
+    },
+    {
+     "id": "r6",
+     "text": "Signs the consent form",
+     "correct_column": "Client"
+    }
+   ],
+   "answer_summary": "Explains the procedure, its risks, and the alternatives: Provider; Witnesses the client's signature: Nurse; Decides whether to have the procedure: Client; Answers the client's questions about the risks: Provider; Tells the provider when the client has more questions: Nurse; Signs the consent form: Client",
+   "scoring": "zero_one_per_row",
+   "content_hash": "a922383dff5e7eb2"
+  },
+  {
+   "source_id": "PN-A04-038",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 38,
+   "client_need": "Coordinated Care",
+   "topic": "LPN/VN and RN responsibilities",
+   "item_type": "matrix_grid",
+   "stem": "For each task, indicate whether it is within the LPN/VN's scope or must be done by the RN.",
+   "rationale": "The LPN/VN collects data, reinforces teaching, gives medications to stable clients, and contributes to care planning. The RN completes the initial comprehensive assessment, develops teaching plans, and is responsible for revising the plan of care based on evaluation.",
+   "columns": [
+    "LPN/VN",
+    "RN"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Collecting data for a new admission",
+     "correct_column": "LPN/VN"
+    },
+    {
+     "id": "r2",
+     "text": "Completing the initial comprehensive assessment",
+     "correct_column": "RN"
+    },
+    {
+     "id": "r3",
+     "text": "Reinforcing teaching the RN has started",
+     "correct_column": "LPN/VN"
+    },
+    {
+     "id": "r4",
+     "text": "Developing the client's teaching plan",
+     "correct_column": "RN"
+    },
+    {
+     "id": "r5",
+     "text": "Giving scheduled oral medications to a stable client",
+     "correct_column": "LPN/VN"
+    },
+    {
+     "id": "r6",
+     "text": "Deciding how the care plan should be revised",
+     "correct_column": "RN"
+    }
+   ],
+   "answer_summary": "Collecting data for a new admission: LPN/VN; Completing the initial comprehensive assessment: RN; Reinforcing teaching the RN has started: LPN/VN; Developing the client's teaching plan: RN; Giving scheduled oral medications to a stable client: LPN/VN; Deciding how the care plan should be revised: RN",
+   "scoring": "zero_one_per_row",
+   "content_hash": "d9712c137554804d"
+  },
+  {
+   "source_id": "PN-A04-039",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 39,
+   "client_need": "Coordinated Care",
+   "topic": "Community resources",
+   "item_type": "matrix_grid",
+   "stem": "For each need, indicate the community resource that best meets it.",
+   "rationale": "Home-delivered meal programs provide nutrition for clients who cannot shop or cook. Adult day programs provide daytime supervision and activities. Respite care gives caregivers short-term relief. Home health nursing provides skilled care, such as wound care, at home.",
+   "columns": [
+    "Home-delivered meals",
+    "Adult day program",
+    "Respite care",
+    "Home health nursing"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "A homebound client can no longer prepare hot meals",
+     "correct_column": "Home-delivered meals"
+    },
+    {
+     "id": "r2",
+     "text": "A caregiver needs a weekend away to rest",
+     "correct_column": "Respite care"
+    },
+    {
+     "id": "r3",
+     "text": "A client with dementia needs supervision while the daughter works",
+     "correct_column": "Adult day program"
+    },
+    {
+     "id": "r4",
+     "text": "A client needs wound care at home three times a week",
+     "correct_column": "Home health nursing"
+    },
+    {
+     "id": "r5",
+     "text": "An exhausted spouse caregiver needs a few days of relief",
+     "correct_column": "Respite care"
+    }
+   ],
+   "answer_summary": "A homebound client can no longer prepare hot meals: Home-delivered meals; A caregiver needs a weekend away to rest: Respite care; A client with dementia needs supervision while the daughter works: Adult day program; A client needs wound care at home three times a week: Home health nursing; An exhausted spouse caregiver needs a few days of relief: Respite care",
+   "scoring": "zero_one_per_row",
+   "content_hash": "23d91fc08c65c2ec"
+  },
+  {
+   "source_id": "PN-A04-040",
+   "track": "pn",
+   "set_number": 41,
+   "set_title": "Supplemental: Coordinated Care",
+   "source_item_number": 40,
+   "client_need": "Coordinated Care",
+   "topic": "Family conflict with a DNR order",
+   "item_type": "bow_tie",
+   "stem": "An 88-year-old client with advanced heart failure is receiving comfort care. The client signed a do-not-resuscitate (DNR) order 6 months ago while competent, and is now unresponsive with irregular breathing. The client's son arrives and demands that staff \"do everything\" if the client's heart stops. Complete the diagram by choosing the condition the situation most likely represents, 2 actions the LPN/VN should take, and 2 parameters the LPN/VN should monitor.",
+   "rationale": "The client made a valid DNR decision while competent, and the son's demand is a family conflict with that decision, not a revocation by the client. The LPN/VN follows the order, notifies the RN and provider so they can meet with the son, and offers emotional and spiritual support. Starting CPR against the order, hiding the form, or refusing to talk with the son is inappropriate. Comfort care focuses on relieving pain, distress, and breathlessness, so these are the parameters to monitor.",
+   "bowtie_groups": [
+    {
+     "label": "Condition (choose 1)",
+     "pick": 1,
+     "options": [
+      "Family conflict with the client's valid DNR order",
+      "Client request to revoke the DNR order",
+      "An invalid DNR order",
+      "Need for immediate CPR"
+     ]
+    },
+    {
+     "label": "Actions to take (choose 2)",
+     "pick": 2,
+     "options": [
+      "Follow the DNR order and notify the RN and provider of the son's request",
+      "Listen to the son and offer support, such as a chaplain or social worker",
+      "Plan to start CPR if the heart stops to avoid conflict with the son",
+      "Remove the DNR form from the record until the family agrees",
+      "Tell the son that the decision cannot be discussed"
+     ]
+    },
+    {
+     "label": "Parameters to monitor (choose 2)",
+     "pick": 2,
+     "options": [
+      "Signs of pain or distress",
+      "Breathing pattern and comfort",
+      "Daily weight",
+      "Blood glucose",
+      "Bowel sounds"
+     ]
+    }
+   ],
+   "answer_summary": "Condition: Family conflict with the client's valid DNR order. Actions: Follow the DNR order and notify the RN and provider of the son's request; Listen to the son and offer support, such as a chaplain or social worker. Monitor: Signs of pain or distress; Breathing pattern and comfort.",
+   "scoring": "zero_one_per_selection",
+   "content_hash": "e90bef84096a734f"
+  }
+ ]
+}
