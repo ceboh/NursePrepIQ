@@ -1,0 +1,1535 @@
+{
+ "_comment": "PN NGN unfolding case studies, batch 08 (PN-C36 to PN-C40). Six items per case, one per clinical judgment step. Pilot status.",
+ "track": "pn",
+ "questions": [
+  {
+   "source_id": "PN-C36-01",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 1,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Recognize cues",
+   "item_type": "highlight",
+   "stem": "Highlight the findings that require follow-up.",
+   "rationale": "A systolic drop of 36 mm Hg with a rising heart rate and dizziness on standing is orthostatic hypotension, which caused a near fall. Low fluid intake and a newly started alpha-blocker are likely causes. The lack of injury and normal orientation are reassuring.",
+   "passage_segments": [
+    {
+     "id": "s1",
+     "text": "Dizzy and nearly fell when getting out of bed"
+    },
+    {
+     "id": "s2",
+     "text": "Lightheaded when standing"
+    },
+    {
+     "id": "s3",
+     "text": "BP 138/80 lying and 102/62 standing"
+    },
+    {
+     "id": "s4",
+     "text": "HR 72/min lying and 96/min standing"
+    },
+    {
+     "id": "s5",
+     "text": "Drank about 800 mL of fluid yesterday"
+    },
+    {
+     "id": "s6",
+     "text": "Doxazosin started 3 days ago"
+    },
+    {
+     "id": "s7",
+     "text": "No injury"
+    },
+    {
+     "id": "s8",
+     "text": "Alert and oriented"
+    }
+   ],
+   "correct_text": "Dizzy and nearly fell when getting out of bed; Lightheaded when standing; BP 138/80 lying and 102/62 standing; HR 72/min lying and 96/min standing; Drank about 800 mL of fluid yesterday; Doxazosin started 3 days ago",
+   "answer_summary": "Dizzy and nearly fell when getting out of bed; Lightheaded when standing; BP 138/80 lying and 102/62 standing; HR 72/min lying and 96/min standing; Drank about 800 mL of fluid yesterday; Doxazosin started 3 days ago",
+   "scoring": "plus_minus",
+   "case_id": "PN-C36",
+   "case_sequence": 1,
+   "clinical_judgment_step": "Recognize cues",
+   "content_hash": "b5acf8aaaa973580"
+  },
+  {
+   "source_id": "PN-C36-02",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 2,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Analyze cues",
+   "item_type": "matrix_grid",
+   "stem": "For each factor, indicate whether it contributes to the resident's orthostatic hypotension.",
+   "rationale": "Alpha-blockers such as doxazosin dilate blood vessels, especially after the first doses, and diuretics and ACE inhibitors lower blood pressure and volume. Low fluid intake and slower baroreceptor responses with aging add to the drop on standing. Nonskid socks help prevent falls.",
+   "columns": [
+    "Contributes",
+    "Does not contribute"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Doxazosin",
+     "correct_column": "Contributes"
+    },
+    {
+     "id": "r2",
+     "text": "Furosemide",
+     "correct_column": "Contributes"
+    },
+    {
+     "id": "r3",
+     "text": "Lisinopril",
+     "correct_column": "Contributes"
+    },
+    {
+     "id": "r4",
+     "text": "Low fluid intake",
+     "correct_column": "Contributes"
+    },
+    {
+     "id": "r5",
+     "text": "Age-related slowing of blood pressure reflexes",
+     "correct_column": "Contributes"
+    },
+    {
+     "id": "r6",
+     "text": "Wearing nonskid socks",
+     "correct_column": "Does not contribute"
+    }
+   ],
+   "answer_summary": "Doxazosin: Contributes; Furosemide: Contributes; Lisinopril: Contributes; Low fluid intake: Contributes; Age-related slowing of blood pressure reflexes: Contributes; Wearing nonskid socks: Does not contribute",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C36",
+   "case_sequence": 2,
+   "clinical_judgment_step": "Analyze cues",
+   "content_hash": "2088447e0c096ca7"
+  },
+  {
+   "source_id": "PN-C36-03",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 3,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Prioritize hypotheses",
+   "item_type": "drop_down_cloze",
+   "stem": "Complete the sentence by choosing from the lists of options.",
+   "rationale": "A significant drop in blood pressure on standing with dizziness is orthostatic hypotension. Alpha-blockers can cause a marked drop in the first days of therapy, which is worse with diuretics and dehydration. There are no focal neurologic signs of a TIA.",
+   "template": "The resident is most likely experiencing ___1___ related to ___2___.",
+   "blanks": [
+    {
+     "id": "1",
+     "options": [
+      "orthostatic hypotension",
+      "a transient ischemic attack",
+      "hypoglycemia"
+     ],
+     "correct": "orthostatic hypotension"
+    },
+    {
+     "id": "2",
+     "options": [
+      "the first-dose effect of doxazosin combined with diuretic use and low fluid intake",
+      "too little salt in the diet",
+      "an infection"
+     ],
+     "correct": "the first-dose effect of doxazosin combined with diuretic use and low fluid intake"
+    }
+   ],
+   "answer_summary": "1: orthostatic hypotension; 2: the first-dose effect of doxazosin combined with diuretic use and low fluid intake",
+   "scoring": "zero_one_per_blank",
+   "case_id": "PN-C36",
+   "case_sequence": 3,
+   "clinical_judgment_step": "Prioritize hypotheses",
+   "content_hash": "43b855f004c70ff3"
+  },
+  {
+   "source_id": "PN-C36-04",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 4,
+   "client_need": "Safety and Infection Control",
+   "topic": "Case study: Generate solutions",
+   "item_type": "multiple_response",
+   "stem": "Which fall prevention measures should the LPN/VN put in place? Select all that apply.",
+   "rationale": "Changing position slowly, a low bed with the call light in reach, adequate fluids, and assistance with walking reduce falls from orthostatic hypotension. Standing quickly worsens the drop, and restraints increase injury and are not a fall prevention measure.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Teach the resident to sit on the edge of the bed before standing",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Keep the bed low and the call light within reach",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Encourage fluids unless they are restricted",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Help the resident walk until the dizziness resolves",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Have the resident stand up quickly to get past the dizziness",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Apply a vest restraint at night",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "case_id": "PN-C36",
+   "case_sequence": 4,
+   "clinical_judgment_step": "Generate solutions",
+   "content_hash": "c79fbba36f4e4a5a"
+  },
+  {
+   "source_id": "PN-C36-05",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 5,
+   "client_need": "Coordinated Care",
+   "topic": "Case study: Take action",
+   "item_type": "single_best_answer",
+   "stem": "The resident's 0900 medications include lisinopril and furosemide. What should the LPN/VN do?",
+   "rationale": "With symptomatic orthostatic hypotension, the provider needs to decide whether to hold or adjust the blood pressure medicines, so the LPN/VN reports the readings before giving them. Giving them as scheduled risks a fall, holding everything without reporting skips the provider, and bed rest does not address the cause.",
+   "answer_summary": "B",
+   "options": [
+    {
+     "key": "A",
+     "text": "Give both medications as scheduled, since the lying blood pressure is within normal limits",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Report the orthostatic readings to the RN and provider before giving them",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Hold all of the resident's medications for the day without telling anyone about it",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Give the medications and have the resident stay in bed for the rest of the day",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "case_id": "PN-C36",
+   "case_sequence": 5,
+   "clinical_judgment_step": "Take action",
+   "content_hash": "f12db85fe86bacab"
+  },
+  {
+   "source_id": "PN-C36-06",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 6,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Evaluate outcomes",
+   "item_type": "matrix_grid",
+   "stem": "After the provider adjusts the medications, the LPN/VN collects data a week later. For each finding, indicate whether it shows improvement or needs follow-up.",
+   "rationale": "A stable standing blood pressure without dizziness, steady walking, better fluid intake, and no falls show improvement. Nighttime dizziness when getting up to urinate is still a fall risk and needs follow-up, such as a bedside commode and reviewing the timing of doses.",
+   "columns": [
+    "Improvement",
+    "Needs follow-up"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Standing BP 128/74 mm Hg with no dizziness",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r2",
+     "text": "Walks to the dining room steadily with a walker",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r3",
+     "text": "Drinks about 1,500 mL a day",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r4",
+     "text": "No falls in 1 week",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r5",
+     "text": "Dizzy when getting up at night to urinate",
+     "correct_column": "Needs follow-up"
+    }
+   ],
+   "answer_summary": "Standing BP 128/74 mm Hg with no dizziness: Improvement; Walks to the dining room steadily with a walker: Improvement; Drinks about 1,500 mL a day: Improvement; No falls in 1 week: Improvement; Dizzy when getting up at night to urinate: Needs follow-up",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C36",
+   "case_sequence": 6,
+   "clinical_judgment_step": "Evaluate outcomes",
+   "content_hash": "631d75edb983c764"
+  },
+  {
+   "source_id": "PN-C37-01",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 1,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Recognize cues",
+   "item_type": "highlight",
+   "stem": "Highlight the findings that require follow-up.",
+   "rationale": "Fatigue, cold intolerance, constipation, weight gain, a low temperature, bradycardia, and a high TSH show that hypothyroidism is not controlled. Missed doses and taking levothyroxine with food and calcium, which reduce absorption, explain why. The respiratory rate is normal.",
+   "passage_segments": [
+    {
+     "id": "s1",
+     "text": "Sleeps 12 hours a day"
+    },
+    {
+     "id": "s2",
+     "text": "Always cold"
+    },
+    {
+     "id": "s3",
+     "text": "Constipated, with a bowel movement every 4 days"
+    },
+    {
+     "id": "s4",
+     "text": "Weight up 8 lb in 2 months"
+    },
+    {
+     "id": "s5",
+     "text": "Takes levothyroxine when remembered, with breakfast and calcium"
+    },
+    {
+     "id": "s6",
+     "text": "T 96.8°F (36°C)"
+    },
+    {
+     "id": "s7",
+     "text": "HR 54/min"
+    },
+    {
+     "id": "s8",
+     "text": "TSH 18.2 mIU/L"
+    },
+    {
+     "id": "s9",
+     "text": "RR 14/min"
+    }
+   ],
+   "correct_text": "Sleeps 12 hours a day; Always cold; Constipated, with a bowel movement every 4 days; Weight up 8 lb in 2 months; Takes levothyroxine when remembered, with breakfast and calcium; T 96.8°F (36°C); HR 54/min; TSH 18.2 mIU/L",
+   "answer_summary": "Sleeps 12 hours a day; Always cold; Constipated, with a bowel movement every 4 days; Weight up 8 lb in 2 months; Takes levothyroxine when remembered, with breakfast and calcium; T 96.8°F (36°C); HR 54/min; TSH 18.2 mIU/L",
+   "scoring": "plus_minus",
+   "case_id": "PN-C37",
+   "case_sequence": 1,
+   "clinical_judgment_step": "Recognize cues",
+   "content_hash": "dc3dd03abcb1296a"
+  },
+  {
+   "source_id": "PN-C37-02",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 2,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Analyze cues",
+   "item_type": "matrix_grid",
+   "stem": "For each finding, indicate whether it suggests hypothyroidism or hyperthyroidism.",
+   "rationale": "Low thyroid hormone slows metabolism, causing cold intolerance, bradycardia, constipation, and weight gain. Excess thyroid hormone speeds metabolism, causing heat intolerance, weight loss despite eating more, tremor, and anxiety.",
+   "columns": [
+    "Hypothyroidism",
+    "Hyperthyroidism"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Cold intolerance",
+     "correct_column": "Hypothyroidism"
+    },
+    {
+     "id": "r2",
+     "text": "Heat intolerance",
+     "correct_column": "Hyperthyroidism"
+    },
+    {
+     "id": "r3",
+     "text": "Heart rate of 54/min",
+     "correct_column": "Hypothyroidism"
+    },
+    {
+     "id": "r4",
+     "text": "Weight loss with increased appetite",
+     "correct_column": "Hyperthyroidism"
+    },
+    {
+     "id": "r5",
+     "text": "Constipation",
+     "correct_column": "Hypothyroidism"
+    },
+    {
+     "id": "r6",
+     "text": "Tremor and anxiety",
+     "correct_column": "Hyperthyroidism"
+    }
+   ],
+   "answer_summary": "Cold intolerance: Hypothyroidism; Heat intolerance: Hyperthyroidism; Heart rate of 54/min: Hypothyroidism; Weight loss with increased appetite: Hyperthyroidism; Constipation: Hypothyroidism; Tremor and anxiety: Hyperthyroidism",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C37",
+   "case_sequence": 2,
+   "clinical_judgment_step": "Analyze cues",
+   "content_hash": "17ebc6acdfaa6a75"
+  },
+  {
+   "source_id": "PN-C37-03",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 3,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Prioritize hypotheses",
+   "item_type": "drop_down_cloze",
+   "stem": "Complete the sentence by choosing from the lists of options.",
+   "rationale": "A high TSH and low free T4 with classic symptoms indicate undertreated hypothyroidism. Levothyroxine absorption is reduced by food and by calcium and iron supplements, and missed doses add to the problem. Taking it on an empty stomach with water is correct.",
+   "template": "The client's symptoms are most likely due to ___1___, made worse by ___2___.",
+   "blanks": [
+    {
+     "id": "1",
+     "options": [
+      "hypothyroidism that is not adequately treated",
+      "normal aging",
+      "depression alone"
+     ],
+     "correct": "hypothyroidism that is not adequately treated"
+    },
+    {
+     "id": "2",
+     "options": [
+      "missed doses and taking levothyroxine with breakfast and calcium",
+      "taking levothyroxine on an empty stomach",
+      "drinking water with the dose"
+     ],
+     "correct": "missed doses and taking levothyroxine with breakfast and calcium"
+    }
+   ],
+   "answer_summary": "1: hypothyroidism that is not adequately treated; 2: missed doses and taking levothyroxine with breakfast and calcium",
+   "scoring": "zero_one_per_blank",
+   "case_id": "PN-C37",
+   "case_sequence": 3,
+   "clinical_judgment_step": "Prioritize hypotheses",
+   "content_hash": "cfddba1b2983f88d"
+  },
+  {
+   "source_id": "PN-C37-04",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 4,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Generate solutions",
+   "item_type": "multiple_response",
+   "stem": "Which instructions about levothyroxine should the LPN/VN reinforce? Select all that apply.",
+   "rationale": "Taking levothyroxine consistently on an empty stomach and separating it from calcium and iron improves absorption, and reminders support adherence. Chest pain or palpitations can signal too much thyroid hormone, especially in older adults. Levothyroxine is usually lifelong, and calcium taken at the same time blocks absorption.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Take it every morning on an empty stomach with water, 30 to 60 minutes before breakfast",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Take calcium and iron supplements at least 4 hours apart from it",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Use a pill organizer or a phone alarm as a reminder",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Report chest pain or a racing heartbeat",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Stop taking it once you feel better",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Take it with the calcium supplement to protect your bones",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "case_id": "PN-C37",
+   "case_sequence": 4,
+   "clinical_judgment_step": "Generate solutions",
+   "content_hash": "d91e048122b7409f"
+  },
+  {
+   "source_id": "PN-C37-05",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 5,
+   "client_need": "Coordinated Care",
+   "topic": "Case study: Take action",
+   "item_type": "single_best_answer",
+   "stem": "The LPN/VN is visiting for wound care. What should the LPN/VN do about these findings?",
+   "rationale": "New or worsening findings outside the reason for the visit still need to be reported so the team can coordinate care with the provider. The LPN/VN does not change medication doses, and attributing the symptoms to aging or ignoring them delays treatment.",
+   "answer_summary": "D",
+   "options": [
+    {
+     "key": "A",
+     "text": "Tell the client to double the levothyroxine dose for the next week to catch up on missed doses",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Tell the daughter that slowing down like this is a normal part of aging at the client's age",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Focus only on the wound care, since the thyroid is not part of today's visit",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Report them to the RN case manager so the provider can review the thyroid treatment",
+     "is_correct": true
+    }
+   ],
+   "scoring": "zero_one",
+   "case_id": "PN-C37",
+   "case_sequence": 5,
+   "clinical_judgment_step": "Take action",
+   "content_hash": "f5bf1fbb7ff64189"
+  },
+  {
+   "source_id": "PN-C37-06",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 6,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Evaluate outcomes",
+   "item_type": "matrix_grid",
+   "stem": "Six weeks later, the LPN/VN collects data. For each finding, indicate whether it shows improvement or needs follow-up.",
+   "rationale": "A normal TSH, a normal heart rate, more energy, and a system for remembering doses show improvement. Taking levothyroxine with coffee and calcium will reduce absorption again, so the timing needs more teaching.",
+   "columns": [
+    "Improvement",
+    "Needs follow-up"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "TSH 3.1 mIU/L",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r2",
+     "text": "HR 66/min",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r3",
+     "text": "Awake most of the day and walking outside",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r4",
+     "text": "The daughter set up a weekly pill organizer",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r5",
+     "text": "Says, \"I take my thyroid pill with my coffee and calcium so I don't forget.\"",
+     "correct_column": "Needs follow-up"
+    }
+   ],
+   "answer_summary": "TSH 3.1 mIU/L: Improvement; HR 66/min: Improvement; Awake most of the day and walking outside: Improvement; The daughter set up a weekly pill organizer: Improvement; Says, \"I take my thyroid pill with my coffee and calcium so I don't forget.\": Needs follow-up",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C37",
+   "case_sequence": 6,
+   "clinical_judgment_step": "Evaluate outcomes",
+   "content_hash": "ff9d608a81632e13"
+  },
+  {
+   "source_id": "PN-C38-01",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 1,
+   "client_need": "Reduction of Risk Potential",
+   "topic": "Case study: Recognize cues",
+   "item_type": "highlight",
+   "stem": "Highlight the findings that require immediate follow-up.",
+   "rationale": "Sudden, severe eye pain with nausea that does not respond to acetaminophen can signal increased intraocular pressure or another serious complication. Mild scratchiness, blurry vision on the day of surgery, and an eye shield in place are expected.",
+   "passage_segments": [
+    {
+     "id": "s1",
+     "text": "Mild scratchiness"
+    },
+    {
+     "id": "s2",
+     "text": "Vision blurry in the right eye"
+    },
+    {
+     "id": "s3",
+     "text": "Eye shield in place"
+    },
+    {
+     "id": "s4",
+     "text": "Sudden, severe pain in the right eye, 8/10"
+    },
+    {
+     "id": "s5",
+     "text": "Nausea"
+    },
+    {
+     "id": "s6",
+     "text": "Pain not improved 30 minutes after acetaminophen"
+    }
+   ],
+   "correct_text": "Sudden, severe pain in the right eye, 8/10; Nausea; Pain not improved 30 minutes after acetaminophen",
+   "answer_summary": "Sudden, severe pain in the right eye, 8/10; Nausea; Pain not improved 30 minutes after acetaminophen",
+   "scoring": "plus_minus",
+   "case_id": "PN-C38",
+   "case_sequence": 1,
+   "clinical_judgment_step": "Recognize cues",
+   "content_hash": "fd5d704399b051c8"
+  },
+  {
+   "source_id": "PN-C38-02",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 2,
+   "client_need": "Reduction of Risk Potential",
+   "topic": "Case study: Analyze cues",
+   "item_type": "matrix_grid",
+   "stem": "For each finding after cataract surgery, indicate whether it is expected or should be reported right away.",
+   "rationale": "Mild scratchiness, blurry vision at first, and mild redness are expected. Severe pain may mean increased intraocular pressure, flashes or a curtain may mean retinal detachment, and purulent discharge may mean infection; all need prompt evaluation.",
+   "columns": [
+    "Expected",
+    "Report right away"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Mild scratchiness",
+     "correct_column": "Expected"
+    },
+    {
+     "id": "r2",
+     "text": "Blurry vision on the day of surgery",
+     "correct_column": "Expected"
+    },
+    {
+     "id": "r3",
+     "text": "Sudden, severe eye pain",
+     "correct_column": "Report right away"
+    },
+    {
+     "id": "r4",
+     "text": "New flashes of light or a curtain over the vision",
+     "correct_column": "Report right away"
+    },
+    {
+     "id": "r5",
+     "text": "Mild redness of the eye",
+     "correct_column": "Expected"
+    },
+    {
+     "id": "r6",
+     "text": "Thick yellow-green discharge",
+     "correct_column": "Report right away"
+    }
+   ],
+   "answer_summary": "Mild scratchiness: Expected; Blurry vision on the day of surgery: Expected; Sudden, severe eye pain: Report right away; New flashes of light or a curtain over the vision: Report right away; Mild redness of the eye: Expected; Thick yellow-green discharge: Report right away",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C38",
+   "case_sequence": 2,
+   "clinical_judgment_step": "Analyze cues",
+   "content_hash": "8ca5e0374d036c80"
+  },
+  {
+   "source_id": "PN-C38-03",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 3,
+   "client_need": "Reduction of Risk Potential",
+   "topic": "Case study: Prioritize hypotheses",
+   "item_type": "drop_down_cloze",
+   "stem": "Complete the sentence by choosing from the lists of options.",
+   "rationale": "Severe eye pain with nausea after cataract surgery suggests a rise in intraocular pressure, which can damage the optic nerve and must be treated quickly. Waiting until tomorrow risks vision loss, and lying flat does not treat the problem.",
+   "template": "The client's sudden, severe eye pain with nausea most likely indicates ___1___, and the LPN/VN should ___2___.",
+   "blanks": [
+    {
+     "id": "1",
+     "options": [
+      "increased intraocular pressure",
+      "normal postoperative discomfort",
+      "dry eye"
+     ],
+     "correct": "increased intraocular pressure"
+    },
+    {
+     "id": "2",
+     "options": [
+      "report it to the RN and provider immediately",
+      "give another acetaminophen dose and recheck tomorrow",
+      "have the client lie flat and rest"
+     ],
+     "correct": "report it to the RN and provider immediately"
+    }
+   ],
+   "answer_summary": "1: increased intraocular pressure; 2: report it to the RN and provider immediately",
+   "scoring": "zero_one_per_blank",
+   "case_id": "PN-C38",
+   "case_sequence": 3,
+   "clinical_judgment_step": "Prioritize hypotheses",
+   "content_hash": "f3345cefadfd0c1b"
+  },
+  {
+   "source_id": "PN-C38-04",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 4,
+   "client_need": "Reduction of Risk Potential",
+   "topic": "Case study: Generate solutions",
+   "item_type": "multiple_response",
+   "stem": "Once the provider has evaluated the client and allows discharge, which activity instructions should the LPN/VN reinforce? Select all that apply.",
+   "rationale": "Avoiding bending at the waist, heavy lifting, and rubbing the eye prevents increases in intraocular pressure and injury, and the shield protects the eye during sleep. Swimming and eye makeup are avoided for several weeks because of infection risk.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Bend at the knees instead of the waist",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Avoid lifting more than 10 lb",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Wear the eye shield at night",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Avoid rubbing the eye",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Swim in a pool next week",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Wear eye makeup the next day",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "case_id": "PN-C38",
+   "case_sequence": 4,
+   "clinical_judgment_step": "Generate solutions",
+   "content_hash": "85e6eebd5b6a3999"
+  },
+  {
+   "source_id": "PN-C38-05",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 5,
+   "client_need": "Coordinated Care",
+   "topic": "Case study: Take action",
+   "item_type": "single_best_answer",
+   "stem": "While reinforcing discharge instructions, the LPN/VN learns that the client has no way to get to the follow-up appointment tomorrow morning. What should the LPN/VN do?",
+   "rationale": "The next-day visit checks eye pressure and healing and is important after cataract surgery. The LPN/VN reports the barrier so the team can arrange transportation, for example through social services. The visit is not optional, and the client should not drive.",
+   "answer_summary": "C",
+   "options": [
+    {
+     "key": "A",
+     "text": "Tell the client that the follow-up visit is optional if the eye feels fine in the morning",
+     "is_correct": false
+    },
+    {
+     "key": "B",
+     "text": "Suggest that the client drive the short distance using the left eye",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Tell the RN so the team can arrange transportation before the client leaves",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Cancel the appointment",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "case_id": "PN-C38",
+   "case_sequence": 5,
+   "clinical_judgment_step": "Take action",
+   "content_hash": "69b0e6a491549dde"
+  },
+  {
+   "source_id": "PN-C38-06",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 6,
+   "client_need": "Pharmacological Therapies",
+   "topic": "Case study: Evaluate outcomes",
+   "item_type": "matrix_grid",
+   "stem": "The spouse demonstrates giving the eye drops. For each action, indicate whether it is correct technique or needs correction.",
+   "rationale": "Hand hygiene, placing the drop in the lower conjunctival sac, and waiting about 5 minutes between different drops are correct. Touching the tip to the eye contaminates the bottle, and squeezing and rubbing the eye can push out the medicine and injure the eye after surgery.",
+   "columns": [
+    "Correct technique",
+    "Needs correction"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Washes hands before giving the drops",
+     "correct_column": "Correct technique"
+    },
+    {
+     "id": "r2",
+     "text": "Pulls the lower lid down and places the drop in the pocket",
+     "correct_column": "Correct technique"
+    },
+    {
+     "id": "r3",
+     "text": "Waits 5 minutes between the two different drops",
+     "correct_column": "Correct technique"
+    },
+    {
+     "id": "r4",
+     "text": "Touches the dropper tip to the eyelashes",
+     "correct_column": "Needs correction"
+    },
+    {
+     "id": "r5",
+     "text": "Squeezes the eyelid tightly shut and rubs the eye after the drop",
+     "correct_column": "Needs correction"
+    }
+   ],
+   "answer_summary": "Washes hands before giving the drops: Correct technique; Pulls the lower lid down and places the drop in the pocket: Correct technique; Waits 5 minutes between the two different drops: Correct technique; Touches the dropper tip to the eyelashes: Needs correction; Squeezes the eyelid tightly shut and rubs the eye after the drop: Needs correction",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C38",
+   "case_sequence": 6,
+   "clinical_judgment_step": "Evaluate outcomes",
+   "content_hash": "d0c73fc56575afcc"
+  },
+  {
+   "source_id": "PN-C39-01",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 1,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Recognize cues",
+   "item_type": "highlight",
+   "stem": "Highlight the findings that indicate the resident is likely in the last hours of life.",
+   "rationale": "Unresponsiveness, irregular breathing with apnea, noisy secretions, cool mottled extremities, and no urine output are signs that death is near. Grimacing with turning and a dry mouth are comfort needs that require care but are not, by themselves, signs that death is imminent.",
+   "passage_segments": [
+    {
+     "id": "s1",
+     "text": "Unresponsive to voice"
+    },
+    {
+     "id": "s2",
+     "text": "Breathing irregular, with 20-second pauses"
+    },
+    {
+     "id": "s3",
+     "text": "Gurgling sound with breathing"
+    },
+    {
+     "id": "s4",
+     "text": "Hands and feet cool and mottled"
+    },
+    {
+     "id": "s5",
+     "text": "No urine output for 10 hours"
+    },
+    {
+     "id": "s6",
+     "text": "Grimaces and moans when turned"
+    },
+    {
+     "id": "s7",
+     "text": "Mouth dry, with crusted lips"
+    }
+   ],
+   "correct_text": "Unresponsive to voice; Breathing irregular, with 20-second pauses; Gurgling sound with breathing; Hands and feet cool and mottled; No urine output for 10 hours",
+   "answer_summary": "Unresponsive to voice; Breathing irregular, with 20-second pauses; Gurgling sound with breathing; Hands and feet cool and mottled; No urine output for 10 hours",
+   "scoring": "plus_minus",
+   "case_id": "PN-C39",
+   "case_sequence": 1,
+   "clinical_judgment_step": "Recognize cues",
+   "content_hash": "2e9e3075290b3efb"
+  },
+  {
+   "source_id": "PN-C39-02",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 2,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Case study: Analyze cues",
+   "item_type": "matrix_grid",
+   "stem": "For each finding, indicate the comfort measure that best addresses it.",
+   "rationale": "Morphine relieves pain and the sensation of breathlessness. Side-lying positioning and an anticholinergic such as glycopyrrolate reduce noisy respiratory secretions. Frequent mouth care with moist swabs and lip balm relieves dryness.",
+   "columns": [
+    "Give the prescribed morphine",
+    "Reposition and give the prescribed glycopyrrolate",
+    "Provide mouth care"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Grimacing and moaning when turned",
+     "correct_column": "Give the prescribed morphine"
+    },
+    {
+     "id": "r2",
+     "text": "Gurgling with breathing",
+     "correct_column": "Reposition and give the prescribed glycopyrrolate"
+    },
+    {
+     "id": "r3",
+     "text": "Dry mouth and crusted lips",
+     "correct_column": "Provide mouth care"
+    },
+    {
+     "id": "r4",
+     "text": "Breathing that appears labored and distressed",
+     "correct_column": "Give the prescribed morphine"
+    },
+    {
+     "id": "r5",
+     "text": "Secretions pooling in the back of the throat",
+     "correct_column": "Reposition and give the prescribed glycopyrrolate"
+    }
+   ],
+   "answer_summary": "Grimacing and moaning when turned: Give the prescribed morphine; Gurgling with breathing: Reposition and give the prescribed glycopyrrolate; Dry mouth and crusted lips: Provide mouth care; Breathing that appears labored and distressed: Give the prescribed morphine; Secretions pooling in the back of the throat: Reposition and give the prescribed glycopyrrolate",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C39",
+   "case_sequence": 2,
+   "clinical_judgment_step": "Analyze cues",
+   "content_hash": "c5d5d4e93dec59fa"
+  },
+  {
+   "source_id": "PN-C39-03",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 3,
+   "client_need": "Basic Care and Comfort",
+   "topic": "Case study: Prioritize hypotheses",
+   "item_type": "drop_down_cloze",
+   "stem": "Complete the sentence by choosing from the lists of options.",
+   "rationale": "With a POLST for comfort-focused treatment, care centers on relieving symptoms. Positioning and an anticholinergic reduce secretions with less distress than deep suctioning, and fluids by mouth risk aspiration in an unresponsive resident.",
+   "template": "The resident's care should focus on ___1___, and the gurgling breathing is best managed by ___2___.",
+   "blanks": [
+    {
+     "id": "1",
+     "options": [
+      "comfort and symptom relief",
+      "restoring normal vital signs",
+      "starting IV fluids"
+     ],
+     "correct": "comfort and symptom relief"
+    },
+    {
+     "id": "2",
+     "options": [
+      "turning the resident to the side and giving the prescribed glycopyrrolate",
+      "deep suctioning every hour",
+      "giving sips of water"
+     ],
+     "correct": "turning the resident to the side and giving the prescribed glycopyrrolate"
+    }
+   ],
+   "answer_summary": "1: comfort and symptom relief; 2: turning the resident to the side and giving the prescribed glycopyrrolate",
+   "scoring": "zero_one_per_blank",
+   "case_id": "PN-C39",
+   "case_sequence": 3,
+   "clinical_judgment_step": "Prioritize hypotheses",
+   "content_hash": "8cc907ac0182de25"
+  },
+  {
+   "source_id": "PN-C39-04",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 4,
+   "client_need": "Coordinated Care",
+   "topic": "Case study: Generate solutions",
+   "item_type": "multiple_response",
+   "stem": "Which actions should the LPN/VN take? Select all that apply.",
+   "rationale": "The family and hospice team are notified of the change, and comfort care continues, including premedication before repositioning. Emergency transport and CPR are inconsistent with the resident's DNR order and POLST.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Call the son about the change, as he requested",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Notify the hospice nurse",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Give the prescribed morphine before turning the resident",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Continue mouth care every 2 hours",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Call 911 because the blood pressure is low",
+     "is_correct": false
+    },
+    {
+     "key": "F",
+     "text": "Start CPR if breathing stops",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D",
+   "scoring": "plus_minus",
+   "case_id": "PN-C39",
+   "case_sequence": 4,
+   "clinical_judgment_step": "Generate solutions",
+   "content_hash": "6304b3167a76a7ef"
+  },
+  {
+   "source_id": "PN-C39-05",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 5,
+   "client_need": "Psychosocial Integrity",
+   "topic": "Case study: Take action",
+   "item_type": "single_best_answer",
+   "stem": "The son arrives and asks, \"Can my parent hear me?\" What is the LPN/VN's best response?",
+   "rationale": "Hearing is thought to be one of the last senses to fade, so families are encouraged to talk to and touch their loved one, which can comfort both the resident and the family. Telling the son it makes no difference takes away a meaningful chance to say goodbye.",
+   "answer_summary": "A",
+   "options": [
+    {
+     "key": "A",
+     "text": "\"Hearing may continue even when a person can't respond, so please talk to your parent.\"",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "\"Your parent is unresponsive now, so talking won't make any difference at this point.\"",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "\"Only if you speak very loudly.\"",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "\"Let's not talk about that.\"",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "case_id": "PN-C39",
+   "case_sequence": 5,
+   "clinical_judgment_step": "Take action",
+   "content_hash": "3ad55caafad102bb"
+  },
+  {
+   "source_id": "PN-C39-06",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 6,
+   "client_need": "Coordinated Care",
+   "topic": "Case study: Evaluate outcomes",
+   "item_type": "matrix_grid",
+   "stem": "The resident dies at 0940 with the son present. Later, the charge nurse reviews the care. For each finding, indicate whether the resident's and family's needs were met or need follow-up.",
+   "rationale": "The family's presence, a comfortable death, timely hospice involvement, and clear explanations show that needs were met. Not calling the son earlier, despite his request, was a communication gap that needs follow-up so families are notified promptly in the future.",
+   "columns": [
+    "Needs were met",
+    "Needs follow-up"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "The son arrived and was with the resident at the time of death",
+     "correct_column": "Needs were met"
+    },
+    {
+     "id": "r2",
+     "text": "The resident appeared comfortable, without grimacing, for the last 2 hours",
+     "correct_column": "Needs were met"
+    },
+    {
+     "id": "r3",
+     "text": "The hospice nurse was notified and arrived within an hour",
+     "correct_column": "Needs were met"
+    },
+    {
+     "id": "r4",
+     "text": "The son says the staff explained what was happening",
+     "correct_column": "Needs were met"
+    },
+    {
+     "id": "r5",
+     "text": "The night shift did not call the son when the breathing changed at 0200",
+     "correct_column": "Needs follow-up"
+    }
+   ],
+   "answer_summary": "The son arrived and was with the resident at the time of death: Needs were met; The resident appeared comfortable, without grimacing, for the last 2 hours: Needs were met; The hospice nurse was notified and arrived within an hour: Needs were met; The son says the staff explained what was happening: Needs were met; The night shift did not call the son when the breathing changed at 0200: Needs follow-up",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C39",
+   "case_sequence": 6,
+   "clinical_judgment_step": "Evaluate outcomes",
+   "content_hash": "c432177d192579f5"
+  },
+  {
+   "source_id": "PN-C40-01",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 1,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Recognize cues",
+   "item_type": "highlight",
+   "stem": "Highlight the findings that require immediate follow-up.",
+   "rationale": "Chest pressure spreading to the jaw with sweating, nausea, shortness of breath, and an irregular, rapid pulse suggest an acute coronary syndrome, and the time of onset guides treatment. A glucose of 186 mg/dL and an SpO2 of 92% do not need immediate action under the protocol.",
+   "passage_segments": [
+    {
+     "id": "s1",
+     "text": "Chest pressure 7/10, spreading to the left jaw"
+    },
+    {
+     "id": "s2",
+     "text": "Pale and sweaty"
+    },
+    {
+     "id": "s3",
+     "text": "Nauseated"
+    },
+    {
+     "id": "s4",
+     "text": "Short of breath when talking"
+    },
+    {
+     "id": "s5",
+     "text": "HR 104/min and irregular"
+    },
+    {
+     "id": "s6",
+     "text": "Began 20 minutes ago"
+    },
+    {
+     "id": "s7",
+     "text": "Glucose 186 mg/dL"
+    },
+    {
+     "id": "s8",
+     "text": "SpO2 92% on room air"
+    }
+   ],
+   "correct_text": "Chest pressure 7/10, spreading to the left jaw; Pale and sweaty; Nauseated; Short of breath when talking; HR 104/min and irregular; Began 20 minutes ago",
+   "answer_summary": "Chest pressure 7/10, spreading to the left jaw; Pale and sweaty; Nauseated; Short of breath when talking; HR 104/min and irregular; Began 20 minutes ago",
+   "scoring": "plus_minus",
+   "case_id": "PN-C40",
+   "case_sequence": 1,
+   "clinical_judgment_step": "Recognize cues",
+   "content_hash": "8be107888ad7c6ad"
+  },
+  {
+   "source_id": "PN-C40-02",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 2,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Analyze cues",
+   "item_type": "matrix_grid",
+   "stem": "For each finding, indicate whether it can be a sign of acute coronary syndrome or is less likely to be related.",
+   "rationale": "Pressure spreading to the jaw, nausea, sweating, and dyspnea are common signs of acute coronary syndrome, and older adults and people with diabetes may have atypical symptoms. Pain reproduced by pressing on the chest wall suggests a musculoskeletal cause, and pain relieved by leaning forward suggests pericarditis.",
+   "columns": [
+    "Can be a sign of acute coronary syndrome",
+    "Less likely related"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "Pain spreading to the jaw",
+     "correct_column": "Can be a sign of acute coronary syndrome"
+    },
+    {
+     "id": "r2",
+     "text": "Nausea",
+     "correct_column": "Can be a sign of acute coronary syndrome"
+    },
+    {
+     "id": "r3",
+     "text": "Sweating",
+     "correct_column": "Can be a sign of acute coronary syndrome"
+    },
+    {
+     "id": "r4",
+     "text": "Shortness of breath",
+     "correct_column": "Can be a sign of acute coronary syndrome"
+    },
+    {
+     "id": "r5",
+     "text": "Chest pain reproduced by pressing on the chest wall",
+     "correct_column": "Less likely related"
+    },
+    {
+     "id": "r6",
+     "text": "Sharp chest pain relieved by leaning forward",
+     "correct_column": "Less likely related"
+    }
+   ],
+   "answer_summary": "Pain spreading to the jaw: Can be a sign of acute coronary syndrome; Nausea: Can be a sign of acute coronary syndrome; Sweating: Can be a sign of acute coronary syndrome; Shortness of breath: Can be a sign of acute coronary syndrome; Chest pain reproduced by pressing on the chest wall: Less likely related; Sharp chest pain relieved by leaning forward: Less likely related",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C40",
+   "case_sequence": 2,
+   "clinical_judgment_step": "Analyze cues",
+   "content_hash": "8e35c534500e1c6a"
+  },
+  {
+   "source_id": "PN-C40-03",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 3,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Prioritize hypotheses",
+   "item_type": "drop_down_cloze",
+   "stem": "Complete the sentence by choosing from the lists of options.",
+   "rationale": "The findings point to acute coronary syndrome, a time-sensitive emergency, so emergency services are called and the protocol is started right away. Treating it as reflux or anxiety delays care.",
+   "template": "The resident is most likely experiencing ___1___, and the priority is to ___2___.",
+   "blanks": [
+    {
+     "id": "1",
+     "options": [
+      "acute coronary syndrome",
+      "gastroesophageal reflux",
+      "an anxiety attack"
+     ],
+     "correct": "acute coronary syndrome"
+    },
+    {
+     "id": "2",
+     "options": [
+      "activate emergency services and start the chest pain protocol",
+      "give an antacid and recheck in an hour",
+      "have the resident lie flat and rest"
+     ],
+     "correct": "activate emergency services and start the chest pain protocol"
+    }
+   ],
+   "answer_summary": "1: acute coronary syndrome; 2: activate emergency services and start the chest pain protocol",
+   "scoring": "zero_one_per_blank",
+   "case_id": "PN-C40",
+   "case_sequence": 3,
+   "clinical_judgment_step": "Prioritize hypotheses",
+   "content_hash": "9cdc2a44ea8a6129"
+  },
+  {
+   "source_id": "PN-C40-04",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 4,
+   "client_need": "Coordinated Care",
+   "topic": "Case study: Generate solutions",
+   "item_type": "multiple_response",
+   "stem": "Following the facility protocol, which actions should the LPN/VN take? Select all that apply.",
+   "rationale": "The protocol calls for emergency transport, notification, nitroglycerin when the systolic BP is above 90 mm Hg, chewed aspirin when there is no allergy, and staying with the resident. Oxygen is applied only if the SpO2 falls below 90%, and walking increases the heart's oxygen demand.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Call 911",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Notify the RN supervisor and the provider",
+     "is_correct": true
+    },
+    {
+     "key": "C",
+     "text": "Give nitroglycerin 0.4 mg sublingually, since the systolic BP is above 90 mm Hg",
+     "is_correct": true
+    },
+    {
+     "key": "D",
+     "text": "Give aspirin 324 mg to chew, as the protocol directs",
+     "is_correct": true
+    },
+    {
+     "key": "E",
+     "text": "Stay with the resident",
+     "is_correct": true
+    },
+    {
+     "key": "F",
+     "text": "Apply oxygen at 4 L/min, since the SpO2 is 92%",
+     "is_correct": false
+    },
+    {
+     "key": "G",
+     "text": "Walk the resident back to bed",
+     "is_correct": false
+    }
+   ],
+   "answer_summary": "A, B, C, D, E",
+   "scoring": "plus_minus",
+   "case_id": "PN-C40",
+   "case_sequence": 4,
+   "clinical_judgment_step": "Generate solutions",
+   "content_hash": "60e40850bf1017f6"
+  },
+  {
+   "source_id": "PN-C40-05",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 5,
+   "client_need": "Coordinated Care",
+   "topic": "Case study: Take action",
+   "item_type": "single_best_answer",
+   "stem": "While waiting for the paramedics, which task should the LPN/VN delegate to the assistive personnel?",
+   "rationale": "Guiding the paramedics to the room is a nonclinical task that saves time. Giving medications, deciding whether a dose is safe, and collecting a symptom history require a licensed nurse.",
+   "answer_summary": "A",
+   "options": [
+    {
+     "key": "A",
+     "text": "Meet the paramedics at the entrance and bring them to the room",
+     "is_correct": true
+    },
+    {
+     "key": "B",
+     "text": "Give the resident a second nitroglycerin tablet in 5 minutes if the pain continues",
+     "is_correct": false
+    },
+    {
+     "key": "C",
+     "text": "Recheck the blood pressure and decide whether the next nitroglycerin dose is safe",
+     "is_correct": false
+    },
+    {
+     "key": "D",
+     "text": "Ask the resident detailed questions about the chest pain and record the answers",
+     "is_correct": false
+    }
+   ],
+   "scoring": "zero_one",
+   "case_id": "PN-C40",
+   "case_sequence": 5,
+   "clinical_judgment_step": "Take action",
+   "content_hash": "8a80df941abf3032"
+  },
+  {
+   "source_id": "PN-C40-06",
+   "track": "pn",
+   "set_number": 49,
+   "set_title": "Supplemental: PN NGN Case Studies",
+   "source_item_number": 6,
+   "client_need": "Physiological Adaptation",
+   "topic": "Case study: Evaluate outcomes",
+   "item_type": "matrix_grid",
+   "stem": "Before the paramedics arrive, the LPN/VN reassesses the resident. For each finding, indicate whether it shows improvement or needs follow-up.",
+   "rationale": "Less pain, a stable blood pressure, improved skin and breathing show a response to treatment. Hypotension with dizziness after nitroglycerin needs immediate action: no further nitroglycerin, positioning flat if tolerated, and reporting to the RN and paramedics.",
+   "columns": [
+    "Improvement",
+    "Needs follow-up"
+   ],
+   "rows": [
+    {
+     "id": "r1",
+     "text": "After the second nitroglycerin, chest pressure 3/10",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r2",
+     "text": "After the second nitroglycerin, BP 132/84 mm Hg",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r3",
+     "text": "Skin is now warm and dry",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r4",
+     "text": "Breathing easier and speaking in full sentences",
+     "correct_column": "Improvement"
+    },
+    {
+     "id": "r5",
+     "text": "Five minutes after the third nitroglycerin, BP 84/50 mm Hg and dizzy",
+     "correct_column": "Needs follow-up"
+    }
+   ],
+   "answer_summary": "After the second nitroglycerin, chest pressure 3/10: Improvement; After the second nitroglycerin, BP 132/84 mm Hg: Improvement; Skin is now warm and dry: Improvement; Breathing easier and speaking in full sentences: Improvement; Five minutes after the third nitroglycerin, BP 84/50 mm Hg and dizzy: Needs follow-up",
+   "scoring": "zero_one_per_row",
+   "case_id": "PN-C40",
+   "case_sequence": 6,
+   "clinical_judgment_step": "Evaluate outcomes",
+   "content_hash": "e712e433e20edf03"
+  }
+ ],
+ "case_studies": [
+  {
+   "scenario": "An 80-year-old resident of a long-term care facility started doxazosin 3 days ago for high blood pressure and urinary symptoms. This morning, the resident became dizzy and nearly fell when getting out of bed.",
+   "exhibits": [
+    {
+     "label": "Nurses' notes, 0700",
+     "content": "Lightheaded when standing and sat back down on the bed. No injury. Alert and oriented. Drank about 800 mL of fluid yesterday."
+    },
+    {
+     "label": "Orthostatic vital signs, 0710",
+     "content": "Lying: BP 138/80 mm Hg, HR 72/min. Sitting: BP 118/70 mm Hg, HR 84/min. Standing for 1 minute: BP 102/62 mm Hg, HR 96/min, dizzy."
+    },
+    {
+     "label": "Medications",
+     "content": "Doxazosin 2 mg by mouth at bedtime, started 3 days ago. Lisinopril 20 mg by mouth daily at 0900. Furosemide 20 mg by mouth daily at 0900."
+    }
+   ],
+   "case_id": "PN-C36",
+   "track": "pn",
+   "set_number": 49,
+   "title": "Orthostatic hypotension after starting doxazosin"
+  },
+  {
+   "scenario": "The home health LPN/VN visits a 77-year-old client for wound care. The client's daughter says the client has seemed \"slowed down\" for the past 2 months.",
+   "exhibits": [
+    {
+     "label": "Nurses' notes",
+     "content": "Speaks slowly and sleeps 12 hours a day. Always cold and wears a sweater in a warm room. Skin dry and rough, and hair thinning. Constipated, with a bowel movement every 4 days. Weight up 8 lb (3.6 kg) in 2 months without eating more. Puffy face and eyelids. Takes levothyroxine \"when I remember,\" with breakfast and a calcium supplement."
+    },
+    {
+     "label": "Vital signs",
+     "content": "T 96.8°F (36°C), HR 54/min, RR 14/min, BP 132/88 mm Hg."
+    },
+    {
+     "label": "Laboratory results from last month",
+     "content": "TSH 18.2 mIU/L (0.4–4.0). Free T4 0.5 ng/dL (0.8–1.8)."
+    }
+   ],
+   "case_id": "PN-C37",
+   "track": "pn",
+   "set_number": 49,
+   "title": "Undertreated hypothyroidism in an older adult"
+  },
+  {
+   "scenario": "A 70-year-old client had cataract surgery with a lens implant in the right eye this morning at an outpatient surgery center and is preparing to go home with a spouse.",
+   "exhibits": [
+    {
+     "label": "Nurses' notes, 1100",
+     "content": "Eye shield in place over the right eye. Mild scratchiness, with pain 2/10. Vision blurry in the right eye."
+    },
+    {
+     "label": "Nurses' notes, 1300",
+     "content": "Reports sudden, severe pain in the right eye, 8/10, and nausea. The pain did not improve 30 minutes after acetaminophen."
+    },
+    {
+     "label": "Discharge instructions",
+     "content": "Prednisolone acetate and moxifloxacin eye drops, 1 drop each, four times a day. Wear the eye shield at night for 1 week. Avoid bending at the waist, lifting more than 10 lb, and rubbing the eye. Call for pain not relieved by acetaminophen, vision loss, flashes of light, or nausea. Follow-up visit tomorrow morning."
+    }
+   ],
+   "case_id": "PN-C38",
+   "track": "pn",
+   "set_number": 49,
+   "title": "Complications after cataract surgery"
+  },
+  {
+   "scenario": "A 93-year-old resident of a long-term care facility with advanced dementia has received hospice care for 3 weeks. The resident has a do-not-resuscitate order and a POLST indicating comfort-focused treatment.",
+   "exhibits": [
+    {
+     "label": "Nurses' notes, 0600",
+     "content": "Unresponsive to voice. Breathing irregular, with 20-second pauses and a gurgling sound. Hands and feet cool and mottled. No urine output for 10 hours. Grimaces and moans when turned. Mouth dry, with crusted lips."
+    },
+    {
+     "label": "Vital signs, 0600",
+     "content": "HR 118/min and weak, RR 8 to 24/min and irregular, BP 82/46 mm Hg, SpO2 unable to obtain."
+    },
+    {
+     "label": "Prescriptions",
+     "content": "Morphine oral solution 5 mg sublingually every 2 hours as needed for pain or labored breathing. Glycopyrrolate 0.2 mg subcutaneously every 4 hours as needed for secretions. Mouth care every 2 hours. Hospice nurse on call 24 hours a day."
+    },
+    {
+     "label": "Family",
+     "content": "The resident's son lives 2 hours away and asked to be called if there is any change."
+    }
+   ],
+   "case_id": "PN-C39",
+   "track": "pn",
+   "set_number": 49,
+   "title": "Comfort care at the end of life in long-term care"
+  },
+  {
+   "scenario": "At 1930, a 79-year-old resident of a long-term care facility with diabetes and hypertension tells the LPN/VN charge nurse about \"pressure\" in the chest and nausea that began 20 minutes ago while watching television.",
+   "exhibits": [
+    {
+     "label": "Nurses' notes, 1930",
+     "content": "Pale and sweaty. Rates the chest pressure 7/10, spreading to the left jaw. Nauseated. Short of breath when talking. Full code."
+    },
+    {
+     "label": "Vital signs, 1930",
+     "content": "HR 104/min and irregular, RR 24/min, BP 150/92 mm Hg, SpO2 92% on room air. Fingerstick glucose 186 mg/dL."
+    },
+    {
+     "label": "Facility chest pain protocol",
+     "content": "Call 911. Notify the RN supervisor and the provider. Give nitroglycerin 0.4 mg sublingually every 5 minutes, up to 3 doses, if the systolic BP is above 90 mm Hg. Give aspirin 324 mg to chew if there is no allergy. Apply oxygen if the SpO2 is below 90%. Stay with the resident."
+    }
+   ],
+   "case_id": "PN-C40",
+   "track": "pn",
+   "set_number": 49,
+   "title": "Chest pain in a long-term care resident"
+  }
+ ]
+}

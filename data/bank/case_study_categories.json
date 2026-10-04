@@ -1127,6 +1127,81 @@
     "PN-C35-06"
    ],
    "needs_review": false
+  },
+  {
+   "case_id": "PN-C36",
+   "title": "Orthostatic hypotension after starting doxazosin",
+   "system": "Cardiovascular",
+   "discipline": "Pharmacology",
+   "items": [
+    "PN-C36-01",
+    "PN-C36-02",
+    "PN-C36-03",
+    "PN-C36-04",
+    "PN-C36-05",
+    "PN-C36-06"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "PN-C37",
+   "title": "Undertreated hypothyroidism in an older adult",
+   "system": "Endocrine",
+   "discipline": "Adult Health",
+   "items": [
+    "PN-C37-01",
+    "PN-C37-02",
+    "PN-C37-03",
+    "PN-C37-04",
+    "PN-C37-05",
+    "PN-C37-06"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "PN-C38",
+   "title": "Complications after cataract surgery",
+   "system": "Sensory",
+   "discipline": "Adult Health",
+   "items": [
+    "PN-C38-01",
+    "PN-C38-02",
+    "PN-C38-03",
+    "PN-C38-04",
+    "PN-C38-05",
+    "PN-C38-06"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "PN-C39",
+   "title": "Comfort care at the end of life in long-term care",
+   "system": "Integrated",
+   "discipline": "Fundamentals",
+   "items": [
+    "PN-C39-01",
+    "PN-C39-02",
+    "PN-C39-03",
+    "PN-C39-04",
+    "PN-C39-05",
+    "PN-C39-06"
+   ],
+   "needs_review": false
+  },
+  {
+   "case_id": "PN-C40",
+   "title": "Chest pain in a long-term care resident",
+   "system": "Cardiovascular",
+   "discipline": "Management of Care",
+   "items": [
+    "PN-C40-01",
+    "PN-C40-02",
+    "PN-C40-03",
+    "PN-C40-04",
+    "PN-C40-05",
+    "PN-C40-06"
+   ],
+   "needs_review": false
   }
  ]
 }
