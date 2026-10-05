@@ -2,16 +2,23 @@
 
 Planned work that is agreed but not yet built.
 
-## Exam simulation samples by NCSBN test plan weights
+## Adaptive practice (home page: "Coming soon")
 
-The simulated exam ("Exam Simulation" on the home page) must draw items by the 2023 NCSBN test plan
-weights for the student's track, so an exam's composition matches the NCLEX regardless of how the
-bank itself is distributed. The bank only guarantees that every client-need category reaches the
-low end of its range; some categories (for example RN Physiological Adaptation and PN Safety and
-Infection Control) hold well above their share.
+Builds on the exam simulator's attempt data (`exam_session_items` keeps every response, score,
+max score, time spent and presentation time per item).
 
-- Weights per track and client need: `NEED_TARGETS` and `CLIENT_NEEDS` in
-  `scripts/bank/revisions.mjs` (RN uses Management of Care; PN uses Coordinated Care).
-- Sample each category in proportion to its weight (for example the midpoint of the range,
-  normalized to the exam length), not in proportion to bank counts.
-- Keep NGN case-study items together as whole cases when they are sampled.
+- Item statistics: per-item difficulty (mean `score`) and discrimination (point-biserial against
+  the exam total) from finished exams, with a minimum attempt count before an item's numbers are used.
+- Student ability estimate per client need from practice and exam attempts, and item selection that
+  targets the student's weakest needs while keeping test plan proportions.
+- Computerized adaptive testing (variable length, stop rules) needs calibrated items first; the
+  fixed-form exam simulator should stay as it is until then.
+- Exam items remain readable with keys through the `questions` table because practice needs it.
+  If adaptive mode or exams must withhold keys more strictly, practice reveal should move behind a
+  server route and the `questions_read_visible` policy should drop the key columns.
+
+## Done
+
+- Exam simulation samples by NCSBN test plan weights: built as the exam simulator (`/exam`,
+  `lib/exam/`, migration `0097_exam_simulator_v2.sql`). Full form 85 items (3 cases), short form
+  40 items (1 case), each client need within 2 of its blueprint target.
