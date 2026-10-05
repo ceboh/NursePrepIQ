@@ -12,7 +12,8 @@ export default function CaseStudyPanel({ caseStudy, step, total, judgmentStep }:
   return (
     <div className="mt-5 rounded-2xl border-2 border-cyan-200 bg-cyan-50 p-5">
       <div className="flex flex-wrap items-center justify-between gap-2">
-        <h2 className="font-black text-[var(--deep-navy)]">📋 Case study: {caseStudy.title}, Question {step} of {total}</h2>
+        {/* An empty title (exam mode) hides case titles, which can name the condition being tested. */}
+        <h2 className="font-black text-[var(--deep-navy)]">📋 Case study{caseStudy.title ? `: ${caseStudy.title}` : ''}, Question {step} of {total}</h2>
         {judgmentStep && <span className="rounded-full bg-white px-3 py-1 text-xs font-black text-[var(--teal)]">{judgmentStep}</span>}
       </div>
       <ol className="mt-3 flex gap-1" aria-label={`Case progress: step ${step} of ${total}`}>
